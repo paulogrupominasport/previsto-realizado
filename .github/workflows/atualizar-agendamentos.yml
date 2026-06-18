@@ -1,0 +1,47 @@
+name: Atualizar Agendamentos
+
+# Dispara quando o Power Automate comita um PDF novo em dados/Generico.pdf.
+# O commit gerado por este workflow (dados.json / historico.json) NÃO está
+# no caminho observado, então não dispara o workflow de novo (sem loop).
+on:
+  push:
+    paths:
+      - 'dados/Generico.pdf'
+  workflow_dispatch:        # permite rodar manualmente pelo botão "Run workflow"
+
+permissions:
+  contents: write
+
+concurrency:                # se chegarem 2 PDFs juntos, processa em ordem
+  group: atualizar-agendamentos
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v5
+
+      - name: Preparar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependências
+        run: pip install pdfplumber
+
+      - name: Gerar dados a partir do PDF
+        run: python gerar_dados.py dados/Generico.pdf
+
+      - name: Commitar dados.json e historico.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dados.json historico.json
+          if git diff --staged --quiet; then
+            echo "Nada mudou — nada a commitar."
+          else
+            git commit -m "Atualiza agendamentos ($(date -u +%Y-%m-%dT%H:%M:%SZ)) [skip ci]"
+            git push
+          fi
