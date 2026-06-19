@@ -112,6 +112,7 @@ def extrair_lotes(caminho_pdf):
     """
     lotes = []
     data_relatorio = ""
+    gerado_em = ""        # horário em que o PDF foi gerado (carimbo do relatório)
     lote_atual = ""
     atual = {"ref": None}  # usa dict como "ponteiro" para fechar de dentro
 
@@ -128,6 +129,13 @@ def extrair_lotes(caminho_pdf):
         atual["ref"] = None
 
     with pdfplumber.open(caminho_pdf) as pdf:
+        # horário de geração: metadados CreationDate (D:AAAAMMDDHHMMSS-03'00')
+        cd = pdf.metadata.get("CreationDate", "") or ""
+        mc = re.search(r"D:(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})", cd)
+        if mc:
+            y, mo, d, h, mi, s = mc.groups()
+            gerado_em = f"{y}-{mo}-{d}T{h}:{mi}:{s}"
+
         secao2_iniciada = False
         for page in pdf.pages:
             if secao2_iniciada:
@@ -138,6 +146,17 @@ def extrair_lotes(caminho_pdf):
                 md = re.search(r"\b(\d{2}/\d{2}/\d{4})\b", texto)
                 if md:
                     data_relatorio = md.group(1)
+
+            # fallback do horário: hora HH:MM:SS do rodapé + data do relatório
+            if not gerado_em and data_relatorio:
+                mh = re.search(r"\b(\d{1,2}:\d{2}:\d{2})\b", texto)
+                if mh:
+                    try:
+                        dt = datetime.strptime(data_relatorio + " " + mh.group(1),
+                                               "%d/%m/%Y %H:%M:%S")
+                        gerado_em = dt.strftime("%Y-%m-%dT%H:%M:%S")
+                    except ValueError:
+                        pass
 
             # posição vertical do marcador da seção 2 (se existir nesta página)
             corte_y = None
@@ -192,7 +211,7 @@ def extrair_lotes(caminho_pdf):
 
         fechar_lote()  # fecha o último lote, se sobrou algum aberto
 
-    return lotes, data_relatorio
+    return lotes, data_relatorio, gerado_em
 
 
 # ---------- agregações ----------
@@ -217,7 +236,7 @@ def main():
         print(f"ERRO: PDF não encontrado em '{caminho}'")
         sys.exit(1)
 
-    lotes, data_rel = extrair_lotes(caminho)
+    lotes, data_rel, gerado_em = extrair_lotes(caminho)
     if not lotes:
         print("AVISO: nenhum lote extraído. PDF mudou de layout? Abortando para não apagar dados bons.")
         sys.exit(1)
@@ -235,7 +254,8 @@ def main():
     agora = datetime.now()
     dados = {
         "data_relatorio": data_rel,
-        "atualizado_em": agora.strftime("%Y-%m-%dT%H:%M:%S"),
+        "gerado_em": gerado_em,                               # horário do PDF (carimbo do relatório)
+        "atualizado_em": agora.strftime("%Y-%m-%dT%H:%M:%S"), # horário em que a Action processou
         "totais": totais,
         "por_cliente": por_cliente,
         "por_produto": por_produto,
@@ -260,6 +280,7 @@ def main():
                 historico = {}
 
         historico[data_iso] = {
+            "gerado_em": gerado_em,
             "atualizado_em": dados["atualizado_em"],
             "totais": totais,
             "por_cliente": {c["cliente"]: {"prog": c["prog"], "carr": c["carr"],
