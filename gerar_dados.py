@@ -66,6 +66,8 @@ def normaliza_produto(seg):
         return "COQUE"
     if "CARVAO" in s:
         return "CARVÃO"
+    if "PETROLEO" in s:
+        return "PETRÓLEO"
     if "BLEND" in s:
         return "BLEND"
     if "GUSA" in s:
@@ -93,9 +95,38 @@ def parse_transportadora(cel):
 
 
 # ---------- parsing do PDF ----------
+def eh_linha_total(cells):
+    """True se a linha é subtotal/total (*Total do Lote, *Total Operação,
+    TOTAL GERAL/CARREGAMENTO/DESCARGA) — em qualquer das 3 primeiras colunas."""
+    txt = sem_acento(" ".join(cells[:3]))
+    return ("*TOTAL" in txt or "TOTAL GERAL" in txt
+            or "TOTAL CARREGAMENTO" in txt or "TOTAL DESCARGA" in txt)
+
+
 def extrair_lotes(caminho_pdf):
+    """
+    Estado (lote em construção) PERSISTE entre páginas: assim um lote cujas
+    transportadoras e/ou subtotal caem em páginas diferentes é montado certo.
+    O total de cada lote é a SOMA das transportadoras (não depende da linha
+    '*Total do Lote', que serve só para fechar o lote).
+    """
     lotes = []
     data_relatorio = ""
+    lote_atual = ""
+    atual = {"ref": None}  # usa dict como "ponteiro" para fechar de dentro
+
+    def fechar_lote():
+        L = atual["ref"]
+        if L and L["transportadoras"]:
+            t = L["transportadoras"]
+            L["prog"] = sum(x["prog"] for x in t)
+            L["carr"] = sum(x["carr"] for x in t)
+            L["falta"] = sum(x["falta"] for x in t)
+            L["tn_prev"] = round(sum(x["tn_prev"] for x in t), 4)
+            L["tn_carr"] = round(sum(x["tn_carr"] for x in t), 4)
+            lotes.append(L)
+        atual["ref"] = None
+
     with pdfplumber.open(caminho_pdf) as pdf:
         secao2_iniciada = False
         for page in pdf.pages:
@@ -115,9 +146,6 @@ def extrair_lotes(caminho_pdf):
                     corte_y = w["top"]
                     break
 
-            lote_atual = ""
-            cli_atual = prod_atual = ""
-            atual = None  # dict do lote em construção
             for tb in page.find_tables():
                 for row in tb.rows:
                     # ignora linhas que estão na seção 2 (abaixo do marcador)
@@ -131,45 +159,38 @@ def extrair_lotes(caminho_pdf):
                     tipo, lote, transp = cells[0], cells[1], cells[2]
                     if tipo == "Tipo Operação":  # cabeçalho repetido
                         continue
-                    rotulo = transp.lower()
 
-                    # subtotal do lote = totais oficiais daquele lote
-                    if rotulo == "*total do lote":
-                        if atual:
-                            atual["prog"] = inteiro(cells[3])
-                            atual["carr"] = inteiro(cells[4])
-                            atual["falta"] = inteiro(cells[5])
-                            atual["tn_prev"] = num(cells[6])
-                            atual["tn_carr"] = num(cells[7])
-                            lotes.append(atual)
-                            atual = None
+                    # qualquer linha de total fecha o lote pendente e é ignorada
+                    if eh_linha_total(cells):
+                        fechar_lote()
                         continue
 
-                    if rotulo in ROTULOS_PULAR or "total" in tipo.lower():
-                        continue
-
-                    # início de um novo lote
+                    # início de um novo lote (fecha o anterior, se houver)
                     if lote and lote != lote_atual:
+                        fechar_lote()
                         lote_atual = lote
-                        cli_atual, prod_atual = cliente_produto(lote)
-                        atual = {
-                            "lote": lote, "cliente": cli_atual, "produto": prod_atual,
+                        cli, prod = cliente_produto(lote)
+                        atual["ref"] = {
+                            "lote": lote, "cliente": cli, "produto": prod,
                             "prog": 0, "carr": 0, "falta": 0,
                             "tn_prev": 0.0, "tn_carr": 0.0, "transportadoras": [],
                         }
 
-                    # linha de transportadora
-                    if atual and transp and rotulo not in ROTULOS_PULAR:
+                    # linha de transportadora (acumula no lote atual)
+                    if atual["ref"] and transp:
                         nome, cnpj = parse_transportadora(transp)
-                        atual["transportadoras"].append({
-                            "nome": nome, "cnpj": cnpj,
-                            "prog": inteiro(cells[3]), "carr": inteiro(cells[4]),
-                            "falta": inteiro(cells[5]),
-                            "tn_prev": num(cells[6]), "tn_carr": num(cells[7]),
-                        })
+                        if nome:
+                            atual["ref"]["transportadoras"].append({
+                                "nome": nome, "cnpj": cnpj,
+                                "prog": inteiro(cells[3]), "carr": inteiro(cells[4]),
+                                "falta": inteiro(cells[5]),
+                                "tn_prev": num(cells[6]), "tn_carr": num(cells[7]),
+                            })
 
             if corte_y is not None:
                 secao2_iniciada = True
+
+        fechar_lote()  # fecha o último lote, se sobrou algum aberto
 
     return lotes, data_relatorio
 
