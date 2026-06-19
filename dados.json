@@ -1,14 +1,22 @@
 {
   "data_relatorio": "19/06/2026",
-  "atualizado_em": "2026-06-19T18:20:27",
+  "atualizado_em": "2026-06-19T19:03:16",
   "totais": {
-    "prog": 68,
-    "carr": 46,
-    "falta": 22,
-    "tn_prev": 2474.56,
-    "tn_carr": 1642.51
+    "prog": 98,
+    "carr": 69,
+    "falta": 29,
+    "tn_prev": 3599.88,
+    "tn_carr": 2465.83
   },
   "por_cliente": [
+    {
+      "cliente": "BRASKEM",
+      "prog": 32,
+      "carr": 24,
+      "falta": 8,
+      "tn_prev": 1192.5,
+      "tn_carr": 860.5
+    },
     {
       "cliente": "CSN ARCOS",
       "prog": 23,
@@ -96,17 +104,17 @@
       "falta": 0,
       "tn_prev": 72.04,
       "tn_carr": 72.04
-    },
-    {
-      "cliente": "BRASKEM",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 67.18,
-      "tn_carr": 37.18
     }
   ],
   "por_produto": [
+    {
+      "produto": "TÉRMICO",
+      "prog": 51,
+      "carr": 35,
+      "falta": 16,
+      "tn_prev": 1805.2,
+      "tn_carr": 1189.15
+    },
     {
       "produto": "PETCOKE",
       "prog": 45,
@@ -116,15 +124,7 @@
       "tn_carr": 1229.66
     },
     {
-      "produto": "TÉRMICO",
-      "prog": 21,
-      "carr": 12,
-      "falta": 9,
-      "tn_prev": 679.88,
-      "tn_carr": 365.83
-    },
-    {
-      "produto": "Petroleo",
+      "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 1,
       "falta": 1,
@@ -133,6 +133,63 @@
     }
   ],
   "lotes": [
+    {
+      "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BRASKEM",
+      "produto": "TÉRMICO",
+      "prog": 30,
+      "carr": 23,
+      "falta": 7,
+      "tn_prev": 1125.32,
+      "tn_carr": 823.32,
+      "transportadoras": [
+        {
+          "nome": "SIDEROPOLIS (SC)",
+          "cnpj": "11720812000128",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 63.27,
+          "tn_carr": 33.27
+        },
+        {
+          "nome": "ROTA 101 (SC)",
+          "cnpj": "21269148000287",
+          "prog": 7,
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 222.55,
+          "tn_carr": 222.55
+        },
+        {
+          "nome": "LUAN DE SOUZA BONFANTE (SC)",
+          "cnpj": "21430615000128",
+          "prog": 3,
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 112.64,
+          "tn_carr": 112.64
+        },
+        {
+          "nome": "FRATELLI (SC)",
+          "cnpj": "10989401000170",
+          "prog": 11,
+          "carr": 5,
+          "falta": 6,
+          "tn_prev": 494.04,
+          "tn_carr": 222.04
+        },
+        {
+          "nome": "CANEVER (SC)",
+          "cnpj": "42029409000180",
+          "prog": 7,
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 232.82,
+          "tn_carr": 232.82
+        }
+      ]
+    },
     {
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "CSN ARCOS",
@@ -412,7 +469,7 @@
     {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
-      "produto": "Petroleo",
+      "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 1,
       "falta": 1,
