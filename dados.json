@@ -1,12 +1,12 @@
 {
   "data_relatorio": "22/06/2026",
-  "gerado_em": "2026-06-22T12:00:12",
-  "atualizado_em": "2026-06-22T15:05:29",
+  "gerado_em": "2026-06-22T13:00:18",
+  "atualizado_em": "2026-06-22T16:05:34",
   "totais": {
-    "prog": 69,
+    "prog": 71,
     "carr": 23,
-    "falta": 46,
-    "tn_prev": 2551.14,
+    "falta": 48,
+    "tn_prev": 2639.14,
     "tn_carr": 791.08
   },
   "por_cliente": [
@@ -20,10 +20,10 @@
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 13,
+      "prog": 14,
       "carr": 3,
-      "falta": 10,
-      "tn_prev": 480.89,
+      "falta": 11,
+      "tn_prev": 518.89,
       "tn_carr": 115.89
     },
     {
@@ -59,6 +59,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "SUPREMO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 122.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "BELLUNO",
       "prog": 4,
       "carr": 3,
@@ -72,14 +80,6 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "SUPREMO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 72.0,
       "tn_carr": 0.0
     },
     {
@@ -118,10 +118,10 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 23,
+      "prog": 25,
       "carr": 3,
-      "falta": 20,
-      "tn_prev": 834.89,
+      "falta": 22,
+      "tn_prev": 922.89,
       "tn_carr": 115.89
     },
     {
@@ -194,10 +194,10 @@
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 13,
+      "prog": 14,
       "carr": 3,
-      "falta": 10,
-      "tn_prev": 480.89,
+      "falta": 11,
+      "tn_prev": 518.89,
       "tn_carr": 115.89,
       "transportadoras": [
         {
@@ -212,10 +212,10 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 4,
+          "prog": 5,
           "carr": 1,
-          "falta": 3,
-          "tn_prev": 153.93,
+          "falta": 4,
+          "tn_prev": 191.93,
           "tn_carr": 39.93
         }
       ]
@@ -332,6 +332,36 @@
       ]
     },
     {
+      "lote": "SUPREMO - PETCOKE - SPAR CORONA - PILHA 17",
+      "cliente": "SUPREMO",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 122.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "WJ TRANSPORTES (SC)",
+          "cnpj": "08533312000334",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 50.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODOTISTA (SC)",
+          "cnpj": "02968651000286",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 72.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
@@ -369,27 +399,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 100.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "SUPREMO - PETCOKE - SPAR CORONA - PILHA 17",
-      "cliente": "SUPREMO",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 72.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOTISTA (SC)",
-          "cnpj": "02968651000286",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 72.0,
           "tn_carr": 0.0
         }
       ]
