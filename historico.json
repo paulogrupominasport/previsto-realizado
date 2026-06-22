@@ -284,14 +284,14 @@
     }
   },
   "2026-06-22": {
-    "gerado_em": "2026-06-22T09:00:19",
-    "atualizado_em": "2026-06-22T12:05:28",
+    "gerado_em": "2026-06-22T10:00:13",
+    "atualizado_em": "2026-06-22T13:05:27",
     "totais": {
-      "prog": 44,
-      "carr": 10,
-      "falta": 34,
-      "tn_prev": 1638.31,
-      "tn_carr": 349.44
+      "prog": 54,
+      "carr": 12,
+      "falta": 42,
+      "tn_prev": 2017.31,
+      "tn_carr": 411.42
     },
     "por_cliente": {
       "BRASKEM": {
@@ -301,9 +301,9 @@
         "tn_carr": 246.96
       },
       "CSN ARCOS": {
-        "prog": 9,
+        "prog": 12,
         "carr": 0,
-        "tn_prev": 333.0,
+        "tn_prev": 438.0,
         "tn_carr": 0.0
       },
       "ITAMBÉ": {
@@ -312,23 +312,41 @@
         "tn_prev": 180.0,
         "tn_carr": 0.0
       },
+      "CIM. LIZ": {
+        "prog": 3,
+        "carr": 1,
+        "tn_prev": 146.31,
+        "tn_carr": 49.31
+      },
+      "RIO DESERTO": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 129.0,
+        "tn_carr": 0.0
+      },
       "PETRORECONCAVO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 100.0,
         "tn_carr": 0.0
       },
-      "RIO DESERTO": {
-        "prog": 3,
+      "METROPOLITANA": {
+        "prog": 2,
         "carr": 0,
-        "tn_prev": 99.0,
+        "tn_prev": 80.0,
+        "tn_carr": 0.0
+      },
+      "SUPREMO": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 72.0,
         "tn_carr": 0.0
       },
       "BELLUNO": {
         "prog": 2,
-        "carr": 0,
+        "carr": 2,
         "tn_prev": 60.0,
-        "tn_carr": 0.0
+        "tn_carr": 61.98
       },
       "GABRIELLA": {
         "prog": 2,
@@ -336,43 +354,37 @@
         "tn_prev": 50.0,
         "tn_carr": 53.17
       },
-      "CIM. LIZ": {
-        "prog": 1,
-        "carr": 1,
-        "tn_prev": 49.31,
-        "tn_carr": 49.31
-      },
-      "SUPREMO": {
+      "BELOCAL MTZ": {
         "prog": 1,
         "carr": 0,
-        "tn_prev": 38.0,
+        "tn_prev": 33.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
       "TÉRMICO": {
-        "prog": 26,
-        "carr": 9,
-        "tn_prev": 938.0,
-        "tn_carr": 300.13
+        "prog": 29,
+        "carr": 11,
+        "tn_prev": 1048.0,
+        "tn_carr": 362.11
       },
       "PETCOKE": {
-        "prog": 15,
+        "prog": 20,
         "carr": 0,
-        "tn_prev": 551.0,
+        "tn_prev": 723.0,
         "tn_carr": 0.0
+      },
+      "CARVÃO": {
+        "prog": 3,
+        "carr": 1,
+        "tn_prev": 146.31,
+        "tn_carr": 49.31
       },
       "PETRÓLEO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 100.0,
         "tn_carr": 0.0
-      },
-      "CARVÃO": {
-        "prog": 1,
-        "carr": 1,
-        "tn_prev": 49.31,
-        "tn_carr": 49.31
       }
     }
   },

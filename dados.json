@@ -1,13 +1,13 @@
 {
   "data_relatorio": "22/06/2026",
-  "gerado_em": "2026-06-22T09:00:19",
-  "atualizado_em": "2026-06-22T12:05:28",
+  "gerado_em": "2026-06-22T10:00:13",
+  "atualizado_em": "2026-06-22T13:05:27",
   "totais": {
-    "prog": 44,
-    "carr": 10,
-    "falta": 34,
-    "tn_prev": 1638.31,
-    "tn_carr": 349.44
+    "prog": 54,
+    "carr": 12,
+    "falta": 42,
+    "tn_prev": 2017.31,
+    "tn_carr": 411.42
   },
   "por_cliente": [
     {
@@ -20,10 +20,10 @@
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 9,
+      "prog": 12,
       "carr": 0,
-      "falta": 9,
-      "tn_prev": 333.0,
+      "falta": 12,
+      "tn_prev": 438.0,
       "tn_carr": 0.0
     },
     {
@@ -35,6 +35,22 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM. LIZ",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 146.31,
+      "tn_carr": 49.31
+    },
+    {
+      "cliente": "RIO DESERTO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 129.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
@@ -43,20 +59,28 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "RIO DESERTO",
-      "prog": 3,
+      "cliente": "METROPOLITANA",
+      "prog": 2,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 99.0,
+      "falta": 2,
+      "tn_prev": 80.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 72.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "BELLUNO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 60.0,
-      "tn_carr": 0.0
+      "tn_carr": 61.98
     },
     {
       "cliente": "GABRIELLA",
@@ -67,38 +91,38 @@
       "tn_carr": 53.17
     },
     {
-      "cliente": "CIM. LIZ",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 49.31,
-      "tn_carr": 49.31
-    },
-    {
-      "cliente": "SUPREMO",
+      "cliente": "BELOCAL MTZ",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 38.0,
+      "tn_prev": 33.0,
       "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 26,
-      "carr": 9,
-      "falta": 17,
-      "tn_prev": 938.0,
-      "tn_carr": 300.13
+      "prog": 29,
+      "carr": 11,
+      "falta": 18,
+      "tn_prev": 1048.0,
+      "tn_carr": 362.11
     },
     {
       "produto": "PETCOKE",
-      "prog": 15,
+      "prog": 20,
       "carr": 0,
-      "falta": 15,
-      "tn_prev": 551.0,
+      "falta": 20,
+      "tn_prev": 723.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 146.31,
+      "tn_carr": 49.31
     },
     {
       "produto": "PETRÓLEO",
@@ -107,14 +131,6 @@
       "falta": 2,
       "tn_prev": 100.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 49.31,
-      "tn_carr": 49.31
     }
   ],
   "lotes": [
@@ -170,28 +186,28 @@
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 9,
+      "prog": 12,
       "carr": 0,
-      "falta": 9,
-      "tn_prev": 333.0,
+      "falta": 12,
+      "tn_prev": 438.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 6,
+          "prog": 8,
           "carr": 0,
-          "falta": 6,
-          "tn_prev": 222.0,
+          "falta": 8,
+          "tn_prev": 289.0,
           "tn_carr": 0.0
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 3,
+          "prog": 4,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 111.0,
+          "falta": 4,
+          "tn_prev": 149.0,
           "tn_carr": 0.0
         }
       ]
@@ -218,23 +234,23 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 1,
       "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "tn_prev": 146.31,
+      "tn_carr": 49.31,
       "transportadoras": [
         {
-          "nome": "MINAS TRADING (MG)",
-          "cnpj": "05456420000109",
-          "prog": 2,
-          "carr": 0,
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 1,
           "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "tn_prev": 146.31,
+          "tn_carr": 49.31
         }
       ]
     },
@@ -242,12 +258,21 @@
       "lote": "RIO DESERTO - TÉRMICO YCRT - IRVINE BAY - SUL NORTE",
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 99.0,
+      "falta": 4,
+      "tn_prev": 129.0,
       "tn_carr": 0.0,
       "transportadoras": [
+        {
+          "nome": "TRANSPORTES VILA SAO JORGE LTDA",
+          "cnpj": "23985600000151",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 30.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
@@ -269,23 +294,86 @@
       ]
     },
     {
-      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BELLUNO",
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 100.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (MG)",
+          "cnpj": "05456420000109",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 100.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "METROPOLITANA - TÉRMICO YCRT - IRVINE BAY - SUL NORTE",
+      "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 60.0,
+      "tn_prev": 80.0,
       "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MR LOG (SC)",
+          "cnpj": "58324544000199",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 80.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - PETCOKE - SPAR CORONA - PILHA 17",
+      "cliente": "SUPREMO",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 72.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOTISTA (SC)",
+          "cnpj": "02968651000286",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 72.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BELLUNO",
+      "produto": "TÉRMICO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 60.0,
+      "tn_carr": 61.98,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 60.0,
-          "tn_carr": 0.0
+          "tn_carr": 61.98
         }
       ]
     },
@@ -311,43 +399,22 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 49.31,
-      "tn_carr": 49.31,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 49.31,
-          "tn_carr": 49.31
-        }
-      ]
-    },
-    {
-      "lote": "SUPREMO - PETCOKE - SPAR CORONA - PILHA 17",
-      "cliente": "SUPREMO",
+      "lote": "BELOCAL MTZ - PETCOKE - TMULT - FYM CRYSTAL",
+      "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 38.0,
+      "tn_prev": 33.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "RODOTISTA (SC)",
-          "cnpj": "02968651000286",
+          "nome": "TRANSFAL (RJ)",
+          "cnpj": "22635197000330",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 38.0,
+          "tn_prev": 33.0,
           "tn_carr": 0.0
         }
       ]
