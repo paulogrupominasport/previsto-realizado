@@ -1,29 +1,29 @@
 {
   "data_relatorio": "23/06/2026",
-  "gerado_em": "2026-06-23T17:00:16",
-  "atualizado_em": "2026-06-23T20:05:30",
+  "gerado_em": "2026-06-23T18:00:07",
+  "atualizado_em": "2026-06-23T21:05:26",
   "totais": {
-    "prog": 97,
-    "carr": 81,
-    "falta": 16,
-    "tn_prev": 3542.27,
-    "tn_carr": 2966.58
+    "prog": 94,
+    "carr": 84,
+    "falta": 10,
+    "tn_prev": 3451.05,
+    "tn_carr": 3068.36
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
-      "prog": 20,
+      "prog": 18,
       "carr": 14,
-      "falta": 6,
-      "tn_prev": 753.68,
+      "falta": 4,
+      "tn_prev": 689.68,
       "tn_carr": 515.33
     },
     {
       "cliente": "RIO DESERTO",
-      "prog": 15,
+      "prog": 14,
       "carr": 14,
-      "falta": 1,
-      "tn_prev": 514.02,
+      "falta": 0,
+      "tn_prev": 484.02,
       "tn_carr": 484.02
     },
     {
@@ -61,10 +61,10 @@
     {
       "cliente": "LS METAIS",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 231.36,
-      "tn_carr": 33.36
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 234.14,
+      "tn_carr": 135.14
     },
     {
       "cliente": "CIM. LIZ",
@@ -110,19 +110,19 @@
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 49,
+      "prog": 46,
       "carr": 42,
-      "falta": 7,
-      "tn_prev": 1691.05,
+      "falta": 4,
+      "tn_prev": 1597.05,
       "tn_carr": 1419.36
     },
     {
       "produto": "PETCOKE",
       "prog": 41,
-      "carr": 32,
-      "falta": 9,
-      "tn_prev": 1526.46,
-      "tn_carr": 1222.46
+      "carr": 35,
+      "falta": 6,
+      "tn_prev": 1529.24,
+      "tn_carr": 1324.24
     },
     {
       "produto": "CARVÃO",
@@ -146,10 +146,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 19,
+      "prog": 17,
       "carr": 13,
-      "falta": 6,
-      "tn_prev": 741.68,
+      "falta": 4,
+      "tn_prev": 677.68,
       "tn_carr": 486.95,
       "transportadoras": [
         {
@@ -200,10 +200,10 @@
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
-          "prog": 5,
+          "prog": 3,
           "carr": 3,
-          "falta": 2,
-          "tn_prev": 177.0,
+          "falta": 0,
+          "tn_prev": 113.0,
           "tn_carr": 109.66
         }
       ]
@@ -212,19 +212,19 @@
       "lote": "RIO DESERTO - TÉRMICO YCRT - IRVINE BAY - SUL NORTE",
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
-      "prog": 15,
+      "prog": 14,
       "carr": 14,
-      "falta": 1,
-      "tn_prev": 514.021,
+      "falta": 0,
+      "tn_prev": 484.021,
       "tn_carr": 484.021,
       "transportadoras": [
         {
           "nome": "TRANSPORTES VILA SAO JORGE LTDA",
           "cnpj": "23985600000151",
-          "prog": 5,
+          "prog": 4,
           "carr": 4,
-          "falta": 1,
-          "tn_prev": 147.111,
+          "falta": 0,
+          "tn_prev": 117.111,
           "tn_carr": 117.111
         },
         {
@@ -417,19 +417,19 @@
       "cliente": "LS METAIS",
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 231.36,
-      "tn_carr": 33.36,
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 234.14,
+      "tn_carr": 135.14,
       "transportadoras": [
         {
           "nome": "TRANSFAL (RJ)",
           "cnpj": "22635197000330",
           "prog": 7,
-          "carr": 1,
-          "falta": 6,
-          "tn_prev": 231.36,
-          "tn_carr": 33.36
+          "carr": 4,
+          "falta": 3,
+          "tn_prev": 234.14,
+          "tn_carr": 135.14
         }
       ]
     },
