@@ -1,13 +1,13 @@
 {
   "data_relatorio": "23/06/2026",
-  "gerado_em": "2026-06-23T12:00:12",
-  "atualizado_em": "2026-06-23T15:05:33",
+  "gerado_em": "2026-06-23T13:00:18",
+  "atualizado_em": "2026-06-23T16:05:30",
   "totais": {
-    "prog": 83,
-    "carr": 39,
-    "falta": 44,
-    "tn_prev": 3071.72,
-    "tn_carr": 1436.89
+    "prog": 85,
+    "carr": 44,
+    "falta": 41,
+    "tn_prev": 3146.46,
+    "tn_carr": 1625.63
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "RIO DESERTO",
       "prog": 15,
-      "carr": 6,
-      "falta": 9,
-      "tn_prev": 523.89,
-      "tn_carr": 202.89
+      "carr": 11,
+      "falta": 4,
+      "tn_prev": 515.63,
+      "tn_carr": 391.63
     },
     {
       "cliente": "BELOCAL SJDL",
@@ -36,10 +36,10 @@
     },
     {
       "cliente": "*CSN ARCOS",
-      "prog": 9,
+      "prog": 10,
       "carr": 3,
-      "falta": 6,
-      "tn_prev": 331.03,
+      "falta": 7,
+      "tn_prev": 366.03,
       "tn_carr": 119.03
     },
     {
@@ -59,20 +59,20 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM. LIZ",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 228.96,
+      "tn_carr": 142.96
+    },
+    {
       "cliente": "BELLUNO",
       "prog": 6,
       "carr": 4,
       "falta": 2,
       "tn_prev": 182.55,
       "tn_carr": 125.33
-    },
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 180.96,
-      "tn_carr": 142.96
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -103,25 +103,25 @@
     {
       "produto": "TÉRMICO",
       "prog": 44,
-      "carr": 20,
-      "falta": 24,
-      "tn_prev": 1536.92,
-      "tn_carr": 654.09
+      "carr": 25,
+      "falta": 19,
+      "tn_prev": 1528.66,
+      "tn_carr": 842.83
     },
     {
       "produto": "PETCOKE",
-      "prog": 33,
+      "prog": 34,
       "carr": 16,
-      "falta": 17,
-      "tn_prev": 1253.84,
+      "falta": 18,
+      "tn_prev": 1288.84,
       "tn_carr": 639.84
     },
     {
       "produto": "CARVÃO",
-      "prog": 4,
+      "prog": 5,
       "carr": 3,
-      "falta": 1,
-      "tn_prev": 180.96,
+      "falta": 2,
+      "tn_prev": 228.96,
       "tn_carr": 142.96
     },
     {
@@ -196,10 +196,10 @@
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
       "prog": 15,
-      "carr": 6,
-      "falta": 9,
-      "tn_prev": 523.89,
-      "tn_carr": 202.89,
+      "carr": 11,
+      "falta": 4,
+      "tn_prev": 515.63,
+      "tn_carr": 391.63,
       "transportadoras": [
         {
           "nome": "TRANSPORTES VILA SAO JORGE LTDA",
@@ -214,19 +214,19 @@
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 162.57,
-          "tn_carr": 78.57
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 160.05,
+          "tn_carr": 160.05
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
           "prog": 6,
-          "carr": 2,
-          "falta": 4,
-          "tn_prev": 213.3,
-          "tn_carr": 66.3
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 207.56,
+          "tn_carr": 173.56
         }
       ]
     },
@@ -291,19 +291,19 @@
       "lote": "*CSN ARCOS - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "*CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 9,
+      "prog": 10,
       "carr": 3,
-      "falta": 6,
-      "tn_prev": 331.03,
+      "falta": 7,
+      "tn_prev": 366.03,
       "tn_carr": 119.03,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 8,
+          "prog": 9,
           "carr": 3,
-          "falta": 5,
-          "tn_prev": 293.03,
+          "falta": 6,
+          "tn_prev": 328.03,
           "tn_carr": 119.03
         },
         {
@@ -396,6 +396,36 @@
       ]
     },
     {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 228.96,
+      "tn_carr": 142.96,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 4,
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 190.96,
+          "tn_carr": 142.96
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
@@ -413,36 +443,6 @@
           "falta": 2,
           "tn_prev": 182.55,
           "tn_carr": 125.33
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 180.96,
-      "tn_carr": 142.96,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 142.96,
-          "tn_carr": 142.96
-        },
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
         }
       ]
     },
