@@ -61,6 +61,17 @@
   .row{display:flex;gap:20px;flex-wrap:wrap}
   .row>.card{flex:1;min-width:320px}
 
+  /* Barra de data (Visão geral) */
+  .datebar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:18px;
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 16px}
+  .datebar label{font-size:.74rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;font-weight:600}
+  .datebar select{background:var(--bg2);border:1px solid var(--line);color:var(--txt);
+    padding:7px 12px;border-radius:9px;font-size:.9rem;font-weight:600;cursor:pointer}
+  .datebar select:hover{border-color:var(--green)}
+  .datebar-info{font-size:.8rem;color:var(--muted)}
+  .datebar-info b{color:var(--txt)}
+  .datebar-info .warn{color:var(--falta)}
+
   .seg{display:inline-flex;background:var(--bg2);border:1px solid var(--line);border-radius:9px;padding:3px;gap:2px;margin-bottom:14px}
   .seg button{background:none;border:none;color:var(--muted);padding:6px 14px;border-radius:7px;cursor:pointer;font-size:.83rem;font-weight:600;transition:.15s}
   .seg button.active{background:var(--green);color:#10130a}
@@ -100,13 +111,36 @@
     body{padding:0;background:var(--bg)}
     header{position:static;box-shadow:none}
     .tabs,.hactions,.seg{display:none!important}
+    #geral-datebar label,#geral-datebar select{display:none!important}
+    #geral-datebar{padding:8px 0;border:none;background:transparent;margin-bottom:8px}
     .wrap{max-width:100%;padding:0 8px}
+
     /* no modo exportação, mostra as DUAS abas, uma após a outra */
     body.exportando #view-geral,
     body.exportando #view-historico{display:block!important}
-    body.exportando #view-historico{margin-top:14px;break-before:page}
-    .card,.kpi{break-inside:avoid}
-    .chart-box,.chart-box.tall{height:360px;margin-bottom:18px}
+    body.exportando #view-historico{margin-top:0;break-before:page}
+
+    /* revela TODO o detalhamento (transportadoras) no PDF */
+    body.exportando .expand-row,
+    body.exportando .expand-row.hide{display:table-row!important}
+    body.exportando .sub-tbl{padding:6px 12px 12px 20px}
+
+    /* impede cortes */
+    .kpis,.kpi{break-inside:avoid;page-break-inside:avoid}
+    .chart-box,.chart-box.tall{height:340px;margin-bottom:16px;break-inside:avoid;page-break-inside:avoid}
+    .card{break-inside:auto}                 /* tabela longa pode quebrar entre páginas */
+    .card h2{break-after:avoid}
+    table{break-inside:auto;font-size:.74rem}
+    th,td{padding:6px 7px}
+    thead{display:table-header-group}        /* repete o cabeçalho a cada página */
+    tr{break-inside:avoid;page-break-inside:avoid}   /* nunca corta uma linha no meio */
+    .sub-tbl table{font-size:.7rem}
+
+    /* evita que colunas da direita sejam cortadas pelo overflow */
+    #view-geral .card>div[style*="overflow"]{overflow:visible!important}
+    /* esconde a barra de progresso (decorativa) p/ ganhar largura */
+    #tbl th:last-child,#tbl td:last-child{display:none}
+
     *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
     @page{margin:12mm}
   }
@@ -142,6 +176,12 @@
 
   <!-- ===================== VISÃO GERAL ===================== -->
   <section id="view-geral">
+    <div class="datebar" id="geral-datebar">
+      <label for="sel-data">Data</label>
+      <select id="sel-data"></select>
+      <span class="datebar-info" id="datebar-info"></span>
+    </div>
+
     <div class="kpis" id="kpis"></div>
 
     <div class="card">
@@ -219,12 +259,51 @@ const HIST_EMBUTIDO = {"2026-06-19": {"gerado_em": "2026-06-19T15:00:10", "atual
 let DADOS=null, HIST=null, dim='cliente', sortKey='tn_prev', sortDir=-1;
 let hdim='por_cliente', hper=15, hmet='tn_carr';
 let chPR=null, chHist=null;
+let dataSel=null;            // dia selecionado na Visão geral (YYYY-MM-DD)
 
 /* ---------- helpers ---------- */
 const fmtN = n => (n||0).toLocaleString('pt-BR',{minimumFractionDigits:0,maximumFractionDigits:0});
 const fmtT = n => (n||0).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1});
 const pct  = (c,p) => p>0 ? (c/p*100) : 0;
 const pctCls = v => v>=85?'hi':v>=50?'mid':'lo';
+const brToISO  = s => { const [d,m,y]=(s||'').split('/'); return y?`${y}-${m}-${d}`:''; };
+const isoToBR  = s => { const [y,m,d]=(s||'').split('-'); return d?`${d}/${m}/${y}`:(s||''); };
+
+/* dia mais recente disponível (tem detalhe completo no dados.json) */
+function ultimoDiaISO(){
+  const ds = new Set(Object.keys(HIST||{}));
+  if(DADOS && DADOS.data_relatorio) ds.add(brToISO(DADOS.data_relatorio));
+  return [...ds].filter(Boolean).sort().slice(-1)[0] || null;
+}
+
+/* converte um registro do histórico (objetos) p/ o formato da Visão geral (arrays) */
+function histParaView(h, iso){
+  const conv = obj => Object.entries(obj||{}).map(([nome,v])=>({
+    nome, cliente:nome, produto:nome,
+    prog:v.prog||0, carr:v.carr||0, falta:(v.prog||0)-(v.carr||0),
+    tn_prev:v.tn_prev||0, tn_carr:v.tn_carr||0
+  }));
+  return {
+    data_relatorio:isoToBR(iso), gerado_em:h.gerado_em, atualizado_em:h.atualizado_em,
+    totais:h.totais||{}, por_cliente:conv(h.por_cliente), por_produto:conv(h.por_produto), lotes:[]
+  };
+}
+
+/* dataset exibido na Visão geral conforme a data escolhida */
+function viewAtual(){
+  if(!dataSel || dataSel===ultimoDiaISO()) return DADOS||{};   // dia recente: detalhe completo
+  const h = HIST && HIST[dataSel];
+  return h ? histParaView(h, dataSel) : (DADOS||{});
+}
+
+/* carimbo (hora) da última atualização do dia escolhido */
+function carimboData(iso){
+  let ref;
+  if(iso===ultimoDiaISO()) ref = (DADOS||{}).gerado_em || (DADOS||{}).atualizado_em;
+  else { const h=(HIST||{})[iso]||{}; ref = h.gerado_em || h.atualizado_em; }
+  if(!ref) return '';
+  return new Date(ref).toLocaleString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+}
 
 async function buscar(url, fallback){
   try{
@@ -238,8 +317,53 @@ async function carregar(primeira){
   const [d,h] = await Promise.all([buscar(URL_DADOS,DADOS_EMBUTIDOS), buscar(URL_HIST,HIST_EMBUTIDO)]);
   DADOS=d; HIST=h||{};
   pintarHeader();
+  montarSeletorData();
   renderGeral();
   renderHist();
+}
+
+/* ---------- seletor de data (Visão geral) ---------- */
+function montarSeletorData(){
+  const sel = document.getElementById('sel-data');
+  const datas = new Set(Object.keys(HIST||{}));
+  if(DADOS && DADOS.data_relatorio) datas.add(brToISO(DADOS.data_relatorio));
+  const lista = [...datas].filter(Boolean).sort().reverse();   // mais recente primeiro
+  if(!dataSel || !datas.has(dataSel)) dataSel = lista[0] || null;
+  sel.innerHTML = lista.map(d=>`<option value="${d}"${d===dataSel?' selected':''}>${isoToBR(d)}</option>`).join('');
+  sel.disabled = lista.length<=1;
+  atualizarInfoData();
+  atualizarBotaoLote();
+}
+
+function atualizarInfoData(){
+  const info = document.getElementById('datebar-info');
+  const hora = carimboData(dataSel);
+  const recente = dataSel===ultimoDiaISO();
+  let txt = `Posição <b>${isoToBR(dataSel)}</b>`;
+  if(hora) txt += ` · última atualização <b>${hora}</b>`;
+  if(!recente) txt += ` · <span class="warn">detalhe por lote/transportadora indisponível neste dia</span>`;
+  info.innerHTML = txt;
+}
+
+/* habilita/desabilita o botão "Por lote" conforme houver detalhe no dia */
+function atualizarBotaoLote(){
+  const temLotes = (viewAtual().lotes||[]).length>0;
+  const btn = document.querySelector('#seg-dim button[data-dim="lote"]');
+  if(!btn) return;
+  btn.disabled = !temLotes;
+  btn.style.opacity = temLotes ? '' : '.4';
+  btn.style.cursor  = temLotes ? '' : 'not-allowed';
+  btn.title = temLotes ? '' : 'Disponível apenas no dia mais recente';
+  if(!temLotes && dim==='lote'){            // estava em "por lote" e mudou p/ um dia sem detalhe
+    dim='cliente'; sortKey='tn_prev'; sortDir=-1;
+    document.querySelectorAll('#seg-dim button').forEach(x=>x.classList.toggle('active',x.dataset.dim==='cliente'));
+  }
+}
+
+function aoMudarData(){
+  atualizarInfoData();
+  atualizarBotaoLote();
+  renderGeral();
 }
 
 function pintarHeader(){
@@ -255,7 +379,7 @@ function pintarHeader(){
 
 /* ---------- VISÃO GERAL ---------- */
 function renderGeral(){
-  const t = DADOS.totais||{};
+  const t = viewAtual().totais||{};
   const pv = pct(t.carr,t.prog), pt = pct(t.tn_carr,t.tn_prev);
   document.getElementById('kpis').innerHTML = `
     <div class="kpi prev"><div class="lbl">Veículos previstos</div><div class="val">${fmtN(t.prog)}</div><div class="sub">programados no dia</div></div>
@@ -270,9 +394,10 @@ function renderGeral(){
 function temChart(){ return typeof Chart !== 'undefined'; }
 
 function dadosDim(){
-  if(dim==='cliente') return (DADOS.por_cliente||[]).map(x=>({nome:x.cliente,...x}));
-  if(dim==='produto') return (DADOS.por_produto||[]).map(x=>({nome:x.produto,...x}));
-  return (DADOS.lotes||[]).map(x=>({nome:x.lote,...x}));
+  const V = viewAtual();
+  if(dim==='cliente') return (V.por_cliente||[]).map(x=>({nome:x.cliente,...x}));
+  if(dim==='produto') return (V.por_produto||[]).map(x=>({nome:x.produto,...x}));
+  return (V.lotes||[]).map(x=>({nome:x.lote,...x}));
 }
 
 function renderChartPR(){
@@ -297,6 +422,8 @@ function renderChartPR(){
 }
 
 function renderTabela(){
+  const V = viewAtual();
+  const temDetalhe = (V.lotes||[]).length>0;
   const arr = dadosDim().map(x=>({...x,pct:pct(x.tn_carr,x.tn_prev)}));
   arr.sort((a,b)=>{
     let A=a[sortKey],B=b[sortKey];
@@ -305,13 +432,15 @@ function renderTabela(){
   });
   const tb = document.getElementById('tbl-body'); tb.innerHTML='';
   const lotesPorChave = {};
-  if(dim!=='lote'){ (DADOS.lotes||[]).forEach(l=>{const k=dim==='cliente'?l.cliente:l.produto;(lotesPorChave[k]=lotesPorChave[k]||[]).push(l);}); }
-  document.getElementById('tbl-desc').textContent = dim==='lote'
-    ? 'Clique em um lote para ver as transportadoras.'
-    : 'Clique em um '+dim+' para ver os lotes e transportadoras.';
+  if(dim!=='lote'){ (V.lotes||[]).forEach(l=>{const k=dim==='cliente'?l.cliente:l.produto;(lotesPorChave[k]=lotesPorChave[k]||[]).push(l);}); }
+  document.getElementById('tbl-desc').textContent = !temDetalhe
+    ? 'Posição final do dia (sem detalhe por transportadora neste dia).'
+    : dim==='lote'
+      ? 'Clique em um lote para ver as transportadoras.'
+      : 'Clique em um '+dim+' para ver os lotes e transportadoras.';
 
   arr.forEach(x=>{
-    const tr=document.createElement('tr'); tr.className='parent';
+    const tr=document.createElement('tr'); if(temDetalhe) tr.className='parent';
     tr.innerHTML=`<td class="name">${x.nome}</td>
       <td>${fmtN(x.prog)}</td><td>${fmtN(x.carr)}</td>
       <td>${x.falta>0?'<span style="color:var(--falta)">'+fmtN(x.falta)+'</span>':'0'}</td>
@@ -319,6 +448,7 @@ function renderTabela(){
       <td><span class="pill ${pctCls(x.pct)}">${x.pct.toFixed(0)}%</span></td>
       <td><span class="bar"><span style="width:${Math.min(100,x.pct).toFixed(0)}%"></span></span></td>`;
     tb.appendChild(tr);
+    if(!temDetalhe) return;                  // dia histórico: linha simples, sem expandir
     const exp=document.createElement('tr'); exp.className='expand-row hide';
     const td=document.createElement('td'); td.colSpan=8;
     const cont=document.createElement('div'); cont.className='sub-tbl';
@@ -389,9 +519,11 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
   if(b.dataset.view==='historico') renderHist();
 });
 document.querySelectorAll('#seg-dim button').forEach(b=>b.onclick=()=>{
+  if(b.disabled) return;
   document.querySelectorAll('#seg-dim button').forEach(x=>x.classList.remove('active'));
   b.classList.add('active'); dim=b.dataset.dim; sortKey='tn_prev';sortDir=-1; renderChartPR(); renderTabela();
 });
+document.getElementById('sel-data').onchange = e=>{ dataSel = e.target.value; aoMudarData(); };
 document.querySelectorAll('#tbl th[data-sort]').forEach(th=>th.onclick=()=>{
   const k=th.dataset.sort; if(sortKey===k) sortDir*=-1; else{sortKey=k;sortDir=(k==='nome')?1:-1;} renderTabela();
 });
