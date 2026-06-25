@@ -1,22 +1,22 @@
 {
   "data_relatorio": "25/06/2026",
-  "gerado_em": "2026-06-25T12:00:17",
-  "atualizado_em": "2026-06-25T15:05:29",
+  "gerado_em": "2026-06-25T13:00:10",
+  "atualizado_em": "2026-06-25T16:05:26",
   "totais": {
-    "prog": 120,
-    "carr": 61,
+    "prog": 125,
+    "carr": 66,
     "falta": 59,
-    "tn_prev": 4360.39,
-    "tn_carr": 2140.51
+    "tn_prev": 4548.73,
+    "tn_carr": 2339.85
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 33,
-      "carr": 17,
-      "falta": 16,
-      "tn_prev": 1220.56,
-      "tn_carr": 625.56
+      "prog": 34,
+      "carr": 20,
+      "falta": 14,
+      "tn_prev": 1258.19,
+      "tn_carr": 737.19
     },
     {
       "cliente": "BRASKEM",
@@ -28,11 +28,11 @@
     },
     {
       "cliente": "*CSN ARCOS",
-      "prog": 15,
-      "carr": 6,
-      "falta": 9,
-      "tn_prev": 538.4,
-      "tn_carr": 219.4
+      "prog": 18,
+      "carr": 7,
+      "falta": 11,
+      "tn_prev": 652.41,
+      "tn_carr": 259.41
     },
     {
       "cliente": "RIO DESERTO",
@@ -59,20 +59,20 @@
       "tn_carr": 82.77
     },
     {
+      "cliente": "SUPREMO",
+      "prog": 4,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 162.7,
+      "tn_carr": 47.7
+    },
+    {
       "cliente": "LS METAIS",
       "prog": 4,
       "carr": 4,
       "falta": 0,
       "tn_prev": 145.71,
       "tn_carr": 145.71
-    },
-    {
-      "cliente": "SUPREMO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 126.0,
-      "tn_carr": 0.0
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -110,11 +110,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 63,
-      "carr": 31,
+      "prog": 68,
+      "carr": 36,
       "falta": 32,
-      "tn_prev": 2340.63,
-      "tn_carr": 1142.63
+      "tn_prev": 2528.97,
+      "tn_carr": 1341.97
     },
     {
       "produto": "TÉRMICO",
@@ -146,29 +146,29 @@
       "lote": "ITAMBÉ - PETCOKE - SPAR CORONA - PILHA 17",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 33,
-      "carr": 17,
-      "falta": 16,
-      "tn_prev": 1220.56,
-      "tn_carr": 625.56,
+      "prog": 34,
+      "carr": 20,
+      "falta": 14,
+      "tn_prev": 1258.19,
+      "tn_carr": 737.19,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 12,
+          "prog": 13,
           "carr": 7,
-          "falta": 5,
-          "tn_prev": 443.38,
+          "falta": 6,
+          "tn_prev": 481.38,
           "tn_carr": 256.38
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 152.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 151.39,
+          "tn_carr": 37.39
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -183,10 +183,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 14,
-          "carr": 8,
-          "falta": 6,
-          "tn_prev": 515.51,
-          "tn_carr": 294.51
+          "carr": 10,
+          "falta": 4,
+          "tn_prev": 515.75,
+          "tn_carr": 368.75
         }
       ]
     },
@@ -260,28 +260,28 @@
       "lote": "*CSN ARCOS - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "*CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 15,
-      "carr": 6,
-      "falta": 9,
-      "tn_prev": 538.4,
-      "tn_carr": 219.4,
+      "prog": 18,
+      "carr": 7,
+      "falta": 11,
+      "tn_prev": 652.41,
+      "tn_carr": 259.41,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 11,
-          "carr": 6,
-          "falta": 5,
-          "tn_prev": 395.4,
-          "tn_carr": 219.4
+          "carr": 7,
+          "falta": 4,
+          "tn_prev": 397.41,
+          "tn_carr": 259.41
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 4,
+          "prog": 7,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 143.0,
+          "falta": 7,
+          "tn_prev": 255.0,
           "tn_carr": 0.0
         }
       ]
@@ -404,6 +404,36 @@
       ]
     },
     {
+      "lote": "SUPREMO - PETCOKE - SPAR CORONA - PILHA 17",
+      "cliente": "SUPREMO",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 162.7,
+      "tn_carr": 47.7,
+      "transportadoras": [
+        {
+          "nome": "WJ TRANSPORTES (SC)",
+          "cnpj": "08533312000334",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 86.7,
+          "tn_carr": 47.7
+        },
+        {
+          "nome": "GWM LOGISTICA INTEGRADA LTDA",
+          "cnpj": "34462809000408",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "LS METAIS - PETCOKE - SOLE - PILHA 51",
       "cliente": "LS METAIS",
       "produto": "PETCOKE",
@@ -421,36 +451,6 @@
           "falta": 0,
           "tn_prev": 145.71,
           "tn_carr": 145.71
-        }
-      ]
-    },
-    {
-      "lote": "SUPREMO - PETCOKE - SPAR CORONA - PILHA 17",
-      "cliente": "SUPREMO",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 126.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "WJ TRANSPORTES (SC)",
-          "cnpj": "08533312000334",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "GWM LOGISTICA INTEGRADA LTDA",
-          "cnpj": "34462809000408",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
         }
       ]
     },
