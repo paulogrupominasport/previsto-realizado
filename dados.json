@@ -1,22 +1,22 @@
 {
   "data_relatorio": "30/06/2026",
-  "gerado_em": "2026-06-30T12:00:15",
-  "atualizado_em": "2026-06-30T15:05:30",
+  "gerado_em": "2026-06-30T13:00:07",
+  "atualizado_em": "2026-06-30T16:05:34",
   "totais": {
-    "prog": 100,
-    "carr": 50,
-    "falta": 50,
-    "tn_prev": 3939.78,
-    "tn_carr": 1951.61
+    "prog": 104,
+    "carr": 52,
+    "falta": 52,
+    "tn_prev": 4075.9,
+    "tn_carr": 2025.73
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 30,
-      "carr": 16,
-      "falta": 14,
-      "tn_prev": 1152.64,
-      "tn_carr": 620.64
+      "carr": 18,
+      "falta": 12,
+      "tn_prev": 1150.76,
+      "tn_carr": 694.76
     },
     {
       "cliente": "BRASKEM",
@@ -28,18 +28,18 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 14,
+      "prog": 15,
       "carr": 5,
-      "falta": 9,
-      "tn_prev": 612.2,
+      "falta": 10,
+      "tn_prev": 651.2,
       "tn_carr": 222.2
     },
     {
       "cliente": "METROPOLITANA",
-      "prog": 17,
+      "prog": 20,
       "carr": 9,
-      "falta": 8,
-      "tn_prev": 550.0,
+      "falta": 11,
+      "tn_prev": 649.0,
       "tn_carr": 303.94
     },
     {
@@ -87,17 +87,17 @@
     {
       "produto": "PETCOKE",
       "prog": 56,
-      "carr": 28,
-      "falta": 28,
-      "tn_prev": 2242.83,
-      "tn_carr": 1107.83
+      "carr": 30,
+      "falta": 26,
+      "tn_prev": 2244.95,
+      "tn_carr": 1181.95
     },
     {
       "produto": "TÉRMICO",
-      "prog": 41,
+      "prog": 44,
       "carr": 22,
-      "falta": 19,
-      "tn_prev": 1557.95,
+      "falta": 22,
+      "tn_prev": 1656.95,
       "tn_carr": 843.78
     },
     {
@@ -110,10 +110,10 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 39.0,
+      "falta": 2,
+      "tn_prev": 74.0,
       "tn_carr": 0.0
     }
   ],
@@ -123,10 +123,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 30,
-      "carr": 16,
-      "falta": 14,
-      "tn_prev": 1152.64,
-      "tn_carr": 620.64,
+      "carr": 18,
+      "falta": 12,
+      "tn_prev": 1150.76,
+      "tn_carr": 694.76,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -150,10 +150,10 @@
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 10,
-          "carr": 4,
-          "falta": 6,
-          "tn_prev": 379.4,
-          "tn_carr": 154.4
+          "carr": 6,
+          "falta": 4,
+          "tn_prev": 377.52,
+          "tn_carr": 228.52
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -224,13 +224,43 @@
       ]
     },
     {
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
+      "produto": "TÉRMICO",
+      "prog": 20,
+      "carr": 9,
+      "falta": 11,
+      "tn_prev": 649.0,
+      "tn_carr": 303.94,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 18,
+          "carr": 8,
+          "falta": 10,
+          "tn_prev": 582.0,
+          "tn_carr": 265.59
+        },
+        {
+          "nome": "MR LOG (SC)",
+          "cnpj": "58324544000199",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 67.0,
+          "tn_carr": 38.35
+        }
+      ]
+    },
+    {
       "lote": "CIM. LIZ - PETCOKE - TMULT - FYM CRYSTAL",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 13,
       "carr": 5,
       "falta": 8,
-      "tn_prev": 573.2,
+      "tn_prev": 577.2,
       "tn_carr": 222.2,
       "transportadoras": [
         {
@@ -248,7 +278,7 @@
           "prog": 8,
           "carr": 2,
           "falta": 6,
-          "tn_prev": 367.96,
+          "tn_prev": 371.96,
           "tn_carr": 92.96
         },
         {
@@ -259,36 +289,6 @@
           "falta": 1,
           "tn_prev": 38.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
-      "cliente": "METROPOLITANA",
-      "produto": "TÉRMICO",
-      "prog": 17,
-      "carr": 9,
-      "falta": 8,
-      "tn_prev": 550.0,
-      "tn_carr": 303.94,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 15,
-          "carr": 8,
-          "falta": 7,
-          "tn_prev": 483.0,
-          "tn_carr": 265.59
-        },
-        {
-          "nome": "MR LOG (SC)",
-          "cnpj": "58324544000199",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 67.0,
-          "tn_carr": 38.35
         }
       ]
     },
@@ -383,6 +383,36 @@
       ]
     },
     {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 74.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 39.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
@@ -409,27 +439,6 @@
           "falta": 0,
           "tn_prev": 40.43,
           "tn_carr": 40.43
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 39.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "VICTRANS (RJ)",
-          "cnpj": "02830994000441",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 39.0,
-          "tn_carr": 0.0
         }
       ]
     },
