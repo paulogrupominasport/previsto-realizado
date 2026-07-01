@@ -1,12 +1,12 @@
 {
   "data_relatorio": "01/07/2026",
-  "gerado_em": "2026-07-01T12:00:19",
-  "atualizado_em": "2026-07-01T15:05:29",
+  "gerado_em": "2026-07-01T13:00:06",
+  "atualizado_em": "2026-07-01T16:05:32",
   "totais": {
-    "prog": 73,
+    "prog": 74,
     "carr": 37,
-    "falta": 36,
-    "tn_prev": 2662.11,
+    "falta": 37,
+    "tn_prev": 2700.11,
     "tn_carr": 1330.58
   },
   "por_cliente": [
@@ -65,15 +65,23 @@
       "falta": 0,
       "tn_prev": 92.46,
       "tn_carr": 92.46
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 42,
+      "prog": 43,
       "carr": 21,
-      "falta": 21,
-      "tn_prev": 1607.31,
+      "falta": 22,
+      "tn_prev": 1645.31,
       "tn_carr": 798.81
     },
     {
@@ -310,6 +318,27 @@
           "falta": 0,
           "tn_prev": 92.46,
           "tn_carr": 92.46
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - PETCOKE - SPAR CORONA - PILHA 17",
+      "cliente": "SUPREMO",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOTISTA (SC)",
+          "cnpj": "02968651000286",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         }
       ]
     }
