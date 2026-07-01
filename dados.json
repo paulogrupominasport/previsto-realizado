@@ -1,29 +1,29 @@
 {
   "data_relatorio": "01/07/2026",
-  "gerado_em": "2026-07-01T10:00:04",
-  "atualizado_em": "2026-07-01T13:05:30",
+  "gerado_em": "2026-07-01T11:00:13",
+  "atualizado_em": "2026-07-01T14:05:27",
   "totais": {
-    "prog": 64,
-    "carr": 31,
-    "falta": 33,
-    "tn_prev": 2371.61,
-    "tn_carr": 1109.08
+    "prog": 70,
+    "carr": 35,
+    "falta": 35,
+    "tn_prev": 2566.53,
+    "tn_carr": 1257.0
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 30,
-      "carr": 12,
-      "falta": 18,
-      "tn_prev": 1138.49,
-      "tn_carr": 457.99
+      "prog": 31,
+      "carr": 16,
+      "falta": 15,
+      "tn_prev": 1172.41,
+      "tn_carr": 605.91
     },
     {
       "cliente": "METROPOLITANA",
-      "prog": 11,
+      "prog": 15,
       "carr": 9,
-      "falta": 2,
-      "tn_prev": 361.8,
+      "falta": 6,
+      "tn_prev": 497.8,
       "tn_carr": 292.82
     },
     {
@@ -44,10 +44,10 @@
     },
     {
       "cliente": "GABRIELLA",
-      "prog": 4,
+      "prog": 5,
       "carr": 4,
-      "falta": 0,
-      "tn_prev": 100.0,
+      "falta": 1,
+      "tn_prev": 125.0,
       "tn_carr": 107.29
     },
     {
@@ -70,18 +70,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 39,
-      "carr": 15,
-      "falta": 24,
-      "tn_prev": 1502.81,
-      "tn_carr": 577.31
+      "prog": 40,
+      "carr": 19,
+      "falta": 21,
+      "tn_prev": 1536.73,
+      "tn_carr": 725.23
     },
     {
       "produto": "TÉRMICO",
-      "prog": 23,
+      "prog": 28,
       "carr": 16,
-      "falta": 7,
-      "tn_prev": 768.8,
+      "falta": 12,
+      "tn_prev": 929.8,
       "tn_carr": 531.77
     },
     {
@@ -98,29 +98,38 @@
       "lote": "ITAMBÉ - PETCOKE - SPAR CORONA - PILHA 17",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 30,
-      "carr": 12,
-      "falta": 18,
-      "tn_prev": 1138.49,
-      "tn_carr": 457.99,
+      "prog": 31,
+      "carr": 16,
+      "falta": 15,
+      "tn_prev": 1172.41,
+      "tn_carr": 605.91,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 9,
-          "carr": 2,
-          "falta": 7,
-          "tn_prev": 335.36,
-          "tn_carr": 72.86
+          "carr": 3,
+          "falta": 6,
+          "tn_prev": 333.62,
+          "tn_carr": 109.12
+        },
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 304.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 5,
+          "tn_prev": 301.66,
+          "tn_carr": 111.66
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -137,19 +146,19 @@
       "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
-      "prog": 11,
+      "prog": 15,
       "carr": 9,
-      "falta": 2,
-      "tn_prev": 361.8,
+      "falta": 6,
+      "tn_prev": 497.8,
       "tn_carr": 292.82,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
-          "prog": 8,
+          "prog": 12,
           "carr": 7,
-          "falta": 1,
-          "tn_prev": 259.8,
+          "falta": 5,
+          "tn_prev": 395.8,
           "tn_carr": 227.97
         },
         {
@@ -245,19 +254,19 @@
       "lote": "GABRIELLA - TÉRMICO JOKER - PILHA 92",
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
-      "prog": 4,
+      "prog": 5,
       "carr": 4,
-      "falta": 0,
-      "tn_prev": 100.0,
+      "falta": 1,
+      "tn_prev": 125.0,
       "tn_carr": 107.29,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
-          "prog": 4,
+          "prog": 5,
           "carr": 4,
-          "falta": 0,
-          "tn_prev": 100.0,
+          "falta": 1,
+          "tn_prev": 125.0,
           "tn_carr": 107.29
         }
       ]
