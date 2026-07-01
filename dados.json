@@ -1,30 +1,30 @@
 {
   "data_relatorio": "01/07/2026",
-  "gerado_em": "2026-07-01T09:00:14",
-  "atualizado_em": "2026-07-01T12:05:28",
+  "gerado_em": "2026-07-01T10:00:04",
+  "atualizado_em": "2026-07-01T13:05:30",
   "totais": {
-    "prog": 61,
-    "carr": 22,
-    "falta": 39,
-    "tn_prev": 2256.1,
-    "tn_carr": 816.17
+    "prog": 64,
+    "carr": 31,
+    "falta": 33,
+    "tn_prev": 2371.61,
+    "tn_carr": 1109.08
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 30,
-      "carr": 7,
-      "falta": 23,
-      "tn_prev": 1140.98,
-      "tn_carr": 276.48
+      "carr": 12,
+      "falta": 18,
+      "tn_prev": 1138.49,
+      "tn_carr": 457.99
     },
     {
       "cliente": "METROPOLITANA",
-      "prog": 10,
-      "carr": 8,
+      "prog": 11,
+      "carr": 9,
       "falta": 2,
-      "tn_prev": 326.8,
-      "tn_carr": 263.41
+      "tn_prev": 361.8,
+      "tn_carr": 292.82
     },
     {
       "cliente": "BRASKEM",
@@ -36,19 +36,19 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 5,
+      "prog": 7,
       "carr": 1,
-      "falta": 4,
-      "tn_prev": 188.86,
+      "falta": 6,
+      "tn_prev": 271.86,
       "tn_carr": 26.86
     },
     {
       "cliente": "GABRIELLA",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 100.0,
-      "tn_carr": 25.3
+      "tn_carr": 107.29
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -70,19 +70,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 37,
-      "carr": 10,
-      "falta": 27,
-      "tn_prev": 1422.3,
-      "tn_carr": 395.8
+      "prog": 39,
+      "carr": 15,
+      "falta": 24,
+      "tn_prev": 1502.81,
+      "tn_carr": 577.31
     },
     {
       "produto": "TÉRMICO",
-      "prog": 22,
-      "carr": 12,
-      "falta": 10,
-      "tn_prev": 733.8,
-      "tn_carr": 420.37
+      "prog": 23,
+      "carr": 16,
+      "falta": 7,
+      "tn_prev": 768.8,
+      "tn_carr": 531.77
     },
     {
       "produto": "PETRÓLEO",
@@ -99,19 +99,19 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 30,
-      "carr": 7,
-      "falta": 23,
-      "tn_prev": 1140.98,
-      "tn_carr": 276.48,
+      "carr": 12,
+      "falta": 18,
+      "tn_prev": 1138.49,
+      "tn_carr": 457.99,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 9,
-          "carr": 1,
-          "falta": 8,
-          "tn_prev": 334.84,
-          "tn_carr": 34.34
+          "carr": 2,
+          "falta": 7,
+          "tn_prev": 335.36,
+          "tn_carr": 72.86
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -126,10 +126,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 13,
-          "carr": 6,
-          "falta": 7,
-          "tn_prev": 502.14,
-          "tn_carr": 242.14
+          "carr": 10,
+          "falta": 3,
+          "tn_prev": 499.13,
+          "tn_carr": 385.13
         }
       ]
     },
@@ -137,11 +137,11 @@
       "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
-      "prog": 10,
-      "carr": 8,
+      "prog": 11,
+      "carr": 9,
       "falta": 2,
-      "tn_prev": 326.8,
-      "tn_carr": 263.41,
+      "tn_prev": 361.8,
+      "tn_carr": 292.82,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
@@ -155,11 +155,11 @@
         {
           "nome": "MR LOG (SC)",
           "cnpj": "58324544000199",
-          "prog": 2,
-          "carr": 1,
+          "prog": 3,
+          "carr": 2,
           "falta": 1,
-          "tn_prev": 67.0,
-          "tn_carr": 35.44
+          "tn_prev": 102.0,
+          "tn_carr": 64.85
         }
       ]
     },
@@ -215,19 +215,19 @@
       "lote": "CIM. LIZ - PETCOKE - TMULT - FYM CRYSTAL",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 5,
+      "prog": 7,
       "carr": 1,
-      "falta": 4,
-      "tn_prev": 188.86,
+      "falta": 6,
+      "tn_prev": 271.86,
       "tn_carr": 26.86,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 4,
+          "prog": 6,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 162.0,
+          "falta": 6,
+          "tn_prev": 245.0,
           "tn_carr": 0.0
         },
         {
@@ -246,19 +246,19 @@
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 100.0,
-      "tn_carr": 25.3,
+      "tn_carr": 107.29,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
+          "carr": 4,
+          "falta": 0,
           "tn_prev": 100.0,
-          "tn_carr": 25.3
+          "tn_carr": 107.29
         }
       ]
     },
