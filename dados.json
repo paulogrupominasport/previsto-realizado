@@ -1,29 +1,29 @@
 {
   "data_relatorio": "01/07/2026",
-  "gerado_em": "2026-07-01T18:00:05",
-  "atualizado_em": "2026-07-01T21:05:28",
+  "gerado_em": "2026-07-01T19:00:08",
+  "atualizado_em": "2026-07-01T22:05:23",
   "totais": {
-    "prog": 78,
+    "prog": 74,
     "carr": 69,
-    "falta": 9,
-    "tn_prev": 2820.27,
+    "falta": 5,
+    "tn_prev": 2689.27,
     "tn_carr": 2495.48
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 32,
+      "prog": 31,
       "carr": 26,
-      "falta": 6,
-      "tn_prev": 1206.75,
+      "falta": 5,
+      "tn_prev": 1168.75,
       "tn_carr": 978.75
     },
     {
       "cliente": "METROPOLITANA",
-      "prog": 18,
+      "prog": 15,
       "carr": 15,
-      "falta": 3,
-      "tn_prev": 590.38,
+      "falta": 0,
+      "tn_prev": 497.38,
       "tn_carr": 493.38
     },
     {
@@ -78,18 +78,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 44,
+      "prog": 43,
       "carr": 38,
-      "falta": 6,
-      "tn_prev": 1678.03,
+      "falta": 5,
+      "tn_prev": 1640.03,
       "tn_carr": 1450.03
     },
     {
       "produto": "TÉRMICO",
-      "prog": 32,
+      "prog": 29,
       "carr": 29,
-      "falta": 3,
-      "tn_prev": 1047.38,
+      "falta": 0,
+      "tn_prev": 954.38,
       "tn_carr": 950.59
     },
     {
@@ -106,19 +106,19 @@
       "lote": "ITAMBÉ - PETCOKE - SPAR CORONA - PILHA 17",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 32,
+      "prog": 31,
       "carr": 26,
-      "falta": 6,
-      "tn_prev": 1206.75,
+      "falta": 5,
+      "tn_prev": 1168.75,
       "tn_carr": 978.75,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 9,
+          "prog": 8,
           "carr": 8,
-          "falta": 1,
-          "tn_prev": 334.16,
+          "falta": 0,
+          "tn_prev": 296.16,
           "tn_carr": 296.16
         },
         {
@@ -154,19 +154,19 @@
       "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
-      "prog": 18,
+      "prog": 15,
       "carr": 15,
-      "falta": 3,
-      "tn_prev": 590.38,
+      "falta": 0,
+      "tn_prev": 497.38,
       "tn_carr": 493.38,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
-          "prog": 14,
+          "prog": 11,
           "carr": 11,
-          "falta": 3,
-          "tn_prev": 456.38,
+          "falta": 0,
+          "tn_prev": 363.38,
           "tn_carr": 362.61
         },
         {
