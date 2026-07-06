@@ -1,30 +1,30 @@
 {
   "data_relatorio": "06/07/2026",
-  "gerado_em": "2026-07-06T07:39:19",
-  "atualizado_em": "2026-07-06T10:40:26",
+  "gerado_em": "2026-07-06T08:00:12",
+  "atualizado_em": "2026-07-06T11:05:29",
   "totais": {
-    "prog": 23,
-    "carr": 2,
-    "falta": 21,
-    "tn_prev": 870.58,
-    "tn_carr": 63.05
+    "prog": 33,
+    "carr": 7,
+    "falta": 26,
+    "tn_prev": 1242.58,
+    "tn_carr": 226.98
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 10,
+      "prog": 19,
       "carr": 0,
-      "falta": 10,
-      "tn_prev": 378.0,
+      "falta": 19,
+      "tn_prev": 702.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "BRASKEM",
       "prog": 9,
-      "carr": 2,
-      "falta": 7,
+      "carr": 7,
+      "falta": 2,
       "tn_prev": 307.58,
-      "tn_carr": 63.05
+      "tn_carr": 226.98
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -36,10 +36,10 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
+      "falta": 2,
+      "tn_prev": 96.0,
       "tn_carr": 0.0
     },
     {
@@ -54,19 +54,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 10,
+      "prog": 20,
       "carr": 0,
-      "falta": 10,
-      "tn_prev": 378.0,
+      "falta": 20,
+      "tn_prev": 750.0,
       "tn_carr": 0.0
     },
     {
       "produto": "TÉRMICO",
       "prog": 10,
-      "carr": 2,
-      "falta": 8,
+      "carr": 7,
+      "falta": 3,
       "tn_prev": 344.58,
-      "tn_carr": 63.05
+      "tn_carr": 226.98
     },
     {
       "produto": "PETRÓLEO",
@@ -126,14 +126,35 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - PETCOKE - SPAR CORONA - PILHA 17",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 9,
+      "carr": 0,
+      "falta": 9,
+      "tn_prev": 324.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 9,
+          "carr": 0,
+          "falta": 9,
+          "tn_prev": 324.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 2,
-      "falta": 7,
+      "carr": 7,
+      "falta": 2,
       "tn_prev": 307.58,
-      "tn_carr": 63.05,
+      "tn_carr": 226.98,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -148,10 +169,10 @@
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 7,
-          "carr": 1,
-          "falta": 6,
+          "carr": 6,
+          "falta": 1,
           "tn_prev": 225.0,
-          "tn_carr": 28.47
+          "tn_carr": 192.4
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -181,6 +202,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 100.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - PETCOKE - XIN TONG HAI - PILHA 50",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
