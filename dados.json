@@ -1,22 +1,22 @@
 {
   "data_relatorio": "06/07/2026",
-  "gerado_em": "2026-07-06T09:00:15",
-  "atualizado_em": "2026-07-06T12:06:00",
+  "gerado_em": "2026-07-06T10:00:08",
+  "atualizado_em": "2026-07-06T13:05:28",
   "totais": {
-    "prog": 46,
-    "carr": 8,
-    "falta": 38,
-    "tn_prev": 1747.58,
-    "tn_carr": 262.05
+    "prog": 48,
+    "carr": 11,
+    "falta": 37,
+    "tn_prev": 1818.33,
+    "tn_carr": 368.8
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 29,
-      "carr": 0,
-      "falta": 29,
-      "tn_prev": 1063.0,
-      "tn_carr": 0.0
+      "prog": 31,
+      "carr": 3,
+      "falta": 28,
+      "tn_prev": 1133.75,
+      "tn_carr": 106.75
     },
     {
       "cliente": "BRASKEM",
@@ -55,9 +55,17 @@
     {
       "produto": "PETCOKE",
       "prog": 24,
+      "carr": 3,
+      "falta": 21,
+      "tn_prev": 928.75,
+      "tn_carr": 106.75
+    },
+    {
+      "produto": "GESSO",
+      "prog": 11,
       "carr": 0,
-      "falta": 24,
-      "tn_prev": 930.0,
+      "falta": 11,
+      "tn_prev": 397.0,
       "tn_carr": 0.0
     },
     {
@@ -67,14 +75,6 @@
       "falta": 2,
       "tn_prev": 344.58,
       "tn_carr": 262.05
-    },
-    {
-      "produto": "GESSO",
-      "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 325.0,
-      "tn_carr": 0.0
     },
     {
       "produto": "PETRÓLEO",
@@ -99,10 +99,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 378.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 378.13,
+      "tn_carr": 36.13,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
@@ -117,10 +117,10 @@
           "nome": "E.K TRANSPORTES (SC)",
           "cnpj": "05399163000102",
           "prog": 7,
-          "carr": 0,
-          "falta": 7,
-          "tn_prev": 262.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 6,
+          "tn_prev": 262.13,
+          "tn_carr": 36.13
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -134,23 +134,53 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 10,
+      "carr": 0,
+      "falta": 10,
+      "tn_prev": 366.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
+          "prog": 8,
+          "carr": 0,
+          "falta": 8,
+          "tn_prev": 294.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 72.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - PETCOKE - SPAR CORONA - PILHA 17",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 360.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 8,
+      "tn_prev": 358.62,
+      "tn_carr": 70.62,
       "transportadoras": [
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 10,
-          "carr": 0,
-          "falta": 10,
-          "tn_prev": 360.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 8,
+          "tn_prev": 358.62,
+          "tn_carr": 70.62
         }
       ]
     },
@@ -190,27 +220,6 @@
           "falta": 0,
           "tn_prev": 34.58,
           "tn_carr": 34.58
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 294.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "TRANSP. TELLES (SC)",
-          "cnpj": "78266228000115",
-          "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 294.0,
-          "tn_carr": 0.0
         }
       ]
     },
