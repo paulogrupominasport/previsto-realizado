@@ -1,29 +1,37 @@
 {
   "data_relatorio": "07/07/2026",
-  "gerado_em": "2026-07-07T08:07:28",
-  "atualizado_em": "2026-07-07T11:10:23",
+  "gerado_em": "2026-07-07T09:00:23",
+  "atualizado_em": "2026-07-07T12:05:30",
   "totais": {
-    "prog": 47,
-    "carr": 0,
-    "falta": 47,
-    "tn_prev": 1891.0,
-    "tn_carr": 0.0
+    "prog": 54,
+    "carr": 8,
+    "falta": 46,
+    "tn_prev": 2165.6,
+    "tn_carr": 308.43
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 33,
-      "carr": 0,
-      "falta": 33,
-      "tn_prev": 1325.0,
-      "tn_carr": 0.0
+      "prog": 38,
+      "carr": 3,
+      "falta": 35,
+      "tn_prev": 1527.6,
+      "tn_carr": 118.6
     },
     {
       "cliente": "BRASKEM",
       "prog": 7,
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 284.0,
+      "tn_carr": 150.01
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 3,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 295.0,
+      "falta": 3,
+      "tn_prev": 122.0,
       "tn_carr": 0.0
     },
     {
@@ -35,12 +43,12 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CIM. LIZ",
+      "cliente": "RIO DESERTO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 74.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 72.0,
+      "tn_carr": 39.82
     },
     {
       "cliente": "BELLUNO",
@@ -49,39 +57,39 @@
       "falta": 2,
       "tn_prev": 60.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "RIO DESERTO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 16,
-      "carr": 0,
-      "falta": 16,
-      "tn_prev": 683.0,
-      "tn_carr": 0.0
+      "prog": 19,
+      "carr": 2,
+      "falta": 17,
+      "tn_prev": 798.7,
+      "tn_carr": 79.7
     },
     {
       "produto": "GESSO",
-      "prog": 17,
-      "carr": 0,
-      "falta": 17,
-      "tn_prev": 642.0,
-      "tn_carr": 0.0
+      "prog": 19,
+      "carr": 1,
+      "falta": 18,
+      "tn_prev": 728.9,
+      "tn_carr": 38.9
     },
     {
       "produto": "TÉRMICO",
-      "prog": 8,
+      "prog": 9,
+      "carr": 5,
+      "falta": 4,
+      "tn_prev": 356.0,
+      "tn_carr": 189.83
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 3,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 332.0,
+      "falta": 3,
+      "tn_prev": 122.0,
       "tn_carr": 0.0
     },
     {
@@ -90,14 +98,6 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 74.0,
       "tn_carr": 0.0
     },
     {
@@ -114,19 +114,19 @@
       "lote": "ITAMBÉ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 16,
-      "carr": 0,
-      "falta": 16,
-      "tn_prev": 683.0,
-      "tn_carr": 0.0,
+      "prog": 19,
+      "carr": 2,
+      "falta": 17,
+      "tn_prev": 798.7,
+      "tn_carr": 79.7,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
-          "prog": 2,
+          "prog": 4,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
+          "falta": 4,
+          "tn_prev": 172.0,
           "tn_carr": 0.0
         },
         {
@@ -141,11 +141,11 @@
         {
           "nome": "E.K TRANSPORTES (SC)",
           "cnpj": "05399163000102",
-          "prog": 10,
-          "carr": 0,
-          "falta": 10,
-          "tn_prev": 405.0,
-          "tn_carr": 0.0
+          "prog": 11,
+          "carr": 2,
+          "falta": 9,
+          "tn_prev": 444.7,
+          "tn_carr": 79.7
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -162,20 +162,20 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 17,
-      "carr": 0,
-      "falta": 17,
-      "tn_prev": 642.0,
-      "tn_carr": 0.0,
+      "prog": 19,
+      "carr": 1,
+      "falta": 18,
+      "tn_prev": 728.9,
+      "tn_carr": 38.9,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 8,
-          "carr": 0,
+          "prog": 9,
+          "carr": 1,
           "falta": 8,
-          "tn_prev": 294.0,
-          "tn_carr": 0.0
+          "tn_prev": 332.9,
+          "tn_carr": 38.9
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -184,6 +184,15 @@
           "carr": 0,
           "falta": 4,
           "tn_prev": 152.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         },
         {
@@ -202,37 +211,37 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 295.0,
-      "tn_carr": 0.0,
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 284.0,
+      "tn_carr": 150.01,
       "transportadoras": [
         {
           "nome": "UNIÃO LOG (SC)",
           "cnpj": "20756544000195",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 1,
+          "falta": 2,
           "tn_prev": 144.0,
-          "tn_carr": 0.0
+          "tn_carr": 46.42
         },
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 66.0,
-          "tn_carr": 0.0
+          "tn_carr": 65.43
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "tn_carr": 38.16
         },
         {
           "nome": "CANEVER (SC)",
@@ -240,7 +249,37 @@
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 49.0,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 122.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
@@ -267,22 +306,31 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
+      "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "RIO DESERTO",
+      "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 74.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 72.0,
+      "tn_carr": 39.82,
       "transportadoras": [
         {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 2,
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.0,
+          "tn_carr": 39.82
+        },
+        {
+          "nome": "ATR MINHOCAO",
+          "cnpj": "66866968000103",
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
+          "falta": 1,
+          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]
@@ -304,27 +352,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 60.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
-      "cliente": "RIO DESERTO",
-      "produto": "TÉRMICO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
           "tn_carr": 0.0
         }
       ]
