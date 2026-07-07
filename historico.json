@@ -1412,21 +1412,21 @@
     }
   },
   "2026-07-07": {
-    "gerado_em": "2026-07-07T09:00:23",
-    "atualizado_em": "2026-07-07T12:05:30",
+    "gerado_em": "2026-07-07T10:00:08",
+    "atualizado_em": "2026-07-07T13:05:36",
     "totais": {
-      "prog": 54,
-      "carr": 8,
-      "falta": 46,
-      "tn_prev": 2165.6,
-      "tn_carr": 308.43
+      "prog": 61,
+      "carr": 17,
+      "falta": 44,
+      "tn_prev": 2439.04,
+      "tn_carr": 650.73
     },
     "por_cliente": {
       "ITAMBÉ": {
-        "prog": 38,
-        "carr": 3,
-        "tn_prev": 1527.6,
-        "tn_carr": 118.6
+        "prog": 44,
+        "carr": 9,
+        "tn_prev": 1763.74,
+        "tn_carr": 355.74
       },
       "BRASKEM": {
         "prog": 7,
@@ -1436,9 +1436,9 @@
       },
       "CIM. LIZ": {
         "prog": 3,
-        "carr": 0,
-        "tn_prev": 122.0,
-        "tn_carr": 0.0
+        "carr": 1,
+        "tn_prev": 122.3,
+        "tn_carr": 38.3
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -1454,35 +1454,41 @@
       },
       "BELLUNO": {
         "prog": 2,
-        "carr": 0,
+        "carr": 2,
         "tn_prev": 60.0,
+        "tn_carr": 66.86
+      },
+      "METROPOLITANA": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 37.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
+      "GESSO": {
+        "prog": 25,
+        "carr": 3,
+        "tn_prev": 951.24,
+        "tn_carr": 115.24
+      },
       "PETCOKE": {
         "prog": 19,
-        "carr": 2,
-        "tn_prev": 798.7,
-        "tn_carr": 79.7
-      },
-      "GESSO": {
-        "prog": 19,
-        "carr": 1,
-        "tn_prev": 728.9,
-        "tn_carr": 38.9
+        "carr": 6,
+        "tn_prev": 812.5,
+        "tn_carr": 240.5
       },
       "TÉRMICO": {
-        "prog": 9,
+        "prog": 10,
         "carr": 5,
-        "tn_prev": 356.0,
+        "tn_prev": 393.0,
         "tn_carr": 189.83
       },
       "CARVÃO": {
         "prog": 3,
-        "carr": 0,
-        "tn_prev": 122.0,
-        "tn_carr": 0.0
+        "carr": 1,
+        "tn_prev": 122.3,
+        "tn_carr": 38.3
       },
       "PETRÓLEO": {
         "prog": 2,
@@ -1492,9 +1498,9 @@
       },
       "Premium Hvb": {
         "prog": 2,
-        "carr": 0,
+        "carr": 2,
         "tn_prev": 60.0,
-        "tn_carr": 0.0
+        "tn_carr": 66.86
       }
     }
   }
