@@ -1,22 +1,22 @@
 {
   "data_relatorio": "07/07/2026",
-  "gerado_em": "2026-07-07T14:00:16",
-  "atualizado_em": "2026-07-07T17:05:31",
+  "gerado_em": "2026-07-07T15:00:08",
+  "atualizado_em": "2026-07-07T18:05:26",
   "totais": {
-    "prog": 78,
-    "carr": 40,
-    "falta": 38,
-    "tn_prev": 2995.22,
-    "tn_carr": 1503.9
+    "prog": 79,
+    "carr": 46,
+    "falta": 33,
+    "tn_prev": 3027.62,
+    "tn_carr": 1716.21
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 51,
-      "carr": 24,
-      "falta": 27,
-      "tn_prev": 2035.92,
-      "tn_carr": 948.92
+      "prog": 52,
+      "carr": 26,
+      "falta": 26,
+      "tn_prev": 2072.01,
+      "tn_carr": 1022.01
     },
     {
       "cliente": "BRASKEM",
@@ -29,18 +29,18 @@
     {
       "cliente": "CIM. LIZ",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 170.3,
-      "tn_carr": 38.3
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 169.26,
+      "tn_carr": 85.26
     },
     {
       "cliente": "RIO DESERTO",
       "prog": 5,
-      "carr": 4,
-      "falta": 1,
+      "carr": 5,
+      "falta": 0,
       "tn_prev": 169.0,
-      "tn_carr": 130.2
+      "tn_carr": 164.53
     },
     {
       "cliente": "METROPOLITANA",
@@ -53,10 +53,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.34,
+      "tn_carr": 47.34
     },
     {
       "cliente": "BELLUNO",
@@ -69,36 +69,36 @@
     {
       "cliente": "COQUE DO SUL",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 10.0,
-      "tn_carr": 0.0
+      "tn_carr": 10.59
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 28,
-      "carr": 11,
-      "falta": 17,
-      "tn_prev": 1072.04,
-      "tn_carr": 410.04
+      "prog": 29,
+      "carr": 13,
+      "falta": 16,
+      "tn_prev": 1108.13,
+      "tn_carr": 483.13
     },
     {
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 13,
-      "falta": 11,
-      "tn_prev": 1011.88,
-      "tn_carr": 538.88
+      "carr": 14,
+      "falta": 10,
+      "tn_prev": 1010.84,
+      "tn_carr": 585.84
     },
     {
       "produto": "TÉRMICO",
       "prog": 16,
-      "carr": 11,
-      "falta": 5,
+      "carr": 12,
+      "falta": 4,
       "tn_prev": 589.0,
-      "tn_carr": 388.64
+      "tn_carr": 422.97
     },
     {
       "produto": "CARVÃO",
@@ -111,10 +111,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.34,
+      "tn_carr": 47.34
     },
     {
       "produto": "Premium Hvb",
@@ -127,10 +127,10 @@
     {
       "produto": "Cucuta",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 10.0,
-      "tn_carr": 0.0
+      "tn_carr": 10.59
     }
   ],
   "lotes": [
@@ -138,20 +138,20 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 28,
-      "carr": 11,
-      "falta": 17,
-      "tn_prev": 1072.04,
-      "tn_carr": 410.04,
+      "prog": 29,
+      "carr": 13,
+      "falta": 16,
+      "tn_prev": 1108.13,
+      "tn_carr": 483.13,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 13,
-          "carr": 5,
-          "falta": 8,
-          "tn_prev": 482.48,
-          "tn_carr": 188.48
+          "carr": 6,
+          "falta": 7,
+          "tn_prev": 482.29,
+          "tn_carr": 223.29
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -183,11 +183,11 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 6,
-          "carr": 4,
+          "prog": 7,
+          "carr": 5,
           "falta": 2,
-          "tn_prev": 230.82,
-          "tn_carr": 145.82
+          "tn_prev": 267.1,
+          "tn_carr": 184.1
         }
       ]
     },
@@ -292,19 +292,19 @@
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
       "prog": 5,
-      "carr": 4,
-      "falta": 1,
+      "carr": 5,
+      "falta": 0,
       "tn_prev": 169.0,
-      "tn_carr": 130.2,
+      "tn_carr": 164.53,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
+          "carr": 3,
+          "falta": 0,
           "tn_prev": 99.0,
-          "tn_carr": 69.79
+          "tn_carr": 104.12
         },
         {
           "nome": "ATR MINHOCAO",
@@ -373,19 +373,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.345,
+      "tn_carr": 47.345,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.345,
+          "tn_carr": 47.345
         }
       ]
     },
@@ -415,19 +415,19 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 46.96,
+      "tn_carr": 46.96,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 46.96,
+          "tn_carr": 46.96
         }
       ]
     },
@@ -436,19 +436,19 @@
       "cliente": "COQUE DO SUL",
       "produto": "Cucuta",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 10.0,
-      "tn_carr": 0.0,
+      "tn_carr": 10.59,
       "transportadoras": [
         {
           "nome": "COQUE DO SUL (SC)",
           "cnpj": "04749930000101",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 10.0,
-          "tn_carr": 0.0
+          "tn_carr": 10.59
         }
       ]
     }
