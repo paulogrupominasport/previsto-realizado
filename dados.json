@@ -1,22 +1,22 @@
 {
   "data_relatorio": "07/07/2026",
-  "gerado_em": "2026-07-07T13:00:10",
-  "atualizado_em": "2026-07-07T16:05:25",
+  "gerado_em": "2026-07-07T14:00:16",
+  "atualizado_em": "2026-07-07T17:05:31",
   "totais": {
-    "prog": 75,
-    "carr": 35,
-    "falta": 40,
-    "tn_prev": 2886.45,
-    "tn_carr": 1330.71
+    "prog": 78,
+    "carr": 40,
+    "falta": 38,
+    "tn_prev": 2995.22,
+    "tn_carr": 1503.9
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 50,
-      "carr": 22,
-      "falta": 28,
-      "tn_prev": 1989.15,
-      "tn_carr": 867.15
+      "prog": 51,
+      "carr": 24,
+      "falta": 27,
+      "tn_prev": 2035.92,
+      "tn_carr": 948.92
     },
     {
       "cliente": "BRASKEM",
@@ -36,19 +36,19 @@
     },
     {
       "cliente": "RIO DESERTO",
-      "prog": 4,
-      "carr": 3,
+      "prog": 5,
+      "carr": 4,
       "falta": 1,
-      "tn_prev": 138.0,
-      "tn_carr": 99.69
+      "tn_prev": 169.0,
+      "tn_carr": 130.2
     },
     {
       "cliente": "METROPOLITANA",
-      "prog": 3,
-      "carr": 1,
+      "prog": 4,
+      "carr": 2,
       "falta": 2,
-      "tn_prev": 105.0,
-      "tn_carr": 38.68
+      "tn_prev": 136.0,
+      "tn_carr": 69.23
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -61,10 +61,10 @@
     {
       "cliente": "BELLUNO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 90.0,
-      "tn_carr": 97.68
+      "tn_carr": 128.04
     },
     {
       "cliente": "COQUE DO SUL",
@@ -78,27 +78,27 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 27,
-      "carr": 10,
+      "prog": 28,
+      "carr": 11,
       "falta": 17,
-      "tn_prev": 1024.1,
-      "tn_carr": 375.1
+      "tn_prev": 1072.04,
+      "tn_carr": 410.04
     },
     {
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 12,
-      "falta": 12,
-      "tn_prev": 1013.05,
-      "tn_carr": 492.05
+      "carr": 13,
+      "falta": 11,
+      "tn_prev": 1011.88,
+      "tn_carr": 538.88
     },
     {
       "produto": "TÉRMICO",
-      "prog": 14,
-      "carr": 9,
+      "prog": 16,
+      "carr": 11,
       "falta": 5,
-      "tn_prev": 527.0,
-      "tn_carr": 327.58
+      "tn_prev": 589.0,
+      "tn_carr": 388.64
     },
     {
       "produto": "CARVÃO",
@@ -119,10 +119,10 @@
     {
       "produto": "Premium Hvb",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 90.0,
-      "tn_carr": 97.68
+      "tn_carr": 128.04
     },
     {
       "produto": "Cucuta",
@@ -138,11 +138,11 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 27,
-      "carr": 10,
+      "prog": 28,
+      "carr": 11,
       "falta": 17,
-      "tn_prev": 1024.1,
-      "tn_carr": 375.1,
+      "tn_prev": 1072.04,
+      "tn_carr": 410.04,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -174,20 +174,20 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 3,
+          "prog": 4,
           "carr": 1,
-          "falta": 2,
-          "tn_prev": 124.64,
+          "falta": 3,
+          "tn_prev": 172.64,
           "tn_carr": 38.64
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 6,
-          "carr": 3,
-          "falta": 3,
-          "tn_prev": 230.88,
-          "tn_carr": 110.88
+          "carr": 4,
+          "falta": 2,
+          "tn_prev": 230.82,
+          "tn_carr": 145.82
         }
       ]
     },
@@ -196,10 +196,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 23,
-      "carr": 12,
-      "falta": 11,
-      "tn_prev": 965.05,
-      "tn_carr": 492.05,
+      "carr": 13,
+      "falta": 10,
+      "tn_prev": 963.88,
+      "tn_carr": 538.88,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
@@ -214,10 +214,10 @@
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 179.44,
-          "tn_carr": 131.44
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 178.27,
+          "tn_carr": 178.27
         },
         {
           "nome": "E.K TRANSPORTES (SC)",
@@ -291,29 +291,50 @@
       "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
-      "prog": 4,
-      "carr": 3,
+      "prog": 5,
+      "carr": 4,
       "falta": 1,
-      "tn_prev": 138.0,
-      "tn_carr": 99.69,
+      "tn_prev": 169.0,
+      "tn_carr": 130.2,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
-          "prog": 2,
+          "prog": 3,
           "carr": 2,
-          "falta": 0,
-          "tn_prev": 68.0,
+          "falta": 1,
+          "tn_prev": 99.0,
           "tn_carr": 69.79
         },
         {
           "nome": "ATR MINHOCAO",
           "cnpj": "66866968000103",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 70.0,
-          "tn_carr": 29.9
+          "tn_carr": 60.41
+        }
+      ]
+    },
+    {
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
+      "produto": "TÉRMICO",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 136.0,
+      "tn_carr": 69.23,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 136.0,
+          "tn_carr": 69.23
         }
       ]
     },
@@ -348,27 +369,6 @@
       ]
     },
     {
-      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
-      "cliente": "METROPOLITANA",
-      "produto": "TÉRMICO",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 105.0,
-      "tn_carr": 38.68,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 105.0,
-          "tn_carr": 38.68
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -394,19 +394,19 @@
       "cliente": "BELLUNO",
       "produto": "Premium Hvb",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 90.0,
-      "tn_carr": 97.68,
+      "tn_carr": 128.04,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
+          "carr": 4,
+          "falta": 0,
           "tn_prev": 90.0,
-          "tn_carr": 97.68
+          "tn_carr": 128.04
         }
       ]
     },
