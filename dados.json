@@ -1,30 +1,30 @@
 {
   "data_relatorio": "08/07/2026",
-  "gerado_em": "2026-07-08T14:00:10",
-  "atualizado_em": "2026-07-08T17:05:28",
+  "gerado_em": "2026-07-08T15:00:15",
+  "atualizado_em": "2026-07-08T18:05:27",
   "totais": {
-    "prog": 67,
-    "carr": 44,
-    "falta": 23,
-    "tn_prev": 2496.78,
-    "tn_carr": 1633.81
+    "prog": 71,
+    "carr": 53,
+    "falta": 18,
+    "tn_prev": 2577.31,
+    "tn_carr": 1870.88
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 44,
-      "carr": 31,
-      "falta": 13,
-      "tn_prev": 1698.63,
-      "tn_carr": 1180.63
+      "prog": 48,
+      "carr": 34,
+      "falta": 14,
+      "tn_prev": 1777.41,
+      "tn_carr": 1235.41
     },
     {
       "cliente": "BRASKEM",
       "prog": 10,
-      "carr": 8,
-      "falta": 2,
+      "carr": 10,
+      "falta": 0,
       "tn_prev": 372.41,
-      "tn_carr": 311.22
+      "tn_carr": 386.31
     },
     {
       "cliente": "CIM. LIZ",
@@ -37,10 +37,10 @@
     {
       "cliente": "GABRIELLA",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 101.75,
+      "tn_carr": 107.2
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -70,27 +70,27 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 31,
-      "carr": 24,
-      "falta": 7,
-      "tn_prev": 1147.07,
-      "tn_carr": 887.07
+      "prog": 35,
+      "carr": 26,
+      "falta": 9,
+      "tn_prev": 1289.65,
+      "tn_carr": 957.65
     },
     {
       "produto": "PETCOKE",
       "prog": 16,
-      "carr": 9,
-      "falta": 7,
-      "tn_prev": 669.89,
-      "tn_carr": 363.89
+      "carr": 10,
+      "falta": 6,
+      "tn_prev": 606.09,
+      "tn_carr": 348.09
     },
     {
       "produto": "TÉRMICO",
       "prog": 14,
-      "carr": 8,
-      "falta": 6,
-      "tn_prev": 472.41,
-      "tn_carr": 311.22
+      "carr": 14,
+      "falta": 0,
+      "tn_prev": 474.16,
+      "tn_carr": 493.51
     },
     {
       "produto": "PETRÓLEO",
@@ -130,11 +130,11 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 31,
-      "carr": 24,
-      "falta": 7,
-      "tn_prev": 1147.07,
-      "tn_carr": 887.07,
+      "prog": 35,
+      "carr": 26,
+      "falta": 9,
+      "tn_prev": 1289.65,
+      "tn_carr": 957.65,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -166,11 +166,11 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 16,
-          "carr": 13,
-          "falta": 3,
-          "tn_prev": 570.97,
-          "tn_carr": 462.97
+          "prog": 20,
+          "carr": 15,
+          "falta": 5,
+          "tn_prev": 713.55,
+          "tn_carr": 533.55
         }
       ]
     },
@@ -179,10 +179,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 13,
-      "carr": 7,
-      "falta": 6,
-      "tn_prev": 551.56,
-      "tn_carr": 293.56,
+      "carr": 8,
+      "falta": 5,
+      "tn_prev": 487.76,
+      "tn_carr": 277.76,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
@@ -215,10 +215,10 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 176.65,
-          "tn_carr": 90.65
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 112.85,
+          "tn_carr": 74.85
         }
       ]
     },
@@ -227,10 +227,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 10,
-      "carr": 8,
-      "falta": 2,
+      "carr": 10,
+      "falta": 0,
       "tn_prev": 372.41,
-      "tn_carr": 311.22,
+      "tn_carr": 386.31,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -245,19 +245,19 @@
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
+          "carr": 4,
+          "falta": 0,
           "tn_prev": 189.41,
-          "tn_carr": 143.96
+          "tn_carr": 191.36
         },
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 64.0,
-          "tn_carr": 31.42
+          "tn_carr": 59.11
         }
       ]
     },
@@ -296,19 +296,19 @@
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 101.75,
+      "tn_carr": 107.2,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 101.75,
+          "tn_carr": 107.2
         }
       ]
     },
