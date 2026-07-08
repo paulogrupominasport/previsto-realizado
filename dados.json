@@ -1,22 +1,22 @@
 {
   "data_relatorio": "08/07/2026",
-  "gerado_em": "2026-07-08T15:00:15",
-  "atualizado_em": "2026-07-08T18:05:27",
+  "gerado_em": "2026-07-08T16:00:13",
+  "atualizado_em": "2026-07-08T19:05:27",
   "totais": {
-    "prog": 71,
-    "carr": 53,
-    "falta": 18,
-    "tn_prev": 2577.31,
-    "tn_carr": 1870.88
+    "prog": 74,
+    "carr": 58,
+    "falta": 16,
+    "tn_prev": 2689.71,
+    "tn_carr": 2074.28
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 48,
-      "carr": 34,
-      "falta": 14,
-      "tn_prev": 1777.41,
-      "tn_carr": 1235.41
+      "prog": 51,
+      "carr": 38,
+      "falta": 13,
+      "tn_prev": 1892.75,
+      "tn_carr": 1391.75
     },
     {
       "cliente": "BRASKEM",
@@ -45,10 +45,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.06,
+      "tn_carr": 47.06
     },
     {
       "cliente": "BELLUNO",
@@ -70,19 +70,19 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 35,
-      "carr": 26,
+      "prog": 37,
+      "carr": 28,
       "falta": 9,
-      "tn_prev": 1289.65,
-      "tn_carr": 957.65
+      "tn_prev": 1363.51,
+      "tn_carr": 1033.51
     },
     {
       "produto": "PETCOKE",
-      "prog": 16,
-      "carr": 10,
-      "falta": 6,
-      "tn_prev": 606.09,
-      "tn_carr": 348.09
+      "prog": 17,
+      "carr": 12,
+      "falta": 5,
+      "tn_prev": 647.57,
+      "tn_carr": 428.57
     },
     {
       "produto": "TÉRMICO",
@@ -95,10 +95,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.06,
+      "tn_carr": 47.06
     },
     {
       "produto": "Premium Hvb",
@@ -130,20 +130,20 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 35,
-      "carr": 26,
+      "prog": 37,
+      "carr": 28,
       "falta": 9,
-      "tn_prev": 1289.65,
-      "tn_carr": 957.65,
+      "tn_prev": 1363.51,
+      "tn_carr": 1033.51,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 10,
-          "carr": 7,
-          "falta": 3,
-          "tn_prev": 375.97,
-          "tn_carr": 261.97
+          "carr": 8,
+          "falta": 2,
+          "tn_prev": 375.73,
+          "tn_carr": 299.73
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -157,19 +157,19 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 4,
-          "carr": 3,
+          "prog": 5,
+          "carr": 4,
           "falta": 1,
-          "tn_prev": 161.58,
-          "tn_carr": 123.58
+          "tn_prev": 199.68,
+          "tn_carr": 161.68
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 20,
+          "prog": 21,
           "carr": 15,
-          "falta": 5,
-          "tn_prev": 713.55,
+          "falta": 6,
+          "tn_prev": 749.55,
           "tn_carr": 533.55
         }
       ]
@@ -178,19 +178,19 @@
       "lote": "ITAMBÉ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 13,
-      "carr": 8,
-      "falta": 5,
-      "tn_prev": 487.76,
-      "tn_carr": 277.76,
+      "prog": 14,
+      "carr": 10,
+      "falta": 4,
+      "tn_prev": 529.24,
+      "tn_carr": 358.24,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
-          "prog": 2,
+          "prog": 3,
           "carr": 2,
-          "falta": 0,
-          "tn_prev": 89.29,
+          "falta": 1,
+          "tn_prev": 126.29,
           "tn_carr": 89.29
         },
         {
@@ -206,10 +206,10 @@
           "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
           "cnpj": "05399163000617",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 208.01,
-          "tn_carr": 36.01
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 212.49,
+          "tn_carr": 116.49
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -317,19 +317,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.06,
+      "tn_carr": 47.06,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.06,
+          "tn_carr": 47.06
         }
       ]
     },
