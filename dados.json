@@ -1,30 +1,30 @@
 {
   "data_relatorio": "08/07/2026",
-  "gerado_em": "2026-07-08T07:46:43",
-  "atualizado_em": "2026-07-08T10:50:25",
+  "gerado_em": "2026-07-08T08:00:16",
+  "atualizado_em": "2026-07-08T11:05:24",
   "totais": {
     "prog": 51,
-    "carr": 4,
-    "falta": 47,
-    "tn_prev": 1975.28,
-    "tn_carr": 154.26
+    "carr": 5,
+    "falta": 46,
+    "tn_prev": 1998.28,
+    "tn_carr": 189.17
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 36,
+      "prog": 37,
       "carr": 1,
-      "falta": 35,
-      "tn_prev": 1410.46,
+      "falta": 36,
+      "tn_prev": 1448.46,
       "tn_carr": 36.46
     },
     {
       "cliente": "BRASKEM",
-      "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 309.41,
-      "tn_carr": 117.8
+      "prog": 7,
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 294.41,
+      "tn_carr": 152.71
     },
     {
       "cliente": "CIM. LIZ",
@@ -62,10 +62,10 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 23,
+      "prog": 24,
       "carr": 1,
-      "falta": 22,
-      "tn_prev": 867.46,
+      "falta": 23,
+      "tn_prev": 905.46,
       "tn_carr": 36.46
     },
     {
@@ -78,11 +78,11 @@
     },
     {
       "produto": "TÉRMICO",
-      "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 309.41,
-      "tn_carr": 117.8
+      "prog": 7,
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 294.41,
+      "tn_carr": 152.71
     },
     {
       "produto": "PETRÓLEO",
@@ -114,19 +114,19 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 23,
+      "prog": 24,
       "carr": 1,
-      "falta": 22,
-      "tn_prev": 867.46,
+      "falta": 23,
+      "tn_prev": 905.46,
       "tn_carr": 36.46,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 9,
+          "prog": 10,
           "carr": 1,
-          "falta": 8,
-          "tn_prev": 340.46,
+          "falta": 9,
+          "tn_prev": 378.46,
           "tn_carr": 36.46
         },
         {
@@ -210,20 +210,20 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 309.41,
-      "tn_carr": 117.8,
+      "prog": 7,
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 294.41,
+      "tn_carr": 152.71,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
-          "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 120.0,
-          "tn_carr": 70.39
+          "prog": 3,
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 105.0,
+          "tn_carr": 105.3
         },
         {
           "nome": "FRATELLI (SC)",
