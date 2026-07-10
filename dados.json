@@ -1,22 +1,22 @@
 {
   "data_relatorio": "10/07/2026",
-  "gerado_em": "2026-07-10T14:20:36",
-  "atualizado_em": "2026-07-10T17:25:23",
+  "gerado_em": "2026-07-10T14:48:24",
+  "atualizado_em": "2026-07-10T17:50:32",
   "totais": {
-    "prog": 55,
-    "carr": 31,
-    "falta": 24,
-    "tn_prev": 2028.95,
-    "tn_carr": 1133.56
+    "prog": 51,
+    "carr": 34,
+    "falta": 17,
+    "tn_prev": 1886.55,
+    "tn_carr": 1251.22
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 25,
-      "carr": 16,
-      "falta": 9,
-      "tn_prev": 972.49,
-      "tn_carr": 630.49
+      "prog": 21,
+      "carr": 18,
+      "falta": 3,
+      "tn_prev": 830.09,
+      "tn_carr": 718.09
     },
     {
       "cliente": "BRASKEM",
@@ -45,10 +45,10 @@
     {
       "cliente": "METROPOLITANA",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
+      "carr": 4,
+      "falta": 1,
       "tn_prev": 145.97,
-      "tn_carr": 83.97
+      "tn_carr": 114.03
     },
     {
       "cliente": "BELLUNO",
@@ -71,26 +71,26 @@
     {
       "produto": "TÉRMICO",
       "prog": 23,
-      "carr": 13,
-      "falta": 10,
+      "carr": 14,
+      "falta": 9,
       "tn_prev": 759.33,
-      "tn_carr": 423.94
+      "tn_carr": 454.0
     },
     {
       "produto": "GESSO",
-      "prog": 18,
-      "carr": 11,
-      "falta": 7,
-      "tn_prev": 663.86,
-      "tn_carr": 407.86
+      "prog": 14,
+      "carr": 12,
+      "falta": 2,
+      "tn_prev": 520.06,
+      "tn_carr": 446.06
     },
     {
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
-      "tn_prev": 347.34,
-      "tn_carr": 261.34
+      "carr": 7,
+      "falta": 1,
+      "tn_prev": 348.74,
+      "tn_carr": 310.74
     },
     {
       "produto": "CARVÃO",
@@ -114,20 +114,20 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 18,
-      "carr": 11,
-      "falta": 7,
-      "tn_prev": 663.86,
-      "tn_carr": 407.86,
+      "prog": 14,
+      "carr": 12,
+      "falta": 2,
+      "tn_prev": 520.06,
+      "tn_carr": 446.06,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 227.42,
-          "tn_carr": 151.42
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 227.62,
+          "tn_carr": 189.62
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -150,10 +150,10 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 6,
+          "prog": 2,
           "carr": 2,
-          "falta": 4,
-          "tn_prev": 215.75,
+          "falta": 0,
+          "tn_prev": 71.75,
           "tn_carr": 71.75
         }
       ]
@@ -163,19 +163,19 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 308.63,
-      "tn_carr": 222.63,
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 310.03,
+      "tn_carr": 272.03,
       "transportadoras": [
         {
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 268.1,
-          "tn_carr": 182.1
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 269.5,
+          "tn_carr": 231.5
         },
         {
           "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
@@ -301,19 +301,19 @@
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
+      "carr": 4,
+      "falta": 1,
       "tn_prev": 145.97,
-      "tn_carr": 83.97,
+      "tn_carr": 114.03,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 5,
-          "carr": 3,
-          "falta": 2,
+          "carr": 4,
+          "falta": 1,
           "tn_prev": 145.97,
-          "tn_carr": 83.97
+          "tn_carr": 114.03
         }
       ]
     },
