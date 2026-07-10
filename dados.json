@@ -1,22 +1,22 @@
 {
   "data_relatorio": "10/07/2026",
-  "gerado_em": "2026-07-10T11:33:45",
-  "atualizado_em": "2026-07-10T14:35:34",
+  "gerado_em": "2026-07-10T12:00:05",
+  "atualizado_em": "2026-07-10T15:05:26",
   "totais": {
-    "prog": 50,
-    "carr": 23,
-    "falta": 27,
-    "tn_prev": 1825.17,
-    "tn_carr": 798.17
+    "prog": 53,
+    "carr": 24,
+    "falta": 29,
+    "tn_prev": 1935.47,
+    "tn_carr": 836.47
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 22,
-      "carr": 10,
+      "prog": 23,
+      "carr": 11,
       "falta": 12,
-      "tn_prev": 830.71,
-      "tn_carr": 374.71
+      "tn_prev": 879.01,
+      "tn_carr": 413.01
     },
     {
       "cliente": "BRASKEM",
@@ -43,6 +43,14 @@
       "tn_carr": 79.13
     },
     {
+      "cliente": "METROPOLITANA",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 145.97,
+      "tn_carr": 83.97
+    },
+    {
       "cliente": "BELLUNO",
       "prog": 4,
       "carr": 2,
@@ -57,39 +65,31 @@
       "falta": 2,
       "tn_prev": 100.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "METROPOLITANA",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 83.97,
-      "tn_carr": 83.97
     }
   ],
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 21,
+      "prog": 23,
       "carr": 11,
-      "falta": 10,
-      "tn_prev": 697.33,
+      "falta": 12,
+      "tn_prev": 759.33,
       "tn_carr": 344.33
     },
     {
       "produto": "GESSO",
       "prog": 18,
-      "carr": 8,
-      "falta": 10,
-      "tn_prev": 663.75,
-      "tn_carr": 293.75
+      "carr": 9,
+      "falta": 9,
+      "tn_prev": 664.05,
+      "tn_carr": 332.05
     },
     {
       "produto": "PETCOKE",
-      "prog": 5,
+      "prog": 6,
       "carr": 3,
-      "falta": 2,
-      "tn_prev": 205.67,
+      "falta": 3,
+      "tn_prev": 253.67,
       "tn_carr": 119.67
     },
     {
@@ -115,19 +115,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 18,
-      "carr": 8,
-      "falta": 10,
-      "tn_prev": 663.75,
-      "tn_carr": 293.75,
+      "carr": 9,
+      "falta": 9,
+      "tn_prev": 664.05,
+      "tn_carr": 332.05,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 6,
-          "carr": 1,
-          "falta": 5,
-          "tn_prev": 227.31,
-          "tn_carr": 37.31
+          "carr": 2,
+          "falta": 4,
+          "tn_prev": 227.61,
+          "tn_carr": 75.61
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -207,6 +207,36 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 214.96,
+      "tn_carr": 80.96,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 4,
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 174.43,
+          "tn_carr": 40.43
+        },
+        {
+          "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
+          "cnpj": "05399163000617",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 40.53,
+          "tn_carr": 40.53
+        }
+      ]
+    },
+    {
       "lote": "GABRIELLA - TÉRMICO JOKER - PILHA 92",
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
@@ -224,36 +254,6 @@
           "falta": 4,
           "tn_prev": 214.42,
           "tn_carr": 114.42
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
-      "cliente": "ITAMBÉ",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 166.96,
-      "tn_carr": 80.96,
-      "transportadoras": [
-        {
-          "nome": "G7 LOG (RJ)",
-          "cnpj": "14170909001336",
-          "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 126.43,
-          "tn_carr": 40.43
-        },
-        {
-          "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
-          "cnpj": "05399163000617",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 40.53,
-          "tn_carr": 40.53
         }
       ]
     },
@@ -297,6 +297,27 @@
       ]
     },
     {
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
+      "produto": "TÉRMICO",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 145.97,
+      "tn_carr": 83.97,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 5,
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 145.97,
+          "tn_carr": 83.97
+        }
+      ]
+    },
+    {
       "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
@@ -335,27 +356,6 @@
           "falta": 2,
           "tn_prev": 100.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
-      "cliente": "METROPOLITANA",
-      "produto": "TÉRMICO",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 83.97,
-      "tn_carr": 83.97,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 83.97,
-          "tn_carr": 83.97
         }
       ]
     },
