@@ -1,13 +1,13 @@
 {
   "data_relatorio": "10/07/2026",
-  "gerado_em": "2026-07-10T15:11:07",
-  "atualizado_em": "2026-07-10T18:15:25",
+  "gerado_em": "2026-07-10T16:00:13",
+  "atualizado_em": "2026-07-10T19:05:24",
   "totais": {
     "prog": 51,
-    "carr": 37,
-    "falta": 14,
+    "carr": 43,
+    "falta": 8,
     "tn_prev": 1891.02,
-    "tn_carr": 1369.61
+    "tn_carr": 1561.98
   },
   "por_cliente": [
     {
@@ -21,18 +21,18 @@
     {
       "cliente": "BRASKEM",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
+      "carr": 5,
+      "falta": 1,
       "tn_prev": 275.43,
-      "tn_carr": 129.97
+      "tn_carr": 224.81
     },
     {
       "cliente": "GABRIELLA",
       "prog": 8,
-      "carr": 4,
-      "falta": 4,
+      "carr": 8,
+      "falta": 0,
       "tn_prev": 214.42,
-      "tn_carr": 114.42
+      "tn_carr": 211.95
     },
     {
       "cliente": "CIM. LIZ",
@@ -71,10 +71,10 @@
     {
       "produto": "TÉRMICO",
       "prog": 23,
-      "carr": 15,
-      "falta": 8,
+      "carr": 21,
+      "falta": 2,
       "tn_prev": 759.33,
-      "tn_carr": 483.92
+      "tn_carr": 676.29
     },
     {
       "produto": "GESSO",
@@ -193,10 +193,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
+      "carr": 5,
+      "falta": 1,
       "tn_prev": 275.43,
-      "tn_carr": 129.97,
+      "tn_carr": 224.81,
       "transportadoras": [
         {
           "nome": "UNIÃO LOG (SC)",
@@ -211,10 +211,10 @@
           "nome": "SIDEROPOLIS (SC)",
           "cnpj": "11720812000128",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "tn_carr": 48.24
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -229,10 +229,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 49.0,
-          "tn_carr": 0.0
+          "tn_carr": 46.6
         }
       ]
     },
@@ -241,19 +241,19 @@
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 8,
-      "carr": 4,
-      "falta": 4,
+      "carr": 8,
+      "falta": 0,
       "tn_prev": 214.42,
-      "tn_carr": 114.42,
+      "tn_carr": 211.95,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
           "prog": 8,
-          "carr": 4,
-          "falta": 4,
+          "carr": 8,
+          "falta": 0,
           "tn_prev": 214.42,
-          "tn_carr": 114.42
+          "tn_carr": 211.95
         }
       ]
     },
