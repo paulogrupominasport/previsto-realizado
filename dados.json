@@ -1,22 +1,22 @@
 {
   "data_relatorio": "10/07/2026",
-  "gerado_em": "2026-07-10T12:00:05",
-  "atualizado_em": "2026-07-10T15:05:26",
+  "gerado_em": "2026-07-10T13:00:10",
+  "atualizado_em": "2026-07-10T16:05:41",
   "totais": {
-    "prog": 53,
-    "carr": 24,
+    "prog": 55,
+    "carr": 26,
     "falta": 29,
-    "tn_prev": 1935.47,
-    "tn_carr": 836.47
+    "tn_prev": 2020.89,
+    "tn_carr": 905.96
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 23,
-      "carr": 11,
-      "falta": 12,
-      "tn_prev": 879.01,
-      "tn_carr": 413.01
+      "prog": 25,
+      "carr": 12,
+      "falta": 13,
+      "tn_prev": 964.43,
+      "tn_carr": 450.43
     },
     {
       "cliente": "BRASKEM",
@@ -53,10 +53,10 @@
     {
       "cliente": "BELLUNO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 3,
+      "falta": 1,
       "tn_prev": 123.51,
-      "tn_carr": 63.51
+      "tn_carr": 95.58
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -71,25 +71,25 @@
     {
       "produto": "TÉRMICO",
       "prog": 23,
-      "carr": 11,
-      "falta": 12,
+      "carr": 12,
+      "falta": 11,
       "tn_prev": 759.33,
-      "tn_carr": 344.33
+      "tn_carr": 376.4
     },
     {
       "produto": "GESSO",
       "prog": 18,
-      "carr": 9,
-      "falta": 9,
-      "tn_prev": 664.05,
-      "tn_carr": 332.05
+      "carr": 10,
+      "falta": 8,
+      "tn_prev": 663.47,
+      "tn_carr": 369.47
     },
     {
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 8,
       "carr": 3,
-      "falta": 3,
-      "tn_prev": 253.67,
+      "falta": 5,
+      "tn_prev": 339.67,
       "tn_carr": 119.67
     },
     {
@@ -115,19 +115,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 18,
-      "carr": 9,
-      "falta": 9,
-      "tn_prev": 664.05,
-      "tn_carr": 332.05,
+      "carr": 10,
+      "falta": 8,
+      "tn_prev": 663.47,
+      "tn_carr": 369.47,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 6,
-          "carr": 2,
-          "falta": 4,
-          "tn_prev": 227.61,
-          "tn_carr": 75.61
+          "carr": 3,
+          "falta": 3,
+          "tn_prev": 227.03,
+          "tn_carr": 113.03
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -155,6 +155,36 @@
           "falta": 4,
           "tn_prev": 215.75,
           "tn_carr": 71.75
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 7,
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 300.96,
+      "tn_carr": 80.96,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 6,
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 260.43,
+          "tn_carr": 40.43
+        },
+        {
+          "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
+          "cnpj": "05399163000617",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 40.53,
+          "tn_carr": 40.53
         }
       ]
     },
@@ -203,36 +233,6 @@
           "falta": 1,
           "tn_prev": 49.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
-      "cliente": "ITAMBÉ",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 214.96,
-      "tn_carr": 80.96,
-      "transportadoras": [
-        {
-          "nome": "G7 LOG (RJ)",
-          "cnpj": "14170909001336",
-          "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 174.43,
-          "tn_carr": 40.43
-        },
-        {
-          "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
-          "cnpj": "05399163000617",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 40.53,
-          "tn_carr": 40.53
         }
       ]
     },
@@ -322,19 +322,19 @@
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 3,
+      "falta": 1,
       "tn_prev": 123.51,
-      "tn_carr": 63.51,
+      "tn_carr": 95.58,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
+          "carr": 3,
+          "falta": 1,
           "tn_prev": 123.51,
-          "tn_carr": 63.51
+          "tn_carr": 95.58
         }
       ]
     },
