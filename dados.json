@@ -1,30 +1,30 @@
 {
   "data_relatorio": "11/07/2026",
-  "gerado_em": "2026-07-11T08:05:14",
-  "atualizado_em": "2026-07-11T11:10:25",
+  "gerado_em": "2026-07-11T09:00:16",
+  "atualizado_em": "2026-07-11T12:05:24",
   "totais": {
     "prog": 33,
-    "carr": 6,
-    "falta": 27,
-    "tn_prev": 1241.15,
-    "tn_carr": 200.69
+    "carr": 11,
+    "falta": 22,
+    "tn_prev": 1240.08,
+    "tn_carr": 373.62
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 21,
-      "carr": 5,
-      "falta": 16,
-      "tn_prev": 751.15,
-      "tn_carr": 173.15
+      "carr": 8,
+      "falta": 13,
+      "tn_prev": 750.63,
+      "tn_carr": 278.63
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 268.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 269.49,
+      "tn_carr": 39.49
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -37,10 +37,10 @@
     {
       "cliente": "APERAM",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 90.0,
-      "tn_carr": 27.54
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 87.96,
+      "tn_carr": 55.5
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -55,10 +55,10 @@
     {
       "produto": "GESSO",
       "prog": 21,
-      "carr": 5,
-      "falta": 16,
-      "tn_prev": 751.15,
-      "tn_carr": 173.15
+      "carr": 8,
+      "falta": 13,
+      "tn_prev": 750.63,
+      "tn_carr": 278.63
     },
     {
       "produto": "PETCOKE",
@@ -79,18 +79,18 @@
     {
       "produto": "COQUE",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 90.0,
-      "tn_carr": 27.54
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 87.96,
+      "tn_carr": 55.5
     },
     {
       "produto": "CARVÃO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 77.49,
+      "tn_carr": 39.49
     }
   ],
   "lotes": [
@@ -99,10 +99,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 21,
-      "carr": 5,
-      "falta": 16,
-      "tn_prev": 751.15,
-      "tn_carr": 173.15,
+      "carr": 8,
+      "falta": 13,
+      "tn_prev": 750.63,
+      "tn_carr": 278.63,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
@@ -110,17 +110,17 @@
           "prog": 8,
           "carr": 0,
           "falta": 8,
-          "tn_prev": 290.0,
+          "tn_prev": 292.0,
           "tn_carr": 0.0
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 13,
-          "carr": 5,
-          "falta": 8,
-          "tn_prev": 461.15,
-          "tn_carr": 173.15
+          "carr": 8,
+          "falta": 5,
+          "tn_prev": 458.63,
+          "tn_carr": 278.63
         }
       ]
     },
@@ -180,19 +180,19 @@
       "cliente": "APERAM",
       "produto": "COQUE",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 90.0,
-      "tn_carr": 27.54,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 87.96,
+      "tn_carr": 55.5,
       "transportadoras": [
         {
           "nome": "SAMATRA (MG)",
           "cnpj": "20752507000370",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 90.0,
-          "tn_carr": 27.54
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 87.96,
+          "tn_carr": 55.5
         }
       ]
     },
@@ -201,19 +201,19 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 77.49,
+      "tn_carr": 39.49,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (MG)",
           "cnpj": "07619336000186",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 77.49,
+          "tn_carr": 39.49
         }
       ]
     },
