@@ -1,30 +1,30 @@
 {
   "data_relatorio": "11/07/2026",
-  "gerado_em": "2026-07-11T09:00:16",
-  "atualizado_em": "2026-07-11T12:05:24",
+  "gerado_em": "2026-07-11T10:00:09",
+  "atualizado_em": "2026-07-11T13:05:24",
   "totais": {
     "prog": 33,
-    "carr": 11,
-    "falta": 22,
-    "tn_prev": 1240.08,
-    "tn_carr": 373.62
+    "carr": 22,
+    "falta": 11,
+    "tn_prev": 1250.97,
+    "tn_carr": 812.51
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 21,
-      "carr": 8,
-      "falta": 13,
-      "tn_prev": 750.63,
-      "tn_carr": 278.63
+      "carr": 14,
+      "falta": 7,
+      "tn_prev": 753.79,
+      "tn_carr": 497.79
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 6,
-      "carr": 1,
-      "falta": 5,
-      "tn_prev": 269.49,
-      "tn_carr": 39.49
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 279.49,
+      "tn_carr": 231.49
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -37,10 +37,10 @@
     {
       "cliente": "APERAM",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 87.96,
-      "tn_carr": 55.5
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 85.69,
+      "tn_carr": 83.23
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -55,18 +55,18 @@
     {
       "produto": "GESSO",
       "prog": 21,
-      "carr": 8,
-      "falta": 13,
-      "tn_prev": 750.63,
-      "tn_carr": 278.63
+      "carr": 14,
+      "falta": 7,
+      "tn_prev": 753.79,
+      "tn_carr": 497.79
     },
     {
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 224.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 232.16,
+      "tn_carr": 152.16
     },
     {
       "produto": "PETRÓLEO",
@@ -79,18 +79,18 @@
     {
       "produto": "COQUE",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 87.96,
-      "tn_carr": 55.5
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 85.69,
+      "tn_carr": 83.23
     },
     {
       "produto": "CARVÃO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 77.49,
-      "tn_carr": 39.49
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 79.33,
+      "tn_carr": 79.33
     }
   ],
   "lotes": [
@@ -99,28 +99,28 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 21,
-      "carr": 8,
-      "falta": 13,
-      "tn_prev": 750.63,
-      "tn_carr": 278.63,
+      "carr": 14,
+      "falta": 7,
+      "tn_prev": 753.79,
+      "tn_carr": 497.79,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 292.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 6,
+          "tn_prev": 298.14,
+          "tn_carr": 78.14
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 13,
-          "carr": 8,
-          "falta": 5,
-          "tn_prev": 458.63,
-          "tn_carr": 278.63
+          "carr": 12,
+          "falta": 1,
+          "tn_prev": 455.65,
+          "tn_carr": 419.65
         }
       ]
     },
@@ -129,28 +129,28 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 200.16,
+      "tn_carr": 152.16,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 144.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 149.84,
+          "tn_carr": 101.84
         },
         {
           "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
           "cnpj": "05399163000617",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 50.32,
+          "tn_carr": 50.32
         }
       ]
     },
@@ -180,19 +180,19 @@
       "cliente": "APERAM",
       "produto": "COQUE",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 87.96,
-      "tn_carr": 55.5,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 85.69,
+      "tn_carr": 83.23,
       "transportadoras": [
         {
           "nome": "SAMATRA (MG)",
           "cnpj": "20752507000370",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 87.96,
-          "tn_carr": 55.5
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 85.69,
+          "tn_carr": 83.23
         }
       ]
     },
@@ -201,19 +201,19 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 77.49,
-      "tn_carr": 39.49,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 79.33,
+      "tn_carr": 79.33,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (MG)",
           "cnpj": "07619336000186",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 77.49,
-          "tn_carr": 39.49
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 79.33,
+          "tn_carr": 79.33
         }
       ]
     },
