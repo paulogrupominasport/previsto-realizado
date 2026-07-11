@@ -1,29 +1,29 @@
 {
   "data_relatorio": "11/07/2026",
-  "gerado_em": "2026-07-11T07:00:13",
-  "atualizado_em": "2026-07-11T10:05:25",
+  "gerado_em": "2026-07-11T08:00:19",
+  "atualizado_em": "2026-07-11T11:05:27",
   "totais": {
-    "prog": 32,
-    "carr": 0,
-    "falta": 32,
-    "tn_prev": 1200.0,
-    "tn_carr": 0.0
+    "prog": 33,
+    "carr": 3,
+    "falta": 30,
+    "tn_prev": 1243.61,
+    "tn_carr": 103.61
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 758.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 18,
+      "tn_prev": 753.61,
+      "tn_carr": 103.61
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 5,
+      "prog": 6,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 220.0,
+      "falta": 6,
+      "tn_prev": 268.0,
       "tn_carr": 0.0
     },
     {
@@ -55,17 +55,17 @@
     {
       "produto": "GESSO",
       "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 758.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 18,
+      "tn_prev": 753.61,
+      "tn_carr": 103.61
     },
     {
       "produto": "PETCOKE",
-      "prog": 4,
+      "prog": 5,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 176.0,
+      "falta": 5,
+      "tn_prev": 224.0,
       "tn_carr": 0.0
     },
     {
@@ -99,10 +99,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 758.0,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 18,
+      "tn_prev": 753.61,
+      "tn_carr": 103.61,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
@@ -117,10 +117,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 13,
-          "carr": 0,
-          "falta": 13,
-          "tn_prev": 468.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 10,
+          "tn_prev": 463.61,
+          "tn_carr": 103.61
         }
       ]
     },
@@ -128,19 +128,19 @@
       "lote": "CIM. LIZ - PETCOKE - XIN TONG HAI - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 144.0,
+      "falta": 4,
+      "tn_prev": 192.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
+          "falta": 3,
+          "tn_prev": 144.0,
           "tn_carr": 0.0
         },
         {
