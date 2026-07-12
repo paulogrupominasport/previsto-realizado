@@ -1,22 +1,22 @@
 {
   "data_relatorio": "12/07/2026",
-  "gerado_em": "2026-07-12T08:00:14",
-  "atualizado_em": "2026-07-12T11:17:56",
+  "gerado_em": "2026-07-12T09:00:06",
+  "atualizado_em": "2026-07-12T12:05:23",
   "totais": {
     "prog": 10,
-    "carr": 0,
-    "falta": 10,
-    "tn_prev": 451.0,
-    "tn_carr": 0.0
+    "carr": 2,
+    "falta": 8,
+    "tn_prev": 450.61,
+    "tn_carr": 85.61
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 313.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 311.96,
+      "tn_carr": 46.96
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -29,28 +29,28 @@
     {
       "cliente": "BELOCAL MTZ",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.65,
+      "tn_carr": 38.65
     }
   ],
   "por_produto": [
     {
       "produto": "CARVÃO",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 242.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 240.96,
+      "tn_carr": 46.96
     },
     {
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 109.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 109.65,
+      "tn_carr": 38.65
     },
     {
       "produto": "PETRÓLEO",
@@ -67,10 +67,10 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 242.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 240.96,
+      "tn_carr": 46.96,
       "transportadoras": [
         {
           "nome": "JRS LOGISTICA (ES)",
@@ -85,10 +85,10 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 192.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 190.96,
+          "tn_carr": 46.96
         }
       ]
     },
@@ -139,19 +139,19 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.65,
+      "tn_carr": 38.65,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.65,
+          "tn_carr": 38.65
         }
       ]
     }
