@@ -1829,33 +1829,39 @@
     }
   },
   "2026-07-13": {
-    "gerado_em": "2026-07-13T11:00:06",
-    "atualizado_em": "2026-07-13T14:05:33",
+    "gerado_em": "2026-07-13T12:00:10",
+    "atualizado_em": "2026-07-13T15:05:29",
     "totais": {
-      "prog": 32,
-      "carr": 14,
-      "falta": 18,
-      "tn_prev": 1156.44,
-      "tn_carr": 486.32
+      "prog": 38,
+      "carr": 19,
+      "falta": 19,
+      "tn_prev": 1332.09,
+      "tn_carr": 663.41
     },
     "por_cliente": {
       "ITAMBÉ": {
         "prog": 15,
-        "carr": 4,
-        "tn_prev": 553.44,
-        "tn_carr": 143.44
+        "carr": 5,
+        "tn_prev": 553.46,
+        "tn_carr": 179.46
       },
       "BRASKEM": {
         "prog": 8,
-        "carr": 5,
+        "carr": 8,
         "tn_prev": 297.0,
-        "tn_carr": 195.52
+        "tn_carr": 300.96
       },
       "GABRIELLA": {
-        "prog": 4,
+        "prog": 8,
         "carr": 4,
-        "tn_prev": 100.0,
+        "tn_prev": 200.0,
         "tn_carr": 114.24
+      },
+      "CIM. LIZ": {
+        "prog": 3,
+        "carr": 1,
+        "tn_prev": 121.63,
+        "tn_carr": 35.63
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -1863,42 +1869,36 @@
         "tn_prev": 100.0,
         "tn_carr": 0.0
       },
-      "CIM. LIZ": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 76.0,
-        "tn_carr": 0.0
-      },
       "BELLUNO": {
-        "prog": 1,
+        "prog": 2,
         "carr": 1,
-        "tn_prev": 30.0,
+        "tn_prev": 60.0,
         "tn_carr": 33.12
       }
     },
     "por_produto": {
+      "TÉRMICO": {
+        "prog": 18,
+        "carr": 13,
+        "tn_prev": 557.0,
+        "tn_carr": 448.32
+      },
       "GESSO": {
         "prog": 15,
-        "carr": 4,
-        "tn_prev": 553.44,
-        "tn_carr": 143.44
+        "carr": 5,
+        "tn_prev": 553.46,
+        "tn_carr": 179.46
       },
-      "TÉRMICO": {
-        "prog": 13,
-        "carr": 10,
-        "tn_prev": 427.0,
-        "tn_carr": 342.88
+      "CARVÃO": {
+        "prog": 3,
+        "carr": 1,
+        "tn_prev": 121.63,
+        "tn_carr": 35.63
       },
       "PETRÓLEO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 100.0,
-        "tn_carr": 0.0
-      },
-      "CARVÃO": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 76.0,
         "tn_carr": 0.0
       }
     }
