@@ -1,38 +1,38 @@
 {
   "data_relatorio": "13/07/2026",
-  "gerado_em": "2026-07-13T08:00:11",
-  "atualizado_em": "2026-07-13T11:05:32",
+  "gerado_em": "2026-07-13T09:00:18",
+  "atualizado_em": "2026-07-13T12:05:24",
   "totais": {
-    "prog": 23,
-    "carr": 2,
-    "falta": 21,
-    "tn_prev": 816.0,
-    "tn_carr": 74.83
+    "prog": 26,
+    "carr": 7,
+    "falta": 19,
+    "tn_prev": 923.8,
+    "tn_carr": 240.03
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 288.0,
-      "tn_carr": 0.0
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 358.8,
+      "tn_carr": 107.8
     },
     {
       "cliente": "BRASKEM",
-      "prog": 7,
+      "prog": 8,
       "carr": 2,
-      "falta": 5,
-      "tn_prev": 260.0,
+      "falta": 6,
+      "tn_prev": 297.0,
       "tn_carr": 74.83
     },
     {
       "cliente": "GABRIELLA",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
+      "carr": 2,
+      "falta": 2,
       "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "tn_carr": 57.4
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -62,19 +62,19 @@
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 12,
-      "carr": 2,
-      "falta": 10,
-      "tn_prev": 390.0,
-      "tn_carr": 74.83
+      "prog": 13,
+      "carr": 4,
+      "falta": 9,
+      "tn_prev": 427.0,
+      "tn_carr": 132.23
     },
     {
       "produto": "GESSO",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 288.0,
-      "tn_carr": 0.0
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 358.8,
+      "tn_carr": 107.8
     },
     {
       "produto": "PETRÓLEO",
@@ -98,20 +98,29 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 288.0,
-      "tn_carr": 0.0,
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 358.8,
+      "tn_carr": 107.8,
       "transportadoras": [
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 288.0,
-          "tn_carr": 0.0
+          "prog": 9,
+          "carr": 3,
+          "falta": 6,
+          "tn_prev": 323.8,
+          "tn_carr": 107.8
         }
       ]
     },
@@ -119,10 +128,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 7,
+      "prog": 8,
       "carr": 2,
-      "falta": 5,
-      "tn_prev": 260.0,
+      "falta": 6,
+      "tn_prev": 297.0,
       "tn_carr": 74.83,
       "transportadoras": [
         {
@@ -146,10 +155,10 @@
         {
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 94.0,
+          "falta": 3,
+          "tn_prev": 131.0,
           "tn_carr": 0.0
         },
         {
@@ -168,19 +177,19 @@
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
+      "carr": 2,
+      "falta": 2,
       "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "tn_carr": 57.4,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
+          "carr": 2,
+          "falta": 2,
           "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "tn_carr": 57.4
         }
       ]
     },
