@@ -1,22 +1,22 @@
 {
   "data_relatorio": "13/07/2026",
-  "gerado_em": "2026-07-13T15:00:19",
-  "atualizado_em": "2026-07-13T18:05:24",
+  "gerado_em": "2026-07-13T16:00:07",
+  "atualizado_em": "2026-07-13T19:05:24",
   "totais": {
-    "prog": 49,
-    "carr": 28,
-    "falta": 21,
-    "tn_prev": 1666.86,
-    "tn_carr": 943.75
+    "prog": 52,
+    "carr": 34,
+    "falta": 18,
+    "tn_prev": 1725.38,
+    "tn_carr": 1093.33
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 16,
-      "carr": 8,
+      "prog": 17,
+      "carr": 9,
       "falta": 8,
-      "tn_prev": 590.23,
-      "tn_carr": 288.23
+      "tn_prev": 625.69,
+      "tn_carr": 322.69
     },
     {
       "cliente": "BRASKEM",
@@ -45,10 +45,10 @@
     {
       "cliente": "BELLUNO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 120.0,
-      "tn_carr": 61.35
+      "tn_carr": 122.62
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -69,10 +69,10 @@
     {
       "cliente": "RIO DESERTO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 1,
+      "falta": 1,
       "tn_prev": 62.0,
-      "tn_carr": 0.0
+      "tn_carr": 30.79
     },
     {
       "cliente": "APERAM",
@@ -81,24 +81,32 @@
       "falta": 2,
       "tn_prev": 60.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "COMERCIAL CARVALHO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 23.06,
+      "tn_carr": 23.06
     }
   ],
   "por_produto": [
     {
       "produto": "TÉRMICO",
       "prog": 25,
-      "carr": 19,
-      "falta": 6,
+      "carr": 22,
+      "falta": 3,
       "tn_prev": 757.0,
-      "tn_carr": 619.89
+      "tn_carr": 711.95
     },
     {
       "produto": "GESSO",
-      "prog": 16,
-      "carr": 8,
+      "prog": 17,
+      "carr": 9,
       "falta": 8,
-      "tn_prev": 590.23,
-      "tn_carr": 288.23
+      "tn_prev": 625.69,
+      "tn_carr": 322.69
     },
     {
       "produto": "CARVÃO",
@@ -123,6 +131,14 @@
       "falta": 2,
       "tn_prev": 60.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Carregamento Sucata",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 23.06,
+      "tn_carr": 23.06
     }
   ],
   "lotes": [
@@ -130,11 +146,11 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 16,
-      "carr": 8,
+      "prog": 17,
+      "carr": 9,
       "falta": 8,
-      "tn_prev": 590.23,
-      "tn_carr": 288.23,
+      "tn_prev": 625.69,
+      "tn_carr": 322.69,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -149,18 +165,18 @@
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 6,
-          "carr": 1,
-          "falta": 5,
-          "tn_prev": 220.18,
-          "tn_carr": 39.18
+          "carr": 2,
+          "falta": 4,
+          "tn_prev": 219.64,
+          "tn_carr": 73.64
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 9,
+          "prog": 10,
           "carr": 7,
-          "falta": 2,
-          "tn_prev": 321.05,
+          "falta": 3,
+          "tn_prev": 357.05,
           "tn_carr": 249.05
         }
       ]
@@ -278,19 +294,19 @@
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 120.0,
-      "tn_carr": 61.35,
+      "tn_carr": 122.62,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
+          "carr": 4,
+          "falta": 0,
           "tn_prev": 120.0,
-          "tn_carr": 61.35
+          "tn_carr": 122.62
         }
       ]
     },
@@ -341,19 +357,19 @@
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 1,
+      "falta": 1,
       "tn_prev": 62.0,
-      "tn_carr": 0.0,
+      "tn_carr": 30.79,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 62.0,
-          "tn_carr": 0.0
+          "tn_carr": 30.79
         }
       ]
     },
@@ -375,6 +391,27 @@
           "falta": 2,
           "tn_prev": 60.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
+      "cliente": "COMERCIAL CARVALHO",
+      "produto": "Carregamento Sucata",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 23.06,
+      "tn_carr": 23.06,
+      "transportadoras": [
+        {
+          "nome": "COMERCIAL CARVALHO",
+          "cnpj": "05362003000199",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 23.06,
+          "tn_carr": 23.06
         }
       ]
     }
