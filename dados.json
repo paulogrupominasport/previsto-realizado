@@ -1,21 +1,21 @@
 {
   "data_relatorio": "13/07/2026",
-  "gerado_em": "2026-07-13T18:00:27",
-  "atualizado_em": "2026-07-13T21:05:37",
+  "gerado_em": "2026-07-13T19:00:08",
+  "atualizado_em": "2026-07-13T22:05:23",
   "totais": {
-    "prog": 52,
+    "prog": 49,
     "carr": 46,
-    "falta": 6,
-    "tn_prev": 1725.31,
+    "falta": 3,
+    "tn_prev": 1625.31,
     "tn_carr": 1529.15
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 17,
+      "prog": 16,
       "carr": 16,
-      "falta": 1,
-      "tn_prev": 624.61,
+      "falta": 0,
+      "tn_prev": 586.61,
       "tn_carr": 586.61
     },
     {
@@ -59,28 +59,28 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "METROPOLITANA",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 68.0,
-      "tn_carr": 30.32
-    },
-    {
-      "cliente": "RIO DESERTO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 62.0,
-      "tn_carr": 30.79
-    },
-    {
       "cliente": "APERAM",
       "prog": 2,
       "carr": 2,
       "falta": 0,
       "tn_prev": 60.0,
       "tn_carr": 54.57
+    },
+    {
+      "cliente": "METROPOLITANA",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.0,
+      "tn_carr": 30.32
+    },
+    {
+      "cliente": "RIO DESERTO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 31.0,
+      "tn_carr": 30.79
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -94,18 +94,18 @@
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 25,
+      "prog": 23,
       "carr": 23,
-      "falta": 2,
-      "tn_prev": 757.0,
+      "falta": 0,
+      "tn_prev": 695.0,
       "tn_carr": 742.27
     },
     {
       "produto": "GESSO",
-      "prog": 17,
+      "prog": 16,
       "carr": 16,
-      "falta": 1,
-      "tn_prev": 624.61,
+      "falta": 0,
+      "tn_prev": 586.61,
       "tn_carr": 586.61
     },
     {
@@ -146,10 +146,10 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 17,
+      "prog": 16,
       "carr": 16,
-      "falta": 1,
-      "tn_prev": 624.61,
+      "falta": 0,
+      "tn_prev": 586.61,
       "tn_carr": 586.61,
       "transportadoras": [
         {
@@ -164,10 +164,10 @@
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
-          "prog": 6,
+          "prog": 5,
           "carr": 5,
-          "falta": 1,
-          "tn_prev": 220.14,
+          "falta": 0,
+          "tn_prev": 182.14,
           "tn_carr": 182.14
         },
         {
@@ -332,48 +332,6 @@
       ]
     },
     {
-      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
-      "cliente": "METROPOLITANA",
-      "produto": "TÉRMICO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 68.0,
-      "tn_carr": 30.32,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 68.0,
-          "tn_carr": 30.32
-        }
-      ]
-    },
-    {
-      "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
-      "cliente": "RIO DESERTO",
-      "produto": "TÉRMICO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 62.0,
-      "tn_carr": 30.79,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 62.0,
-          "tn_carr": 30.79
-        }
-      ]
-    },
-    {
       "lote": "APERAM- COQUE - PILHA 80 - MAIO",
       "cliente": "APERAM",
       "produto": "COQUE",
@@ -391,6 +349,48 @@
           "falta": 0,
           "tn_prev": 60.0,
           "tn_carr": 54.57
+        }
+      ]
+    },
+    {
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
+      "produto": "TÉRMICO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.0,
+      "tn_carr": 30.32,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.0,
+          "tn_carr": 30.32
+        }
+      ]
+    },
+    {
+      "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "RIO DESERTO",
+      "produto": "TÉRMICO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 31.0,
+      "tn_carr": 30.79,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 31.0,
+          "tn_carr": 30.79
         }
       ]
     },
