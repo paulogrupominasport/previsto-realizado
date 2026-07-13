@@ -1,30 +1,30 @@
 {
   "data_relatorio": "13/07/2026",
-  "gerado_em": "2026-07-13T14:00:09",
-  "atualizado_em": "2026-07-13T17:05:28",
+  "gerado_em": "2026-07-13T15:00:19",
+  "atualizado_em": "2026-07-13T18:05:24",
   "totais": {
-    "prog": 40,
-    "carr": 24,
-    "falta": 16,
-    "tn_prev": 1380.09,
-    "tn_carr": 800.25
+    "prog": 49,
+    "carr": 28,
+    "falta": 21,
+    "tn_prev": 1666.86,
+    "tn_carr": 943.75
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 15,
-      "carr": 5,
-      "falta": 10,
-      "tn_prev": 553.46,
-      "tn_carr": 179.46
+      "prog": 16,
+      "carr": 8,
+      "falta": 8,
+      "tn_prev": 590.23,
+      "tn_carr": 288.23
     },
     {
       "cliente": "BRASKEM",
       "prog": 9,
-      "carr": 8,
-      "falta": 1,
+      "carr": 9,
+      "falta": 0,
       "tn_prev": 307.0,
-      "tn_carr": 300.96
+      "tn_carr": 335.69
     },
     {
       "cliente": "GABRIELLA",
@@ -43,6 +43,14 @@
       "tn_carr": 35.63
     },
     {
+      "cliente": "BELLUNO",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 120.0,
+      "tn_carr": 61.35
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
@@ -51,30 +59,46 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BELLUNO",
+      "cliente": "METROPOLITANA",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 68.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "RIO DESERTO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 62.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "APERAM",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
       "tn_prev": 60.0,
-      "tn_carr": 61.35
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 19,
-      "carr": 18,
-      "falta": 1,
-      "tn_prev": 567.0,
-      "tn_carr": 585.16
+      "prog": 25,
+      "carr": 19,
+      "falta": 6,
+      "tn_prev": 757.0,
+      "tn_carr": 619.89
     },
     {
       "produto": "GESSO",
-      "prog": 15,
-      "carr": 5,
-      "falta": 10,
-      "tn_prev": 553.46,
-      "tn_carr": 179.46
+      "prog": 16,
+      "carr": 8,
+      "falta": 8,
+      "tn_prev": 590.23,
+      "tn_carr": 288.23
     },
     {
       "produto": "CARVÃO",
@@ -91,6 +115,14 @@
       "falta": 2,
       "tn_prev": 100.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "COQUE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 60.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -98,11 +130,11 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 15,
-      "carr": 5,
-      "falta": 10,
-      "tn_prev": 553.46,
-      "tn_carr": 179.46,
+      "prog": 16,
+      "carr": 8,
+      "falta": 8,
+      "tn_prev": 590.23,
+      "tn_carr": 288.23,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -116,20 +148,20 @@
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
-          "prog": 5,
-          "carr": 0,
+          "prog": 6,
+          "carr": 1,
           "falta": 5,
-          "tn_prev": 181.0,
-          "tn_carr": 0.0
+          "tn_prev": 220.18,
+          "tn_carr": 39.18
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 9,
-          "carr": 5,
-          "falta": 4,
-          "tn_prev": 323.46,
-          "tn_carr": 179.46
+          "carr": 7,
+          "falta": 2,
+          "tn_prev": 321.05,
+          "tn_carr": 249.05
         }
       ]
     },
@@ -138,10 +170,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 8,
-      "falta": 1,
+      "carr": 9,
+      "falta": 0,
       "tn_prev": 307.0,
-      "tn_carr": 300.96,
+      "tn_carr": 335.69,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -174,10 +206,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
+          "carr": 3,
+          "falta": 0,
           "tn_prev": 74.0,
-          "tn_carr": 57.36
+          "tn_carr": 92.09
         }
       ]
     },
@@ -242,6 +274,27 @@
       ]
     },
     {
+      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BELLUNO",
+      "produto": "TÉRMICO",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 120.0,
+      "tn_carr": 61.35,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 120.0,
+          "tn_carr": 61.35
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -263,23 +316,65 @@
       ]
     },
     {
-      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BELLUNO",
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 60.0,
-      "tn_carr": 61.35,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 68.0,
+      "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "BELLUNO (SC)",
-          "cnpj": "83163576000105",
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
           "prog": 2,
-          "carr": 2,
-          "falta": 0,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 68.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "RIO DESERTO",
+      "produto": "TÉRMICO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 62.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 62.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "APERAM- COQUE - PILHA 80 - MAIO",
+      "cliente": "APERAM",
+      "produto": "COQUE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 60.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "SAMATRA (MG)",
+          "cnpj": "20752507000370",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
           "tn_prev": 60.0,
-          "tn_carr": 61.35
+          "tn_carr": 0.0
         }
       ]
     }
