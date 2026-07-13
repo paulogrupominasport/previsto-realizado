@@ -1,21 +1,21 @@
 {
   "data_relatorio": "13/07/2026",
-  "gerado_em": "2026-07-13T10:41:21",
-  "atualizado_em": "2026-07-13T13:45:31",
+  "gerado_em": "2026-07-13T11:00:06",
+  "atualizado_em": "2026-07-13T14:05:33",
   "totais": {
-    "prog": 30,
+    "prog": 32,
     "carr": 14,
-    "falta": 16,
-    "tn_prev": 1069.44,
+    "falta": 18,
+    "tn_prev": 1156.44,
     "tn_carr": 486.32
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 13,
+      "prog": 15,
       "carr": 4,
-      "falta": 9,
-      "tn_prev": 466.44,
+      "falta": 11,
+      "tn_prev": 553.44,
       "tn_carr": 143.44
     },
     {
@@ -62,10 +62,10 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 13,
+      "prog": 15,
       "carr": 4,
-      "falta": 9,
-      "tn_prev": 466.44,
+      "falta": 11,
+      "tn_prev": 553.44,
       "tn_carr": 143.44
     },
     {
@@ -98,19 +98,28 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 13,
+      "prog": 15,
       "carr": 4,
-      "falta": 9,
-      "tn_prev": 466.44,
+      "falta": 11,
+      "tn_prev": 553.44,
       "tn_carr": 143.44,
       "transportadoras": [
         {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 49.0,
+          "tn_carr": 0.0
+        },
+        {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
-          "prog": 4,
+          "prog": 5,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 143.0,
+          "falta": 5,
+          "tn_prev": 181.0,
           "tn_carr": 0.0
         },
         {
