@@ -1,12 +1,12 @@
 {
   "data_relatorio": "13/07/2026",
-  "gerado_em": "2026-07-13T10:00:08",
-  "atualizado_em": "2026-07-13T13:05:26",
+  "gerado_em": "2026-07-13T10:41:21",
+  "atualizado_em": "2026-07-13T13:45:31",
   "totais": {
-    "prog": 29,
+    "prog": 30,
     "carr": 14,
-    "falta": 15,
-    "tn_prev": 1031.44,
+    "falta": 16,
+    "tn_prev": 1069.44,
     "tn_carr": 486.32
   },
   "por_cliente": [
@@ -44,10 +44,10 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 76.0,
       "tn_carr": 0.0
     },
     {
@@ -86,10 +86,10 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 76.0,
       "tn_carr": 0.0
     }
   ],
@@ -218,12 +218,21 @@
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 76.0,
       "tn_carr": 0.0,
       "transportadoras": [
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
