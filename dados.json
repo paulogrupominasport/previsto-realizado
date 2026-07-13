@@ -1,13 +1,13 @@
 {
   "data_relatorio": "13/07/2026",
-  "gerado_em": "2026-07-13T13:00:16",
-  "atualizado_em": "2026-07-13T16:05:33",
+  "gerado_em": "2026-07-13T14:00:09",
+  "atualizado_em": "2026-07-13T17:05:28",
   "totais": {
-    "prog": 38,
-    "carr": 19,
-    "falta": 19,
-    "tn_prev": 1332.09,
-    "tn_carr": 663.41
+    "prog": 40,
+    "carr": 24,
+    "falta": 16,
+    "tn_prev": 1380.09,
+    "tn_carr": 800.25
   },
   "por_cliente": [
     {
@@ -20,26 +20,26 @@
     },
     {
       "cliente": "BRASKEM",
-      "prog": 8,
+      "prog": 9,
       "carr": 8,
-      "falta": 0,
-      "tn_prev": 297.0,
+      "falta": 1,
+      "tn_prev": 307.0,
       "tn_carr": 300.96
     },
     {
       "cliente": "GABRIELLA",
       "prog": 8,
-      "carr": 4,
-      "falta": 4,
+      "carr": 8,
+      "falta": 0,
       "tn_prev": 200.0,
-      "tn_carr": 114.24
+      "tn_carr": 222.85
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 3,
+      "prog": 4,
       "carr": 1,
-      "falta": 2,
-      "tn_prev": 121.63,
+      "falta": 3,
+      "tn_prev": 159.63,
       "tn_carr": 35.63
     },
     {
@@ -53,20 +53,20 @@
     {
       "cliente": "BELLUNO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 60.0,
-      "tn_carr": 33.12
+      "tn_carr": 61.35
     }
   ],
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 18,
-      "carr": 13,
-      "falta": 5,
-      "tn_prev": 557.0,
-      "tn_carr": 448.32
+      "prog": 19,
+      "carr": 18,
+      "falta": 1,
+      "tn_prev": 567.0,
+      "tn_carr": 585.16
     },
     {
       "produto": "GESSO",
@@ -78,10 +78,10 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 3,
+      "prog": 4,
       "carr": 1,
-      "falta": 2,
-      "tn_prev": 121.63,
+      "falta": 3,
+      "tn_prev": 159.63,
       "tn_carr": 35.63
     },
     {
@@ -137,10 +137,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 8,
+      "prog": 9,
       "carr": 8,
-      "falta": 0,
-      "tn_prev": 297.0,
+      "falta": 1,
+      "tn_prev": 307.0,
       "tn_carr": 300.96,
       "transportadoras": [
         {
@@ -173,10 +173,10 @@
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
-          "prog": 2,
+          "prog": 3,
           "carr": 2,
-          "falta": 0,
-          "tn_prev": 64.0,
+          "falta": 1,
+          "tn_prev": 74.0,
           "tn_carr": 57.36
         }
       ]
@@ -186,19 +186,19 @@
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 8,
-      "carr": 4,
-      "falta": 4,
+      "carr": 8,
+      "falta": 0,
       "tn_prev": 200.0,
-      "tn_carr": 114.24,
+      "tn_carr": 222.85,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
           "prog": 8,
-          "carr": 4,
-          "falta": 4,
+          "carr": 8,
+          "falta": 0,
           "tn_prev": 200.0,
-          "tn_carr": 114.24
+          "tn_carr": 222.85
         }
       ]
     },
@@ -206,10 +206,10 @@
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
-      "prog": 3,
+      "prog": 4,
       "carr": 1,
-      "falta": 2,
-      "tn_prev": 121.63,
+      "falta": 3,
+      "tn_prev": 159.63,
       "tn_carr": 35.63,
       "transportadoras": [
         {
@@ -233,10 +233,10 @@
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         }
       ]
@@ -267,19 +267,19 @@
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 60.0,
-      "tn_carr": 33.12,
+      "tn_carr": 61.35,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 60.0,
-          "tn_carr": 33.12
+          "tn_carr": 61.35
         }
       ]
     }
