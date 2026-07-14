@@ -1,21 +1,21 @@
 {
   "data_relatorio": "14/07/2026",
-  "gerado_em": "2026-07-14T12:00:07",
-  "atualizado_em": "2026-07-14T15:05:29",
+  "gerado_em": "2026-07-14T13:00:12",
+  "atualizado_em": "2026-07-14T16:05:32",
   "totais": {
-    "prog": 56,
+    "prog": 57,
     "carr": 33,
-    "falta": 23,
-    "tn_prev": 2102.83,
+    "falta": 24,
+    "tn_prev": 2140.83,
     "tn_carr": 1247.06
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 17,
+      "prog": 18,
       "carr": 8,
-      "falta": 9,
-      "tn_prev": 740.85,
+      "falta": 10,
+      "tn_prev": 778.85,
       "tn_carr": 390.85
     },
     {
@@ -94,10 +94,10 @@
   "por_produto": [
     {
       "produto": "CARVÃO",
-      "prog": 20,
+      "prog": 21,
       "carr": 8,
-      "falta": 12,
-      "tn_prev": 833.85,
+      "falta": 13,
+      "tn_prev": 871.85,
       "tn_carr": 390.85
     },
     {
@@ -146,10 +146,10 @@
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
-      "prog": 17,
+      "prog": 18,
       "carr": 8,
-      "falta": 9,
-      "tn_prev": 740.85,
+      "falta": 10,
+      "tn_prev": 778.85,
       "tn_carr": 390.85,
       "transportadoras": [
         {
@@ -168,6 +168,15 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         },
         {
