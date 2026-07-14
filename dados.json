@@ -1,13 +1,13 @@
 {
   "data_relatorio": "14/07/2026",
-  "gerado_em": "2026-07-14T07:00:21",
-  "atualizado_em": "2026-07-14T10:05:25",
+  "gerado_em": "2026-07-14T08:00:08",
+  "atualizado_em": "2026-07-14T11:05:27",
   "totais": {
-    "prog": 35,
-    "carr": 0,
-    "falta": 35,
-    "tn_prev": 1378.0,
-    "tn_carr": 0.0
+    "prog": 36,
+    "carr": 2,
+    "falta": 34,
+    "tn_prev": 1408.0,
+    "tn_carr": 77.15
   },
   "por_cliente": [
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
+      "carr": 1,
+      "falta": 7,
       "tn_prev": 310.0,
-      "tn_carr": 0.0
+      "tn_carr": 47.28
     },
     {
       "cliente": "GABRIELLA",
@@ -61,20 +61,28 @@
     {
       "cliente": "METROPOLITANA",
       "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 31.0,
+      "tn_carr": 29.87
+    },
+    {
+      "cliente": "BELLUNO",
+      "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 31.0,
+      "tn_prev": 30.0,
       "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 441.0,
-      "tn_carr": 0.0
+      "prog": 14,
+      "carr": 2,
+      "falta": 12,
+      "tn_prev": 471.0,
+      "tn_carr": 77.15
     },
     {
       "produto": "GESSO",
@@ -86,10 +94,10 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 336.0,
+      "falta": 8,
+      "tn_prev": 372.0,
       "tn_carr": 0.0
     },
     {
@@ -102,10 +110,10 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 2,
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 84.0,
+      "falta": 1,
+      "tn_prev": 48.0,
       "tn_carr": 0.0
     }
   ],
@@ -153,10 +161,10 @@
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 336.0,
+      "falta": 8,
+      "tn_prev": 372.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -180,10 +188,10 @@
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
+          "falta": 2,
+          "tn_prev": 84.0,
           "tn_carr": 0.0
         },
         {
@@ -202,10 +210,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
+      "carr": 1,
+      "falta": 7,
       "tn_prev": 310.0,
-      "tn_carr": 0.0,
+      "tn_carr": 47.28,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -238,10 +246,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 98.0,
-          "tn_carr": 0.0
+          "tn_carr": 47.28
         }
       ]
     },
@@ -309,43 +317,43 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 36.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 31.0,
-      "tn_carr": 0.0,
+      "tn_carr": 29.87,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 31.0,
+          "tn_carr": 29.87
+        }
+      ]
+    },
+    {
+      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BELLUNO",
+      "produto": "TÉRMICO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 30.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 31.0,
+          "tn_prev": 30.0,
           "tn_carr": 0.0
         }
       ]
