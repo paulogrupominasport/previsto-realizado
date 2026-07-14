@@ -1,13 +1,13 @@
 {
   "data_relatorio": "14/07/2026",
-  "gerado_em": "2026-07-14T13:00:12",
-  "atualizado_em": "2026-07-14T16:05:32",
+  "gerado_em": "2026-07-14T14:00:19",
+  "atualizado_em": "2026-07-14T17:05:27",
   "totais": {
-    "prog": 57,
-    "carr": 33,
-    "falta": 24,
-    "tn_prev": 2140.83,
-    "tn_carr": 1247.06
+    "prog": 60,
+    "carr": 37,
+    "falta": 23,
+    "tn_prev": 2231.83,
+    "tn_carr": 1359.19
   },
   "por_cliente": [
     {
@@ -35,20 +35,20 @@
       "tn_carr": 225.85
     },
     {
+      "cliente": "BELLUNO",
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 180.0,
+      "tn_carr": 123.93
+    },
+    {
       "cliente": "BELOCAL MTZ",
       "prog": 3,
       "carr": 1,
       "falta": 2,
       "tn_prev": 144.64,
       "tn_carr": 48.64
-    },
-    {
-      "cliente": "BELLUNO",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 120.0,
-      "tn_carr": 92.79
     },
     {
       "cliente": "GABRIELLA",
@@ -69,44 +69,44 @@
     {
       "cliente": "RIO DESERTO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 1,
+      "falta": 2,
       "tn_prev": 93.0,
-      "tn_carr": 0.0
+      "tn_carr": 33.74
+    },
+    {
+      "cliente": "METROPOLITANA",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 93.0,
+      "tn_carr": 57.45
     },
     {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
+      "carr": 3,
+      "falta": 0,
       "tn_prev": 62.45,
-      "tn_carr": 49.97
-    },
-    {
-      "cliente": "METROPOLITANA",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 62.0,
-      "tn_carr": 29.87
+      "tn_carr": 69.64
     }
   ],
   "por_produto": [
     {
       "produto": "CARVÃO",
       "prog": 21,
-      "carr": 8,
-      "falta": 13,
+      "carr": 9,
+      "falta": 12,
       "tn_prev": 871.85,
-      "tn_carr": 390.85
+      "tn_carr": 424.59
     },
     {
       "produto": "TÉRMICO",
-      "prog": 18,
-      "carr": 14,
-      "falta": 4,
-      "tn_prev": 587.62,
-      "tn_carr": 457.33
+      "prog": 21,
+      "carr": 16,
+      "falta": 5,
+      "tn_prev": 678.62,
+      "tn_carr": 516.05
     },
     {
       "produto": "GESSO",
@@ -135,10 +135,10 @@
     {
       "produto": "Carregamento Sucata",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
+      "carr": 3,
+      "falta": 0,
       "tn_prev": 62.45,
-      "tn_carr": 49.97
+      "tn_carr": 69.64
     }
   ],
   "lotes": [
@@ -296,6 +296,27 @@
       ]
     },
     {
+      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BELLUNO",
+      "produto": "TÉRMICO",
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 180.0,
+      "tn_carr": 123.93,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 6,
+          "carr": 4,
+          "falta": 2,
+          "tn_prev": 180.0,
+          "tn_carr": 123.93
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL MTZ - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
@@ -322,27 +343,6 @@
           "falta": 1,
           "tn_prev": 96.64,
           "tn_carr": 48.64
-        }
-      ]
-    },
-    {
-      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BELLUNO",
-      "produto": "TÉRMICO",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 120.0,
-      "tn_carr": 92.79,
-      "transportadoras": [
-        {
-          "nome": "BELLUNO (SC)",
-          "cnpj": "83163576000105",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 120.0,
-          "tn_carr": 92.79
         }
       ]
     },
@@ -393,19 +393,40 @@
       "cliente": "RIO DESERTO",
       "produto": "CARVÃO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 1,
+      "falta": 2,
       "tn_prev": 93.0,
-      "tn_carr": 0.0,
+      "tn_carr": 33.74,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 1,
+          "falta": 2,
           "tn_prev": 93.0,
-          "tn_carr": 0.0
+          "tn_carr": 33.74
+        }
+      ]
+    },
+    {
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
+      "produto": "TÉRMICO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 93.0,
+      "tn_carr": 57.45,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 93.0,
+          "tn_carr": 57.45
         }
       ]
     },
@@ -414,40 +435,19 @@
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
+      "carr": 3,
+      "falta": 0,
       "tn_prev": 62.45,
-      "tn_carr": 49.97,
+      "tn_carr": 69.64,
       "transportadoras": [
         {
           "nome": "COMERCIAL CARVALHO",
           "cnpj": "05362003000199",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
+          "carr": 3,
+          "falta": 0,
           "tn_prev": 62.45,
-          "tn_carr": 49.97
-        }
-      ]
-    },
-    {
-      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
-      "cliente": "METROPOLITANA",
-      "produto": "TÉRMICO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 62.0,
-      "tn_carr": 29.87,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 62.0,
-          "tn_carr": 29.87
+          "tn_carr": 69.64
         }
       ]
     }
