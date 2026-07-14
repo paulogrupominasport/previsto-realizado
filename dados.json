@@ -1,46 +1,46 @@
 {
   "data_relatorio": "14/07/2026",
-  "gerado_em": "2026-07-14T10:00:05",
-  "atualizado_em": "2026-07-14T13:05:25",
+  "gerado_em": "2026-07-14T11:00:14",
+  "atualizado_em": "2026-07-14T14:05:26",
   "totais": {
-    "prog": 45,
-    "carr": 21,
-    "falta": 24,
-    "tn_prev": 1747.61,
-    "tn_carr": 755.25
+    "prog": 51,
+    "carr": 26,
+    "falta": 25,
+    "tn_prev": 1963.3,
+    "tn_carr": 987.94
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 13,
-      "carr": 3,
-      "falta": 10,
-      "tn_prev": 563.62,
-      "tn_carr": 150.62
+      "prog": 17,
+      "carr": 6,
+      "falta": 11,
+      "tn_prev": 735.17,
+      "tn_carr": 299.17
     },
     {
       "cliente": "ITAMBÉ",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 375.37,
-      "tn_carr": 229.37
+      "carr": 7,
+      "falta": 3,
+      "tn_prev": 374.87,
+      "tn_carr": 264.87
     },
     {
       "cliente": "BRASKEM",
       "prog": 8,
       "carr": 5,
       "falta": 3,
-      "tn_prev": 301.0,
+      "tn_prev": 302.0,
       "tn_carr": 187.84
     },
     {
       "cliente": "BELOCAL MTZ",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 144.64,
+      "tn_carr": 48.64
     },
     {
       "cliente": "GABRIELLA",
@@ -59,62 +59,70 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "COMERCIAL CARVALHO",
+      "cliente": "METROPOLITANA",
       "prog": 2,
       "carr": 1,
       "falta": 1,
-      "tn_prev": 51.0,
-      "tn_carr": 17.52
-    },
-    {
-      "cliente": "METROPOLITANA",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 31.0,
+      "tn_prev": 62.0,
       "tn_carr": 29.87
     },
     {
       "cliente": "BELLUNO",
-      "prog": 1,
+      "prog": 2,
       "carr": 1,
-      "falta": 0,
-      "tn_prev": 30.0,
+      "falta": 1,
+      "tn_prev": 60.0,
       "tn_carr": 31.21
+    },
+    {
+      "cliente": "COMERCIAL CARVALHO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 50.0,
+      "tn_carr": 17.52
+    },
+    {
+      "cliente": "RIO DESERTO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 31.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "CARVÃO",
-      "prog": 13,
-      "carr": 3,
-      "falta": 10,
-      "tn_prev": 563.62,
-      "tn_carr": 150.62
+      "prog": 18,
+      "carr": 6,
+      "falta": 12,
+      "tn_prev": 766.17,
+      "tn_carr": 299.17
     },
     {
       "produto": "TÉRMICO",
-      "prog": 14,
+      "prog": 16,
       "carr": 11,
-      "falta": 3,
-      "tn_prev": 465.62,
+      "falta": 5,
+      "tn_prev": 527.62,
       "tn_carr": 357.74
     },
     {
       "produto": "GESSO",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 375.37,
-      "tn_carr": 229.37
+      "carr": 7,
+      "falta": 3,
+      "tn_prev": 374.87,
+      "tn_carr": 264.87
     },
     {
       "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 144.64,
+      "tn_carr": 48.64
     },
     {
       "produto": "PETRÓLEO",
@@ -129,7 +137,7 @@
       "prog": 2,
       "carr": 1,
       "falta": 1,
-      "tn_prev": 51.0,
+      "tn_prev": 50.0,
       "tn_carr": 17.52
     }
   ],
@@ -138,29 +146,38 @@
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
-      "prog": 13,
-      "carr": 3,
-      "falta": 10,
-      "tn_prev": 563.62,
-      "tn_carr": 150.62,
+      "prog": 17,
+      "carr": 6,
+      "falta": 11,
+      "tn_prev": 735.17,
+      "tn_carr": 299.17,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
+          "prog": 2,
+          "carr": 1,
           "falta": 1,
-          "tn_prev": 48.0,
+          "tn_prev": 85.79,
+          "tn_carr": 49.79
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 96.0,
           "tn_carr": 0.0
         },
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 147.0,
-          "tn_carr": 51.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 147.47,
+          "tn_carr": 99.47
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -174,11 +191,11 @@
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 2,
-          "carr": 1,
+          "prog": 3,
+          "carr": 2,
           "falta": 1,
-          "tn_prev": 95.96,
-          "tn_carr": 47.96
+          "tn_prev": 133.25,
+          "tn_carr": 98.25
         }
       ]
     },
@@ -187,10 +204,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 375.37,
-      "tn_carr": 229.37,
+      "carr": 7,
+      "falta": 3,
+      "tn_prev": 374.87,
+      "tn_carr": 264.87,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -214,10 +231,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 177.08,
-          "tn_carr": 69.08
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 176.58,
+          "tn_carr": 104.58
         }
       ]
     },
@@ -228,7 +245,7 @@
       "prog": 8,
       "carr": 5,
       "falta": 3,
-      "tn_prev": 301.0,
+      "tn_prev": 302.0,
       "tn_carr": 187.84,
       "transportadoras": [
         {
@@ -246,7 +263,7 @@
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 35.0,
+          "tn_prev": 36.0,
           "tn_carr": 0.0
         },
         {
@@ -273,11 +290,11 @@
       "lote": "BELOCAL MTZ - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0,
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 144.64,
+      "tn_carr": 48.64,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -291,11 +308,11 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 144.0,
-          "tn_carr": 0.0
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 96.64,
+          "tn_carr": 48.64
         }
       ]
     },
@@ -342,43 +359,22 @@
       ]
     },
     {
-      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
-      "cliente": "COMERCIAL CARVALHO",
-      "produto": "Carregamento Sucata",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 51.0,
-      "tn_carr": 17.52,
-      "transportadoras": [
-        {
-          "nome": "COMERCIAL CARVALHO",
-          "cnpj": "05362003000199",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 51.0,
-          "tn_carr": 17.52
-        }
-      ]
-    },
-    {
       "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
-      "prog": 1,
+      "prog": 2,
       "carr": 1,
-      "falta": 0,
-      "tn_prev": 31.0,
+      "falta": 1,
+      "tn_prev": 62.0,
       "tn_carr": 29.87,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 31.0,
+          "falta": 1,
+          "tn_prev": 62.0,
           "tn_carr": 29.87
         }
       ]
@@ -387,20 +383,62 @@
       "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
-      "prog": 1,
+      "prog": 2,
       "carr": 1,
-      "falta": 0,
-      "tn_prev": 30.0,
+      "falta": 1,
+      "tn_prev": 60.0,
       "tn_carr": 31.21,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 30.0,
+          "falta": 1,
+          "tn_prev": 60.0,
           "tn_carr": 31.21
+        }
+      ]
+    },
+    {
+      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
+      "cliente": "COMERCIAL CARVALHO",
+      "produto": "Carregamento Sucata",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 50.0,
+      "tn_carr": 17.52,
+      "transportadoras": [
+        {
+          "nome": "COMERCIAL CARVALHO",
+          "cnpj": "05362003000199",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 50.0,
+          "tn_carr": 17.52
+        }
+      ]
+    },
+    {
+      "lote": "RIO DESERTO - FINOS DE CARVÃO - R4",
+      "cliente": "RIO DESERTO",
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 31.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 31.0,
+          "tn_carr": 0.0
         }
       ]
     }
