@@ -1,21 +1,21 @@
 {
   "data_relatorio": "15/07/2026",
-  "gerado_em": "2026-07-15T13:00:06",
-  "atualizado_em": "2026-07-15T16:05:28",
+  "gerado_em": "2026-07-15T13:20:17",
+  "atualizado_em": "2026-07-15T16:25:27",
   "totais": {
-    "prog": 66,
+    "prog": 68,
     "carr": 40,
-    "falta": 26,
-    "tn_prev": 2469.14,
+    "falta": 28,
+    "tn_prev": 2555.14,
     "tn_carr": 1434.46
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 21,
+      "prog": 22,
       "carr": 11,
-      "falta": 10,
-      "tn_prev": 942.99,
+      "falta": 11,
+      "tn_prev": 990.99,
       "tn_carr": 465.99
     },
     {
@@ -59,6 +59,14 @@
       "tn_carr": 96.08
     },
     {
+      "cliente": "LS METAIS",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 124.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "BELOCAL MTZ",
       "prog": 3,
       "carr": 1,
@@ -83,14 +91,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "LS METAIS",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 86.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 3,
       "carr": 3,
@@ -110,10 +110,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 26,
+      "prog": 31,
       "carr": 15,
-      "falta": 11,
-      "tn_prev": 1118.48,
+      "falta": 16,
+      "tn_prev": 1345.48,
       "tn_carr": 620.48
     },
     {
@@ -126,10 +126,10 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 9,
+      "prog": 6,
       "carr": 4,
-      "falta": 5,
-      "tn_prev": 344.79,
+      "falta": 2,
+      "tn_prev": 203.79,
       "tn_carr": 144.87
     },
     {
@@ -162,19 +162,19 @@
       "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 17,
+      "prog": 21,
       "carr": 10,
-      "falta": 7,
-      "tn_prev": 753.2,
+      "falta": 11,
+      "tn_prev": 942.2,
       "tn_carr": 417.2,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
+          "falta": 2,
+          "tn_prev": 96.0,
           "tn_carr": 0.0
         },
         {
@@ -189,19 +189,19 @@
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
-          "prog": 5,
+          "prog": 7,
           "carr": 0,
-          "falta": 5,
-          "tn_prev": 240.0,
+          "falta": 7,
+          "tn_prev": 333.0,
           "tn_carr": 0.0
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
-          "prog": 8,
+          "prog": 9,
           "carr": 7,
-          "falta": 1,
-          "tn_prev": 348.66,
+          "falta": 2,
+          "tn_prev": 396.66,
           "tn_carr": 300.66
         },
         {
@@ -272,36 +272,6 @@
           "falta": 4,
           "tn_prev": 200.0,
           "tn_carr": 105.55
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 189.79,
-      "tn_carr": 48.79,
-      "transportadoras": [
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 93.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 96.79,
-          "tn_carr": 48.79
         }
       ]
     },
@@ -405,6 +375,45 @@
       ]
     },
     {
+      "lote": "LS METAIS - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "LS METAIS",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 124.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL MTZ - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
@@ -477,36 +486,6 @@
       ]
     },
     {
-      "lote": "LS METAIS - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "LS METAIS",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 86.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
@@ -524,6 +503,27 @@
           "falta": 0,
           "tn_prev": 69.63,
           "tn_carr": 73.07
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 48.79,
+      "tn_carr": 48.79,
+      "transportadoras": [
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.79,
+          "tn_carr": 48.79
         }
       ]
     },
