@@ -1,21 +1,21 @@
 {
   "data_relatorio": "15/07/2026",
-  "gerado_em": "2026-07-15T07:00:09",
-  "atualizado_em": "2026-07-15T10:05:28",
+  "gerado_em": "2026-07-15T08:00:16",
+  "atualizado_em": "2026-07-15T11:05:24",
   "totais": {
-    "prog": 42,
+    "prog": 46,
     "carr": 0,
-    "falta": 42,
-    "tn_prev": 1703.0,
+    "falta": 46,
+    "tn_prev": 1854.0,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 23,
+      "prog": 24,
       "carr": 0,
-      "falta": 23,
-      "tn_prev": 1013.0,
+      "falta": 24,
+      "tn_prev": 1061.0,
       "tn_carr": 0.0
     },
     {
@@ -24,6 +24,14 @@
       "carr": 0,
       "falta": 8,
       "tn_prev": 310.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 110.0,
       "tn_carr": 0.0
     },
     {
@@ -59,21 +67,21 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "ITAMBÉ",
+      "cliente": "RIO DESERTO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 38.0,
+      "tn_prev": 31.0,
       "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 22,
+      "prog": 23,
       "carr": 0,
-      "falta": 22,
-      "tn_prev": 999.0,
+      "falta": 23,
+      "tn_prev": 1047.0,
       "tn_carr": 0.0
     },
     {
@@ -86,10 +94,18 @@
     },
     {
       "produto": "CARVÃO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 131.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "GESSO",
       "prog": 3,
       "carr": 0,
       "falta": 3,
-      "tn_prev": 100.0,
+      "tn_prev": 110.0,
       "tn_carr": 0.0
     },
     {
@@ -99,14 +115,6 @@
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -114,10 +122,10 @@
       "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 20,
+      "prog": 21,
       "carr": 0,
-      "falta": 20,
-      "tn_prev": 913.0,
+      "falta": 21,
+      "tn_prev": 961.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -154,6 +162,15 @@
           "carr": 0,
           "falta": 10,
           "tn_prev": 452.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
@@ -193,6 +210,36 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 98.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 110.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 72.0,
           "tn_carr": 0.0
         }
       ]
@@ -312,22 +359,22 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
+      "lote": "RIO DESERTO - FINOS DE CARVÃO - R4",
+      "cliente": "RIO DESERTO",
+      "produto": "CARVÃO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 38.0,
+      "tn_prev": 31.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "TRANSP. BONTORIN (SC)",
-          "cnpj": "81429755000299",
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 38.0,
+          "tn_prev": 31.0,
           "tn_carr": 0.0
         }
       ]
