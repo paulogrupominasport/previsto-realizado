@@ -1,21 +1,21 @@
 {
   "data_relatorio": "15/07/2026",
-  "gerado_em": "2026-07-15T12:00:14",
-  "atualizado_em": "2026-07-15T15:05:29",
+  "gerado_em": "2026-07-15T13:00:06",
+  "atualizado_em": "2026-07-15T16:05:28",
   "totais": {
     "prog": 66,
-    "carr": 38,
-    "falta": 28,
-    "tn_prev": 2479.18,
-    "tn_carr": 1365.5
+    "carr": 40,
+    "falta": 26,
+    "tn_prev": 2469.14,
+    "tn_carr": 1434.46
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 22,
+      "prog": 21,
       "carr": 11,
-      "falta": 11,
-      "tn_prev": 987.99,
+      "falta": 10,
+      "tn_prev": 942.99,
       "tn_carr": 465.99
     },
     {
@@ -37,10 +37,10 @@
     {
       "cliente": "ITAMBÉ",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 182.28,
-      "tn_carr": 110.28
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 179.24,
+      "tn_carr": 179.24
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -83,20 +83,20 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "LS METAIS",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 86.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 3,
       "carr": 3,
       "falta": 0,
       "tn_prev": 69.63,
       "tn_carr": 73.07
-    },
-    {
-      "cliente": "LS METAIS",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
     },
     {
       "cliente": "METROPOLITANA",
@@ -113,7 +113,7 @@
       "prog": 26,
       "carr": 15,
       "falta": 11,
-      "tn_prev": 1125.48,
+      "tn_prev": 1118.48,
       "tn_carr": 620.48
     },
     {
@@ -135,10 +135,10 @@
     {
       "produto": "GESSO",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 182.28,
-      "tn_carr": 110.28
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 179.24,
+      "tn_carr": 179.24
     },
     {
       "produto": "PETRÓLEO",
@@ -162,19 +162,19 @@
       "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 18,
+      "prog": 17,
       "carr": 10,
-      "falta": 8,
-      "tn_prev": 798.2,
+      "falta": 7,
+      "tn_prev": 753.2,
       "tn_carr": 417.2,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 2,
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 93.0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         },
         {
@@ -310,10 +310,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 182.28,
-      "tn_carr": 110.28,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 179.24,
+      "tn_carr": 179.24,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -328,10 +328,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 144.1,
-          "tn_carr": 72.1
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 141.06,
+          "tn_carr": 141.06
         }
       ]
     },
@@ -477,6 +477,36 @@
       ]
     },
     {
+      "lote": "LS METAIS - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "LS METAIS",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 86.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
@@ -494,27 +524,6 @@
           "falta": 0,
           "tn_prev": 69.63,
           "tn_carr": 73.07
-        }
-      ]
-    },
-    {
-      "lote": "LS METAIS - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "LS METAIS",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
         }
       ]
     },
