@@ -2051,21 +2051,21 @@
     }
   },
   "2026-07-15": {
-    "gerado_em": "2026-07-15T08:00:16",
-    "atualizado_em": "2026-07-15T11:05:24",
+    "gerado_em": "2026-07-15T09:00:06",
+    "atualizado_em": "2026-07-15T12:05:27",
     "totais": {
-      "prog": 46,
-      "carr": 0,
-      "falta": 46,
-      "tn_prev": 1854.0,
-      "tn_carr": 0.0
+      "prog": 54,
+      "carr": 3,
+      "falta": 51,
+      "tn_prev": 2118.09,
+      "tn_carr": 109.15
     },
     "por_cliente": {
       "CIM. LIZ": {
         "prog": 24,
-        "carr": 0,
-        "tn_prev": 1061.0,
-        "tn_carr": 0.0
+        "carr": 1,
+        "tn_prev": 1071.91,
+        "tn_carr": 49.91
       },
       "BRASKEM": {
         "prog": 8,
@@ -2074,10 +2074,10 @@
         "tn_carr": 0.0
       },
       "ITAMBÉ": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 110.0,
-        "tn_carr": 0.0
+        "prog": 5,
+        "carr": 1,
+        "tn_prev": 182.18,
+        "tn_carr": 38.18
       },
       "GABRIELLA": {
         "prog": 4,
@@ -2091,10 +2091,22 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
+      "RIO DESERTO": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 93.0,
+        "tn_carr": 0.0
+      },
       "BELOCAL MTZ": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 86.0,
+        "tn_carr": 0.0
+      },
+      "BELOCAL SJLP": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 73.0,
         "tn_carr": 0.0
       },
       "BELLUNO": {
@@ -2103,43 +2115,55 @@
         "tn_prev": 60.0,
         "tn_carr": 0.0
       },
-      "RIO DESERTO": {
+      "METROPOLITANA": {
         "prog": 1,
         "carr": 0,
         "tn_prev": 31.0,
         "tn_carr": 0.0
+      },
+      "COMERCIAL CARVALHO": {
+        "prog": 1,
+        "carr": 1,
+        "tn_prev": 15.0,
+        "tn_carr": 21.06
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 23,
-        "carr": 0,
-        "tn_prev": 1047.0,
-        "tn_carr": 0.0
+        "prog": 28,
+        "carr": 1,
+        "tn_prev": 1230.91,
+        "tn_carr": 49.91
       },
       "TÉRMICO": {
-        "prog": 14,
+        "prog": 15,
         "carr": 0,
-        "tn_prev": 470.0,
-        "tn_carr": 0.0
-      },
-      "CARVÃO": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 131.0,
+        "tn_prev": 501.0,
         "tn_carr": 0.0
       },
       "GESSO": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 110.0,
-        "tn_carr": 0.0
+        "prog": 5,
+        "carr": 1,
+        "tn_prev": 182.18,
+        "tn_carr": 38.18
       },
       "PETRÓLEO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
         "tn_carr": 0.0
+      },
+      "CARVÃO": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 93.0,
+        "tn_carr": 0.0
+      },
+      "Carregamento Sucata": {
+        "prog": 1,
+        "carr": 1,
+        "tn_prev": 15.0,
+        "tn_carr": 21.06
       }
     }
   }
