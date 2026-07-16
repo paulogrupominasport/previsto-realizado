@@ -1,30 +1,30 @@
 {
   "data_relatorio": "16/07/2026",
-  "gerado_em": "2026-07-16T10:00:13",
-  "atualizado_em": "2026-07-16T13:05:28",
+  "gerado_em": "2026-07-16T11:00:07",
+  "atualizado_em": "2026-07-16T14:05:28",
   "totais": {
-    "prog": 39,
-    "carr": 18,
-    "falta": 21,
-    "tn_prev": 1427.04,
-    "tn_carr": 675.6
+    "prog": 41,
+    "carr": 21,
+    "falta": 20,
+    "tn_prev": 1496.38,
+    "tn_carr": 823.0
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 9,
-      "carr": 3,
-      "falta": 6,
-      "tn_prev": 406.46,
-      "tn_carr": 152.46
+      "carr": 5,
+      "falta": 4,
+      "tn_prev": 410.8,
+      "tn_carr": 252.8
     },
     {
       "cliente": "BRASKEM",
       "prog": 9,
-      "carr": 5,
-      "falta": 4,
+      "carr": 6,
+      "falta": 3,
       "tn_prev": 279.0,
-      "tn_carr": 176.97
+      "tn_carr": 224.03
     },
     {
       "cliente": "ITAMBÉ",
@@ -51,6 +51,22 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "BELLUNO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 90.0,
+      "tn_carr": 60.89
+    },
+    {
+      "cliente": "*CIM. LIZ",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 73.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "BELOCAL SJLP",
       "prog": 2,
       "carr": 2,
@@ -67,27 +83,11 @@
       "tn_carr": 55.7
     },
     {
-      "cliente": "BELLUNO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 60.0,
-      "tn_carr": 60.89
-    },
-    {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 58.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "*CIM. LIZ",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
       "tn_carr": 0.0
     },
     {
@@ -110,19 +110,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 15,
-      "carr": 6,
-      "falta": 9,
-      "tn_prev": 632.16,
-      "tn_carr": 260.16
+      "prog": 16,
+      "carr": 8,
+      "falta": 8,
+      "tn_prev": 671.5,
+      "tn_carr": 360.5
     },
     {
       "produto": "TÉRMICO",
       "prog": 13,
-      "carr": 9,
-      "falta": 4,
+      "carr": 10,
+      "falta": 3,
       "tn_prev": 401.0,
-      "tn_carr": 293.56
+      "tn_carr": 340.62
     },
     {
       "produto": "GESSO",
@@ -157,6 +157,14 @@
       "tn_carr": 49.72
     },
     {
+      "produto": "Premium Hvb",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 30.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "Cucuta",
       "prog": 1,
       "carr": 0,
@@ -171,28 +179,28 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 2,
-      "falta": 6,
-      "tn_prev": 356.74,
-      "tn_carr": 102.74,
+      "carr": 4,
+      "falta": 4,
+      "tn_prev": 361.08,
+      "tn_carr": 203.08,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 198.74,
-          "tn_carr": 102.74
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 200.42,
+          "tn_carr": 152.42
         },
         {
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 82.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 84.66,
+          "tn_carr": 50.66
         },
         {
           "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
@@ -210,19 +218,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 5,
-      "falta": 4,
+      "carr": 6,
+      "falta": 3,
       "tn_prev": 279.0,
-      "tn_carr": 176.97,
+      "tn_carr": 224.03,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
           "cnpj": "11720812000128",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "tn_carr": 47.06
         },
         {
           "nome": "ROTA 101 (SC)",
@@ -353,6 +361,36 @@
       ]
     },
     {
+      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "*CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 73.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL SJLP - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
@@ -458,27 +496,6 @@
       ]
     },
     {
-      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "*CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
@@ -495,6 +512,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 32.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "BELLUNO - PREMIUM HVB - PACIFIC TALENT - PILHA 91 - JULHO",
+      "cliente": "BELLUNO",
+      "produto": "Premium Hvb",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 30.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 30.0,
           "tn_carr": 0.0
         }
       ]
