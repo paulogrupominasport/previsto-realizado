@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/07/2026",
-  "gerado_em": "2026-07-16T17:00:14",
-  "atualizado_em": "2026-07-16T20:05:25",
+  "gerado_em": "2026-07-16T18:00:06",
+  "atualizado_em": "2026-07-16T21:05:28",
   "totais": {
     "prog": 48,
-    "carr": 42,
-    "falta": 6,
-    "tn_prev": 1651.95,
-    "tn_carr": 1552.33
+    "carr": 45,
+    "falta": 3,
+    "tn_prev": 1651.34,
+    "tn_carr": 1663.72
   },
   "por_cliente": [
     {
@@ -53,18 +53,18 @@
     {
       "cliente": "*CIM. LIZ",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 103.74,
-      "tn_carr": 111.62
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 103.34,
+      "tn_carr": 143.22
     },
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.14,
+      "tn_carr": 47.14
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -93,10 +93,10 @@
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 32.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 32.65,
+      "tn_carr": 32.65
     },
     {
       "cliente": "COQUE DO SUL",
@@ -111,10 +111,10 @@
     {
       "produto": "PETCOKE",
       "prog": 18,
-      "carr": 14,
-      "falta": 4,
-      "tn_prev": 707.97,
-      "tn_carr": 607.85
+      "carr": 16,
+      "falta": 2,
+      "tn_prev": 708.22,
+      "tn_carr": 672.1
     },
     {
       "produto": "TÉRMICO",
@@ -135,10 +135,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.14,
+      "tn_carr": 47.14
     },
     {
       "produto": "Carregamento Sucata",
@@ -365,10 +365,10 @@
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 103.74,
-      "tn_carr": 111.62,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 103.34,
+      "tn_carr": 143.22,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -383,10 +383,10 @@
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 31.6,
+          "tn_carr": 31.6
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -404,19 +404,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.14,
+      "tn_carr": 47.14,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.14,
+          "tn_carr": 47.14
         }
       ]
     },
@@ -509,19 +509,19 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 32.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 32.65,
+      "tn_carr": 32.65,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 32.65,
+          "tn_carr": 32.65
         }
       ]
     },
