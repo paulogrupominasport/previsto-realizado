@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/07/2026",
-  "gerado_em": "2026-07-16T13:00:18",
-  "atualizado_em": "2026-07-16T16:05:26",
+  "gerado_em": "2026-07-16T14:00:08",
+  "atualizado_em": "2026-07-16T17:05:28",
   "totais": {
     "prog": 45,
-    "carr": 28,
-    "falta": 17,
+    "carr": 33,
+    "falta": 12,
     "tn_prev": 1560.03,
-    "tn_carr": 1095.67
+    "tn_carr": 1223.59
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
+      "carr": 7,
+      "falta": 3,
       "tn_prev": 280.0,
-      "tn_carr": 224.03
+      "tn_carr": 262.1
     },
     {
       "cliente": "ITAMBÉ",
@@ -37,10 +37,10 @@
     {
       "cliente": "BELLUNO",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
+      "carr": 5,
+      "falta": 0,
       "tn_prev": 150.0,
-      "tn_carr": 93.43
+      "tn_carr": 155.12
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -85,10 +85,10 @@
     {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 58.0,
-      "tn_carr": 33.6
+      "tn_carr": 52.14
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -101,10 +101,10 @@
     {
       "cliente": "COQUE DO SUL",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 10.0,
-      "tn_carr": 0.0
+      "tn_carr": 9.62
     }
   ],
   "por_produto": [
@@ -119,10 +119,10 @@
     {
       "produto": "TÉRMICO",
       "prog": 16,
-      "carr": 10,
-      "falta": 6,
+      "carr": 13,
+      "falta": 3,
       "tn_prev": 462.0,
-      "tn_carr": 340.62
+      "tn_carr": 440.38
     },
     {
       "produto": "GESSO",
@@ -143,10 +143,10 @@
     {
       "produto": "Carregamento Sucata",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 58.0,
-      "tn_carr": 33.6
+      "tn_carr": 52.14
     },
     {
       "produto": "CARVÃO",
@@ -167,10 +167,10 @@
     {
       "produto": "Cucuta",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 10.0,
-      "tn_carr": 0.0
+      "tn_carr": 9.62
     }
   ],
   "lotes": [
@@ -218,10 +218,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
+      "carr": 7,
+      "falta": 3,
       "tn_prev": 280.0,
-      "tn_carr": 224.03,
+      "tn_carr": 262.1,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -254,10 +254,10 @@
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 75.0,
-          "tn_carr": 0.0
+          "tn_carr": 38.07
         },
         {
           "nome": "CANEVER (SC)",
@@ -344,19 +344,19 @@
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 120.0,
-      "tn_carr": 60.89,
+      "tn_carr": 122.58,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
+          "carr": 4,
+          "falta": 0,
           "tn_prev": 120.0,
-          "tn_carr": 60.89
+          "tn_carr": 122.58
         }
       ]
     },
@@ -458,19 +458,19 @@
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 58.0,
-      "tn_carr": 33.6,
+      "tn_carr": 52.14,
       "transportadoras": [
         {
           "nome": "COMERCIAL CARVALHO",
           "cnpj": "05362003000199",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 58.0,
-          "tn_carr": 33.6
+          "tn_carr": 52.14
         }
       ]
     },
@@ -542,19 +542,19 @@
       "cliente": "COQUE DO SUL",
       "produto": "Cucuta",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 10.0,
-      "tn_carr": 0.0,
+      "tn_carr": 9.62,
       "transportadoras": [
         {
           "nome": "COQUE DO SUL (SC)",
           "cnpj": "04749930000101",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 10.0,
-          "tn_carr": 0.0
+          "tn_carr": 9.62
         }
       ]
     }
