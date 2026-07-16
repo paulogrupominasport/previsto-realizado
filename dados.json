@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/07/2026",
-  "gerado_em": "2026-07-16T14:00:08",
-  "atualizado_em": "2026-07-16T17:05:28",
+  "gerado_em": "2026-07-16T15:00:17",
+  "atualizado_em": "2026-07-16T18:05:38",
   "totais": {
-    "prog": 45,
-    "carr": 33,
-    "falta": 12,
-    "tn_prev": 1560.03,
-    "tn_carr": 1223.59
+    "prog": 47,
+    "carr": 34,
+    "falta": 13,
+    "tn_prev": 1620.03,
+    "tn_carr": 1271.71
   },
   "por_cliente": [
     {
@@ -21,10 +21,18 @@
     {
       "cliente": "BRASKEM",
       "prog": 10,
-      "carr": 7,
-      "falta": 3,
+      "carr": 8,
+      "falta": 2,
       "tn_prev": 280.0,
-      "tn_carr": 262.1
+      "tn_carr": 310.22
+    },
+    {
+      "cliente": "BELLUNO",
+      "prog": 7,
+      "carr": 5,
+      "falta": 2,
+      "tn_prev": 210.0,
+      "tn_carr": 155.12
     },
     {
       "cliente": "ITAMBÉ",
@@ -33,14 +41,6 @@
       "falta": 2,
       "tn_prev": 179.08,
       "tn_carr": 103.08
-    },
-    {
-      "cliente": "BELLUNO",
-      "prog": 5,
-      "carr": 5,
-      "falta": 0,
-      "tn_prev": 150.0,
-      "tn_carr": 155.12
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -118,11 +118,11 @@
     },
     {
       "produto": "TÉRMICO",
-      "prog": 16,
-      "carr": 13,
-      "falta": 3,
-      "tn_prev": 462.0,
-      "tn_carr": 440.38
+      "prog": 18,
+      "carr": 14,
+      "falta": 4,
+      "tn_prev": 522.0,
+      "tn_carr": 488.5
     },
     {
       "produto": "GESSO",
@@ -218,10 +218,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 10,
-      "carr": 7,
-      "falta": 3,
+      "carr": 8,
+      "falta": 2,
       "tn_prev": 280.0,
-      "tn_carr": 262.1,
+      "tn_carr": 310.22,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -263,10 +263,31 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 2.0,
-          "tn_carr": 0.0
+          "tn_carr": 48.12
+        }
+      ]
+    },
+    {
+      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BELLUNO",
+      "produto": "TÉRMICO",
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 180.0,
+      "tn_carr": 122.58,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 6,
+          "carr": 4,
+          "falta": 2,
+          "tn_prev": 180.0,
+          "tn_carr": 122.58
         }
       ]
     },
@@ -336,27 +357,6 @@
           "falta": 0,
           "tn_prev": 98.86,
           "tn_carr": 98.86
-        }
-      ]
-    },
-    {
-      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BELLUNO",
-      "produto": "TÉRMICO",
-      "prog": 4,
-      "carr": 4,
-      "falta": 0,
-      "tn_prev": 120.0,
-      "tn_carr": 122.58,
-      "transportadoras": [
-        {
-          "nome": "BELLUNO (SC)",
-          "cnpj": "83163576000105",
-          "prog": 4,
-          "carr": 4,
-          "falta": 0,
-          "tn_prev": 120.0,
-          "tn_carr": 122.58
         }
       ]
     },
