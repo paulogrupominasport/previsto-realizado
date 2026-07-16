@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/07/2026",
-  "gerado_em": "2026-07-16T16:00:08",
-  "atualizado_em": "2026-07-16T19:05:27",
+  "gerado_em": "2026-07-16T17:00:14",
+  "atualizado_em": "2026-07-16T20:05:25",
   "totais": {
     "prog": 48,
-    "carr": 40,
-    "falta": 8,
-    "tn_prev": 1651.46,
-    "tn_carr": 1485.64
+    "carr": 42,
+    "falta": 6,
+    "tn_prev": 1651.95,
+    "tn_carr": 1552.33
   },
   "por_cliente": [
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "BELLUNO",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
+      "carr": 7,
+      "falta": 0,
       "tn_prev": 210.0,
-      "tn_carr": 185.25
+      "tn_carr": 215.45
     },
     {
       "cliente": "ITAMBÉ",
@@ -53,10 +53,10 @@
     {
       "cliente": "*CIM. LIZ",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 103.25,
-      "tn_carr": 75.13
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 103.74,
+      "tn_carr": 111.62
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -111,18 +111,18 @@
     {
       "produto": "PETCOKE",
       "prog": 18,
-      "carr": 13,
-      "falta": 5,
-      "tn_prev": 707.48,
-      "tn_carr": 571.36
+      "carr": 14,
+      "falta": 4,
+      "tn_prev": 707.97,
+      "tn_carr": 607.85
     },
     {
       "produto": "TÉRMICO",
       "prog": 18,
-      "carr": 17,
-      "falta": 1,
+      "carr": 18,
+      "falta": 0,
       "tn_prev": 522.0,
-      "tn_carr": 592.0
+      "tn_carr": 622.2
     },
     {
       "produto": "GESSO",
@@ -275,19 +275,19 @@
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
+      "carr": 6,
+      "falta": 0,
       "tn_prev": 180.0,
-      "tn_carr": 152.71,
+      "tn_carr": 182.91,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 6,
-          "carr": 5,
-          "falta": 1,
+          "carr": 6,
+          "falta": 0,
           "tn_prev": 180.0,
-          "tn_carr": 152.71
+          "tn_carr": 182.91
         }
       ]
     },
@@ -365,10 +365,10 @@
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 103.25,
-      "tn_carr": 75.13,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 103.74,
+      "tn_carr": 111.62,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -392,10 +392,10 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 39.88
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 36.49,
+          "tn_carr": 76.37
         }
       ]
     },
