@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/07/2026",
-  "gerado_em": "2026-07-16T12:00:13",
-  "atualizado_em": "2026-07-16T15:05:30",
+  "gerado_em": "2026-07-16T13:00:18",
+  "atualizado_em": "2026-07-16T16:05:26",
   "totais": {
     "prog": 45,
-    "carr": 27,
-    "falta": 18,
-    "tn_prev": 1598.79,
-    "tn_carr": 1046.55
+    "carr": 28,
+    "falta": 17,
+    "tn_prev": 1560.03,
+    "tn_carr": 1095.67
   },
   "por_cliente": [
     {
@@ -45,18 +45,10 @@
     {
       "cliente": "BELOCAL MTZ",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 136.78,
-      "tn_carr": 88.78
-    },
-    {
-      "cliente": "*CIM. LIZ",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 110.88,
-      "tn_carr": 39.88
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 137.9,
+      "tn_carr": 137.9
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -65,6 +57,14 @@
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "*CIM. LIZ",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 39.88
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -111,10 +111,10 @@
     {
       "produto": "PETCOKE",
       "prog": 17,
-      "carr": 11,
-      "falta": 6,
-      "tn_prev": 713.99,
-      "tn_carr": 486.99
+      "carr": 12,
+      "falta": 5,
+      "tn_prev": 675.23,
+      "tn_carr": 536.11
     },
     {
       "produto": "TÉRMICO",
@@ -314,10 +314,10 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 136.78,
-      "tn_carr": 88.78,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 137.9,
+      "tn_carr": 137.9,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -332,10 +332,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 97.74,
-          "tn_carr": 49.74
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 98.86,
+          "tn_carr": 98.86
         }
       ]
     },
@@ -361,36 +361,6 @@
       ]
     },
     {
-      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "*CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 110.88,
-      "tn_carr": 39.88,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 75.88,
-          "tn_carr": 39.88
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -408,6 +378,36 @@
           "falta": 2,
           "tn_prev": 96.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "*CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 39.88,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 39.88
         }
       ]
     },
