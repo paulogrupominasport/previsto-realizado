@@ -1,38 +1,38 @@
 {
   "data_relatorio": "17/07/2026",
-  "gerado_em": "2026-07-17T15:00:11",
-  "atualizado_em": "2026-07-17T18:05:33",
+  "gerado_em": "2026-07-17T15:51:28",
+  "atualizado_em": "2026-07-17T18:55:31",
   "totais": {
-    "prog": 53,
-    "carr": 31,
-    "falta": 22,
-    "tn_prev": 1851.28,
-    "tn_carr": 985.73
+    "prog": 55,
+    "carr": 38,
+    "falta": 17,
+    "tn_prev": 1942.84,
+    "tn_carr": 1246.5
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
-      "prog": 20,
-      "carr": 7,
-      "falta": 13,
-      "tn_prev": 806.35,
-      "tn_carr": 266.35
+      "prog": 22,
+      "carr": 10,
+      "falta": 12,
+      "tn_prev": 897.91,
+      "tn_carr": 395.91
     },
     {
       "cliente": "BRASKEM",
       "prog": 9,
-      "carr": 6,
-      "falta": 3,
+      "carr": 8,
+      "falta": 1,
       "tn_prev": 288.0,
-      "tn_carr": 192.82
+      "tn_carr": 260.64
     },
     {
       "cliente": "BELLUNO",
       "prog": 8,
-      "carr": 7,
-      "falta": 1,
+      "carr": 8,
+      "falta": 0,
       "tn_prev": 240.0,
-      "tn_carr": 207.64
+      "tn_carr": 237.94
     },
     {
       "cliente": "GABRIELLA",
@@ -69,10 +69,10 @@
     {
       "cliente": "METROPOLITANA",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 62.0,
-      "tn_carr": 29.58
+      "tn_carr": 62.67
     },
     {
       "cliente": "CIM. LIZ",
@@ -94,19 +94,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 23,
-      "carr": 8,
-      "falta": 15,
-      "tn_prev": 926.46,
-      "tn_carr": 315.46
+      "prog": 25,
+      "carr": 11,
+      "falta": 14,
+      "tn_prev": 1018.02,
+      "tn_carr": 445.02
     },
     {
       "produto": "TÉRMICO",
       "prog": 22,
-      "carr": 17,
-      "falta": 5,
+      "carr": 21,
+      "falta": 1,
       "tn_prev": 689.78,
-      "tn_carr": 508.6
+      "tn_carr": 639.81
     },
     {
       "produto": "GESSO",
@@ -146,11 +146,11 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 20,
-      "carr": 7,
-      "falta": 13,
-      "tn_prev": 806.35,
-      "tn_carr": 266.35,
+      "prog": 22,
+      "carr": 10,
+      "falta": 12,
+      "tn_prev": 897.91,
+      "tn_carr": 395.91,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -164,10 +164,10 @@
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 3,
+          "prog": 4,
           "carr": 1,
-          "falta": 2,
-          "tn_prev": 111.36,
+          "falta": 3,
+          "tn_prev": 154.36,
           "tn_carr": 36.36
         },
         {
@@ -182,20 +182,20 @@
         {
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 34.82,
+          "falta": 1,
+          "tn_prev": 82.82,
           "tn_carr": 34.82
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 12,
-          "carr": 2,
-          "falta": 10,
-          "tn_prev": 506.52,
-          "tn_carr": 79.52
+          "carr": 5,
+          "falta": 7,
+          "tn_prev": 507.08,
+          "tn_carr": 209.08
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -213,10 +213,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 6,
-      "falta": 3,
+      "carr": 8,
+      "falta": 1,
       "tn_prev": 288.0,
-      "tn_carr": 192.82,
+      "tn_carr": 260.64,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -231,19 +231,19 @@
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 65.0,
-          "tn_carr": 0.0
+          "tn_carr": 31.2
         },
         {
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 65.0,
-          "tn_carr": 30.48
+          "tn_carr": 67.1
         }
       ]
     },
@@ -252,19 +252,19 @@
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
+      "carr": 7,
+      "falta": 0,
       "tn_prev": 230.0,
-      "tn_carr": 176.42,
+      "tn_carr": 206.72,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 7,
-          "carr": 6,
-          "falta": 1,
+          "carr": 7,
+          "falta": 0,
           "tn_prev": 230.0,
-          "tn_carr": 176.42
+          "tn_carr": 206.72
         }
       ]
     },
@@ -366,19 +366,19 @@
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 62.0,
-      "tn_carr": 29.58,
+      "tn_carr": 62.67,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 62.0,
-          "tn_carr": 29.58
+          "tn_carr": 62.67
         }
       ]
     },
