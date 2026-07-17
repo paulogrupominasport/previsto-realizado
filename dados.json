@@ -1,21 +1,21 @@
 {
   "data_relatorio": "17/07/2026",
-  "gerado_em": "2026-07-17T14:00:18",
-  "atualizado_em": "2026-07-17T17:05:26",
+  "gerado_em": "2026-07-17T15:00:11",
+  "atualizado_em": "2026-07-17T18:05:33",
   "totais": {
-    "prog": 51,
-    "carr": 28,
-    "falta": 23,
-    "tn_prev": 1774.22,
-    "tn_carr": 903.67
+    "prog": 53,
+    "carr": 31,
+    "falta": 22,
+    "tn_prev": 1851.28,
+    "tn_carr": 985.73
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
-      "prog": 18,
+      "prog": 20,
       "carr": 7,
-      "falta": 11,
-      "tn_prev": 731.35,
+      "falta": 13,
+      "tn_prev": 806.35,
       "tn_carr": 266.35
     },
     {
@@ -23,7 +23,7 @@
       "prog": 9,
       "carr": 6,
       "falta": 3,
-      "tn_prev": 293.0,
+      "tn_prev": 288.0,
       "tn_carr": 192.82
     },
     {
@@ -35,20 +35,20 @@
       "tn_carr": 207.64
     },
     {
+      "cliente": "GABRIELLA",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 109.78,
+      "tn_carr": 109.78
+    },
+    {
       "cliente": "ITAMBÉ",
       "prog": 3,
       "carr": 3,
       "falta": 0,
       "tn_prev": 109.04,
       "tn_carr": 109.04
-    },
-    {
-      "cliente": "GABRIELLA",
-      "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 102.72,
-      "tn_carr": 27.72
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -94,19 +94,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 21,
+      "prog": 23,
       "carr": 8,
-      "falta": 13,
-      "tn_prev": 851.46,
+      "falta": 15,
+      "tn_prev": 926.46,
       "tn_carr": 315.46
     },
     {
       "produto": "TÉRMICO",
       "prog": 22,
-      "carr": 14,
-      "falta": 8,
-      "tn_prev": 687.72,
-      "tn_carr": 426.54
+      "carr": 17,
+      "falta": 5,
+      "tn_prev": 689.78,
+      "tn_carr": 508.6
     },
     {
       "produto": "GESSO",
@@ -146,10 +146,10 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 18,
+      "prog": 20,
       "carr": 7,
-      "falta": 11,
-      "tn_prev": 731.35,
+      "falta": 13,
+      "tn_prev": 806.35,
       "tn_carr": 266.35,
       "transportadoras": [
         {
@@ -164,10 +164,10 @@
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 1,
+          "prog": 3,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 36.36,
+          "falta": 2,
+          "tn_prev": 111.36,
           "tn_carr": 36.36
         },
         {
@@ -215,7 +215,7 @@
       "prog": 9,
       "carr": 6,
       "falta": 3,
-      "tn_prev": 293.0,
+      "tn_prev": 288.0,
       "tn_carr": 192.82,
       "transportadoras": [
         {
@@ -233,7 +233,7 @@
           "prog": 2,
           "carr": 0,
           "falta": 2,
-          "tn_prev": 70.0,
+          "tn_prev": 65.0,
           "tn_carr": 0.0
         },
         {
@@ -269,6 +269,27 @@
       ]
     },
     {
+      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
+      "cliente": "GABRIELLA",
+      "produto": "TÉRMICO",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 109.78,
+      "tn_carr": 109.78,
+      "transportadoras": [
+        {
+          "nome": "GABRIELLA MINERACAO (SC)",
+          "cnpj": "07105967000187",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 109.78,
+          "tn_carr": 109.78
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
@@ -286,27 +307,6 @@
           "falta": 0,
           "tn_prev": 109.04,
           "tn_carr": 109.04
-        }
-      ]
-    },
-    {
-      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
-      "cliente": "GABRIELLA",
-      "produto": "TÉRMICO",
-      "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 102.72,
-      "tn_carr": 27.72,
-      "transportadoras": [
-        {
-          "nome": "GABRIELLA MINERACAO (SC)",
-          "cnpj": "07105967000187",
-          "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 102.72,
-          "tn_carr": 27.72
         }
       ]
     },
