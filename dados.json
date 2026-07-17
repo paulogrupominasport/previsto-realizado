@@ -1,13 +1,13 @@
 {
   "data_relatorio": "17/07/2026",
-  "gerado_em": "2026-07-17T07:00:17",
-  "atualizado_em": "2026-07-17T10:05:25",
+  "gerado_em": "2026-07-17T08:00:10",
+  "atualizado_em": "2026-07-17T11:05:25",
   "totais": {
-    "prog": 29,
-    "carr": 0,
-    "falta": 29,
-    "tn_prev": 1005.0,
-    "tn_carr": 0.0
+    "prog": 30,
+    "carr": 3,
+    "falta": 27,
+    "tn_prev": 1032.0,
+    "tn_carr": 70.74
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 297.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 293.0,
+      "tn_carr": 30.48
     },
     {
       "cliente": "ITAMBÉ",
@@ -45,10 +45,10 @@
     {
       "cliente": "BELLUNO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 1,
+      "falta": 1,
       "tn_prev": 60.0,
-      "tn_carr": 0.0
+      "tn_carr": 29.35
     },
     {
       "cliente": "CIM. LIZ",
@@ -59,12 +59,20 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "METROPOLITANA",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 31.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "COQUE DO SUL",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 1,
+      "falta": 1,
       "tn_prev": 20.0,
-      "tn_carr": 0.0
+      "tn_carr": 10.91
     }
   ],
   "por_produto": [
@@ -78,11 +86,11 @@
     },
     {
       "produto": "TÉRMICO",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 357.0,
-      "tn_carr": 0.0
+      "prog": 12,
+      "carr": 2,
+      "falta": 10,
+      "tn_prev": 384.0,
+      "tn_carr": 59.83
     },
     {
       "produto": "GESSO",
@@ -103,10 +111,10 @@
     {
       "produto": "Cucuta",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 1,
+      "falta": 1,
       "tn_prev": 20.0,
-      "tn_carr": 0.0
+      "tn_carr": 10.91
     }
   ],
   "lotes": [
@@ -172,10 +180,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 297.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 293.0,
+      "tn_carr": 30.48,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -183,7 +191,7 @@
           "prog": 5,
           "carr": 0,
           "falta": 5,
-          "tn_prev": 162.0,
+          "tn_prev": 158.0,
           "tn_carr": 0.0
         },
         {
@@ -199,10 +207,10 @@
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 65.0,
-          "tn_carr": 0.0
+          "tn_carr": 30.48
         }
       ]
     },
@@ -253,19 +261,19 @@
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 1,
+      "falta": 1,
       "tn_prev": 60.0,
-      "tn_carr": 0.0,
+      "tn_carr": 29.35,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 60.0,
-          "tn_carr": 0.0
+          "tn_carr": 29.35
         }
       ]
     },
@@ -291,23 +299,44 @@
       ]
     },
     {
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
+      "produto": "TÉRMICO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 31.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 31.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "COQUE DO SUL - CUCUTA - PACIFIC TALENT - PILHA 91",
       "cliente": "COQUE DO SUL",
       "produto": "Cucuta",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 1,
+      "falta": 1,
       "tn_prev": 20.0,
-      "tn_carr": 0.0,
+      "tn_carr": 10.91,
       "transportadoras": [
         {
           "nome": "COQUE DO SUL (SC)",
           "cnpj": "04749930000101",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 20.0,
-          "tn_carr": 0.0
+          "tn_carr": 10.91
         }
       ]
     }
