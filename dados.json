@@ -1,21 +1,21 @@
 {
   "data_relatorio": "17/07/2026",
-  "gerado_em": "2026-07-17T12:00:05",
-  "atualizado_em": "2026-07-17T15:05:32",
+  "gerado_em": "2026-07-17T13:00:11",
+  "atualizado_em": "2026-07-17T16:05:25",
   "totais": {
-    "prog": 46,
+    "prog": 48,
     "carr": 21,
-    "falta": 25,
-    "tn_prev": 1586.46,
+    "falta": 27,
+    "tn_prev": 1656.46,
     "tn_carr": 697.62
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
-      "prog": 17,
+      "prog": 18,
       "carr": 7,
-      "falta": 10,
-      "tn_prev": 693.35,
+      "falta": 11,
+      "tn_prev": 731.35,
       "tn_carr": 266.35
     },
     {
@@ -67,6 +67,14 @@
       "tn_carr": 49.11
     },
     {
+      "cliente": "LS METAIS / COQUEMETAL",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 32.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "METROPOLITANA",
       "prog": 1,
       "carr": 1,
@@ -86,10 +94,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 18,
+      "prog": 20,
       "carr": 8,
-      "falta": 10,
-      "tn_prev": 742.46,
+      "falta": 12,
+      "tn_prev": 812.46,
       "tn_carr": 315.46
     },
     {
@@ -138,10 +146,10 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 17,
+      "prog": 18,
       "carr": 7,
-      "falta": 10,
-      "tn_prev": 693.35,
+      "falta": 11,
+      "tn_prev": 731.35,
       "tn_carr": 266.35,
       "transportadoras": [
         {
@@ -188,6 +196,15 @@
           "falta": 10,
           "tn_prev": 506.52,
           "tn_carr": 79.52
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -332,6 +349,27 @@
           "falta": 0,
           "tn_prev": 49.11,
           "tn_carr": 49.11
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 32.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 32.0,
+          "tn_carr": 0.0
         }
       ]
     },
