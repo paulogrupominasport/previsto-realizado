@@ -1,29 +1,29 @@
 {
   "data_relatorio": "17/07/2026",
-  "gerado_em": "2026-07-17T17:00:06",
-  "atualizado_em": "2026-07-17T20:05:25",
+  "gerado_em": "2026-07-17T18:00:09",
+  "atualizado_em": "2026-07-17T21:05:27",
   "totais": {
-    "prog": 50,
-    "carr": 44,
-    "falta": 6,
-    "tn_prev": 1736.6,
-    "tn_carr": 1495.26
+    "prog": 48,
+    "carr": 46,
+    "falta": 2,
+    "tn_prev": 1673.75,
+    "tn_carr": 1580.41
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
       "prog": 17,
-      "carr": 15,
-      "falta": 2,
-      "tn_prev": 691.38,
-      "tn_carr": 605.38
+      "carr": 17,
+      "falta": 0,
+      "tn_prev": 690.53,
+      "tn_carr": 690.53
     },
     {
       "cliente": "BRASKEM",
-      "prog": 9,
+      "prog": 8,
       "carr": 8,
-      "falta": 1,
-      "tn_prev": 288.0,
+      "falta": 0,
+      "tn_prev": 258.0,
       "tn_carr": 260.64
     },
     {
@@ -59,14 +59,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "LS METAIS / COQUEMETAL",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 71.29,
-      "tn_carr": 39.29
-    },
-    {
       "cliente": "METROPOLITANA",
       "prog": 2,
       "carr": 2,
@@ -83,6 +75,14 @@
       "tn_carr": 49.11
     },
     {
+      "cliente": "LS METAIS / COQUEMETAL",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.29,
+      "tn_carr": 39.29
+    },
+    {
       "cliente": "COQUE DO SUL",
       "prog": 2,
       "carr": 2,
@@ -94,18 +94,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 20,
-      "carr": 17,
-      "falta": 3,
-      "tn_prev": 811.78,
-      "tn_carr": 693.78
+      "prog": 19,
+      "carr": 19,
+      "falta": 0,
+      "tn_prev": 778.93,
+      "tn_carr": 778.93
     },
     {
       "produto": "TÉRMICO",
-      "prog": 22,
+      "prog": 21,
       "carr": 21,
-      "falta": 1,
-      "tn_prev": 689.78,
+      "falta": 0,
+      "tn_prev": 659.78,
       "tn_carr": 639.81
     },
     {
@@ -147,10 +147,10 @@
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 17,
-      "carr": 15,
-      "falta": 2,
-      "tn_prev": 691.38,
-      "tn_carr": 605.38,
+      "carr": 17,
+      "falta": 0,
+      "tn_prev": 690.53,
+      "tn_carr": 690.53,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -192,19 +192,19 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 7,
-          "carr": 6,
-          "falta": 1,
-          "tn_prev": 305.65,
-          "tn_carr": 257.65
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 306.18,
+          "tn_carr": 306.18
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.62,
+          "tn_carr": 36.62
         }
       ]
     },
@@ -212,10 +212,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 9,
+      "prog": 8,
       "carr": 8,
-      "falta": 1,
-      "tn_prev": 288.0,
+      "falta": 0,
+      "tn_prev": 258.0,
       "tn_carr": 260.64,
       "transportadoras": [
         {
@@ -230,10 +230,10 @@
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
-          "prog": 2,
+          "prog": 1,
           "carr": 1,
-          "falta": 1,
-          "tn_prev": 65.0,
+          "falta": 0,
+          "tn_prev": 35.0,
           "tn_carr": 31.2
         },
         {
@@ -332,36 +332,6 @@
       ]
     },
     {
-      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "LS METAIS / COQUEMETAL",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 71.29,
-      "tn_carr": 39.29,
-      "transportadoras": [
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 39.29,
-          "tn_carr": 39.29
-        }
-      ]
-    },
-    {
       "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
@@ -400,6 +370,27 @@
           "falta": 0,
           "tn_prev": 49.11,
           "tn_carr": 49.11
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.29,
+      "tn_carr": 39.29,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.29,
+          "tn_carr": 39.29
         }
       ]
     },
