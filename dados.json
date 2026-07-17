@@ -1,22 +1,22 @@
 {
   "data_relatorio": "17/07/2026",
-  "gerado_em": "2026-07-17T09:00:17",
-  "atualizado_em": "2026-07-17T12:05:28",
+  "gerado_em": "2026-07-17T10:00:07",
+  "atualizado_em": "2026-07-17T13:05:31",
   "totais": {
-    "prog": 30,
-    "carr": 11,
-    "falta": 19,
-    "tn_prev": 1032.93,
-    "tn_carr": 346.78
+    "prog": 35,
+    "carr": 14,
+    "falta": 21,
+    "tn_prev": 1152.05,
+    "tn_carr": 452.48
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
       "prog": 10,
-      "carr": 1,
-      "falta": 9,
-      "tn_prev": 369.82,
-      "tn_carr": 34.82
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 368.94,
+      "tn_carr": 110.94
     },
     {
       "cliente": "BRASKEM",
@@ -25,6 +25,14 @@
       "falta": 3,
       "tn_prev": 293.0,
       "tn_carr": 192.82
+    },
+    {
+      "cliente": "BELLUNO",
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 130.0,
+      "tn_carr": 59.12
     },
     {
       "cliente": "ITAMBÉ",
@@ -43,12 +51,12 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BELLUNO",
+      "cliente": "GABRIELLA",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 60.0,
-      "tn_carr": 59.12
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "CIM. LIZ",
@@ -61,10 +69,10 @@
     {
       "cliente": "METROPOLITANA",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 31.0,
-      "tn_carr": 0.0
+      "tn_carr": 29.58
     },
     {
       "cliente": "COQUE DO SUL",
@@ -77,20 +85,20 @@
   ],
   "por_produto": [
     {
-      "produto": "PETCOKE",
-      "prog": 11,
-      "carr": 2,
-      "falta": 9,
-      "tn_prev": 418.93,
-      "tn_carr": 83.93
+      "produto": "TÉRMICO",
+      "prog": 16,
+      "carr": 9,
+      "falta": 7,
+      "tn_prev": 494.0,
+      "tn_carr": 281.52
     },
     {
-      "produto": "TÉRMICO",
-      "prog": 12,
-      "carr": 8,
-      "falta": 4,
-      "tn_prev": 384.0,
-      "tn_carr": 251.94
+      "produto": "PETCOKE",
+      "prog": 11,
+      "carr": 4,
+      "falta": 7,
+      "tn_prev": 418.05,
+      "tn_carr": 160.05
     },
     {
       "produto": "GESSO",
@@ -115,6 +123,14 @@
       "falta": 1,
       "tn_prev": 20.0,
       "tn_carr": 10.91
+    },
+    {
+      "produto": "Premium Hvb",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 10.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -123,10 +139,10 @@
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 1,
-      "falta": 9,
-      "tn_prev": 369.82,
-      "tn_carr": 34.82,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 368.94,
+      "tn_carr": 110.94,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -141,19 +157,19 @@
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.36,
+          "tn_carr": 36.36
         },
         {
           "nome": "JRS LOGISTICA (ES)",
           "cnpj": "45374884000182",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 40.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.76,
+          "tn_carr": 39.76
         },
         {
           "nome": "G7 LOG (RJ)",
@@ -215,6 +231,27 @@
       ]
     },
     {
+      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BELLUNO",
+      "produto": "TÉRMICO",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 120.0,
+      "tn_carr": 59.12,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 120.0,
+          "tn_carr": 59.12
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
@@ -257,23 +294,23 @@
       ]
     },
     {
-      "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BELLUNO",
+      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
+      "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 60.0,
-      "tn_carr": 59.12,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "BELLUNO (SC)",
-          "cnpj": "83163576000105",
+          "nome": "GABRIELLA MINERACAO (SC)",
+          "cnpj": "07105967000187",
           "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 60.0,
-          "tn_carr": 59.12
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 50.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -303,19 +340,19 @@
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 31.0,
-      "tn_carr": 0.0,
+      "tn_carr": 29.58,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 31.0,
-          "tn_carr": 0.0
+          "tn_carr": 29.58
         }
       ]
     },
@@ -337,6 +374,27 @@
           "falta": 1,
           "tn_prev": 20.0,
           "tn_carr": 10.91
+        }
+      ]
+    },
+    {
+      "lote": "BELLUNO - PREMIUM HVB - PACIFIC TALENT - PILHA 91 - JULHO",
+      "cliente": "BELLUNO",
+      "produto": "Premium Hvb",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 10.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 10.0,
+          "tn_carr": 0.0
         }
       ]
     }

@@ -2309,27 +2309,33 @@
     }
   },
   "2026-07-17": {
-    "gerado_em": "2026-07-17T09:00:17",
-    "atualizado_em": "2026-07-17T12:05:28",
+    "gerado_em": "2026-07-17T10:00:07",
+    "atualizado_em": "2026-07-17T13:05:31",
     "totais": {
-      "prog": 30,
-      "carr": 11,
-      "falta": 19,
-      "tn_prev": 1032.93,
-      "tn_carr": 346.78
+      "prog": 35,
+      "carr": 14,
+      "falta": 21,
+      "tn_prev": 1152.05,
+      "tn_carr": 452.48
     },
     "por_cliente": {
       "*CIM. LIZ": {
         "prog": 10,
-        "carr": 1,
-        "tn_prev": 369.82,
-        "tn_carr": 34.82
+        "carr": 3,
+        "tn_prev": 368.94,
+        "tn_carr": 110.94
       },
       "BRASKEM": {
         "prog": 9,
         "carr": 6,
         "tn_prev": 293.0,
         "tn_carr": 192.82
+      },
+      "BELLUNO": {
+        "prog": 5,
+        "carr": 2,
+        "tn_prev": 130.0,
+        "tn_carr": 59.12
       },
       "ITAMBÉ": {
         "prog": 3,
@@ -2343,11 +2349,11 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "BELLUNO": {
+      "GABRIELLA": {
         "prog": 2,
-        "carr": 2,
-        "tn_prev": 60.0,
-        "tn_carr": 59.12
+        "carr": 0,
+        "tn_prev": 50.0,
+        "tn_carr": 0.0
       },
       "CIM. LIZ": {
         "prog": 1,
@@ -2357,9 +2363,9 @@
       },
       "METROPOLITANA": {
         "prog": 1,
-        "carr": 0,
+        "carr": 1,
         "tn_prev": 31.0,
-        "tn_carr": 0.0
+        "tn_carr": 29.58
       },
       "COQUE DO SUL": {
         "prog": 2,
@@ -2369,17 +2375,17 @@
       }
     },
     "por_produto": {
+      "TÉRMICO": {
+        "prog": 16,
+        "carr": 9,
+        "tn_prev": 494.0,
+        "tn_carr": 281.52
+      },
       "PETCOKE": {
         "prog": 11,
-        "carr": 2,
-        "tn_prev": 418.93,
-        "tn_carr": 83.93
-      },
-      "TÉRMICO": {
-        "prog": 12,
-        "carr": 8,
-        "tn_prev": 384.0,
-        "tn_carr": 251.94
+        "carr": 4,
+        "tn_prev": 418.05,
+        "tn_carr": 160.05
       },
       "GESSO": {
         "prog": 3,
@@ -2398,6 +2404,12 @@
         "carr": 1,
         "tn_prev": 20.0,
         "tn_carr": 10.91
+      },
+      "Premium Hvb": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 10.0,
+        "tn_carr": 0.0
       }
     }
   }
