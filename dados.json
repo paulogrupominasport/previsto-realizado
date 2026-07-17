@@ -1,30 +1,30 @@
 {
   "data_relatorio": "17/07/2026",
-  "gerado_em": "2026-07-17T08:00:10",
-  "atualizado_em": "2026-07-17T11:05:25",
+  "gerado_em": "2026-07-17T09:00:17",
+  "atualizado_em": "2026-07-17T12:05:28",
   "totais": {
     "prog": 30,
-    "carr": 3,
-    "falta": 27,
-    "tn_prev": 1032.0,
-    "tn_carr": 70.74
+    "carr": 11,
+    "falta": 19,
+    "tn_prev": 1032.93,
+    "tn_carr": 346.78
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 370.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 369.82,
+      "tn_carr": 34.82
     },
     {
       "cliente": "BRASKEM",
       "prog": 9,
-      "carr": 1,
-      "falta": 8,
+      "carr": 6,
+      "falta": 3,
       "tn_prev": 293.0,
-      "tn_carr": 30.48
+      "tn_carr": 192.82
     },
     {
       "cliente": "ITAMBÉ",
@@ -45,18 +45,18 @@
     {
       "cliente": "BELLUNO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 60.0,
-      "tn_carr": 29.35
+      "tn_carr": 59.12
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 49.11,
+      "tn_carr": 49.11
     },
     {
       "cliente": "METROPOLITANA",
@@ -79,18 +79,18 @@
     {
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 418.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 9,
+      "tn_prev": 418.93,
+      "tn_carr": 83.93
     },
     {
       "produto": "TÉRMICO",
       "prog": 12,
-      "carr": 2,
-      "falta": 10,
+      "carr": 8,
+      "falta": 4,
       "tn_prev": 384.0,
-      "tn_carr": 59.83
+      "tn_carr": 251.94
     },
     {
       "produto": "GESSO",
@@ -123,10 +123,10 @@
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 370.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 369.82,
+      "tn_carr": 34.82,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -159,10 +159,10 @@
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 34.82,
+          "tn_carr": 34.82
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -180,19 +180,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 1,
-      "falta": 8,
+      "carr": 6,
+      "falta": 3,
       "tn_prev": 293.0,
-      "tn_carr": 30.48,
+      "tn_carr": 192.82,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
+          "carr": 5,
+          "falta": 0,
           "tn_prev": 158.0,
-          "tn_carr": 0.0
+          "tn_carr": 162.34
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -261,19 +261,19 @@
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 60.0,
-      "tn_carr": 29.35,
+      "tn_carr": 59.12,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 60.0,
-          "tn_carr": 29.35
+          "tn_carr": 59.12
         }
       ]
     },
@@ -282,19 +282,19 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 49.11,
+      "tn_carr": 49.11,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.11,
+          "tn_carr": 49.11
         }
       ]
     },
