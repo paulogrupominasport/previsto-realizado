@@ -1,13 +1,13 @@
 {
   "data_relatorio": "17/07/2026",
-  "gerado_em": "2026-07-17T13:00:11",
-  "atualizado_em": "2026-07-17T16:05:25",
+  "gerado_em": "2026-07-17T14:00:18",
+  "atualizado_em": "2026-07-17T17:05:26",
   "totais": {
-    "prog": 48,
-    "carr": 21,
-    "falta": 27,
-    "tn_prev": 1656.46,
-    "tn_carr": 697.62
+    "prog": 51,
+    "carr": 28,
+    "falta": 23,
+    "tn_prev": 1774.22,
+    "tn_carr": 903.67
   },
   "por_cliente": [
     {
@@ -28,27 +28,27 @@
     },
     {
       "cliente": "BELLUNO",
-      "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 190.0,
-      "tn_carr": 148.85
+      "prog": 8,
+      "carr": 7,
+      "falta": 1,
+      "tn_prev": 240.0,
+      "tn_carr": 207.64
     },
     {
       "cliente": "ITAMBÉ",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 114.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 109.04,
+      "tn_carr": 109.04
     },
     {
       "cliente": "GABRIELLA",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 102.72,
+      "tn_carr": 27.72
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -59,6 +59,22 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "LS METAIS / COQUEMETAL",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "METROPOLITANA",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 62.0,
+      "tn_carr": 29.58
+    },
+    {
       "cliente": "CIM. LIZ",
       "prog": 1,
       "carr": 1,
@@ -67,54 +83,38 @@
       "tn_carr": 49.11
     },
     {
-      "cliente": "LS METAIS / COQUEMETAL",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 32.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "METROPOLITANA",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 31.0,
-      "tn_carr": 29.58
-    },
-    {
       "cliente": "COQUE DO SUL",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 20.0,
-      "tn_carr": 10.91
+      "tn_carr": 21.41
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 20,
+      "prog": 21,
       "carr": 8,
-      "falta": 12,
-      "tn_prev": 812.46,
+      "falta": 13,
+      "tn_prev": 851.46,
       "tn_carr": 315.46
     },
     {
       "produto": "TÉRMICO",
-      "prog": 20,
-      "carr": 11,
-      "falta": 9,
-      "tn_prev": 604.0,
-      "tn_carr": 340.03
+      "prog": 22,
+      "carr": 14,
+      "falta": 8,
+      "tn_prev": 687.72,
+      "tn_carr": 426.54
     },
     {
       "produto": "GESSO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 114.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 109.04,
+      "tn_carr": 109.04
     },
     {
       "produto": "PETRÓLEO",
@@ -127,10 +127,10 @@
     {
       "produto": "Cucuta",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 20.0,
-      "tn_carr": 10.91
+      "tn_carr": 21.41
     },
     {
       "produto": "Premium Hvb",
@@ -251,20 +251,20 @@
       "lote": "BELLUNO - TÉRMICO JOKER - PILHA 92",
       "cliente": "BELLUNO",
       "produto": "TÉRMICO",
-      "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 180.0,
-      "tn_carr": 117.63,
+      "prog": 7,
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 230.0,
+      "tn_carr": 176.42,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
-          "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 180.0,
-          "tn_carr": 117.63
+          "prog": 7,
+          "carr": 6,
+          "falta": 1,
+          "tn_prev": 230.0,
+          "tn_carr": 176.42
         }
       ]
     },
@@ -273,19 +273,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 114.0,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 109.04,
+      "tn_carr": 109.04,
       "transportadoras": [
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 109.04,
+          "tn_carr": 109.04
         }
       ]
     },
@@ -294,19 +294,19 @@
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 102.72,
+      "tn_carr": 27.72,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 102.72,
+          "tn_carr": 27.72
         }
       ]
     },
@@ -332,6 +332,57 @@
       ]
     },
     {
+      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 32.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 39.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
+      "produto": "TÉRMICO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 62.0,
+      "tn_carr": 29.58,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 62.0,
+          "tn_carr": 29.58
+        }
+      ]
+    },
+    {
       "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
@@ -353,65 +404,23 @@
       ]
     },
     {
-      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "LS METAIS / COQUEMETAL",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 32.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
-      "cliente": "METROPOLITANA",
-      "produto": "TÉRMICO",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 31.0,
-      "tn_carr": 29.58,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 31.0,
-          "tn_carr": 29.58
-        }
-      ]
-    },
-    {
       "lote": "COQUE DO SUL - CUCUTA - PACIFIC TALENT - PILHA 91",
       "cliente": "COQUE DO SUL",
       "produto": "Cucuta",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 20.0,
-      "tn_carr": 10.91,
+      "tn_carr": 21.41,
       "transportadoras": [
         {
           "nome": "COQUE DO SUL (SC)",
           "cnpj": "04749930000101",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 20.0,
-          "tn_carr": 10.91
+          "tn_carr": 21.41
         }
       ]
     },
