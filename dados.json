@@ -1,21 +1,21 @@
 {
   "data_relatorio": "18/07/2026",
-  "gerado_em": "2026-07-18T08:46:13",
-  "atualizado_em": "2026-07-18T11:50:23",
+  "gerado_em": "2026-07-18T09:00:11",
+  "atualizado_em": "2026-07-18T12:05:27",
   "totais": {
-    "prog": 29,
+    "prog": 30,
     "carr": 0,
-    "falta": 29,
-    "tn_prev": 1159.0,
+    "falta": 30,
+    "tn_prev": 1209.0,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
-      "prog": 20,
+      "prog": 21,
       "carr": 0,
-      "falta": 20,
-      "tn_prev": 863.0,
+      "falta": 21,
+      "tn_prev": 913.0,
       "tn_carr": 0.0
     },
     {
@@ -54,10 +54,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 23,
+      "prog": 24,
       "carr": 0,
-      "falta": 23,
-      "tn_prev": 963.0,
+      "falta": 24,
+      "tn_prev": 1013.0,
       "tn_carr": 0.0
     },
     {
@@ -82,10 +82,10 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 20,
+      "prog": 21,
       "carr": 0,
-      "falta": 20,
-      "tn_prev": 863.0,
+      "falta": 21,
+      "tn_prev": 913.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -131,6 +131,15 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 35.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 50.0,
           "tn_carr": 0.0
         },
         {
