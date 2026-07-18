@@ -1,30 +1,30 @@
 {
   "data_relatorio": "18/07/2026",
-  "gerado_em": "2026-07-18T09:00:11",
-  "atualizado_em": "2026-07-18T12:05:27",
+  "gerado_em": "2026-07-18T10:00:15",
+  "atualizado_em": "2026-07-18T13:05:28",
   "totais": {
-    "prog": 30,
-    "carr": 0,
-    "falta": 30,
-    "tn_prev": 1209.0,
-    "tn_carr": 0.0
+    "prog": 32,
+    "carr": 9,
+    "falta": 23,
+    "tn_prev": 1286.49,
+    "tn_carr": 317.49
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
-      "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 913.0,
-      "tn_carr": 0.0
+      "prog": 22,
+      "carr": 5,
+      "falta": 17,
+      "tn_prev": 948.06,
+      "tn_carr": 197.06
     },
     {
       "cliente": "GABRIELLA",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 105.76,
+      "tn_carr": 80.76
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -35,38 +35,38 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "*LHOIST DORESOPOLIS",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 74.67,
+      "tn_carr": 39.67
+    },
+    {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 62.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "*LHOIST DORESOPOLIS",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 24,
-      "carr": 0,
-      "falta": 24,
-      "tn_prev": 1013.0,
-      "tn_carr": 0.0
+      "prog": 26,
+      "carr": 6,
+      "falta": 20,
+      "tn_prev": 1084.73,
+      "tn_carr": 236.73
     },
     {
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 105.76,
+      "tn_carr": 80.76
     },
     {
       "produto": "PETRÓLEO",
@@ -82,11 +82,11 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 913.0,
-      "tn_carr": 0.0,
+      "prog": 22,
+      "carr": 5,
+      "falta": 17,
+      "tn_prev": 948.06,
+      "tn_carr": 197.06,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (MG)",
@@ -100,10 +100,10 @@
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
+          "falta": 2,
+          "tn_prev": 60.0,
           "tn_carr": 0.0
         },
         {
@@ -119,10 +119,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 11,
-          "carr": 0,
-          "falta": 11,
-          "tn_prev": 528.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 10,
+          "tn_prev": 530.59,
+          "tn_carr": 50.59
         },
         {
           "nome": "G7 LOG (RJ)",
@@ -146,10 +146,10 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 180.0,
-          "tn_carr": 0.0
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 184.47,
+          "tn_carr": 146.47
         }
       ]
     },
@@ -158,19 +158,19 @@
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 105.76,
+      "tn_carr": 80.76,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 105.76,
+          "tn_carr": 80.76
         }
       ]
     },
@@ -192,6 +192,27 @@
           "falta": 2,
           "tn_prev": 96.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "*LHOIST DORESOPOLIS - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "*LHOIST DORESOPOLIS",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 74.67,
+      "tn_carr": 39.67,
+      "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 74.67,
+          "tn_carr": 39.67
         }
       ]
     },
@@ -221,27 +242,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 30.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "*LHOIST DORESOPOLIS - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "*LHOIST DORESOPOLIS",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "VICTRANS (RJ)",
-          "cnpj": "02830994000441",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
