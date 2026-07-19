@@ -1,21 +1,21 @@
 {
   "data_relatorio": "18/07/2026",
-  "gerado_em": "2026-07-18T21:00:15",
-  "atualizado_em": "2026-07-19T00:05:26",
+  "gerado_em": "2026-07-18T22:00:04",
+  "atualizado_em": "2026-07-19T01:20:25",
   "totais": {
-    "prog": 39,
-    "carr": 35,
-    "falta": 4,
-    "tn_prev": 1607.97,
-    "tn_carr": 1468.97
+    "prog": 38,
+    "carr": 36,
+    "falta": 2,
+    "tn_prev": 1569.3,
+    "tn_carr": 1516.3
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
-      "prog": 26,
+      "prog": 25,
       "carr": 24,
-      "falta": 2,
-      "tn_prev": 1159.87,
+      "falta": 1,
+      "tn_prev": 1121.87,
       "tn_carr": 1093.87
     },
     {
@@ -37,10 +37,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.36,
-      "tn_carr": 47.36
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.69,
+      "tn_carr": 94.69
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -54,10 +54,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 33,
+      "prog": 32,
       "carr": 31,
-      "falta": 2,
-      "tn_prev": 1406.85,
+      "falta": 1,
+      "tn_prev": 1368.85,
       "tn_carr": 1340.85
     },
     {
@@ -71,10 +71,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.36,
-      "tn_carr": 47.36
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.69,
+      "tn_carr": 94.69
     }
   ],
   "lotes": [
@@ -82,21 +82,12 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 26,
+      "prog": 25,
       "carr": 24,
-      "falta": 2,
-      "tn_prev": 1159.87,
+      "falta": 1,
+      "tn_prev": 1121.87,
       "tn_carr": 1093.87,
       "transportadoras": [
-        {
-          "nome": "SILVANO TRANSPORTES (MG)",
-          "cnpj": "07619336000186",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
@@ -209,19 +200,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.36,
-      "tn_carr": 47.36,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.69,
+      "tn_carr": 94.69,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 95.36,
-          "tn_carr": 47.36
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.69,
+          "tn_carr": 94.69
         }
       ]
     },
