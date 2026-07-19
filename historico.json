@@ -2483,46 +2483,52 @@
     }
   },
   "2026-07-19": {
-    "gerado_em": "2026-07-19T08:00:12",
-    "atualizado_em": "2026-07-19T11:15:28",
+    "gerado_em": "2026-07-19T09:00:15",
+    "atualizado_em": "2026-07-19T12:05:29",
     "totais": {
-      "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 822.0,
-      "tn_carr": 0.0
+      "prog": 20,
+      "carr": 4,
+      "falta": 16,
+      "tn_prev": 779.22,
+      "tn_carr": 166.22
     },
     "por_cliente": {
       "*CIM. LIZ": {
-        "prog": 17,
-        "carr": 0,
-        "tn_prev": 650.0,
-        "tn_carr": 0.0
+        "prog": 14,
+        "carr": 2,
+        "tn_prev": 539.23,
+        "tn_carr": 89.23
       },
-      "PETRORECONCAVO": {
-        "prog": 2,
+      "*BELOCAL MTZ": {
+        "prog": 3,
         "carr": 0,
-        "tn_prev": 96.0,
+        "tn_prev": 115.0,
         "tn_carr": 0.0
       },
       "LS METAIS / COQUEMETAL": {
         "prog": 2,
+        "carr": 2,
+        "tn_prev": 76.99,
+        "tn_carr": 76.99
+      },
+      "PETRORECONCAVO": {
+        "prog": 1,
         "carr": 0,
-        "tn_prev": 76.0,
+        "tn_prev": 48.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
       "PETCOKE": {
         "prog": 19,
-        "carr": 0,
-        "tn_prev": 726.0,
-        "tn_carr": 0.0
+        "carr": 4,
+        "tn_prev": 731.22,
+        "tn_carr": 166.22
       },
       "PETRÓLEO": {
-        "prog": 2,
+        "prog": 1,
         "carr": 0,
-        "tn_prev": 96.0,
+        "tn_prev": 48.0,
         "tn_carr": 0.0
       }
     }

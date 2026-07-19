@@ -1,37 +1,45 @@
 {
   "data_relatorio": "19/07/2026",
-  "gerado_em": "2026-07-19T08:00:12",
-  "atualizado_em": "2026-07-19T11:15:28",
+  "gerado_em": "2026-07-19T09:00:15",
+  "atualizado_em": "2026-07-19T12:05:29",
   "totais": {
-    "prog": 21,
-    "carr": 0,
-    "falta": 21,
-    "tn_prev": 822.0,
-    "tn_carr": 0.0
+    "prog": 20,
+    "carr": 4,
+    "falta": 16,
+    "tn_prev": 779.22,
+    "tn_carr": 166.22
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
-      "prog": 17,
-      "carr": 0,
-      "falta": 17,
-      "tn_prev": 650.0,
-      "tn_carr": 0.0
+      "prog": 14,
+      "carr": 2,
+      "falta": 12,
+      "tn_prev": 539.23,
+      "tn_carr": 89.23
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
+      "cliente": "*BELOCAL MTZ",
+      "prog": 3,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
+      "falta": 3,
+      "tn_prev": 115.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 76.99,
+      "tn_carr": 76.99
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
+      "falta": 1,
+      "tn_prev": 48.0,
       "tn_carr": 0.0
     }
   ],
@@ -39,17 +47,17 @@
     {
       "produto": "PETCOKE",
       "prog": 19,
-      "carr": 0,
-      "falta": 19,
-      "tn_prev": 726.0,
-      "tn_carr": 0.0
+      "carr": 4,
+      "falta": 15,
+      "tn_prev": 731.22,
+      "tn_carr": 166.22
     },
     {
       "produto": "PETRÓLEO",
-      "prog": 2,
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
+      "falta": 1,
+      "tn_prev": 48.0,
       "tn_carr": 0.0
     }
   ],
@@ -58,20 +66,20 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 17,
-      "carr": 0,
-      "falta": 17,
-      "tn_prev": 650.0,
-      "tn_carr": 0.0,
+      "prog": 14,
+      "carr": 2,
+      "falta": 12,
+      "tn_prev": 539.23,
+      "tn_carr": 89.23,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (MG)",
           "cnpj": "07619336000186",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.44,
+          "tn_carr": 39.44
         },
         {
           "nome": "RODOSAFRA (RJ)",
@@ -86,39 +94,39 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 130.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 131.79,
+          "tn_carr": 49.79
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
-          "prog": 12,
+          "prog": 9,
           "carr": 0,
-          "falta": 12,
-          "tn_prev": 450.0,
+          "falta": 9,
+          "tn_prev": 336.0,
           "tn_carr": 0.0
         }
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
+      "lote": "*BELOCAL MTZ - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "*BELOCAL MTZ",
+      "produto": "PETCOKE",
+      "prog": 3,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
+      "falta": 3,
+      "tn_prev": 115.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
+          "falta": 3,
+          "tn_prev": 115.0,
           "tn_carr": 0.0
         }
       ]
@@ -128,18 +136,39 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 76.99,
+      "tn_carr": 76.99,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (MG)",
           "cnpj": "07619336000186",
           "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 76.99,
+          "tn_carr": 76.99
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
