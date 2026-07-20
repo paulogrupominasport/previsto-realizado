@@ -1,12 +1,12 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T07:00:14",
-  "atualizado_em": "2026-07-20T10:20:28",
+  "gerado_em": "2026-07-20T08:00:18",
+  "atualizado_em": "2026-07-20T11:05:29",
   "totais": {
-    "prog": 16,
+    "prog": 17,
     "carr": 0,
-    "falta": 16,
-    "tn_prev": 571.97,
+    "falta": 17,
+    "tn_prev": 602.97,
     "tn_carr": 0.0
   },
   "por_cliente": [
@@ -43,6 +43,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "METROPOLITANA",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 31.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "COQUE DO SUL",
       "prog": 1,
       "carr": 0,
@@ -54,10 +62,10 @@
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 11,
+      "prog": 12,
       "carr": 0,
-      "falta": 11,
-      "tn_prev": 390.0,
+      "falta": 12,
+      "tn_prev": 421.0,
       "tn_carr": 0.0
     },
     {
@@ -202,6 +210,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 35.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "METROPOLITANA",
+      "produto": "TÉRMICO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 31.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 31.0,
           "tn_carr": 0.0
         }
       ]
