@@ -1,22 +1,22 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T10:00:16",
-  "atualizado_em": "2026-07-20T13:05:28",
+  "gerado_em": "2026-07-20T11:00:08",
+  "atualizado_em": "2026-07-20T14:05:26",
   "totais": {
-    "prog": 30,
-    "carr": 7,
-    "falta": 23,
-    "tn_prev": 877.97,
-    "tn_carr": 202.08
+    "prog": 29,
+    "carr": 13,
+    "falta": 16,
+    "tn_prev": 844.22,
+    "tn_carr": 392.8
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
-      "prog": 10,
-      "carr": 5,
-      "falta": 5,
-      "tn_prev": 355.0,
-      "tn_carr": 164.28
+      "prog": 9,
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 318.0,
+      "tn_carr": 202.64
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -29,10 +29,18 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
+      "carr": 1,
+      "falta": 6,
       "tn_prev": 98.0,
-      "tn_carr": 0.0
+      "tn_carr": 17.18
+    },
+    {
+      "cliente": "*CIM. LIZ",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 76.25,
+      "tn_carr": 41.25
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -43,20 +51,12 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "*CIM. LIZ",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 73.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 51.0,
-      "tn_carr": 0.0
+      "tn_carr": 62.28
     },
     {
       "cliente": "GABRIELLA",
@@ -77,10 +77,10 @@
     {
       "cliente": "METROPOLITANA",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 31.0,
-      "tn_carr": 0.0
+      "tn_carr": 31.65
     },
     {
       "cliente": "COQUE DO SUL",
@@ -94,19 +94,19 @@
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 14,
-      "carr": 6,
-      "falta": 8,
-      "tn_prev": 471.0,
-      "tn_carr": 193.11
+      "prog": 13,
+      "carr": 8,
+      "falta": 5,
+      "tn_prev": 434.0,
+      "tn_carr": 263.12
     },
     {
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 149.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 152.25,
+      "tn_carr": 41.25
     },
     {
       "produto": "PETRÓLEO",
@@ -119,18 +119,18 @@
     {
       "produto": "Antracito Phoenician",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
+      "carr": 1,
+      "falta": 6,
       "tn_prev": 98.0,
-      "tn_carr": 0.0
+      "tn_carr": 17.18
     },
     {
       "produto": "Carregamento Sucata",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 51.0,
-      "tn_carr": 0.0
+      "tn_carr": 62.28
     },
     {
       "produto": "Cucuta",
@@ -146,11 +146,11 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 10,
-      "carr": 5,
-      "falta": 5,
-      "tn_prev": 355.0,
-      "tn_carr": 164.28,
+      "prog": 9,
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 318.0,
+      "tn_carr": 202.64,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -165,18 +165,18 @@
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 66.0,
-          "tn_carr": 0.0
+          "tn_carr": 38.36
         },
         {
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
-          "prog": 2,
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
+          "falta": 1,
+          "tn_prev": 37.0,
           "tn_carr": 0.0
         },
         {
@@ -216,19 +216,49 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
+      "carr": 1,
+      "falta": 6,
       "tn_prev": 98.0,
-      "tn_carr": 0.0,
+      "tn_carr": 17.18,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 7,
-          "carr": 0,
-          "falta": 7,
+          "carr": 1,
+          "falta": 6,
           "tn_prev": 98.0,
+          "tn_carr": 17.18
+        }
+      ]
+    },
+    {
+      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "*CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 76.25,
+      "tn_carr": 41.25,
+      "transportadoras": [
+        {
+          "nome": "TRANSPORTADORA BOA VIAGEM LTDA",
+          "cnpj": "02574772002882",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
           "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 41.25,
+          "tn_carr": 41.25
         }
       ]
     },
@@ -263,53 +293,23 @@
       ]
     },
     {
-      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "*CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 73.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "TRANSPORTADORA BOA VIAGEM LTDA",
-          "cnpj": "02574772002882",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
+      "carr": 2,
+      "falta": 0,
       "tn_prev": 51.0,
-      "tn_carr": 0.0,
+      "tn_carr": 62.28,
       "transportadoras": [
         {
           "nome": "COMERCIAL CARVALHO",
           "cnpj": "05362003000199",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 51.0,
-          "tn_carr": 0.0
+          "tn_carr": 62.28
         }
       ]
     },
@@ -360,19 +360,19 @@
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 31.0,
-      "tn_carr": 0.0,
+      "tn_carr": 31.65,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 31.0,
-          "tn_carr": 0.0
+          "tn_carr": 31.65
         }
       ]
     },
