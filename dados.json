@@ -1,30 +1,22 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T16:00:17",
-  "atualizado_em": "2026-07-20T19:05:33",
+  "gerado_em": "2026-07-20T17:00:08",
+  "atualizado_em": "2026-07-20T20:05:29",
   "totais": {
-    "prog": 42,
-    "carr": 26,
-    "falta": 16,
-    "tn_prev": 1203.49,
-    "tn_carr": 721.38
+    "prog": 36,
+    "carr": 31,
+    "falta": 5,
+    "tn_prev": 1096.57,
+    "tn_carr": 869.14
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
-      "prog": 10,
+      "prog": 9,
       "carr": 9,
-      "falta": 1,
-      "tn_prev": 348.22,
+      "falta": 0,
+      "tn_prev": 311.22,
       "tn_carr": 310.93
-    },
-    {
-      "cliente": "CARBOBRAS",
-      "prog": 12,
-      "carr": 6,
-      "falta": 6,
-      "tn_prev": 168.0,
-      "tn_carr": 104.94
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -45,10 +37,10 @@
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 104.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 104.08,
+      "tn_carr": 66.08
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -59,12 +51,20 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CARBOBRAS",
+      "prog": 7,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 98.0,
+      "tn_carr": 121.86
+    },
+    {
       "cliente": "METROPOLITANA",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
+      "carr": 3,
+      "falta": 0,
       "tn_prev": 93.0,
-      "tn_carr": 31.65
+      "tn_carr": 96.41
     },
     {
       "cliente": "GABRIELLA",
@@ -102,27 +102,19 @@
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 16,
-      "carr": 13,
-      "falta": 3,
-      "tn_prev": 529.36,
-      "tn_carr": 424.55
+      "prog": 15,
+      "carr": 15,
+      "falta": 0,
+      "tn_prev": 492.36,
+      "tn_carr": 489.31
     },
     {
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 217.16,
-      "tn_carr": 78.16
-    },
-    {
-      "produto": "Antracito Phoenician",
-      "prog": 12,
-      "carr": 6,
-      "falta": 6,
-      "tn_prev": 168.0,
-      "tn_carr": 104.94
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 217.24,
+      "tn_carr": 144.24
     },
     {
       "produto": "Carregamento Sucata",
@@ -139,6 +131,14 @@
       "falta": 2,
       "tn_prev": 100.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Antracito Phoenician",
+      "prog": 7,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 98.0,
+      "tn_carr": 121.86
     },
     {
       "produto": "GESSO",
@@ -162,10 +162,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 10,
+      "prog": 9,
       "carr": 9,
-      "falta": 1,
-      "tn_prev": 348.22,
+      "falta": 0,
+      "tn_prev": 311.22,
       "tn_carr": 310.93,
       "transportadoras": [
         {
@@ -189,10 +189,10 @@
         {
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
-          "prog": 2,
+          "prog": 1,
           "carr": 1,
-          "falta": 1,
-          "tn_prev": 67.0,
+          "falta": 0,
+          "tn_prev": 30.0,
           "tn_carr": 30.07
         },
         {
@@ -203,27 +203,6 @@
           "falta": 0,
           "tn_prev": 48.21,
           "tn_carr": 48.21
-        }
-      ]
-    },
-    {
-      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
-      "cliente": "CARBOBRAS",
-      "produto": "Antracito Phoenician",
-      "prog": 12,
-      "carr": 6,
-      "falta": 6,
-      "tn_prev": 168.0,
-      "tn_carr": 104.94,
-      "transportadoras": [
-        {
-          "nome": "CARBOBRÁS (SC)",
-          "cnpj": "02640179000177",
-          "prog": 12,
-          "carr": 6,
-          "falta": 6,
-          "tn_prev": 168.0,
-          "tn_carr": 104.94
         }
       ]
     },
@@ -283,28 +262,28 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 104.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 104.08,
+      "tn_carr": 66.08,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 75.04,
+          "tn_carr": 37.04
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 30.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 29.04,
+          "tn_carr": 29.04
         }
       ]
     },
@@ -330,23 +309,44 @@
       ]
     },
     {
+      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
+      "cliente": "CARBOBRAS",
+      "produto": "Antracito Phoenician",
+      "prog": 7,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 98.0,
+      "tn_carr": 121.86,
+      "transportadoras": [
+        {
+          "nome": "CARBOBRÁS (SC)",
+          "cnpj": "02640179000177",
+          "prog": 7,
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 98.0,
+          "tn_carr": 121.86
+        }
+      ]
+    },
+    {
       "lote": "METROPOLITANA - TÉRMICO JOKER - PILHA 92",
       "cliente": "METROPOLITANA",
       "produto": "TÉRMICO",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
+      "carr": 3,
+      "falta": 0,
       "tn_prev": 93.0,
-      "tn_carr": 31.65,
+      "tn_carr": 96.41,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
+          "carr": 3,
+          "falta": 0,
           "tn_prev": 93.0,
-          "tn_carr": 31.65
+          "tn_carr": 96.41
         }
       ]
     },

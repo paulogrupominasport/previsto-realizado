@@ -2534,27 +2534,21 @@
     }
   },
   "2026-07-20": {
-    "gerado_em": "2026-07-20T16:00:17",
-    "atualizado_em": "2026-07-20T19:05:33",
+    "gerado_em": "2026-07-20T17:00:08",
+    "atualizado_em": "2026-07-20T20:05:29",
     "totais": {
-      "prog": 42,
-      "carr": 26,
-      "falta": 16,
-      "tn_prev": 1203.49,
-      "tn_carr": 721.38
+      "prog": 36,
+      "carr": 31,
+      "falta": 5,
+      "tn_prev": 1096.57,
+      "tn_carr": 869.14
     },
     "por_cliente": {
       "BRASKEM": {
-        "prog": 10,
+        "prog": 9,
         "carr": 9,
-        "tn_prev": 348.22,
+        "tn_prev": 311.22,
         "tn_carr": 310.93
-      },
-      "CARBOBRAS": {
-        "prog": 12,
-        "carr": 6,
-        "tn_prev": 168.0,
-        "tn_carr": 104.94
       },
       "COMERCIAL CARVALHO": {
         "prog": 4,
@@ -2570,9 +2564,9 @@
       },
       "LS METAIS / COQUEMETAL": {
         "prog": 3,
-        "carr": 0,
-        "tn_prev": 104.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 104.08,
+        "tn_carr": 66.08
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -2580,11 +2574,17 @@
         "tn_prev": 100.0,
         "tn_carr": 0.0
       },
+      "CARBOBRAS": {
+        "prog": 7,
+        "carr": 7,
+        "tn_prev": 98.0,
+        "tn_carr": 121.86
+      },
       "METROPOLITANA": {
         "prog": 3,
-        "carr": 1,
+        "carr": 3,
         "tn_prev": 93.0,
-        "tn_carr": 31.65
+        "tn_carr": 96.41
       },
       "GABRIELLA": {
         "prog": 2,
@@ -2613,22 +2613,16 @@
     },
     "por_produto": {
       "TÉRMICO": {
-        "prog": 16,
-        "carr": 13,
-        "tn_prev": 529.36,
-        "tn_carr": 424.55
+        "prog": 15,
+        "carr": 15,
+        "tn_prev": 492.36,
+        "tn_carr": 489.31
       },
       "PETCOKE": {
         "prog": 6,
-        "carr": 2,
-        "tn_prev": 217.16,
-        "tn_carr": 78.16
-      },
-      "Antracito Phoenician": {
-        "prog": 12,
-        "carr": 6,
-        "tn_prev": 168.0,
-        "tn_carr": 104.94
+        "carr": 4,
+        "tn_prev": 217.24,
+        "tn_carr": 144.24
       },
       "Carregamento Sucata": {
         "prog": 4,
@@ -2641,6 +2635,12 @@
         "carr": 0,
         "tn_prev": 100.0,
         "tn_carr": 0.0
+      },
+      "Antracito Phoenician": {
+        "prog": 7,
+        "carr": 7,
+        "tn_prev": 98.0,
+        "tn_carr": 121.86
       },
       "GESSO": {
         "prog": 1,
