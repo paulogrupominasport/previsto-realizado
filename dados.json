@@ -1,13 +1,13 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T18:00:18",
-  "atualizado_em": "2026-07-20T21:05:26",
+  "gerado_em": "2026-07-20T19:00:05",
+  "atualizado_em": "2026-07-20T22:05:30",
   "totais": {
     "prog": 36,
-    "carr": 32,
-    "falta": 4,
-    "tn_prev": 1096.94,
-    "tn_carr": 907.51
+    "carr": 34,
+    "falta": 2,
+    "tn_prev": 1094.83,
+    "tn_carr": 990.4
   },
   "por_cliente": [
     {
@@ -43,20 +43,20 @@
       "tn_carr": 104.45
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CARBOBRAS",
       "prog": 7,
       "carr": 7,
       "falta": 0,
       "tn_prev": 98.0,
       "tn_carr": 121.86
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.21,
+      "tn_carr": 47.21
     },
     {
       "cliente": "METROPOLITANA",
@@ -75,20 +75,20 @@
       "tn_carr": 53.14
     },
     {
+      "cliente": "ITAMBÉ",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.68,
+      "tn_carr": 35.68
+    },
+    {
       "cliente": "RIO DESERTO",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 35.0,
       "tn_carr": 28.83
-    },
-    {
-      "cliente": "ITAMBÉ",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0
     },
     {
       "cliente": "COQUE DO SUL",
@@ -125,14 +125,6 @@
       "tn_carr": 104.76
     },
     {
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "Antracito Phoenician",
       "prog": 7,
       "carr": 7,
@@ -141,12 +133,20 @@
       "tn_carr": 121.86
     },
     {
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.21,
+      "tn_carr": 47.21
+    },
+    {
       "produto": "GESSO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.68,
+      "tn_carr": 35.68
     },
     {
       "produto": "Cucuta",
@@ -288,27 +288,6 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
@@ -326,6 +305,27 @@
           "falta": 0,
           "tn_prev": 98.0,
           "tn_carr": 121.86
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.21,
+      "tn_carr": 47.21,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.21,
+          "tn_carr": 47.21
         }
       ]
     },
@@ -372,6 +372,27 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.68,
+      "tn_carr": 35.68,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.68,
+          "tn_carr": 35.68
+        }
+      ]
+    },
+    {
       "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
@@ -389,27 +410,6 @@
           "falta": 0,
           "tn_prev": 35.0,
           "tn_carr": 28.83
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "TRANSP. BONTORIN (SC)",
-          "cnpj": "81429755000299",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
         }
       ]
     },
