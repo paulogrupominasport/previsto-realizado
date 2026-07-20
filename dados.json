@@ -1,30 +1,38 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T14:00:18",
-  "atualizado_em": "2026-07-20T17:05:30",
+  "gerado_em": "2026-07-20T15:00:09",
+  "atualizado_em": "2026-07-20T18:05:30",
   "totais": {
-    "prog": 40,
-    "carr": 21,
-    "falta": 19,
-    "tn_prev": 1118.28,
-    "tn_carr": 593.26
+    "prog": 42,
+    "carr": 25,
+    "falta": 17,
+    "tn_prev": 1211.49,
+    "tn_carr": 703.8
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
       "prog": 10,
-      "carr": 8,
-      "falta": 2,
-      "tn_prev": 349.01,
-      "tn_carr": 262.72
+      "carr": 9,
+      "falta": 1,
+      "tn_prev": 348.22,
+      "tn_carr": 310.93
     },
     {
       "cliente": "CARBOBRAS",
       "prog": 12,
-      "carr": 4,
-      "falta": 8,
+      "carr": 5,
+      "falta": 7,
       "tn_prev": 168.0,
-      "tn_carr": 67.51
+      "tn_carr": 87.36
+    },
+    {
+      "cliente": "COMERCIAL CARVALHO",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 145.0,
+      "tn_carr": 104.76
     },
     {
       "cliente": "*CIM. LIZ",
@@ -67,14 +75,6 @@
       "tn_carr": 53.14
     },
     {
-      "cliente": "COMERCIAL CARVALHO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 51.0,
-      "tn_carr": 62.28
-    },
-    {
       "cliente": "RIO DESERTO",
       "prog": 1,
       "carr": 1,
@@ -103,10 +103,10 @@
     {
       "produto": "TÉRMICO",
       "prog": 16,
-      "carr": 12,
-      "falta": 4,
-      "tn_prev": 530.15,
-      "tn_carr": 376.34
+      "carr": 13,
+      "falta": 3,
+      "tn_prev": 529.36,
+      "tn_carr": 424.55
     },
     {
       "produto": "PETCOKE",
@@ -119,10 +119,18 @@
     {
       "produto": "Antracito Phoenician",
       "prog": 12,
-      "carr": 4,
-      "falta": 8,
+      "carr": 5,
+      "falta": 7,
       "tn_prev": 168.0,
-      "tn_carr": 67.51
+      "tn_carr": 87.36
+    },
+    {
+      "produto": "Carregamento Sucata",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 145.0,
+      "tn_carr": 104.76
     },
     {
       "produto": "PETRÓLEO",
@@ -131,14 +139,6 @@
       "falta": 2,
       "tn_prev": 100.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "Carregamento Sucata",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 51.0,
-      "tn_carr": 62.28
     },
     {
       "produto": "GESSO",
@@ -163,10 +163,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 10,
-      "carr": 8,
-      "falta": 2,
-      "tn_prev": 349.01,
-      "tn_carr": 262.72,
+      "carr": 9,
+      "falta": 1,
+      "tn_prev": 348.22,
+      "tn_carr": 310.93,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -199,10 +199,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 49.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.21,
+          "tn_carr": 48.21
         }
       ]
     },
@@ -211,19 +211,40 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 12,
-      "carr": 4,
-      "falta": 8,
+      "carr": 5,
+      "falta": 7,
       "tn_prev": 168.0,
-      "tn_carr": 67.51,
+      "tn_carr": 87.36,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 12,
-          "carr": 4,
-          "falta": 8,
+          "carr": 5,
+          "falta": 7,
           "tn_prev": 168.0,
-          "tn_carr": 67.51
+          "tn_carr": 87.36
+        }
+      ]
+    },
+    {
+      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
+      "cliente": "COMERCIAL CARVALHO",
+      "produto": "Carregamento Sucata",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 145.0,
+      "tn_carr": 104.76,
+      "transportadoras": [
+        {
+          "nome": "COMERCIAL CARVALHO",
+          "cnpj": "05362003000199",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 145.0,
+          "tn_carr": 104.76
         }
       ]
     },
@@ -347,27 +368,6 @@
           "falta": 0,
           "tn_prev": 53.14,
           "tn_carr": 53.14
-        }
-      ]
-    },
-    {
-      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
-      "cliente": "COMERCIAL CARVALHO",
-      "produto": "Carregamento Sucata",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 51.0,
-      "tn_carr": 62.28,
-      "transportadoras": [
-        {
-          "nome": "COMERCIAL CARVALHO",
-          "cnpj": "05362003000199",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 51.0,
-          "tn_carr": 62.28
         }
       ]
     },
