@@ -1,22 +1,22 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T08:00:18",
-  "atualizado_em": "2026-07-20T11:05:29",
+  "gerado_em": "2026-07-20T09:00:19",
+  "atualizado_em": "2026-07-20T12:05:24",
   "totais": {
-    "prog": 17,
-    "carr": 0,
+    "prog": 23,
+    "carr": 6,
     "falta": 17,
-    "tn_prev": 602.97,
-    "tn_carr": 0.0
+    "tn_prev": 708.97,
+    "tn_carr": 173.25
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
+      "carr": 5,
+      "falta": 5,
       "tn_prev": 355.0,
-      "tn_carr": 0.0
+      "tn_carr": 164.28
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -32,6 +32,22 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 73.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CARBOBRAS",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 56.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "GABRIELLA",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 50.0,
       "tn_carr": 0.0
     },
     {
@@ -53,20 +69,20 @@
     {
       "cliente": "COQUE DO SUL",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 8.97,
-      "tn_carr": 0.0
+      "tn_carr": 8.97
     }
   ],
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 12,
-      "carr": 0,
-      "falta": 12,
-      "tn_prev": 421.0,
-      "tn_carr": 0.0
+      "prog": 14,
+      "carr": 5,
+      "falta": 9,
+      "tn_prev": 471.0,
+      "tn_carr": 164.28
     },
     {
       "produto": "PETRÓLEO",
@@ -85,12 +101,20 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Antracito Phoenician",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 56.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "Cucuta",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 8.97,
-      "tn_carr": 0.0
+      "tn_carr": 8.97
     }
   ],
   "lotes": [
@@ -99,19 +123,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
+      "carr": 5,
+      "falta": 5,
       "tn_prev": 355.0,
-      "tn_carr": 0.0,
+      "tn_carr": 164.28,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
+          "carr": 5,
+          "falta": 0,
           "tn_prev": 167.0,
-          "tn_carr": 0.0
+          "tn_carr": 164.28
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -194,6 +218,48 @@
       ]
     },
     {
+      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
+      "cliente": "CARBOBRAS",
+      "produto": "Antracito Phoenician",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 56.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "CARBOBRÁS (SC)",
+          "cnpj": "02640179000177",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 56.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
+      "cliente": "GABRIELLA",
+      "produto": "TÉRMICO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "GABRIELLA MINERACAO (SC)",
+          "cnpj": "07105967000187",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 50.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
@@ -240,19 +306,19 @@
       "cliente": "COQUE DO SUL",
       "produto": "Cucuta",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 8.97,
-      "tn_carr": 0.0,
+      "tn_carr": 8.97,
       "transportadoras": [
         {
           "nome": "COQUE DO SUL (SC)",
           "cnpj": "04749930000101",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 8.97,
-          "tn_carr": 0.0
+          "tn_carr": 8.97
         }
       ]
     }

@@ -2534,21 +2534,21 @@
     }
   },
   "2026-07-20": {
-    "gerado_em": "2026-07-20T08:00:18",
-    "atualizado_em": "2026-07-20T11:05:29",
+    "gerado_em": "2026-07-20T09:00:19",
+    "atualizado_em": "2026-07-20T12:05:24",
     "totais": {
-      "prog": 17,
-      "carr": 0,
+      "prog": 23,
+      "carr": 6,
       "falta": 17,
-      "tn_prev": 602.97,
-      "tn_carr": 0.0
+      "tn_prev": 708.97,
+      "tn_carr": 173.25
     },
     "por_cliente": {
       "BRASKEM": {
         "prog": 10,
-        "carr": 0,
+        "carr": 5,
         "tn_prev": 355.0,
-        "tn_carr": 0.0
+        "tn_carr": 164.28
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -2560,6 +2560,18 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 73.0,
+        "tn_carr": 0.0
+      },
+      "CARBOBRAS": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 56.0,
+        "tn_carr": 0.0
+      },
+      "GABRIELLA": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 50.0,
         "tn_carr": 0.0
       },
       "RIO DESERTO": {
@@ -2576,17 +2588,17 @@
       },
       "COQUE DO SUL": {
         "prog": 1,
-        "carr": 0,
+        "carr": 1,
         "tn_prev": 8.97,
-        "tn_carr": 0.0
+        "tn_carr": 8.97
       }
     },
     "por_produto": {
       "TÉRMICO": {
-        "prog": 12,
-        "carr": 0,
-        "tn_prev": 421.0,
-        "tn_carr": 0.0
+        "prog": 14,
+        "carr": 5,
+        "tn_prev": 471.0,
+        "tn_carr": 164.28
       },
       "PETRÓLEO": {
         "prog": 2,
@@ -2600,11 +2612,17 @@
         "tn_prev": 73.0,
         "tn_carr": 0.0
       },
+      "Antracito Phoenician": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 56.0,
+        "tn_carr": 0.0
+      },
       "Cucuta": {
         "prog": 1,
-        "carr": 0,
+        "carr": 1,
         "tn_prev": 8.97,
-        "tn_carr": 0.0
+        "tn_carr": 8.97
       }
     }
   }
