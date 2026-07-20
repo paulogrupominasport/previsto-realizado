@@ -1,13 +1,13 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T09:00:19",
-  "atualizado_em": "2026-07-20T12:05:24",
+  "gerado_em": "2026-07-20T10:00:16",
+  "atualizado_em": "2026-07-20T13:05:28",
   "totais": {
-    "prog": 23,
-    "carr": 6,
-    "falta": 17,
-    "tn_prev": 708.97,
-    "tn_carr": 173.25
+    "prog": 30,
+    "carr": 7,
+    "falta": 23,
+    "tn_prev": 877.97,
+    "tn_carr": 202.08
   },
   "por_cliente": [
     {
@@ -27,6 +27,22 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CARBOBRAS",
+      "prog": 7,
+      "carr": 0,
+      "falta": 7,
+      "tn_prev": 98.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "LS METAIS / COQUEMETAL",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "*CIM. LIZ",
       "prog": 2,
       "carr": 0,
@@ -35,11 +51,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CARBOBRAS",
-      "prog": 4,
+      "cliente": "COMERCIAL CARVALHO",
+      "prog": 2,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 56.0,
+      "falta": 2,
+      "tn_prev": 51.0,
       "tn_carr": 0.0
     },
     {
@@ -53,10 +69,10 @@
     {
       "cliente": "RIO DESERTO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 35.0,
-      "tn_carr": 0.0
+      "tn_carr": 28.83
     },
     {
       "cliente": "METROPOLITANA",
@@ -79,10 +95,18 @@
     {
       "produto": "TÉRMICO",
       "prog": 14,
-      "carr": 5,
-      "falta": 9,
+      "carr": 6,
+      "falta": 8,
       "tn_prev": 471.0,
-      "tn_carr": 164.28
+      "tn_carr": 193.11
+    },
+    {
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 149.0,
+      "tn_carr": 0.0
     },
     {
       "produto": "PETRÓLEO",
@@ -93,19 +117,19 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "PETCOKE",
-      "prog": 2,
+      "produto": "Antracito Phoenician",
+      "prog": 7,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 73.0,
+      "falta": 7,
+      "tn_prev": 98.0,
       "tn_carr": 0.0
     },
     {
-      "produto": "Antracito Phoenician",
-      "prog": 4,
+      "produto": "Carregamento Sucata",
+      "prog": 2,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 56.0,
+      "falta": 2,
+      "tn_prev": 51.0,
       "tn_carr": 0.0
     },
     {
@@ -188,6 +212,57 @@
       ]
     },
     {
+      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
+      "cliente": "CARBOBRAS",
+      "produto": "Antracito Phoenician",
+      "prog": 7,
+      "carr": 0,
+      "falta": 7,
+      "tn_prev": 98.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "CARBOBRÁS (SC)",
+          "cnpj": "02640179000177",
+          "prog": 7,
+          "carr": 0,
+          "falta": 7,
+          "tn_prev": 98.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
@@ -218,22 +293,22 @@
       ]
     },
     {
-      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
-      "cliente": "CARBOBRAS",
-      "produto": "Antracito Phoenician",
-      "prog": 4,
+      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
+      "cliente": "COMERCIAL CARVALHO",
+      "produto": "Carregamento Sucata",
+      "prog": 2,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 56.0,
+      "falta": 2,
+      "tn_prev": 51.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "CARBOBRÁS (SC)",
-          "cnpj": "02640179000177",
-          "prog": 4,
+          "nome": "COMERCIAL CARVALHO",
+          "cnpj": "05362003000199",
+          "prog": 2,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 56.0,
+          "falta": 2,
+          "tn_prev": 51.0,
           "tn_carr": 0.0
         }
       ]
@@ -264,19 +339,19 @@
       "cliente": "RIO DESERTO",
       "produto": "TÉRMICO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 35.0,
-      "tn_carr": 0.0,
+      "tn_carr": 28.83,
       "transportadoras": [
         {
           "nome": "ATR MINHOCAO",
           "cnpj": "66866968000103",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "tn_carr": 28.83
         }
       ]
     },
