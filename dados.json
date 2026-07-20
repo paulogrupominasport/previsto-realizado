@@ -1,13 +1,13 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T15:00:09",
-  "atualizado_em": "2026-07-20T18:05:30",
+  "gerado_em": "2026-07-20T16:00:17",
+  "atualizado_em": "2026-07-20T19:05:33",
   "totais": {
     "prog": 42,
-    "carr": 25,
-    "falta": 17,
-    "tn_prev": 1211.49,
-    "tn_carr": 703.8
+    "carr": 26,
+    "falta": 16,
+    "tn_prev": 1203.49,
+    "tn_carr": 721.38
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 12,
-      "carr": 5,
-      "falta": 7,
+      "carr": 6,
+      "falta": 6,
       "tn_prev": 168.0,
-      "tn_carr": 87.36
+      "tn_carr": 104.94
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -47,7 +47,7 @@
       "prog": 3,
       "carr": 0,
       "falta": 3,
-      "tn_prev": 112.0,
+      "tn_prev": 104.0,
       "tn_carr": 0.0
     },
     {
@@ -113,16 +113,16 @@
       "prog": 6,
       "carr": 2,
       "falta": 4,
-      "tn_prev": 225.16,
+      "tn_prev": 217.16,
       "tn_carr": 78.16
     },
     {
       "produto": "Antracito Phoenician",
       "prog": 12,
-      "carr": 5,
-      "falta": 7,
+      "carr": 6,
+      "falta": 6,
       "tn_prev": 168.0,
-      "tn_carr": 87.36
+      "tn_carr": 104.94
     },
     {
       "produto": "Carregamento Sucata",
@@ -211,19 +211,19 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 12,
-      "carr": 5,
-      "falta": 7,
+      "carr": 6,
+      "falta": 6,
       "tn_prev": 168.0,
-      "tn_carr": 87.36,
+      "tn_carr": 104.94,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 12,
-          "carr": 5,
-          "falta": 7,
+          "carr": 6,
+          "falta": 6,
           "tn_prev": 168.0,
-          "tn_carr": 87.36
+          "tn_carr": 104.94
         }
       ]
     },
@@ -285,7 +285,7 @@
       "prog": 3,
       "carr": 0,
       "falta": 3,
-      "tn_prev": 112.0,
+      "tn_prev": 104.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -298,12 +298,12 @@
           "tn_carr": 0.0
         },
         {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 38.0,
+          "tn_prev": 30.0,
           "tn_carr": 0.0
         }
       ]
