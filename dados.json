@@ -1,12 +1,12 @@
 {
   "data_relatorio": "20/07/2026",
-  "gerado_em": "2026-07-20T12:00:19",
-  "atualizado_em": "2026-07-20T15:05:30",
+  "gerado_em": "2026-07-20T13:00:19",
+  "atualizado_em": "2026-07-20T16:05:27",
   "totais": {
-    "prog": 37,
+    "prog": 38,
     "carr": 15,
-    "falta": 22,
-    "tn_prev": 1018.22,
+    "falta": 23,
+    "tn_prev": 1054.22,
     "tn_carr": 426.33
   },
   "por_cliente": [
@@ -35,19 +35,19 @@
       "tn_carr": 41.25
     },
     {
+      "cliente": "LS METAIS / COQUEMETAL",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 112.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "LS METAIS / COQUEMETAL",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
       "tn_carr": 0.0
     },
     {
@@ -110,10 +110,10 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 5,
+      "prog": 6,
       "carr": 1,
-      "falta": 4,
-      "tn_prev": 190.25,
+      "falta": 5,
+      "tn_prev": 226.25,
       "tn_carr": 41.25
     },
     {
@@ -258,6 +258,36 @@
       ]
     },
     {
+      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 112.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -274,36 +304,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 100.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "LS METAIS / COQUEMETAL",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
