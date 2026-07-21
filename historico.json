@@ -2657,39 +2657,39 @@
     }
   },
   "2026-07-21": {
-    "gerado_em": "2026-07-21T11:00:17",
-    "atualizado_em": "2026-07-21T14:05:32",
+    "gerado_em": "2026-07-21T12:00:09",
+    "atualizado_em": "2026-07-21T15:05:33",
     "totais": {
-      "prog": 41,
-      "carr": 13,
-      "falta": 28,
-      "tn_prev": 1343.85,
-      "tn_carr": 472.38
+      "prog": 45,
+      "carr": 15,
+      "falta": 30,
+      "tn_prev": 1469.72,
+      "tn_carr": 568.33
     },
     "por_cliente": {
-      "*CIM. LIZ": {
+      "CIM. LIZ": {
         "prog": 12,
         "carr": 4,
-        "tn_prev": 463.51,
+        "tn_prev": 462.51,
         "tn_carr": 146.51
       },
       "BRASKEM": {
         "prog": 9,
-        "carr": 7,
+        "carr": 8,
         "tn_prev": 361.45,
-        "tn_carr": 259.68
+        "tn_carr": 307.26
+      },
+      "BELOCAL MTZ": {
+        "prog": 3,
+        "carr": 2,
+        "tn_prev": 132.76,
+        "tn_carr": 97.26
       },
       "CARBOBRAS": {
         "prog": 8,
         "carr": 0,
         "tn_prev": 112.0,
         "tn_carr": 0.0
-      },
-      "*BELOCAL MTZ": {
-        "prog": 2,
-        "carr": 1,
-        "tn_prev": 96.89,
-        "tn_carr": 48.89
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -2710,30 +2710,42 @@
         "tn_carr": 0.0
       },
       "LS METAIS / COQUEMETAL": {
-        "prog": 1,
+        "prog": 2,
         "carr": 0,
-        "tn_prev": 33.0,
+        "tn_prev": 61.0,
         "tn_carr": 0.0
       },
       "COMERCIAL CARVALHO": {
-        "prog": 2,
+        "prog": 3,
         "carr": 1,
-        "tn_prev": 30.0,
+        "tn_prev": 53.0,
         "tn_carr": 17.3
+      },
+      "BELOCAL SJLP": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 40.0,
+        "tn_carr": 0.0
       }
     },
     "por_produto": {
       "PETCOKE": {
         "prog": 15,
-        "carr": 5,
-        "tn_prev": 593.4,
-        "tn_carr": 195.4
+        "carr": 6,
+        "tn_prev": 568.27,
+        "tn_carr": 243.77
       },
       "TÉRMICO": {
         "prog": 12,
-        "carr": 7,
+        "carr": 8,
         "tn_prev": 436.45,
-        "tn_carr": 259.68
+        "tn_carr": 307.26
+      },
+      "CARVÃO": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 128.0,
+        "tn_carr": 0.0
       },
       "Antracito Phoenician": {
         "prog": 8,
@@ -2754,9 +2766,9 @@
         "tn_carr": 0.0
       },
       "Carregamento Sucata": {
-        "prog": 2,
+        "prog": 3,
         "carr": 1,
-        "tn_prev": 30.0,
+        "tn_prev": 53.0,
         "tn_carr": 17.3
       }
     }
