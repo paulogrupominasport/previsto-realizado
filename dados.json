@@ -1,13 +1,13 @@
 {
   "data_relatorio": "21/07/2026",
-  "gerado_em": "2026-07-21T09:00:17",
-  "atualizado_em": "2026-07-21T12:05:27",
+  "gerado_em": "2026-07-21T10:00:09",
+  "atualizado_em": "2026-07-21T13:05:30",
   "totais": {
-    "prog": 38,
-    "carr": 6,
-    "falta": 32,
-    "tn_prev": 1298.62,
-    "tn_carr": 195.65
+    "prog": 37,
+    "carr": 9,
+    "falta": 28,
+    "tn_prev": 1264.51,
+    "tn_carr": 290.97
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 9,
-      "carr": 4,
-      "falta": 5,
+      "carr": 5,
+      "falta": 4,
       "tn_prev": 361.45,
-      "tn_carr": 135.48
+      "tn_carr": 164.61
     },
     {
       "cliente": "CARBOBRAS",
@@ -37,10 +37,10 @@
     {
       "cliente": "*BELOCAL MTZ",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 96.89,
+      "tn_carr": 48.89
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -59,14 +59,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "RIO DESERTO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 1,
       "carr": 0,
@@ -77,28 +69,28 @@
     {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 15.0,
-      "tn_carr": 0.0
+      "tn_carr": 17.3
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 2,
-      "falta": 13,
-      "tn_prev": 603.17,
-      "tn_carr": 60.17
+      "carr": 3,
+      "falta": 12,
+      "tn_prev": 604.06,
+      "tn_carr": 109.06
     },
     {
       "produto": "TÉRMICO",
-      "prog": 10,
-      "carr": 4,
-      "falta": 6,
-      "tn_prev": 396.45,
-      "tn_carr": 135.48
+      "prog": 9,
+      "carr": 5,
+      "falta": 4,
+      "tn_prev": 361.45,
+      "tn_carr": 164.61
     },
     {
       "produto": "Antracito Phoenician",
@@ -127,10 +119,10 @@
     {
       "produto": "Carregamento Sucata",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 15.0,
-      "tn_carr": 0.0
+      "tn_carr": 17.3
     }
   ],
   "lotes": [
@@ -205,10 +197,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 4,
-      "falta": 5,
+      "carr": 5,
+      "falta": 4,
       "tn_prev": 361.45,
-      "tn_carr": 135.48,
+      "tn_carr": 164.61,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -223,10 +215,10 @@
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 5,
-          "carr": 4,
-          "falta": 1,
+          "carr": 5,
+          "falta": 0,
           "tn_prev": 170.45,
-          "tn_carr": 135.48
+          "tn_carr": 164.61
         },
         {
           "nome": "FRATELLI (SC)",
@@ -274,10 +266,10 @@
       "cliente": "*BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 96.89,
+      "tn_carr": 48.89,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -292,10 +284,10 @@
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.89,
+          "tn_carr": 48.89
         }
       ]
     },
@@ -342,27 +334,6 @@
       ]
     },
     {
-      "lote": "RIO DESERTO - TÉRMICO JOKER - PILHA 92",
-      "cliente": "RIO DESERTO",
-      "produto": "TÉRMICO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "LUAN DE SOUZA BONFANTE (SC)",
-          "cnpj": "21430615000128",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
@@ -388,19 +359,19 @@
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 15.0,
-      "tn_carr": 0.0,
+      "tn_carr": 17.3,
       "transportadoras": [
         {
           "nome": "COMERCIAL CARVALHO",
           "cnpj": "05362003000199",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 15.0,
-          "tn_carr": 0.0
+          "tn_carr": 17.3
         }
       ]
     }
