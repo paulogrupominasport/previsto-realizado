@@ -1,21 +1,21 @@
 {
   "data_relatorio": "21/07/2026",
-  "gerado_em": "2026-07-21T19:00:07",
-  "atualizado_em": "2026-07-21T22:05:27",
+  "gerado_em": "2026-07-21T20:00:13",
+  "atualizado_em": "2026-07-21T23:05:31",
   "totais": {
-    "prog": 53,
-    "carr": 49,
-    "falta": 4,
-    "tn_prev": 1764.51,
-    "tn_carr": 1661.65
+    "prog": 52,
+    "carr": 50,
+    "falta": 2,
+    "tn_prev": 1715.53,
+    "tn_carr": 1708.66
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 16,
+      "prog": 15,
       "carr": 14,
-      "falta": 2,
-      "tn_prev": 627.9,
+      "falta": 1,
+      "tn_prev": 579.9,
       "tn_carr": 547.9
     },
     {
@@ -53,10 +53,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.0,
-      "tn_carr": 47.0
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.02,
+      "tn_carr": 94.02
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -109,14 +109,6 @@
       "tn_carr": 433.97
     },
     {
-      "produto": "CARVÃO",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 129.17,
-      "tn_carr": 49.17
-    },
-    {
       "produto": "Antracito Phoenician",
       "prog": 8,
       "carr": 7,
@@ -127,10 +119,18 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.02,
+      "tn_carr": 94.02
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 2,
       "carr": 1,
       "falta": 1,
-      "tn_prev": 95.0,
-      "tn_carr": 47.0
+      "tn_prev": 81.17,
+      "tn_carr": 49.17
     },
     {
       "produto": "Carregamento Sucata",
@@ -304,36 +304,6 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 129.17,
-      "tn_carr": 49.17,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 97.17,
-          "tn_carr": 49.17
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
@@ -389,19 +359,49 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.0,
-      "tn_carr": 47.0,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.015,
+      "tn_carr": 94.015,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.015,
+          "tn_carr": 94.015
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 81.17,
+      "tn_carr": 49.17,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
           "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.17,
+          "tn_carr": 49.17
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
           "falta": 1,
-          "tn_prev": 95.0,
-          "tn_carr": 47.0
+          "tn_prev": 32.0,
+          "tn_carr": 0.0
         }
       ]
     },
