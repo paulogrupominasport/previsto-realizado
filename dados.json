@@ -1,22 +1,22 @@
 {
   "data_relatorio": "21/07/2026",
-  "gerado_em": "2026-07-21T13:00:15",
-  "atualizado_em": "2026-07-21T16:05:25",
+  "gerado_em": "2026-07-21T14:00:07",
+  "atualizado_em": "2026-07-21T17:05:26",
   "totais": {
     "prog": 47,
-    "carr": 17,
-    "falta": 30,
-    "tn_prev": 1535.61,
-    "tn_carr": 639.47
+    "carr": 25,
+    "falta": 22,
+    "tn_prev": 1538.87,
+    "tn_carr": 889.86
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 12,
-      "carr": 5,
-      "falta": 7,
-      "tn_prev": 463.4,
-      "tn_carr": 195.4
+      "carr": 6,
+      "falta": 6,
+      "tn_prev": 464.57,
+      "tn_carr": 244.57
     },
     {
       "cliente": "BRASKEM",
@@ -37,10 +37,10 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
+      "carr": 2,
+      "falta": 6,
       "tn_prev": 112.0,
-      "tn_carr": 0.0
+      "tn_carr": 37.96
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -53,10 +53,10 @@
     {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 3,
+      "falta": 1,
       "tn_prev": 79.0,
-      "tn_carr": 39.55
+      "tn_carr": 74.72
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -67,20 +67,20 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "ITAMBÉ",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "GABRIELLA",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 75.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 77.72,
+      "tn_carr": 52.72
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 75.37,
+      "tn_carr": 75.37
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -103,26 +103,26 @@
     {
       "produto": "TÉRMICO",
       "prog": 12,
-      "carr": 8,
-      "falta": 4,
-      "tn_prev": 437.45,
-      "tn_carr": 307.26
+      "carr": 10,
+      "falta": 2,
+      "tn_prev": 440.17,
+      "tn_carr": 359.98
     },
     {
       "produto": "CARVÃO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 128.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 129.17,
+      "tn_carr": 49.17
     },
     {
       "produto": "Antracito Phoenician",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
+      "carr": 2,
+      "falta": 6,
       "tn_prev": 112.0,
-      "tn_carr": 0.0
+      "tn_carr": 37.96
     },
     {
       "produto": "PETRÓLEO",
@@ -135,18 +135,18 @@
     {
       "produto": "Carregamento Sucata",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 3,
+      "falta": 1,
       "tn_prev": 79.0,
-      "tn_carr": 39.55
+      "tn_carr": 74.72
     },
     {
       "produto": "GESSO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 75.37,
+      "tn_carr": 75.37
     }
   ],
   "lotes": [
@@ -299,19 +299,19 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 128.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 129.17,
+      "tn_carr": 49.17,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.17,
+          "tn_carr": 49.17
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -329,19 +329,19 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
+      "carr": 2,
+      "falta": 6,
       "tn_prev": 112.0,
-      "tn_carr": 0.0,
+      "tn_carr": 37.96,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
+          "carr": 2,
+          "falta": 6,
           "tn_prev": 112.0,
-          "tn_carr": 0.0
+          "tn_carr": 37.96
         }
       ]
     },
@@ -371,19 +371,19 @@
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 3,
+      "falta": 1,
       "tn_prev": 79.0,
-      "tn_carr": 39.55,
+      "tn_carr": 74.72,
       "transportadoras": [
         {
           "nome": "COMERCIAL CARVALHO",
           "cnpj": "05362003000199",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
+          "carr": 3,
+          "falta": 1,
           "tn_prev": 79.0,
-          "tn_carr": 39.55
+          "tn_carr": 74.72
         }
       ]
     },
@@ -418,44 +418,44 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "PAULISTA TRANSP. (SC)",
-          "cnpj": "80776784000264",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 75.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 77.72,
+      "tn_carr": 52.72,
       "transportadoras": [
         {
           "nome": "GABRIELLA MINERACAO (SC)",
           "cnpj": "07105967000187",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 75.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 77.72,
+          "tn_carr": 52.72
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 75.37,
+      "tn_carr": 75.37,
+      "transportadoras": [
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 75.37,
+          "tn_carr": 75.37
         }
       ]
     },
