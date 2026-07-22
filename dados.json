@@ -1,38 +1,38 @@
 {
   "data_relatorio": "22/07/2026",
-  "gerado_em": "2026-07-22T15:00:11",
-  "atualizado_em": "2026-07-22T18:05:29",
+  "gerado_em": "2026-07-22T16:00:18",
+  "atualizado_em": "2026-07-22T19:05:31",
   "totais": {
     "prog": 61,
-    "carr": 45,
-    "falta": 16,
-    "tn_prev": 2242.54,
-    "tn_carr": 1628.33
+    "carr": 50,
+    "falta": 11,
+    "tn_prev": 2246.08,
+    "tn_carr": 1806.93
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 15,
-      "carr": 12,
-      "falta": 3,
-      "tn_prev": 694.98,
-      "tn_carr": 560.98
+      "carr": 13,
+      "falta": 2,
+      "tn_prev": 696.67,
+      "tn_carr": 610.67
     },
     {
       "cliente": "BRASKEM",
       "prog": 11,
-      "carr": 8,
-      "falta": 3,
+      "carr": 10,
+      "falta": 1,
       "tn_prev": 376.0,
-      "tn_carr": 254.02
+      "tn_carr": 321.08
     },
     {
       "cliente": "BELOCAL SJLP",
       "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 316.06,
-      "tn_carr": 233.06
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 316.47,
+      "tn_carr": 268.47
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -59,20 +59,20 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "GABRIELLA",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 104.3,
+      "tn_carr": 104.3
+    },
+    {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 5,
       "carr": 5,
       "falta": 0,
       "tn_prev": 104.0,
       "tn_carr": 128.49
-    },
-    {
-      "cliente": "GABRIELLA",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 102.86,
-      "tn_carr": 77.86
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -95,26 +95,26 @@
     {
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 20,
-      "falta": 4,
-      "tn_prev": 1106.16,
-      "tn_carr": 937.16
+      "carr": 21,
+      "falta": 3,
+      "tn_prev": 1106.57,
+      "tn_carr": 972.57
     },
     {
       "produto": "TÉRMICO",
       "prog": 15,
-      "carr": 11,
-      "falta": 4,
-      "tn_prev": 478.86,
-      "tn_carr": 331.88
+      "carr": 14,
+      "falta": 1,
+      "tn_prev": 480.3,
+      "tn_carr": 425.38
     },
     {
       "produto": "CARVÃO",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 256.79,
-      "tn_carr": 122.79
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 258.48,
+      "tn_carr": 172.48
     },
     {
       "produto": "GESSO",
@@ -194,19 +194,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 11,
-      "carr": 8,
-      "falta": 3,
+      "carr": 10,
+      "falta": 1,
       "tn_prev": 376.0,
-      "tn_carr": 254.02,
+      "tn_carr": 321.08,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
           "cnpj": "11720812000128",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 34.0,
-          "tn_carr": 0.0
+          "tn_carr": 33.28
         },
         {
           "nome": "ROTA 101 (SC)",
@@ -230,10 +230,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 85.0,
-          "tn_carr": 0.0
+          "tn_carr": 33.78
         }
       ]
     },
@@ -242,19 +242,19 @@
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 316.06,
-      "tn_carr": 233.06,
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 316.47,
+      "tn_carr": 268.47,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.41,
+          "tn_carr": 35.41
         },
         {
           "nome": "RODEIRO (RJ)",
@@ -290,19 +290,19 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 256.79,
-      "tn_carr": 122.79,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 258.48,
+      "tn_carr": 172.48,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.69,
+          "tn_carr": 49.69
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -415,6 +415,27 @@
       ]
     },
     {
+      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
+      "cliente": "GABRIELLA",
+      "produto": "TÉRMICO",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 104.3,
+      "tn_carr": 104.3,
+      "transportadoras": [
+        {
+          "nome": "GABRIELLA MINERACAO (SC)",
+          "cnpj": "07105967000187",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 104.3,
+          "tn_carr": 104.3
+        }
+      ]
+    },
+    {
       "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
@@ -432,27 +453,6 @@
           "falta": 0,
           "tn_prev": 104.0,
           "tn_carr": 128.49
-        }
-      ]
-    },
-    {
-      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
-      "cliente": "GABRIELLA",
-      "produto": "TÉRMICO",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 102.86,
-      "tn_carr": 77.86,
-      "transportadoras": [
-        {
-          "nome": "GABRIELLA MINERACAO (SC)",
-          "cnpj": "07105967000187",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 102.86,
-          "tn_carr": 77.86
         }
       ]
     },
