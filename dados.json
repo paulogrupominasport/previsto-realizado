@@ -1,22 +1,22 @@
 {
   "data_relatorio": "22/07/2026",
-  "gerado_em": "2026-07-22T11:00:06",
-  "atualizado_em": "2026-07-22T14:05:27",
+  "gerado_em": "2026-07-22T12:00:16",
+  "atualizado_em": "2026-07-22T15:05:34",
   "totais": {
-    "prog": 56,
-    "carr": 28,
-    "falta": 28,
-    "tn_prev": 2064.77,
-    "tn_carr": 1009.53
+    "prog": 58,
+    "carr": 36,
+    "falta": 22,
+    "tn_prev": 2117.77,
+    "tn_carr": 1316.44
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 15,
-      "carr": 10,
-      "falta": 5,
-      "tn_prev": 690.71,
-      "tn_carr": 460.71
+      "carr": 11,
+      "falta": 4,
+      "tn_prev": 691.98,
+      "tn_carr": 509.98
     },
     {
       "cliente": "BRASKEM",
@@ -29,18 +29,18 @@
     {
       "cliente": "BELOCAL SJLP",
       "prog": 7,
-      "carr": 2,
-      "falta": 5,
-      "tn_prev": 315.96,
-      "tn_carr": 98.96
+      "carr": 5,
+      "falta": 2,
+      "tn_prev": 316.06,
+      "tn_carr": 233.06
     },
     {
       "cliente": "BELOCAL MTZ",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 182.1,
-      "tn_carr": 48.1
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 185.0,
+      "tn_carr": 137.0
     },
     {
       "cliente": "ITAMBÉ",
@@ -49,6 +49,14 @@
       "falta": 3,
       "tn_prev": 114.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "COMERCIAL CARVALHO",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 104.0,
+      "tn_carr": 74.37
     },
     {
       "cliente": "GABRIELLA",
@@ -69,18 +77,10 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 84.0,
-      "tn_carr": 73.37
-    },
-    {
-      "cliente": "COMERCIAL CARVALHO",
-      "prog": 3,
-      "carr": 3,
+      "carr": 6,
       "falta": 0,
-      "tn_prev": 58.0,
-      "tn_carr": 74.37
+      "tn_prev": 86.73,
+      "tn_carr": 108.01
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -95,10 +95,10 @@
     {
       "produto": "PETCOKE",
       "prog": 21,
-      "carr": 10,
-      "falta": 11,
-      "tn_prev": 979.98,
-      "tn_carr": 484.98
+      "carr": 16,
+      "falta": 5,
+      "tn_prev": 984.25,
+      "tn_carr": 757.25
     },
     {
       "produto": "TÉRMICO",
@@ -125,6 +125,14 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Carregamento Sucata",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 104.0,
+      "tn_carr": 74.37
+    },
+    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 0,
@@ -135,18 +143,10 @@
     {
       "produto": "Antracito Phoenician",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 84.0,
-      "tn_carr": 73.37
-    },
-    {
-      "produto": "Carregamento Sucata",
-      "prog": 3,
-      "carr": 3,
+      "carr": 6,
       "falta": 0,
-      "tn_prev": 58.0,
-      "tn_carr": 74.37
+      "tn_prev": 86.73,
+      "tn_carr": 108.01
     }
   ],
   "lotes": [
@@ -155,10 +155,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 433.92,
-      "tn_carr": 337.92,
+      "carr": 8,
+      "falta": 1,
+      "tn_prev": 435.19,
+      "tn_carr": 387.19,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -173,10 +173,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 293.67,
-          "tn_carr": 197.67
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 294.94,
+          "tn_carr": 246.94
         },
         {
           "nome": "G7 LOG (RJ)",
@@ -242,10 +242,10 @@
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 2,
-      "falta": 5,
-      "tn_prev": 315.96,
-      "tn_carr": 98.96,
+      "carr": 5,
+      "falta": 2,
+      "tn_prev": 316.06,
+      "tn_carr": 233.06,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -260,19 +260,19 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 144.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 142.56,
+          "tn_carr": 94.56
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.54,
+          "tn_carr": 39.54
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -329,28 +329,28 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 182.1,
-      "tn_carr": 48.1,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 185.0,
+      "tn_carr": 137.0,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 96.1,
-          "tn_carr": 48.1
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 97.51,
+          "tn_carr": 97.51
         },
         {
           "nome": "E. K. DE SOUZA & CIA. LTDA (RJ)",
           "cnpj": "05399163000617",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.49,
+          "tn_carr": 39.49
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -381,6 +381,27 @@
           "falta": 3,
           "tn_prev": 114.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
+      "cliente": "COMERCIAL CARVALHO",
+      "produto": "Carregamento Sucata",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 104.0,
+      "tn_carr": 74.37,
+      "transportadoras": [
+        {
+          "nome": "COMERCIAL CARVALHO",
+          "cnpj": "05362003000199",
+          "prog": 5,
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 104.0,
+          "tn_carr": 74.37
         }
       ]
     },
@@ -431,40 +452,19 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 84.0,
-      "tn_carr": 73.37,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 86.73,
+      "tn_carr": 108.01,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 84.0,
-          "tn_carr": 73.37
-        }
-      ]
-    },
-    {
-      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
-      "cliente": "COMERCIAL CARVALHO",
-      "produto": "Carregamento Sucata",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 58.0,
-      "tn_carr": 74.37,
-      "transportadoras": [
-        {
-          "nome": "COMERCIAL CARVALHO",
-          "cnpj": "05362003000199",
-          "prog": 3,
-          "carr": 3,
+          "carr": 6,
           "falta": 0,
-          "tn_prev": 58.0,
-          "tn_carr": 74.37
+          "tn_prev": 86.73,
+          "tn_carr": 108.01
         }
       ]
     },
