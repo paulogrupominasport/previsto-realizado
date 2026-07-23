@@ -2891,14 +2891,14 @@
     }
   },
   "2026-07-23": {
-    "gerado_em": "2026-07-23T08:00:19",
-    "atualizado_em": "2026-07-23T11:05:25",
+    "gerado_em": "2026-07-23T09:00:11",
+    "atualizado_em": "2026-07-23T12:05:26",
     "totais": {
-      "prog": 35,
-      "carr": 2,
-      "falta": 33,
-      "tn_prev": 1270.0,
-      "tn_carr": 63.21
+      "prog": 41,
+      "carr": 7,
+      "falta": 34,
+      "tn_prev": 1471.37,
+      "tn_carr": 241.75
     },
     "por_cliente": {
       "CIM. LIZ": {
@@ -2909,26 +2909,32 @@
       },
       "BRASKEM": {
         "prog": 9,
-        "carr": 2,
+        "carr": 5,
         "tn_prev": 323.0,
-        "tn_carr": 63.21
+        "tn_carr": 162.38
+      },
+      "LS METAIS / COQUEMETAL": {
+        "prog": 4,
+        "carr": 2,
+        "tn_prev": 138.37,
+        "tn_carr": 79.37
+      },
+      "BELOCAL SJLP": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 134.0,
+        "tn_carr": 0.0
+      },
+      "ITAMBÉ": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 114.0,
+        "tn_carr": 0.0
       },
       "PETRORECONCAVO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
-        "tn_carr": 0.0
-      },
-      "LS METAIS / COQUEMETAL": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 76.0,
-        "tn_carr": 0.0
-      },
-      "ITAMBÉ": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 76.0,
         "tn_carr": 0.0
       },
       "GABRIELLA": {
@@ -2937,30 +2943,36 @@
         "tn_prev": 73.0,
         "tn_carr": 0.0
       },
-      "BELOCAL SJLP": {
+      "COMERCIAL CARVALHO": {
         "prog": 1,
         "carr": 0,
-        "tn_prev": 48.0,
+        "tn_prev": 15.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 14,
-        "carr": 0,
-        "tn_prev": 560.0,
-        "tn_carr": 0.0
+        "prog": 18,
+        "carr": 2,
+        "tn_prev": 708.37,
+        "tn_carr": 79.37
       },
       "TÉRMICO": {
         "prog": 13,
-        "carr": 2,
+        "carr": 5,
         "tn_prev": 396.0,
-        "tn_carr": 63.21
+        "tn_carr": 162.38
       },
       "CARVÃO": {
         "prog": 4,
         "carr": 0,
         "tn_prev": 142.0,
+        "tn_carr": 0.0
+      },
+      "GESSO": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 114.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
@@ -2969,10 +2981,10 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "GESSO": {
-        "prog": 2,
+      "Carregamento Sucata": {
+        "prog": 1,
         "carr": 0,
-        "tn_prev": 76.0,
+        "tn_prev": 15.0,
         "tn_carr": 0.0
       }
     }
