@@ -1,46 +1,46 @@
 {
   "data_relatorio": "23/07/2026",
-  "gerado_em": "2026-07-23T11:00:12",
-  "atualizado_em": "2026-07-23T14:05:29",
+  "gerado_em": "2026-07-23T12:00:05",
+  "atualizado_em": "2026-07-23T15:05:26",
   "totais": {
-    "prog": 57,
-    "carr": 17,
-    "falta": 40,
-    "tn_prev": 1922.98,
-    "tn_carr": 557.51
+    "prog": 59,
+    "carr": 23,
+    "falta": 36,
+    "tn_prev": 1995.96,
+    "tn_carr": 735.01
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 16,
-      "carr": 7,
-      "falta": 9,
-      "tn_prev": 613.61,
-      "tn_carr": 262.61
+      "carr": 8,
+      "falta": 8,
+      "tn_prev": 614.19,
+      "tn_carr": 296.19
     },
     {
       "cliente": "BRASKEM",
       "prog": 10,
-      "carr": 5,
-      "falta": 5,
+      "carr": 7,
+      "falta": 3,
       "tn_prev": 372.0,
-      "tn_carr": 162.38
+      "tn_carr": 238.34
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 7,
+      "carr": 0,
+      "falta": 7,
+      "tn_prev": 266.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "BELOCAL SJLP",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 230.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "ITAMBÉ",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 190.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 226.4,
+      "tn_carr": 34.4
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -53,10 +53,10 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
+      "carr": 3,
+      "falta": 4,
       "tn_prev": 98.0,
-      "tn_carr": 16.76
+      "tn_carr": 50.32
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -95,42 +95,42 @@
     {
       "produto": "PETCOKE",
       "prog": 22,
-      "carr": 7,
-      "falta": 15,
-      "tn_prev": 890.1,
-      "tn_carr": 267.1
+      "carr": 8,
+      "falta": 14,
+      "tn_prev": 886.5,
+      "tn_carr": 301.5
     },
     {
       "produto": "TÉRMICO",
       "prog": 14,
-      "carr": 5,
-      "falta": 9,
+      "carr": 7,
+      "falta": 7,
       "tn_prev": 445.0,
-      "tn_carr": 162.38
+      "tn_carr": 238.34
     },
     {
       "produto": "GESSO",
-      "prog": 5,
+      "prog": 7,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 190.0,
+      "falta": 7,
+      "tn_prev": 266.0,
       "tn_carr": 0.0
     },
     {
       "produto": "CARVÃO",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 173.88,
-      "tn_carr": 74.88
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 174.46,
+      "tn_carr": 108.46
     },
     {
       "produto": "Antracito Phoenician",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
+      "carr": 3,
+      "falta": 4,
       "tn_prev": 98.0,
-      "tn_carr": 16.76
+      "tn_carr": 50.32
     },
     {
       "produto": "PETRÓLEO",
@@ -212,10 +212,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 10,
-      "carr": 5,
-      "falta": 5,
+      "carr": 7,
+      "falta": 3,
       "tn_prev": 372.0,
-      "tn_carr": 162.38,
+      "tn_carr": 238.34,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -230,19 +230,19 @@
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 30.0,
-          "tn_carr": 0.0
+          "tn_carr": 28.21
         },
         {
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 94.0,
-          "tn_carr": 0.0
+          "tn_carr": 47.75
         },
         {
           "nome": "CANEVER (SC)",
@@ -256,43 +256,13 @@
       ]
     },
     {
-      "lote": "BELOCAL SJLP - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "BELOCAL SJLP",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 230.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "G7 LOG (RJ)",
-          "cnpj": "14170909001336",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 182.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 5,
+      "prog": 7,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 190.0,
+      "falta": 7,
+      "tn_prev": 266.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -307,11 +277,41 @@
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
-          "prog": 3,
+          "prog": 5,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
+          "falta": 5,
+          "tn_prev": 190.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL SJLP - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "BELOCAL SJLP",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 226.4,
+      "tn_carr": 34.4,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 4,
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 178.4,
+          "tn_carr": 34.4
         }
       ]
     },
@@ -320,19 +320,19 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 173.88,
-      "tn_carr": 74.88,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 174.46,
+      "tn_carr": 108.46,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 140.88,
-          "tn_carr": 74.88
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 141.46,
+          "tn_carr": 108.46
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -389,19 +389,19 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
+      "carr": 3,
+      "falta": 4,
       "tn_prev": 98.0,
-      "tn_carr": 16.76,
+      "tn_carr": 50.32,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 7,
-          "carr": 1,
-          "falta": 6,
+          "carr": 3,
+          "falta": 4,
           "tn_prev": 98.0,
-          "tn_carr": 16.76
+          "tn_carr": 50.32
         }
       ]
     },
