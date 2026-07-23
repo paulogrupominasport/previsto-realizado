@@ -1,13 +1,13 @@
 {
   "data_relatorio": "23/07/2026",
-  "gerado_em": "2026-07-23T13:00:12",
-  "atualizado_em": "2026-07-23T16:05:27",
+  "gerado_em": "2026-07-23T14:00:17",
+  "atualizado_em": "2026-07-23T17:05:25",
   "totais": {
-    "prog": 59,
-    "carr": 23,
-    "falta": 36,
-    "tn_prev": 1995.96,
-    "tn_carr": 735.01
+    "prog": 63,
+    "carr": 31,
+    "falta": 32,
+    "tn_prev": 2089.98,
+    "tn_carr": 953.2
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 10,
-      "carr": 7,
-      "falta": 3,
+      "carr": 8,
+      "falta": 2,
       "tn_prev": 372.0,
-      "tn_carr": 238.34
+      "tn_carr": 269.12
     },
     {
       "cliente": "ITAMBÉ",
@@ -37,10 +37,10 @@
     {
       "cliente": "BELOCAL SJLP",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 226.4,
-      "tn_carr": 34.4
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 224.62,
+      "tn_carr": 80.62
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -52,11 +52,19 @@
     },
     {
       "cliente": "CARBOBRAS",
-      "prog": 7,
-      "carr": 3,
+      "prog": 9,
+      "carr": 5,
       "falta": 4,
-      "tn_prev": 98.0,
-      "tn_carr": 50.32
+      "tn_prev": 129.0,
+      "tn_carr": 84.71
+    },
+    {
+      "cliente": "GABRIELLA",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 106.8,
+      "tn_carr": 106.8
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -67,12 +75,12 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "GABRIELLA",
+      "cliente": "COMERCIAL CARVALHO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 73.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 61.0,
+      "tn_carr": 36.39
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -81,32 +89,24 @@
       "falta": 1,
       "tn_prev": 49.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "COMERCIAL CARVALHO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 30.0,
-      "tn_carr": 36.39
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
       "prog": 22,
-      "carr": 8,
-      "falta": 14,
-      "tn_prev": 886.5,
-      "tn_carr": 301.5
+      "carr": 9,
+      "falta": 13,
+      "tn_prev": 884.72,
+      "tn_carr": 347.72
     },
     {
       "produto": "TÉRMICO",
       "prog": 14,
-      "carr": 7,
-      "falta": 7,
-      "tn_prev": 445.0,
-      "tn_carr": 238.34
+      "carr": 12,
+      "falta": 2,
+      "tn_prev": 478.8,
+      "tn_carr": 375.92
     },
     {
       "produto": "GESSO",
@@ -126,11 +126,11 @@
     },
     {
       "produto": "Antracito Phoenician",
-      "prog": 7,
-      "carr": 3,
+      "prog": 9,
+      "carr": 5,
       "falta": 4,
-      "tn_prev": 98.0,
-      "tn_carr": 50.32
+      "tn_prev": 129.0,
+      "tn_carr": 84.71
     },
     {
       "produto": "PETRÓLEO",
@@ -142,10 +142,10 @@
     },
     {
       "produto": "Carregamento Sucata",
-      "prog": 2,
+      "prog": 4,
       "carr": 2,
-      "falta": 0,
-      "tn_prev": 30.0,
+      "falta": 2,
+      "tn_prev": 61.0,
       "tn_carr": 36.39
     }
   ],
@@ -212,10 +212,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 10,
-      "carr": 7,
-      "falta": 3,
+      "carr": 8,
+      "falta": 2,
       "tn_prev": 372.0,
-      "tn_carr": 238.34,
+      "tn_carr": 269.12,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -248,10 +248,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 82.0,
-          "tn_carr": 0.0
+          "tn_carr": 30.78
         }
       ]
     },
@@ -290,19 +290,19 @@
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 226.4,
-      "tn_carr": 34.4,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 224.62,
+      "tn_carr": 80.62,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 46.22,
+          "tn_carr": 46.22
         },
         {
           "nome": "G7 LOG (RJ)",
@@ -388,20 +388,41 @@
       "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
-      "prog": 7,
-      "carr": 3,
+      "prog": 9,
+      "carr": 5,
       "falta": 4,
-      "tn_prev": 98.0,
-      "tn_carr": 50.32,
+      "tn_prev": 129.0,
+      "tn_carr": 84.71,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
-          "prog": 7,
-          "carr": 3,
+          "prog": 9,
+          "carr": 5,
           "falta": 4,
-          "tn_prev": 98.0,
-          "tn_carr": 50.32
+          "tn_prev": 129.0,
+          "tn_carr": 84.71
+        }
+      ]
+    },
+    {
+      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
+      "cliente": "GABRIELLA",
+      "produto": "TÉRMICO",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 106.8,
+      "tn_carr": 106.8,
+      "transportadoras": [
+        {
+          "nome": "GABRIELLA MINERACAO (SC)",
+          "cnpj": "07105967000187",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 106.8,
+          "tn_carr": 106.8
         }
       ]
     },
@@ -427,23 +448,23 @@
       ]
     },
     {
-      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
-      "cliente": "GABRIELLA",
-      "produto": "TÉRMICO",
+      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
+      "cliente": "COMERCIAL CARVALHO",
+      "produto": "Carregamento Sucata",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 73.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 61.0,
+      "tn_carr": 36.39,
       "transportadoras": [
         {
-          "nome": "GABRIELLA MINERACAO (SC)",
-          "cnpj": "07105967000187",
+          "nome": "COMERCIAL CARVALHO",
+          "cnpj": "05362003000199",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 73.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 61.0,
+          "tn_carr": 36.39
         }
       ]
     },
@@ -465,27 +486,6 @@
           "falta": 1,
           "tn_prev": 49.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
-      "cliente": "COMERCIAL CARVALHO",
-      "produto": "Carregamento Sucata",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 30.0,
-      "tn_carr": 36.39,
-      "transportadoras": [
-        {
-          "nome": "COMERCIAL CARVALHO",
-          "cnpj": "05362003000199",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 30.0,
-          "tn_carr": 36.39
         }
       ]
     }
