@@ -1,13 +1,13 @@
 {
   "data_relatorio": "24/07/2026",
-  "gerado_em": "2026-07-24T07:00:06",
-  "atualizado_em": "2026-07-24T10:05:26",
+  "gerado_em": "2026-07-24T08:00:14",
+  "atualizado_em": "2026-07-24T11:05:29",
   "totais": {
-    "prog": 45,
-    "carr": 0,
-    "falta": 45,
-    "tn_prev": 1834.0,
-    "tn_carr": 0.0
+    "prog": 46,
+    "carr": 5,
+    "falta": 41,
+    "tn_prev": 1871.0,
+    "tn_carr": 165.05
   },
   "por_cliente": [
     {
@@ -28,10 +28,18 @@
     },
     {
       "cliente": "BRASKEM",
-      "prog": 10,
+      "prog": 8,
+      "carr": 5,
+      "falta": 3,
+      "tn_prev": 265.0,
+      "tn_carr": 165.05
+    },
+    {
+      "cliente": "BELOCAL SJLP",
+      "prog": 2,
       "carr": 0,
-      "falta": 10,
-      "tn_prev": 363.0,
+      "falta": 2,
+      "tn_prev": 96.0,
       "tn_carr": 0.0
     },
     {
@@ -44,10 +52,10 @@
     },
     {
       "cliente": "LHOIST DORESOPOLIS",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 77.0,
       "tn_carr": 0.0
     },
     {
@@ -62,10 +70,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 17,
+      "prog": 20,
       "carr": 0,
-      "falta": 17,
-      "tn_prev": 667.0,
+      "falta": 20,
+      "tn_prev": 802.0,
       "tn_carr": 0.0
     },
     {
@@ -78,11 +86,11 @@
     },
     {
       "produto": "TÉRMICO",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 363.0,
-      "tn_carr": 0.0
+      "prog": 8,
+      "carr": 5,
+      "falta": 3,
+      "tn_prev": 265.0,
+      "tn_carr": 165.05
     },
     {
       "produto": "CARVÃO",
@@ -202,20 +210,20 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 363.0,
-      "tn_carr": 0.0,
+      "prog": 8,
+      "carr": 5,
+      "falta": 3,
+      "tn_prev": 265.0,
+      "tn_carr": 165.05,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
+          "carr": 5,
+          "falta": 0,
           "tn_prev": 167.0,
-          "tn_carr": 0.0
+          "tn_carr": 165.05
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -233,15 +241,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 28.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "CANEVER (SC)",
-          "cnpj": "42029409000180",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 98.0,
           "tn_carr": 0.0
         }
       ]
@@ -286,6 +285,27 @@
       ]
     },
     {
+      "lote": "BELOCAL SJLP - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "BELOCAL SJLP",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -310,19 +330,19 @@
       "lote": "LHOIST DORESOPOLIS - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "LHOIST DORESOPOLIS",
       "produto": "PETCOKE",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 77.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 77.0,
           "tn_carr": 0.0
         }
       ]
