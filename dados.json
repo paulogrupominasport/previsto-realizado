@@ -1,21 +1,21 @@
 {
   "data_relatorio": "24/07/2026",
-  "gerado_em": "2026-07-24T15:00:04",
-  "atualizado_em": "2026-07-24T18:05:28",
+  "gerado_em": "2026-07-24T16:00:12",
+  "atualizado_em": "2026-07-24T19:05:28",
   "totais": {
-    "prog": 66,
+    "prog": 68,
     "carr": 47,
-    "falta": 19,
-    "tn_prev": 2623.27,
+    "falta": 21,
+    "tn_prev": 2705.27,
     "tn_carr": 1845.84
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 23,
+      "prog": 24,
       "carr": 15,
-      "falta": 8,
-      "tn_prev": 929.29,
+      "falta": 9,
+      "tn_prev": 977.29,
       "tn_carr": 625.29
     },
     {
@@ -36,10 +36,10 @@
     },
     {
       "cliente": "BELOCAL SJLP",
-      "prog": 6,
+      "prog": 7,
       "carr": 6,
-      "falta": 0,
-      "tn_prev": 244.88,
+      "falta": 1,
+      "tn_prev": 278.88,
       "tn_carr": 244.88
     },
     {
@@ -86,10 +86,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 31,
+      "prog": 33,
       "carr": 22,
-      "falta": 9,
-      "tn_prev": 1223.34,
+      "falta": 11,
+      "tn_prev": 1305.34,
       "tn_carr": 917.72
     },
     {
@@ -138,10 +138,10 @@
       "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 17,
+      "prog": 18,
       "carr": 12,
-      "falta": 5,
-      "tn_prev": 694.34,
+      "falta": 6,
+      "tn_prev": 742.34,
       "tn_carr": 510.34,
       "transportadoras": [
         {
@@ -152,6 +152,15 @@
           "falta": 0,
           "tn_prev": 34.75,
           "tn_carr": 34.75
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -300,10 +309,10 @@
       "lote": "BELOCAL SJLP - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 7,
       "carr": 6,
-      "falta": 0,
-      "tn_prev": 244.88,
+      "falta": 1,
+      "tn_prev": 278.88,
       "tn_carr": 244.88,
       "transportadoras": [
         {
@@ -318,10 +327,10 @@
         {
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
-          "prog": 3,
+          "prog": 4,
           "carr": 3,
-          "falta": 0,
-          "tn_prev": 146.82,
+          "falta": 1,
+          "tn_prev": 180.82,
           "tn_carr": 146.82
         }
       ]
