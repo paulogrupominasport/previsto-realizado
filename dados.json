@@ -1,22 +1,22 @@
 {
   "data_relatorio": "25/07/2026",
-  "gerado_em": "2026-07-25T16:00:13",
-  "atualizado_em": "2026-07-25T19:05:25",
+  "gerado_em": "2026-07-25T17:00:05",
+  "atualizado_em": "2026-07-25T20:05:34",
   "totais": {
-    "prog": 51,
-    "carr": 39,
-    "falta": 12,
-    "tn_prev": 2099.64,
-    "tn_carr": 1611.64
+    "prog": 53,
+    "carr": 43,
+    "falta": 10,
+    "tn_prev": 2181.06,
+    "tn_carr": 1768.06
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
       "prog": 21,
-      "carr": 15,
-      "falta": 6,
-      "tn_prev": 886.5,
-      "tn_carr": 650.5
+      "carr": 17,
+      "falta": 4,
+      "tn_prev": 885.21,
+      "tn_carr": 737.21
     },
     {
       "cliente": "CIM. LIZ",
@@ -27,12 +27,20 @@
       "tn_carr": 632.34
     },
     {
+      "cliente": "BELOCAL SJLP",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 161.2,
+      "tn_carr": 78.2
+    },
+    {
       "cliente": "LHOIST DORESOPOLIS",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 109.18,
-      "tn_carr": 39.18
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 108.89,
+      "tn_carr": 108.89
     },
     {
       "cliente": "GABRIELLA",
@@ -59,14 +67,6 @@
       "tn_carr": 35.36
     },
     {
-      "cliente": "BELOCAL SJLP",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 78.2,
-      "tn_carr": 78.2
-    },
-    {
       "cliente": "ITAMBÉ",
       "prog": 1,
       "carr": 1,
@@ -86,19 +86,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 21,
-      "carr": 18,
+      "prog": 23,
+      "carr": 20,
       "falta": 3,
-      "tn_prev": 895.17,
-      "tn_carr": 777.17
+      "tn_prev": 977.88,
+      "tn_carr": 846.88
     },
     {
       "produto": "Ijací",
       "prog": 20,
-      "carr": 15,
-      "falta": 5,
-      "tn_prev": 848.5,
-      "tn_carr": 650.5
+      "carr": 17,
+      "falta": 3,
+      "tn_prev": 847.21,
+      "tn_carr": 737.21
     },
     {
       "produto": "TÉRMICO",
@@ -147,10 +147,10 @@
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
       "prog": 20,
-      "carr": 15,
-      "falta": 5,
-      "tn_prev": 848.5,
-      "tn_carr": 650.5,
+      "carr": 17,
+      "falta": 3,
+      "tn_prev": 847.21,
+      "tn_carr": 737.21,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
@@ -174,19 +174,19 @@
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.65,
+          "tn_carr": 37.65
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 5,
-          "carr": 4,
-          "falta": 1,
-          "tn_prev": 234.23,
-          "tn_carr": 184.23
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 233.29,
+          "tn_carr": 233.29
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -257,23 +257,62 @@
       ]
     },
     {
+      "lote": "BELOCAL SJLP - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "BELOCAL SJLP",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 161.2,
+      "tn_carr": 78.2,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 94.17,
+          "tn_carr": 47.17
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 31.03,
+          "tn_carr": 31.03
+        },
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "LHOIST DORESOPOLIS - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "LHOIST DORESOPOLIS",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 109.18,
-      "tn_carr": 39.18,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 108.89,
+      "tn_carr": 108.89,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 109.18,
-          "tn_carr": 39.18
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 108.89,
+          "tn_carr": 108.89
         }
       ]
     },
@@ -346,36 +385,6 @@
           "falta": 1,
           "tn_prev": 48.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL SJLP - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "BELOCAL SJLP",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 78.2,
-      "tn_carr": 78.2,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 47.17,
-          "tn_carr": 47.17
-        },
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 31.03,
-          "tn_carr": 31.03
         }
       ]
     },
