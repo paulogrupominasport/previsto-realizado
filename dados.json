@@ -1,21 +1,21 @@
 {
   "data_relatorio": "26/07/2026",
-  "gerado_em": "2026-07-26T08:00:11",
-  "atualizado_em": "2026-07-26T11:05:26",
+  "gerado_em": "2026-07-26T09:00:16",
+  "atualizado_em": "2026-07-26T12:05:25",
   "totais": {
-    "prog": 24,
+    "prog": 25,
     "carr": 0,
-    "falta": 24,
-    "tn_prev": 986.5,
+    "falta": 25,
+    "tn_prev": 1024.5,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
-      "prog": 11,
+      "prog": 12,
       "carr": 0,
-      "falta": 11,
-      "tn_prev": 462.5,
+      "falta": 12,
+      "tn_prev": 500.5,
       "tn_carr": 0.0
     },
     {
@@ -61,19 +61,19 @@
   ],
   "por_produto": [
     {
+      "produto": "Ijací",
+      "prog": 9,
+      "carr": 0,
+      "falta": 9,
+      "tn_prev": 376.5,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "PETCOKE",
       "prog": 9,
       "carr": 0,
       "falta": 9,
       "tn_prev": 363.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Ijací",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 338.5,
       "tn_carr": 0.0
     },
     {
@@ -106,10 +106,10 @@
       "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
-      "prog": 8,
+      "prog": 9,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 338.5,
+      "falta": 9,
+      "tn_prev": 376.5,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -133,10 +133,10 @@
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
-          "prog": 5,
+          "prog": 6,
           "carr": 0,
-          "falta": 5,
-          "tn_prev": 220.0,
+          "falta": 6,
+          "tn_prev": 258.0,
           "tn_carr": 0.0
         }
       ]
