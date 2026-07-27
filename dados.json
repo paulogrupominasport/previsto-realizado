@@ -1,13 +1,13 @@
 {
   "data_relatorio": "27/07/2026",
-  "gerado_em": "2026-07-27T18:00:14",
-  "atualizado_em": "2026-07-27T21:05:27",
+  "gerado_em": "2026-07-27T19:00:28",
+  "atualizado_em": "2026-07-27T22:05:30",
   "totais": {
-    "prog": 49,
-    "carr": 32,
+    "prog": 51,
+    "carr": 34,
     "falta": 17,
-    "tn_prev": 1848.82,
-    "tn_carr": 1214.97
+    "tn_prev": 1895.73,
+    "tn_carr": 1301.03
   },
   "por_cliente": [
     {
@@ -20,10 +20,10 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 13,
+      "prog": 15,
       "carr": 11,
-      "falta": 2,
-      "tn_prev": 499.69,
+      "falta": 4,
+      "tn_prev": 595.69,
       "tn_carr": 464.02
     },
     {
@@ -45,10 +45,10 @@
     {
       "cliente": "BELOCAL SJLP",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 76.42,
-      "tn_carr": 38.42
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 76.33,
+      "tn_carr": 76.33
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -75,20 +75,20 @@
       "tn_carr": 97.62
     },
     {
-      "cliente": "INNMOV",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 49.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "LHOIST DORESOPOLIS",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 36.67,
       "tn_carr": 36.67
+    },
+    {
+      "cliente": "INNMOV",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 0.0,
+      "tn_carr": 48.15
     }
   ],
   "por_produto": [
@@ -103,10 +103,18 @@
     {
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 12,
+      "carr": 14,
+      "falta": 1,
+      "tn_prev": 487.77,
+      "tn_carr": 596.64
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 6,
+      "carr": 3,
       "falta": 3,
-      "tn_prev": 536.86,
-      "tn_carr": 510.58
+      "tn_prev": 270.15,
+      "tn_carr": 126.15
     },
     {
       "produto": "Ijací",
@@ -115,14 +123,6 @@
       "falta": 2,
       "tn_prev": 250.87,
       "tn_carr": 164.87
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 174.15,
-      "tn_carr": 126.15
     },
     {
       "produto": "TÉRMICO",
@@ -220,6 +220,45 @@
       ]
     },
     {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 6,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 270.15,
+      "tn_carr": 126.15,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 192.87,
+          "tn_carr": 96.87
+        },
+        {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 29.28,
+          "tn_carr": 29.28
+        }
+      ]
+    },
+    {
       "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
@@ -246,45 +285,6 @@
           "falta": 2,
           "tn_prev": 200.9,
           "tn_carr": 114.9
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 174.15,
-      "tn_carr": 126.15,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 96.87,
-          "tn_carr": 96.87
-        },
-        {
-          "nome": "G7 LOG (RJ)",
-          "cnpj": "14170909001336",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. TS (RJ)",
-          "cnpj": "05324485000516",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 29.28,
-          "tn_carr": 29.28
         }
       ]
     },
@@ -356,19 +356,19 @@
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 76.42,
-      "tn_carr": 38.42,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 76.33,
+      "tn_carr": 76.33,
       "transportadoras": [
         {
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 76.42,
-          "tn_carr": 38.42
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 76.33,
+          "tn_carr": 76.33
         }
       ]
     },
@@ -411,27 +411,6 @@
           "falta": 0,
           "tn_prev": 49.23,
           "tn_carr": 97.62
-        }
-      ]
-    },
-    {
-      "lote": "INNMOV - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "INNMOV",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 49.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 49.0,
-          "tn_carr": 0.0
         }
       ]
     },
@@ -495,6 +474,27 @@
           "falta": 0,
           "tn_prev": 26.0,
           "tn_carr": 39.49
+        }
+      ]
+    },
+    {
+      "lote": "INNMOV - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "INNMOV",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 0.0,
+      "tn_carr": 48.15,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 0.0,
+          "tn_carr": 48.15
         }
       ]
     }
