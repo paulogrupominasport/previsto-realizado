@@ -1,21 +1,21 @@
 {
   "data_relatorio": "27/07/2026",
-  "gerado_em": "2026-07-27T07:00:15",
-  "atualizado_em": "2026-07-27T10:05:24",
+  "gerado_em": "2026-07-27T08:00:13",
+  "atualizado_em": "2026-07-27T11:05:27",
   "totais": {
-    "prog": 12,
+    "prog": 15,
     "carr": 0,
-    "falta": 12,
-    "tn_prev": 497.0,
+    "falta": 15,
+    "tn_prev": 619.0,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
-      "prog": 4,
+      "prog": 6,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
+      "falta": 6,
+      "tn_prev": 266.0,
       "tn_carr": 0.0
     },
     {
@@ -35,23 +35,31 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM. LIZ",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 86.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "GABRIELLA",
       "prog": 3,
       "carr": 0,
       "falta": 3,
       "tn_prev": 75.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
+    {
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 182.0,
+      "tn_carr": 0.0
+    },
     {
       "produto": "Bodoquena",
       "prog": 3,
@@ -61,11 +69,11 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "PETCOKE",
+      "produto": "Ijací",
       "prog": 3,
       "carr": 0,
       "falta": 3,
-      "tn_prev": 134.0,
+      "tn_prev": 122.0,
       "tn_carr": 0.0
     },
     {
@@ -82,14 +90,6 @@
       "carr": 0,
       "falta": 3,
       "tn_prev": 75.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Ijací",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
       "tn_carr": 0.0
     }
   ],
@@ -111,6 +111,36 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 144.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
+      "cliente": "INTERCEMENT",
+      "produto": "Ijací",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 122.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
           "tn_carr": 0.0
         }
       ]
@@ -158,6 +188,36 @@
       ]
     },
     {
+      "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 86.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
       "cliente": "GABRIELLA",
       "produto": "TÉRMICO",
@@ -174,48 +234,6 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 75.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
-      "cliente": "INTERCEMENT",
-      "produto": "Ijací",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
