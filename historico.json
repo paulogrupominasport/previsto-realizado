@@ -3311,13 +3311,13 @@
     }
   },
   "2026-07-27": {
-    "gerado_em": "2026-07-27T09:00:08",
-    "atualizado_em": "2026-07-27T12:05:25",
+    "gerado_em": "2026-07-27T10:00:14",
+    "atualizado_em": "2026-07-27T13:05:25",
     "totais": {
-      "prog": 24,
+      "prog": 33,
       "carr": 4,
-      "falta": 20,
-      "tn_prev": 1001.91,
+      "falta": 29,
+      "tn_prev": 1327.91,
       "tn_carr": 163.97
     },
     "por_cliente": {
@@ -3328,9 +3328,9 @@
         "tn_carr": 48.62
       },
       "CIM. LIZ": {
-        "prog": 4,
+        "prog": 8,
         "carr": 1,
-        "tn_prev": 183.06,
+        "tn_prev": 321.06,
         "tn_carr": 49.06
       },
       "BELOCAL MTZ": {
@@ -3338,6 +3338,12 @@
         "carr": 1,
         "tn_prev": 97.23,
         "tn_carr": 49.23
+      },
+      "INNMOV": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 96.0,
+        "tn_carr": 0.0
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -3351,14 +3357,26 @@
         "tn_prev": 75.0,
         "tn_carr": 0.0
       },
+      "BRASKEM": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 66.0,
+        "tn_carr": 0.0
+      },
       "COMERCIAL CARVALHO": {
-        "prog": 1,
+        "prog": 2,
         "carr": 1,
-        "tn_prev": 16.0,
+        "tn_prev": 42.0,
         "tn_carr": 17.06
       }
     },
     "por_produto": {
+      "PETCOKE": {
+        "prog": 9,
+        "carr": 2,
+        "tn_prev": 391.29,
+        "tn_carr": 98.29
+      },
       "Bodoquena": {
         "prog": 6,
         "carr": 1,
@@ -3371,16 +3389,16 @@
         "tn_prev": 246.0,
         "tn_carr": 0.0
       },
-      "PETCOKE": {
-        "prog": 4,
-        "carr": 2,
-        "tn_prev": 184.29,
-        "tn_carr": 98.29
+      "TÉRMICO": {
+        "prog": 5,
+        "carr": 0,
+        "tn_prev": 141.0,
+        "tn_carr": 0.0
       },
       "CARVÃO": {
-        "prog": 2,
+        "prog": 3,
         "carr": 0,
-        "tn_prev": 96.0,
+        "tn_prev": 123.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
@@ -3389,16 +3407,10 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "TÉRMICO": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 75.0,
-        "tn_carr": 0.0
-      },
       "Carregamento Sucata": {
-        "prog": 1,
+        "prog": 2,
         "carr": 1,
-        "tn_prev": 16.0,
+        "tn_prev": 42.0,
         "tn_carr": 17.06
       }
     }
