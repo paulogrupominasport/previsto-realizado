@@ -1,57 +1,49 @@
 {
-  "data_relatorio": "26/07/2026",
-  "gerado_em": "2026-07-26T23:00:12",
-  "atualizado_em": "2026-07-27T02:05:35",
+  "data_relatorio": "27/07/2026",
+  "gerado_em": "2026-07-27T07:00:15",
+  "atualizado_em": "2026-07-27T10:05:24",
   "totais": {
-    "prog": 25,
-    "carr": 24,
-    "falta": 1,
-    "tn_prev": 1029.45,
-    "tn_carr": 991.45
+    "prog": 12,
+    "carr": 0,
+    "falta": 12,
+    "tn_prev": 497.0,
+    "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
-      "prog": 12,
-      "carr": 12,
-      "falta": 0,
-      "tn_prev": 500.43,
-      "tn_carr": 500.43
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 192.0,
+      "tn_carr": 0.0
     },
     {
-      "cliente": "CIM. LIZ",
-      "prog": 6,
-      "carr": 6,
-      "falta": 0,
-      "tn_prev": 241.37,
-      "tn_carr": 241.37
-    },
-    {
-      "cliente": "LHOIST DORESOPOLIS",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 108.86,
-      "tn_carr": 108.86
+      "cliente": "BELOCAL MTZ",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 94.04,
-      "tn_carr": 94.04
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0
     },
     {
-      "cliente": "BELOCAL SJLP",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 46.75,
-      "tn_carr": 46.75
+      "cliente": "GABRIELLA",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 75.0,
+      "tn_carr": 0.0
     },
     {
-      "cliente": "INNMOV",
+      "cliente": "CIM. LIZ",
       "prog": 1,
       "carr": 0,
       "falta": 1,
@@ -61,164 +53,86 @@
   ],
   "por_produto": [
     {
-      "produto": "Ijací",
-      "prog": 9,
-      "carr": 9,
-      "falta": 0,
-      "tn_prev": 378.38,
-      "tn_carr": 378.38
+      "produto": "Bodoquena",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 144.0,
+      "tn_carr": 0.0
     },
     {
       "produto": "PETCOKE",
-      "prog": 9,
-      "carr": 8,
-      "falta": 1,
-      "tn_prev": 369.97,
-      "tn_carr": 331.97
-    },
-    {
-      "produto": "Bodoquena",
       "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 122.05,
-      "tn_carr": 122.05
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 134.0,
+      "tn_carr": 0.0
     },
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 94.04,
-      "tn_carr": 94.04
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0
     },
     {
-      "produto": "CARVÃO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 65.01,
-      "tn_carr": 65.01
+      "produto": "TÉRMICO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 75.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Ijací",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
-    {
-      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
-      "cliente": "INTERCEMENT",
-      "produto": "Ijací",
-      "prog": 9,
-      "carr": 9,
-      "falta": 0,
-      "tn_prev": 378.38,
-      "tn_carr": 378.38,
-      "transportadoras": [
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 87.25,
-          "tn_carr": 87.25
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 33.26,
-          "tn_carr": 33.26
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 6,
-          "carr": 6,
-          "falta": 0,
-          "tn_prev": 257.87,
-          "tn_carr": 257.87
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 4,
-      "falta": 0,
-      "tn_prev": 176.36,
-      "tn_carr": 176.36,
-      "transportadoras": [
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 99.29,
-          "tn_carr": 99.29
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 36.94,
-          "tn_carr": 36.94
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 40.13,
-          "tn_carr": 40.13
-        }
-      ]
-    },
     {
       "lote": "INTERCEMENT - BODOQUENA - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "INTERCEMENT",
       "produto": "Bodoquena",
       "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 122.05,
-      "tn_carr": 122.05,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 144.0,
+      "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 122.05,
-          "tn_carr": 122.05
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 144.0,
+          "tn_carr": 0.0
         }
       ]
     },
     {
-      "lote": "LHOIST DORESOPOLIS - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "LHOIST DORESOPOLIS",
+      "lote": "BELOCAL MTZ - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 108.86,
-      "tn_carr": 108.86,
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "VICTRANS (RJ)",
-          "cnpj": "02830994000441",
-          "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 108.86,
-          "tn_carr": 108.86
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 96.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -227,67 +141,67 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 94.04,
-      "tn_carr": 94.04,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 94.04,
-          "tn_carr": 94.04
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 96.0,
+          "tn_carr": 0.0
         }
       ]
     },
     {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 65.01,
-      "tn_carr": 65.01,
+      "lote": "GABRIELLA - TÉRMICO YCRT - IRVINE BAY - PILHA 13",
+      "cliente": "GABRIELLA",
+      "produto": "TÉRMICO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 75.0,
+      "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "EXP. TS (RJ)",
-          "cnpj": "05324485000516",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 65.01,
-          "tn_carr": 65.01
+          "nome": "GABRIELLA MINERACAO (SC)",
+          "cnpj": "07105967000187",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 75.0,
+          "tn_carr": 0.0
         }
       ]
     },
     {
-      "lote": "BELOCAL SJLP - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "BELOCAL SJLP",
-      "produto": "PETCOKE",
+      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
+      "cliente": "INTERCEMENT",
+      "produto": "Ijací",
       "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 46.75,
-      "tn_carr": 46.75,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 46.75,
-          "tn_carr": 46.75
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
         }
       ]
     },
     {
-      "lote": "INNMOV - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "INNMOV",
+      "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 1,
       "carr": 0,
@@ -296,8 +210,8 @@
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
           "prog": 1,
           "carr": 0,
           "falta": 1,
