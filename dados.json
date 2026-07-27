@@ -1,30 +1,38 @@
 {
   "data_relatorio": "27/07/2026",
-  "gerado_em": "2026-07-27T12:00:16",
-  "atualizado_em": "2026-07-27T15:05:26",
+  "gerado_em": "2026-07-27T13:00:08",
+  "atualizado_em": "2026-07-27T16:05:30",
   "totais": {
-    "prog": 37,
-    "carr": 10,
-    "falta": 27,
-    "tn_prev": 1458.54,
-    "tn_carr": 403.74
+    "prog": 38,
+    "carr": 13,
+    "falta": 25,
+    "tn_prev": 1492.44,
+    "tn_carr": 540.64
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
       "prog": 14,
-      "carr": 2,
-      "falta": 12,
-      "tn_prev": 632.59,
-      "tn_carr": 98.59
+      "carr": 4,
+      "falta": 10,
+      "tn_prev": 633.77,
+      "tn_carr": 195.77
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 9,
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 368.44,
+      "tn_carr": 124.44
+    },
+    {
+      "cliente": "BRASKEM",
+      "prog": 3,
       "carr": 2,
-      "falta": 7,
-      "tn_prev": 366.72,
-      "tn_carr": 84.72
+      "falta": 1,
+      "tn_prev": 97.0,
+      "tn_carr": 66.26
     },
     {
       "cliente": "INNMOV",
@@ -49,14 +57,6 @@
       "falta": 3,
       "tn_prev": 75.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "BRASKEM",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 66.0,
-      "tn_carr": 66.26
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -87,18 +87,18 @@
     {
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 4,
-      "falta": 7,
-      "tn_prev": 423.95,
-      "tn_carr": 182.34
+      "carr": 5,
+      "falta": 6,
+      "tn_prev": 425.67,
+      "tn_carr": 222.06
     },
     {
       "produto": "Bodoquena",
       "prog": 8,
-      "carr": 1,
-      "falta": 7,
-      "tn_prev": 384.62,
-      "tn_carr": 48.62
+      "carr": 3,
+      "falta": 5,
+      "tn_prev": 385.8,
+      "tn_carr": 145.8
     },
     {
       "produto": "Ijací",
@@ -110,10 +110,10 @@
     },
     {
       "produto": "TÉRMICO",
-      "prog": 5,
+      "prog": 6,
       "carr": 2,
-      "falta": 3,
-      "tn_prev": 141.0,
+      "falta": 4,
+      "tn_prev": 172.0,
       "tn_carr": 66.26
     },
     {
@@ -177,10 +177,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 243.72,
-      "tn_carr": 84.72,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 245.44,
+      "tn_carr": 124.44,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -204,10 +204,10 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 86.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 87.72,
+          "tn_carr": 39.72
         }
       ]
     },
@@ -237,19 +237,19 @@
       "cliente": "INTERCEMENT",
       "produto": "Bodoquena",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 144.62,
-      "tn_carr": 48.62,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 145.8,
+      "tn_carr": 145.8,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 144.62,
-          "tn_carr": 48.62
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 145.8,
+          "tn_carr": 145.8
         }
       ]
     },
@@ -280,6 +280,27 @@
           "falta": 1,
           "tn_prev": 27.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BRASKEM",
+      "produto": "TÉRMICO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 97.0,
+      "tn_carr": 66.26,
+      "transportadoras": [
+        {
+          "nome": "ROTA 101 (SC)",
+          "cnpj": "21269148000287",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 97.0,
+          "tn_carr": 66.26
         }
       ]
     },
@@ -343,27 +364,6 @@
           "falta": 3,
           "tn_prev": 75.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BRASKEM",
-      "produto": "TÉRMICO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 66.0,
-      "tn_carr": 66.26,
-      "transportadoras": [
-        {
-          "nome": "ROTA 101 (SC)",
-          "cnpj": "21269148000287",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 66.0,
-          "tn_carr": 66.26
         }
       ]
     },
