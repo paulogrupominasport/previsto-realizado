@@ -3311,27 +3311,33 @@
     }
   },
   "2026-07-27": {
-    "gerado_em": "2026-07-27T08:00:13",
-    "atualizado_em": "2026-07-27T11:05:27",
+    "gerado_em": "2026-07-27T09:00:08",
+    "atualizado_em": "2026-07-27T12:05:25",
     "totais": {
-      "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 619.0,
-      "tn_carr": 0.0
+      "prog": 24,
+      "carr": 4,
+      "falta": 20,
+      "tn_prev": 1001.91,
+      "tn_carr": 163.97
     },
     "por_cliente": {
       "INTERCEMENT": {
-        "prog": 6,
-        "carr": 0,
-        "tn_prev": 266.0,
-        "tn_carr": 0.0
+        "prog": 12,
+        "carr": 1,
+        "tn_prev": 534.62,
+        "tn_carr": 48.62
+      },
+      "CIM. LIZ": {
+        "prog": 4,
+        "carr": 1,
+        "tn_prev": 183.06,
+        "tn_carr": 49.06
       },
       "BELOCAL MTZ": {
         "prog": 2,
-        "carr": 0,
-        "tn_prev": 96.0,
-        "tn_carr": 0.0
+        "carr": 1,
+        "tn_prev": 97.23,
+        "tn_carr": 49.23
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -3339,36 +3345,42 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "CIM. LIZ": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 86.0,
-        "tn_carr": 0.0
-      },
       "GABRIELLA": {
         "prog": 3,
         "carr": 0,
         "tn_prev": 75.0,
         "tn_carr": 0.0
+      },
+      "COMERCIAL CARVALHO": {
+        "prog": 1,
+        "carr": 1,
+        "tn_prev": 16.0,
+        "tn_carr": 17.06
       }
     },
     "por_produto": {
-      "PETCOKE": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 182.0,
-        "tn_carr": 0.0
-      },
       "Bodoquena": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 144.0,
-        "tn_carr": 0.0
+        "prog": 6,
+        "carr": 1,
+        "tn_prev": 288.62,
+        "tn_carr": 48.62
       },
       "Ijací": {
-        "prog": 3,
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 122.0,
+        "tn_prev": 246.0,
+        "tn_carr": 0.0
+      },
+      "PETCOKE": {
+        "prog": 4,
+        "carr": 2,
+        "tn_prev": 184.29,
+        "tn_carr": 98.29
+      },
+      "CARVÃO": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 96.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
@@ -3382,6 +3394,12 @@
         "carr": 0,
         "tn_prev": 75.0,
         "tn_carr": 0.0
+      },
+      "Carregamento Sucata": {
+        "prog": 1,
+        "carr": 1,
+        "tn_prev": 16.0,
+        "tn_carr": 17.06
       }
     }
   }
