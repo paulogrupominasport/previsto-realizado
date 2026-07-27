@@ -1,22 +1,22 @@
 {
   "data_relatorio": "27/07/2026",
-  "gerado_em": "2026-07-27T11:00:05",
-  "atualizado_em": "2026-07-27T14:05:26",
+  "gerado_em": "2026-07-27T11:49:18",
+  "atualizado_em": "2026-07-27T14:50:28",
   "totais": {
-    "prog": 36,
-    "carr": 8,
-    "falta": 28,
-    "tn_prev": 1456.57,
-    "tn_carr": 305.38
+    "prog": 37,
+    "carr": 10,
+    "falta": 27,
+    "tn_prev": 1458.54,
+    "tn_carr": 403.74
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
-      "prog": 13,
-      "carr": 1,
+      "prog": 14,
+      "carr": 2,
       "falta": 12,
-      "tn_prev": 582.62,
-      "tn_carr": 48.62
+      "tn_prev": 632.59,
+      "tn_carr": 98.59
     },
     {
       "cliente": "CIM. LIZ",
@@ -25,14 +25,6 @@
       "falta": 7,
       "tn_prev": 366.72,
       "tn_carr": 84.72
-    },
-    {
-      "cliente": "BELOCAL MTZ",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 97.23,
-      "tn_carr": 49.23
     },
     {
       "cliente": "INNMOV",
@@ -67,6 +59,14 @@
       "tn_carr": 66.26
     },
     {
+      "cliente": "BELOCAL MTZ",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 49.23,
+      "tn_carr": 97.62
+    },
+    {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 2,
       "carr": 2,
@@ -87,26 +87,26 @@
     {
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 3,
-      "falta": 8,
-      "tn_prev": 471.95,
-      "tn_carr": 133.95
+      "carr": 4,
+      "falta": 7,
+      "tn_prev": 423.95,
+      "tn_carr": 182.34
     },
     {
       "produto": "Bodoquena",
-      "prog": 7,
+      "prog": 8,
       "carr": 1,
-      "falta": 6,
-      "tn_prev": 336.62,
+      "falta": 7,
+      "tn_prev": 384.62,
       "tn_carr": 48.62
     },
     {
       "produto": "Ijací",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 246.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 247.97,
+      "tn_carr": 49.97
     },
     {
       "produto": "TÉRMICO",
@@ -147,19 +147,19 @@
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 246.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 247.97,
+      "tn_carr": 49.97,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.97,
+          "tn_carr": 49.97
         },
         {
           "nome": "AR MACEDO (RJ)",
@@ -215,19 +215,19 @@
       "lote": "INTERCEMENT - BODOQUENA - PETCOKE - IMBITUBA",
       "cliente": "INTERCEMENT",
       "produto": "Bodoquena",
-      "prog": 4,
+      "prog": 5,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
+      "falta": 5,
+      "tn_prev": 240.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
-          "prog": 4,
+          "prog": 5,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 192.0,
+          "falta": 5,
+          "tn_prev": 240.0,
           "tn_carr": 0.0
         }
       ]
@@ -280,27 +280,6 @@
           "falta": 1,
           "tn_prev": 27.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL MTZ - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "BELOCAL MTZ",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 97.23,
-      "tn_carr": 49.23,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 97.23,
-          "tn_carr": 49.23
         }
       ]
     },
@@ -385,6 +364,27 @@
           "falta": 0,
           "tn_prev": 66.0,
           "tn_carr": 66.26
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL MTZ - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "BELOCAL MTZ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 49.23,
+      "tn_carr": 97.62,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 49.23,
+          "tn_carr": 97.62
         }
       ]
     },
