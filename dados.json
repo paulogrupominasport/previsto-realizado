@@ -1,22 +1,22 @@
 {
   "data_relatorio": "28/07/2026",
-  "gerado_em": "2026-07-28T16:00:06",
-  "atualizado_em": "2026-07-28T19:05:31",
+  "gerado_em": "2026-07-28T17:00:15",
+  "atualizado_em": "2026-07-28T20:05:28",
   "totais": {
-    "prog": 94,
-    "carr": 63,
-    "falta": 31,
-    "tn_prev": 3917.63,
-    "tn_carr": 2618.49
+    "prog": 93,
+    "carr": 66,
+    "falta": 27,
+    "tn_prev": 3882.37,
+    "tn_carr": 2762.23
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 27,
-      "carr": 24,
-      "falta": 3,
-      "tn_prev": 1237.37,
-      "tn_carr": 1093.37
+      "carr": 26,
+      "falta": 1,
+      "tn_prev": 1237.99,
+      "tn_carr": 1189.99
     },
     {
       "cliente": "INTERCEMENT",
@@ -37,18 +37,10 @@
     {
       "cliente": "BELOCAL SJLP",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 239.68,
-      "tn_carr": 47.68
-    },
-    {
-      "cliente": "BRASKEM",
-      "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 200.0,
-      "tn_carr": 167.88
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 238.8,
+      "tn_carr": 94.8
     },
     {
       "cliente": "INNMOV",
@@ -57,6 +49,14 @@
       "falta": 2,
       "tn_prev": 191.67,
       "tn_carr": 115.67
+    },
+    {
+      "cliente": "BRASKEM",
+      "prog": 5,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 165.0,
+      "tn_carr": 167.88
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -111,10 +111,10 @@
     {
       "produto": "PETCOKE",
       "prog": 31,
-      "carr": 23,
-      "falta": 8,
-      "tn_prev": 1367.04,
-      "tn_carr": 1013.04
+      "carr": 25,
+      "falta": 6,
+      "tn_prev": 1366.2,
+      "tn_carr": 1108.2
     },
     {
       "produto": "Bodoquena",
@@ -127,10 +127,10 @@
     {
       "produto": "CARVÃO",
       "prog": 12,
-      "carr": 10,
-      "falta": 2,
-      "tn_prev": 537.15,
-      "tn_carr": 430.89
+      "carr": 11,
+      "falta": 1,
+      "tn_prev": 537.73,
+      "tn_carr": 479.47
     },
     {
       "produto": "COQUE",
@@ -142,10 +142,10 @@
     },
     {
       "produto": "TÉRMICO",
-      "prog": 8,
+      "prog": 7,
       "carr": 7,
-      "falta": 1,
-      "tn_prev": 248.66,
+      "falta": 0,
+      "tn_prev": 213.66,
       "tn_carr": 216.54
     },
     {
@@ -208,10 +208,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 17,
-      "carr": 16,
-      "falta": 1,
-      "tn_prev": 770.22,
-      "tn_carr": 722.22,
+      "carr": 17,
+      "falta": 0,
+      "tn_prev": 770.26,
+      "tn_carr": 770.26,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -244,10 +244,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 10,
-          "carr": 9,
-          "falta": 1,
-          "tn_prev": 486.28,
-          "tn_carr": 438.28
+          "carr": 10,
+          "falta": 0,
+          "tn_prev": 486.32,
+          "tn_carr": 486.32
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -274,19 +274,19 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 10,
-      "carr": 8,
-      "falta": 2,
-      "tn_prev": 467.15,
-      "tn_carr": 371.15,
+      "carr": 9,
+      "falta": 1,
+      "tn_prev": 467.73,
+      "tn_carr": 419.73,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 5,
-          "carr": 3,
-          "falta": 2,
-          "tn_prev": 242.13,
-          "tn_carr": 146.13
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 242.71,
+          "tn_carr": 194.71
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -361,49 +361,19 @@
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 239.68,
-      "tn_carr": 47.68,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 238.8,
+      "tn_carr": 94.8,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 239.68,
-          "tn_carr": 47.68
-        }
-      ]
-    },
-    {
-      "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BRASKEM",
-      "produto": "TÉRMICO",
-      "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 200.0,
-      "tn_carr": 167.88,
-      "transportadoras": [
-        {
-          "nome": "ROTA 101 (SC)",
-          "cnpj": "21269148000287",
-          "prog": 5,
-          "carr": 5,
-          "falta": 0,
-          "tn_prev": 165.0,
-          "tn_carr": 167.88
-        },
-        {
-          "nome": "LUAN DE SOUZA BONFANTE (SC)",
-          "cnpj": "21430615000128",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 238.8,
+          "tn_carr": 94.8
         }
       ]
     },
@@ -434,6 +404,27 @@
           "falta": 0,
           "tn_prev": 39.36,
           "tn_carr": 39.36
+        }
+      ]
+    },
+    {
+      "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BRASKEM",
+      "produto": "TÉRMICO",
+      "prog": 5,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 165.0,
+      "tn_carr": 167.88,
+      "transportadoras": [
+        {
+          "nome": "ROTA 101 (SC)",
+          "cnpj": "21269148000287",
+          "prog": 5,
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 165.0,
+          "tn_carr": 167.88
         }
       ]
     },
