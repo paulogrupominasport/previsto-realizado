@@ -1,13 +1,13 @@
 {
   "data_relatorio": "29/07/2026",
-  "gerado_em": "2026-07-29T14:00:07",
-  "atualizado_em": "2026-07-29T17:05:30",
+  "gerado_em": "2026-07-29T14:21:36",
+  "atualizado_em": "2026-07-29T17:25:25",
   "totais": {
-    "prog": 104,
-    "carr": 37,
-    "falta": 67,
-    "tn_prev": 4115.7,
-    "tn_carr": 1431.08
+    "prog": 105,
+    "carr": 43,
+    "falta": 62,
+    "tn_prev": 4163.56,
+    "tn_carr": 1677.59
   },
   "por_cliente": [
     {
@@ -28,19 +28,19 @@
     },
     {
       "cliente": "INTERCEMENT",
-      "prog": 14,
+      "prog": 15,
       "carr": 1,
-      "falta": 13,
-      "tn_prev": 664.53,
+      "falta": 14,
+      "tn_prev": 712.53,
       "tn_carr": 48.68
     },
     {
       "cliente": "BELOCAL SJLP",
       "prog": 12,
-      "carr": 3,
-      "falta": 9,
-      "tn_prev": 527.79,
-      "tn_carr": 142.81
+      "carr": 7,
+      "falta": 5,
+      "tn_prev": 527.65,
+      "tn_carr": 334.67
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -69,10 +69,10 @@
     {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
+      "carr": 5,
+      "falta": 0,
       "tn_prev": 120.0,
-      "tn_carr": 75.79
+      "tn_carr": 130.44
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -95,10 +95,10 @@
     {
       "produto": "PETCOKE",
       "prog": 42,
-      "carr": 19,
-      "falta": 23,
-      "tn_prev": 1722.07,
-      "tn_carr": 784.09
+      "carr": 23,
+      "falta": 19,
+      "tn_prev": 1721.93,
+      "tn_carr": 975.95
     },
     {
       "produto": "COQUE",
@@ -110,10 +110,10 @@
     },
     {
       "produto": "Bodoquena",
-      "prog": 13,
+      "prog": 14,
       "carr": 0,
-      "falta": 13,
-      "tn_prev": 615.85,
+      "falta": 14,
+      "tn_prev": 663.85,
       "tn_carr": 0.0
     },
     {
@@ -143,10 +143,10 @@
     {
       "produto": "Carregamento Sucata",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
+      "carr": 5,
+      "falta": 0,
       "tn_prev": 120.0,
-      "tn_carr": 75.79
+      "tn_carr": 130.44
     },
     {
       "produto": "PETRÓLEO",
@@ -267,19 +267,19 @@
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
       "prog": 12,
-      "carr": 3,
-      "falta": 9,
-      "tn_prev": 527.79,
-      "tn_carr": 142.81,
+      "carr": 7,
+      "falta": 5,
+      "tn_prev": 527.65,
+      "tn_carr": 334.67,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 12,
-          "carr": 3,
-          "falta": 9,
-          "tn_prev": 527.79,
-          "tn_carr": 142.81
+          "carr": 7,
+          "falta": 5,
+          "tn_prev": 527.65,
+          "tn_carr": 334.67
         }
       ]
     },
@@ -287,19 +287,19 @@
       "lote": "INTERCEMENT - BODOQUENA - PETCOKE - IMBITUBA",
       "cliente": "INTERCEMENT",
       "produto": "Bodoquena",
-      "prog": 9,
+      "prog": 10,
       "carr": 0,
-      "falta": 9,
-      "tn_prev": 432.0,
+      "falta": 10,
+      "tn_prev": 480.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
-          "prog": 9,
+          "prog": 10,
           "carr": 0,
-          "falta": 9,
-          "tn_prev": 432.0,
+          "falta": 10,
+          "tn_prev": 480.0,
           "tn_carr": 0.0
         }
       ]
@@ -507,19 +507,19 @@
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
+      "carr": 5,
+      "falta": 0,
       "tn_prev": 120.0,
-      "tn_carr": 75.79,
+      "tn_carr": 130.44,
       "transportadoras": [
         {
           "nome": "COMERCIAL CARVALHO",
           "cnpj": "05362003000199",
           "prog": 5,
-          "carr": 3,
-          "falta": 2,
+          "carr": 5,
+          "falta": 0,
           "tn_prev": 120.0,
-          "tn_carr": 75.79
+          "tn_carr": 130.44
         }
       ]
     },
