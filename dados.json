@@ -1,22 +1,22 @@
 {
   "data_relatorio": "29/07/2026",
-  "gerado_em": "2026-07-29T12:00:10",
-  "atualizado_em": "2026-07-29T15:05:33",
+  "gerado_em": "2026-07-29T13:00:16",
+  "atualizado_em": "2026-07-29T16:05:27",
   "totais": {
     "prog": 99,
-    "carr": 31,
-    "falta": 68,
-    "tn_prev": 3963.9,
-    "tn_carr": 1193.87
+    "carr": 34,
+    "falta": 65,
+    "tn_prev": 3949.96,
+    "tn_carr": 1311.93
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 23,
-      "carr": 14,
-      "falta": 9,
-      "tn_prev": 965.93,
-      "tn_carr": 581.93
+      "prog": 22,
+      "carr": 16,
+      "falta": 6,
+      "tn_prev": 919.91,
+      "tn_carr": 661.91
     },
     {
       "cliente": "ITAMBÉ",
@@ -53,10 +53,10 @@
     {
       "cliente": "INNMOV",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 202.71,
-      "tn_carr": 38.71
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 202.79,
+      "tn_carr": 76.79
     },
     {
       "cliente": "BRASKEM",
@@ -84,10 +84,10 @@
     },
     {
       "cliente": "COMERCIAL CARVALHO",
-      "prog": 2,
+      "prog": 3,
       "carr": 2,
-      "falta": 0,
-      "tn_prev": 44.0,
+      "falta": 1,
+      "tn_prev": 76.0,
       "tn_carr": 42.38
     }
   ],
@@ -95,10 +95,10 @@
     {
       "produto": "PETCOKE",
       "prog": 40,
-      "carr": 17,
-      "falta": 23,
-      "tn_prev": 1645.17,
-      "tn_carr": 713.19
+      "carr": 19,
+      "falta": 21,
+      "tn_prev": 1648.07,
+      "tn_carr": 784.09
     },
     {
       "produto": "COQUE",
@@ -118,11 +118,11 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 417.88,
-      "tn_carr": 243.88
+      "prog": 9,
+      "carr": 7,
+      "falta": 2,
+      "tn_prev": 369.04,
+      "tn_carr": 291.04
     },
     {
       "produto": "TÉRMICO",
@@ -149,20 +149,20 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Carregamento Sucata",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 76.0,
+      "tn_carr": 42.38
+    },
+    {
       "produto": "Ijací",
       "prog": 1,
       "carr": 0,
       "falta": 1,
       "tn_prev": 48.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "Carregamento Sucata",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 44.0,
-      "tn_carr": 42.38
     }
   ],
   "lotes": [
@@ -210,10 +210,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 13,
-      "carr": 8,
-      "falta": 5,
-      "tn_prev": 548.05,
-      "tn_carr": 338.05,
+      "carr": 9,
+      "falta": 4,
+      "tn_prev": 550.87,
+      "tn_carr": 370.87,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -255,10 +255,10 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 5,
-          "carr": 4,
-          "falta": 1,
-          "tn_prev": 210.94,
-          "tn_carr": 180.94
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 213.76,
+          "tn_carr": 213.76
         }
       ]
     },
@@ -308,11 +308,11 @@
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
-      "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 417.88,
-      "tn_carr": 243.88,
+      "prog": 9,
+      "carr": 7,
+      "falta": 2,
+      "tn_prev": 369.04,
+      "tn_carr": 291.04,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (MG)",
@@ -336,18 +336,18 @@
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.16,
+          "tn_carr": 47.16
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
-          "prog": 5,
+          "prog": 4,
           "carr": 3,
-          "falta": 2,
-          "tn_prev": 196.26,
+          "falta": 1,
+          "tn_prev": 148.26,
           "tn_carr": 118.26
         }
       ]
@@ -414,19 +414,19 @@
       "cliente": "INNMOV",
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 202.71,
-      "tn_carr": 38.71,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 202.79,
+      "tn_carr": 76.79,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 202.71,
-          "tn_carr": 38.71
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 202.79,
+          "tn_carr": 76.79
         }
       ]
     },
@@ -545,6 +545,27 @@
       ]
     },
     {
+      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
+      "cliente": "COMERCIAL CARVALHO",
+      "produto": "Carregamento Sucata",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 76.0,
+      "tn_carr": 42.38,
+      "transportadoras": [
+        {
+          "nome": "COMERCIAL CARVALHO",
+          "cnpj": "05362003000199",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 76.0,
+          "tn_carr": 42.38
+        }
+      ]
+    },
+    {
       "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
@@ -562,27 +583,6 @@
           "falta": 1,
           "tn_prev": 48.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
-      "cliente": "COMERCIAL CARVALHO",
-      "produto": "Carregamento Sucata",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 44.0,
-      "tn_carr": 42.38,
-      "transportadoras": [
-        {
-          "nome": "COMERCIAL CARVALHO",
-          "cnpj": "05362003000199",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 44.0,
-          "tn_carr": 42.38
         }
       ]
     }
