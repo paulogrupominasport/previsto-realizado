@@ -1,22 +1,30 @@
 {
   "data_relatorio": "29/07/2026",
-  "gerado_em": "2026-07-29T14:21:36",
-  "atualizado_em": "2026-07-29T17:25:25",
+  "gerado_em": "2026-07-29T15:00:26",
+  "atualizado_em": "2026-07-29T18:05:29",
   "totais": {
-    "prog": 105,
-    "carr": 43,
+    "prog": 111,
+    "carr": 49,
     "falta": 62,
-    "tn_prev": 4163.56,
-    "tn_carr": 1677.59
+    "tn_prev": 4402.25,
+    "tn_carr": 1925.94
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 25,
-      "carr": 16,
-      "falta": 9,
-      "tn_prev": 1041.91,
-      "tn_carr": 661.91
+      "carr": 17,
+      "falta": 8,
+      "tn_prev": 1040.72,
+      "tn_carr": 708.72
+    },
+    {
+      "cliente": "INTERCEMENT",
+      "prog": 21,
+      "carr": 1,
+      "falta": 20,
+      "tn_prev": 1000.53,
+      "tn_carr": 48.68
     },
     {
       "cliente": "ITAMBÉ",
@@ -27,36 +35,28 @@
       "tn_carr": 37.06
     },
     {
-      "cliente": "INTERCEMENT",
-      "prog": 15,
-      "carr": 1,
-      "falta": 14,
-      "tn_prev": 712.53,
-      "tn_carr": 48.68
-    },
-    {
       "cliente": "BELOCAL SJLP",
       "prog": 12,
-      "carr": 7,
-      "falta": 5,
-      "tn_prev": 527.65,
-      "tn_carr": 334.67
+      "carr": 8,
+      "falta": 4,
+      "tn_prev": 479.65,
+      "tn_carr": 383.33
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 269.7,
-      "tn_carr": 96.7
+      "carr": 6,
+      "falta": 2,
+      "tn_prev": 270.96,
+      "tn_carr": 202.96
     },
     {
       "cliente": "INNMOV",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 202.79,
-      "tn_carr": 76.79
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 201.41,
+      "tn_carr": 123.41
     },
     {
       "cliente": "BRASKEM",
@@ -95,10 +95,18 @@
     {
       "produto": "PETCOKE",
       "prog": 42,
-      "carr": 23,
-      "falta": 19,
-      "tn_prev": 1721.93,
-      "tn_carr": 975.95
+      "carr": 29,
+      "falta": 13,
+      "tn_prev": 1672.62,
+      "tn_carr": 1224.3
+    },
+    {
+      "produto": "Bodoquena",
+      "prog": 20,
+      "carr": 0,
+      "falta": 20,
+      "tn_prev": 951.85,
+      "tn_carr": 0.0
     },
     {
       "produto": "COQUE",
@@ -106,14 +114,6 @@
       "carr": 0,
       "falta": 21,
       "tn_prev": 756.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Bodoquena",
-      "prog": 14,
-      "carr": 0,
-      "falta": 14,
-      "tn_prev": 663.85,
       "tn_carr": 0.0
     },
     {
@@ -167,6 +167,27 @@
   ],
   "lotes": [
     {
+      "lote": "INTERCEMENT - BODOQUENA - PETCOKE - IMBITUBA",
+      "cliente": "INTERCEMENT",
+      "produto": "Bodoquena",
+      "prog": 16,
+      "carr": 0,
+      "falta": 16,
+      "tn_prev": 768.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 16,
+          "carr": 0,
+          "falta": 16,
+          "tn_prev": 768.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - COQUE VERDE",
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
@@ -210,10 +231,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 9,
-      "falta": 6,
-      "tn_prev": 624.87,
-      "tn_carr": 370.87,
+      "carr": 10,
+      "falta": 5,
+      "tn_prev": 623.68,
+      "tn_carr": 417.68,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -228,10 +249,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 224.15,
-          "tn_carr": 80.15
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 222.96,
+          "tn_carr": 126.96
         },
         {
           "nome": "IRAVANTE (RJ)",
@@ -267,40 +288,19 @@
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
       "prog": 12,
-      "carr": 7,
-      "falta": 5,
-      "tn_prev": 527.65,
-      "tn_carr": 334.67,
+      "carr": 8,
+      "falta": 4,
+      "tn_prev": 479.65,
+      "tn_carr": 383.33,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 12,
-          "carr": 7,
-          "falta": 5,
-          "tn_prev": 527.65,
-          "tn_carr": 334.67
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT - BODOQUENA - PETCOKE - IMBITUBA",
-      "cliente": "INTERCEMENT",
-      "produto": "Bodoquena",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 480.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "G7 LOG (SC)",
-          "cnpj": "14170909000100",
-          "prog": 10,
-          "carr": 0,
-          "falta": 10,
-          "tn_prev": 480.0,
-          "tn_carr": 0.0
+          "carr": 8,
+          "falta": 4,
+          "tn_prev": 479.65,
+          "tn_carr": 383.33
         }
       ]
     },
@@ -357,10 +357,10 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 269.7,
-      "tn_carr": 96.7,
+      "carr": 6,
+      "falta": 2,
+      "tn_prev": 270.96,
+      "tn_carr": 202.96,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -384,28 +384,28 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 126.78,
-          "tn_carr": 28.78
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 124.97,
+          "tn_carr": 56.97
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.24,
+          "tn_carr": 39.24
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.83,
+          "tn_carr": 38.83
         }
       ]
     },
@@ -414,19 +414,19 @@
       "cliente": "INNMOV",
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 202.79,
-      "tn_carr": 76.79,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 201.41,
+      "tn_carr": 123.41,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 202.79,
-          "tn_carr": 76.79
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 201.41,
+          "tn_carr": 123.41
         }
       ]
     },
