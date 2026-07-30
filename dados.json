@@ -1,22 +1,22 @@
 {
   "data_relatorio": "30/07/2026",
-  "gerado_em": "2026-07-30T15:00:14",
-  "atualizado_em": "2026-07-30T18:05:26",
+  "gerado_em": "2026-07-30T16:00:08",
+  "atualizado_em": "2026-07-30T19:05:30",
   "totais": {
-    "prog": 115,
-    "carr": 55,
-    "falta": 60,
-    "tn_prev": 4744.99,
-    "tn_carr": 2272.39
+    "prog": 118,
+    "carr": 62,
+    "falta": 56,
+    "tn_prev": 4884.55,
+    "tn_carr": 2555.95
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
-      "prog": 31,
-      "carr": 13,
-      "falta": 18,
-      "tn_prev": 1452.73,
-      "tn_carr": 630.73
+      "prog": 32,
+      "carr": 15,
+      "falta": 17,
+      "tn_prev": 1503.51,
+      "tn_carr": 716.51
     },
     {
       "cliente": "ITAMBÉ",
@@ -28,11 +28,11 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 14,
-      "carr": 9,
+      "prog": 16,
+      "carr": 11,
       "falta": 5,
-      "tn_prev": 587.51,
-      "tn_carr": 408.51
+      "tn_prev": 671.65,
+      "tn_carr": 480.65
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -45,10 +45,10 @@
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 11,
-      "carr": 1,
-      "falta": 10,
-      "tn_prev": 425.54,
-      "tn_carr": 48.54
+      "carr": 4,
+      "falta": 7,
+      "tn_prev": 430.18,
+      "tn_carr": 174.18
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -102,19 +102,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 37,
-      "carr": 15,
-      "falta": 22,
-      "tn_prev": 1620.83,
-      "tn_carr": 728.83
+      "prog": 39,
+      "carr": 20,
+      "falta": 19,
+      "tn_prev": 1709.61,
+      "tn_carr": 926.61
     },
     {
       "produto": "Bodoquena",
-      "prog": 25,
-      "carr": 11,
+      "prog": 26,
+      "carr": 12,
       "falta": 14,
-      "tn_prev": 1214.7,
-      "tn_carr": 542.7
+      "tn_prev": 1264.48,
+      "tn_carr": 592.48
     },
     {
       "produto": "COQUE",
@@ -135,10 +135,10 @@
     {
       "produto": "Ijací",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 238.03,
-      "tn_carr": 88.03
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 239.03,
+      "tn_carr": 124.03
     },
     {
       "produto": "GESSO",
@@ -178,20 +178,20 @@
       "lote": "INTERCEMENT - BODOQUENA - PETCOKE - IMBITUBA",
       "cliente": "INTERCEMENT",
       "produto": "Bodoquena",
-      "prog": 24,
-      "carr": 10,
+      "prog": 25,
+      "carr": 11,
       "falta": 14,
-      "tn_prev": 1164.72,
-      "tn_carr": 492.72,
+      "tn_prev": 1214.5,
+      "tn_carr": 542.5,
       "transportadoras": [
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
-          "prog": 24,
-          "carr": 10,
+          "prog": 25,
+          "carr": 11,
           "falta": 14,
-          "tn_prev": 1164.72,
-          "tn_carr": 492.72
+          "tn_prev": 1214.5,
+          "tn_carr": 542.5
         }
       ]
     },
@@ -259,20 +259,20 @@
       "lote": "CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 11,
-      "carr": 7,
+      "prog": 13,
+      "carr": 9,
       "falta": 4,
-      "tn_prev": 484.22,
-      "tn_carr": 341.22,
+      "tn_prev": 568.36,
+      "tn_carr": 413.36,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.35,
+          "tn_carr": 36.35
         },
         {
           "nome": "RODEIRO (RJ)",
@@ -305,18 +305,27 @@
           "nome": "EXP. TS (RJ)",
           "cnpj": "05324485000516",
           "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 71.79,
+          "tn_carr": 35.79
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 72.0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
+          "falta": 2,
+          "tn_prev": 71.0,
           "tn_carr": 0.0
         }
       ]
@@ -326,37 +335,37 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 1,
-      "falta": 10,
-      "tn_prev": 425.54,
-      "tn_carr": 48.54,
+      "carr": 4,
+      "falta": 7,
+      "tn_prev": 430.18,
+      "tn_carr": 174.18,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (MG)",
           "cnpj": "07619336000186",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 40.29,
+          "tn_carr": 40.29
         },
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.45,
+          "tn_carr": 36.45
         },
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 96.54,
-          "tn_carr": 48.54
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 97.44,
+          "tn_carr": 97.44
         },
         {
           "nome": "IRAVANTE (RJ)",
@@ -413,19 +422,19 @@
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 238.03,
-      "tn_carr": 88.03,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 239.03,
+      "tn_carr": 124.03,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 75.0,
+          "tn_carr": 36.0
         },
         {
           "nome": "D GRANEL (RJ)",
