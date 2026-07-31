@@ -1,22 +1,22 @@
 {
   "data_relatorio": "31/07/2026",
-  "gerado_em": "2026-07-31T07:00:11",
-  "atualizado_em": "2026-07-31T10:05:26",
+  "gerado_em": "2026-07-31T08:00:18",
+  "atualizado_em": "2026-07-31T11:05:25",
   "totais": {
-    "prog": 59,
-    "carr": 0,
+    "prog": 64,
+    "carr": 5,
     "falta": 59,
-    "tn_prev": 2197.0,
-    "tn_carr": 0.0
+    "tn_prev": 2432.04,
+    "tn_carr": 225.04
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 17,
-      "carr": 0,
-      "falta": 17,
-      "tn_prev": 630.0,
-      "tn_carr": 0.0
+      "prog": 18,
+      "carr": 2,
+      "falta": 16,
+      "tn_prev": 667.0,
+      "tn_carr": 75.0
     },
     {
       "cliente": "CIM. LIZ",
@@ -28,11 +28,11 @@
     },
     {
       "cliente": "INTERCEMENT",
-      "prog": 8,
-      "carr": 0,
+      "prog": 11,
+      "carr": 3,
       "falta": 8,
-      "tn_prev": 324.0,
-      "tn_carr": 0.0
+      "tn_prev": 487.04,
+      "tn_carr": 150.04
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -73,31 +73,47 @@
       "falta": 4,
       "tn_prev": 82.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "LHOIST DORESOPOLIS",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 35.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 21,
+      "prog": 22,
       "carr": 0,
-      "falta": 21,
-      "tn_prev": 826.0,
+      "falta": 22,
+      "tn_prev": 861.0,
       "tn_carr": 0.0
     },
     {
       "produto": "COQUE",
-      "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 554.0,
-      "tn_carr": 0.0
+      "prog": 16,
+      "carr": 2,
+      "falta": 14,
+      "tn_prev": 591.0,
+      "tn_carr": 75.0
+    },
+    {
+      "produto": "Bodoquena",
+      "prog": 6,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 294.04,
+      "tn_carr": 150.04
     },
     {
       "produto": "Ijací",
-      "prog": 6,
+      "prog": 5,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 228.0,
+      "falta": 5,
+      "tn_prev": 193.0,
       "tn_carr": 0.0
     },
     {
@@ -114,14 +130,6 @@
       "carr": 0,
       "falta": 3,
       "tn_prev": 106.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Bodoquena",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
       "tn_carr": 0.0
     },
     {
@@ -154,29 +162,29 @@
       "lote": "ITAMBÉ - COQUE VERDE",
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
-      "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 554.0,
-      "tn_carr": 0.0,
+      "prog": 16,
+      "carr": 2,
+      "falta": 14,
+      "tn_prev": 591.0,
+      "tn_carr": 75.0,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 10,
-          "carr": 0,
-          "falta": 10,
-          "tn_prev": 374.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 9,
+          "tn_prev": 373.66,
+          "tn_carr": 37.66
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 5,
-          "carr": 0,
+          "prog": 6,
+          "carr": 1,
           "falta": 5,
-          "tn_prev": 180.0,
-          "tn_carr": 0.0
+          "tn_prev": 217.34,
+          "tn_carr": 37.34
         }
       ]
     },
@@ -256,6 +264,27 @@
       ]
     },
     {
+      "lote": "INTERCEMENT - BODOQUENA - PETCOKE - IMBITUBA",
+      "cliente": "INTERCEMENT",
+      "produto": "Bodoquena",
+      "prog": 6,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 294.04,
+      "tn_carr": 150.04,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 6,
+          "carr": 3,
+          "falta": 3,
+          "tn_prev": 294.04,
+          "tn_carr": 150.04
+        }
+      ]
+    },
+    {
       "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
@@ -307,21 +336,12 @@
       "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
-      "prog": 6,
+      "prog": 5,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 228.0,
+      "falta": 5,
+      "tn_prev": 193.0,
       "tn_carr": 0.0,
       "transportadoras": [
-        {
-          "nome": "VICTRANS (RJ)",
-          "cnpj": "02830994000441",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
-        },
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
@@ -398,27 +418,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT - BODOQUENA - PETCOKE - IMBITUBA",
-      "cliente": "INTERCEMENT",
-      "produto": "Bodoquena",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "G7 LOG (SC)",
-          "cnpj": "14170909000100",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
           "tn_carr": 0.0
         }
       ]
@@ -503,6 +502,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "LHOIST DORESOPOLIS - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "LHOIST DORESOPOLIS",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 35.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]
