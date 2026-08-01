@@ -1,22 +1,22 @@
 {
   "data_relatorio": "01/08/2026",
-  "gerado_em": "2026-08-01T12:00:13",
-  "atualizado_em": "2026-08-01T15:05:27",
+  "gerado_em": "2026-08-01T13:00:18",
+  "atualizado_em": "2026-08-01T16:05:31",
   "totais": {
-    "prog": 50,
-    "carr": 35,
+    "prog": 51,
+    "carr": 36,
     "falta": 15,
-    "tn_prev": 2073.39,
-    "tn_carr": 1453.39
+    "tn_prev": 2108.29,
+    "tn_carr": 1501.29
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
       "prog": 17,
-      "carr": 13,
-      "falta": 4,
-      "tn_prev": 724.18,
-      "tn_carr": 562.18
+      "carr": 14,
+      "falta": 3,
+      "tn_prev": 724.08,
+      "tn_carr": 610.08
     },
     {
       "cliente": "ITAMBÉ",
@@ -28,10 +28,10 @@
     },
     {
       "cliente": "*CIM. LIZ",
-      "prog": 6,
+      "prog": 7,
       "carr": 5,
-      "falta": 1,
-      "tn_prev": 284.34,
+      "falta": 2,
+      "tn_prev": 319.34,
       "tn_carr": 236.34
     },
     {
@@ -85,20 +85,20 @@
       "tn_carr": 462.14
     },
     {
+      "produto": "PETCOKE",
+      "prog": 10,
+      "carr": 7,
+      "falta": 3,
+      "tn_prev": 442.47,
+      "tn_carr": 321.47
+    },
+    {
       "produto": "COQUE",
       "prog": 12,
       "carr": 8,
       "falta": 4,
       "tn_prev": 439.3,
       "tn_carr": 293.3
-    },
-    {
-      "produto": "PETCOKE",
-      "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 407.47,
-      "tn_carr": 321.47
     },
     {
       "produto": "Antracito",
@@ -119,10 +119,10 @@
     {
       "produto": "Bodoquena",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 148.04,
-      "tn_carr": 100.04
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 147.94,
+      "tn_carr": 147.94
     },
     {
       "produto": "PETRÓLEO",
@@ -216,19 +216,19 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 7,
       "carr": 5,
-      "falta": 1,
-      "tn_prev": 284.34,
+      "falta": 2,
+      "tn_prev": 319.34,
       "tn_carr": 236.34,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 6,
+          "prog": 7,
           "carr": 5,
-          "falta": 1,
-          "tn_prev": 284.34,
+          "falta": 2,
+          "tn_prev": 319.34,
           "tn_carr": 236.34
         }
       ]
@@ -316,19 +316,19 @@
       "cliente": "INTERCEMENT",
       "produto": "Bodoquena",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 148.04,
-      "tn_carr": 100.04,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 147.94,
+      "tn_carr": 147.94,
       "transportadoras": [
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 148.04,
-          "tn_carr": 100.04
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 147.94,
+          "tn_carr": 147.94
         }
       ]
     },
