@@ -1,46 +1,46 @@
 {
   "data_relatorio": "01/08/2026",
-  "gerado_em": "2026-08-01T10:00:15",
-  "atualizado_em": "2026-08-01T13:05:30",
+  "gerado_em": "2026-08-01T11:00:08",
+  "atualizado_em": "2026-08-01T14:05:29",
   "totais": {
-    "prog": 46,
-    "carr": 13,
-    "falta": 33,
-    "tn_prev": 1926.37,
-    "tn_carr": 549.37
+    "prog": 48,
+    "carr": 22,
+    "falta": 26,
+    "tn_prev": 2007.78,
+    "tn_carr": 944.78
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
       "prog": 17,
-      "carr": 2,
-      "falta": 15,
-      "tn_prev": 711.85,
-      "tn_carr": 75.85
+      "carr": 9,
+      "falta": 8,
+      "tn_prev": 720.09,
+      "tn_carr": 384.09
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 10,
+      "prog": 12,
       "carr": 2,
-      "falta": 8,
-      "tn_prev": 368.22,
+      "falta": 10,
+      "tn_prev": 440.22,
       "tn_carr": 73.22
     },
     {
       "cliente": "*CIM. LIZ",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 283.53,
-      "tn_carr": 187.53
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 284.34,
+      "tn_carr": 236.34
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 240.2,
-      "tn_carr": 76.2
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 240.56,
+      "tn_carr": 114.56
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -79,34 +79,34 @@
     {
       "produto": "Ijací",
       "prog": 14,
+      "carr": 9,
+      "falta": 5,
+      "tn_prev": 576.09,
+      "tn_carr": 384.09
+    },
+    {
+      "produto": "COQUE",
+      "prog": 12,
       "carr": 2,
-      "falta": 12,
-      "tn_prev": 567.85,
-      "tn_carr": 75.85
+      "falta": 10,
+      "tn_prev": 440.22,
+      "tn_carr": 73.22
     },
     {
       "produto": "PETCOKE",
       "prog": 9,
-      "carr": 5,
-      "falta": 4,
-      "tn_prev": 408.17,
-      "tn_carr": 226.17
-    },
-    {
-      "produto": "COQUE",
-      "prog": 10,
-      "carr": 2,
-      "falta": 8,
-      "tn_prev": 368.22,
-      "tn_carr": 73.22
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 408.98,
+      "tn_carr": 274.98
     },
     {
       "produto": "Antracito",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 240.2,
-      "tn_carr": 76.2
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 240.56,
+      "tn_carr": 114.56
     },
     {
       "produto": "Bodoquena",
@@ -139,37 +139,37 @@
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
       "prog": 14,
-      "carr": 2,
-      "falta": 12,
-      "tn_prev": 567.85,
-      "tn_carr": 75.85,
+      "carr": 9,
+      "falta": 5,
+      "tn_prev": 576.09,
+      "tn_carr": 384.09,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 183.39,
-          "tn_carr": 35.39
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 183.21,
+          "tn_carr": 105.21
         },
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 144.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 150.47,
+          "tn_carr": 150.47
         },
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 6,
-          "carr": 1,
-          "falta": 5,
-          "tn_prev": 240.46,
-          "tn_carr": 40.46
+          "carr": 3,
+          "falta": 3,
+          "tn_prev": 242.41,
+          "tn_carr": 128.41
         }
       ]
     },
@@ -177,10 +177,10 @@
       "lote": "ITAMBÉ - COQUE VERDE",
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
-      "prog": 10,
+      "prog": 12,
       "carr": 2,
-      "falta": 8,
-      "tn_prev": 368.22,
+      "falta": 10,
+      "tn_prev": 440.22,
       "tn_carr": 73.22,
       "transportadoras": [
         {
@@ -191,6 +191,15 @@
           "falta": 5,
           "tn_prev": 260.22,
           "tn_carr": 73.22
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 72.0,
+          "tn_carr": 0.0
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -208,19 +217,19 @@
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 283.53,
-      "tn_carr": 187.53,
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 284.34,
+      "tn_carr": 236.34,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 283.53,
-          "tn_carr": 187.53
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 284.34,
+          "tn_carr": 236.34
         }
       ]
     },
@@ -229,10 +238,10 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "Antracito",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 240.2,
-      "tn_carr": 76.2,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 240.56,
+      "tn_carr": 114.56,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (MG)",
@@ -256,10 +265,10 @@
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 172.23,
-          "tn_carr": 38.23
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 172.59,
+          "tn_carr": 76.59
         }
       ]
     },
