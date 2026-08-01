@@ -1,21 +1,21 @@
 {
   "data_relatorio": "31/07/2026",
-  "gerado_em": "2026-07-31T21:00:05",
-  "atualizado_em": "2026-08-01T00:05:26",
+  "gerado_em": "2026-07-31T22:00:09",
+  "atualizado_em": "2026-08-01T01:05:28",
   "totais": {
-    "prog": 118,
+    "prog": 117,
     "carr": 101,
-    "falta": 17,
-    "tn_prev": 4745.05,
+    "falta": 16,
+    "tn_prev": 4712.05,
     "tn_carr": 4162.6
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
-      "prog": 26,
+      "prog": 25,
       "carr": 23,
-      "falta": 3,
-      "tn_prev": 1197.5,
+      "falta": 2,
+      "tn_prev": 1164.5,
       "tn_carr": 1068.5
     },
     {
@@ -133,20 +133,20 @@
       "tn_carr": 836.18
     },
     {
-      "produto": "Ijací",
-      "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 265.32,
-      "tn_carr": 232.32
-    },
-    {
       "produto": "Antracito",
       "prog": 7,
       "carr": 6,
       "falta": 1,
       "tn_prev": 264.1,
       "tn_carr": 226.1
+    },
+    {
+      "produto": "Ijací",
+      "prog": 6,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 232.32,
+      "tn_carr": 232.32
     },
     {
       "produto": "GESSO",
@@ -365,45 +365,6 @@
       ]
     },
     {
-      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
-      "cliente": "INTERCEMENT",
-      "produto": "Ijací",
-      "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 265.32,
-      "tn_carr": 232.32,
-      "transportadoras": [
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 33.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 48.29,
-          "tn_carr": 48.29
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 5,
-          "carr": 5,
-          "falta": 0,
-          "tn_prev": 184.03,
-          "tn_carr": 184.03
-        }
-      ]
-    },
-    {
       "lote": "LS METAIS / COQUEMETAL - ANTRACITO - PHOENICIAN- PILHA 52",
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "Antracito",
@@ -448,6 +409,36 @@
           "falta": 1,
           "tn_prev": 116.21,
           "tn_carr": 78.21
+        }
+      ]
+    },
+    {
+      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
+      "cliente": "INTERCEMENT",
+      "produto": "Ijací",
+      "prog": 6,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 232.32,
+      "tn_carr": 232.32,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.29,
+          "tn_carr": 48.29
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 5,
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 184.03,
+          "tn_carr": 184.03
         }
       ]
     },
