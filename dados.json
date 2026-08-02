@@ -1,29 +1,37 @@
 {
   "data_relatorio": "02/08/2026",
-  "gerado_em": "2026-08-02T09:00:16",
-  "atualizado_em": "2026-08-02T12:05:26",
+  "gerado_em": "2026-08-02T10:00:08",
+  "atualizado_em": "2026-08-02T13:05:27",
   "totais": {
-    "prog": 18,
-    "carr": 0,
-    "falta": 18,
-    "tn_prev": 760.0,
-    "tn_carr": 0.0
+    "prog": 20,
+    "carr": 5,
+    "falta": 15,
+    "tn_prev": 833.31,
+    "tn_carr": 210.31
   },
   "por_cliente": [
     {
-      "cliente": "*CIM. LIZ",
-      "prog": 6,
-      "carr": 0,
+      "cliente": "INTERCEMENT",
+      "prog": 7,
+      "carr": 1,
       "falta": 6,
-      "tn_prev": 263.0,
-      "tn_carr": 0.0
+      "tn_prev": 282.54,
+      "tn_carr": 38.54
     },
     {
-      "cliente": "INTERCEMENT",
+      "cliente": "*CIM. LIZ",
       "prog": 6,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 264.16,
+      "tn_carr": 84.16
+    },
+    {
+      "cliente": "LS METAIS / COQUEMETAL",
+      "prog": 3,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 244.0,
+      "falta": 3,
+      "tn_prev": 103.0,
       "tn_carr": 0.0
     },
     {
@@ -35,46 +43,38 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "LS METAIS / COQUEMETAL",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 71.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "BELOCAL MTZ",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 48.08,
+      "tn_carr": 48.08
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.53,
+      "tn_carr": 39.53
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 311.0,
-      "tn_carr": 0.0
+      "prog": 8,
+      "carr": 3,
+      "falta": 5,
+      "tn_prev": 344.24,
+      "tn_carr": 132.24
     },
     {
       "produto": "Ijací",
-      "prog": 6,
-      "carr": 0,
+      "prog": 7,
+      "carr": 1,
       "falta": 6,
-      "tn_prev": 244.0,
-      "tn_carr": 0.0
+      "tn_prev": 282.54,
+      "tn_carr": 38.54
     },
     {
       "produto": "PETRÓLEO",
@@ -95,31 +95,52 @@
     {
       "produto": "CARVÃO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.53,
+      "tn_carr": 39.53
     }
   ],
   "lotes": [
+    {
+      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
+      "cliente": "INTERCEMENT",
+      "produto": "Ijací",
+      "prog": 7,
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 282.54,
+      "tn_carr": 38.54,
+      "transportadoras": [
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 7,
+          "carr": 1,
+          "falta": 6,
+          "tn_prev": 282.54,
+          "tn_carr": 38.54
+        }
+      ]
+    },
     {
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 263.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 264.16,
+      "tn_carr": 84.16,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 227.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 228.16,
+          "tn_carr": 84.16
         },
         {
           "nome": "EXP. TS (RJ)",
@@ -128,27 +149,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 36.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
-      "cliente": "INTERCEMENT",
-      "produto": "Ijací",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 244.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 244.0,
           "tn_carr": 0.0
         }
       ]
@@ -209,19 +209,19 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 48.08,
+      "tn_carr": 48.08,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.08,
+          "tn_carr": 48.08
         }
       ]
     },
@@ -230,18 +230,39 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.53,
+      "tn_carr": 39.53,
       "transportadoras": [
         {
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
           "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.53,
+          "tn_carr": 39.53
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS / COQUEMETAL - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 32.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 38.0,
+          "tn_prev": 32.0,
           "tn_carr": 0.0
         }
       ]

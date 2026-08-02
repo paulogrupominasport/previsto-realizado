@@ -4085,26 +4085,32 @@
     }
   },
   "2026-08-02": {
-    "gerado_em": "2026-08-02T09:00:16",
-    "atualizado_em": "2026-08-02T12:05:26",
+    "gerado_em": "2026-08-02T10:00:08",
+    "atualizado_em": "2026-08-02T13:05:27",
     "totais": {
-      "prog": 18,
-      "carr": 0,
-      "falta": 18,
-      "tn_prev": 760.0,
-      "tn_carr": 0.0
+      "prog": 20,
+      "carr": 5,
+      "falta": 15,
+      "tn_prev": 833.31,
+      "tn_carr": 210.31
     },
     "por_cliente": {
+      "INTERCEMENT": {
+        "prog": 7,
+        "carr": 1,
+        "tn_prev": 282.54,
+        "tn_carr": 38.54
+      },
       "*CIM. LIZ": {
         "prog": 6,
-        "carr": 0,
-        "tn_prev": 263.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 264.16,
+        "tn_carr": 84.16
       },
-      "INTERCEMENT": {
-        "prog": 6,
+      "LS METAIS / COQUEMETAL": {
+        "prog": 3,
         "carr": 0,
-        "tn_prev": 244.0,
+        "tn_prev": 103.0,
         "tn_carr": 0.0
       },
       "PETRORECONCAVO": {
@@ -4113,37 +4119,31 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "LS METAIS / COQUEMETAL": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 71.0,
-        "tn_carr": 0.0
-      },
       "BELOCAL MTZ": {
         "prog": 1,
-        "carr": 0,
-        "tn_prev": 48.0,
-        "tn_carr": 0.0
+        "carr": 1,
+        "tn_prev": 48.08,
+        "tn_carr": 48.08
       },
       "CIM. LIZ": {
         "prog": 1,
-        "carr": 0,
-        "tn_prev": 38.0,
-        "tn_carr": 0.0
+        "carr": 1,
+        "tn_prev": 39.53,
+        "tn_carr": 39.53
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 7,
-        "carr": 0,
-        "tn_prev": 311.0,
-        "tn_carr": 0.0
+        "prog": 8,
+        "carr": 3,
+        "tn_prev": 344.24,
+        "tn_carr": 132.24
       },
       "Ijací": {
-        "prog": 6,
-        "carr": 0,
-        "tn_prev": 244.0,
-        "tn_carr": 0.0
+        "prog": 7,
+        "carr": 1,
+        "tn_prev": 282.54,
+        "tn_carr": 38.54
       },
       "PETRÓLEO": {
         "prog": 2,
@@ -4159,9 +4159,9 @@
       },
       "CARVÃO": {
         "prog": 1,
-        "carr": 0,
-        "tn_prev": 38.0,
-        "tn_carr": 0.0
+        "carr": 1,
+        "tn_prev": 39.53,
+        "tn_carr": 39.53
       }
     }
   }
