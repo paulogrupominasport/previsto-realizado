@@ -4085,32 +4085,38 @@
     }
   },
   "2026-08-02": {
-    "gerado_em": "2026-08-02T08:00:11",
-    "atualizado_em": "2026-08-02T11:05:22",
+    "gerado_em": "2026-08-02T09:00:16",
+    "atualizado_em": "2026-08-02T12:05:26",
     "totais": {
-      "prog": 15,
+      "prog": 18,
       "carr": 0,
-      "falta": 15,
-      "tn_prev": 648.0,
+      "falta": 18,
+      "tn_prev": 760.0,
       "tn_carr": 0.0
     },
     "por_cliente": {
       "*CIM. LIZ": {
-        "prog": 5,
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 227.0,
+        "tn_prev": 263.0,
         "tn_carr": 0.0
       },
       "INTERCEMENT": {
-        "prog": 5,
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 206.0,
+        "tn_prev": 244.0,
         "tn_carr": 0.0
       },
       "PETRORECONCAVO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
+        "tn_carr": 0.0
+      },
+      "LS METAIS / COQUEMETAL": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 71.0,
         "tn_carr": 0.0
       },
       "BELOCAL MTZ": {
@@ -4124,25 +4130,19 @@
         "carr": 0,
         "tn_prev": 38.0,
         "tn_carr": 0.0
-      },
-      "LS METAIS / COQUEMETAL": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 33.0,
-        "tn_carr": 0.0
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 6,
+        "prog": 7,
         "carr": 0,
-        "tn_prev": 275.0,
+        "tn_prev": 311.0,
         "tn_carr": 0.0
       },
       "Ijací": {
-        "prog": 5,
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 206.0,
+        "tn_prev": 244.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
@@ -4151,16 +4151,16 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
+      "Antracito": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 71.0,
+        "tn_carr": 0.0
+      },
       "CARVÃO": {
         "prog": 1,
         "carr": 0,
         "tn_prev": 38.0,
-        "tn_carr": 0.0
-      },
-      "Antracito": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 33.0,
         "tn_carr": 0.0
       }
     }

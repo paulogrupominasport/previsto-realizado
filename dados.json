@@ -1,29 +1,29 @@
 {
   "data_relatorio": "02/08/2026",
-  "gerado_em": "2026-08-02T08:00:11",
-  "atualizado_em": "2026-08-02T11:05:22",
+  "gerado_em": "2026-08-02T09:00:16",
+  "atualizado_em": "2026-08-02T12:05:26",
   "totais": {
-    "prog": 15,
+    "prog": 18,
     "carr": 0,
-    "falta": 15,
-    "tn_prev": 648.0,
+    "falta": 18,
+    "tn_prev": 760.0,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "*CIM. LIZ",
-      "prog": 5,
+      "prog": 6,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 227.0,
+      "falta": 6,
+      "tn_prev": 263.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "INTERCEMENT",
-      "prog": 5,
+      "prog": 6,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 206.0,
+      "falta": 6,
+      "tn_prev": 244.0,
       "tn_carr": 0.0
     },
     {
@@ -32,6 +32,14 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "LS METAIS / COQUEMETAL",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
       "tn_carr": 0.0
     },
     {
@@ -49,31 +57,23 @@
       "falta": 1,
       "tn_prev": 38.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "LS METAIS / COQUEMETAL",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 33.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 7,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 275.0,
+      "falta": 7,
+      "tn_prev": 311.0,
       "tn_carr": 0.0
     },
     {
       "produto": "Ijací",
-      "prog": 5,
+      "prog": 6,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 206.0,
+      "falta": 6,
+      "tn_prev": 244.0,
       "tn_carr": 0.0
     },
     {
@@ -85,19 +85,19 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Antracito",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "CARVÃO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
       "tn_prev": 38.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Antracito",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 33.0,
       "tn_carr": 0.0
     }
   ],
@@ -106,10 +106,10 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 5,
+      "prog": 6,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 227.0,
+      "falta": 6,
+      "tn_prev": 263.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -120,6 +120,15 @@
           "falta": 5,
           "tn_prev": 227.0,
           "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -127,19 +136,19 @@
       "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
-      "prog": 5,
+      "prog": 6,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 206.0,
+      "falta": 6,
+      "tn_prev": 244.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
-          "prog": 5,
+          "prog": 6,
           "carr": 0,
-          "falta": 5,
-          "tn_prev": 206.0,
+          "falta": 6,
+          "tn_prev": 244.0,
           "tn_carr": 0.0
         }
       ]
@@ -161,6 +170,36 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS / COQUEMETAL - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "Antracito",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 33.0,
           "tn_carr": 0.0
         }
       ]
@@ -203,27 +242,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "LS METAIS / COQUEMETAL - ANTRACITO - PHOENICIAN- PILHA 52",
-      "cliente": "LS METAIS / COQUEMETAL",
-      "produto": "Antracito",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 33.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 33.0,
           "tn_carr": 0.0
         }
       ]
