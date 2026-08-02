@@ -1,13 +1,13 @@
 {
   "data_relatorio": "02/08/2026",
-  "gerado_em": "2026-08-02T11:00:15",
-  "atualizado_em": "2026-08-02T14:05:23",
+  "gerado_em": "2026-08-02T12:00:05",
+  "atualizado_em": "2026-08-02T15:05:23",
   "totais": {
-    "prog": 22,
-    "carr": 12,
-    "falta": 10,
-    "tn_prev": 916.87,
-    "tn_carr": 498.87
+    "prog": 23,
+    "carr": 14,
+    "falta": 9,
+    "tn_prev": 950.49,
+    "tn_carr": 564.49
   },
   "por_cliente": [
     {
@@ -20,19 +20,19 @@
     },
     {
       "cliente": "*CIM. LIZ",
-      "prog": 6,
-      "carr": 3,
+      "prog": 7,
+      "carr": 4,
       "falta": 3,
-      "tn_prev": 264.82,
-      "tn_carr": 132.82
+      "tn_prev": 300.2,
+      "tn_carr": 168.2
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 104.72,
-      "tn_carr": 34.72
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 102.96,
+      "tn_carr": 64.96
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -61,20 +61,20 @@
   ],
   "por_produto": [
     {
+      "produto": "PETCOKE",
+      "prog": 9,
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 378.52,
+      "tn_carr": 246.52
+    },
+    {
       "produto": "Ijací",
       "prog": 9,
       "carr": 6,
       "falta": 3,
       "tn_prev": 363.72,
       "tn_carr": 243.72
-    },
-    {
-      "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 4,
-      "falta": 4,
-      "tn_prev": 344.9,
-      "tn_carr": 180.9
     },
     {
       "produto": "PETRÓLEO",
@@ -127,11 +127,11 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 6,
-      "carr": 3,
+      "prog": 7,
+      "carr": 4,
       "falta": 3,
-      "tn_prev": 264.82,
-      "tn_carr": 132.82,
+      "tn_prev": 300.2,
+      "tn_carr": 168.2,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -145,11 +145,11 @@
         {
           "nome": "EXP. TS (RJ)",
           "cnpj": "05324485000516",
-          "prog": 1,
-          "carr": 0,
+          "prog": 2,
+          "carr": 1,
           "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "tn_prev": 71.38,
+          "tn_carr": 35.38
         }
       ]
     },
@@ -251,19 +251,19 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 32.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 30.24,
+      "tn_carr": 30.24,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 30.24,
+          "tn_carr": 30.24
         }
       ]
     }
