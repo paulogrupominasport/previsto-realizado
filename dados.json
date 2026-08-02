@@ -1,12 +1,12 @@
 {
   "data_relatorio": "02/08/2026",
-  "gerado_em": "2026-08-02T07:00:05",
-  "atualizado_em": "2026-08-02T10:05:22",
+  "gerado_em": "2026-08-02T08:00:11",
+  "atualizado_em": "2026-08-02T11:05:22",
   "totais": {
-    "prog": 14,
+    "prog": 15,
     "carr": 0,
-    "falta": 14,
-    "tn_prev": 615.0,
+    "falta": 15,
+    "tn_prev": 648.0,
     "tn_carr": 0.0
   },
   "por_cliente": [
@@ -49,6 +49,14 @@
       "falta": 1,
       "tn_prev": 38.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "LS METAIS / COQUEMETAL",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 33.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
@@ -82,6 +90,14 @@
       "carr": 0,
       "falta": 1,
       "tn_prev": 38.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Antracito",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 33.0,
       "tn_carr": 0.0
     }
   ],
@@ -187,6 +203,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS / COQUEMETAL - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "Antracito",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 33.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 33.0,
           "tn_carr": 0.0
         }
       ]
