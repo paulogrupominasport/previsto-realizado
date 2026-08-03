@@ -1,29 +1,29 @@
 {
   "data_relatorio": "03/08/2026",
-  "gerado_em": "2026-08-03T15:00:05",
-  "atualizado_em": "2026-08-03T18:05:27",
+  "gerado_em": "2026-08-03T16:00:12",
+  "atualizado_em": "2026-08-03T19:05:26",
   "totais": {
     "prog": 56,
-    "carr": 35,
-    "falta": 21,
-    "tn_prev": 1826.28,
-    "tn_carr": 1105.7
+    "carr": 41,
+    "falta": 15,
+    "tn_prev": 1827.93,
+    "tn_carr": 1298.05
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 13,
-      "carr": 4,
-      "falta": 9,
-      "tn_prev": 467.18,
-      "tn_carr": 141.18
+      "carr": 9,
+      "falta": 4,
+      "tn_prev": 463.83,
+      "tn_carr": 317.83
     },
     {
       "cliente": "*CIM. LIZ",
-      "prog": 9,
+      "prog": 10,
       "carr": 9,
-      "falta": 0,
-      "tn_prev": 352.32,
+      "falta": 1,
+      "tn_prev": 388.32,
       "tn_carr": 352.32
     },
     {
@@ -37,10 +37,10 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 12,
-      "carr": 9,
-      "falta": 3,
+      "carr": 10,
+      "falta": 2,
       "tn_prev": 204.0,
-      "tn_carr": 152.11
+      "tn_carr": 167.81
     },
     {
       "cliente": "INTERCEMENT",
@@ -52,10 +52,10 @@
     },
     {
       "cliente": "BRASKEM",
-      "prog": 6,
+      "prog": 5,
       "carr": 5,
-      "falta": 1,
-      "tn_prev": 191.0,
+      "falta": 0,
+      "tn_prev": 160.0,
       "tn_carr": 148.66
     },
     {
@@ -79,17 +79,17 @@
     {
       "produto": "COQUE",
       "prog": 13,
-      "carr": 4,
-      "falta": 9,
-      "tn_prev": 467.18,
-      "tn_carr": 141.18
+      "carr": 9,
+      "falta": 4,
+      "tn_prev": 463.83,
+      "tn_carr": 317.83
     },
     {
       "produto": "PETCOKE",
-      "prog": 9,
+      "prog": 10,
       "carr": 9,
-      "falta": 0,
-      "tn_prev": 352.32,
+      "falta": 1,
+      "tn_prev": 388.32,
       "tn_carr": 352.32
     },
     {
@@ -103,17 +103,17 @@
     {
       "produto": "Antracito Phoenician",
       "prog": 12,
-      "carr": 9,
-      "falta": 3,
+      "carr": 10,
+      "falta": 2,
       "tn_prev": 204.0,
-      "tn_carr": 152.11
+      "tn_carr": 167.81
     },
     {
       "produto": "TÉRMICO",
-      "prog": 6,
+      "prog": 5,
       "carr": 5,
-      "falta": 1,
-      "tn_prev": 191.0,
+      "falta": 0,
+      "tn_prev": 160.0,
       "tn_carr": 148.66
     },
     {
@@ -155,10 +155,10 @@
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
       "prog": 13,
-      "carr": 4,
-      "falta": 9,
-      "tn_prev": 467.18,
-      "tn_carr": 141.18,
+      "carr": 9,
+      "falta": 4,
+      "tn_prev": 463.83,
+      "tn_carr": 317.83,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -182,10 +182,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 10,
-          "carr": 4,
-          "falta": 6,
-          "tn_prev": 357.18,
-          "tn_carr": 141.18
+          "carr": 9,
+          "falta": 1,
+          "tn_prev": 353.83,
+          "tn_carr": 317.83
         }
       ]
     },
@@ -193,10 +193,10 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 9,
+      "prog": 10,
       "carr": 9,
-      "falta": 0,
-      "tn_prev": 352.32,
+      "falta": 1,
+      "tn_prev": 388.32,
       "tn_carr": 352.32,
       "transportadoras": [
         {
@@ -216,6 +216,15 @@
           "falta": 0,
           "tn_prev": 183.36,
           "tn_carr": 183.36
+        },
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 0.0
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -254,19 +263,19 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 12,
-      "carr": 9,
-      "falta": 3,
+      "carr": 10,
+      "falta": 2,
       "tn_prev": 204.0,
-      "tn_carr": 152.11,
+      "tn_carr": 167.81,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 12,
-          "carr": 9,
-          "falta": 3,
+          "carr": 10,
+          "falta": 2,
           "tn_prev": 204.0,
-          "tn_carr": 152.11
+          "tn_carr": 167.81
         }
       ]
     },
@@ -274,19 +283,19 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 6,
+      "prog": 5,
       "carr": 5,
-      "falta": 1,
-      "tn_prev": 191.0,
+      "falta": 0,
+      "tn_prev": 160.0,
       "tn_carr": 148.66,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
-          "prog": 6,
+          "prog": 5,
           "carr": 5,
-          "falta": 1,
-          "tn_prev": 191.0,
+          "falta": 0,
+          "tn_prev": 160.0,
           "tn_carr": 148.66
         }
       ]
