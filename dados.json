@@ -1,13 +1,13 @@
 {
   "data_relatorio": "03/08/2026",
-  "gerado_em": "2026-08-03T16:00:12",
-  "atualizado_em": "2026-08-03T19:05:26",
+  "gerado_em": "2026-08-03T17:00:06",
+  "atualizado_em": "2026-08-03T20:05:31",
   "totais": {
-    "prog": 56,
-    "carr": 41,
-    "falta": 15,
-    "tn_prev": 1827.93,
-    "tn_carr": 1298.05
+    "prog": 58,
+    "carr": 46,
+    "falta": 12,
+    "tn_prev": 1900.15,
+    "tn_carr": 1459.88
   },
   "por_cliente": [
     {
@@ -21,10 +21,18 @@
     {
       "cliente": "*CIM. LIZ",
       "prog": 10,
-      "carr": 9,
-      "falta": 1,
-      "tn_prev": 388.32,
-      "tn_carr": 352.32
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 387.85,
+      "tn_carr": 387.85
+    },
+    {
+      "cliente": "INTERCEMENT",
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 274.06,
+      "tn_carr": 198.56
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -37,18 +45,10 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 12,
-      "carr": 10,
-      "falta": 2,
+      "carr": 12,
+      "falta": 0,
       "tn_prev": 204.0,
-      "tn_carr": 167.81
-    },
-    {
-      "cliente": "INTERCEMENT",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 200.56,
-      "tn_carr": 150.56
+      "tn_carr": 198.92
     },
     {
       "cliente": "BRASKEM",
@@ -61,10 +61,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.19,
+      "tn_carr": 47.19
     },
     {
       "cliente": "CIM. LIZ",
@@ -87,10 +87,10 @@
     {
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 9,
-      "falta": 1,
-      "tn_prev": 388.32,
-      "tn_carr": 352.32
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 387.85,
+      "tn_carr": 387.85
     },
     {
       "produto": "Carregamento Sucata",
@@ -103,10 +103,10 @@
     {
       "produto": "Antracito Phoenician",
       "prog": 12,
-      "carr": 10,
-      "falta": 2,
+      "carr": 12,
+      "falta": 0,
       "tn_prev": 204.0,
-      "tn_carr": 167.81
+      "tn_carr": 198.92
     },
     {
       "produto": "TÉRMICO",
@@ -125,12 +125,20 @@
       "tn_carr": 150.56
     },
     {
+      "produto": "Ijací",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 123.5,
+      "tn_carr": 48.0
+    },
+    {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.19,
+      "tn_carr": 47.19
     },
     {
       "produto": "CARVÃO",
@@ -139,14 +147,6 @@
       "falta": 0,
       "tn_prev": 74.22,
       "tn_carr": 74.22
-    },
-    {
-      "produto": "Ijací",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -194,10 +194,10 @@
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 9,
-      "falta": 1,
-      "tn_prev": 388.32,
-      "tn_carr": 352.32,
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 387.85,
+      "tn_carr": 387.85,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -221,10 +221,10 @@
           "nome": "EXP. TS (RJ)",
           "cnpj": "05324485000516",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.53,
+          "tn_carr": 35.53
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -263,19 +263,19 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 12,
-      "carr": 10,
-      "falta": 2,
+      "carr": 12,
+      "falta": 0,
       "tn_prev": 204.0,
-      "tn_carr": 167.81,
+      "tn_carr": 198.92,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 12,
-          "carr": 10,
-          "falta": 2,
+          "carr": 12,
+          "falta": 0,
           "tn_prev": 204.0,
-          "tn_carr": 167.81
+          "tn_carr": 198.92
         }
       ]
     },
@@ -322,23 +322,53 @@
       ]
     },
     {
+      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
+      "cliente": "INTERCEMENT",
+      "produto": "Ijací",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 123.5,
+      "tn_carr": 48.0,
+      "transportadoras": [
+        {
+          "nome": "KM LOG (RJ)",
+          "cnpj": "17870729000383",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 75.5,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.0,
+          "tn_carr": 48.0
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.19,
+      "tn_carr": 47.19,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.19,
+          "tn_carr": 47.19
         }
       ]
     },
@@ -360,27 +390,6 @@
           "falta": 0,
           "tn_prev": 74.22,
           "tn_carr": 74.22
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
-      "cliente": "INTERCEMENT",
-      "produto": "Ijací",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
         }
       ]
     }
