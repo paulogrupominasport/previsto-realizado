@@ -1,13 +1,13 @@
 {
   "data_relatorio": "03/08/2026",
-  "gerado_em": "2026-08-03T11:00:05",
-  "atualizado_em": "2026-08-03T14:05:35",
+  "gerado_em": "2026-08-03T12:00:13",
+  "atualizado_em": "2026-08-03T15:05:36",
   "totais": {
-    "prog": 49,
-    "carr": 11,
-    "falta": 38,
-    "tn_prev": 1590.62,
-    "tn_carr": 292.71
+    "prog": 50,
+    "carr": 15,
+    "falta": 35,
+    "tn_prev": 1623.94,
+    "tn_carr": 403.31
   },
   "por_cliente": [
     {
@@ -20,11 +20,11 @@
     },
     {
       "cliente": "*CIM. LIZ",
-      "prog": 7,
-      "carr": 1,
+      "prog": 8,
+      "carr": 2,
       "falta": 6,
-      "tn_prev": 278.62,
-      "tn_carr": 46.62
+      "tn_prev": 312.44,
+      "tn_carr": 84.44
     },
     {
       "cliente": "BRASKEM",
@@ -37,10 +37,10 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 9,
-      "carr": 3,
-      "falta": 6,
+      "carr": 5,
+      "falta": 4,
       "tn_prev": 153.0,
-      "tn_carr": 50.64
+      "tn_carr": 85.92
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -69,10 +69,10 @@
     {
       "cliente": "CIM. LIZ",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 75.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 74.5,
+      "tn_carr": 37.5
     }
   ],
   "por_produto": [
@@ -86,11 +86,11 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 7,
-      "carr": 1,
+      "prog": 8,
+      "carr": 2,
       "falta": 6,
-      "tn_prev": 278.62,
-      "tn_carr": 46.62
+      "tn_prev": 312.44,
+      "tn_carr": 84.44
     },
     {
       "produto": "TÉRMICO",
@@ -103,10 +103,10 @@
     {
       "produto": "Antracito Phoenician",
       "prog": 9,
-      "carr": 3,
-      "falta": 6,
+      "carr": 5,
+      "falta": 4,
       "tn_prev": 153.0,
-      "tn_carr": 50.64
+      "tn_carr": 85.92
     },
     {
       "produto": "Carregamento Sucata",
@@ -135,10 +135,10 @@
     {
       "produto": "CARVÃO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 75.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 74.5,
+      "tn_carr": 37.5
     }
   ],
   "lotes": [
@@ -185,11 +185,11 @@
       "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
       "cliente": "*CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 7,
-      "carr": 1,
+      "prog": 8,
+      "carr": 2,
       "falta": 6,
-      "tn_prev": 278.62,
-      "tn_carr": 46.62,
+      "tn_prev": 312.44,
+      "tn_carr": 84.44,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -203,11 +203,11 @@
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
-          "prog": 4,
-          "carr": 0,
+          "prog": 5,
+          "carr": 1,
           "falta": 4,
-          "tn_prev": 148.0,
-          "tn_carr": 0.0
+          "tn_prev": 181.82,
+          "tn_carr": 37.82
         }
       ]
     },
@@ -237,19 +237,19 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 9,
-      "carr": 3,
-      "falta": 6,
+      "carr": 5,
+      "falta": 4,
       "tn_prev": 153.0,
-      "tn_carr": 50.64,
+      "tn_carr": 85.92,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 9,
-          "carr": 3,
-          "falta": 6,
+          "carr": 5,
+          "falta": 4,
           "tn_prev": 153.0,
-          "tn_carr": 50.64
+          "tn_carr": 85.92
         }
       ]
     },
@@ -321,19 +321,19 @@
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 75.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 74.5,
+      "tn_carr": 37.5,
       "transportadoras": [
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 75.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 74.5,
+          "tn_carr": 37.5
         }
       ]
     }
