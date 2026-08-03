@@ -1,21 +1,21 @@
 {
   "data_relatorio": "03/08/2026",
-  "gerado_em": "2026-08-03T09:00:09",
-  "atualizado_em": "2026-08-03T12:05:26",
+  "gerado_em": "2026-08-03T10:00:14",
+  "atualizado_em": "2026-08-03T13:05:37",
   "totais": {
-    "prog": 35,
-    "carr": 5,
+    "prog": 38,
+    "carr": 8,
     "falta": 30,
-    "tn_prev": 1164.0,
-    "tn_carr": 148.66
+    "tn_prev": 1284.0,
+    "tn_carr": 211.19
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 436.0,
+      "falta": 13,
+      "tn_prev": 470.0,
       "tn_carr": 0.0
     },
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
+      "carr": 2,
+      "falta": 4,
       "tn_prev": 145.0,
-      "tn_carr": 0.0
+      "tn_carr": 46.79
     },
     {
       "cliente": "INTERCEMENT",
@@ -40,6 +40,14 @@
       "carr": 0,
       "falta": 3,
       "tn_prev": 144.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "*CIM. LIZ",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 132.0,
       "tn_carr": 0.0
     },
     {
@@ -51,29 +59,29 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "*CIM. LIZ",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 84.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CARBOBRAS",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
+      "carr": 1,
+      "falta": 3,
       "tn_prev": 68.0,
+      "tn_carr": 15.74
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
       "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "COQUE",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 436.0,
+      "falta": 13,
+      "tn_prev": 470.0,
       "tn_carr": 0.0
     },
     {
@@ -87,10 +95,10 @@
     {
       "produto": "Carregamento Sucata",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
+      "carr": 2,
+      "falta": 4,
       "tn_prev": 145.0,
-      "tn_carr": 0.0
+      "tn_carr": 46.79
     },
     {
       "produto": "Bodoquena",
@@ -98,6 +106,14 @@
       "carr": 0,
       "falta": 3,
       "tn_prev": 144.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 132.0,
       "tn_carr": 0.0
     },
     {
@@ -109,19 +125,19 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 84.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "Antracito Phoenician",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
+      "carr": 1,
+      "falta": 3,
       "tn_prev": 68.0,
+      "tn_carr": 15.74
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
       "tn_carr": 0.0
     }
   ],
@@ -130,15 +146,24 @@
       "lote": "ITAMBÉ - COQUE VERDE",
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 436.0,
+      "falta": 13,
+      "tn_prev": 470.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 34.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
           "prog": 2,
           "carr": 0,
           "falta": 2,
@@ -182,19 +207,19 @@
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
+      "carr": 2,
+      "falta": 4,
       "tn_prev": 145.0,
-      "tn_carr": 0.0,
+      "tn_carr": 46.79,
       "transportadoras": [
         {
           "nome": "COMERCIAL CARVALHO",
           "cnpj": "05362003000199",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
+          "carr": 2,
+          "falta": 4,
           "tn_prev": 145.0,
-          "tn_carr": 0.0
+          "tn_carr": 46.79
         }
       ]
     },
@@ -215,6 +240,27 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 144.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "*CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 132.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 132.0,
           "tn_carr": 0.0
         }
       ]
@@ -241,43 +287,43 @@
       ]
     },
     {
-      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "*CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 84.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 84.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
+      "carr": 1,
+      "falta": 3,
       "tn_prev": 68.0,
-      "tn_carr": 0.0,
+      "tn_carr": 15.74,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
+          "carr": 1,
+          "falta": 3,
           "tn_prev": 68.0,
+          "tn_carr": 15.74
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
