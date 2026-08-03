@@ -4166,26 +4166,38 @@
     }
   },
   "2026-08-03": {
-    "gerado_em": "2026-08-03T08:00:16",
-    "atualizado_em": "2026-08-03T11:05:28",
+    "gerado_em": "2026-08-03T09:00:09",
+    "atualizado_em": "2026-08-03T12:05:26",
     "totais": {
-      "prog": 20,
-      "carr": 3,
-      "falta": 17,
-      "tn_prev": 572.0,
-      "tn_carr": 92.16
+      "prog": 35,
+      "carr": 5,
+      "falta": 30,
+      "tn_prev": 1164.0,
+      "tn_carr": 148.66
     },
     "por_cliente": {
+      "ITAMBÉ": {
+        "prog": 12,
+        "carr": 0,
+        "tn_prev": 436.0,
+        "tn_carr": 0.0
+      },
       "BRASKEM": {
         "prog": 6,
-        "carr": 3,
+        "carr": 5,
         "tn_prev": 191.0,
-        "tn_carr": 92.16
+        "tn_carr": 148.66
       },
       "COMERCIAL CARVALHO": {
         "prog": 6,
         "carr": 0,
         "tn_prev": 145.0,
+        "tn_carr": 0.0
+      },
+      "INTERCEMENT": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 144.0,
         "tn_carr": 0.0
       },
       "PETRORECONCAVO": {
@@ -4194,10 +4206,10 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "ITAMBÉ": {
+      "*CIM. LIZ": {
         "prog": 2,
         "carr": 0,
-        "tn_prev": 72.0,
+        "tn_prev": 84.0,
         "tn_carr": 0.0
       },
       "CARBOBRAS": {
@@ -4208,16 +4220,28 @@
       }
     },
     "por_produto": {
+      "COQUE": {
+        "prog": 12,
+        "carr": 0,
+        "tn_prev": 436.0,
+        "tn_carr": 0.0
+      },
       "TÉRMICO": {
         "prog": 6,
-        "carr": 3,
+        "carr": 5,
         "tn_prev": 191.0,
-        "tn_carr": 92.16
+        "tn_carr": 148.66
       },
       "Carregamento Sucata": {
         "prog": 6,
         "carr": 0,
         "tn_prev": 145.0,
+        "tn_carr": 0.0
+      },
+      "Bodoquena": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 144.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
@@ -4226,10 +4250,10 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "COQUE": {
+      "PETCOKE": {
         "prog": 2,
         "carr": 0,
-        "tn_prev": 72.0,
+        "tn_prev": 84.0,
         "tn_carr": 0.0
       },
       "Antracito Phoenician": {
