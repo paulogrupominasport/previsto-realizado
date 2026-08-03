@@ -1,13 +1,13 @@
 {
   "data_relatorio": "03/08/2026",
-  "gerado_em": "2026-08-03T17:00:06",
-  "atualizado_em": "2026-08-03T20:05:31",
+  "gerado_em": "2026-08-03T18:00:14",
+  "atualizado_em": "2026-08-03T21:05:31",
   "totais": {
-    "prog": 58,
-    "carr": 46,
-    "falta": 12,
-    "tn_prev": 1900.15,
-    "tn_carr": 1459.88
+    "prog": 59,
+    "carr": 48,
+    "falta": 11,
+    "tn_prev": 1883.19,
+    "tn_carr": 1538.42
   },
   "por_cliente": [
     {
@@ -27,20 +27,20 @@
       "tn_carr": 387.85
     },
     {
-      "cliente": "INTERCEMENT",
-      "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 274.06,
-      "tn_carr": 198.56
-    },
-    {
       "cliente": "COMERCIAL CARVALHO",
       "prog": 8,
       "carr": 3,
       "falta": 5,
       "tn_prev": 241.0,
       "tn_carr": 86.65
+    },
+    {
+      "cliente": "INTERCEMENT",
+      "prog": 6,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 229.1,
+      "tn_carr": 277.1
     },
     {
       "cliente": "CARBOBRAS",
@@ -59,20 +59,20 @@
       "tn_carr": 148.66
     },
     {
+      "cliente": "CIM. LIZ",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 102.22,
+      "tn_carr": 74.22
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 1,
       "falta": 1,
       "tn_prev": 95.19,
       "tn_carr": 47.19
-    },
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 74.22,
-      "tn_carr": 74.22
     }
   ],
   "por_produto": [
@@ -125,12 +125,12 @@
       "tn_carr": 150.56
     },
     {
-      "produto": "Ijací",
+      "produto": "CARVÃO",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 123.5,
-      "tn_carr": 48.0
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 102.22,
+      "tn_carr": 74.22
     },
     {
       "produto": "PETRÓLEO",
@@ -141,12 +141,12 @@
       "tn_carr": 47.19
     },
     {
-      "produto": "CARVÃO",
-      "prog": 2,
-      "carr": 2,
+      "produto": "Ijací",
+      "prog": 3,
+      "carr": 3,
       "falta": 0,
-      "tn_prev": 74.22,
-      "tn_carr": 74.22
+      "tn_prev": 78.54,
+      "tn_carr": 126.54
     }
   ],
   "lotes": [
@@ -322,32 +322,32 @@
       ]
     },
     {
-      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
-      "cliente": "INTERCEMENT",
-      "produto": "Ijací",
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 123.5,
-      "tn_carr": 48.0,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 102.22,
+      "tn_carr": 74.22,
       "transportadoras": [
         {
-          "nome": "KM LOG (RJ)",
-          "cnpj": "17870729000383",
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 75.5,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 74.22,
+          "tn_carr": 74.22
         },
         {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 48.0,
-          "tn_carr": 48.0
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 28.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -373,23 +373,32 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 2,
-      "carr": 2,
+      "lote": "INTERCEMENT - IJACÍ - PETCOKE - MINAS PORT - SOLE - PILHA 51",
+      "cliente": "INTERCEMENT",
+      "produto": "Ijací",
+      "prog": 3,
+      "carr": 3,
       "falta": 0,
-      "tn_prev": 74.22,
-      "tn_carr": 74.22,
+      "tn_prev": 78.54,
+      "tn_carr": 126.54,
       "transportadoras": [
         {
-          "nome": "LENARGE (RJ)",
-          "cnpj": "02870124000315",
+          "nome": "KM LOG (RJ)",
+          "cnpj": "17870729000383",
           "prog": 2,
           "carr": 2,
           "falta": 0,
-          "tn_prev": 74.22,
-          "tn_carr": 74.22
+          "tn_prev": 78.54,
+          "tn_carr": 78.54
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 0.0,
+          "tn_carr": 48.0
         }
       ]
     }
