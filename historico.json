@@ -4166,27 +4166,39 @@
     }
   },
   "2026-08-03": {
-    "gerado_em": "2026-08-03T10:00:14",
-    "atualizado_em": "2026-08-03T13:05:37",
+    "gerado_em": "2026-08-03T11:00:05",
+    "atualizado_em": "2026-08-03T14:05:35",
     "totais": {
-      "prog": 38,
-      "carr": 8,
-      "falta": 30,
-      "tn_prev": 1284.0,
-      "tn_carr": 211.19
+      "prog": 49,
+      "carr": 11,
+      "falta": 38,
+      "tn_prev": 1590.62,
+      "tn_carr": 292.71
     },
     "por_cliente": {
       "ITAMBÉ": {
-        "prog": 13,
+        "prog": 14,
         "carr": 0,
-        "tn_prev": 470.0,
+        "tn_prev": 508.0,
         "tn_carr": 0.0
+      },
+      "*CIM. LIZ": {
+        "prog": 7,
+        "carr": 1,
+        "tn_prev": 278.62,
+        "tn_carr": 46.62
       },
       "BRASKEM": {
         "prog": 6,
         "carr": 5,
         "tn_prev": 191.0,
         "tn_carr": 148.66
+      },
+      "CARBOBRAS": {
+        "prog": 9,
+        "carr": 3,
+        "tn_prev": 153.0,
+        "tn_carr": 50.64
       },
       "COMERCIAL CARVALHO": {
         "prog": 6,
@@ -4200,43 +4212,43 @@
         "tn_prev": 144.0,
         "tn_carr": 0.0
       },
-      "*CIM. LIZ": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 132.0,
-        "tn_carr": 0.0
-      },
       "PETRORECONCAVO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "CARBOBRAS": {
-        "prog": 4,
-        "carr": 1,
-        "tn_prev": 68.0,
-        "tn_carr": 15.74
-      },
       "CIM. LIZ": {
-        "prog": 1,
+        "prog": 2,
         "carr": 0,
-        "tn_prev": 38.0,
+        "tn_prev": 75.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
       "COQUE": {
-        "prog": 13,
+        "prog": 14,
         "carr": 0,
-        "tn_prev": 470.0,
+        "tn_prev": 508.0,
         "tn_carr": 0.0
+      },
+      "PETCOKE": {
+        "prog": 7,
+        "carr": 1,
+        "tn_prev": 278.62,
+        "tn_carr": 46.62
       },
       "TÉRMICO": {
         "prog": 6,
         "carr": 5,
         "tn_prev": 191.0,
         "tn_carr": 148.66
+      },
+      "Antracito Phoenician": {
+        "prog": 9,
+        "carr": 3,
+        "tn_prev": 153.0,
+        "tn_carr": 50.64
       },
       "Carregamento Sucata": {
         "prog": 6,
@@ -4250,28 +4262,16 @@
         "tn_prev": 144.0,
         "tn_carr": 0.0
       },
-      "PETCOKE": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 132.0,
-        "tn_carr": 0.0
-      },
       "PETRÓLEO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "Antracito Phoenician": {
-        "prog": 4,
-        "carr": 1,
-        "tn_prev": 68.0,
-        "tn_carr": 15.74
-      },
       "CARVÃO": {
-        "prog": 1,
+        "prog": 2,
         "carr": 0,
-        "tn_prev": 38.0,
+        "tn_prev": 75.0,
         "tn_carr": 0.0
       }
     }

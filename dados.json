@@ -1,22 +1,30 @@
 {
   "data_relatorio": "03/08/2026",
-  "gerado_em": "2026-08-03T10:00:14",
-  "atualizado_em": "2026-08-03T13:05:37",
+  "gerado_em": "2026-08-03T11:00:05",
+  "atualizado_em": "2026-08-03T14:05:35",
   "totais": {
-    "prog": 38,
-    "carr": 8,
-    "falta": 30,
-    "tn_prev": 1284.0,
-    "tn_carr": 211.19
+    "prog": 49,
+    "carr": 11,
+    "falta": 38,
+    "tn_prev": 1590.62,
+    "tn_carr": 292.71
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 13,
+      "prog": 14,
       "carr": 0,
-      "falta": 13,
-      "tn_prev": 470.0,
+      "falta": 14,
+      "tn_prev": 508.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "*CIM. LIZ",
+      "prog": 7,
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 278.62,
+      "tn_carr": 46.62
     },
     {
       "cliente": "BRASKEM",
@@ -25,6 +33,14 @@
       "falta": 1,
       "tn_prev": 191.0,
       "tn_carr": 148.66
+    },
+    {
+      "cliente": "CARBOBRAS",
+      "prog": 9,
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 153.0,
+      "tn_carr": 50.64
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -43,14 +59,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "*CIM. LIZ",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 132.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
@@ -59,30 +67,30 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CARBOBRAS",
-      "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 68.0,
-      "tn_carr": 15.74
-    },
-    {
       "cliente": "CIM. LIZ",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 75.0,
       "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "COQUE",
-      "prog": 13,
+      "prog": 14,
       "carr": 0,
-      "falta": 13,
-      "tn_prev": 470.0,
+      "falta": 14,
+      "tn_prev": 508.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "PETCOKE",
+      "prog": 7,
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 278.62,
+      "tn_carr": 46.62
     },
     {
       "produto": "TÉRMICO",
@@ -91,6 +99,14 @@
       "falta": 1,
       "tn_prev": 191.0,
       "tn_carr": 148.66
+    },
+    {
+      "produto": "Antracito Phoenician",
+      "prog": 9,
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 153.0,
+      "tn_carr": 50.64
     },
     {
       "produto": "Carregamento Sucata",
@@ -109,14 +125,6 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 132.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 0,
@@ -125,19 +133,11 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "Antracito Phoenician",
-      "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 68.0,
-      "tn_carr": 15.74
-    },
-    {
       "produto": "CARVÃO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 75.0,
       "tn_carr": 0.0
     }
   ],
@@ -146,10 +146,10 @@
       "lote": "ITAMBÉ - COQUE VERDE",
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
-      "prog": 13,
+      "prog": 14,
       "carr": 0,
-      "falta": 13,
-      "tn_prev": 470.0,
+      "falta": 14,
+      "tn_prev": 508.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -164,10 +164,10 @@
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
+          "falta": 3,
+          "tn_prev": 114.0,
           "tn_carr": 0.0
         },
         {
@@ -177,6 +177,36 @@
           "carr": 0,
           "falta": 10,
           "tn_prev": 360.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
+      "cliente": "*CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 7,
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 278.62,
+      "tn_carr": 46.62,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 130.62,
+          "tn_carr": 46.62
+        },
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 148.0,
           "tn_carr": 0.0
         }
       ]
@@ -199,6 +229,27 @@
           "falta": 1,
           "tn_prev": 191.0,
           "tn_carr": 148.66
+        }
+      ]
+    },
+    {
+      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
+      "cliente": "CARBOBRAS",
+      "produto": "Antracito Phoenician",
+      "prog": 9,
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 153.0,
+      "tn_carr": 50.64,
+      "transportadoras": [
+        {
+          "nome": "CARBOBRÁS (SC)",
+          "cnpj": "02640179000177",
+          "prog": 9,
+          "carr": 3,
+          "falta": 6,
+          "tn_prev": 153.0,
+          "tn_carr": 50.64
         }
       ]
     },
@@ -245,27 +296,6 @@
       ]
     },
     {
-      "lote": "*CIM. LIZ - PETCOKE - XIN HAI TONG - PILHA 50",
-      "cliente": "*CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 132.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 132.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -287,43 +317,22 @@
       ]
     },
     {
-      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
-      "cliente": "CARBOBRAS",
-      "produto": "Antracito Phoenician",
-      "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 68.0,
-      "tn_carr": 15.74,
-      "transportadoras": [
-        {
-          "nome": "CARBOBRÁS (SC)",
-          "cnpj": "02640179000177",
-          "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 68.0,
-          "tn_carr": 15.74
-        }
-      ]
-    },
-    {
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 75.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 75.0,
           "tn_carr": 0.0
         }
       ]
