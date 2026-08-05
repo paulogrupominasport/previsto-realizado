@@ -1,22 +1,22 @@
 {
   "data_relatorio": "05/08/2026",
-  "gerado_em": "2026-08-05T19:00:04",
-  "atualizado_em": "2026-08-05T22:05:35",
+  "gerado_em": "2026-08-05T20:00:11",
+  "atualizado_em": "2026-08-05T23:05:25",
   "totais": {
     "prog": 120,
-    "carr": 101,
-    "falta": 19,
-    "tn_prev": 4501.24,
-    "tn_carr": 3805.08
+    "carr": 103,
+    "falta": 17,
+    "tn_prev": 4462.48,
+    "tn_carr": 3872.96
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 40,
-      "carr": 37,
-      "falta": 3,
-      "tn_prev": 1515.57,
-      "tn_carr": 1409.55
+      "carr": 39,
+      "falta": 1,
+      "tn_prev": 1514.45,
+      "tn_carr": 1477.43
     },
     {
       "cliente": "CSN BARROSO",
@@ -91,20 +91,20 @@
       "tn_carr": 177.98
     },
     {
-      "cliente": "SUPREMO",
-      "prog": 5,
-      "carr": 5,
-      "falta": 0,
-      "tn_prev": 124.19,
-      "tn_carr": 220.17
-    },
-    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 2,
       "falta": 0,
       "tn_prev": 94.0,
       "tn_carr": 94.0
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 5,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 86.55,
+      "tn_carr": 220.17
     },
     {
       "cliente": "CSN PEDRO LEOP",
@@ -135,10 +135,10 @@
     {
       "produto": "PETCOKE",
       "prog": 87,
-      "carr": 76,
-      "falta": 11,
-      "tn_prev": 3475.05,
-      "tn_carr": 3069.03
+      "carr": 78,
+      "falta": 9,
+      "tn_prev": 3473.93,
+      "tn_carr": 3136.91
     },
     {
       "produto": "Carregamento Sucata",
@@ -165,20 +165,20 @@
       "tn_carr": 177.98
     },
     {
-      "produto": "Ic Phoenix",
-      "prog": 5,
-      "carr": 5,
-      "falta": 0,
-      "tn_prev": 124.19,
-      "tn_carr": 220.17
-    },
-    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 2,
       "falta": 0,
       "tn_prev": 94.0,
       "tn_carr": 94.0
+    },
+    {
+      "produto": "Ic Phoenix",
+      "prog": 5,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 86.55,
+      "tn_carr": 220.17
     },
     {
       "produto": "CARVÃO",
@@ -312,19 +312,19 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 8,
-      "falta": 2,
-      "tn_prev": 363.48,
-      "tn_carr": 294.48,
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 362.36,
+      "tn_carr": 362.36,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 142.78,
-          "tn_carr": 109.78
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 142.2,
+          "tn_carr": 142.2
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -348,10 +348,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 108.46,
-          "tn_carr": 72.46
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 107.92,
+          "tn_carr": 107.92
         }
       ]
     },
@@ -557,45 +557,6 @@
       ]
     },
     {
-      "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
-      "cliente": "SUPREMO",
-      "produto": "Ic Phoenix",
-      "prog": 5,
-      "carr": 5,
-      "falta": 0,
-      "tn_prev": 124.19,
-      "tn_carr": 220.17,
-      "transportadoras": [
-        {
-          "nome": "G7 LOG (SC)",
-          "cnpj": "14170909000100",
-          "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 48.5,
-          "tn_carr": 144.48
-        },
-        {
-          "nome": "BONTORIN TRANSPORTES RODOVIARIOS LTDA",
-          "cnpj": "64788206000100",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 37.64,
-          "tn_carr": 37.64
-        },
-        {
-          "nome": "AC TRANSPORTES (SC)",
-          "cnpj": "31540603000371",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 38.05,
-          "tn_carr": 38.05
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -613,6 +574,45 @@
           "falta": 0,
           "tn_prev": 94.0,
           "tn_carr": 94.0
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
+      "cliente": "SUPREMO",
+      "produto": "Ic Phoenix",
+      "prog": 5,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 86.55,
+      "tn_carr": 220.17,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 3,
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 48.5,
+          "tn_carr": 144.48
+        },
+        {
+          "nome": "BONTORIN TRANSPORTES RODOVIARIOS LTDA",
+          "cnpj": "64788206000100",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 0.0,
+          "tn_carr": 37.64
+        },
+        {
+          "nome": "AC TRANSPORTES (SC)",
+          "cnpj": "31540603000371",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.05,
+          "tn_carr": 38.05
         }
       ]
     },
