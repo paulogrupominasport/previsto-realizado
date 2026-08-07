@@ -1,22 +1,22 @@
 {
   "data_relatorio": "07/08/2026",
-  "gerado_em": "2026-08-07T12:34:50",
-  "atualizado_em": "2026-08-07T15:35:33",
+  "gerado_em": "2026-08-07T13:00:09",
+  "atualizado_em": "2026-08-07T16:05:29",
   "totais": {
-    "prog": 104,
-    "carr": 45,
-    "falta": 59,
-    "tn_prev": 4196.22,
-    "tn_carr": 1817.83
+    "prog": 105,
+    "carr": 48,
+    "falta": 57,
+    "tn_prev": 4231.62,
+    "tn_carr": 1929.23
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 37,
-      "carr": 19,
-      "falta": 18,
-      "tn_prev": 1384.31,
-      "tn_carr": 706.31
+      "carr": 22,
+      "falta": 15,
+      "tn_prev": 1381.71,
+      "tn_carr": 817.71
     },
     {
       "cliente": "CSN PEDRO LEOP",
@@ -44,10 +44,10 @@
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 10,
+      "prog": 11,
       "carr": 3,
-      "falta": 7,
-      "tn_prev": 380.07,
+      "falta": 8,
+      "tn_prev": 418.07,
       "tn_carr": 131.07
     },
     {
@@ -94,11 +94,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 89,
-      "carr": 38,
-      "falta": 51,
-      "tn_prev": 3598.03,
-      "tn_carr": 1562.03
+      "prog": 90,
+      "carr": 41,
+      "falta": 49,
+      "tn_prev": 3633.43,
+      "tn_carr": 1673.43
     },
     {
       "produto": "Ijací",
@@ -139,10 +139,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 33,
-      "carr": 16,
-      "falta": 17,
-      "tn_prev": 1240.05,
-      "tn_carr": 600.05,
+      "carr": 19,
+      "falta": 14,
+      "tn_prev": 1237.45,
+      "tn_carr": 711.45,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -166,10 +166,10 @@
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 150.26,
-          "tn_carr": 36.26
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 149.34,
+          "tn_carr": 73.34
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -184,10 +184,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 10,
-          "carr": 5,
-          "falta": 5,
-          "tn_prev": 390.14,
-          "tn_carr": 193.14
+          "carr": 7,
+          "falta": 3,
+          "tn_prev": 388.46,
+          "tn_carr": 267.46
         }
       ]
     },
@@ -303,10 +303,10 @@
       "lote": "CSN BARROSO - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 10,
+      "prog": 11,
       "carr": 3,
-      "falta": 7,
-      "tn_prev": 380.07,
+      "falta": 8,
+      "tn_prev": 418.07,
       "tn_carr": 131.07,
       "transportadoras": [
         {
@@ -325,6 +325,15 @@
           "carr": 0,
           "falta": 6,
           "tn_prev": 201.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
