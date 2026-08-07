@@ -1,22 +1,22 @@
 {
   "data_relatorio": "07/08/2026",
-  "gerado_em": "2026-08-07T08:00:18",
-  "atualizado_em": "2026-08-07T11:05:29",
+  "gerado_em": "2026-08-07T08:29:15",
+  "atualizado_em": "2026-08-07T11:30:40",
   "totais": {
-    "prog": 71,
-    "carr": 0,
-    "falta": 71,
-    "tn_prev": 2891.0,
-    "tn_carr": 0.0
+    "prog": 77,
+    "carr": 2,
+    "falta": 75,
+    "tn_prev": 3117.72,
+    "tn_carr": 73.72
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 26,
-      "carr": 0,
-      "falta": 26,
-      "tn_prev": 969.0,
-      "tn_carr": 0.0
+      "prog": 29,
+      "carr": 2,
+      "falta": 27,
+      "tn_prev": 1083.72,
+      "tn_carr": 73.72
     },
     {
       "cliente": "CSN MOC",
@@ -44,10 +44,10 @@
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 6,
+      "prog": 8,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 253.0,
+      "falta": 8,
+      "tn_prev": 327.0,
       "tn_carr": 0.0
     },
     {
@@ -83,30 +83,30 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "SUPREMO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "INTERCEMENT FOB",
       "prog": 1,
       "carr": 0,
       "falta": 1,
       "tn_prev": 48.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "SUPREMO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 64,
-      "carr": 0,
-      "falta": 64,
-      "tn_prev": 2609.0,
-      "tn_carr": 0.0
+      "prog": 69,
+      "carr": 2,
+      "falta": 67,
+      "tn_prev": 2797.72,
+      "tn_carr": 73.72
     },
     {
       "produto": "TÉRMICO",
@@ -125,19 +125,19 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Ic Phoenix",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "Ijací",
       "prog": 1,
       "carr": 0,
       "falta": 1,
       "tn_prev": 48.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Ic Phoenix",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
       "tn_carr": 0.0
     }
   ],
@@ -146,28 +146,28 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 24,
-      "carr": 0,
-      "falta": 24,
-      "tn_prev": 893.0,
-      "tn_carr": 0.0,
+      "prog": 27,
+      "carr": 2,
+      "falta": 25,
+      "tn_prev": 1007.72,
+      "tn_carr": 73.72,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 12,
-          "carr": 0,
+          "prog": 13,
+          "carr": 1,
           "falta": 12,
-          "tn_prev": 443.0,
-          "tn_carr": 0.0
+          "tn_prev": 481.32,
+          "tn_carr": 35.32
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
+          "falta": 2,
+          "tn_prev": 73.0,
           "tn_carr": 0.0
         },
         {
@@ -183,18 +183,18 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 108.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 108.4,
+          "tn_carr": 38.4
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 7,
+          "prog": 8,
           "carr": 0,
-          "falta": 7,
-          "tn_prev": 269.0,
+          "falta": 8,
+          "tn_prev": 307.0,
           "tn_carr": 0.0
         }
       ]
@@ -293,10 +293,10 @@
       "lote": "CSN ARCOS - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 8,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 253.0,
+      "falta": 8,
+      "tn_prev": 327.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -306,6 +306,15 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 109.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "TRANSPORTADORA BOA VIAGEM LTDA",
+          "cnpj": "02574772002882",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
           "tn_carr": 0.0
         },
         {
@@ -413,6 +422,36 @@
       ]
     },
     {
+      "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
+      "cliente": "SUPREMO",
+      "produto": "Ic Phoenix",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "BONTORIN TRANSPORTES RODOVIARIOS LTDA",
+          "cnpj": "64788206000100",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
@@ -450,27 +489,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
-      "cliente": "SUPREMO",
-      "produto": "Ic Phoenix",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "BONTORIN TRANSPORTES RODOVIARIOS LTDA",
-          "cnpj": "64788206000100",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
