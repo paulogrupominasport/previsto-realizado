@@ -1,12 +1,12 @@
 {
   "data_relatorio": "11/08/2026",
-  "gerado_em": "2026-08-11T22:00:11",
-  "atualizado_em": "2026-08-12T01:05:26",
+  "gerado_em": "2026-08-11T23:00:17",
+  "atualizado_em": "2026-08-12T02:05:40",
   "totais": {
-    "prog": 143,
+    "prog": 142,
     "carr": 121,
-    "falta": 22,
-    "tn_prev": 5178.65,
+    "falta": 21,
+    "tn_prev": 5140.65,
     "tn_carr": 4376.47
   },
   "por_cliente": [
@@ -83,14 +83,6 @@
       "tn_carr": 233.35
     },
     {
-      "cliente": "INNMOV",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 155.7,
-      "tn_carr": 117.7
-    },
-    {
       "cliente": "INTERCEMENT FOB",
       "prog": 3,
       "carr": 3,
@@ -105,6 +97,14 @@
       "falta": 3,
       "tn_prev": 122.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "INNMOV",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 117.7,
+      "tn_carr": 117.7
     },
     {
       "cliente": "CSN MOC",
@@ -142,10 +142,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 94,
+      "prog": 93,
       "carr": 78,
-      "falta": 16,
-      "tn_prev": 3641.41,
+      "falta": 15,
+      "tn_prev": 3603.41,
       "tn_carr": 3014.91
     },
     {
@@ -623,27 +623,6 @@
       ]
     },
     {
-      "lote": "INNMOV - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "INNMOV",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 155.7,
-      "tn_carr": 117.7,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 155.7,
-          "tn_carr": 117.7
-        }
-      ]
-    },
-    {
       "lote": "INTERCEMENT FOB- IJACÍ - PETCOKE - MINAS PORT - XIN HAI TONG - PILHA 50",
       "cliente": "INTERCEMENT FOB",
       "produto": "Ijací",
@@ -721,6 +700,27 @@
           "falta": 3,
           "tn_prev": 122.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "INNMOV - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "INNMOV",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 117.7,
+      "tn_carr": 117.7,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 3,
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 117.7,
+          "tn_carr": 117.7
         }
       ]
     },
