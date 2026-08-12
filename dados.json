@@ -1,12 +1,12 @@
 {
   "data_relatorio": "11/08/2026",
-  "gerado_em": "2026-08-11T21:00:06",
-  "atualizado_em": "2026-08-12T00:05:29",
+  "gerado_em": "2026-08-11T22:00:11",
+  "atualizado_em": "2026-08-12T01:05:26",
   "totais": {
-    "prog": 145,
+    "prog": 143,
     "carr": 121,
-    "falta": 24,
-    "tn_prev": 5263.65,
+    "falta": 22,
+    "tn_prev": 5178.65,
     "tn_carr": 4376.47
   },
   "por_cliente": [
@@ -20,10 +20,10 @@
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 19,
+      "prog": 18,
       "carr": 15,
-      "falta": 4,
-      "tn_prev": 710.33,
+      "falta": 3,
+      "tn_prev": 673.33,
       "tn_carr": 556.33
     },
     {
@@ -44,10 +44,10 @@
     },
     {
       "cliente": "CSN PEDRO LEOP",
-      "prog": 9,
+      "prog": 8,
       "carr": 7,
-      "falta": 2,
-      "tn_prev": 417.58,
+      "falta": 1,
+      "tn_prev": 369.58,
       "tn_carr": 321.58
     },
     {
@@ -142,10 +142,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 96,
+      "prog": 94,
       "carr": 78,
-      "falta": 18,
-      "tn_prev": 3726.41,
+      "falta": 16,
+      "tn_prev": 3641.41,
       "tn_carr": 3014.91
     },
     {
@@ -275,10 +275,10 @@
       "lote": "CSN BARROSO - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 19,
+      "prog": 18,
       "carr": 15,
-      "falta": 4,
-      "tn_prev": 710.33,
+      "falta": 3,
+      "tn_prev": 673.33,
       "tn_carr": 556.33,
       "transportadoras": [
         {
@@ -320,10 +320,10 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 5,
+          "prog": 4,
           "carr": 3,
-          "falta": 2,
-          "tn_prev": 183.73,
+          "falta": 1,
+          "tn_prev": 146.73,
           "tn_carr": 110.73
         }
       ]
@@ -359,36 +359,6 @@
       ]
     },
     {
-      "lote": "CSN PEDRO LEOP - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
-      "produto": "PETCOKE",
-      "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 417.58,
-      "tn_carr": 321.58,
-      "transportadoras": [
-        {
-          "nome": "TRANSPORTADORA BOA VIAGEM LTDA",
-          "cnpj": "02574772002882",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 49.5,
-          "tn_carr": 49.5
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 8,
-          "carr": 6,
-          "falta": 2,
-          "tn_prev": 368.08,
-          "tn_carr": 272.08
-        }
-      ]
-    },
-    {
       "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "PETCOKE",
@@ -415,6 +385,36 @@
           "falta": 1,
           "tn_prev": 375.31,
           "tn_carr": 337.31
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOP - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "CSN PEDRO LEOP",
+      "produto": "PETCOKE",
+      "prog": 8,
+      "carr": 7,
+      "falta": 1,
+      "tn_prev": 369.58,
+      "tn_carr": 321.58,
+      "transportadoras": [
+        {
+          "nome": "TRANSPORTADORA BOA VIAGEM LTDA",
+          "cnpj": "02574772002882",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.5,
+          "tn_carr": 49.5
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 7,
+          "carr": 6,
+          "falta": 1,
+          "tn_prev": 320.08,
+          "tn_carr": 272.08
         }
       ]
     },
