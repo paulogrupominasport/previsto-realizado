@@ -1,13 +1,13 @@
 {
   "data_relatorio": "11/08/2026",
-  "gerado_em": "2026-08-11T20:00:11",
-  "atualizado_em": "2026-08-11T23:05:28",
+  "gerado_em": "2026-08-11T21:00:06",
+  "atualizado_em": "2026-08-12T00:05:29",
   "totais": {
-    "prog": 146,
-    "carr": 120,
-    "falta": 26,
-    "tn_prev": 5312.64,
-    "tn_carr": 4329.46
+    "prog": 145,
+    "carr": 121,
+    "falta": 24,
+    "tn_prev": 5263.65,
+    "tn_carr": 4376.47
   },
   "por_cliente": [
     {
@@ -91,14 +91,6 @@
       "tn_carr": 117.7
     },
     {
-      "cliente": "CSN MOC",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 143.86,
-      "tn_carr": 95.86
-    },
-    {
       "cliente": "INTERCEMENT FOB",
       "prog": 3,
       "carr": 3,
@@ -115,12 +107,20 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CSN MOC",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 95.86,
+      "tn_carr": 95.86
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.07,
-      "tn_carr": 47.07
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.08,
+      "tn_carr": 94.08
     },
     {
       "cliente": "GABRIELLA",
@@ -142,10 +142,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 97,
+      "prog": 96,
       "carr": 78,
-      "falta": 19,
-      "tn_prev": 3774.41,
+      "falta": 18,
+      "tn_prev": 3726.41,
       "tn_carr": 3014.91
     },
     {
@@ -199,10 +199,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.07,
-      "tn_carr": 47.07
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.08,
+      "tn_carr": 94.08
     },
     {
       "produto": "Cucuta",
@@ -644,27 +644,6 @@
       ]
     },
     {
-      "lote": "CSN MOC - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "CSN MOC",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 143.86,
-      "tn_carr": 95.86,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 143.86,
-          "tn_carr": 95.86
-        }
-      ]
-    },
-    {
       "lote": "INTERCEMENT FOB- IJACÍ - PETCOKE - MINAS PORT - XIN HAI TONG - PILHA 50",
       "cliente": "INTERCEMENT FOB",
       "produto": "Ijací",
@@ -767,23 +746,44 @@
       ]
     },
     {
+      "lote": "CSN MOC - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "CSN MOC",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 95.86,
+      "tn_carr": 95.86,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 95.86,
+          "tn_carr": 95.86
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.07,
-      "tn_carr": 47.07,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.08,
+      "tn_carr": 94.08,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 95.07,
-          "tn_carr": 47.07
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.08,
+          "tn_carr": 94.08
         }
       ]
     },
