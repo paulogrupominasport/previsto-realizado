@@ -1,21 +1,21 @@
 {
   "data_relatorio": "12/08/2026",
-  "gerado_em": "2026-08-12T07:11:21",
-  "atualizado_em": "2026-08-12T10:15:25",
+  "gerado_em": "2026-08-12T08:00:11",
+  "atualizado_em": "2026-08-12T11:05:27",
   "totais": {
-    "prog": 51,
+    "prog": 58,
     "carr": 0,
-    "falta": 51,
-    "tn_prev": 2073.53,
+    "falta": 58,
+    "tn_prev": 2338.53,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 13,
+      "prog": 17,
       "carr": 0,
-      "falta": 13,
-      "tn_prev": 485.5,
+      "falta": 17,
+      "tn_prev": 631.5,
       "tn_carr": 0.0
     },
     {
@@ -35,7 +35,7 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN MOC",
+      "cliente": "CSN PEDRO LEOP",
       "prog": 5,
       "carr": 0,
       "falta": 5,
@@ -43,11 +43,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN PEDRO LEOP",
-      "prog": 4,
+      "cliente": "CSN MOC",
+      "prog": 5,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 182.0,
+      "falta": 5,
+      "tn_prev": 230.0,
       "tn_carr": 0.0
     },
     {
@@ -75,6 +75,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "INTERCEMENT APIAÍ",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN CANTAGALO",
       "prog": 2,
       "carr": 0,
@@ -94,10 +102,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 39,
+      "prog": 45,
       "carr": 0,
-      "falta": 39,
-      "tn_prev": 1579.5,
+      "falta": 45,
+      "tn_prev": 1806.5,
       "tn_carr": 0.0
     },
     {
@@ -117,19 +125,19 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "Ic Phoenix",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 72.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
       "tn_carr": 0.0
     },
     {
@@ -146,19 +154,28 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 12,
+      "prog": 15,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 447.5,
+      "falta": 15,
+      "tn_prev": 555.5,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 8,
+          "prog": 9,
           "carr": 0,
-          "falta": 8,
-          "tn_prev": 289.5,
+          "falta": 9,
+          "tn_prev": 327.5,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 70.0,
           "tn_carr": 0.0
         },
         {
@@ -242,6 +259,27 @@
       ]
     },
     {
+      "lote": "CSN PEDRO LEOP - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "CSN PEDRO LEOP",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 230.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 230.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN MOC - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
@@ -267,27 +305,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN PEDRO LEOP - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 182.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 182.0,
           "tn_carr": 0.0
         }
       ]
@@ -365,6 +382,27 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
       "cliente": "SUPREMO",
       "produto": "Ic Phoenix",
@@ -395,6 +433,27 @@
       ]
     },
     {
+      "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
+      "cliente": "INTERCEMENT APIAÍ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 71.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN CANTAGALO - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
@@ -411,27 +470,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 66.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "PAULISTA TRANSP. (SC)",
-          "cnpj": "80776784000264",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
