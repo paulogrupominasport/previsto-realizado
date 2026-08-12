@@ -1,22 +1,22 @@
 {
   "data_relatorio": "12/08/2026",
-  "gerado_em": "2026-08-12T12:00:11",
-  "atualizado_em": "2026-08-12T15:05:28",
+  "gerado_em": "2026-08-12T13:00:15",
+  "atualizado_em": "2026-08-12T16:05:31",
   "totais": {
     "prog": 113,
-    "carr": 44,
-    "falta": 69,
-    "tn_prev": 4453.71,
-    "tn_carr": 1758.71
+    "carr": 51,
+    "falta": 62,
+    "tn_prev": 4453.94,
+    "tn_carr": 2022.94
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 38,
-      "carr": 13,
-      "falta": 25,
-      "tn_prev": 1433.1,
-      "tn_carr": 497.1
+      "carr": 15,
+      "falta": 23,
+      "tn_prev": 1431.22,
+      "tn_carr": 565.22
     },
     {
       "cliente": "CSN BARROSO",
@@ -37,10 +37,10 @@
     {
       "cliente": "INTERCEMENT APIAÍ",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 345.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 346.43,
+      "tn_carr": 111.43
     },
     {
       "cliente": "CSN PEDRO LEOP",
@@ -69,10 +69,10 @@
     {
       "cliente": "SUPREMO",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 250.32,
-      "tn_carr": 35.32
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 251.04,
+      "tn_carr": 72.04
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -109,10 +109,10 @@
     {
       "cliente": "INTERCEMENT BODOQUENA",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.96,
+      "tn_carr": 47.96
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -151,26 +151,26 @@
     {
       "produto": "PETCOKE",
       "prog": 85,
-      "carr": 36,
-      "falta": 49,
-      "tn_prev": 3406.75,
-      "tn_carr": 1475.75
+      "carr": 39,
+      "falta": 46,
+      "tn_prev": 3406.37,
+      "tn_carr": 1591.37
     },
     {
       "produto": "GESSO",
       "prog": 10,
-      "carr": 3,
-      "falta": 7,
-      "tn_prev": 377.34,
-      "tn_carr": 113.34
+      "carr": 6,
+      "falta": 4,
+      "tn_prev": 377.23,
+      "tn_carr": 225.23
     },
     {
       "produto": "Ic Phoenix",
       "prog": 8,
-      "carr": 1,
-      "falta": 7,
-      "tn_prev": 285.32,
-      "tn_carr": 35.32
+      "carr": 2,
+      "falta": 6,
+      "tn_prev": 286.04,
+      "tn_carr": 72.04
     },
     {
       "produto": "Carregamento Sucata",
@@ -219,10 +219,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 30,
-      "carr": 10,
-      "falta": 20,
-      "tn_prev": 1129.76,
-      "tn_carr": 383.76,
+      "carr": 11,
+      "falta": 19,
+      "tn_prev": 1128.74,
+      "tn_carr": 414.74,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -237,10 +237,10 @@
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 184.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 4,
+          "tn_prev": 182.98,
+          "tn_carr": 30.98
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -375,19 +375,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 303.34,
-      "tn_carr": 113.34,
+      "carr": 4,
+      "falta": 4,
+      "tn_prev": 302.48,
+      "tn_carr": 150.48,
       "transportadoras": [
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 8,
-          "carr": 3,
-          "falta": 5,
-          "tn_prev": 303.34,
-          "tn_carr": 113.34
+          "carr": 4,
+          "falta": 4,
+          "tn_prev": 302.48,
+          "tn_carr": 150.48
         }
       ]
     },
@@ -422,6 +422,27 @@
       ]
     },
     {
+      "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
+      "cliente": "INTERCEMENT APIAÍ",
+      "produto": "PETCOKE",
+      "prog": 7,
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 271.68,
+      "tn_carr": 36.68,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 7,
+          "carr": 1,
+          "falta": 6,
+          "tn_prev": 271.68,
+          "tn_carr": 36.68
+        }
+      ]
+    },
+    {
       "lote": "CSN CANTAGALO - PETCOKE - XING HAI TONG - PILHA 50",
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
@@ -452,35 +473,14 @@
       ]
     },
     {
-      "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
-      "cliente": "INTERCEMENT APIAÍ",
-      "produto": "PETCOKE",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 271.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "G7 LOG (SC)",
-          "cnpj": "14170909000100",
-          "prog": 7,
-          "carr": 0,
-          "falta": 7,
-          "tn_prev": 271.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
       "cliente": "SUPREMO",
       "produto": "Ic Phoenix",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 250.32,
-      "tn_carr": 35.32,
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 251.04,
+      "tn_carr": 72.04,
       "transportadoras": [
         {
           "nome": "WJ TRANSPORTES (SC)",
@@ -504,10 +504,10 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.72,
+          "tn_carr": 36.72
         },
         {
           "nome": "GWM LOGISTICA INTEGRADA LTDA",
@@ -636,19 +636,19 @@
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "GESSO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 74.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 74.75,
+      "tn_carr": 74.75,
       "transportadoras": [
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 74.75,
+          "tn_carr": 74.75
         }
       ]
     },
@@ -687,19 +687,19 @@
       "cliente": "INTERCEMENT BODOQUENA",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.96,
+      "tn_carr": 47.96,
       "transportadoras": [
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.96,
+          "tn_carr": 47.96
         }
       ]
     },
