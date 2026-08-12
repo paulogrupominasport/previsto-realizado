@@ -1,7 +1,7 @@
 {
   "data_relatorio": "12/08/2026",
-  "gerado_em": "2026-08-12T18:57:01",
-  "atualizado_em": "2026-08-12T22:00:39",
+  "gerado_em": "2026-08-12T19:00:10",
+  "atualizado_em": "2026-08-12T22:05:26",
   "totais": {
     "prog": 126,
     "carr": 105,
@@ -445,36 +445,6 @@
       ]
     },
     {
-      "lote": "CSN PEDRO LEOP - PETCOKE - XING HAI TONG - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
-      "produto": "PETCOKE",
-      "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 282.36,
-      "tn_carr": 234.36,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 97.64,
-          "tn_carr": 49.64
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 4,
-          "carr": 4,
-          "falta": 0,
-          "tn_prev": 184.72,
-          "tn_carr": 184.72
-        }
-      ]
-    },
-    {
       "lote": "LS METAIS / COQUEMETAL - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
@@ -510,6 +480,36 @@
           "falta": 0,
           "tn_prev": 32.0,
           "tn_carr": 32.44
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOP - PETCOKE - XING HAI TONG - PILHA 50",
+      "cliente": "CSN PEDRO LEOP",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 243.36,
+      "tn_carr": 195.36,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.64,
+          "tn_carr": 49.64
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 145.72,
+          "tn_carr": 145.72
         }
       ]
     },
@@ -805,6 +805,27 @@
       ]
     },
     {
+      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN PEDRO LEOP",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 86.9,
+      "tn_carr": 86.9,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 86.9,
+          "tn_carr": 86.9
+        }
+      ]
+    },
+    {
       "lote": "INTERCEMENT APIAÍ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "GESSO",
@@ -843,27 +864,6 @@
           "falta": 0,
           "tn_prev": 47.96,
           "tn_carr": 47.96
-        }
-      ]
-    },
-    {
-      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 47.9,
-      "tn_carr": 47.9,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 47.9,
-          "tn_carr": 47.9
         }
       ]
     },
