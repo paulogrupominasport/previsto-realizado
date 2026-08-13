@@ -1,29 +1,29 @@
 {
   "data_relatorio": "12/08/2026",
-  "gerado_em": "2026-08-12T20:00:16",
-  "atualizado_em": "2026-08-12T23:05:29",
+  "gerado_em": "2026-08-12T21:00:07",
+  "atualizado_em": "2026-08-13T00:05:26",
   "totais": {
-    "prog": 124,
+    "prog": 119,
     "carr": 106,
-    "falta": 18,
-    "tn_prev": 4795.92,
+    "falta": 13,
+    "tn_prev": 4615.92,
     "tn_carr": 4150.62
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 36,
+      "prog": 34,
       "carr": 33,
-      "falta": 3,
-      "tn_prev": 1350.04,
+      "falta": 1,
+      "tn_prev": 1278.04,
       "tn_carr": 1242.04
     },
     {
       "cliente": "INTERCEMENT APIAÍ",
-      "prog": 16,
+      "prog": 14,
       "carr": 12,
-      "falta": 4,
-      "tn_prev": 592.07,
+      "falta": 2,
+      "tn_prev": 520.07,
       "tn_carr": 444.07
     },
     {
@@ -51,14 +51,6 @@
       "tn_carr": 364.95
     },
     {
-      "cliente": "SUPREMO",
-      "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 325.25,
-      "tn_carr": 251.25
-    },
-    {
       "cliente": "CSN BARROSO",
       "prog": 9,
       "carr": 8,
@@ -73,6 +65,14 @@
       "falta": 0,
       "tn_prev": 303.87,
       "tn_carr": 303.87
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 8,
+      "carr": 7,
+      "falta": 1,
+      "tn_prev": 289.25,
+      "tn_carr": 251.25
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -158,10 +158,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 94,
+      "prog": 90,
       "carr": 82,
-      "falta": 12,
-      "tn_prev": 3679.56,
+      "falta": 8,
+      "tn_prev": 3535.56,
       "tn_carr": 3262.26
     },
     {
@@ -174,10 +174,10 @@
     },
     {
       "produto": "Ic Phoenix",
-      "prog": 10,
+      "prog": 9,
       "carr": 8,
-      "falta": 2,
-      "tn_prev": 361.32,
+      "falta": 1,
+      "tn_prev": 325.32,
       "tn_carr": 287.32
     },
     {
@@ -226,10 +226,10 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 28,
+      "prog": 26,
       "carr": 25,
-      "falta": 3,
-      "tn_prev": 1052.26,
+      "falta": 1,
+      "tn_prev": 980.26,
       "tn_carr": 944.26,
       "transportadoras": [
         {
@@ -253,10 +253,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 3,
+          "prog": 1,
           "carr": 1,
-          "falta": 2,
-          "tn_prev": 107.64,
+          "falta": 0,
+          "tn_prev": 35.64,
           "tn_carr": 35.64
         },
         {
@@ -274,19 +274,19 @@
       "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "PETCOKE",
-      "prog": 14,
+      "prog": 12,
       "carr": 10,
-      "falta": 4,
-      "tn_prev": 517.32,
+      "falta": 2,
+      "tn_prev": 445.32,
       "tn_carr": 369.32,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 3,
+          "prog": 1,
           "carr": 1,
-          "falta": 2,
-          "tn_prev": 108.46,
+          "falta": 0,
+          "tn_prev": 36.46,
           "tn_carr": 36.46
         },
         {
@@ -340,13 +340,34 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 8,
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 297.78,
+      "tn_carr": 297.78,
+      "transportadoras": [
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 8,
+          "carr": 8,
+          "falta": 0,
+          "tn_prev": 297.78,
+          "tn_carr": 297.78
+        }
+      ]
+    },
+    {
       "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
       "cliente": "SUPREMO",
       "produto": "Ic Phoenix",
-      "prog": 9,
+      "prog": 8,
       "carr": 7,
-      "falta": 2,
-      "tn_prev": 325.25,
+      "falta": 1,
+      "tn_prev": 289.25,
       "tn_carr": 251.25,
       "transportadoras": [
         {
@@ -379,10 +400,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 2,
+          "prog": 1,
           "carr": 1,
-          "falta": 1,
-          "tn_prev": 72.72,
+          "falta": 0,
+          "tn_prev": 36.72,
           "tn_carr": 36.72
         },
         {
@@ -402,27 +423,6 @@
           "falta": 0,
           "tn_prev": 73.42,
           "tn_carr": 73.42
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 8,
-      "carr": 8,
-      "falta": 0,
-      "tn_prev": 297.78,
-      "tn_carr": 297.78,
-      "transportadoras": [
-        {
-          "nome": "PAULISTA TRANSP. (SC)",
-          "cnpj": "80776784000264",
-          "prog": 8,
-          "carr": 8,
-          "falta": 0,
-          "tn_prev": 297.78,
-          "tn_carr": 297.78
         }
       ]
     },
