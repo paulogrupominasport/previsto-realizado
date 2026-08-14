@@ -1,21 +1,21 @@
 {
   "data_relatorio": "14/08/2026",
-  "gerado_em": "2026-08-14T08:49:40",
-  "atualizado_em": "2026-08-14T11:55:27",
+  "gerado_em": "2026-08-14T09:02:41",
+  "atualizado_em": "2026-08-14T12:05:24",
   "totais": {
-    "prog": 113,
-    "carr": 13,
-    "falta": 100,
-    "tn_prev": 4591.88,
-    "tn_carr": 514.24
+    "prog": 119,
+    "carr": 14,
+    "falta": 105,
+    "tn_prev": 4802.98,
+    "tn_carr": 540.34
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 34,
+      "prog": 35,
       "carr": 8,
-      "falta": 26,
-      "tn_prev": 1247.6,
+      "falta": 27,
+      "tn_prev": 1285.6,
       "tn_carr": 281.9
     },
     {
@@ -28,10 +28,10 @@
     },
     {
       "cliente": "CSN PEDRO LEOP",
-      "prog": 13,
+      "prog": 14,
       "carr": 1,
-      "falta": 12,
-      "tn_prev": 576.52,
+      "falta": 13,
+      "tn_prev": 624.52,
       "tn_carr": 48.52
     },
     {
@@ -52,10 +52,10 @@
     },
     {
       "cliente": "SUPREMO",
-      "prog": 6,
+      "prog": 7,
       "carr": 1,
-      "falta": 5,
-      "tn_prev": 221.76,
+      "falta": 6,
+      "tn_prev": 259.76,
       "tn_carr": 38.76
     },
     {
@@ -83,6 +83,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "COMERCIAL CARVALHO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 89.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 2,
       "carr": 0,
@@ -93,20 +101,20 @@
     {
       "cliente": "CSN CANTAGALO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 63.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 61.1,
+      "tn_carr": 26.1
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 76,
-      "carr": 9,
-      "falta": 67,
-      "tn_prev": 3180.12,
-      "tn_carr": 330.42
+      "prog": 78,
+      "carr": 10,
+      "falta": 68,
+      "tn_prev": 3264.22,
+      "tn_carr": 356.52
     },
     {
       "produto": "GESSO",
@@ -118,10 +126,10 @@
     },
     {
       "produto": "Ic Phoenix",
-      "prog": 10,
+      "prog": 11,
       "carr": 1,
-      "falta": 9,
-      "tn_prev": 358.76,
+      "falta": 10,
+      "tn_prev": 396.76,
       "tn_carr": 38.76
     },
     {
@@ -141,6 +149,14 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Carregamento Sucata",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 89.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "Antracito",
       "prog": 2,
       "carr": 0,
@@ -154,10 +170,10 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 27,
+      "prog": 28,
       "carr": 8,
-      "falta": 19,
-      "tn_prev": 981.6,
+      "falta": 20,
+      "tn_prev": 1019.6,
       "tn_carr": 281.9,
       "transportadoras": [
         {
@@ -168,6 +184,15 @@
           "falta": 11,
           "tn_prev": 445.78,
           "tn_carr": 35.78
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -223,10 +248,10 @@
       "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN PEDRO LEOP",
       "produto": "PETCOKE",
-      "prog": 13,
+      "prog": 14,
       "carr": 1,
-      "falta": 12,
-      "tn_prev": 576.52,
+      "falta": 13,
+      "tn_prev": 624.52,
       "tn_carr": 48.52,
       "transportadoras": [
         {
@@ -241,10 +266,10 @@
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
-          "prog": 4,
+          "prog": 5,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 192.0,
+          "falta": 5,
+          "tn_prev": 240.0,
           "tn_carr": 0.0
         }
       ]
@@ -325,10 +350,10 @@
       "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
       "cliente": "SUPREMO",
       "produto": "Ic Phoenix",
-      "prog": 6,
+      "prog": 7,
       "carr": 1,
-      "falta": 5,
-      "tn_prev": 221.76,
+      "falta": 6,
+      "tn_prev": 259.76,
       "tn_carr": 38.76,
       "transportadoras": [
         {
@@ -361,10 +386,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         },
         {
@@ -472,6 +497,27 @@
       ]
     },
     {
+      "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 75",
+      "cliente": "COMERCIAL CARVALHO",
+      "produto": "Carregamento Sucata",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 89.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "COMERCIAL CARVALHO",
+          "cnpj": "05362003000199",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 89.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "LS METAIS / COQUEMETAL - ANTRACITO - PHOENICIAN- PILHA 52",
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "Antracito",
@@ -506,19 +552,19 @@
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 63.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 61.1,
+      "tn_carr": 26.1,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 28.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 26.1,
+          "tn_carr": 26.1
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
