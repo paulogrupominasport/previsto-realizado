@@ -1,12 +1,12 @@
 {
   "data_relatorio": "14/08/2026",
-  "gerado_em": "2026-08-14T20:00:10",
-  "atualizado_em": "2026-08-14T23:05:26",
+  "gerado_em": "2026-08-14T21:00:16",
+  "atualizado_em": "2026-08-15T00:05:27",
   "totais": {
-    "prog": 159,
+    "prog": 157,
     "carr": 147,
-    "falta": 12,
-    "tn_prev": 6115.74,
+    "falta": 10,
+    "tn_prev": 6031.74,
     "tn_carr": 5670.97
   },
   "por_cliente": [
@@ -27,20 +27,20 @@
       "tn_carr": 555.82
     },
     {
-      "cliente": "CSN PEDRO LEOP",
-      "prog": 16,
-      "carr": 15,
-      "falta": 1,
-      "tn_prev": 690.28,
-      "tn_carr": 642.28
-    },
-    {
       "cliente": "INTERCEMENT APIAÍ",
       "prog": 18,
       "carr": 18,
       "falta": 0,
       "tn_prev": 668.02,
       "tn_carr": 668.02
+    },
+    {
+      "cliente": "CSN PEDRO LEOP",
+      "prog": 15,
+      "carr": 15,
+      "falta": 0,
+      "tn_prev": 642.28,
+      "tn_carr": 642.28
     },
     {
       "cliente": "CSN MOC",
@@ -52,10 +52,10 @@
     },
     {
       "cliente": "CSN CANTAGALO",
-      "prog": 16,
+      "prog": 15,
       "carr": 13,
-      "falta": 3,
-      "tn_prev": 558.18,
+      "falta": 2,
+      "tn_prev": 522.18,
       "tn_carr": 437.18
     },
     {
@@ -126,10 +126,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 107,
+      "prog": 105,
       "carr": 99,
-      "falta": 8,
-      "tn_prev": 4275.34,
+      "falta": 6,
+      "tn_prev": 4191.34,
       "tn_carr": 3972.79
     },
     {
@@ -242,10 +242,10 @@
       "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN PEDRO LEOP",
       "produto": "PETCOKE",
-      "prog": 16,
+      "prog": 15,
       "carr": 15,
-      "falta": 1,
-      "tn_prev": 690.28,
+      "falta": 0,
+      "tn_prev": 642.28,
       "tn_carr": 642.28,
       "transportadoras": [
         {
@@ -260,10 +260,10 @@
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
-          "prog": 5,
+          "prog": 4,
           "carr": 4,
-          "falta": 1,
-          "tn_prev": 241.8,
+          "falta": 0,
+          "tn_prev": 193.8,
           "tn_carr": 193.8
         }
       ]
@@ -371,10 +371,10 @@
       "lote": "CSN CANTAGALO - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
-      "prog": 16,
+      "prog": 15,
       "carr": 13,
-      "falta": 3,
-      "tn_prev": 558.18,
+      "falta": 2,
+      "tn_prev": 522.18,
       "tn_carr": 437.18,
       "transportadoras": [
         {
@@ -389,10 +389,10 @@
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 15,
+          "prog": 14,
           "carr": 12,
-          "falta": 3,
-          "tn_prev": 532.08,
+          "falta": 2,
+          "tn_prev": 496.08,
           "tn_carr": 411.08
         }
       ]
