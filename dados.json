@@ -1,38 +1,38 @@
 {
   "data_relatorio": "16/08/2026",
-  "gerado_em": "2026-08-16T10:00:05",
-  "atualizado_em": "2026-08-16T13:05:25",
+  "gerado_em": "2026-08-16T11:00:11",
+  "atualizado_em": "2026-08-16T14:05:25",
   "totais": {
-    "prog": 20,
-    "carr": 7,
-    "falta": 13,
-    "tn_prev": 944.76,
-    "tn_carr": 329.76
+    "prog": 21,
+    "carr": 12,
+    "falta": 9,
+    "tn_prev": 993.78,
+    "tn_carr": 567.78
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 9,
-      "carr": 6,
-      "falta": 3,
-      "tn_prev": 419.88,
-      "tn_carr": 278.88
+      "carr": 9,
+      "falta": 0,
+      "tn_prev": 417.67,
+      "tn_carr": 417.67
     },
     {
       "cliente": "CSN MOC",
-      "prog": 4,
+      "prog": 5,
       "carr": 1,
-      "falta": 3,
-      "tn_prev": 194.88,
+      "falta": 4,
+      "tn_prev": 242.88,
       "tn_carr": 50.88
     },
     {
       "cliente": "CSN PEDRO LEOP",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 195.23,
+      "tn_carr": 99.23
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -54,11 +54,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 17,
-      "carr": 7,
-      "falta": 10,
-      "tn_prev": 806.76,
-      "tn_carr": 329.76
+      "prog": 18,
+      "carr": 12,
+      "falta": 6,
+      "tn_prev": 855.78,
+      "tn_carr": 567.78
     },
     {
       "produto": "PETRÓLEO",
@@ -83,10 +83,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 9,
-      "carr": 6,
-      "falta": 3,
-      "tn_prev": 419.88,
-      "tn_carr": 278.88,
+      "carr": 9,
+      "falta": 0,
+      "tn_prev": 417.67,
+      "tn_carr": 417.67,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -101,10 +101,10 @@
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 8,
-          "carr": 5,
-          "falta": 3,
-          "tn_prev": 370.99,
-          "tn_carr": 229.99
+          "carr": 8,
+          "falta": 0,
+          "tn_prev": 368.78,
+          "tn_carr": 368.78
         }
       ]
     },
@@ -112,19 +112,19 @@
       "lote": "CSN MOC - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
-      "prog": 4,
+      "prog": 5,
       "carr": 1,
-      "falta": 3,
-      "tn_prev": 194.88,
+      "falta": 4,
+      "tn_prev": 242.88,
       "tn_carr": 50.88,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 4,
+          "prog": 5,
           "carr": 1,
-          "falta": 3,
-          "tn_prev": 194.88,
+          "falta": 4,
+          "tn_prev": 242.88,
           "tn_carr": 50.88
         }
       ]
@@ -134,28 +134,28 @@
       "cliente": "CSN PEDRO LEOP",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 195.23,
+      "tn_carr": 99.23,
       "transportadoras": [
         {
           "nome": "TRANSPORTADORA BOA VIAGEM LTDA",
           "cnpj": "02574772002882",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 50.43,
+          "tn_carr": 50.43
         },
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 96.8,
+          "tn_carr": 48.8
         },
         {
           "nome": "GT MINAS (RJ)",
