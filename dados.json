@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/08/2026",
-  "gerado_em": "2026-08-16T12:00:08",
-  "atualizado_em": "2026-08-16T15:05:24",
+  "gerado_em": "2026-08-16T13:00:15",
+  "atualizado_em": "2026-08-16T16:00:51",
   "totais": {
-    "prog": 21,
-    "carr": 14,
+    "prog": 22,
+    "carr": 15,
     "falta": 7,
-    "tn_prev": 992.3,
-    "tn_carr": 664.31
+    "tn_prev": 1040.4,
+    "tn_carr": 712.4
   },
   "por_cliente": [
     {
@@ -20,19 +20,19 @@
     },
     {
       "cliente": "CSN MOC",
-      "prog": 5,
+      "prog": 6,
       "carr": 2,
-      "falta": 3,
-      "tn_prev": 243.95,
+      "falta": 4,
+      "tn_prev": 291.95,
       "tn_carr": 99.95
     },
     {
       "cliente": "CSN PEDRO LEOP",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 195.23,
-      "tn_carr": 99.23
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 195.33,
+      "tn_carr": 147.33
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -54,11 +54,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 18,
-      "carr": 13,
+      "prog": 19,
+      "carr": 14,
       "falta": 5,
-      "tn_prev": 856.85,
-      "tn_carr": 616.85
+      "tn_prev": 904.95,
+      "tn_carr": 664.95
     },
     {
       "produto": "PETRÓLEO",
@@ -112,19 +112,19 @@
       "lote": "CSN MOC - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
-      "prog": 5,
+      "prog": 6,
       "carr": 2,
-      "falta": 3,
-      "tn_prev": 243.95,
+      "falta": 4,
+      "tn_prev": 291.95,
       "tn_carr": 99.95,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 5,
+          "prog": 6,
           "carr": 2,
-          "falta": 3,
-          "tn_prev": 243.95,
+          "falta": 4,
+          "tn_prev": 291.95,
           "tn_carr": 99.95
         }
       ]
@@ -134,10 +134,10 @@
       "cliente": "CSN PEDRO LEOP",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 195.23,
-      "tn_carr": 99.23,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 195.33,
+      "tn_carr": 147.33,
       "transportadoras": [
         {
           "nome": "TRANSPORTADORA BOA VIAGEM LTDA",
@@ -161,10 +161,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.1,
+          "tn_carr": 48.1
         }
       ]
     },
