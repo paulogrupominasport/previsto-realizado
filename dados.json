@@ -1,15 +1,23 @@
 {
   "data_relatorio": "16/08/2026",
-  "gerado_em": "2026-08-16T07:00:18",
-  "atualizado_em": "2026-08-16T10:05:28",
+  "gerado_em": "2026-08-16T08:00:08",
+  "atualizado_em": "2026-08-16T11:05:27",
   "totais": {
-    "prog": 11,
+    "prog": 19,
     "carr": 0,
-    "falta": 11,
-    "tn_prev": 520.0,
+    "falta": 19,
+    "tn_prev": 899.0,
     "tn_carr": 0.0
   },
   "por_cliente": [
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 9,
+      "carr": 0,
+      "falta": 9,
+      "tn_prev": 425.0,
+      "tn_carr": 0.0
+    },
     {
       "cliente": "CSN MOC",
       "prog": 4,
@@ -27,19 +35,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CIM. LIZ",
+      "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "PETRORECONCAVO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
+      "tn_prev": 100.0,
       "tn_carr": 0.0
     },
     {
@@ -54,18 +54,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 9,
+      "prog": 16,
       "carr": 0,
-      "falta": 9,
-      "tn_prev": 432.0,
+      "falta": 16,
+      "tn_prev": 761.0,
       "tn_carr": 0.0
     },
     {
       "produto": "PETRÓLEO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
+      "falta": 2,
+      "tn_prev": 100.0,
       "tn_carr": 0.0
     },
     {
@@ -78,6 +78,36 @@
     }
   ],
   "lotes": [
+    {
+      "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 9,
+      "carr": 0,
+      "falta": 9,
+      "tn_prev": 425.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 8,
+          "carr": 0,
+          "falta": 8,
+          "tn_prev": 377.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
     {
       "lote": "CSN MOC - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN MOC",
@@ -139,52 +169,22 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "LENARGE (RJ)",
-          "cnpj": "02870124000315",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
+      "falta": 2,
+      "tn_prev": 100.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
+          "falta": 2,
+          "tn_prev": 100.0,
           "tn_carr": 0.0
         }
       ]
