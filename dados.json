@@ -1,22 +1,22 @@
 {
   "data_relatorio": "17/08/2026",
-  "gerado_em": "2026-08-17T09:56:38",
-  "atualizado_em": "2026-08-17T13:00:23",
+  "gerado_em": "2026-08-17T10:00:05",
+  "atualizado_em": "2026-08-17T13:05:38",
   "totais": {
-    "prog": 43,
-    "carr": 7,
-    "falta": 36,
-    "tn_prev": 1674.31,
-    "tn_carr": 303.31
+    "prog": 42,
+    "carr": 8,
+    "falta": 34,
+    "tn_prev": 1638.91,
+    "tn_carr": 340.91
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 24,
-      "carr": 2,
-      "falta": 22,
-      "tn_prev": 901.35,
-      "tn_carr": 82.35
+      "carr": 3,
+      "falta": 21,
+      "tn_prev": 900.95,
+      "tn_carr": 119.95
     },
     {
       "cliente": "SUPREMO",
@@ -28,10 +28,10 @@
     },
     {
       "cliente": "RIO DESERTO",
-      "prog": 5,
+      "prog": 4,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 168.0,
+      "falta": 4,
+      "tn_prev": 133.0,
       "tn_carr": 0.0
     },
     {
@@ -78,10 +78,10 @@
     },
     {
       "produto": "Ic Phoenix",
-      "prog": 11,
+      "prog": 10,
       "carr": 1,
-      "falta": 10,
-      "tn_prev": 404.9,
+      "falta": 9,
+      "tn_prev": 369.9,
       "tn_carr": 38.9
     },
     {
@@ -93,7 +93,7 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "GESSO",
+      "produto": "CARVÃO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
@@ -101,12 +101,12 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "CARVÃO",
+      "produto": "GESSO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.6,
+      "tn_carr": 37.6
     }
   ],
   "lotes": [
@@ -201,10 +201,10 @@
       "lote": "RIO DESERTO - IC PHOENIX - PETCOKE ATE - PILHA 20",
       "cliente": "RIO DESERTO",
       "produto": "Ic Phoenix",
-      "prog": 5,
+      "prog": 4,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 168.0,
+      "falta": 4,
+      "tn_prev": 133.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -214,15 +214,6 @@
           "carr": 0,
           "falta": 4,
           "tn_prev": 133.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "ATR MINHOCAO",
-          "cnpj": "66866968000103",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]
@@ -321,27 +312,6 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "PAULISTA TRANSP. (SC)",
-          "cnpj": "80776784000264",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
@@ -359,6 +329,27 @@
           "falta": 1,
           "tn_prev": 38.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.6,
+      "tn_carr": 37.6,
+      "transportadoras": [
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.6,
+          "tn_carr": 37.6
         }
       ]
     }
