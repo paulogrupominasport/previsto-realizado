@@ -1,46 +1,46 @@
 {
   "data_relatorio": "17/08/2026",
-  "gerado_em": "2026-08-17T10:00:05",
-  "atualizado_em": "2026-08-17T13:05:38",
+  "gerado_em": "2026-08-17T11:00:15",
+  "atualizado_em": "2026-08-17T14:05:27",
   "totais": {
-    "prog": 42,
-    "carr": 8,
-    "falta": 34,
-    "tn_prev": 1638.91,
-    "tn_carr": 340.91
+    "prog": 47,
+    "carr": 15,
+    "falta": 32,
+    "tn_prev": 1837.53,
+    "tn_carr": 592.53
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 24,
-      "carr": 3,
-      "falta": 21,
-      "tn_prev": 900.95,
-      "tn_carr": 119.95
+      "prog": 27,
+      "carr": 8,
+      "falta": 19,
+      "tn_prev": 1018.21,
+      "tn_carr": 300.21
     },
     {
       "cliente": "SUPREMO",
       "prog": 6,
-      "carr": 1,
-      "falta": 5,
-      "tn_prev": 236.9,
-      "tn_carr": 38.9
-    },
-    {
-      "cliente": "RIO DESERTO",
-      "prog": 4,
-      "carr": 0,
+      "carr": 2,
       "falta": 4,
-      "tn_prev": 133.0,
-      "tn_carr": 0.0
+      "tn_prev": 236.14,
+      "tn_carr": 76.14
     },
     {
       "cliente": "CSN PEDRO LEOP",
-      "prog": 3,
+      "prog": 4,
       "carr": 2,
-      "falta": 1,
-      "tn_prev": 132.82,
+      "falta": 2,
+      "tn_prev": 180.82,
       "tn_carr": 84.82
+    },
+    {
+      "cliente": "RIO DESERTO",
+      "prog": 5,
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 167.12,
+      "tn_carr": 34.12
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -70,19 +70,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 28,
-      "carr": 6,
-      "falta": 22,
-      "tn_prev": 1093.41,
-      "tn_carr": 264.41
+      "prog": 30,
+      "carr": 10,
+      "falta": 20,
+      "tn_prev": 1170.6,
+      "tn_carr": 394.6
     },
     {
       "produto": "Ic Phoenix",
-      "prog": 10,
-      "carr": 1,
-      "falta": 9,
-      "tn_prev": 369.9,
-      "tn_carr": 38.9
+      "prog": 11,
+      "carr": 3,
+      "falta": 8,
+      "tn_prev": 403.26,
+      "tn_carr": 110.26
     },
     {
       "produto": "PETRÓLEO",
@@ -94,18 +94,18 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
+      "prog": 2,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "tn_prev": 88.07,
+      "tn_carr": 50.07
     },
     {
       "produto": "GESSO",
-      "prog": 1,
+      "prog": 2,
       "carr": 1,
-      "falta": 0,
-      "tn_prev": 37.6,
+      "falta": 1,
+      "tn_prev": 75.6,
       "tn_carr": 37.6
     }
   ],
@@ -114,38 +114,38 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 23,
-      "carr": 2,
-      "falta": 21,
-      "tn_prev": 863.35,
-      "tn_carr": 82.35,
+      "prog": 25,
+      "carr": 7,
+      "falta": 18,
+      "tn_prev": 942.61,
+      "tn_carr": 262.61,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 113.72,
+          "tn_carr": 75.72
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 19,
-          "carr": 2,
-          "falta": 17,
-          "tn_prev": 711.35,
-          "tn_carr": 82.35
+          "prog": 20,
+          "carr": 5,
+          "falta": 15,
+          "tn_prev": 752.89,
+          "tn_carr": 186.89
         }
       ]
     },
@@ -154,10 +154,10 @@
       "cliente": "SUPREMO",
       "produto": "Ic Phoenix",
       "prog": 6,
-      "carr": 1,
-      "falta": 5,
-      "tn_prev": 236.9,
-      "tn_carr": 38.9,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 236.14,
+      "tn_carr": 76.14,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
@@ -181,10 +181,10 @@
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 76.9,
-          "tn_carr": 38.9
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 76.14,
+          "tn_carr": 76.14
         },
         {
           "nome": "AT TRANSPORTES (SC)",
@@ -198,34 +198,13 @@
       ]
     },
     {
-      "lote": "RIO DESERTO - IC PHOENIX - PETCOKE ATE - PILHA 20",
-      "cliente": "RIO DESERTO",
-      "produto": "Ic Phoenix",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 133.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "LUAN DE SOUZA BONFANTE (SC)",
-          "cnpj": "21430615000128",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 133.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN PEDRO LEOP",
       "produto": "PETCOKE",
-      "prog": 3,
+      "prog": 4,
       "carr": 2,
-      "falta": 1,
-      "tn_prev": 132.82,
+      "falta": 2,
+      "tn_prev": 180.82,
       "tn_carr": 84.82,
       "transportadoras": [
         {
@@ -245,6 +224,36 @@
           "falta": 0,
           "tn_prev": 84.82,
           "tn_carr": 84.82
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "RIO DESERTO - IC PHOENIX - PETCOKE ATE - PILHA 20",
+      "cliente": "RIO DESERTO",
+      "produto": "Ic Phoenix",
+      "prog": 5,
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 167.12,
+      "tn_carr": 34.12,
+      "transportadoras": [
+        {
+          "nome": "LUAN DE SOUZA BONFANTE (SC)",
+          "cnpj": "21430615000128",
+          "prog": 5,
+          "carr": 1,
+          "falta": 4,
+          "tn_prev": 167.12,
+          "tn_carr": 34.12
         }
       ]
     },
@@ -270,13 +279,13 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 1,
+      "produto": "CARVÃO",
+      "prog": 2,
       "carr": 1,
-      "falta": 0,
-      "tn_prev": 50.07,
+      "falta": 1,
+      "tn_prev": 88.07,
       "tn_carr": 50.07,
       "transportadoras": [
         {
@@ -287,6 +296,36 @@
           "falta": 0,
           "tn_prev": 50.07,
           "tn_carr": 50.07
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 75.6,
+      "tn_carr": 37.6,
+      "transportadoras": [
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 75.6,
+          "tn_carr": 37.6
         }
       ]
     },
@@ -308,48 +347,6 @@
           "falta": 0,
           "tn_prev": 47.17,
           "tn_carr": 47.17
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 37.6,
-      "tn_carr": 37.6,
-      "transportadoras": [
-        {
-          "nome": "PAULISTA TRANSP. (SC)",
-          "cnpj": "80776784000264",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 37.6,
-          "tn_carr": 37.6
         }
       ]
     }
