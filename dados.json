@@ -1,29 +1,29 @@
 {
   "data_relatorio": "17/08/2026",
-  "gerado_em": "2026-08-17T15:00:15",
-  "atualizado_em": "2026-08-17T18:05:31",
+  "gerado_em": "2026-08-17T16:00:11",
+  "atualizado_em": "2026-08-17T19:05:27",
   "totais": {
-    "prog": 68,
-    "carr": 39,
-    "falta": 29,
-    "tn_prev": 2574.24,
-    "tn_carr": 1426.92
+    "prog": 72,
+    "carr": 47,
+    "falta": 25,
+    "tn_prev": 2736.81,
+    "tn_carr": 1768.59
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 32,
-      "carr": 22,
-      "falta": 10,
-      "tn_prev": 1128.47,
-      "tn_carr": 782.59
+      "prog": 31,
+      "carr": 25,
+      "falta": 6,
+      "tn_prev": 1090.99,
+      "tn_carr": 892.11
     },
     {
       "cliente": "CSN PEDRO LEOP",
-      "prog": 9,
+      "prog": 8,
       "carr": 3,
-      "falta": 6,
-      "tn_prev": 398.67,
+      "falta": 5,
+      "tn_prev": 359.67,
       "tn_carr": 132.67
     },
     {
@@ -35,12 +35,20 @@
       "tn_carr": 134.0
     },
     {
+      "cliente": "CIM. LIZ",
+      "prog": 7,
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 282.07,
+      "tn_carr": 101.17
+    },
+    {
       "cliente": "SUPREMO",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 234.36,
-      "tn_carr": 150.36
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 237.2,
+      "tn_carr": 237.2
     },
     {
       "cliente": "INTERCEMENT APIAÍ",
@@ -51,20 +59,20 @@
       "tn_carr": 110.5
     },
     {
-      "cliente": "PETRORECONCAVO",
+      "cliente": "LS METAIS / COQUEMETAL",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 100.0,
+      "tn_prev": 96.0,
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN MOC",
+      "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 2,
       "falta": 0,
-      "tn_prev": 97.24,
-      "tn_carr": 97.24
+      "tn_prev": 94.21,
+      "tn_carr": 94.21
     },
     {
       "cliente": "INTERCEMENT FOB",
@@ -75,20 +83,12 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "LS METAIS / COQUEMETAL",
+      "cliente": "CSN MOC",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.17,
+      "tn_carr": 47.17
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -102,19 +102,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 38,
-      "carr": 22,
-      "falta": 16,
-      "tn_prev": 1434.43,
-      "tn_carr": 822.55
+      "prog": 36,
+      "carr": 25,
+      "falta": 11,
+      "tn_prev": 1357.95,
+      "tn_carr": 932.07
     },
     {
       "produto": "Ic Phoenix",
       "prog": 15,
-      "carr": 8,
-      "falta": 7,
-      "tn_prev": 541.36,
-      "tn_carr": 284.36
+      "carr": 10,
+      "falta": 5,
+      "tn_prev": 544.2,
+      "tn_carr": 371.2
     },
     {
       "produto": "GESSO",
@@ -125,12 +125,28 @@
       "tn_carr": 300.45
     },
     {
-      "produto": "PETRÓLEO",
+      "produto": "CARVÃO",
+      "prog": 6,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 232.0,
+      "tn_carr": 51.1
+    },
+    {
+      "produto": "Antracito",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 100.0,
+      "tn_prev": 96.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.21,
+      "tn_carr": 94.21
     },
     {
       "produto": "Ijací",
@@ -138,22 +154,6 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 86.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Antracito",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
       "tn_carr": 0.0
     },
     {
@@ -170,19 +170,19 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 27,
-      "carr": 17,
-      "falta": 10,
-      "tn_prev": 938.52,
-      "tn_carr": 592.64,
+      "prog": 26,
+      "carr": 20,
+      "falta": 6,
+      "tn_prev": 901.04,
+      "tn_carr": 702.16,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 2,
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         },
         {
@@ -198,19 +198,19 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.06,
+          "tn_carr": 35.06
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 21,
-          "carr": 14,
-          "falta": 7,
-          "tn_prev": 751.36,
-          "tn_carr": 516.48
+          "carr": 16,
+          "falta": 5,
+          "tn_prev": 751.82,
+          "tn_carr": 590.94
         }
       ]
     },
@@ -218,10 +218,10 @@
       "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN PEDRO LEOP",
       "produto": "PETCOKE",
-      "prog": 9,
+      "prog": 8,
       "carr": 3,
-      "falta": 6,
-      "tn_prev": 398.67,
+      "falta": 5,
+      "tn_prev": 359.67,
       "tn_carr": 132.67,
       "transportadoras": [
         {
@@ -236,10 +236,10 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 6,
+          "prog": 5,
           "carr": 2,
-          "falta": 4,
-          "tn_prev": 254.82,
+          "falta": 3,
+          "tn_prev": 215.82,
           "tn_carr": 84.82
         },
         {
@@ -279,19 +279,19 @@
       "cliente": "SUPREMO",
       "produto": "Ic Phoenix",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 234.36,
-      "tn_carr": 150.36,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 237.2,
+      "tn_carr": 237.2,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 71.66,
-          "tn_carr": 35.66
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 74.16,
+          "tn_carr": 74.16
         },
         {
           "nome": "GWM LOGISTICA INTEGRADA LTDA",
@@ -315,9 +315,48 @@
           "nome": "AT TRANSPORTES (SC)",
           "cnpj": "14898558000493",
           "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.34,
+          "tn_carr": 48.34
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 6,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 232.0,
+      "tn_carr": 51.1,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 110.0,
+          "tn_carr": 51.1
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
           "carr": 0,
           "falta": 1,
           "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
           "tn_carr": 0.0
         }
       ]
@@ -365,44 +404,53 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
+      "lote": "LS METAIS / COQUEMETAL - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS / COQUEMETAL",
+      "produto": "Antracito",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 100.0,
+      "tn_prev": 96.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
     },
     {
-      "lote": "CSN MOC - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN MOC",
-      "produto": "PETCOKE",
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 2,
       "falta": 0,
-      "tn_prev": 97.24,
-      "tn_carr": 97.24,
+      "tn_prev": 94.21,
+      "tn_carr": 94.21,
       "transportadoras": [
         {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
           "prog": 2,
           "carr": 2,
           "falta": 0,
-          "tn_prev": 97.24,
-          "tn_carr": 97.24
+          "tn_prev": 94.21,
+          "tn_carr": 94.21
         }
       ]
     },
@@ -428,44 +476,44 @@
       ]
     },
     {
-      "lote": "LS METAIS / COQUEMETAL - ANTRACITO - PHOENICIAN- PILHA 52",
-      "cliente": "LS METAIS / COQUEMETAL",
-      "produto": "Antracito",
+      "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 50.07,
+      "tn_carr": 50.07,
       "transportadoras": [
         {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 50.07,
+          "tn_carr": 50.07
         }
       ]
     },
     {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
+      "lote": "CSN MOC - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN MOC",
+      "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.17,
+      "tn_carr": 47.17,
       "transportadoras": [
         {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.17,
+          "tn_carr": 47.17
         }
       ]
     },
