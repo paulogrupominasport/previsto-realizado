@@ -1,22 +1,22 @@
 {
   "data_relatorio": "18/08/2026",
-  "gerado_em": "2026-08-18T18:00:14",
-  "atualizado_em": "2026-08-18T21:05:28",
+  "gerado_em": "2026-08-18T19:00:05",
+  "atualizado_em": "2026-08-18T22:05:27",
   "totais": {
-    "prog": 108,
-    "carr": 97,
-    "falta": 11,
-    "tn_prev": 4153.01,
-    "tn_carr": 3763.65
+    "prog": 109,
+    "carr": 100,
+    "falta": 9,
+    "tn_prev": 4192.95,
+    "tn_carr": 3889.59
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 35,
-      "carr": 30,
-      "falta": 5,
-      "tn_prev": 1287.9,
-      "tn_carr": 1141.78
+      "carr": 33,
+      "falta": 2,
+      "tn_prev": 1289.84,
+      "tn_carr": 1267.72
     },
     {
       "cliente": "RIO DESERTO",
@@ -67,20 +67,20 @@
       "tn_carr": 232.25
     },
     {
+      "cliente": "INTERCEMENT APIAÍ",
+      "prog": 5,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 185.21,
+      "tn_carr": 147.21
+    },
+    {
       "cliente": "SUPREMO",
       "prog": 5,
       "carr": 5,
       "falta": 0,
       "tn_prev": 181.69,
       "tn_carr": 181.69
-    },
-    {
-      "cliente": "INTERCEMENT APIAÍ",
-      "prog": 4,
-      "carr": 4,
-      "falta": 0,
-      "tn_prev": 147.21,
-      "tn_carr": 147.21
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -119,10 +119,10 @@
     {
       "produto": "PETCOKE",
       "prog": 58,
-      "carr": 49,
-      "falta": 9,
-      "tn_prev": 2365.55,
-      "tn_carr": 2003.47
+      "carr": 52,
+      "falta": 6,
+      "tn_prev": 2367.49,
+      "tn_carr": 2129.41
     },
     {
       "produto": "Ic Phoenix",
@@ -142,10 +142,10 @@
     },
     {
       "produto": "GESSO",
-      "prog": 13,
+      "prog": 14,
       "carr": 13,
-      "falta": 0,
-      "tn_prev": 442.91,
+      "falta": 1,
+      "tn_prev": 480.91,
       "tn_carr": 480.79
     },
     {
@@ -171,10 +171,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 26,
-      "carr": 21,
-      "falta": 5,
-      "tn_prev": 992.2,
-      "tn_carr": 808.2,
+      "carr": 24,
+      "falta": 2,
+      "tn_prev": 994.14,
+      "tn_carr": 934.14,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -189,19 +189,19 @@
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 75.82,
+          "tn_carr": 75.82
         },
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 7,
-          "carr": 4,
-          "falta": 3,
-          "tn_prev": 277.32,
-          "tn_carr": 169.32
+          "carr": 5,
+          "falta": 2,
+          "tn_prev": 279.44,
+          "tn_carr": 219.44
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -425,6 +425,27 @@
       ]
     },
     {
+      "lote": "INTERCEMENT APIAÍ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "INTERCEMENT APIAÍ",
+      "produto": "GESSO",
+      "prog": 5,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 185.21,
+      "tn_carr": 147.21,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 5,
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 185.21,
+          "tn_carr": 147.21
+        }
+      ]
+    },
+    {
       "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
       "cliente": "SUPREMO",
       "produto": "Ic Phoenix",
@@ -460,27 +481,6 @@
           "falta": 0,
           "tn_prev": 36.04,
           "tn_carr": 36.04
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT APIAÍ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "INTERCEMENT APIAÍ",
-      "produto": "GESSO",
-      "prog": 4,
-      "carr": 4,
-      "falta": 0,
-      "tn_prev": 147.21,
-      "tn_carr": 147.21,
-      "transportadoras": [
-        {
-          "nome": "G7 LOG (SC)",
-          "cnpj": "14170909000100",
-          "prog": 4,
-          "carr": 4,
-          "falta": 0,
-          "tn_prev": 147.21,
-          "tn_carr": 147.21
         }
       ]
     },
