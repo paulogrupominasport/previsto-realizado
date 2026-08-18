@@ -5780,20 +5780,26 @@
     }
   },
   "2026-08-18": {
-    "gerado_em": "2026-08-18T07:00:11",
-    "atualizado_em": "2026-08-18T10:05:26",
+    "gerado_em": "2026-08-18T08:00:18",
+    "atualizado_em": "2026-08-18T11:05:27",
     "totais": {
-      "prog": 49,
-      "carr": 0,
-      "falta": 49,
-      "tn_prev": 1955.5,
-      "tn_carr": 0.0
+      "prog": 68,
+      "carr": 1,
+      "falta": 67,
+      "tn_prev": 2711.9,
+      "tn_carr": 38.4
     },
     "por_cliente": {
       "ITAMBÉ": {
-        "prog": 25,
+        "prog": 29,
+        "carr": 1,
+        "tn_prev": 1096.9,
+        "tn_carr": 38.4
+      },
+      "CIM. LIZ": {
+        "prog": 16,
         "carr": 0,
-        "tn_prev": 936.5,
+        "tn_prev": 694.0,
         "tn_carr": 0.0
       },
       "CSN MOC": {
@@ -5802,22 +5808,16 @@
         "tn_prev": 288.0,
         "tn_carr": 0.0
       },
-      "CIM. LIZ": {
-        "prog": 4,
+      "RIO DESERTO": {
+        "prog": 5,
         "carr": 0,
-        "tn_prev": 192.0,
+        "tn_prev": 159.0,
         "tn_carr": 0.0
       },
       "LS METAIS / COQUEMETAL": {
         "prog": 4,
         "carr": 0,
         "tn_prev": 144.0,
-        "tn_carr": 0.0
-      },
-      "RIO DESERTO": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 129.0,
         "tn_carr": 0.0
       },
       "CSN PEDRO LEOP": {
@@ -5837,25 +5837,37 @@
         "carr": 0,
         "tn_prev": 74.0,
         "tn_carr": 0.0
+      },
+      "INNMOV": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 38.0,
+        "tn_carr": 0.0
+      },
+      "COMERCIAL CARVALHO": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 26.0,
+        "tn_carr": 0.0
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 32,
+        "prog": 37,
+        "carr": 1,
+        "tn_prev": 1493.9,
+        "tn_carr": 38.4
+      },
+      "CARVÃO": {
+        "prog": 16,
         "carr": 0,
-        "tn_prev": 1295.5,
+        "tn_prev": 694.0,
         "tn_carr": 0.0
       },
       "Ic Phoenix": {
-        "prog": 6,
+        "prog": 7,
         "carr": 0,
-        "tn_prev": 203.0,
-        "tn_carr": 0.0
-      },
-      "CARVÃO": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 192.0,
+        "tn_prev": 233.0,
         "tn_carr": 0.0
       },
       "Antracito": {
@@ -5874,6 +5886,12 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 73.0,
+        "tn_carr": 0.0
+      },
+      "Carregamento Sucata": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 26.0,
         "tn_carr": 0.0
       }
     }
