@@ -1,12 +1,12 @@
 {
   "data_relatorio": "19/08/2026",
-  "gerado_em": "2026-08-19T07:06:18",
-  "atualizado_em": "2026-08-19T10:10:27",
+  "gerado_em": "2026-08-19T08:00:07",
+  "atualizado_em": "2026-08-19T11:06:04",
   "totais": {
-    "prog": 50,
+    "prog": 55,
     "carr": 0,
-    "falta": 50,
-    "tn_prev": 1892.88,
+    "falta": 55,
+    "tn_prev": 2101.88,
     "tn_carr": 0.0
   },
   "por_cliente": [
@@ -28,10 +28,18 @@
     },
     {
       "cliente": "RIO DESERTO",
-      "prog": 8,
+      "prog": 9,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 249.0,
+      "falta": 9,
+      "tn_prev": 279.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN PEDRO LEOP",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 278.0,
       "tn_carr": 0.0
     },
     {
@@ -43,19 +51,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN PEDRO LEOP",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 134.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN VOLTA RED",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 105.0,
+      "falta": 4,
+      "tn_prev": 140.0,
       "tn_carr": 0.0
     },
     {
@@ -102,10 +102,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 26,
+      "prog": 30,
       "carr": 0,
-      "falta": 26,
-      "tn_prev": 1060.88,
+      "falta": 30,
+      "tn_prev": 1239.88,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Ic Phoenix",
+      "prog": 10,
+      "carr": 0,
+      "falta": 10,
+      "tn_prev": 317.0,
       "tn_carr": 0.0
     },
     {
@@ -114,14 +122,6 @@
       "carr": 0,
       "falta": 6,
       "tn_prev": 288.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Ic Phoenix",
-      "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 287.0,
       "tn_carr": 0.0
     },
     {
@@ -231,19 +231,58 @@
       "lote": "RIO DESERTO - IC PHOENIX - PETCOKE ATE - PILHA 20",
       "cliente": "RIO DESERTO",
       "produto": "Ic Phoenix",
-      "prog": 8,
+      "prog": 9,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 249.0,
+      "falta": 9,
+      "tn_prev": 279.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
-          "prog": 8,
+          "prog": 9,
           "carr": 0,
-          "falta": 8,
-          "tn_prev": 249.0,
+          "falta": 9,
+          "tn_prev": 279.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN PEDRO LEOP",
+      "produto": "PETCOKE",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 278.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 182.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
@@ -279,43 +318,22 @@
       ]
     },
     {
-      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 134.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 134.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN VOLTA RED - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN VOLTA RED",
       "produto": "PETCOKE",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 105.0,
+      "falta": 4,
+      "tn_prev": 140.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 3,
+          "prog": 4,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 105.0,
+          "falta": 4,
+          "tn_prev": 140.0,
           "tn_carr": 0.0
         }
       ]
