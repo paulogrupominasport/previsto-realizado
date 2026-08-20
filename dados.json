@@ -1,13 +1,13 @@
 {
   "data_relatorio": "20/08/2026",
-  "gerado_em": "2026-08-20T07:00:07",
-  "atualizado_em": "2026-08-20T10:05:27",
+  "gerado_em": "2026-08-20T08:00:12",
+  "atualizado_em": "2026-08-20T11:05:25",
   "totais": {
-    "prog": 64,
-    "carr": 0,
-    "falta": 64,
-    "tn_prev": 2379.8,
-    "tn_carr": 0.0
+    "prog": 79,
+    "carr": 1,
+    "falta": 78,
+    "tn_prev": 2787.8,
+    "tn_carr": 19.67
   },
   "por_cliente": [
     {
@@ -15,7 +15,15 @@
       "prog": 17,
       "carr": 0,
       "falta": 17,
-      "tn_prev": 640.0,
+      "tn_prev": 644.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "RIO DESERTO",
+      "prog": 10,
+      "carr": 0,
+      "falta": 10,
+      "tn_prev": 327.0,
       "tn_carr": 0.0
     },
     {
@@ -27,20 +35,28 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "RIO DESERTO",
-      "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 292.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 8,
       "carr": 0,
       "falta": 8,
       "tn_prev": 292.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 276.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CARBOBRAS",
+      "prog": 12,
+      "carr": 1,
+      "falta": 11,
+      "tn_prev": 204.0,
+      "tn_carr": 19.67
     },
     {
       "cliente": "SUPREMO",
@@ -59,11 +75,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CIM. LIZ",
-      "prog": 2,
+      "cliente": "CSN ARCOS",
+      "prog": 3,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
+      "falta": 3,
+      "tn_prev": 110.0,
       "tn_carr": 0.0
     },
     {
@@ -80,22 +96,6 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN ARCOS",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 74.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CARBOBRAS",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 51.0,
       "tn_carr": 0.0
     },
     {
@@ -126,10 +126,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 38,
+      "prog": 43,
       "carr": 0,
-      "falta": 38,
-      "tn_prev": 1460.0,
+      "falta": 43,
+      "tn_prev": 1680.0,
       "tn_carr": 0.0
     },
     {
@@ -141,19 +141,27 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Antracito Phoenician",
+      "prog": 12,
+      "carr": 1,
+      "falta": 11,
+      "tn_prev": 204.0,
+      "tn_carr": 19.67
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 131.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "Antracito",
       "prog": 3,
       "carr": 0,
       "falta": 3,
       "tn_prev": 106.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
       "tn_carr": 0.0
     },
     {
@@ -173,14 +181,6 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "Antracito Phoenician",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 51.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "GESSO",
       "prog": 1,
       "carr": 0,
@@ -197,7 +197,7 @@
       "prog": 17,
       "carr": 0,
       "falta": 17,
-      "tn_prev": 640.0,
+      "tn_prev": 644.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -233,7 +233,7 @@
           "prog": 7,
           "carr": 0,
           "falta": 7,
-          "tn_prev": 275.0,
+          "tn_prev": 279.0,
           "tn_carr": 0.0
         }
       ]
@@ -290,6 +290,27 @@
       ]
     },
     {
+      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
+      "cliente": "CARBOBRAS",
+      "produto": "Antracito Phoenician",
+      "prog": 12,
+      "carr": 1,
+      "falta": 11,
+      "tn_prev": 204.0,
+      "tn_carr": 19.67,
+      "transportadoras": [
+        {
+          "nome": "CARBOBRÁS (SC)",
+          "cnpj": "02640179000177",
+          "prog": 12,
+          "carr": 1,
+          "falta": 11,
+          "tn_prev": 204.0,
+          "tn_carr": 19.67
+        }
+      ]
+    },
+    {
       "lote": "LS METAIS / COQUEMETAL - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
@@ -315,6 +336,27 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 115.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 180.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 180.0,
           "tn_carr": 0.0
         }
       ]
@@ -366,6 +408,36 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 144.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 110.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 72.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
@@ -473,57 +545,6 @@
       ]
     },
     {
-      "lote": "CSN ARCOS - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN ARCOS",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 74.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "VICTRANS (RJ)",
-          "cnpj": "02830994000441",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
-      "cliente": "CARBOBRAS",
-      "produto": "Antracito Phoenician",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 51.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "CARBOBRÁS (SC)",
-          "cnpj": "02640179000177",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 51.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN PEDRO LEOP",
       "produto": "PETCOKE",
@@ -582,6 +603,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "RIO DESERTO - REJEITO DE CARVÃO - R4",
+      "cliente": "RIO DESERTO",
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 35.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "ATR MINHOCAO",
+          "cnpj": "66866968000103",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]
