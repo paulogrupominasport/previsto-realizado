@@ -1,38 +1,30 @@
 {
   "data_relatorio": "20/08/2026",
-  "gerado_em": "2026-08-20T16:41:22",
-  "atualizado_em": "2026-08-20T19:45:34",
+  "gerado_em": "2026-08-20T17:00:06",
+  "atualizado_em": "2026-08-20T20:05:32",
   "totais": {
-    "prog": 136,
-    "carr": 97,
-    "falta": 39,
-    "tn_prev": 4639.67,
-    "tn_carr": 3304.4
+    "prog": 133,
+    "carr": 100,
+    "falta": 33,
+    "tn_prev": 4591.49,
+    "tn_carr": 3432.22
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 24,
-      "carr": 13,
-      "falta": 11,
-      "tn_prev": 903.31,
-      "tn_carr": 483.81
+      "carr": 14,
+      "falta": 10,
+      "tn_prev": 905.23,
+      "tn_carr": 532.73
     },
     {
       "cliente": "RIO DESERTO",
       "prog": 26,
-      "carr": 19,
-      "falta": 7,
-      "tn_prev": 856.83,
-      "tn_carr": 624.1
-    },
-    {
-      "cliente": "CARBOBRAS",
-      "prog": 20,
-      "carr": 17,
-      "falta": 3,
-      "tn_prev": 340.0,
-      "tn_carr": 353.55
+      "carr": 20,
+      "falta": 6,
+      "tn_prev": 858.97,
+      "tn_carr": 656.24
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -57,6 +49,14 @@
       "falta": 2,
       "tn_prev": 306.37,
       "tn_carr": 210.37
+    },
+    {
+      "cliente": "CARBOBRAS",
+      "prog": 17,
+      "carr": 17,
+      "falta": 0,
+      "tn_prev": 289.0,
+      "tn_carr": 353.55
     },
     {
       "cliente": "SUPREMO",
@@ -85,10 +85,10 @@
     {
       "cliente": "CSN PEDRO LEOP",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 178.82,
-      "tn_carr": 34.82
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 177.58,
+      "tn_carr": 81.58
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -159,18 +159,18 @@
     {
       "produto": "PETCOKE",
       "prog": 56,
-      "carr": 37,
-      "falta": 19,
-      "tn_prev": 2183.33,
-      "tn_carr": 1462.7
+      "carr": 39,
+      "falta": 17,
+      "tn_prev": 2184.01,
+      "tn_carr": 1558.38
     },
     {
       "produto": "Ic Phoenix",
       "prog": 30,
-      "carr": 20,
-      "falta": 10,
-      "tn_prev": 1021.22,
-      "tn_carr": 685.22
+      "carr": 21,
+      "falta": 9,
+      "tn_prev": 1023.36,
+      "tn_carr": 717.36
     },
     {
       "produto": "GESSO",
@@ -182,10 +182,10 @@
     },
     {
       "produto": "Antracito Phoenician",
-      "prog": 20,
+      "prog": 17,
       "carr": 17,
-      "falta": 3,
-      "tn_prev": 340.0,
+      "falta": 0,
+      "tn_prev": 289.0,
       "tn_carr": 353.55
     },
     {
@@ -243,19 +243,19 @@
       "cliente": "RIO DESERTO",
       "produto": "Ic Phoenix",
       "prog": 23,
-      "carr": 16,
-      "falta": 7,
-      "tn_prev": 751.83,
-      "tn_carr": 523.83,
+      "carr": 17,
+      "falta": 6,
+      "tn_prev": 753.97,
+      "tn_carr": 555.97,
       "transportadoras": [
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
           "prog": 23,
-          "carr": 16,
-          "falta": 7,
-          "tn_prev": 751.83,
-          "tn_carr": 523.83
+          "carr": 17,
+          "falta": 6,
+          "tn_prev": 753.97,
+          "tn_carr": 555.97
         }
       ]
     },
@@ -264,10 +264,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 18,
-      "carr": 8,
-      "falta": 10,
-      "tn_prev": 680.9,
-      "tn_carr": 299.4,
+      "carr": 9,
+      "falta": 9,
+      "tn_prev": 682.82,
+      "tn_carr": 348.32,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -291,31 +291,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 10,
-          "carr": 7,
-          "falta": 3,
-          "tn_prev": 392.7,
-          "tn_carr": 260.7
-        }
-      ]
-    },
-    {
-      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
-      "cliente": "CARBOBRAS",
-      "produto": "Antracito Phoenician",
-      "prog": 20,
-      "carr": 17,
-      "falta": 3,
-      "tn_prev": 340.0,
-      "tn_carr": 353.55,
-      "transportadoras": [
-        {
-          "nome": "CARBOBRÁS (SC)",
-          "cnpj": "02640179000177",
-          "prog": 20,
-          "carr": 17,
-          "falta": 3,
-          "tn_prev": 340.0,
-          "tn_carr": 353.55
+          "carr": 8,
+          "falta": 2,
+          "tn_prev": 394.62,
+          "tn_carr": 309.62
         }
       ]
     },
@@ -346,6 +325,27 @@
           "falta": 1,
           "tn_prev": 214.4,
           "tn_carr": 179.4
+        }
+      ]
+    },
+    {
+      "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
+      "cliente": "CARBOBRAS",
+      "produto": "Antracito Phoenician",
+      "prog": 17,
+      "carr": 17,
+      "falta": 0,
+      "tn_prev": 289.0,
+      "tn_carr": 353.55,
+      "transportadoras": [
+        {
+          "nome": "CARBOBRÁS (SC)",
+          "cnpj": "02640179000177",
+          "prog": 17,
+          "carr": 17,
+          "falta": 0,
+          "tn_prev": 289.0,
+          "tn_carr": 353.55
         }
       ]
     },
@@ -534,19 +534,19 @@
       "cliente": "CSN PEDRO LEOP",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 178.82,
-      "tn_carr": 34.82,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 177.58,
+      "tn_carr": 81.58,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 82.82,
-          "tn_carr": 34.82
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 81.58,
+          "tn_carr": 81.58
         },
         {
           "nome": "GT MINAS (RJ)",
