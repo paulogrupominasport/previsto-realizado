@@ -1,12 +1,12 @@
 {
   "data_relatorio": "20/08/2026",
-  "gerado_em": "2026-08-20T19:00:05",
-  "atualizado_em": "2026-08-20T22:05:29",
+  "gerado_em": "2026-08-20T20:00:13",
+  "atualizado_em": "2026-08-20T23:05:27",
   "totais": {
-    "prog": 134,
+    "prog": 131,
     "carr": 119,
-    "falta": 15,
-    "tn_prev": 4641.71,
+    "falta": 12,
+    "tn_prev": 4497.71,
     "tn_carr": 4164.44
   },
   "por_cliente": [
@@ -43,14 +43,6 @@
       "tn_carr": 327.23
     },
     {
-      "cliente": "CIM. LIZ",
-      "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 306.37,
-      "tn_carr": 210.37
-    },
-    {
       "cliente": "CARBOBRAS",
       "prog": 17,
       "carr": 17,
@@ -83,12 +75,12 @@
       "tn_carr": 273.93
     },
     {
-      "cliente": "CSN PEDRO LEOP",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 177.51,
-      "tn_carr": 129.51
+      "cliente": "CIM. LIZ",
+      "prog": 5,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 210.37,
+      "tn_carr": 210.37
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -105,6 +97,14 @@
       "falta": 0,
       "tn_prev": 148.22,
       "tn_carr": 148.22
+    },
+    {
+      "cliente": "CSN PEDRO LEOP",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 129.51,
+      "tn_carr": 129.51
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -158,10 +158,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 57,
+      "prog": 56,
       "carr": 47,
-      "falta": 10,
-      "tn_prev": 2225.98,
+      "falta": 9,
+      "tn_prev": 2177.98,
       "tn_carr": 1882.35
     },
     {
@@ -189,20 +189,20 @@
       "tn_carr": 353.55
     },
     {
-      "produto": "CARVÃO",
-      "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 201.0,
-      "tn_carr": 100.27
-    },
-    {
       "produto": "Carregamento Sucata",
       "prog": 4,
       "carr": 3,
       "falta": 1,
       "tn_prev": 162.0,
       "tn_carr": 95.46
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 105.0,
+      "tn_carr": 100.27
     },
     {
       "produto": "Antracito",
@@ -530,36 +530,6 @@
       ]
     },
     {
-      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 177.51,
-      "tn_carr": 129.51,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 81.58,
-          "tn_carr": 81.58
-        },
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 95.93,
-          "tn_carr": 47.93
-        }
-      ]
-    },
-    {
       "lote": "COMERCIAL CARVALHO - CARREGAMENTO SUCATA - PILHA 109",
       "cliente": "COMERCIAL CARVALHO",
       "produto": "Carregamento Sucata",
@@ -598,6 +568,36 @@
           "falta": 0,
           "tn_prev": 148.22,
           "tn_carr": 148.22
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN PEDRO LEOP",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 129.51,
+      "tn_carr": 129.51,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 81.58,
+          "tn_carr": 81.58
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.93,
+          "tn_carr": 47.93
         }
       ]
     },
@@ -667,27 +667,6 @@
           "falta": 0,
           "tn_prev": 29.88,
           "tn_carr": 29.88
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
         }
       ]
     },
