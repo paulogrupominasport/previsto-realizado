@@ -6062,14 +6062,14 @@
     }
   },
   "2026-08-20": {
-    "gerado_em": "2026-08-20T13:00:10",
-    "atualizado_em": "2026-08-20T16:05:38",
+    "gerado_em": "2026-08-20T14:00:17",
+    "atualizado_em": "2026-08-20T17:05:29",
     "totais": {
-      "prog": 114,
-      "carr": 66,
-      "falta": 48,
-      "tn_prev": 3874.27,
-      "tn_carr": 2274.3
+      "prog": 124,
+      "carr": 68,
+      "falta": 56,
+      "tn_prev": 4238.27,
+      "tn_carr": 2316.8
     },
     "por_cliente": {
       "ITAMBÉ": {
@@ -6079,10 +6079,16 @@
         "tn_carr": 255.47
       },
       "RIO DESERTO": {
-        "prog": 21,
+        "prog": 22,
         "carr": 10,
-        "tn_prev": 692.36,
+        "tn_prev": 722.36,
         "tn_carr": 332.87
+      },
+      "LS METAIS / COQUEMETAL": {
+        "prog": 10,
+        "carr": 8,
+        "tn_prev": 331.13,
+        "tn_carr": 285.08
       },
       "CSN VOLTA RED": {
         "prog": 9,
@@ -6096,23 +6102,23 @@
         "tn_prev": 307.2,
         "tn_carr": 164.2
       },
+      "SUPREMO": {
+        "prog": 8,
+        "carr": 4,
+        "tn_prev": 292.19,
+        "tn_carr": 161.39
+      },
       "CARBOBRAS": {
         "prog": 17,
-        "carr": 9,
+        "carr": 11,
         "tn_prev": 289.0,
-        "tn_carr": 180.41
+        "tn_carr": 222.91
       },
-      "LS METAIS / COQUEMETAL": {
-        "prog": 9,
-        "carr": 8,
-        "tn_prev": 283.13,
-        "tn_carr": 285.08
-      },
-      "SUPREMO": {
+      "INTERCEMENT APIAÍ": {
         "prog": 6,
         "carr": 4,
-        "tn_prev": 222.19,
-        "tn_carr": 161.39
+        "tn_prev": 225.24,
+        "tn_carr": 149.24
       },
       "CSN PEDRO LEOP": {
         "prog": 4,
@@ -6120,17 +6126,17 @@
         "tn_prev": 178.82,
         "tn_carr": 34.82
       },
+      "COMERCIAL CARVALHO": {
+        "prog": 4,
+        "carr": 3,
+        "tn_prev": 162.0,
+        "tn_carr": 95.46
+      },
       "CSN ARCOS": {
         "prog": 5,
         "carr": 5,
         "tn_prev": 150.71,
         "tn_carr": 186.58
-      },
-      "INTERCEMENT APIAÍ": {
-        "prog": 4,
-        "carr": 4,
-        "tn_prev": 149.24,
-        "tn_carr": 149.24
       },
       "CSN MOC": {
         "prog": 3,
@@ -6138,17 +6144,17 @@
         "tn_prev": 147.39,
         "tn_carr": 99.39
       },
-      "COMERCIAL CARVALHO": {
-        "prog": 3,
-        "carr": 3,
-        "tn_prev": 126.0,
-        "tn_carr": 95.46
-      },
       "PETRORECONCAVO": {
         "prog": 2,
         "carr": 1,
         "tn_prev": 95.05,
         "tn_carr": 47.05
+      },
+      "CSN BARROSO": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 74.0,
+        "tn_carr": 0.0
       },
       "DOLOCAL": {
         "prog": 1,
@@ -6162,6 +6168,12 @@
         "tn_prev": 48.0,
         "tn_carr": 0.0
       },
+      "BELLUNO": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 30.0,
+        "tn_carr": 0.0
+      },
       "GABRIELLA": {
         "prog": 1,
         "carr": 1,
@@ -6171,28 +6183,28 @@
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 50,
+        "prog": 51,
         "carr": 26,
-        "tn_prev": 1934.38,
+        "tn_prev": 1980.38,
         "tn_carr": 1000.75
       },
       "Ic Phoenix": {
-        "prog": 24,
+        "prog": 27,
         "carr": 12,
-        "tn_prev": 809.55,
+        "tn_prev": 909.55,
         "tn_carr": 426.75
       },
       "GESSO": {
-        "prog": 8,
+        "prog": 12,
         "carr": 8,
-        "tn_prev": 296.29,
+        "tn_prev": 448.29,
         "tn_carr": 296.29
       },
       "Antracito Phoenician": {
         "prog": 17,
-        "carr": 9,
+        "carr": 11,
         "tn_prev": 289.0,
-        "tn_carr": 180.41
+        "tn_carr": 222.91
       },
       "CARVÃO": {
         "prog": 5,
@@ -6201,9 +6213,9 @@
         "tn_carr": 67.51
       },
       "Carregamento Sucata": {
-        "prog": 3,
+        "prog": 4,
         "carr": 3,
-        "tn_prev": 126.0,
+        "tn_prev": 162.0,
         "tn_carr": 95.46
       },
       "Antracito": {
@@ -6217,6 +6229,12 @@
         "carr": 1,
         "tn_prev": 95.05,
         "tn_carr": 47.05
+      },
+      "Premium Hvb": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 30.0,
+        "tn_carr": 0.0
       },
       "TÉRMICO": {
         "prog": 1,
