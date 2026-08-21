@@ -1,13 +1,13 @@
 {
   "data_relatorio": "21/08/2026",
-  "gerado_em": "2026-08-21T18:00:17",
-  "atualizado_em": "2026-08-21T21:05:26",
+  "gerado_em": "2026-08-21T19:00:09",
+  "atualizado_em": "2026-08-21T22:05:27",
   "totais": {
-    "prog": 182,
-    "carr": 145,
-    "falta": 37,
-    "tn_prev": 6641.05,
-    "tn_carr": 5258.83
+    "prog": 181,
+    "carr": 150,
+    "falta": 31,
+    "tn_prev": 6605.52,
+    "tn_carr": 5454.3
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "BELOCAL MTZ",
       "prog": 17,
-      "carr": 12,
-      "falta": 5,
-      "tn_prev": 706.99,
-      "tn_carr": 499.99
+      "carr": 14,
+      "falta": 3,
+      "tn_prev": 705.57,
+      "tn_carr": 584.57
     },
     {
       "cliente": "CSN ARCOS",
@@ -53,10 +53,10 @@
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 12,
-      "carr": 9,
-      "falta": 3,
-      "tn_prev": 448.56,
-      "tn_carr": 339.56
+      "carr": 12,
+      "falta": 0,
+      "tn_prev": 450.45,
+      "tn_carr": 450.45
     },
     {
       "cliente": "CSN BARROSO",
@@ -99,20 +99,20 @@
       "tn_carr": 47.99
     },
     {
-      "cliente": "INNMOV",
-      "prog": 5,
-      "carr": 4,
-      "falta": 1,
-      "tn_prev": 205.91,
-      "tn_carr": 169.91
-    },
-    {
       "cliente": "INTERCEMENT APIAÍ",
       "prog": 5,
       "carr": 5,
       "falta": 0,
       "tn_prev": 188.36,
       "tn_carr": 188.36
+    },
+    {
+      "cliente": "INNMOV",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 169.91,
+      "tn_carr": 169.91
     },
     {
       "cliente": "SUPREMO",
@@ -174,11 +174,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 97,
-      "carr": 67,
-      "falta": 30,
-      "tn_prev": 3908.98,
-      "tn_carr": 2712.98
+      "prog": 96,
+      "carr": 71,
+      "falta": 25,
+      "tn_prev": 3873.15,
+      "tn_carr": 2870.15
     },
     {
       "produto": "Ic Phoenix",
@@ -223,10 +223,10 @@
     {
       "produto": "Antracito",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 147.02,
-      "tn_carr": 109.02
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 147.32,
+      "tn_carr": 147.32
     },
     {
       "produto": "Carregamento Sucata",
@@ -259,10 +259,10 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 17,
-      "carr": 12,
-      "falta": 5,
-      "tn_prev": 706.99,
-      "tn_carr": 499.99,
+      "carr": 14,
+      "falta": 3,
+      "tn_prev": 705.57,
+      "tn_carr": 584.57,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -277,10 +277,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 14,
-          "carr": 9,
-          "falta": 5,
-          "tn_prev": 590.94,
-          "tn_carr": 383.94
+          "carr": 11,
+          "falta": 3,
+          "tn_prev": 589.52,
+          "tn_carr": 468.52
         }
       ]
     },
@@ -562,10 +562,10 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
-      "tn_prev": 301.54,
-      "tn_carr": 230.54,
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 303.13,
+      "tn_carr": 303.13,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -580,10 +580,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 143.1,
-          "tn_carr": 72.1
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 144.69,
+          "tn_carr": 144.69
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -669,27 +669,6 @@
       ]
     },
     {
-      "lote": "INNMOV - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "INNMOV",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 4,
-      "falta": 1,
-      "tn_prev": 205.91,
-      "tn_carr": 169.91,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 5,
-          "carr": 4,
-          "falta": 1,
-          "tn_prev": 205.91,
-          "tn_carr": 169.91
-        }
-      ]
-    },
-    {
       "lote": "INTERCEMENT APIAÍ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "GESSO",
@@ -707,6 +686,27 @@
           "falta": 0,
           "tn_prev": 188.36,
           "tn_carr": 188.36
+        }
+      ]
+    },
+    {
+      "lote": "INNMOV - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "INNMOV",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 169.91,
+      "tn_carr": 169.91,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 169.91,
+          "tn_carr": 169.91
         }
       ]
     },
@@ -745,10 +745,10 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "Antracito",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 147.02,
-      "tn_carr": 109.02,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 147.32,
+      "tn_carr": 147.32,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -763,10 +763,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.3,
+          "tn_carr": 38.3
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
