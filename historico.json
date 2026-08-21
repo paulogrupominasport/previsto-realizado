@@ -6245,26 +6245,26 @@
     }
   },
   "2026-08-21": {
-    "gerado_em": "2026-08-21T07:00:05",
-    "atualizado_em": "2026-08-21T10:05:25",
+    "gerado_em": "2026-08-21T08:00:12",
+    "atualizado_em": "2026-08-21T11:05:30",
     "totais": {
-      "prog": 79,
-      "carr": 0,
-      "falta": 79,
-      "tn_prev": 2954.18,
-      "tn_carr": 0.0
+      "prog": 92,
+      "carr": 3,
+      "falta": 89,
+      "tn_prev": 3320.18,
+      "tn_carr": 54.1
     },
     "por_cliente": {
+      "ITAMBÉ": {
+        "prog": 13,
+        "carr": 0,
+        "tn_prev": 499.5,
+        "tn_carr": 0.0
+      },
       "CSN ARCOS": {
         "prog": 13,
         "carr": 0,
         "tn_prev": 479.0,
-        "tn_carr": 0.0
-      },
-      "ITAMBÉ": {
-        "prog": 9,
-        "carr": 0,
-        "tn_prev": 344.5,
         "tn_carr": 0.0
       },
       "BRASKEM": {
@@ -6279,16 +6279,16 @@
         "tn_prev": 326.0,
         "tn_carr": 0.0
       },
-      "CSN BARROSO": {
-        "prog": 6,
+      "RIO DESERTO": {
+        "prog": 9,
         "carr": 0,
         "tn_prev": 288.0,
         "tn_carr": 0.0
       },
-      "RIO DESERTO": {
-        "prog": 8,
+      "CSN BARROSO": {
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 250.0,
+        "tn_prev": 288.0,
         "tn_carr": 0.0
       },
       "CSN PEDRO LEOP": {
@@ -6298,10 +6298,16 @@
         "tn_carr": 0.0
       },
       "LS METAIS / COQUEMETAL": {
-        "prog": 4,
+        "prog": 5,
         "carr": 0,
-        "tn_prev": 152.0,
+        "tn_prev": 187.0,
         "tn_carr": 0.0
+      },
+      "CARBOBRAS": {
+        "prog": 9,
+        "carr": 3,
+        "tn_prev": 153.0,
+        "tn_carr": 54.1
       },
       "CSN VOLTA RED": {
         "prog": 3,
@@ -6327,12 +6333,6 @@
         "tn_prev": 76.0,
         "tn_carr": 0.0
       },
-      "CARBOBRAS": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 51.0,
-        "tn_carr": 0.0
-      },
       "CSN MOC": {
         "prog": 1,
         "carr": 0,
@@ -6350,19 +6350,25 @@
         "carr": 0,
         "tn_prev": 48.0,
         "tn_carr": 0.0
+      },
+      "COMERCIAL CARVALHO": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 36.0,
+        "tn_carr": 0.0
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 41,
+        "prog": 46,
         "carr": 0,
-        "tn_prev": 1650.38,
+        "tn_prev": 1840.38,
         "tn_carr": 0.0
       },
       "Ic Phoenix": {
-        "prog": 13,
+        "prog": 14,
         "carr": 0,
-        "tn_prev": 398.8,
+        "tn_prev": 436.8,
         "tn_carr": 0.0
       },
       "TÉRMICO": {
@@ -6377,6 +6383,12 @@
         "tn_prev": 326.0,
         "tn_carr": 0.0
       },
+      "Antracito Phoenician": {
+        "prog": 9,
+        "carr": 3,
+        "tn_prev": 153.0,
+        "tn_carr": 54.1
+      },
       "PETRÓLEO": {
         "prog": 2,
         "carr": 0,
@@ -6389,10 +6401,10 @@
         "tn_prev": 76.0,
         "tn_carr": 0.0
       },
-      "Antracito Phoenician": {
-        "prog": 3,
+      "Carregamento Sucata": {
+        "prog": 1,
         "carr": 0,
-        "tn_prev": 51.0,
+        "tn_prev": 36.0,
         "tn_carr": 0.0
       }
     }
