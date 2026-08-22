@@ -1,21 +1,29 @@
 {
   "data_relatorio": "22/08/2026",
-  "gerado_em": "2026-08-22T07:00:17",
-  "atualizado_em": "2026-08-22T10:05:34",
+  "gerado_em": "2026-08-22T08:00:14",
+  "atualizado_em": "2026-08-22T11:05:24",
   "totais": {
-    "prog": 88,
-    "carr": 0,
-    "falta": 88,
-    "tn_prev": 3494.0,
-    "tn_carr": 0.0
+    "prog": 91,
+    "carr": 2,
+    "falta": 89,
+    "tn_prev": 3640.4,
+    "tn_carr": 86.4
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 33,
+      "prog": 32,
+      "carr": 2,
+      "falta": 30,
+      "tn_prev": 1198.4,
+      "tn_carr": 86.4
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 11,
       "carr": 0,
-      "falta": 33,
-      "tn_prev": 1242.0,
+      "falta": 11,
+      "tn_prev": 526.0,
       "tn_carr": 0.0
     },
     {
@@ -24,14 +32,6 @@
       "carr": 0,
       "falta": 13,
       "tn_prev": 488.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 432.0,
       "tn_carr": 0.0
     },
     {
@@ -64,6 +64,14 @@
       "carr": 0,
       "falta": 4,
       "tn_prev": 143.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
       "tn_carr": 0.0
     },
     {
@@ -118,11 +126,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 77,
-      "carr": 0,
-      "falta": 77,
-      "tn_prev": 3064.0,
-      "tn_carr": 0.0
+      "prog": 76,
+      "carr": 2,
+      "falta": 74,
+      "tn_prev": 3020.4,
+      "tn_carr": 86.4
     },
     {
       "produto": "GESSO",
@@ -130,6 +138,22 @@
       "carr": 0,
       "falta": 6,
       "tn_prev": 228.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 142.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
       "tn_carr": 0.0
     },
     {
@@ -142,14 +166,6 @@
     },
     {
       "produto": "Ijací",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
@@ -170,11 +186,11 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 27,
-      "carr": 0,
-      "falta": 27,
-      "tn_prev": 1014.0,
-      "tn_carr": 0.0,
+      "prog": 26,
+      "carr": 2,
+      "falta": 24,
+      "tn_prev": 970.4,
+      "tn_carr": 86.4,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -188,19 +204,19 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 200.0,
-          "tn_carr": 0.0
+          "prog": 6,
+          "carr": 2,
+          "falta": 4,
+          "tn_prev": 230.4,
+          "tn_carr": 86.4
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 20,
+          "prog": 18,
           "carr": 0,
-          "falta": 20,
-          "tn_prev": 738.0,
+          "falta": 18,
+          "tn_prev": 664.0,
           "tn_carr": 0.0
         }
       ]
@@ -404,6 +420,57 @@
       ]
     },
     {
+      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
+      "cliente": "CIM. LIZ",
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 142.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 94.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL SJDL - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "BELOCAL SJDL",
       "produto": "PETCOKE",
@@ -530,27 +597,6 @@
         {
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
-      "cliente": "CIM. LIZ",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
           "prog": 1,
           "carr": 0,
           "falta": 1,
