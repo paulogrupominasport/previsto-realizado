@@ -1,30 +1,30 @@
 {
   "data_relatorio": "23/08/2026",
-  "gerado_em": "2026-08-23T11:50:19",
-  "atualizado_em": "2026-08-23T14:55:25",
+  "gerado_em": "2026-08-23T12:00:06",
+  "atualizado_em": "2026-08-23T15:05:23",
   "totais": {
-    "prog": 87,
-    "carr": 27,
+    "prog": 88,
+    "carr": 28,
     "falta": 60,
-    "tn_prev": 3527.4,
-    "tn_carr": 1102.4
+    "tn_prev": 3563.78,
+    "tn_carr": 1138.78
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 24,
+      "prog": 25,
       "carr": 4,
-      "falta": 20,
-      "tn_prev": 954.97,
+      "falta": 21,
+      "tn_prev": 992.97,
       "tn_carr": 171.97
     },
     {
       "cliente": "CSN ARCOS",
       "prog": 18,
-      "carr": 5,
-      "falta": 13,
-      "tn_prev": 715.64,
-      "tn_carr": 197.64
+      "carr": 6,
+      "falta": 12,
+      "tn_prev": 714.02,
+      "tn_carr": 234.02
     },
     {
       "cliente": "CSN PEDRO LEOP",
@@ -103,17 +103,17 @@
     {
       "produto": "PETCOKE",
       "prog": 73,
-      "carr": 26,
-      "falta": 47,
-      "tn_prev": 2976.4,
-      "tn_carr": 1055.4
+      "carr": 27,
+      "falta": 46,
+      "tn_prev": 2974.78,
+      "tn_carr": 1091.78
     },
     {
       "produto": "CARVÃO",
-      "prog": 12,
+      "prog": 13,
       "carr": 1,
-      "falta": 11,
-      "tn_prev": 455.0,
+      "falta": 12,
+      "tn_prev": 493.0,
       "tn_carr": 47.0
     },
     {
@@ -131,10 +131,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 18,
-      "carr": 5,
-      "falta": 13,
-      "tn_prev": 715.64,
-      "tn_carr": 197.64,
+      "carr": 6,
+      "falta": 12,
+      "tn_prev": 714.02,
+      "tn_carr": 234.02,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES E LOGISTICA LTDA",
@@ -158,10 +158,10 @@
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 118.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 116.38,
+          "tn_carr": 36.38
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -223,43 +223,13 @@
       ]
     },
     {
-      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
-      "produto": "PETCOKE",
-      "prog": 12,
-      "carr": 7,
-      "falta": 5,
-      "tn_prev": 491.81,
-      "tn_carr": 284.81,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 11,
-          "carr": 7,
-          "falta": 4,
-          "tn_prev": 443.81,
-          "tn_carr": 284.81
-        }
-      ]
-    },
-    {
       "lote": "CIM. LIZ - CARVÃO - FENG ZE HAI - PILHA 47",
       "cliente": "CIM. LIZ",
       "produto": "CARVÃO",
-      "prog": 12,
+      "prog": 13,
       "carr": 1,
-      "falta": 11,
-      "tn_prev": 455.0,
+      "falta": 12,
+      "tn_prev": 493.0,
       "tn_carr": 47.0,
       "transportadoras": [
         {
@@ -292,11 +262,41 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 3,
+          "prog": 4,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 108.0,
+          "falta": 4,
+          "tn_prev": 146.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN PEDRO LEOP",
+      "produto": "PETCOKE",
+      "prog": 12,
+      "carr": 7,
+      "falta": 5,
+      "tn_prev": 491.81,
+      "tn_carr": 284.81,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 11,
+          "carr": 7,
+          "falta": 4,
+          "tn_prev": 443.81,
+          "tn_carr": 284.81
         }
       ]
     },
