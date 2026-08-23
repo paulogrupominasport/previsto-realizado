@@ -1,30 +1,30 @@
 {
   "data_relatorio": "23/08/2026",
-  "gerado_em": "2026-08-23T13:00:14",
-  "atualizado_em": "2026-08-23T16:05:26",
+  "gerado_em": "2026-08-23T14:00:07",
+  "atualizado_em": "2026-08-23T17:05:26",
   "totais": {
-    "prog": 89,
-    "carr": 40,
-    "falta": 49,
-    "tn_prev": 3609.6,
-    "tn_carr": 1637.6
+    "prog": 96,
+    "carr": 48,
+    "falta": 48,
+    "tn_prev": 3889.95,
+    "tn_carr": 1981.95
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 27,
-      "carr": 14,
-      "falta": 13,
-      "tn_prev": 1072.26,
-      "tn_carr": 591.26
+      "carr": 15,
+      "falta": 12,
+      "tn_prev": 1069.65,
+      "tn_carr": 623.65
     },
     {
       "cliente": "CSN ARCOS",
       "prog": 17,
-      "carr": 6,
-      "falta": 11,
-      "tn_prev": 677.86,
-      "tn_carr": 235.86
+      "carr": 10,
+      "falta": 7,
+      "tn_prev": 677.77,
+      "tn_carr": 407.77
     },
     {
       "cliente": "CSN PEDRO LEOP",
@@ -37,18 +37,26 @@
     {
       "cliente": "BELOCAL MTZ",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 389.44,
-      "tn_carr": 227.44
+      "carr": 7,
+      "falta": 3,
+      "tn_prev": 389.7,
+      "tn_carr": 265.7
+    },
+    {
+      "cliente": "LAPA VERMELHA",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 238.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 210.17,
-      "tn_carr": 76.17
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 215.96,
+      "tn_carr": 177.96
     },
     {
       "cliente": "CSN MOC",
@@ -83,30 +91,30 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CSN VOLTA RED",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 78.91,
+      "tn_carr": 39.91
+    },
+    {
       "cliente": "DOLOCAL",
       "prog": 1,
       "carr": 0,
       "falta": 1,
       "tn_prev": 48.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN VOLTA RED",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 39.91,
-      "tn_carr": 39.91
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 73,
-      "carr": 38,
-      "falta": 35,
-      "tn_prev": 2980.89,
-      "tn_carr": 1550.89
+      "prog": 80,
+      "carr": 46,
+      "falta": 34,
+      "tn_prev": 3261.24,
+      "tn_carr": 1895.24
     },
     {
       "produto": "CARVÃO",
@@ -131,10 +139,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 17,
-      "carr": 6,
-      "falta": 11,
-      "tn_prev": 677.86,
-      "tn_carr": 235.86,
+      "carr": 10,
+      "falta": 7,
+      "tn_prev": 677.77,
+      "tn_carr": 407.77,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES E LOGISTICA LTDA",
@@ -167,19 +175,19 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 96.81,
+          "tn_carr": 96.81
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 194.43,
-          "tn_carr": 80.43
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 193.53,
+          "tn_carr": 155.53
         },
         {
           "nome": "AR MACEDO (RJ)",
@@ -197,10 +205,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 13,
-      "carr": 12,
-      "falta": 1,
-      "tn_prev": 539.55,
-      "tn_carr": 504.55,
+      "carr": 13,
+      "falta": 0,
+      "tn_prev": 536.94,
+      "tn_carr": 536.94,
       "transportadoras": [
         {
           "nome": "LENARGE (RJ)",
@@ -224,10 +232,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 7,
-          "carr": 6,
-          "falta": 1,
-          "tn_prev": 268.6,
-          "tn_carr": 233.6
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 265.99,
+          "tn_carr": 265.99
         }
       ]
     },
@@ -314,10 +322,10 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 389.44,
-      "tn_carr": 227.44,
+      "carr": 7,
+      "falta": 3,
+      "tn_prev": 389.7,
+      "tn_carr": 265.7,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -332,10 +340,31 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 9,
-          "carr": 6,
-          "falta": 3,
-          "tn_prev": 341.44,
-          "tn_carr": 227.44
+          "carr": 7,
+          "falta": 2,
+          "tn_prev": 341.7,
+          "tn_carr": 265.7
+        }
+      ]
+    },
+    {
+      "lote": "LAPA VERMELHA - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "LAPA VERMELHA",
+      "produto": "PETCOKE",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 238.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 6,
+          "carr": 0,
+          "falta": 6,
+          "tn_prev": 238.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -344,10 +373,10 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 210.17,
-      "tn_carr": 76.17,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 215.96,
+      "tn_carr": 177.96,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
@@ -362,10 +391,10 @@
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 101.79,
+          "tn_carr": 101.79
         }
       ]
     },
@@ -454,6 +483,27 @@
       ]
     },
     {
+      "lote": "CSN VOLTA RED - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN VOLTA RED",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 78.91,
+      "tn_carr": 39.91,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 78.91,
+          "tn_carr": 39.91
+        }
+      ]
+    },
+    {
       "lote": "DOLOCAL - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "DOLOCAL",
       "produto": "PETCOKE",
@@ -471,27 +521,6 @@
           "falta": 1,
           "tn_prev": 48.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN VOLTA RED - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN VOLTA RED",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 39.91,
-      "tn_carr": 39.91,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 39.91,
-          "tn_carr": 39.91
         }
       ]
     }
