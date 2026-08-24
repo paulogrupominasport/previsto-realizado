@@ -1,30 +1,30 @@
 {
   "data_relatorio": "24/08/2026",
-  "gerado_em": "2026-08-24T07:00:14",
-  "atualizado_em": "2026-08-24T10:05:38",
+  "gerado_em": "2026-08-24T08:00:06",
+  "atualizado_em": "2026-08-24T11:05:25",
   "totais": {
-    "prog": 36,
-    "carr": 0,
-    "falta": 36,
-    "tn_prev": 1359.0,
-    "tn_carr": 0.0
+    "prog": 38,
+    "carr": 6,
+    "falta": 32,
+    "tn_prev": 1443.5,
+    "tn_carr": 208.43
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
+      "carr": 5,
+      "falta": 6,
       "tn_prev": 421.0,
-      "tn_carr": 0.0
+      "tn_carr": 170.93
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 226.0,
-      "tn_carr": 0.0
+      "prog": 8,
+      "carr": 1,
+      "falta": 7,
+      "tn_prev": 310.5,
+      "tn_carr": 37.5
     },
     {
       "cliente": "CSN ARCOS",
@@ -85,28 +85,28 @@
   ],
   "por_produto": [
     {
-      "produto": "TÉRMICO",
+      "produto": "PETCOKE",
       "prog": 12,
       "carr": 0,
       "falta": 12,
-      "tn_prev": 447.0,
+      "tn_prev": 483.0,
       "tn_carr": 0.0
     },
     {
-      "produto": "PETCOKE",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 398.0,
-      "tn_carr": 0.0
+      "produto": "TÉRMICO",
+      "prog": 12,
+      "carr": 5,
+      "falta": 7,
+      "tn_prev": 447.0,
+      "tn_carr": 170.93
     },
     {
       "produto": "GESSO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 226.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 225.5,
+      "tn_carr": 37.5
     },
     {
       "produto": "Ic Phoenix",
@@ -131,19 +131,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
+      "carr": 5,
+      "falta": 6,
       "tn_prev": 421.0,
-      "tn_carr": 0.0,
+      "tn_carr": 170.93,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
+          "carr": 4,
+          "falta": 2,
           "tn_prev": 203.0,
-          "tn_carr": 0.0
+          "tn_carr": 132.86
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -167,10 +167,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 76.0,
-          "tn_carr": 0.0
+          "tn_carr": 38.07
         }
       ]
     },
@@ -179,19 +179,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 226.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 225.5,
+      "tn_carr": 37.5,
       "transportadoras": [
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 226.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 225.5,
+          "tn_carr": 37.5
         }
       ]
     },
@@ -293,6 +293,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 85.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 85.0,
           "tn_carr": 0.0
         }
       ]
