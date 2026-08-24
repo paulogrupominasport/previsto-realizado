@@ -1,22 +1,22 @@
 {
   "data_relatorio": "24/08/2026",
-  "gerado_em": "2026-08-24T12:00:11",
-  "atualizado_em": "2026-08-24T15:05:26",
+  "gerado_em": "2026-08-24T13:00:05",
+  "atualizado_em": "2026-08-24T16:05:39",
   "totais": {
-    "prog": 104,
-    "carr": 59,
+    "prog": 106,
+    "carr": 61,
     "falta": 45,
-    "tn_prev": 3647.81,
-    "tn_carr": 2050.89
+    "tn_prev": 3684.29,
+    "tn_carr": 2128.28
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 15,
-      "carr": 9,
-      "falta": 6,
-      "tn_prev": 604.16,
-      "tn_carr": 346.16
+      "prog": 17,
+      "carr": 10,
+      "falta": 7,
+      "tn_prev": 676.78,
+      "tn_carr": 384.78
     },
     {
       "cliente": "BRASKEM",
@@ -45,10 +45,10 @@
     {
       "cliente": "CIM. LIZ",
       "prog": 10,
-      "carr": 8,
-      "falta": 2,
-      "tn_prev": 372.94,
-      "tn_carr": 286.94
+      "carr": 9,
+      "falta": 1,
+      "tn_prev": 373.71,
+      "tn_carr": 325.71
     },
     {
       "cliente": "CSN PEDRO LEOP",
@@ -63,7 +63,7 @@
       "prog": 6,
       "carr": 5,
       "falta": 1,
-      "tn_prev": 228.42,
+      "tn_prev": 191.51,
       "tn_carr": 190.42
     },
     {
@@ -142,11 +142,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 46,
-      "carr": 23,
+      "prog": 48,
+      "carr": 25,
       "falta": 23,
-      "tn_prev": 1848.61,
-      "tn_carr": 876.61
+      "tn_prev": 1885.09,
+      "tn_carr": 954.0
     },
     {
       "produto": "TÉRMICO",
@@ -353,10 +353,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 342.17,
-      "tn_carr": 256.17,
+      "carr": 8,
+      "falta": 1,
+      "tn_prev": 342.94,
+      "tn_carr": 294.94,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -371,10 +371,49 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 8,
-          "carr": 7,
+          "carr": 8,
+          "falta": 0,
+          "tn_prev": 294.94,
+          "tn_carr": 294.94
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 8,
+      "carr": 2,
+      "falta": 6,
+      "tn_prev": 341.42,
+      "tn_carr": 87.42,
+      "transportadoras": [
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 1,
+          "carr": 0,
           "falta": 1,
-          "tn_prev": 294.17,
-          "tn_carr": 256.17
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 97.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 5,
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 206.42,
+          "tn_carr": 87.42
         }
       ]
     },
@@ -421,52 +460,13 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO AGOSTO",
-      "cliente": "ITAMBÉ",
-      "produto": "PETCOKE",
-      "prog": 6,
-      "carr": 1,
-      "falta": 5,
-      "tn_prev": 268.8,
-      "tn_carr": 48.8,
-      "transportadoras": [
-        {
-          "nome": "PAULISTA TRANSP. (SC)",
-          "cnpj": "80776784000264",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 97.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "H.R. TRANSP. (SC)",
-          "cnpj": "79838694000190",
-          "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 133.8,
-          "tn_carr": 48.8
-        }
-      ]
-    },
-    {
       "lote": "BELOCAL MTZ - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 6,
       "carr": 5,
       "falta": 1,
-      "tn_prev": 228.42,
+      "tn_prev": 191.51,
       "tn_carr": 190.42,
       "transportadoras": [
         {
@@ -475,7 +475,7 @@
           "prog": 6,
           "carr": 5,
           "falta": 1,
-          "tn_prev": 228.42,
+          "tn_prev": 191.51,
           "tn_carr": 190.42
         }
       ]
