@@ -1,13 +1,13 @@
 {
   "data_relatorio": "28/08/2026",
-  "gerado_em": "2026-08-28T17:00:15",
-  "atualizado_em": "2026-08-28T20:05:28",
+  "gerado_em": "2026-08-28T18:00:07",
+  "atualizado_em": "2026-08-28T21:05:23",
   "totais": {
     "prog": 119,
-    "carr": 99,
-    "falta": 20,
-    "tn_prev": 4347.05,
-    "tn_carr": 3643.01
+    "carr": 102,
+    "falta": 17,
+    "tn_prev": 4341.8,
+    "tn_carr": 3785.76
   },
   "por_cliente": [
     {
@@ -101,10 +101,10 @@
     {
       "cliente": "DOLOCAL ARCOS",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 123.43,
-      "tn_carr": 75.43
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 123.44,
+      "tn_carr": 123.44
     },
     {
       "cliente": "CIM LIZ",
@@ -115,20 +115,20 @@
       "tn_carr": 119.41
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "INTERCEMENT IJACI",
       "prog": 2,
       "carr": 1,
       "falta": 1,
       "tn_prev": 95.7,
       "tn_carr": 47.7
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.74,
+      "tn_carr": 94.74
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -175,10 +175,10 @@
     {
       "produto": "PETCOKE",
       "prog": 56,
-      "carr": 44,
-      "falta": 12,
-      "tn_prev": 2288.54,
-      "tn_carr": 1828.54
+      "carr": 45,
+      "falta": 11,
+      "tn_prev": 2288.55,
+      "tn_carr": 1876.55
     },
     {
       "produto": "GESSO",
@@ -231,10 +231,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.74,
+      "tn_carr": 94.74
     },
     {
       "produto": "Carregamento Sucata",
@@ -651,19 +651,19 @@
       "cliente": "DOLOCAL ARCOS",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 123.43,
-      "tn_carr": 75.43,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 123.44,
+      "tn_carr": 123.44,
       "transportadoras": [
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.01,
+          "tn_carr": 48.01
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -698,27 +698,6 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
@@ -736,6 +715,27 @@
           "falta": 1,
           "tn_prev": 95.7,
           "tn_carr": 47.7
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.741,
+      "tn_carr": 94.741,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.741,
+          "tn_carr": 94.741
         }
       ]
     },
