@@ -1,13 +1,13 @@
 {
   "data_relatorio": "28/08/2026",
-  "gerado_em": "2026-08-28T09:42:18",
-  "atualizado_em": "2026-08-28T12:45:23",
+  "gerado_em": "2026-08-28T10:00:09",
+  "atualizado_em": "2026-08-28T13:05:27",
   "totais": {
-    "prog": 94,
-    "carr": 13,
+    "prog": 96,
+    "carr": 15,
     "falta": 81,
-    "tn_prev": 3448.48,
-    "tn_carr": 473.69
+    "tn_prev": 3522.4,
+    "tn_carr": 547.61
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "ITAMBÉ",
       "prog": 19,
-      "carr": 0,
-      "falta": 19,
-      "tn_prev": 711.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 17,
+      "tn_prev": 711.92,
+      "tn_carr": 73.92
     },
     {
       "cliente": "INTERCEMENT APIAÍ",
@@ -52,10 +52,10 @@
     },
     {
       "cliente": "*ITAMBÉ",
-      "prog": 4,
+      "prog": 6,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 152.0,
+      "falta": 6,
+      "tn_prev": 225.0,
       "tn_carr": 0.0
     },
     {
@@ -158,11 +158,11 @@
     },
     {
       "produto": "GESSO",
-      "prog": 23,
-      "carr": 1,
+      "prog": 25,
+      "carr": 3,
       "falta": 22,
-      "tn_prev": 864.0,
-      "tn_carr": 32.77
+      "tn_prev": 937.92,
+      "tn_carr": 106.69
     },
     {
       "produto": "TÉRMICO",
@@ -303,10 +303,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 18,
-      "carr": 0,
-      "falta": 18,
-      "tn_prev": 664.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 16,
+      "tn_prev": 664.92,
+      "tn_carr": 73.92,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -330,10 +330,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 295.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 6,
+          "tn_prev": 295.92,
+          "tn_carr": 73.92
         }
       ]
     },
@@ -431,10 +431,10 @@
       "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
-      "prog": 4,
+      "prog": 6,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 152.0,
+      "falta": 6,
+      "tn_prev": 225.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -444,6 +444,15 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 76.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 73.0,
           "tn_carr": 0.0
         },
         {
