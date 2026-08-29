@@ -1,22 +1,22 @@
 {
   "data_relatorio": "29/08/2026",
-  "gerado_em": "2026-08-29T15:00:06",
-  "atualizado_em": "2026-08-29T18:05:28",
+  "gerado_em": "2026-08-29T16:00:12",
+  "atualizado_em": "2026-08-29T19:05:24",
   "totais": {
-    "prog": 89,
-    "carr": 33,
-    "falta": 56,
-    "tn_prev": 3516.92,
-    "tn_carr": 1278.92
+    "prog": 90,
+    "carr": 43,
+    "falta": 47,
+    "tn_prev": 3556.51,
+    "tn_carr": 1698.51
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT APIAÍ",
       "prog": 24,
-      "carr": 15,
-      "falta": 9,
-      "tn_prev": 897.21,
-      "tn_carr": 562.21
+      "carr": 18,
+      "falta": 6,
+      "tn_prev": 895.46,
+      "tn_carr": 674.46
     },
     {
       "cliente": "CSN ARCOS",
@@ -37,10 +37,10 @@
     {
       "cliente": "CIM. LIZ",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 258.65,
-      "tn_carr": 96.65
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 257.76,
+      "tn_carr": 219.76
     },
     {
       "cliente": "CSN PEDRO LEOPODO",
@@ -53,10 +53,10 @@
     {
       "cliente": "UNICAL P LEOPOLDO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 183.52,
-      "tn_carr": 87.52
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 186.5,
+      "tn_carr": 186.5
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -67,20 +67,20 @@
       "tn_carr": 106.02
     },
     {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 151.06,
+      "tn_carr": 75.06
+    },
+    {
       "cliente": "INTERCEMENT",
       "prog": 3,
       "carr": 0,
       "falta": 3,
       "tn_prev": 148.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 113.06,
-      "tn_carr": 75.06
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -115,6 +115,14 @@
       "tn_carr": 49.75
     },
     {
+      "cliente": "DOLOCAL ARCOS",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 48.91,
+      "tn_carr": 48.91
+    },
+    {
       "cliente": "INTERCEMENT IJACI",
       "prog": 1,
       "carr": 1,
@@ -123,20 +131,12 @@
       "tn_carr": 48.0
     },
     {
-      "cliente": "DOLOCAL ARCOS",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "INNMOV",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 36.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 36.34,
+      "tn_carr": 36.34
     },
     {
       "cliente": "CIM LIZ",
@@ -151,10 +151,18 @@
     {
       "produto": "PETCOKE",
       "prog": 75,
-      "carr": 23,
-      "falta": 52,
-      "tn_prev": 2974.32,
-      "tn_carr": 904.32
+      "carr": 33,
+      "falta": 42,
+      "tn_prev": 2975.91,
+      "tn_carr": 1323.91
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 151.06,
+      "tn_carr": 75.06
     },
     {
       "produto": "Antracito",
@@ -163,14 +171,6 @@
       "falta": 1,
       "tn_prev": 140.02,
       "tn_carr": 106.02
-    },
-    {
-      "produto": "Sinter Feed",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 113.06,
-      "tn_carr": 75.06
     },
     {
       "produto": "Trindade",
@@ -211,28 +211,28 @@
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 15,
-      "falta": 9,
-      "tn_prev": 897.21,
-      "tn_carr": 562.21,
+      "carr": 18,
+      "falta": 6,
+      "tn_prev": 895.46,
+      "tn_carr": 674.46,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 112.9,
-          "tn_carr": 36.9
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 112.23,
+          "tn_carr": 74.23
         },
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
           "prog": 11,
-          "carr": 6,
-          "falta": 5,
-          "tn_prev": 404.67,
-          "tn_carr": 219.67
+          "carr": 8,
+          "falta": 3,
+          "tn_prev": 403.59,
+          "tn_carr": 294.59
         },
         {
           "nome": "CTS. TRANSP. (SP)",
@@ -364,10 +364,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 258.65,
-      "tn_carr": 96.65,
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 257.76,
+      "tn_carr": 219.76,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -382,19 +382,19 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 96.28,
-          "tn_carr": 48.28
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 95.9,
+          "tn_carr": 95.9
         },
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 75.49,
+          "tn_carr": 75.49
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -433,19 +433,40 @@
       "cliente": "UNICAL P LEOPOLDO",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 183.52,
-      "tn_carr": 87.52,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 186.5,
+      "tn_carr": 186.5,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 186.5,
+          "tn_carr": 186.5
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 151.06,
+      "tn_carr": 75.06,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 4,
           "carr": 2,
           "falta": 2,
-          "tn_prev": 183.52,
-          "tn_carr": 87.52
+          "tn_prev": 151.06,
+          "tn_carr": 75.06
         }
       ]
     },
@@ -497,27 +518,6 @@
           "falta": 1,
           "tn_prev": 140.02,
           "tn_carr": 106.02
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 113.06,
-      "tn_carr": 75.06,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (MG)",
-          "cnpj": "26178616000140",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 113.06,
-          "tn_carr": 75.06
         }
       ]
     },
@@ -606,6 +606,27 @@
       ]
     },
     {
+      "lote": "DOLOCAL ARCOS - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "DOLOCAL ARCOS",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 48.91,
+      "tn_carr": 48.91,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.91,
+          "tn_carr": 48.91
+        }
+      ]
+    },
+    {
       "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
@@ -623,27 +644,6 @@
           "falta": 0,
           "tn_prev": 48.0,
           "tn_carr": 48.0
-        }
-      ]
-    },
-    {
-      "lote": "DOLOCAL ARCOS - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "DOLOCAL ARCOS",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
         }
       ]
     },
@@ -673,19 +673,19 @@
       "cliente": "INNMOV",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 36.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 36.34,
+      "tn_carr": 36.34,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.34,
+          "tn_carr": 36.34
         }
       ]
     },
