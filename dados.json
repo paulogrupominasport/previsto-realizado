@@ -1,37 +1,37 @@
 {
   "data_relatorio": "29/08/2026",
-  "gerado_em": "2026-08-29T08:00:07",
-  "atualizado_em": "2026-08-29T11:05:29",
+  "gerado_em": "2026-08-29T09:00:11",
+  "atualizado_em": "2026-08-29T12:05:30",
   "totais": {
-    "prog": 55,
-    "carr": 0,
-    "falta": 55,
-    "tn_prev": 2172.55,
-    "tn_carr": 0.0
+    "prog": 68,
+    "carr": 1,
+    "falta": 67,
+    "tn_prev": 2690.38,
+    "tn_carr": 38.83
   },
   "por_cliente": [
+    {
+      "cliente": "INTERCEMENT APIAÍ",
+      "prog": 17,
+      "carr": 0,
+      "falta": 17,
+      "tn_prev": 631.5,
+      "tn_carr": 0.0
+    },
     {
       "cliente": "CSN ARCOS",
       "prog": 15,
       "carr": 0,
       "falta": 15,
-      "tn_prev": 588.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "INTERCEMENT APIAÍ",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 373.5,
+      "tn_prev": 586.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 251.0,
+      "falta": 8,
+      "tn_prev": 291.0,
       "tn_carr": 0.0
     },
     {
@@ -43,7 +43,15 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN PEDRO LEOP",
+      "cliente": "INTERCEMENT FOB",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 148.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN PEDRO LEOPODO",
       "prog": 3,
       "carr": 0,
       "falta": 3,
@@ -81,6 +89,14 @@
       "falta": 2,
       "tn_prev": 86.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 73.83,
+      "tn_carr": 38.83
     },
     {
       "cliente": "LHOIST DORES",
@@ -126,10 +142,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 46,
+      "prog": 54,
       "carr": 0,
-      "falta": 46,
-      "tn_prev": 1805.5,
+      "falta": 54,
+      "tn_prev": 2101.5,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Ijací",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 148.0,
       "tn_carr": 0.0
     },
     {
@@ -157,6 +181,14 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Sinter Feed",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 73.83,
+      "tn_carr": 38.83
+    },
+    {
       "produto": "GESSO",
       "prog": 1,
       "carr": 0,
@@ -167,13 +199,52 @@
   ],
   "lotes": [
     {
-      "lote": "CSN ARCOS - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
+      "cliente": "INTERCEMENT APIAÍ",
+      "produto": "PETCOKE",
+      "prog": 17,
+      "carr": 0,
+      "falta": 17,
+      "tn_prev": 631.5,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 8,
+          "carr": 0,
+          "falta": 8,
+          "tn_prev": 298.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "CTS. TRANSP. (SP)",
+          "cnpj": "03615415000168",
+          "prog": 8,
+          "carr": 0,
+          "falta": 8,
+          "tn_prev": 297.5,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 15,
+      "prog": 14,
       "carr": 0,
-      "falta": 15,
-      "tn_prev": 588.0,
+      "falta": 14,
+      "tn_prev": 548.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -197,10 +268,10 @@
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 2,
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 80.0,
+          "falta": 1,
+          "tn_prev": 40.0,
           "tn_carr": 0.0
         },
         {
@@ -233,52 +304,13 @@
       ]
     },
     {
-      "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
-      "cliente": "INTERCEMENT APIAÍ",
-      "produto": "PETCOKE",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 373.5,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "G7 LOG (SC)",
-          "cnpj": "14170909000100",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "CTS. TRANSP. (SP)",
-          "cnpj": "03615415000168",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 223.5,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 251.0,
+      "falta": 8,
+      "tn_prev": 291.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -297,6 +329,15 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 107.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 40.0,
           "tn_carr": 0.0
         },
         {
@@ -332,8 +373,38 @@
       ]
     },
     {
-      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
+      "lote": "INTERCEMENT FOB- IJACÍ - PETCOKE - MINAS PORT - FYM CRYSTAL - PILHA 50",
+      "cliente": "INTERCEMENT FOB",
+      "produto": "Ijací",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 148.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 100.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOPODO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
+      "cliente": "CSN PEDRO LEOPODO",
       "produto": "PETCOKE",
       "prog": 3,
       "carr": 0,
@@ -446,6 +517,27 @@
       ]
     },
     {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 73.83,
+      "tn_carr": 38.83,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 73.83,
+          "tn_carr": 38.83
+        }
+      ]
+    },
+    {
       "lote": "LHOIST DORES - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "LHOIST DORES",
       "produto": "PETCOKE",
@@ -525,6 +617,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
