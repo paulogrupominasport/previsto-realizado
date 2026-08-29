@@ -1,12 +1,12 @@
 {
   "data_relatorio": "29/08/2026",
-  "gerado_em": "2026-08-29T07:00:17",
-  "atualizado_em": "2026-08-29T10:05:24",
+  "gerado_em": "2026-08-29T08:00:07",
+  "atualizado_em": "2026-08-29T11:05:29",
   "totais": {
-    "prog": 53,
+    "prog": 55,
     "carr": 0,
-    "falta": 53,
-    "tn_prev": 2102.55,
+    "falta": 55,
+    "tn_prev": 2172.55,
     "tn_carr": 0.0
   },
   "por_cliente": [
@@ -28,10 +28,10 @@
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 6,
+      "prog": 7,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 216.0,
+      "falta": 7,
+      "tn_prev": 251.0,
       "tn_carr": 0.0
     },
     {
@@ -83,6 +83,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "LHOIST DORES",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 70.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "LAPA VERMELHA P LEOPOLDO",
       "prog": 1,
       "carr": 0,
@@ -113,23 +121,15 @@
       "falta": 1,
       "tn_prev": 36.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "LHOIST DORES",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 44,
+      "prog": 46,
       "carr": 0,
-      "falta": 44,
-      "tn_prev": 1735.5,
+      "falta": 46,
+      "tn_prev": 1805.5,
       "tn_carr": 0.0
     },
     {
@@ -275,19 +275,19 @@
       "lote": "CSN BARROSO - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 7,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 216.0,
+      "falta": 7,
+      "tn_prev": 251.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 71.0,
+          "falta": 3,
+          "tn_prev": 106.0,
           "tn_carr": 0.0
         },
         {
@@ -446,6 +446,27 @@
       ]
     },
     {
+      "lote": "LHOIST DORES - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "LHOIST DORES",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 70.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 70.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "LAPA VERMELHA P LEOPOLDO - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "LAPA VERMELHA P LEOPOLDO",
       "produto": "PETCOKE",
@@ -525,27 +546,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 36.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "LHOIST DORES - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "LHOIST DORES",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "VICTRANS (RJ)",
-          "cnpj": "02830994000441",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]
