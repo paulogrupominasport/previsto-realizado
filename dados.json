@@ -1,30 +1,30 @@
 {
   "data_relatorio": "29/08/2026",
-  "gerado_em": "2026-08-29T17:00:10",
-  "atualizado_em": "2026-08-29T20:05:28",
+  "gerado_em": "2026-08-29T18:00:11",
+  "atualizado_em": "2026-08-29T21:05:27",
   "totais": {
-    "prog": 89,
-    "carr": 46,
-    "falta": 43,
-    "tn_prev": 3517.96,
-    "tn_carr": 1818.96
+    "prog": 88,
+    "carr": 54,
+    "falta": 34,
+    "tn_prev": 3477.85,
+    "tn_carr": 2128.85
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT APIAÍ",
-      "prog": 23,
+      "prog": 22,
       "carr": 19,
-      "falta": 4,
-      "tn_prev": 859.93,
+      "falta": 3,
+      "tn_prev": 821.93,
       "tn_carr": 712.93
     },
     {
       "cliente": "CSN ARCOS",
       "prog": 16,
-      "carr": 0,
-      "falta": 16,
-      "tn_prev": 624.0,
-      "tn_carr": 0.0
+      "carr": 5,
+      "falta": 11,
+      "tn_prev": 620.12,
+      "tn_carr": 191.12
     },
     {
       "cliente": "CSN BARROSO",
@@ -45,10 +45,10 @@
     {
       "cliente": "CSN PEDRO LEOPODO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 244.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 243.86,
+      "tn_carr": 34.86
     },
     {
       "cliente": "UNICAL P LEOPOLDO",
@@ -61,10 +61,10 @@
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 178.02,
-      "tn_carr": 106.02
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 180.4,
+      "tn_carr": 142.4
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -101,10 +101,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.36,
-      "tn_carr": 47.36
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.89,
+      "tn_carr": 94.89
     },
     {
       "cliente": "LAPA VERMELHA P LEOPOLDO",
@@ -150,11 +150,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 74,
-      "carr": 35,
-      "falta": 39,
-      "tn_prev": 2938.0,
-      "tn_carr": 1397.0
+      "prog": 73,
+      "carr": 41,
+      "falta": 32,
+      "tn_prev": 2895.98,
+      "tn_carr": 1622.98
     },
     {
       "produto": "Sinter Feed",
@@ -167,10 +167,10 @@
     {
       "produto": "Antracito",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 140.02,
-      "tn_carr": 106.02
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 142.4,
+      "tn_carr": 142.4
     },
     {
       "produto": "Trindade",
@@ -183,10 +183,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.36,
-      "tn_carr": 47.36
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.89,
+      "tn_carr": 94.89
     },
     {
       "produto": "GESSO",
@@ -210,10 +210,10 @@
       "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "PETCOKE",
-      "prog": 23,
+      "prog": 22,
       "carr": 19,
-      "falta": 4,
-      "tn_prev": 859.93,
+      "falta": 3,
+      "tn_prev": 821.93,
       "tn_carr": 712.93,
       "transportadoras": [
         {
@@ -237,10 +237,10 @@
         {
           "nome": "CTS. TRANSP. (SP)",
           "cnpj": "03615415000168",
-          "prog": 9,
+          "prog": 8,
           "carr": 8,
-          "falta": 1,
-          "tn_prev": 343.64,
+          "falta": 0,
+          "tn_prev": 305.64,
           "tn_carr": 305.64
         }
       ]
@@ -250,10 +250,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 16,
-      "carr": 0,
-      "falta": 16,
-      "tn_prev": 624.0,
-      "tn_carr": 0.0,
+      "carr": 5,
+      "falta": 11,
+      "tn_prev": 620.12,
+      "tn_carr": 191.12,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES E LOGISTICA LTDA",
@@ -295,19 +295,19 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 150.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 146.96,
+          "tn_carr": 70.96
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 7,
-          "carr": 0,
-          "falta": 7,
-          "tn_prev": 283.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 4,
+          "tn_prev": 282.16,
+          "tn_carr": 120.16
         }
       ]
     },
@@ -412,19 +412,19 @@
       "cliente": "CSN PEDRO LEOPODO",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 244.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 243.86,
+      "tn_carr": 34.86,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 244.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 243.86,
+          "tn_carr": 34.86
         }
       ]
     },
@@ -505,19 +505,19 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "Antracito",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 140.02,
-      "tn_carr": 106.02,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 142.4,
+      "tn_carr": 142.4,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 140.02,
-          "tn_carr": 106.02
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 142.4,
+          "tn_carr": 142.4
         }
       ]
     },
@@ -568,19 +568,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.36,
-      "tn_carr": 47.36,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.89,
+      "tn_carr": 94.89,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 95.36,
-          "tn_carr": 47.36
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.89,
+          "tn_carr": 94.89
         }
       ]
     },
