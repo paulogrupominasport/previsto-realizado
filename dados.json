@@ -1,22 +1,22 @@
 {
   "data_relatorio": "29/08/2026",
-  "gerado_em": "2026-08-29T11:00:09",
-  "atualizado_em": "2026-08-29T14:05:22",
+  "gerado_em": "2026-08-29T12:00:16",
+  "atualizado_em": "2026-08-29T15:05:27",
   "totais": {
-    "prog": 77,
-    "carr": 19,
-    "falta": 58,
-    "tn_prev": 3033.18,
-    "tn_carr": 742.52
+    "prog": 80,
+    "carr": 24,
+    "falta": 56,
+    "tn_prev": 3144.63,
+    "tn_carr": 936.63
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT APIAÍ",
-      "prog": 19,
-      "carr": 6,
+      "prog": 22,
+      "carr": 9,
       "falta": 13,
-      "tn_prev": 707.58,
-      "tn_carr": 232.58
+      "tn_prev": 818.85,
+      "tn_carr": 340.85
     },
     {
       "cliente": "CSN ARCOS",
@@ -69,18 +69,18 @@
     {
       "cliente": "CIM. LIZ",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 134.37,
-      "tn_carr": 48.37
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 134.65,
+      "tn_carr": 96.65
     },
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 112.74,
-      "tn_carr": 75.08
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 112.64,
+      "tn_carr": 112.64
     },
     {
       "cliente": "LHOIST DORES",
@@ -150,11 +150,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 64,
-      "carr": 11,
-      "falta": 53,
-      "tn_prev": 2527.36,
-      "tn_carr": 438.36
+      "prog": 67,
+      "carr": 15,
+      "falta": 52,
+      "tn_prev": 2638.91,
+      "tn_carr": 594.91
     },
     {
       "produto": "Antracito",
@@ -167,10 +167,10 @@
     {
       "produto": "Trindade",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 112.74,
-      "tn_carr": 75.08
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 112.64,
+      "tn_carr": 112.64
     },
     {
       "produto": "PETRÓLEO",
@@ -210,11 +210,11 @@
       "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "PETCOKE",
-      "prog": 19,
-      "carr": 6,
+      "prog": 22,
+      "carr": 9,
       "falta": 13,
-      "tn_prev": 707.58,
-      "tn_carr": 232.58,
+      "tn_prev": 818.85,
+      "tn_carr": 340.85,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
@@ -228,20 +228,20 @@
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
-          "prog": 8,
-          "carr": 1,
-          "falta": 7,
-          "tn_prev": 295.26,
-          "tn_carr": 37.26
+          "prog": 11,
+          "carr": 3,
+          "falta": 8,
+          "tn_prev": 407.02,
+          "tn_carr": 111.02
         },
         {
           "nome": "CTS. TRANSP. (SP)",
           "cnpj": "03615415000168",
           "prog": 10,
-          "carr": 5,
-          "falta": 5,
-          "tn_prev": 376.32,
-          "tn_carr": 195.32
+          "carr": 6,
+          "falta": 4,
+          "tn_prev": 375.83,
+          "tn_carr": 229.83
         }
       ]
     },
@@ -457,10 +457,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 134.37,
-      "tn_carr": 48.37,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 134.65,
+      "tn_carr": 96.65,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -475,10 +475,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.28,
+          "tn_carr": 48.28
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -496,19 +496,19 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 112.74,
-      "tn_carr": 75.08,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 112.64,
+      "tn_carr": 112.64,
       "transportadoras": [
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 112.74,
-          "tn_carr": 75.08
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 112.64,
+          "tn_carr": 112.64
         }
       ]
     },
