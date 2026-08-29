@@ -1,12 +1,12 @@
 {
   "data_relatorio": "29/08/2026",
-  "gerado_em": "2026-08-29T13:00:06",
-  "atualizado_em": "2026-08-29T16:05:34",
+  "gerado_em": "2026-08-29T14:00:14",
+  "atualizado_em": "2026-08-29T17:05:24",
   "totais": {
-    "prog": 84,
+    "prog": 89,
     "carr": 30,
-    "falta": 54,
-    "tn_prev": 3308.04,
+    "falta": 59,
+    "tn_prev": 3520.04,
     "tn_carr": 1170.04
   },
   "por_cliente": [
@@ -15,7 +15,7 @@
       "prog": 24,
       "carr": 13,
       "falta": 11,
-      "tn_prev": 896.71,
+      "tn_prev": 898.71,
       "tn_carr": 490.71
     },
     {
@@ -35,20 +35,20 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM. LIZ",
+      "prog": 6,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 258.65,
+      "tn_carr": 96.65
+    },
+    {
       "cliente": "UNICAL P LEOPOLDO",
       "prog": 4,
       "carr": 2,
       "falta": 2,
       "tn_prev": 183.52,
       "tn_carr": 87.52
-    },
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 182.65,
-      "tn_carr": 96.65
     },
     {
       "cliente": "LS METAIS / COQUEMETAL",
@@ -65,6 +65,22 @@
       "falta": 3,
       "tn_prev": 148.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN PEDRO LEOP",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 132.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 113.06,
+      "tn_carr": 75.06
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -99,14 +115,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 75.06,
-      "tn_carr": 75.06
-    },
-    {
       "cliente": "LAPA VERMELHA P LEOPOLDO",
       "prog": 1,
       "carr": 1,
@@ -139,14 +147,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN PEDRO LEOP",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 36.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CIM LIZ",
       "prog": 1,
       "carr": 1,
@@ -158,10 +158,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 71,
+      "prog": 75,
       "carr": 20,
-      "falta": 51,
-      "tn_prev": 2803.44,
+      "falta": 55,
+      "tn_prev": 2977.44,
       "tn_carr": 795.44
     },
     {
@@ -171,6 +171,14 @@
       "falta": 1,
       "tn_prev": 140.02,
       "tn_carr": 106.02
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 113.06,
+      "tn_carr": 75.06
     },
     {
       "produto": "Trindade",
@@ -187,14 +195,6 @@
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "Sinter Feed",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 75.06,
-      "tn_carr": 75.06
     },
     {
       "produto": "GESSO",
@@ -221,7 +221,7 @@
       "prog": 24,
       "carr": 13,
       "falta": 11,
-      "tn_prev": 896.71,
+      "tn_prev": 898.71,
       "tn_carr": 490.71,
       "transportadoras": [
         {
@@ -230,7 +230,7 @@
           "prog": 3,
           "carr": 1,
           "falta": 2,
-          "tn_prev": 110.9,
+          "tn_prev": 112.9,
           "tn_carr": 36.9
         },
         {
@@ -368,34 +368,13 @@
       ]
     },
     {
-      "lote": "UNICAL P LEOPOLDO - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "UNICAL P LEOPOLDO",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 183.52,
-      "tn_carr": 87.52,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 183.52,
-          "tn_carr": 87.52
-        }
-      ]
-    },
-    {
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 4,
+      "prog": 6,
       "carr": 2,
-      "falta": 2,
-      "tn_prev": 182.65,
+      "falta": 4,
+      "tn_prev": 258.65,
       "tn_carr": 96.65,
       "transportadoras": [
         {
@@ -417,6 +396,15 @@
           "tn_carr": 48.28
         },
         {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        },
+        {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
@@ -424,6 +412,27 @@
           "falta": 0,
           "tn_prev": 48.37,
           "tn_carr": 48.37
+        }
+      ]
+    },
+    {
+      "lote": "UNICAL P LEOPOLDO - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "UNICAL P LEOPOLDO",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 183.52,
+      "tn_carr": 87.52,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 183.52,
+          "tn_carr": 87.52
         }
       ]
     },
@@ -475,6 +484,48 @@
           "falta": 1,
           "tn_prev": 140.02,
           "tn_carr": 106.02
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "CSN PEDRO LEOP",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 132.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 132.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 113.06,
+      "tn_carr": 75.06,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 113.06,
+          "tn_carr": 75.06
         }
       ]
     },
@@ -559,27 +610,6 @@
           "falta": 2,
           "tn_prev": 96.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 75.06,
-      "tn_carr": 75.06,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (MG)",
-          "cnpj": "26178616000140",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 75.06,
-          "tn_carr": 75.06
         }
       ]
     },
@@ -701,27 +731,6 @@
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN PEDRO LEOP - PETCOKE - FYM CRYSTAL - PILHA 50",
-      "cliente": "CSN PEDRO LEOP",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 36.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
           "prog": 1,
           "carr": 0,
           "falta": 1,
