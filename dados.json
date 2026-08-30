@@ -1,13 +1,13 @@
 {
   "data_relatorio": "30/08/2026",
-  "gerado_em": "2026-08-30T13:00:10",
-  "atualizado_em": "2026-08-30T16:05:29",
+  "gerado_em": "2026-08-30T14:00:16",
+  "atualizado_em": "2026-08-30T17:05:25",
   "totais": {
     "prog": 59,
-    "carr": 29,
-    "falta": 30,
-    "tn_prev": 2455.06,
-    "tn_carr": 1143.76
+    "carr": 31,
+    "falta": 28,
+    "tn_prev": 2454.84,
+    "tn_carr": 1230.85
   },
   "por_cliente": [
     {
@@ -20,10 +20,10 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 10,
+      "prog": 9,
       "carr": 3,
-      "falta": 7,
-      "tn_prev": 455.44,
+      "falta": 6,
+      "tn_prev": 418.44,
       "tn_carr": 142.44
     },
     {
@@ -45,10 +45,10 @@
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 161.18,
-      "tn_carr": 73.88
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 160.59,
+      "tn_carr": 112.6
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -61,10 +61,10 @@
     {
       "cliente": "INTERCEMENT IJACI",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 96.37,
+      "tn_carr": 48.37
     },
     {
       "cliente": "INTERCEMENT",
@@ -89,24 +89,32 @@
       "falta": 0,
       "tn_prev": 37.61,
       "tn_carr": 37.61
+    },
+    {
+      "cliente": "CIM LIZ",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 37.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 50,
+      "prog": 49,
       "carr": 26,
-      "falta": 24,
-      "tn_prev": 2060.27,
+      "falta": 23,
+      "tn_prev": 2023.27,
       "tn_carr": 1032.27
     },
     {
       "produto": "Trindade",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 161.18,
-      "tn_carr": 73.88
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 160.59,
+      "tn_carr": 112.6
     },
     {
       "produto": "PETRÓLEO",
@@ -119,10 +127,10 @@
     {
       "produto": "GESSO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 96.37,
+      "tn_carr": 48.37
     },
     {
       "produto": "Sinter Feed",
@@ -131,6 +139,14 @@
       "falta": 0,
       "tn_prev": 37.61,
       "tn_carr": 37.61
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 37.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -213,10 +229,10 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 10,
+      "prog": 9,
       "carr": 3,
-      "falta": 7,
-      "tn_prev": 455.44,
+      "falta": 6,
+      "tn_prev": 418.44,
       "tn_carr": 142.44,
       "transportadoras": [
         {
@@ -236,15 +252,6 @@
           "falta": 2,
           "tn_prev": 190.42,
           "tn_carr": 94.42
-        },
-        {
-          "nome": "LENARGE (RJ)",
-          "cnpj": "02870124000315",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
-          "tn_carr": 0.0
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -304,19 +311,19 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 161.18,
-      "tn_carr": 73.88,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 160.59,
+      "tn_carr": 112.6,
       "transportadoras": [
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 161.18,
-          "tn_carr": 73.88
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 160.59,
+          "tn_carr": 112.6
         }
       ]
     },
@@ -346,19 +353,19 @@
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 96.37,
+      "tn_carr": 48.37,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 96.37,
+          "tn_carr": 48.37
         }
       ]
     },
@@ -422,6 +429,27 @@
           "falta": 0,
           "tn_prev": 37.61,
           "tn_carr": 37.61
+        }
+      ]
+    },
+    {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 37.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 37.0,
+          "tn_carr": 0.0
         }
       ]
     }
