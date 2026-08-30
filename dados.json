@@ -1,22 +1,22 @@
 {
   "data_relatorio": "30/08/2026",
-  "gerado_em": "2026-08-30T08:00:15",
-  "atualizado_em": "2026-08-30T11:05:28",
+  "gerado_em": "2026-08-30T09:00:07",
+  "atualizado_em": "2026-08-30T12:05:28",
   "totais": {
-    "prog": 53,
-    "carr": 1,
-    "falta": 52,
-    "tn_prev": 2244.58,
-    "tn_carr": 38.5
+    "prog": 54,
+    "carr": 11,
+    "falta": 43,
+    "tn_prev": 2276.56,
+    "tn_carr": 434.48
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 834.0,
-      "tn_carr": 0.0
+      "prog": 23,
+      "carr": 6,
+      "falta": 17,
+      "tn_prev": 911.3,
+      "tn_carr": 232.3
     },
     {
       "cliente": "CIM. LIZ",
@@ -29,18 +29,18 @@
     {
       "cliente": "CSN PEDRO LEOPODO",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 333.0,
-      "tn_carr": 0.0
+      "carr": 4,
+      "falta": 4,
+      "tn_prev": 327.5,
+      "tn_carr": 155.5
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 6,
+      "prog": 5,
       "carr": 1,
-      "falta": 5,
-      "tn_prev": 253.5,
-      "tn_carr": 38.5
+      "falta": 4,
+      "tn_prev": 213.68,
+      "tn_carr": 46.68
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -86,11 +86,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 46,
-      "carr": 1,
-      "falta": 45,
-      "tn_prev": 1926.5,
-      "tn_carr": 38.5
+      "prog": 47,
+      "carr": 11,
+      "falta": 36,
+      "tn_prev": 1958.48,
+      "tn_carr": 434.48
     },
     {
       "produto": "Trindade",
@@ -122,20 +122,20 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 834.0,
-      "tn_carr": 0.0,
+      "prog": 23,
+      "carr": 6,
+      "falta": 17,
+      "tn_prev": 911.3,
+      "tn_carr": 232.3,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES E LOGISTICA LTDA",
           "cnpj": "13349563000301",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 39.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 34.16,
+          "tn_carr": 34.16
         },
         {
           "nome": "RODEIRO (RJ)",
@@ -158,11 +158,11 @@
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 40.0,
-          "tn_carr": 0.0
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 75.5,
+          "tn_carr": 75.5
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -177,19 +177,19 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 222.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 221.94,
+          "tn_carr": 37.94
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 7,
-          "carr": 0,
-          "falta": 7,
-          "tn_prev": 268.0,
-          "tn_carr": 0.0
+          "prog": 8,
+          "carr": 2,
+          "falta": 6,
+          "tn_prev": 314.7,
+          "tn_carr": 84.7
         }
       ]
     },
@@ -237,19 +237,19 @@
       "cliente": "CSN PEDRO LEOPODO",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 333.0,
-      "tn_carr": 0.0,
+      "carr": 4,
+      "falta": 4,
+      "tn_prev": 327.5,
+      "tn_carr": 155.5,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 333.0,
-          "tn_carr": 0.0
+          "carr": 4,
+          "falta": 4,
+          "tn_prev": 327.5,
+          "tn_carr": 155.5
         }
       ]
     },
@@ -257,29 +257,20 @@
       "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 5,
       "carr": 1,
-      "falta": 5,
-      "tn_prev": 253.5,
-      "tn_carr": 38.5,
+      "falta": 4,
+      "tn_prev": 213.68,
+      "tn_carr": 46.68,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 215.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 38.5,
-          "tn_carr": 38.5
+          "falta": 4,
+          "tn_prev": 213.68,
+          "tn_carr": 46.68
         }
       ]
     },
