@@ -1,13 +1,13 @@
 {
   "data_relatorio": "30/08/2026",
-  "gerado_em": "2026-08-30T10:00:14",
-  "atualizado_em": "2026-08-30T13:05:26",
+  "gerado_em": "2026-08-30T11:00:06",
+  "atualizado_em": "2026-08-30T14:05:26",
   "totais": {
-    "prog": 54,
-    "carr": 24,
-    "falta": 30,
-    "tn_prev": 2265.78,
-    "tn_carr": 944.79
+    "prog": 55,
+    "carr": 27,
+    "falta": 28,
+    "tn_prev": 2303.13,
+    "tn_carr": 1068.14
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "CIM. LIZ",
       "prog": 9,
-      "carr": 2,
-      "falta": 7,
-      "tn_prev": 419.61,
-      "tn_carr": 95.61
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 418.44,
+      "tn_carr": 142.44
     },
     {
       "cliente": "CSN PEDRO LEOPODO",
@@ -77,20 +77,28 @@
     {
       "cliente": "LS METAIS / COQUEMETAL",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.91,
+      "tn_carr": 38.91
+    },
+    {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.61,
+      "tn_carr": 37.61
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
       "prog": 47,
-      "carr": 22,
-      "falta": 25,
-      "tn_prev": 1947.91,
-      "tn_carr": 870.91
+      "carr": 24,
+      "falta": 23,
+      "tn_prev": 1947.65,
+      "tn_carr": 956.65
     },
     {
       "produto": "Trindade",
@@ -115,6 +123,14 @@
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.61,
+      "tn_carr": 37.61
     }
   ],
   "lotes": [
@@ -198,10 +214,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 9,
-      "carr": 2,
-      "falta": 7,
-      "tn_prev": 419.61,
-      "tn_carr": 95.61,
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 418.44,
+      "tn_carr": 142.44,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -216,10 +232,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 191.59,
-          "tn_carr": 47.59
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 190.42,
+          "tn_carr": 94.42
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -363,19 +379,40 @@
       "cliente": "LS METAIS / COQUEMETAL",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.91,
+      "tn_carr": 38.91,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.91,
+          "tn_carr": 38.91
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.61,
+      "tn_carr": 37.61,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.61,
+          "tn_carr": 37.61
         }
       ]
     }
