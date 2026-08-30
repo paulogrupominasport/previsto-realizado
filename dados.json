@@ -1,37 +1,37 @@
 {
   "data_relatorio": "30/08/2026",
-  "gerado_em": "2026-08-30T11:00:06",
-  "atualizado_em": "2026-08-30T14:05:26",
+  "gerado_em": "2026-08-30T12:00:13",
+  "atualizado_em": "2026-08-30T15:05:28",
   "totais": {
-    "prog": 55,
-    "carr": 27,
-    "falta": 28,
-    "tn_prev": 2303.13,
-    "tn_carr": 1068.14
+    "prog": 59,
+    "carr": 29,
+    "falta": 30,
+    "tn_prev": 2455.06,
+    "tn_carr": 1143.76
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 23,
-      "carr": 13,
-      "falta": 10,
-      "tn_prev": 901.46,
-      "tn_carr": 502.46
+      "prog": 24,
+      "carr": 15,
+      "falta": 9,
+      "tn_prev": 939.08,
+      "tn_carr": 578.08
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 9,
+      "prog": 10,
       "carr": 3,
-      "falta": 6,
-      "tn_prev": 418.44,
+      "falta": 7,
+      "tn_prev": 455.44,
       "tn_carr": 142.44
     },
     {
       "cliente": "CSN PEDRO LEOPODO",
-      "prog": 8,
+      "prog": 9,
       "carr": 4,
-      "falta": 4,
-      "tn_prev": 327.5,
+      "falta": 5,
+      "tn_prev": 365.5,
       "tn_carr": 155.5
     },
     {
@@ -44,10 +44,10 @@
     },
     {
       "cliente": "DESCARGA MINÉRIO",
-      "prog": 3,
+      "prog": 4,
       "carr": 2,
-      "falta": 1,
-      "tn_prev": 121.87,
+      "falta": 2,
+      "tn_prev": 161.18,
       "tn_carr": 73.88
     },
     {
@@ -94,18 +94,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 47,
-      "carr": 24,
-      "falta": 23,
-      "tn_prev": 1947.65,
-      "tn_carr": 956.65
+      "prog": 50,
+      "carr": 26,
+      "falta": 24,
+      "tn_prev": 2060.27,
+      "tn_carr": 1032.27
     },
     {
       "produto": "Trindade",
-      "prog": 3,
+      "prog": 4,
       "carr": 2,
-      "falta": 1,
-      "tn_prev": 121.87,
+      "falta": 2,
+      "tn_prev": 161.18,
       "tn_carr": 73.88
     },
     {
@@ -138,11 +138,11 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 23,
-      "carr": 13,
-      "falta": 10,
-      "tn_prev": 901.46,
-      "tn_carr": 502.46,
+      "prog": 24,
+      "carr": 15,
+      "falta": 9,
+      "tn_prev": 939.08,
+      "tn_carr": 578.08,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES E LOGISTICA LTDA",
@@ -183,11 +183,11 @@
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
+          "prog": 2,
+          "carr": 1,
           "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "tn_prev": 73.96,
+          "tn_carr": 37.96
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -202,10 +202,10 @@
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 8,
-          "carr": 3,
-          "falta": 5,
-          "tn_prev": 312.36,
-          "tn_carr": 122.36
+          "carr": 4,
+          "falta": 4,
+          "tn_prev": 312.02,
+          "tn_carr": 160.02
         }
       ]
     },
@@ -213,10 +213,10 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 9,
+      "prog": 10,
       "carr": 3,
-      "falta": 6,
-      "tn_prev": 418.44,
+      "falta": 7,
+      "tn_prev": 455.44,
       "tn_carr": 142.44,
       "transportadoras": [
         {
@@ -238,6 +238,15 @@
           "tn_carr": 94.42
         },
         {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 37.0,
+          "tn_carr": 0.0
+        },
+        {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 4,
@@ -252,19 +261,19 @@
       "lote": "CSN PEDRO LEOPODO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN PEDRO LEOPODO",
       "produto": "PETCOKE",
-      "prog": 8,
+      "prog": 9,
       "carr": 4,
-      "falta": 4,
-      "tn_prev": 327.5,
+      "falta": 5,
+      "tn_prev": 365.5,
       "tn_carr": 155.5,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 8,
+          "prog": 9,
           "carr": 4,
-          "falta": 4,
-          "tn_prev": 327.5,
+          "falta": 5,
+          "tn_prev": 365.5,
           "tn_carr": 155.5
         }
       ]
@@ -294,19 +303,19 @@
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
-      "prog": 3,
+      "prog": 4,
       "carr": 2,
-      "falta": 1,
-      "tn_prev": 121.87,
+      "falta": 2,
+      "tn_prev": 161.18,
       "tn_carr": 73.88,
       "transportadoras": [
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
-          "prog": 3,
+          "prog": 4,
           "carr": 2,
-          "falta": 1,
-          "tn_prev": 121.87,
+          "falta": 2,
+          "tn_prev": 161.18,
           "tn_carr": 73.88
         }
       ]
