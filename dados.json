@@ -1,13 +1,13 @@
 {
   "data_relatorio": "30/08/2026",
-  "gerado_em": "2026-08-30T17:00:04",
-  "atualizado_em": "2026-08-30T20:05:23",
+  "gerado_em": "2026-08-30T18:00:10",
+  "atualizado_em": "2026-08-30T21:05:30",
   "totais": {
     "prog": 61,
-    "carr": 48,
-    "falta": 13,
-    "tn_prev": 2522.4,
-    "tn_carr": 1943.41
+    "carr": 52,
+    "falta": 9,
+    "tn_prev": 2515.16,
+    "tn_carr": 2122.17
   },
   "por_cliente": [
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "CSN PEDRO LEOPODO",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 398.62,
-      "tn_carr": 226.62
+      "carr": 8,
+      "falta": 2,
+      "tn_prev": 396.9,
+      "tn_carr": 310.9
     },
     {
       "cliente": "CSN BARROSO",
@@ -51,20 +51,20 @@
       "tn_carr": 150.1
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "INTERCEMENT IJACI",
       "prog": 2,
       "carr": 2,
       "falta": 0,
       "tn_prev": 97.25,
       "tn_carr": 97.25
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.48,
+      "tn_carr": 94.48
     },
     {
       "cliente": "INTERCEMENT",
@@ -103,10 +103,10 @@
     {
       "produto": "PETCOKE",
       "prog": 50,
-      "carr": 40,
-      "falta": 10,
-      "tn_prev": 2051.63,
-      "tn_carr": 1620.63
+      "carr": 42,
+      "falta": 8,
+      "tn_prev": 2049.91,
+      "tn_carr": 1704.91
     },
     {
       "produto": "Trindade",
@@ -117,20 +117,20 @@
       "tn_carr": 150.1
     },
     {
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "GESSO",
       "prog": 2,
       "carr": 2,
       "falta": 0,
       "tn_prev": 97.25,
       "tn_carr": 97.25
+    },
+    {
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.48,
+      "tn_carr": 94.48
     },
     {
       "produto": "CARVÃO",
@@ -269,19 +269,19 @@
       "cliente": "CSN PEDRO LEOPODO",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 6,
-      "falta": 4,
-      "tn_prev": 398.62,
-      "tn_carr": 226.62,
+      "carr": 8,
+      "falta": 2,
+      "tn_prev": 396.9,
+      "tn_carr": 310.9,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 10,
-          "carr": 6,
-          "falta": 4,
-          "tn_prev": 398.62,
-          "tn_carr": 226.62
+          "carr": 8,
+          "falta": 2,
+          "tn_prev": 396.9,
+          "tn_carr": 310.9
         }
       ]
     },
@@ -328,27 +328,6 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
@@ -366,6 +345,27 @@
           "falta": 0,
           "tn_prev": 97.25,
           "tn_carr": 97.25
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.482,
+      "tn_carr": 94.482,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.482,
+          "tn_carr": 94.482
         }
       ]
     },
