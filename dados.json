@@ -1,30 +1,30 @@
 {
   "data_relatorio": "30/08/2026",
-  "gerado_em": "2026-08-30T15:00:06",
-  "atualizado_em": "2026-08-30T18:05:23",
+  "gerado_em": "2026-08-30T16:00:11",
+  "atualizado_em": "2026-08-30T19:05:23",
   "totais": {
     "prog": 60,
-    "carr": 40,
-    "falta": 20,
-    "tn_prev": 2484.3,
-    "tn_carr": 1602.7
+    "carr": 44,
+    "falta": 16,
+    "tn_prev": 2485.78,
+    "tn_carr": 1763.18
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
       "prog": 24,
-      "carr": 18,
-      "falta": 6,
-      "tn_prev": 937.68,
-      "tn_carr": 688.68
+      "carr": 19,
+      "falta": 5,
+      "tn_prev": 937.3,
+      "tn_carr": 726.3
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 9,
-      "carr": 4,
-      "falta": 5,
-      "tn_prev": 416.91,
-      "tn_carr": 188.91
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 417.95,
+      "tn_carr": 273.95
     },
     {
       "cliente": "CSN PEDRO LEOPODO",
@@ -83,30 +83,30 @@
       "tn_carr": 38.91
     },
     {
+      "cliente": "CIM LIZ",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.82,
+      "tn_carr": 37.82
+    },
+    {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 37.61,
       "tn_carr": 37.61
-    },
-    {
-      "cliente": "CIM LIZ",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
       "prog": 49,
-      "carr": 34,
-      "falta": 15,
-      "tn_prev": 2014.24,
-      "tn_carr": 1355.24
+      "carr": 37,
+      "falta": 12,
+      "tn_prev": 2014.9,
+      "tn_carr": 1477.9
     },
     {
       "produto": "Trindade",
@@ -133,20 +133,20 @@
       "tn_carr": 97.25
     },
     {
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.82,
+      "tn_carr": 37.82
+    },
+    {
       "produto": "Sinter Feed",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 37.61,
       "tn_carr": 37.61
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -155,10 +155,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 18,
-      "falta": 6,
-      "tn_prev": 937.68,
-      "tn_carr": 688.68,
+      "carr": 19,
+      "falta": 5,
+      "tn_prev": 937.3,
+      "tn_carr": 726.3,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES E LOGISTICA LTDA",
@@ -209,10 +209,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 219.5,
-          "tn_carr": 144.5
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 219.12,
+          "tn_carr": 182.12
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -230,19 +230,19 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 9,
-      "carr": 4,
-      "falta": 5,
-      "tn_prev": 416.91,
-      "tn_carr": 188.91,
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 417.95,
+      "tn_carr": 273.95,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.45,
+          "tn_carr": 37.45
         },
         {
           "nome": "RODEIRO (RJ)",
@@ -257,10 +257,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 192.02,
-          "tn_carr": 48.02
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 191.61,
+          "tn_carr": 95.61
         }
       ]
     },
@@ -412,6 +412,27 @@
       ]
     },
     {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.82,
+      "tn_carr": 37.82,
+      "transportadoras": [
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.82,
+          "tn_carr": 37.82
+        }
+      ]
+    },
+    {
       "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
@@ -429,27 +450,6 @@
           "falta": 0,
           "tn_prev": 37.61,
           "tn_carr": 37.61
-        }
-      ]
-    },
-    {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "LENARGE (RJ)",
-          "cnpj": "02870124000315",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
-          "tn_carr": 0.0
         }
       ]
     }
