@@ -1,22 +1,30 @@
 {
   "data_relatorio": "31/08/2026",
-  "gerado_em": "2026-08-31T09:00:17",
-  "atualizado_em": "2026-08-31T12:05:27",
+  "gerado_em": "2026-08-31T10:00:08",
+  "atualizado_em": "2026-08-31T13:05:34",
   "totais": {
-    "prog": 39,
+    "prog": 43,
     "carr": 9,
-    "falta": 30,
-    "tn_prev": 1459.73,
+    "falta": 34,
+    "tn_prev": 1610.73,
     "tn_carr": 320.79
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 10,
+      "prog": 12,
       "carr": 1,
-      "falta": 9,
-      "tn_prev": 389.62,
+      "falta": 11,
+      "tn_prev": 464.62,
       "tn_carr": 37.62
+    },
+    {
+      "cliente": "INTERCEMENT APIAÍ",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 226.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "BRASKEM",
@@ -27,19 +35,11 @@
       "tn_carr": 198.63
     },
     {
-      "cliente": "INTERCEMENT APIAÍ",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 188.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "*ITAMBÉ",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 105.0,
+      "falta": 4,
+      "tn_prev": 143.0,
       "tn_carr": 0.0
     },
     {
@@ -110,10 +110,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 20,
+      "prog": 23,
       "carr": 3,
-      "falta": 17,
-      "tn_prev": 796.16,
+      "falta": 20,
+      "tn_prev": 909.16,
       "tn_carr": 122.16
     },
     {
@@ -126,10 +126,10 @@
     },
     {
       "produto": "GESSO",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 105.0,
+      "falta": 4,
+      "tn_prev": 143.0,
       "tn_carr": 0.0
     },
     {
@@ -178,10 +178,10 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 10,
+      "prog": 12,
       "carr": 1,
-      "falta": 9,
-      "tn_prev": 389.62,
+      "falta": 11,
+      "tn_prev": 464.62,
       "tn_carr": 37.62,
       "transportadoras": [
         {
@@ -205,20 +205,50 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 5,
+          "prog": 6,
           "carr": 0,
-          "falta": 5,
-          "tn_prev": 190.0,
+          "falta": 6,
+          "tn_prev": 227.0,
           "tn_carr": 0.0
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 3,
+          "prog": 4,
           "carr": 1,
-          "falta": 2,
-          "tn_prev": 113.62,
+          "falta": 3,
+          "tn_prev": 151.62,
           "tn_carr": 37.62
+        }
+      ]
+    },
+    {
+      "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
+      "cliente": "INTERCEMENT APIAÍ",
+      "produto": "PETCOKE",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 226.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "G7 LOG (SC)",
+          "cnpj": "14170909000100",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 188.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -244,45 +274,24 @@
       ]
     },
     {
-      "lote": "INTERCEMENT APIAÍ - PETCOKE - IC PHOENIX - PILHA 20",
-      "cliente": "INTERCEMENT APIAÍ",
-      "produto": "PETCOKE",
-      "prog": 5,
+      "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "*ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 4,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 188.0,
+      "falta": 4,
+      "tn_prev": 143.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
           "prog": 1,
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
           "tn_carr": 0.0
         },
-        {
-          "nome": "G7 LOG (SC)",
-          "cnpj": "14170909000100",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 150.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "*ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 105.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
