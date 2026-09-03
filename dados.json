@@ -1,12 +1,12 @@
 {
   "data_relatorio": "03/09/2026",
-  "gerado_em": "2026-09-03T08:00:12",
-  "atualizado_em": "2026-09-03T11:05:24",
+  "gerado_em": "2026-09-03T08:07:19",
+  "atualizado_em": "2026-09-03T11:10:27",
   "totais": {
-    "prog": 125,
+    "prog": 128,
     "carr": 12,
-    "falta": 113,
-    "tn_prev": 4458.73,
+    "falta": 116,
+    "tn_prev": 4572.73,
     "tn_carr": 422.03
   },
   "por_cliente": [
@@ -20,10 +20,10 @@
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 24,
+      "prog": 27,
       "carr": 4,
-      "falta": 20,
-      "tn_prev": 930.84,
+      "falta": 23,
+      "tn_prev": 1044.84,
       "tn_carr": 157.84
     },
     {
@@ -142,10 +142,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 75,
+      "prog": 78,
       "carr": 5,
-      "falta": 70,
-      "tn_prev": 2826.58,
+      "falta": 73,
+      "tn_prev": 2940.58,
       "tn_carr": 179.08
     },
     {
@@ -308,6 +308,54 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO SETEMBRO",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 14,
+      "carr": 0,
+      "falta": 14,
+      "tn_prev": 549.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 200.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 149.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 86.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 114.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
@@ -391,45 +439,6 @@
           "falta": 3,
           "tn_prev": 186.12,
           "tn_carr": 79.12
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO SETEMBRO",
-      "cliente": "ITAMBÉ",
-      "produto": "PETCOKE",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 435.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "TRANSP. TELLES (SC)",
-          "cnpj": "78266228000115",
-          "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 200.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "TRANSP. BONTORIN (SC)",
-          "cnpj": "81429755000299",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 149.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 86.0,
-          "tn_carr": 0.0
         }
       ]
     },
