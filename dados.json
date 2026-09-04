@@ -1,12 +1,12 @@
 {
   "data_relatorio": "03/09/2026",
-  "gerado_em": "2026-09-03T20:00:11",
-  "atualizado_em": "2026-09-03T23:05:28",
+  "gerado_em": "2026-09-03T21:00:17",
+  "atualizado_em": "2026-09-04T00:05:28",
   "totais": {
-    "prog": 208,
+    "prog": 209,
     "carr": 184,
-    "falta": 24,
-    "tn_prev": 7319.59,
+    "falta": 25,
+    "tn_prev": 7352.59,
     "tn_carr": 6593.77
   },
   "por_cliente": [
@@ -27,20 +27,20 @@
       "tn_carr": 1238.1
     },
     {
+      "cliente": "CSN BARROSO",
+      "prog": 18,
+      "carr": 15,
+      "falta": 3,
+      "tn_prev": 668.4,
+      "tn_carr": 549.4
+    },
+    {
       "cliente": "LS METAIS",
       "prog": 18,
       "carr": 17,
       "falta": 1,
       "tn_prev": 635.57,
       "tn_carr": 597.57
-    },
-    {
-      "cliente": "CSN BARROSO",
-      "prog": 17,
-      "carr": 15,
-      "falta": 2,
-      "tn_prev": 635.4,
-      "tn_carr": 549.4
     },
     {
       "cliente": "CIM LIZ",
@@ -166,10 +166,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 111,
+      "prog": 112,
       "carr": 99,
-      "falta": 12,
-      "tn_prev": 4326.9,
+      "falta": 13,
+      "tn_prev": 4359.9,
       "tn_carr": 3838.9
     },
     {
@@ -388,6 +388,72 @@
       ]
     },
     {
+      "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
+      "cliente": "CSN BARROSO",
+      "produto": "PETCOKE",
+      "prog": 18,
+      "carr": 15,
+      "falta": 3,
+      "tn_prev": 668.4,
+      "tn_carr": 549.4,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 4,
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 163.52,
+          "tn_carr": 115.52
+        },
+        {
+          "nome": "RANGEL (RJ)",
+          "cnpj": "47836361000136",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 24.94,
+          "tn_carr": 24.94
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.16,
+          "tn_carr": 38.16
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 10,
+          "carr": 9,
+          "falta": 1,
+          "tn_prev": 366.2,
+          "tn_carr": 333.2
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.58,
+          "tn_carr": 37.58
+        }
+      ]
+    },
+    {
       "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
       "cliente": "LS METAIS",
       "produto": "Antracito",
@@ -441,72 +507,6 @@
           "falta": 0,
           "tn_prev": 38.97,
           "tn_carr": 38.97
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
-      "cliente": "CSN BARROSO",
-      "produto": "PETCOKE",
-      "prog": 17,
-      "carr": 15,
-      "falta": 2,
-      "tn_prev": 635.4,
-      "tn_carr": 549.4,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 163.52,
-          "tn_carr": 115.52
-        },
-        {
-          "nome": "RANGEL (RJ)",
-          "cnpj": "47836361000136",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 24.94,
-          "tn_carr": 24.94
-        },
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 38.16,
-          "tn_carr": 38.16
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 9,
-          "carr": 9,
-          "falta": 0,
-          "tn_prev": 333.2,
-          "tn_carr": 333.2
-        },
-        {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 37.58,
-          "tn_carr": 37.58
         }
       ]
     },
