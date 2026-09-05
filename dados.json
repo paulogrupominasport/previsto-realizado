@@ -1,12 +1,12 @@
 {
   "data_relatorio": "05/09/2026",
-  "gerado_em": "2026-09-05T12:00:15",
-  "atualizado_em": "2026-09-05T15:06:01",
+  "gerado_em": "2026-09-05T13:00:06",
+  "atualizado_em": "2026-09-05T16:05:25",
   "totais": {
     "prog": 98,
     "carr": 55,
     "falta": 43,
-    "tn_prev": 3942.47,
+    "tn_prev": 3937.47,
     "tn_carr": 2194.47
   },
   "por_cliente": [
@@ -15,7 +15,7 @@
       "prog": 27,
       "carr": 15,
       "falta": 12,
-      "tn_prev": 1061.06,
+      "tn_prev": 1048.06,
       "tn_carr": 567.06
     },
     {
@@ -28,10 +28,10 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 13,
+      "prog": 12,
       "carr": 5,
-      "falta": 8,
-      "tn_prev": 550.24,
+      "falta": 7,
+      "tn_prev": 510.24,
       "tn_carr": 209.24
     },
     {
@@ -83,6 +83,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "INTERCEMENT",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 86.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "BELOCAL MTZ",
       "prog": 2,
       "carr": 1,
@@ -113,14 +121,6 @@
       "falta": 0,
       "tn_prev": 48.39,
       "tn_carr": 48.39
-    },
-    {
-      "cliente": "INTERCEMENT",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
@@ -129,7 +129,7 @@
       "prog": 76,
       "carr": 42,
       "falta": 34,
-      "tn_prev": 3044.87,
+      "tn_prev": 3039.87,
       "tn_carr": 1657.87
     },
     {
@@ -181,16 +181,16 @@
       "prog": 27,
       "carr": 15,
       "falta": 12,
-      "tn_prev": 1061.06,
+      "tn_prev": 1048.06,
       "tn_carr": 567.06,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
+          "falta": 2,
+          "tn_prev": 83.0,
           "tn_carr": 0.0
         },
         {
@@ -219,15 +219,6 @@
           "falta": 0,
           "tn_prev": 38.06,
           "tn_carr": 38.06
-        },
-        {
-          "nome": "G7 LOG (RJ)",
-          "cnpj": "14170909001336",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -319,10 +310,10 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 13,
+      "prog": 12,
       "carr": 5,
-      "falta": 8,
-      "tn_prev": 550.24,
+      "falta": 7,
+      "tn_prev": 510.24,
       "tn_carr": 209.24,
       "transportadoras": [
         {
@@ -355,10 +346,10 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 3,
+          "prog": 2,
           "carr": 2,
-          "falta": 1,
-          "tn_prev": 113.94,
+          "falta": 0,
+          "tn_prev": 73.94,
           "tn_carr": 73.94
         }
       ]
@@ -547,6 +538,27 @@
       ]
     },
     {
+      "lote": "INTERCEMENT - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO- CIF",
+      "cliente": "INTERCEMENT",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 86.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 86.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL MTZ - PETCOKE - FYM CRYSTAL - PILHA 50",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
@@ -627,27 +639,6 @@
           "falta": 0,
           "tn_prev": 48.39,
           "tn_carr": 48.39
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO- CIF",
-      "cliente": "INTERCEMENT",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "G7 LOG (RJ)",
-          "cnpj": "14170909001336",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
         }
       ]
     }
