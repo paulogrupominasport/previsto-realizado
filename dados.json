@@ -1,13 +1,13 @@
 {
   "data_relatorio": "05/09/2026",
-  "gerado_em": "2026-09-05T07:00:08",
-  "atualizado_em": "2026-09-05T10:05:26",
+  "gerado_em": "2026-09-05T08:00:14",
+  "atualizado_em": "2026-09-05T11:05:23",
   "totais": {
-    "prog": 56,
-    "carr": 0,
+    "prog": 58,
+    "carr": 2,
     "falta": 56,
-    "tn_prev": 2228.0,
-    "tn_carr": 0.0
+    "tn_prev": 2308.52,
+    "tn_carr": 80.52
   },
   "por_cliente": [
     {
@@ -19,14 +19,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CIM LIZ",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 445.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN ARCOS",
       "prog": 10,
       "carr": 0,
@@ -35,7 +27,23 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM. LIZ",
+      "prog": 7,
+      "carr": 0,
+      "falta": 7,
+      "tn_prev": 276.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN PEDRO LEOPODO",
+      "prog": 6,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 249.52,
+      "tn_carr": 80.52
+    },
+    {
+      "cliente": "CIM LIZ",
       "prog": 4,
       "carr": 0,
       "falta": 4,
@@ -78,19 +86,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 33,
-      "carr": 0,
-      "falta": 33,
-      "tn_prev": 1308.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 445.0,
-      "tn_carr": 0.0
+      "prog": 42,
+      "carr": 2,
+      "falta": 40,
+      "tn_prev": 1664.52,
+      "tn_carr": 80.52
     },
     {
       "produto": "GESSO",
@@ -98,6 +98,14 @@
       "carr": 0,
       "falta": 9,
       "tn_prev": 337.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 169.0,
       "tn_carr": 0.0
     },
     {
@@ -162,45 +170,6 @@
           "carr": 0,
           "falta": 7,
           "tn_prev": 271.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 445.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 7,
-          "carr": 0,
-          "falta": 7,
-          "tn_prev": 281.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 116.0,
           "tn_carr": 0.0
         }
       ]
@@ -302,14 +271,44 @@
       ]
     },
     {
+      "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 7,
+      "carr": 0,
+      "falta": 7,
+      "tn_prev": 276.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 160.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 116.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN PEDRO LEOPODO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN PEDRO LEOPODO",
       "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 0,
+      "prog": 6,
+      "carr": 2,
       "falta": 4,
-      "tn_prev": 169.0,
-      "tn_carr": 0.0,
+      "tn_prev": 249.52,
+      "tn_carr": 80.52,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -323,10 +322,40 @@
         {
           "nome": "G7 LOG (RJ)",
           "cnpj": "14170909001336",
+          "prog": 5,
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 214.52,
+          "tn_carr": 80.52
+        }
+      ]
+    },
+    {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 169.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
           "prog": 3,
           "carr": 0,
           "falta": 3,
-          "tn_prev": 134.0,
+          "tn_prev": 121.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
