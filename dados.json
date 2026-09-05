@@ -1,21 +1,21 @@
 {
   "data_relatorio": "05/09/2026",
-  "gerado_em": "2026-09-05T10:32:19",
-  "atualizado_em": "2026-09-05T13:35:25",
+  "gerado_em": "2026-09-05T11:00:06",
+  "atualizado_em": "2026-09-05T14:05:28",
   "totais": {
-    "prog": 96,
+    "prog": 98,
     "carr": 41,
-    "falta": 55,
-    "tn_prev": 3867.84,
+    "falta": 57,
+    "tn_prev": 3940.84,
     "tn_carr": 1639.42
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 26,
+      "prog": 27,
       "carr": 14,
-      "falta": 12,
-      "tn_prev": 1027.98,
+      "falta": 13,
+      "tn_prev": 1062.98,
       "tn_carr": 530.98
     },
     {
@@ -67,6 +67,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
@@ -88,14 +96,6 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 83.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
       "tn_carr": 0.0
     },
     {
@@ -126,10 +126,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 75,
+      "prog": 76,
       "carr": 30,
-      "falta": 45,
-      "tn_prev": 3008.33,
+      "falta": 46,
+      "tn_prev": 3043.33,
       "tn_carr": 1174.33
     },
     {
@@ -149,19 +149,19 @@
       "tn_carr": 147.71
     },
     {
+      "produto": "Sinter Feed",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Sinter Feed",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
       "tn_carr": 0.0
     },
     {
@@ -178,10 +178,10 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 26,
+      "prog": 27,
       "carr": 14,
-      "falta": 12,
-      "tn_prev": 1027.98,
+      "falta": 13,
+      "tn_prev": 1062.98,
       "tn_carr": 530.98,
       "transportadoras": [
         {
@@ -232,10 +232,10 @@
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 7,
+          "prog": 8,
           "carr": 4,
-          "falta": 3,
-          "tn_prev": 295.16,
+          "falta": 4,
+          "tn_prev": 330.16,
           "tn_carr": 157.16
         },
         {
@@ -505,6 +505,27 @@
       ]
     },
     {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 114.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -563,27 +584,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 83.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (MG)",
-          "cnpj": "26178616000140",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
           "tn_carr": 0.0
         }
       ]
