@@ -1,13 +1,13 @@
 {
   "data_relatorio": "06/09/2026",
-  "gerado_em": "2026-09-06T11:00:11",
-  "atualizado_em": "2026-09-06T14:05:26",
+  "gerado_em": "2026-09-06T12:00:03",
+  "atualizado_em": "2026-09-06T15:05:24",
   "totais": {
-    "prog": 42,
-    "carr": 11,
-    "falta": 31,
-    "tn_prev": 1782.31,
-    "tn_carr": 481.34
+    "prog": 43,
+    "carr": 16,
+    "falta": 27,
+    "tn_prev": 1771.47,
+    "tn_carr": 683.82
   },
   "por_cliente": [
     {
@@ -20,11 +20,11 @@
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 9,
-      "carr": 3,
-      "falta": 6,
-      "tn_prev": 322.12,
-      "tn_carr": 103.12
+      "prog": 10,
+      "carr": 6,
+      "falta": 4,
+      "tn_prev": 358.66,
+      "tn_carr": 208.66
     },
     {
       "cliente": "CIM LIZ",
@@ -45,10 +45,10 @@
     {
       "cliente": "BELOCAL MTZ",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 144.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 96.62,
+      "tn_carr": 96.94
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -78,11 +78,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 34,
-      "carr": 10,
-      "falta": 24,
-      "tn_prev": 1421.16,
-      "tn_carr": 432.16
+      "prog": 35,
+      "carr": 15,
+      "falta": 20,
+      "tn_prev": 1410.32,
+      "tn_carr": 634.64
     },
     {
       "produto": "CARVÃO",
@@ -121,6 +121,15 @@
       "tn_carr": 147.22,
       "transportadoras": [
         {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 8,
@@ -141,10 +150,10 @@
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
-          "prog": 4,
+          "prog": 3,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 172.0,
+          "falta": 3,
+          "tn_prev": 134.0,
           "tn_carr": 0.0
         },
         {
@@ -162,20 +171,20 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 9,
-      "carr": 3,
-      "falta": 6,
-      "tn_prev": 322.12,
-      "tn_carr": 103.12,
+      "prog": 10,
+      "carr": 6,
+      "falta": 4,
+      "tn_prev": 358.66,
+      "tn_carr": 208.66,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 70.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 68.12,
+          "tn_carr": 68.12
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -189,20 +198,20 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 4,
+          "prog": 5,
           "carr": 2,
-          "falta": 2,
-          "tn_prev": 140.54,
+          "falta": 3,
+          "tn_prev": 178.54,
           "tn_carr": 65.54
         },
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 74.42,
+          "tn_carr": 37.42
         }
       ]
     },
@@ -262,19 +271,19 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 144.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 96.62,
+      "tn_carr": 96.94,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 144.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 96.62,
+          "tn_carr": 96.94
         }
       ]
     },
