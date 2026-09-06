@@ -1,22 +1,30 @@
 {
   "data_relatorio": "06/09/2026",
-  "gerado_em": "2026-09-06T08:00:09",
-  "atualizado_em": "2026-09-06T11:05:24",
+  "gerado_em": "2026-09-06T09:00:13",
+  "atualizado_em": "2026-09-06T12:05:24",
   "totais": {
-    "prog": 33,
-    "carr": 1,
-    "falta": 32,
-    "tn_prev": 1454.86,
-    "tn_carr": 45.86
+    "prog": 36,
+    "carr": 2,
+    "falta": 34,
+    "tn_prev": 1561.44,
+    "tn_carr": 83.44
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 14,
+      "prog": 16,
       "carr": 0,
-      "falta": 14,
-      "tn_prev": 615.0,
+      "falta": 16,
+      "tn_prev": 689.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN ARCOS",
+      "prog": 6,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 212.58,
+      "tn_carr": 37.58
     },
     {
       "cliente": "CIM LIZ",
@@ -32,14 +40,6 @@
       "carr": 0,
       "falta": 4,
       "tn_prev": 182.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN ARCOS",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 180.0,
       "tn_carr": 0.0
     },
     {
@@ -70,11 +70,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 27,
-      "carr": 1,
-      "falta": 26,
-      "tn_prev": 1166.86,
-      "tn_carr": 45.86
+      "prog": 30,
+      "carr": 2,
+      "falta": 28,
+      "tn_prev": 1273.44,
+      "tn_carr": 83.44
     },
     {
       "produto": "CARVÃO",
@@ -98,10 +98,10 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 14,
+      "prog": 16,
       "carr": 0,
-      "falta": 14,
-      "tn_prev": 615.0,
+      "falta": 16,
+      "tn_prev": 689.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -129,6 +129,63 @@
           "carr": 0,
           "falta": 4,
           "tn_prev": 172.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 6,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 212.58,
+      "tn_carr": 37.58,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.58,
+          "tn_carr": 37.58
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 66.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
           "tn_carr": 0.0
         }
       ]
@@ -180,45 +237,6 @@
           "carr": 0,
           "falta": 4,
           "tn_prev": 182.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
-      "cliente": "CSN ARCOS",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 180.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 40.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 66.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
           "tn_carr": 0.0
         }
       ]
