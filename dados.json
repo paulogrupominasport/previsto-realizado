@@ -1,29 +1,29 @@
 {
   "data_relatorio": "07/09/2026",
-  "gerado_em": "2026-09-07T12:00:13",
-  "atualizado_em": "2026-09-07T15:05:30",
+  "gerado_em": "2026-09-07T12:53:17",
+  "atualizado_em": "2026-09-07T15:55:26",
   "totais": {
-    "prog": 40,
+    "prog": 42,
     "carr": 15,
-    "falta": 25,
-    "tn_prev": 1530.79,
+    "falta": 27,
+    "tn_prev": 1615.79,
     "tn_carr": 562.85
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 14,
+      "prog": 15,
       "carr": 7,
-      "falta": 7,
-      "tn_prev": 530.46,
+      "falta": 8,
+      "tn_prev": 568.46,
       "tn_carr": 266.46
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 11,
+      "prog": 12,
       "carr": 3,
-      "falta": 8,
-      "tn_prev": 436.32,
+      "falta": 9,
+      "tn_prev": 483.32,
       "tn_carr": 111.38
     },
     {
@@ -78,10 +78,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 27,
+      "prog": 29,
       "carr": 12,
-      "falta": 15,
-      "tn_prev": 1036.75,
+      "falta": 17,
+      "tn_prev": 1121.75,
       "tn_carr": 447.81
     },
     {
@@ -122,10 +122,10 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 14,
+      "prog": 15,
       "carr": 7,
-      "falta": 7,
-      "tn_prev": 530.46,
+      "falta": 8,
+      "tn_prev": 568.46,
       "tn_carr": 266.46,
       "transportadoras": [
         {
@@ -165,6 +165,15 @@
           "tn_carr": 35.3
         },
         {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 1,
@@ -197,10 +206,10 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 11,
+      "prog": 12,
       "carr": 3,
-      "falta": 8,
-      "tn_prev": 436.32,
+      "falta": 9,
+      "tn_prev": 483.32,
       "tn_carr": 111.38,
       "transportadoras": [
         {
@@ -215,10 +224,10 @@
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
-          "prog": 2,
+          "prog": 3,
           "carr": 1,
-          "falta": 1,
-          "tn_prev": 84.08,
+          "falta": 2,
+          "tn_prev": 131.08,
           "tn_carr": 37.08
         },
         {
