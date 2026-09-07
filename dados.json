@@ -1,30 +1,38 @@
 {
   "data_relatorio": "07/09/2026",
-  "gerado_em": "2026-09-07T10:00:16",
-  "atualizado_em": "2026-09-07T13:05:25",
+  "gerado_em": "2026-09-07T11:00:05",
+  "atualizado_em": "2026-09-07T14:05:23",
   "totais": {
-    "prog": 29,
-    "carr": 12,
-    "falta": 17,
-    "tn_prev": 1085.16,
-    "tn_carr": 451.16
+    "prog": 40,
+    "carr": 15,
+    "falta": 25,
+    "tn_prev": 1530.79,
+    "tn_carr": 562.85
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 11,
-      "carr": 6,
-      "falta": 5,
-      "tn_prev": 419.2,
-      "tn_carr": 229.2
+      "prog": 14,
+      "carr": 7,
+      "falta": 7,
+      "tn_prev": 530.46,
+      "tn_carr": 266.46
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 7,
-      "carr": 2,
-      "falta": 5,
-      "tn_prev": 291.32,
-      "tn_carr": 75.32
+      "prog": 11,
+      "carr": 3,
+      "falta": 8,
+      "tn_prev": 436.32,
+      "tn_carr": 111.38
+    },
+    {
+      "cliente": "CIM LIZ",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 189.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -53,10 +61,10 @@
     {
       "cliente": "BELOCAL SJDL",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.37,
+      "tn_carr": 38.37
     },
     {
       "cliente": "INTERCEMENT",
@@ -70,11 +78,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 20,
-      "carr": 9,
-      "falta": 11,
-      "tn_prev": 780.12,
-      "tn_carr": 336.12
+      "prog": 27,
+      "carr": 12,
+      "falta": 15,
+      "tn_prev": 1036.75,
+      "tn_carr": 447.81
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 189.0,
+      "tn_carr": 0.0
     },
     {
       "produto": "Trindade",
@@ -106,11 +122,11 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 11,
-      "carr": 6,
-      "falta": 5,
-      "tn_prev": 419.2,
-      "tn_carr": 229.2,
+      "prog": 14,
+      "carr": 7,
+      "falta": 7,
+      "tn_prev": 530.46,
+      "tn_carr": 266.46,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -128,6 +144,15 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 112.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
           "tn_carr": 0.0
         },
         {
@@ -160,11 +185,11 @@
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
-          "prog": 2,
-          "carr": 2,
+          "prog": 3,
+          "carr": 3,
           "falta": 0,
-          "tn_prev": 84.58,
-          "tn_carr": 84.58
+          "tn_prev": 121.84,
+          "tn_carr": 121.84
         }
       ]
     },
@@ -172,19 +197,28 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 7,
-      "carr": 2,
-      "falta": 5,
-      "tn_prev": 291.32,
-      "tn_carr": 75.32,
+      "prog": 11,
+      "carr": 3,
+      "falta": 8,
+      "tn_prev": 436.32,
+      "tn_carr": 111.38,
       "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 37.08,
+          "falta": 1,
+          "tn_prev": 84.08,
           "tn_carr": 37.08
         },
         {
@@ -199,11 +233,41 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 2,
-          "carr": 1,
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 134.24,
+          "tn_carr": 74.3
+        }
+      ]
+    },
+    {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 189.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
           "falta": 1,
-          "tn_prev": 72.24,
-          "tn_carr": 38.24
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 141.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -275,19 +339,19 @@
       "cliente": "BELOCAL SJDL",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.37,
+      "tn_carr": 38.37,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.37,
+          "tn_carr": 38.37
         }
       ]
     },
