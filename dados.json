@@ -1,22 +1,22 @@
 {
   "data_relatorio": "07/09/2026",
-  "gerado_em": "2026-09-07T08:00:03",
-  "atualizado_em": "2026-09-07T11:05:25",
+  "gerado_em": "2026-09-07T09:00:10",
+  "atualizado_em": "2026-09-07T12:05:24",
   "totais": {
-    "prog": 21,
-    "carr": 3,
+    "prog": 24,
+    "carr": 6,
     "falta": 18,
-    "tn_prev": 763.82,
-    "tn_carr": 122.42
+    "tn_prev": 869.06,
+    "tn_carr": 224.66
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 8,
-      "carr": 3,
+      "prog": 10,
+      "carr": 5,
       "falta": 5,
-      "tn_prev": 312.42,
-      "tn_carr": 122.42
+      "tn_prev": 386.06,
+      "tn_carr": 193.06
     },
     {
       "cliente": "CIM. LIZ",
@@ -49,16 +49,24 @@
       "falta": 4,
       "tn_prev": 90.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "INTERCEMENT",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 31.6,
+      "tn_carr": 31.6
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 12,
-      "carr": 3,
+      "prog": 15,
+      "carr": 6,
       "falta": 9,
-      "tn_prev": 458.42,
-      "tn_carr": 122.42
+      "tn_prev": 563.66,
+      "tn_carr": 224.66
     },
     {
       "produto": "Trindade",
@@ -90,29 +98,38 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 3,
+      "prog": 10,
+      "carr": 5,
       "falta": 5,
-      "tn_prev": 312.42,
-      "tn_carr": 122.42,
+      "tn_prev": 386.06,
+      "tn_carr": 193.06,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
           "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.34,
+          "tn_carr": 35.34
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
+          "falta": 2,
+          "tn_prev": 77.0,
           "tn_carr": 0.0
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 78.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 75.3,
+          "tn_carr": 35.3
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -242,6 +259,27 @@
           "falta": 4,
           "tn_prev": 90.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "INTERCEMENT - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO- CIF",
+      "cliente": "INTERCEMENT",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 31.6,
+      "tn_carr": 31.6,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 31.6,
+          "tn_carr": 31.6
         }
       ]
     }
