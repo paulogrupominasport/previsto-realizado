@@ -1,38 +1,38 @@
 {
   "data_relatorio": "07/09/2026",
-  "gerado_em": "2026-09-07T13:00:14",
-  "atualizado_em": "2026-09-07T16:05:24",
+  "gerado_em": "2026-09-07T14:00:04",
+  "atualizado_em": "2026-09-07T17:05:23",
   "totais": {
-    "prog": 42,
-    "carr": 15,
-    "falta": 27,
-    "tn_prev": 1615.79,
-    "tn_carr": 562.85
+    "prog": 45,
+    "carr": 17,
+    "falta": 28,
+    "tn_prev": 1742.28,
+    "tn_carr": 655.34
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 15,
+      "prog": 16,
       "carr": 7,
-      "falta": 8,
-      "tn_prev": 568.46,
+      "falta": 9,
+      "tn_prev": 603.46,
       "tn_carr": 266.46
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 12,
-      "carr": 3,
-      "falta": 9,
-      "tn_prev": 483.32,
-      "tn_carr": 111.38
+      "prog": 14,
+      "carr": 4,
+      "falta": 10,
+      "tn_prev": 575.67,
+      "tn_carr": 157.73
     },
     {
       "cliente": "CIM LIZ",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 189.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 188.14,
+      "tn_carr": 46.14
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -78,19 +78,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 29,
-      "carr": 12,
-      "falta": 17,
-      "tn_prev": 1121.75,
-      "tn_carr": 447.81
+      "prog": 32,
+      "carr": 13,
+      "falta": 19,
+      "tn_prev": 1249.1,
+      "tn_carr": 494.16
     },
     {
       "produto": "CARVÃO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 189.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 188.14,
+      "tn_carr": 46.14
     },
     {
       "produto": "Trindade",
@@ -122,10 +122,10 @@
       "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 15,
+      "prog": 16,
       "carr": 7,
-      "falta": 8,
-      "tn_prev": 568.46,
+      "falta": 9,
+      "tn_prev": 603.46,
       "tn_carr": 266.46,
       "transportadoras": [
         {
@@ -140,10 +140,10 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 3,
+          "prog": 4,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 112.0,
+          "falta": 4,
+          "tn_prev": 147.0,
           "tn_carr": 0.0
         },
         {
@@ -206,11 +206,11 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 12,
-      "carr": 3,
-      "falta": 9,
-      "tn_prev": 483.32,
-      "tn_carr": 111.38,
+      "prog": 14,
+      "carr": 4,
+      "falta": 10,
+      "tn_prev": 575.67,
+      "tn_carr": 157.73,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -224,10 +224,10 @@
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
-          "prog": 3,
+          "prog": 5,
           "carr": 1,
-          "falta": 2,
-          "tn_prev": 131.08,
+          "falta": 4,
+          "tn_prev": 225.08,
           "tn_carr": 37.08
         },
         {
@@ -243,10 +243,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 134.24,
-          "tn_carr": 74.3
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 132.59,
+          "tn_carr": 120.65
         }
       ]
     },
@@ -255,10 +255,10 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 189.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 188.14,
+      "tn_carr": 46.14,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -273,10 +273,10 @@
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 141.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 140.14,
+          "tn_carr": 46.14
         }
       ]
     },
