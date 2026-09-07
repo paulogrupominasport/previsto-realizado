@@ -1,38 +1,38 @@
 {
   "data_relatorio": "07/09/2026",
-  "gerado_em": "2026-09-07T15:00:10",
-  "atualizado_em": "2026-09-07T18:05:24",
+  "gerado_em": "2026-09-07T16:00:15",
+  "atualizado_em": "2026-09-07T19:05:24",
   "totais": {
-    "prog": 49,
-    "carr": 24,
-    "falta": 25,
-    "tn_prev": 1910.74,
-    "tn_carr": 948.8
+    "prog": 51,
+    "carr": 32,
+    "falta": 19,
+    "tn_prev": 1976.83,
+    "tn_carr": 1311.89
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 17,
-      "carr": 6,
-      "falta": 11,
-      "tn_prev": 710.97,
-      "tn_carr": 247.03
+      "prog": 19,
+      "carr": 11,
+      "falta": 8,
+      "tn_prev": 780.96,
+      "tn_carr": 481.02
     },
     {
       "cliente": "CSN ARCOS",
       "prog": 17,
-      "carr": 10,
-      "falta": 7,
-      "tn_prev": 638.14,
-      "tn_carr": 378.14
+      "carr": 11,
+      "falta": 6,
+      "tn_prev": 637.42,
+      "tn_carr": 412.42
     },
     {
       "cliente": "CIM LIZ",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 186.62,
-      "tn_carr": 138.62
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 186.41,
+      "tn_carr": 186.41
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -45,10 +45,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.03,
+      "tn_carr": 47.03
     },
     {
       "cliente": "COMERCIAL CARVALHO",
@@ -78,19 +78,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 36,
-      "carr": 18,
-      "falta": 18,
-      "tn_prev": 1419.08,
-      "tn_carr": 695.14
+      "prog": 38,
+      "carr": 24,
+      "falta": 14,
+      "tn_prev": 1488.35,
+      "tn_carr": 963.41
     },
     {
       "produto": "CARVÃO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 186.62,
-      "tn_carr": 138.62
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 186.41,
+      "tn_carr": 186.41
     },
     {
       "produto": "Trindade",
@@ -103,10 +103,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.03,
+      "tn_carr": 47.03
     },
     {
       "produto": "Carregamento Sucata",
@@ -122,11 +122,11 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 17,
-      "carr": 6,
-      "falta": 11,
-      "tn_prev": 710.97,
-      "tn_carr": 247.03,
+      "prog": 19,
+      "carr": 11,
+      "falta": 8,
+      "tn_prev": 780.96,
+      "tn_carr": 481.02,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -141,27 +141,27 @@
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 8,
-          "carr": 2,
-          "falta": 6,
-          "tn_prev": 364.69,
-          "tn_carr": 82.69
+          "carr": 4,
+          "falta": 4,
+          "tn_prev": 361.38,
+          "tn_carr": 173.38
         },
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 182.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 181.3,
+          "tn_carr": 143.3
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 4,
+          "prog": 6,
           "carr": 4,
-          "falta": 0,
-          "tn_prev": 128.28,
+          "falta": 2,
+          "tn_prev": 202.28,
           "tn_carr": 164.34
         }
       ]
@@ -171,10 +171,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 17,
-      "carr": 10,
-      "falta": 7,
-      "tn_prev": 638.14,
-      "tn_carr": 378.14,
+      "carr": 11,
+      "falta": 6,
+      "tn_prev": 637.42,
+      "tn_carr": 412.42,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -189,10 +189,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 143.86,
-          "tn_carr": 73.86
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 143.14,
+          "tn_carr": 108.14
         },
         {
           "nome": "LENARGE (RJ)",
@@ -255,19 +255,19 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 186.62,
-      "tn_carr": 138.62,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 186.41,
+      "tn_carr": 186.41,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.79,
+          "tn_carr": 47.79
         },
         {
           "nome": "LENARGE (RJ)",
@@ -306,19 +306,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.033,
+      "tn_carr": 47.033,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.033,
+          "tn_carr": 47.033
         }
       ]
     },
