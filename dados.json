@@ -1,22 +1,22 @@
 {
   "data_relatorio": "08/09/2026",
-  "gerado_em": "2026-09-08T12:00:18",
-  "atualizado_em": "2026-09-08T15:05:25",
+  "gerado_em": "2026-09-08T13:00:09",
+  "atualizado_em": "2026-09-08T16:05:30",
   "totais": {
-    "prog": 84,
-    "carr": 42,
+    "prog": 86,
+    "carr": 44,
     "falta": 42,
-    "tn_prev": 2810.0,
-    "tn_carr": 1427.15
+    "tn_prev": 2847.26,
+    "tn_carr": 1519.09
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 11,
-      "carr": 4,
+      "prog": 12,
+      "carr": 5,
       "falta": 7,
-      "tn_prev": 460.83,
-      "tn_carr": 159.83
+      "tn_prev": 471.96,
+      "tn_carr": 205.64
     },
     {
       "cliente": "ITAMBÉ",
@@ -53,10 +53,10 @@
     {
       "cliente": "CIM LIZ",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 223.73,
-      "tn_carr": 129.73
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 222.86,
+      "tn_carr": 175.86
     },
     {
       "cliente": "RIO DESERTO",
@@ -107,30 +107,30 @@
       "tn_carr": 30.25
     },
     {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 61.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 37.48,
       "tn_carr": 37.48
-    },
-    {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 34.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 35,
-      "carr": 15,
+      "prog": 36,
+      "carr": 16,
       "falta": 20,
-      "tn_prev": 1406.41,
-      "tn_carr": 598.41
+      "tn_prev": 1417.54,
+      "tn_carr": 644.22
     },
     {
       "produto": "Antracito Phoenician",
@@ -151,10 +151,10 @@
     {
       "produto": "CARVÃO",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 223.73,
-      "tn_carr": 129.73
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 222.86,
+      "tn_carr": 175.86
     },
     {
       "produto": "TÉRMICO",
@@ -189,6 +189,14 @@
       "tn_carr": 30.25
     },
     {
+      "produto": "Sinter Feed",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 61.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "GESSO",
       "prog": 1,
       "carr": 0,
@@ -203,14 +211,6 @@
       "falta": 0,
       "tn_prev": 37.48,
       "tn_carr": 37.48
-    },
-    {
-      "produto": "Sinter Feed",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 34.0,
-      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -218,11 +218,11 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 11,
-      "carr": 4,
+      "prog": 12,
+      "carr": 5,
       "falta": 7,
-      "tn_prev": 460.83,
-      "tn_carr": 159.83,
+      "tn_prev": 471.96,
+      "tn_carr": 205.64,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -237,10 +237,10 @@
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 47.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 45.81,
+          "tn_carr": 45.81
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -252,12 +252,21 @@
           "tn_carr": 0.0
         },
         {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 3,
           "carr": 1,
           "falta": 2,
-          "tn_prev": 107.68,
+          "tn_prev": 72.0,
           "tn_carr": 35.68
         },
         {
@@ -432,10 +441,10 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 223.73,
-      "tn_carr": 129.73,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 222.86,
+      "tn_carr": 175.86,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -450,10 +459,10 @@
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 139.56,
-          "tn_carr": 45.56
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 138.69,
+          "tn_carr": 91.69
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -602,6 +611,27 @@
       ]
     },
     {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 61.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "CONFINS TRANSPORTES (MG)",
+          "cnpj": "21437075000104",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 61.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
@@ -640,27 +670,6 @@
           "falta": 0,
           "tn_prev": 37.48,
           "tn_carr": 37.48
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 34.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "CONFINS TRANSPORTES (MG)",
-          "cnpj": "21437075000104",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 34.0,
-          "tn_carr": 0.0
         }
       ]
     }
