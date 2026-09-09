@@ -1,21 +1,21 @@
 {
   "data_relatorio": "08/09/2026",
-  "gerado_em": "2026-09-08T21:00:12",
-  "atualizado_em": "2026-09-09T00:05:25",
+  "gerado_em": "2026-09-08T22:00:18",
+  "atualizado_em": "2026-09-09T01:05:34",
   "totais": {
-    "prog": 101,
+    "prog": 99,
     "carr": 78,
-    "falta": 23,
-    "tn_prev": 3455.92,
+    "falta": 21,
+    "tn_prev": 3369.92,
     "tn_carr": 2768.89
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 18,
+      "prog": 16,
       "carr": 13,
-      "falta": 5,
-      "tn_prev": 700.31,
+      "falta": 3,
+      "tn_prev": 614.31,
       "tn_carr": 508.92
     },
     {
@@ -118,10 +118,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 49,
+      "prog": 47,
       "carr": 34,
-      "falta": 15,
-      "tn_prev": 1889.68,
+      "falta": 13,
+      "tn_prev": 1803.68,
       "tn_carr": 1352.99
     },
     {
@@ -202,10 +202,10 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 18,
+      "prog": 16,
       "carr": 13,
-      "falta": 5,
-      "tn_prev": 700.31,
+      "falta": 3,
+      "tn_prev": 614.31,
       "tn_carr": 508.92,
       "transportadoras": [
         {
@@ -225,15 +225,6 @@
           "falta": 0,
           "tn_prev": 83.68,
           "tn_carr": 83.68
-        },
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 86.0,
-          "tn_carr": 0.0
         },
         {
           "nome": "G7 LOG (RJ)",
