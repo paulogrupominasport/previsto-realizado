@@ -1,13 +1,13 @@
 {
   "data_relatorio": "09/09/2026",
-  "gerado_em": "2026-09-09T18:00:17",
-  "atualizado_em": "2026-09-09T21:05:25",
+  "gerado_em": "2026-09-09T19:00:10",
+  "atualizado_em": "2026-09-09T22:05:27",
   "totais": {
-    "prog": 134,
-    "carr": 110,
-    "falta": 24,
-    "tn_prev": 5087.77,
-    "tn_carr": 4274.0
+    "prog": 133,
+    "carr": 112,
+    "falta": 21,
+    "tn_prev": 5037.97,
+    "tn_carr": 4358.2
   },
   "por_cliente": [
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "ITAMBÉ",
       "prog": 21,
-      "carr": 19,
-      "falta": 2,
-      "tn_prev": 848.22,
-      "tn_carr": 763.22
+      "carr": 20,
+      "falta": 1,
+      "tn_prev": 849.46,
+      "tn_carr": 811.46
     },
     {
       "cliente": "CSN BARROSO",
@@ -51,20 +51,20 @@
       "tn_carr": 181.09
     },
     {
-      "cliente": "BRASKEM",
-      "prog": 8,
-      "carr": 7,
-      "falta": 1,
-      "tn_prev": 292.0,
-      "tn_carr": 233.96
-    },
-    {
       "cliente": "LS METAIS",
       "prog": 8,
       "carr": 8,
       "falta": 0,
       "tn_prev": 273.61,
       "tn_carr": 273.61
+    },
+    {
+      "cliente": "BRASKEM",
+      "prog": 7,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 243.0,
+      "tn_carr": 233.96
     },
     {
       "cliente": "SUPREMO",
@@ -109,10 +109,10 @@
     {
       "cliente": "BELOCAL MTZ",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 76.44,
-      "tn_carr": 38.44
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 74.4,
+      "tn_carr": 74.4
     },
     {
       "cliente": "GABRIELLA",
@@ -143,10 +143,10 @@
     {
       "produto": "PETCOKE",
       "prog": 82,
-      "carr": 74,
-      "falta": 8,
-      "tn_prev": 3223.23,
-      "tn_carr": 2922.46
+      "carr": 76,
+      "falta": 6,
+      "tn_prev": 3222.43,
+      "tn_carr": 3006.66
     },
     {
       "produto": "GESSO",
@@ -158,10 +158,10 @@
     },
     {
       "produto": "TÉRMICO",
-      "prog": 10,
+      "prog": 9,
       "carr": 9,
-      "falta": 1,
-      "tn_prev": 342.0,
+      "falta": 0,
+      "tn_prev": 293.0,
       "tn_carr": 288.0
     },
     {
@@ -435,10 +435,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 12,
-      "carr": 11,
-      "falta": 1,
-      "tn_prev": 489.61,
-      "tn_carr": 442.61,
+      "carr": 12,
+      "falta": 0,
+      "tn_prev": 490.85,
+      "tn_carr": 490.85,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -471,10 +471,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 7,
-          "carr": 6,
-          "falta": 1,
-          "tn_prev": 288.08,
-          "tn_carr": 241.08
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 289.32,
+          "tn_carr": 289.32
         }
       ]
     },
@@ -557,36 +557,6 @@
       ]
     },
     {
-      "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BRASKEM",
-      "produto": "TÉRMICO",
-      "prog": 8,
-      "carr": 7,
-      "falta": 1,
-      "tn_prev": 292.0,
-      "tn_carr": 233.96,
-      "transportadoras": [
-        {
-          "nome": "ROTA 101 (SC)",
-          "cnpj": "21269148000287",
-          "prog": 5,
-          "carr": 5,
-          "falta": 0,
-          "tn_prev": 162.0,
-          "tn_carr": 155.57
-        },
-        {
-          "nome": "CANEVER (SC)",
-          "cnpj": "42029409000180",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 130.0,
-          "tn_carr": 78.39
-        }
-      ]
-    },
-    {
       "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
       "cliente": "LS METAIS",
       "produto": "Antracito",
@@ -622,6 +592,36 @@
           "falta": 0,
           "tn_prev": 185.69,
           "tn_carr": 185.69
+        }
+      ]
+    },
+    {
+      "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
+      "cliente": "BRASKEM",
+      "produto": "TÉRMICO",
+      "prog": 7,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 243.0,
+      "tn_carr": 233.96,
+      "transportadoras": [
+        {
+          "nome": "ROTA 101 (SC)",
+          "cnpj": "21269148000287",
+          "prog": 5,
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 162.0,
+          "tn_carr": 155.57
+        },
+        {
+          "nome": "CANEVER (SC)",
+          "cnpj": "42029409000180",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 81.0,
+          "tn_carr": 78.39
         }
       ]
     },
@@ -735,19 +735,19 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 76.44,
-      "tn_carr": 38.44,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 74.4,
+      "tn_carr": 74.4,
       "transportadoras": [
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 76.44,
-          "tn_carr": 38.44
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 74.4,
+          "tn_carr": 74.4
         }
       ]
     },
