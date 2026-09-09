@@ -1,13 +1,13 @@
 {
   "data_relatorio": "09/09/2026",
-  "gerado_em": "2026-09-09T16:00:08",
-  "atualizado_em": "2026-09-09T19:05:32",
+  "gerado_em": "2026-09-09T17:00:13",
+  "atualizado_em": "2026-09-09T20:05:26",
   "totais": {
-    "prog": 132,
-    "carr": 82,
-    "falta": 50,
-    "tn_prev": 5044.29,
-    "tn_carr": 3192.24
+    "prog": 134,
+    "carr": 96,
+    "falta": 38,
+    "tn_prev": 5096.07,
+    "tn_carr": 3722.3
   },
   "por_cliente": [
     {
@@ -21,26 +21,26 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 23,
-      "carr": 11,
-      "falta": 12,
-      "tn_prev": 904.24,
-      "tn_carr": 406.24
+      "carr": 17,
+      "falta": 6,
+      "tn_prev": 897.06,
+      "tn_carr": 658.06
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 20,
+      "prog": 21,
       "carr": 17,
-      "falta": 3,
-      "tn_prev": 809.4,
+      "falta": 4,
+      "tn_prev": 847.4,
       "tn_carr": 686.4
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 18,
-      "carr": 9,
-      "falta": 9,
-      "tn_prev": 689.56,
-      "tn_carr": 339.56
+      "prog": 17,
+      "carr": 11,
+      "falta": 6,
+      "tn_prev": 658.92,
+      "tn_carr": 408.92
     },
     {
       "cliente": "INTERCEMENT IJACI",
@@ -53,18 +53,18 @@
     {
       "cliente": "BRASKEM",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
+      "carr": 7,
+      "falta": 1,
       "tn_prev": 292.0,
-      "tn_carr": 185.72
+      "tn_carr": 233.96
     },
     {
       "cliente": "LS METAIS",
       "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 272.01,
-      "tn_carr": 167.01
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 273.61,
+      "tn_carr": 273.61
     },
     {
       "cliente": "SUPREMO",
@@ -115,6 +115,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "GABRIELLA",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 50.0,
+      "tn_carr": 54.04
+    },
+    {
       "cliente": "LHOIST DORES",
       "prog": 1,
       "carr": 1,
@@ -135,10 +143,10 @@
     {
       "produto": "PETCOKE",
       "prog": 82,
-      "carr": 55,
-      "falta": 27,
-      "tn_prev": 3230.88,
-      "tn_carr": 2183.11
+      "carr": 63,
+      "falta": 19,
+      "tn_prev": 3231.06,
+      "tn_carr": 2504.29
     },
     {
       "produto": "GESSO",
@@ -150,19 +158,19 @@
     },
     {
       "produto": "TÉRMICO",
-      "prog": 8,
-      "carr": 6,
-      "falta": 2,
-      "tn_prev": 292.0,
-      "tn_carr": 185.72
+      "prog": 10,
+      "carr": 9,
+      "falta": 1,
+      "tn_prev": 342.0,
+      "tn_carr": 288.0
     },
     {
       "produto": "Antracito",
       "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 272.01,
-      "tn_carr": 167.01
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 273.61,
+      "tn_carr": 273.61
     },
     {
       "produto": "Ic Phoenix",
@@ -286,10 +294,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 23,
-      "carr": 11,
-      "falta": 12,
-      "tn_prev": 904.24,
-      "tn_carr": 406.24,
+      "carr": 17,
+      "falta": 6,
+      "tn_prev": 897.06,
+      "tn_carr": 658.06,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -304,10 +312,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 6,
-          "carr": 1,
-          "falta": 5,
-          "tn_prev": 275.24,
-          "tn_carr": 34.24
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 267.5,
+          "tn_carr": 219.5
         },
         {
           "nome": "RANGEL (RJ)",
@@ -340,19 +348,19 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 33.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 32.82,
+          "tn_carr": 32.82
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 6,
-          "carr": 3,
-          "falta": 3,
-          "tn_prev": 221.2,
-          "tn_carr": 113.2
+          "carr": 4,
+          "falta": 2,
+          "tn_prev": 221.94,
+          "tn_carr": 146.94
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -378,11 +386,11 @@
       "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 18,
-      "carr": 9,
-      "falta": 9,
-      "tn_prev": 689.56,
-      "tn_carr": 339.56,
+      "prog": 17,
+      "carr": 11,
+      "falta": 6,
+      "tn_prev": 658.92,
+      "tn_carr": 408.92,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -392,15 +400,6 @@
           "falta": 1,
           "tn_prev": 117.24,
           "tn_carr": 81.24
-        },
-        {
-          "nome": "RANGEL (RJ)",
-          "cnpj": "47836361000136",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
         },
         {
           "nome": "IRAVANTE (RJ)",
@@ -424,10 +423,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 9,
-          "carr": 5,
-          "falta": 4,
-          "tn_prev": 319.48,
-          "tn_carr": 181.48
+          "carr": 7,
+          "falta": 2,
+          "tn_prev": 320.84,
+          "tn_carr": 250.84
         }
       ]
     },
@@ -435,10 +434,10 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO SETEMBRO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 11,
+      "prog": 12,
       "carr": 9,
-      "falta": 2,
-      "tn_prev": 450.79,
+      "falta": 3,
+      "tn_prev": 488.79,
       "tn_carr": 365.79,
       "transportadoras": [
         {
@@ -453,10 +452,10 @@
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 38.56,
+          "falta": 1,
+          "tn_prev": 76.56,
           "tn_carr": 38.56
         },
         {
@@ -562,10 +561,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
+      "carr": 7,
+      "falta": 1,
       "tn_prev": 292.0,
-      "tn_carr": 185.72,
+      "tn_carr": 233.96,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -580,10 +579,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
+          "carr": 2,
+          "falta": 1,
           "tn_prev": 130.0,
-          "tn_carr": 30.15
+          "tn_carr": 78.39
         }
       ]
     },
@@ -592,10 +591,10 @@
       "cliente": "LS METAIS",
       "produto": "Antracito",
       "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 272.01,
-      "tn_carr": 167.01,
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 273.61,
+      "tn_carr": 273.61,
       "transportadoras": [
         {
           "nome": "SILVANO TRANSPORTES (RJ)",
@@ -619,10 +618,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 184.09,
-          "tn_carr": 79.09
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 185.69,
+          "tn_carr": 185.69
         }
       ]
     },
@@ -749,6 +748,27 @@
           "falta": 2,
           "tn_prev": 76.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "GABRIELLA - TÉRMICO JOKER - PILHA 92",
+      "cliente": "GABRIELLA",
+      "produto": "TÉRMICO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 50.0,
+      "tn_carr": 54.04,
+      "transportadoras": [
+        {
+          "nome": "GABRIELLA MINERACAO (SC)",
+          "cnpj": "07105967000187",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 50.0,
+          "tn_carr": 54.04
         }
       ]
     },
