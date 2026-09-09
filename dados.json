@@ -1,30 +1,30 @@
 {
   "data_relatorio": "09/09/2026",
-  "gerado_em": "2026-09-09T08:00:12",
-  "atualizado_em": "2026-09-09T11:05:53",
+  "gerado_em": "2026-09-09T08:14:24",
+  "atualizado_em": "2026-09-09T11:15:31",
   "totais": {
-    "prog": 84,
-    "carr": 9,
-    "falta": 75,
-    "tn_prev": 3170.06,
-    "tn_carr": 318.64
+    "prog": 87,
+    "carr": 14,
+    "falta": 73,
+    "tn_prev": 3282.3,
+    "tn_carr": 529.88
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 20,
-      "carr": 0,
+      "prog": 21,
+      "carr": 1,
       "falta": 20,
-      "tn_prev": 855.0,
-      "tn_carr": 0.0
+      "tn_prev": 890.37,
+      "tn_carr": 49.37
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 13,
-      "carr": 0,
+      "prog": 14,
+      "carr": 1,
       "falta": 13,
-      "tn_prev": 510.0,
-      "tn_carr": 0.0
+      "tn_prev": 548.81,
+      "tn_carr": 38.81
     },
     {
       "cliente": "INTERCEMENT IJACI",
@@ -37,10 +37,10 @@
     {
       "cliente": "CSN BARROSO",
       "prog": 10,
-      "carr": 2,
-      "falta": 8,
-      "tn_prev": 379.14,
-      "tn_carr": 73.14
+      "carr": 5,
+      "falta": 5,
+      "tn_prev": 379.2,
+      "tn_carr": 196.2
     },
     {
       "cliente": "BRASKEM",
@@ -107,6 +107,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "SUPREMO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "INNMOV",
       "prog": 1,
       "carr": 0,
@@ -118,11 +126,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 45,
-      "carr": 6,
-      "falta": 39,
-      "tn_prev": 1806.06,
-      "tn_carr": 218.06
+      "prog": 47,
+      "carr": 11,
+      "falta": 36,
+      "tn_prev": 1880.3,
+      "tn_carr": 429.3
     },
     {
       "produto": "GESSO",
@@ -179,6 +187,14 @@
       "falta": 4,
       "tn_prev": 90.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Ic Phoenix",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -186,20 +202,20 @@
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 20,
-      "carr": 0,
+      "prog": 21,
+      "carr": 1,
       "falta": 20,
-      "tn_prev": 855.0,
-      "tn_carr": 0.0,
+      "tn_prev": 890.37,
+      "tn_carr": 49.37,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 11,
-          "carr": 0,
-          "falta": 11,
-          "tn_prev": 487.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 10,
+          "tn_prev": 488.37,
+          "tn_carr": 49.37
         },
         {
           "nome": "LENARGE (RJ)",
@@ -226,6 +242,15 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 73.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 34.0,
           "tn_carr": 0.0
         },
         {
@@ -274,28 +299,28 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 2,
-      "falta": 8,
-      "tn_prev": 379.14,
-      "tn_carr": 73.14,
+      "carr": 5,
+      "falta": 5,
+      "tn_prev": 379.2,
+      "tn_carr": 196.2,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 120.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 118.26,
+          "tn_carr": 46.26
         },
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.82,
+          "tn_carr": 38.82
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -310,10 +335,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 183.14,
-          "tn_carr": 73.14
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 184.12,
+          "tn_carr": 111.12
         }
       ]
     },
@@ -321,11 +346,11 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO SETEMBRO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 0,
+      "prog": 9,
+      "carr": 1,
       "falta": 8,
-      "tn_prev": 313.0,
-      "tn_carr": 0.0,
+      "tn_prev": 351.81,
+      "tn_carr": 38.81,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -348,11 +373,11 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 4,
-          "carr": 0,
+          "prog": 5,
+          "carr": 1,
           "falta": 4,
-          "tn_prev": 161.0,
-          "tn_carr": 0.0
+          "tn_prev": 199.81,
+          "tn_carr": 38.81
         }
       ]
     },
@@ -613,6 +638,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 39.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
+      "cliente": "SUPREMO",
+      "produto": "Ic Phoenix",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
