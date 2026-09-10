@@ -1,22 +1,22 @@
 {
   "data_relatorio": "10/09/2026",
-  "gerado_em": "2026-09-10T18:43:14",
-  "atualizado_em": "2026-09-10T21:45:26",
+  "gerado_em": "2026-09-10T19:00:19",
+  "atualizado_em": "2026-09-10T22:05:27",
   "totais": {
-    "prog": 135,
-    "carr": 107,
-    "falta": 28,
-    "tn_prev": 4970.75,
-    "tn_carr": 4058.43
+    "prog": 133,
+    "carr": 111,
+    "falta": 22,
+    "tn_prev": 4882.97,
+    "tn_carr": 4208.65
   },
   "por_cliente": [
     {
       "cliente": "CSN BARROSO",
-      "prog": 23,
-      "carr": 16,
-      "falta": 7,
-      "tn_prev": 892.2,
-      "tn_carr": 627.2
+      "prog": 22,
+      "carr": 18,
+      "falta": 4,
+      "tn_prev": 854.04,
+      "tn_carr": 701.04
     },
     {
       "cliente": "ITAMBÉ",
@@ -35,20 +35,20 @@
       "tn_carr": 529.64
     },
     {
-      "cliente": "CSN ARCOS",
-      "prog": 14,
-      "carr": 8,
-      "falta": 6,
-      "tn_prev": 558.22,
-      "tn_carr": 318.22
-    },
-    {
       "cliente": "CIM. LIZ",
       "prog": 13,
       "carr": 12,
       "falta": 1,
       "tn_prev": 509.02,
       "tn_carr": 471.02
+    },
+    {
+      "cliente": "CSN ARCOS",
+      "prog": 13,
+      "carr": 10,
+      "falta": 3,
+      "tn_prev": 508.6,
+      "tn_carr": 394.6
     },
     {
       "cliente": "LS METAIS",
@@ -166,11 +166,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 69,
-      "carr": 55,
-      "falta": 14,
-      "tn_prev": 2678.7,
-      "tn_carr": 2173.74
+      "prog": 67,
+      "carr": 59,
+      "falta": 8,
+      "tn_prev": 2590.92,
+      "tn_carr": 2323.96
     },
     {
       "produto": "TÉRMICO",
@@ -250,11 +250,11 @@
       "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 23,
-      "carr": 16,
-      "falta": 7,
-      "tn_prev": 892.2,
-      "tn_carr": 627.2,
+      "prog": 22,
+      "carr": 18,
+      "falta": 4,
+      "tn_prev": 854.04,
+      "tn_carr": 701.04,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -277,11 +277,11 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 14,
-          "carr": 10,
-          "falta": 4,
-          "tn_prev": 504.12,
-          "tn_carr": 359.12
+          "prog": 13,
+          "carr": 12,
+          "falta": 1,
+          "tn_prev": 465.96,
+          "tn_carr": 432.96
         }
       ]
     },
@@ -334,72 +334,6 @@
       ]
     },
     {
-      "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
-      "cliente": "CSN ARCOS",
-      "produto": "PETCOKE",
-      "prog": 14,
-      "carr": 8,
-      "falta": 6,
-      "tn_prev": 558.22,
-      "tn_carr": 318.22,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 37.38,
-          "tn_carr": 37.38
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 129.56,
-          "tn_carr": 91.56
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 145.04,
-          "tn_carr": 69.04
-        },
-        {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 120.22,
-          "tn_carr": 82.22
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 76.02,
-          "tn_carr": 38.02
-        }
-      ]
-    },
-    {
       "lote": "CIM. LIZ - PETCOKE - FYM CRYSTAL - PILHA 50 - SETEMBRO",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
@@ -444,6 +378,72 @@
           "falta": 1,
           "tn_prev": 219.99,
           "tn_carr": 181.99
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 13,
+      "carr": 10,
+      "falta": 3,
+      "tn_prev": 508.6,
+      "tn_carr": 394.6,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.38,
+          "tn_carr": 37.38
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 91.56,
+          "tn_carr": 91.56
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.8,
+          "tn_carr": 37.8
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 4,
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 145.62,
+          "tn_carr": 107.62
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 120.22,
+          "tn_carr": 82.22
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 76.02,
+          "tn_carr": 38.02
         }
       ]
     },
