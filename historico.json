@@ -7917,38 +7917,44 @@
     }
   },
   "2026-09-10": {
-    "gerado_em": "2026-09-10T08:00:10",
-    "atualizado_em": "2026-09-10T11:05:23",
+    "gerado_em": "2026-09-10T09:00:19",
+    "atualizado_em": "2026-09-10T12:05:31",
     "totais": {
-      "prog": 89,
-      "carr": 3,
+      "prog": 101,
+      "carr": 15,
       "falta": 86,
-      "tn_prev": 3218.48,
-      "tn_carr": 126.3
+      "tn_prev": 3661.25,
+      "tn_carr": 584.82
     },
     "por_cliente": {
+      "CSN BARROSO": {
+        "prog": 19,
+        "carr": 9,
+        "tn_prev": 726.08,
+        "tn_carr": 346.08
+      },
       "ITAMBÉ": {
-        "prog": 17,
-        "carr": 0,
-        "tn_prev": 657.0,
-        "tn_carr": 0.0
+        "prog": 18,
+        "carr": 2,
+        "tn_prev": 697.62,
+        "tn_carr": 96.62
       },
       "BRASKEM": {
-        "prog": 18,
-        "carr": 0,
-        "tn_prev": 646.0,
-        "tn_carr": 0.0
-      },
-      "CSN BARROSO": {
-        "prog": 16,
+        "prog": 19,
         "carr": 3,
-        "tn_prev": 610.3,
-        "tn_carr": 126.3
+        "tn_prev": 683.0,
+        "tn_carr": 104.1
       },
       "INTERCEMENT IJACI": {
-        "prog": 5,
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 241.0,
+        "tn_prev": 289.0,
+        "tn_carr": 0.0
+      },
+      "LS METAIS": {
+        "prog": 6,
+        "carr": 0,
+        "tn_prev": 222.0,
         "tn_carr": 0.0
       },
       "NASSAU": {
@@ -7957,11 +7963,11 @@
         "tn_prev": 196.0,
         "tn_carr": 0.0
       },
-      "LS METAIS": {
-        "prog": 5,
-        "carr": 0,
-        "tn_prev": 187.0,
-        "tn_carr": 0.0
+      "CSN ARCOS": {
+        "prog": 3,
+        "carr": 1,
+        "tn_prev": 114.02,
+        "tn_carr": 38.02
       },
       "CIM. LIZ": {
         "prog": 3,
@@ -7987,6 +7993,12 @@
         "tn_prev": 90.0,
         "tn_carr": 0.0
       },
+      "DESCARGA MINÉRIO": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 77.93,
+        "tn_carr": 0.0
+      },
       "SUPREMO": {
         "prog": 2,
         "carr": 0,
@@ -7999,19 +8011,13 @@
         "tn_prev": 66.0,
         "tn_carr": 0.0
       },
-      "DESCARGA MINÉRIO": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 39.18,
-        "tn_carr": 0.0
-      },
       "LHOIST DORES": {
         "prog": 1,
         "carr": 0,
         "tn_prev": 39.0,
         "tn_carr": 0.0
       },
-      "CSN ARCOS": {
+      "BELOCAL MTZ": {
         "prog": 1,
         "carr": 0,
         "tn_prev": 38.0,
@@ -8022,31 +8028,37 @@
         "carr": 0,
         "tn_prev": 37.0,
         "tn_carr": 0.0
+      },
+      "GABRIELLA": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 13.6,
+        "tn_carr": 0.0
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 32,
-        "carr": 3,
-        "tn_prev": 1215.3,
-        "tn_carr": 126.3
+        "prog": 38,
+        "carr": 11,
+        "tn_prev": 1446.84,
+        "tn_carr": 432.84
       },
       "GESSO": {
-        "prog": 18,
-        "carr": 0,
-        "tn_prev": 709.0,
-        "tn_carr": 0.0
+        "prog": 20,
+        "carr": 1,
+        "tn_prev": 795.88,
+        "tn_carr": 47.88
       },
       "TÉRMICO": {
-        "prog": 18,
-        "carr": 0,
-        "tn_prev": 646.0,
-        "tn_carr": 0.0
+        "prog": 20,
+        "carr": 3,
+        "tn_prev": 696.6,
+        "tn_carr": 104.1
       },
       "Antracito": {
-        "prog": 5,
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 187.0,
+        "tn_prev": 222.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
@@ -8067,6 +8079,12 @@
         "tn_prev": 90.0,
         "tn_carr": 0.0
       },
+      "Trindade": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 77.93,
+        "tn_carr": 0.0
+      },
       "Ic Phoenix": {
         "prog": 2,
         "carr": 0,
@@ -8077,12 +8095,6 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 66.0,
-        "tn_carr": 0.0
-      },
-      "Trindade": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 39.18,
         "tn_carr": 0.0
       }
     }
