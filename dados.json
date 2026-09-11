@@ -1,13 +1,13 @@
 {
   "data_relatorio": "11/09/2026",
-  "gerado_em": "2026-09-11T11:40:45",
-  "atualizado_em": "2026-09-11T14:45:35",
+  "gerado_em": "2026-09-11T12:00:21",
+  "atualizado_em": "2026-09-11T15:05:36",
   "totais": {
-    "prog": 122,
-    "carr": 58,
-    "falta": 64,
-    "tn_prev": 4587.17,
-    "tn_carr": 2221.22
+    "prog": 123,
+    "carr": 60,
+    "falta": 63,
+    "tn_prev": 4618.5,
+    "tn_carr": 2289.55
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 21,
-      "carr": 13,
-      "falta": 8,
-      "tn_prev": 827.71,
-      "tn_carr": 500.71
+      "carr": 14,
+      "falta": 7,
+      "tn_prev": 828.07,
+      "tn_carr": 534.07
     },
     {
       "cliente": "CIM. LIZ",
@@ -68,10 +68,10 @@
     },
     {
       "cliente": "NASSAU",
-      "prog": 6,
+      "prog": 7,
       "carr": 2,
-      "falta": 4,
-      "tn_prev": 197.09,
+      "falta": 5,
+      "tn_prev": 229.09,
       "tn_carr": 69.09
     },
     {
@@ -133,28 +133,28 @@
     {
       "cliente": "LHOIST DORES",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 36.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 34.97,
+      "tn_carr": 34.97
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 34,
-      "carr": 10,
+      "prog": 35,
+      "carr": 11,
       "falta": 24,
-      "tn_prev": 1312.06,
-      "tn_carr": 407.06
+      "tn_prev": 1344.42,
+      "tn_carr": 440.42
     },
     {
       "produto": "PETCOKE",
       "prog": 32,
-      "carr": 20,
-      "falta": 12,
-      "tn_prev": 1289.0,
-      "tn_carr": 814.0
+      "carr": 21,
+      "falta": 11,
+      "tn_prev": 1287.97,
+      "tn_carr": 848.97
     },
     {
       "produto": "TÉRMICO",
@@ -276,10 +276,10 @@
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
       "prog": 14,
-      "carr": 6,
-      "falta": 8,
-      "tn_prev": 567.85,
-      "tn_carr": 240.85,
+      "carr": 7,
+      "falta": 7,
+      "tn_prev": 568.21,
+      "tn_carr": 274.21,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -321,10 +321,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 66.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 66.36,
+          "tn_carr": 33.36
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -554,19 +554,19 @@
       "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "NASSAU",
       "produto": "GESSO",
-      "prog": 6,
+      "prog": 7,
       "carr": 2,
-      "falta": 4,
-      "tn_prev": 197.09,
+      "falta": 5,
+      "tn_prev": 229.09,
       "tn_carr": 69.09,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
-          "prog": 6,
+          "prog": 7,
           "carr": 2,
-          "falta": 4,
-          "tn_prev": 197.09,
+          "falta": 5,
+          "tn_prev": 229.09,
           "tn_carr": 69.09
         }
       ]
@@ -822,19 +822,19 @@
       "cliente": "LHOIST DORES",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 36.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 34.97,
+      "tn_carr": 34.97,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 34.97,
+          "tn_carr": 34.97
         }
       ]
     }
