@@ -1,13 +1,13 @@
 {
   "data_relatorio": "11/09/2026",
-  "gerado_em": "2026-09-11T12:00:21",
-  "atualizado_em": "2026-09-11T15:05:36",
+  "gerado_em": "2026-09-11T13:00:12",
+  "atualizado_em": "2026-09-11T16:05:30",
   "totais": {
-    "prog": 123,
-    "carr": 60,
-    "falta": 63,
-    "tn_prev": 4618.5,
-    "tn_carr": 2289.55
+    "prog": 125,
+    "carr": 68,
+    "falta": 57,
+    "tn_prev": 4690.58,
+    "tn_carr": 2551.79
   },
   "por_cliente": [
     {
@@ -37,18 +37,18 @@
     {
       "cliente": "ITAMBÉ",
       "prog": 12,
-      "carr": 4,
-      "falta": 8,
-      "tn_prev": 484.74,
-      "tn_carr": 164.74
+      "carr": 5,
+      "falta": 7,
+      "tn_prev": 486.65,
+      "tn_carr": 204.65
     },
     {
       "cliente": "LS METAIS",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 378.0,
-      "tn_carr": 0.0
+      "prog": 13,
+      "carr": 5,
+      "falta": 8,
+      "tn_prev": 447.88,
+      "tn_carr": 153.88
     },
     {
       "cliente": "CSN BARROSO",
@@ -61,10 +61,10 @@
     {
       "cliente": "SUPREMO",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 261.99,
-      "tn_carr": 223.99
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 262.29,
+      "tn_carr": 262.29
     },
     {
       "cliente": "NASSAU",
@@ -117,10 +117,10 @@
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 65.99,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 65.98,
+      "tn_carr": 30.15
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -143,10 +143,10 @@
     {
       "produto": "GESSO",
       "prog": 35,
-      "carr": 11,
-      "falta": 24,
-      "tn_prev": 1344.42,
-      "tn_carr": 440.42
+      "carr": 12,
+      "falta": 23,
+      "tn_prev": 1346.33,
+      "tn_carr": 480.33
     },
     {
       "produto": "PETCOKE",
@@ -165,20 +165,20 @@
       "tn_carr": 590.04
     },
     {
-      "produto": "Ic Phoenix",
-      "prog": 11,
-      "carr": 10,
-      "falta": 1,
-      "tn_prev": 410.89,
-      "tn_carr": 372.89
+      "produto": "Antracito",
+      "prog": 13,
+      "carr": 5,
+      "falta": 8,
+      "tn_prev": 447.88,
+      "tn_carr": 153.88
     },
     {
-      "produto": "Antracito",
+      "produto": "Ic Phoenix",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 378.0,
-      "tn_carr": 0.0
+      "carr": 11,
+      "falta": 0,
+      "tn_prev": 411.19,
+      "tn_carr": 411.19
     },
     {
       "produto": "PETRÓLEO",
@@ -199,10 +199,10 @@
     {
       "produto": "Trindade",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 65.99,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 65.98,
+      "tn_carr": 30.15
     },
     {
       "produto": "Sinter Feed",
@@ -380,29 +380,38 @@
       "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
       "cliente": "LS METAIS",
       "produto": "Antracito",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 378.0,
-      "tn_carr": 0.0,
+      "prog": 13,
+      "carr": 5,
+      "falta": 8,
+      "tn_prev": 447.88,
+      "tn_carr": 153.88,
       "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 130.0,
-          "tn_carr": 0.0
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 122.67,
+          "tn_carr": 122.67
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 106.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 107.21,
+          "tn_carr": 31.21
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -468,19 +477,19 @@
       "cliente": "SUPREMO",
       "produto": "Ic Phoenix",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 261.99,
-      "tn_carr": 223.99,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 262.29,
+      "tn_carr": 262.29,
       "transportadoras": [
         {
           "nome": "PARAISO TRANSP. DE FERTILIZANTES",
           "cnpj": "15058185000162",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 115.44,
-          "tn_carr": 77.44
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 115.74,
+          "tn_carr": 115.74
         },
         {
           "nome": "PAGANI (SC)",
@@ -606,10 +615,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 157.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 158.91,
+      "tn_carr": 39.91,
       "transportadoras": [
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -624,10 +633,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 121.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 122.91,
+          "tn_carr": 39.91
         }
       ]
     },
@@ -771,10 +780,10 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 65.99,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 65.98,
+      "tn_carr": 30.15,
       "transportadoras": [
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
@@ -789,10 +798,10 @@
           "nome": "CONFINS TRANSPORTES E LOGISTICA LTDA",
           "cnpj": "21437075000104",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 30.16,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 30.15,
+          "tn_carr": 30.15
         }
       ]
     },
