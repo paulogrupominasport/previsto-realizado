@@ -1,38 +1,38 @@
 {
   "data_relatorio": "11/09/2026",
-  "gerado_em": "2026-09-11T16:00:19",
-  "atualizado_em": "2026-09-11T19:05:24",
+  "gerado_em": "2026-09-11T17:00:11",
+  "atualizado_em": "2026-09-11T20:05:26",
   "totais": {
-    "prog": 127,
-    "carr": 101,
-    "falta": 26,
-    "tn_prev": 4807.42,
-    "tn_carr": 3835.87
+    "prog": 128,
+    "carr": 108,
+    "falta": 20,
+    "tn_prev": 4835.13,
+    "tn_carr": 4095.07
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
       "prog": 25,
-      "carr": 23,
-      "falta": 2,
+      "carr": 24,
+      "falta": 1,
       "tn_prev": 926.0,
-      "tn_carr": 803.45
+      "tn_carr": 849.94
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 21,
-      "carr": 18,
+      "prog": 22,
+      "carr": 19,
       "falta": 3,
-      "tn_prev": 826.58,
-      "tn_carr": 710.58
+      "tn_prev": 861.18,
+      "tn_carr": 750.18
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 13,
-      "carr": 11,
-      "falta": 2,
-      "tn_prev": 555.25,
-      "tn_carr": 469.25
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 555.28,
+      "tn_carr": 507.28
     },
     {
       "cliente": "ITAMBÉ",
@@ -45,10 +45,10 @@
     {
       "cliente": "LS METAIS",
       "prog": 13,
-      "carr": 8,
-      "falta": 5,
-      "tn_prev": 449.67,
-      "tn_carr": 261.67
+      "carr": 9,
+      "falta": 4,
+      "tn_prev": 449.68,
+      "tn_carr": 297.68
     },
     {
       "cliente": "CSN BARROSO",
@@ -69,18 +69,18 @@
     {
       "cliente": "NASSAU",
       "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 235.18,
-      "tn_carr": 171.18
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 230.46,
+      "tn_carr": 198.46
     },
     {
       "cliente": "CSN PEDRO LEOPODO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 166.92,
-      "tn_carr": 130.92
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 165.5,
+      "tn_carr": 165.5
     },
     {
       "cliente": "RIO DESERTO",
@@ -101,10 +101,10 @@
     {
       "cliente": "INTERCEMENT IJACI",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 85.42,
-      "tn_carr": 47.42
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 84.63,
+      "tn_carr": 84.63
     },
     {
       "cliente": "CARBOBRAS",
@@ -142,35 +142,35 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 37,
-      "carr": 28,
-      "falta": 9,
-      "tn_prev": 1455.92,
-      "tn_carr": 1117.92
+      "prog": 38,
+      "carr": 32,
+      "falta": 6,
+      "tn_prev": 1483.59,
+      "tn_carr": 1256.59
     },
     {
       "produto": "PETCOKE",
       "prog": 31,
-      "carr": 26,
-      "falta": 5,
-      "tn_prev": 1257.92,
-      "tn_carr": 1043.92
+      "carr": 27,
+      "falta": 4,
+      "tn_prev": 1257.95,
+      "tn_carr": 1081.95
     },
     {
       "produto": "TÉRMICO",
       "prog": 25,
-      "carr": 23,
-      "falta": 2,
+      "carr": 24,
+      "falta": 1,
       "tn_prev": 926.0,
-      "tn_carr": 803.45
+      "tn_carr": 849.94
     },
     {
       "produto": "Antracito",
       "prog": 13,
-      "carr": 8,
-      "falta": 5,
-      "tn_prev": 449.67,
-      "tn_carr": 261.67
+      "carr": 9,
+      "falta": 4,
+      "tn_prev": 449.68,
+      "tn_carr": 297.68
     },
     {
       "produto": "Ic Phoenix",
@@ -219,10 +219,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 25,
-      "carr": 23,
-      "falta": 2,
+      "carr": 24,
+      "falta": 1,
       "tn_prev": 926.0,
-      "tn_carr": 803.45,
+      "tn_carr": 849.94,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -255,10 +255,10 @@
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 7,
-          "carr": 5,
-          "falta": 2,
+          "carr": 6,
+          "falta": 1,
           "tn_prev": 310.0,
-          "tn_carr": 222.16
+          "tn_carr": 268.65
         },
         {
           "nome": "CANEVER (SC)",
@@ -275,11 +275,11 @@
       "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
-      "prog": 14,
-      "carr": 11,
+      "prog": 15,
+      "carr": 12,
       "falta": 3,
-      "tn_prev": 566.72,
-      "tn_carr": 450.72,
+      "tn_prev": 601.32,
+      "tn_carr": 490.32,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -312,18 +312,18 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 162.51,
-          "tn_carr": 124.51
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 164.11,
+          "tn_carr": 164.11
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 2,
+          "prog": 3,
           "carr": 2,
-          "falta": 0,
-          "tn_prev": 65.77,
+          "falta": 1,
+          "tn_prev": 98.77,
           "tn_carr": 65.77
         },
         {
@@ -342,10 +342,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 13,
-      "carr": 11,
-      "falta": 2,
-      "tn_prev": 555.25,
-      "tn_carr": 469.25,
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 555.28,
+      "tn_carr": 507.28,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -360,10 +360,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 5,
-          "carr": 3,
-          "falta": 2,
-          "tn_prev": 229.98,
-          "tn_carr": 143.98
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 230.01,
+          "tn_carr": 182.01
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -381,10 +381,10 @@
       "cliente": "LS METAIS",
       "produto": "Antracito",
       "prog": 13,
-      "carr": 8,
-      "falta": 5,
-      "tn_prev": 449.67,
-      "tn_carr": 261.67,
+      "carr": 9,
+      "falta": 4,
+      "tn_prev": 449.68,
+      "tn_carr": 297.68,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -417,10 +417,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 150.29,
-          "tn_carr": 38.29
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 150.3,
+          "tn_carr": 74.3
         },
         {
           "nome": "CONFINS TRANSPORTES (MG)",
@@ -594,19 +594,19 @@
       "cliente": "NASSAU",
       "produto": "GESSO",
       "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 235.18,
-      "tn_carr": 171.18,
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 230.46,
+      "tn_carr": 198.46,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
           "prog": 7,
-          "carr": 5,
-          "falta": 2,
-          "tn_prev": 235.18,
-          "tn_carr": 171.18
+          "carr": 6,
+          "falta": 1,
+          "tn_prev": 230.46,
+          "tn_carr": 198.46
         }
       ]
     },
@@ -615,19 +615,19 @@
       "cliente": "CSN PEDRO LEOPODO",
       "produto": "GESSO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 166.92,
-      "tn_carr": 130.92,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 165.5,
+      "tn_carr": 165.5,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 166.92,
-          "tn_carr": 130.92
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 165.5,
+          "tn_carr": 165.5
         }
       ]
     },
@@ -708,19 +708,19 @@
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 85.42,
-      "tn_carr": 47.42,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 84.63,
+      "tn_carr": 84.63,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 85.42,
-          "tn_carr": 47.42
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 84.63,
+          "tn_carr": 84.63
         }
       ]
     },
