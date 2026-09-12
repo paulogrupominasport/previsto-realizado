@@ -1,13 +1,13 @@
 {
   "data_relatorio": "12/09/2026",
-  "gerado_em": "2026-09-12T13:00:15",
-  "atualizado_em": "2026-09-12T16:05:30",
+  "gerado_em": "2026-09-12T14:00:08",
+  "atualizado_em": "2026-09-12T17:05:22",
   "totais": {
-    "prog": 97,
-    "carr": 63,
+    "prog": 98,
+    "carr": 64,
     "falta": 34,
-    "tn_prev": 3763.54,
-    "tn_carr": 2425.12
+    "tn_prev": 3800.83,
+    "tn_carr": 2472.41
   },
   "por_cliente": [
     {
@@ -15,7 +15,7 @@
       "prog": 22,
       "carr": 14,
       "falta": 8,
-      "tn_prev": 883.05,
+      "tn_prev": 873.05,
       "tn_carr": 542.05
     },
     {
@@ -28,10 +28,10 @@
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 8,
+      "prog": 9,
       "carr": 6,
-      "falta": 2,
-      "tn_prev": 343.11,
+      "falta": 3,
+      "tn_prev": 391.11,
       "tn_carr": 247.11
     },
     {
@@ -93,10 +93,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.29,
+      "tn_carr": 47.29
     },
     {
       "cliente": "CIM LIZ",
@@ -118,18 +118,18 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 54,
+      "prog": 53,
       "carr": 35,
-      "falta": 19,
-      "tn_prev": 2177.38,
+      "falta": 18,
+      "tn_prev": 2129.38,
       "tn_carr": 1368.38
     },
     {
       "produto": "PETCOKE",
-      "prog": 23,
+      "prog": 25,
       "carr": 15,
-      "falta": 8,
-      "tn_prev": 868.88,
+      "falta": 10,
+      "tn_prev": 954.88,
       "tn_carr": 594.69
     },
     {
@@ -151,10 +151,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.29,
+      "tn_carr": 47.29
     },
     {
       "produto": "CARVÃO",
@@ -178,10 +178,10 @@
       "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
-      "prog": 21,
+      "prog": 20,
       "carr": 14,
-      "falta": 7,
-      "tn_prev": 843.05,
+      "falta": 6,
+      "tn_prev": 795.05,
       "tn_carr": 542.05,
       "transportadoras": [
         {
@@ -196,10 +196,10 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 2,
+          "prog": 1,
           "carr": 1,
-          "falta": 1,
-          "tn_prev": 96.87,
+          "falta": 0,
+          "tn_prev": 48.87,
           "tn_carr": 48.87
         },
         {
@@ -545,19 +545,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.29,
+      "tn_carr": 47.29,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.29,
+          "tn_carr": 47.29
         }
       ]
     },
@@ -592,6 +592,36 @@
       ]
     },
     {
+      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 78.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 40.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
@@ -613,22 +643,22 @@
       ]
     },
     {
-      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
-      "cliente": "CSN ARCOS",
+      "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
+      "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 40.0,
+      "tn_prev": 48.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 40.0,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
