@@ -1,30 +1,30 @@
 {
   "data_relatorio": "12/09/2026",
-  "gerado_em": "2026-09-12T07:00:18",
-  "atualizado_em": "2026-09-12T10:05:27",
+  "gerado_em": "2026-09-12T08:00:09",
+  "atualizado_em": "2026-09-12T11:05:26",
   "totais": {
-    "prog": 75,
-    "carr": 0,
-    "falta": 75,
-    "tn_prev": 2973.42,
-    "tn_carr": 0.0
+    "prog": 82,
+    "carr": 1,
+    "falta": 81,
+    "tn_prev": 3234.35,
+    "tn_carr": 34.93
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 16,
+      "prog": 17,
       "carr": 0,
-      "falta": 16,
-      "tn_prev": 632.0,
+      "falta": 17,
+      "tn_prev": 672.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 17,
-      "carr": 0,
+      "prog": 18,
+      "carr": 1,
       "falta": 17,
-      "tn_prev": 626.0,
-      "tn_carr": 0.0
+      "tn_prev": 660.93,
+      "tn_carr": 34.93
     },
     {
       "cliente": "CIM. LIZ",
@@ -83,19 +83,27 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM LIZ",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "LHOIST DORES",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 110.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CIM LIZ",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
       "tn_carr": 0.0
     },
     {
@@ -110,18 +118,18 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 40,
-      "carr": 0,
-      "falta": 40,
-      "tn_prev": 1599.0,
-      "tn_carr": 0.0
+      "prog": 42,
+      "carr": 1,
+      "falta": 41,
+      "tn_prev": 1673.93,
+      "tn_carr": 34.93
     },
     {
       "produto": "PETCOKE",
-      "prog": 20,
+      "prog": 23,
       "carr": 0,
-      "falta": 20,
-      "tn_prev": 817.0,
+      "falta": 23,
+      "tn_prev": 927.0,
       "tn_carr": 0.0
     },
     {
@@ -141,19 +149,19 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
       "tn_carr": 0.0
     },
     {
@@ -170,10 +178,10 @@
       "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
-      "prog": 16,
+      "prog": 17,
       "carr": 0,
-      "falta": 16,
-      "tn_prev": 632.0,
+      "falta": 17,
+      "tn_prev": 672.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -188,10 +196,10 @@
         {
           "nome": "JRS LOGISTICA (ES)",
           "cnpj": "45374884000182",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 40.0,
+          "falta": 2,
+          "tn_prev": 80.0,
           "tn_carr": 0.0
         },
         {
@@ -314,6 +322,45 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 7,
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 255.93,
+      "tn_carr": 34.93,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 111.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 34.93,
+          "tn_carr": 34.93
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 110.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
       "cliente": "LS METAIS",
       "produto": "Antracito",
@@ -357,36 +404,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 221.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "TRANSP. TELLES (SC)",
-          "cnpj": "78266228000115",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 111.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "H.R. TRANSP. (SC)",
-          "cnpj": "79838694000190",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 110.0,
           "tn_carr": 0.0
         }
       ]
@@ -485,6 +502,57 @@
       ]
     },
     {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "LHOIST DORES - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
+      "cliente": "LHOIST DORES",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 110.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 110.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -501,27 +569,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
