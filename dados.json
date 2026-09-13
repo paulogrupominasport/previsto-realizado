@@ -1,21 +1,21 @@
 {
   "data_relatorio": "13/09/2026",
-  "gerado_em": "2026-09-13T13:00:08",
-  "atualizado_em": "2026-09-13T16:05:24",
+  "gerado_em": "2026-09-13T14:00:13",
+  "atualizado_em": "2026-09-13T17:05:25",
   "totais": {
-    "prog": 45,
+    "prog": 47,
     "carr": 28,
-    "falta": 17,
-    "tn_prev": 1943.08,
+    "falta": 19,
+    "tn_prev": 2019.08,
     "tn_carr": 1186.08
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 18,
+      "prog": 17,
       "carr": 12,
-      "falta": 6,
-      "tn_prev": 708.44,
+      "falta": 5,
+      "tn_prev": 670.44,
       "tn_carr": 468.44
     },
     {
@@ -44,10 +44,10 @@
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 3,
+      "prog": 4,
       "carr": 2,
-      "falta": 1,
-      "tn_prev": 128.09,
+      "falta": 2,
+      "tn_prev": 176.09,
       "tn_carr": 93.09
     },
     {
@@ -56,6 +56,14 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN PEDRO LEOPODO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 66.0,
       "tn_carr": 0.0
     },
     {
@@ -81,15 +89,15 @@
       "prog": 27,
       "carr": 19,
       "falta": 8,
-      "tn_prev": 1147.58,
+      "tn_prev": 1157.58,
       "tn_carr": 824.58
     },
     {
       "produto": "GESSO",
-      "prog": 11,
+      "prog": 13,
       "carr": 7,
-      "falta": 4,
-      "tn_prev": 476.73,
+      "falta": 6,
+      "tn_prev": 542.73,
       "tn_carr": 282.73
     },
     {
@@ -122,10 +130,10 @@
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 13,
+      "prog": 12,
       "carr": 7,
-      "falta": 6,
-      "tn_prev": 521.98,
+      "falta": 5,
+      "tn_prev": 483.98,
       "tn_carr": 281.98,
       "transportadoras": [
         {
@@ -158,10 +166,10 @@
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 7,
+          "prog": 6,
           "carr": 6,
-          "falta": 1,
-          "tn_prev": 272.44,
+          "falta": 0,
+          "tn_prev": 234.44,
           "tn_carr": 234.44
         }
       ]
@@ -290,19 +298,19 @@
       "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 3,
+      "prog": 4,
       "carr": 2,
-      "falta": 1,
-      "tn_prev": 128.09,
+      "falta": 2,
+      "tn_prev": 176.09,
       "tn_carr": 93.09,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 3,
+          "prog": 4,
           "carr": 2,
-          "falta": 1,
-          "tn_prev": 128.09,
+          "falta": 2,
+          "tn_prev": 176.09,
           "tn_carr": 93.09
         }
       ]
@@ -324,6 +332,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOPODO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN PEDRO LEOPODO",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 66.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 66.0,
           "tn_carr": 0.0
         }
       ]
