@@ -1,13 +1,13 @@
 {
   "data_relatorio": "13/09/2026",
-  "gerado_em": "2026-09-13T15:00:11",
-  "atualizado_em": "2026-09-13T18:05:28",
+  "gerado_em": "2026-09-13T16:00:19",
+  "atualizado_em": "2026-09-13T19:05:25",
   "totais": {
     "prog": 47,
-    "carr": 35,
-    "falta": 12,
-    "tn_prev": 2015.61,
-    "tn_carr": 1492.61
+    "carr": 41,
+    "falta": 6,
+    "tn_prev": 1973.74,
+    "tn_carr": 1756.71
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "CIM. LIZ",
       "prog": 10,
-      "carr": 9,
-      "falta": 1,
-      "tn_prev": 458.75,
-      "tn_carr": 410.75
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 410.75,
+      "tn_carr": 458.72
     },
     {
       "cliente": "INTERCEMENT IJACI",
@@ -37,18 +37,18 @@
     {
       "cliente": "CIM LIZ",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 184.7,
-      "tn_carr": 88.7
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 186.6,
+      "tn_carr": 186.6
     },
     {
       "cliente": "CSN BARROSO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 176.09,
-      "tn_carr": 93.09
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 177.05,
+      "tn_carr": 142.05
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -61,10 +61,10 @@
     {
       "cliente": "CSN PEDRO LEOPODO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 66.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 69.27,
+      "tn_carr": 69.27
     },
     {
       "cliente": "LS METAIS",
@@ -87,26 +87,26 @@
     {
       "produto": "PETCOKE",
       "prog": 27,
-      "carr": 22,
-      "falta": 5,
-      "tn_prev": 1156.56,
-      "tn_carr": 939.56
+      "carr": 24,
+      "falta": 3,
+      "tn_prev": 1109.52,
+      "tn_carr": 1036.49
     },
     {
       "produto": "GESSO",
       "prog": 13,
-      "carr": 9,
-      "falta": 4,
-      "tn_prev": 540.0,
-      "tn_carr": 378.0
+      "carr": 11,
+      "falta": 2,
+      "tn_prev": 543.27,
+      "tn_carr": 447.27
     },
     {
       "produto": "CARVÃO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 184.7,
-      "tn_carr": 88.7
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 186.6,
+      "tn_carr": 186.6
     },
     {
       "produto": "PETRÓLEO",
@@ -179,10 +179,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 9,
-      "falta": 1,
-      "tn_prev": 458.75,
-      "tn_carr": 410.75,
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 410.75,
+      "tn_carr": 458.72,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -197,10 +197,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 8,
-          "carr": 7,
-          "falta": 1,
-          "tn_prev": 370.95,
-          "tn_carr": 322.95
+          "carr": 8,
+          "falta": 0,
+          "tn_prev": 322.95,
+          "tn_carr": 370.92
         }
       ]
     },
@@ -222,6 +222,45 @@
           "falta": 2,
           "tn_prev": 287.54,
           "tn_carr": 191.54
+        }
+      ]
+    },
+    {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 186.6,
+      "tn_carr": 186.6,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 99.23,
+          "tn_carr": 99.23
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.62,
+          "tn_carr": 39.62
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.75,
+          "tn_carr": 47.75
         }
       ]
     },
@@ -256,62 +295,23 @@
       ]
     },
     {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 184.7,
-      "tn_carr": 88.7,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 97.08,
-          "tn_carr": 49.08
-        },
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 39.62,
-          "tn_carr": 39.62
-        },
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 176.09,
-      "tn_carr": 93.09,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 177.05,
+      "tn_carr": 142.05,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 176.09,
-          "tn_carr": 93.09
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 177.05,
+          "tn_carr": 142.05
         }
       ]
     },
@@ -341,19 +341,19 @@
       "cliente": "CSN PEDRO LEOPODO",
       "produto": "GESSO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 66.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 69.27,
+      "tn_carr": 69.27,
       "transportadoras": [
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 66.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 69.27,
+          "tn_carr": 69.27
         }
       ]
     },
