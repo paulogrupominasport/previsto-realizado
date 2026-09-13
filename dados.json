@@ -1,38 +1,38 @@
 {
   "data_relatorio": "13/09/2026",
-  "gerado_em": "2026-09-13T09:00:13",
-  "atualizado_em": "2026-09-13T12:05:25",
+  "gerado_em": "2026-09-13T10:00:04",
+  "atualizado_em": "2026-09-13T13:05:22",
   "totais": {
     "prog": 42,
-    "carr": 1,
-    "falta": 41,
-    "tn_prev": 1815.62,
-    "tn_carr": 39.62
+    "carr": 7,
+    "falta": 35,
+    "tn_prev": 1827.24,
+    "tn_carr": 294.24
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 16,
-      "carr": 0,
-      "falta": 16,
-      "tn_prev": 619.0,
-      "tn_carr": 0.0
+      "prog": 15,
+      "carr": 2,
+      "falta": 13,
+      "tn_prev": 581.93,
+      "tn_carr": 71.93
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 460.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 8,
+      "tn_prev": 459.38,
+      "tn_carr": 95.38
     },
     {
       "cliente": "INTERCEMENT IJACI",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 288.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 288.16,
+      "tn_carr": 48.16
     },
     {
       "cliente": "CIM LIZ",
@@ -59,12 +59,20 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "LS METAIS",
+      "cliente": "CSN PEDRO LEOPODO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 38.0,
+      "tn_prev": 48.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "LS METAIS",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.15,
+      "tn_carr": 39.15
     },
     {
       "cliente": "LHOIST DORES",
@@ -78,19 +86,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 17,
-      "carr": 0,
+      "prog": 19,
+      "carr": 2,
       "falta": 17,
-      "tn_prev": 757.0,
-      "tn_carr": 0.0
+      "tn_prev": 832.38,
+      "tn_carr": 95.38
     },
     {
       "produto": "GESSO",
-      "prog": 18,
-      "carr": 0,
-      "falta": 18,
-      "tn_prev": 741.0,
-      "tn_carr": 0.0
+      "prog": 16,
+      "carr": 3,
+      "falta": 13,
+      "tn_prev": 676.09,
+      "tn_carr": 120.09
     },
     {
       "produto": "CARVÃO",
@@ -111,10 +119,10 @@
     {
       "produto": "Antracito",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.15,
+      "tn_carr": 39.15
     }
   ],
   "lotes": [
@@ -123,10 +131,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 460.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 8,
+      "tn_prev": 459.38,
+      "tn_carr": 95.38,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -141,10 +149,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 374.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 6,
+          "tn_prev": 373.38,
+          "tn_carr": 95.38
         }
       ]
     },
@@ -152,11 +160,11 @@
       "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
-      "prog": 12,
-      "carr": 0,
-      "falta": 12,
-      "tn_prev": 453.0,
-      "tn_carr": 0.0,
+      "prog": 9,
+      "carr": 2,
+      "falta": 7,
+      "tn_prev": 339.93,
+      "tn_carr": 71.93,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -171,18 +179,18 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 147.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 147.93,
+          "tn_carr": 71.93
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 7,
+          "prog": 4,
           "carr": 0,
-          "falta": 7,
-          "tn_prev": 266.0,
+          "falta": 4,
+          "tn_prev": 152.0,
           "tn_carr": 0.0
         }
       ]
@@ -192,18 +200,57 @@
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 288.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 288.16,
+      "tn_carr": 48.16,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 6,
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 288.16,
+          "tn_carr": 48.16
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 242.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
           "carr": 0,
-          "falta": 6,
-          "tn_prev": 288.0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 118.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         }
       ]
@@ -243,36 +290,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
-      "cliente": "CSN ARCOS",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 166.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 118.0,
           "tn_carr": 0.0
         }
       ]
@@ -320,23 +337,44 @@
       ]
     },
     {
+      "lote": "CSN PEDRO LEOPODO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN PEDRO LEOPODO",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
       "cliente": "LS METAIS",
       "produto": "Antracito",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.15,
+      "tn_carr": 39.15,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.15,
+          "tn_carr": 39.15
         }
       ]
     },
