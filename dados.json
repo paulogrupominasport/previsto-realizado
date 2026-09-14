@@ -1,12 +1,12 @@
 {
   "data_relatorio": "14/09/2026",
-  "gerado_em": "2026-09-14T18:00:09",
-  "atualizado_em": "2026-09-14T21:05:26",
+  "gerado_em": "2026-09-14T19:00:15",
+  "atualizado_em": "2026-09-14T22:05:38",
   "totais": {
-    "prog": 85,
+    "prog": 84,
     "carr": 75,
-    "falta": 10,
-    "tn_prev": 3211.85,
+    "falta": 9,
+    "tn_prev": 3173.85,
     "tn_carr": 2842.49
   },
   "por_cliente": [
@@ -107,14 +107,6 @@
       "tn_carr": 39.34
     },
     {
-      "cliente": "CSN PEDRO LEOPODO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "SUPREMO",
       "prog": 1,
       "carr": 1,
@@ -126,10 +118,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 39,
+      "prog": 38,
       "carr": 36,
-      "falta": 3,
-      "tn_prev": 1517.91,
+      "falta": 2,
+      "tn_prev": 1479.91,
       "tn_carr": 1434.18
     },
     {
@@ -577,27 +569,6 @@
           "falta": 0,
           "tn_prev": 39.34,
           "tn_carr": 39.34
-        }
-      ]
-    },
-    {
-      "lote": "CSN PEDRO LEOPODO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
-      "cliente": "CSN PEDRO LEOPODO",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
         }
       ]
     },
