@@ -1,46 +1,46 @@
 {
   "data_relatorio": "14/09/2026",
-  "gerado_em": "2026-09-14T11:00:09",
-  "atualizado_em": "2026-09-14T14:05:35",
+  "gerado_em": "2026-09-14T12:00:10",
+  "atualizado_em": "2026-09-14T15:05:26",
   "totais": {
-    "prog": 81,
-    "carr": 32,
-    "falta": 49,
-    "tn_prev": 3061.83,
-    "tn_carr": 1142.59
+    "prog": 89,
+    "carr": 38,
+    "falta": 51,
+    "tn_prev": 3347.85,
+    "tn_carr": 1378.61
   },
   "por_cliente": [
     {
       "cliente": "CSN ARCOS",
-      "prog": 22,
-      "carr": 6,
-      "falta": 16,
-      "tn_prev": 912.7,
-      "tn_carr": 253.7
+      "prog": 21,
+      "carr": 9,
+      "falta": 12,
+      "tn_prev": 871.53,
+      "tn_carr": 375.53
     },
     {
       "cliente": "BRASKEM",
-      "prog": 20,
+      "prog": 21,
       "carr": 13,
-      "falta": 7,
-      "tn_prev": 683.0,
+      "falta": 8,
+      "tn_prev": 731.0,
       "tn_carr": 409.76
     },
     {
       "cliente": "RIO DESERTO",
-      "prog": 10,
+      "prog": 16,
       "carr": 6,
-      "falta": 4,
-      "tn_prev": 353.21,
+      "falta": 10,
+      "tn_prev": 559.21,
       "tn_carr": 211.21
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 6,
-      "carr": 1,
-      "falta": 5,
-      "tn_prev": 229.68,
-      "tn_carr": 35.68
+      "prog": 7,
+      "carr": 3,
+      "falta": 4,
+      "tn_prev": 265.33,
+      "tn_carr": 112.33
     },
     {
       "cliente": "CSN BARROSO",
@@ -99,46 +99,54 @@
       "tn_carr": 47.05
     },
     {
-      "cliente": "SUPREMO",
+      "cliente": "LS METAIS",
       "prog": 1,
       "carr": 0,
       "falta": 1,
       "tn_prev": 38.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.54,
+      "tn_carr": 37.54
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
       "prog": 33,
-      "carr": 9,
-      "falta": 24,
-      "tn_prev": 1328.0,
-      "tn_carr": 355.0
+      "carr": 13,
+      "falta": 20,
+      "tn_prev": 1326.1,
+      "tn_carr": 518.1
     },
     {
       "produto": "TÉRMICO",
-      "prog": 20,
+      "prog": 21,
       "carr": 13,
-      "falta": 7,
-      "tn_prev": 683.0,
+      "falta": 8,
+      "tn_prev": 731.0,
       "tn_carr": 409.76
+    },
+    {
+      "produto": "Ic Phoenix",
+      "prog": 17,
+      "carr": 7,
+      "falta": 10,
+      "tn_prev": 596.75,
+      "tn_carr": 248.75
     },
     {
       "produto": "GESSO",
       "prog": 12,
-      "carr": 3,
-      "falta": 9,
-      "tn_prev": 438.45,
-      "tn_carr": 117.45
-    },
-    {
-      "produto": "Ic Phoenix",
-      "prog": 11,
-      "carr": 6,
-      "falta": 5,
-      "tn_prev": 391.21,
-      "tn_carr": 211.21
+      "carr": 4,
+      "falta": 8,
+      "tn_prev": 434.83,
+      "tn_carr": 152.83
     },
     {
       "produto": "PETRÓLEO",
@@ -163,6 +171,14 @@
       "falta": 0,
       "tn_prev": 49.17,
       "tn_carr": 49.17
+    },
+    {
+      "produto": "Antracito",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -170,11 +186,11 @@
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 19,
-      "carr": 6,
-      "falta": 13,
-      "tn_prev": 795.7,
-      "tn_carr": 253.7,
+      "prog": 18,
+      "carr": 8,
+      "falta": 10,
+      "tn_prev": 758.15,
+      "tn_carr": 340.15,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -207,19 +223,19 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 150.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 149.42,
+          "tn_carr": 37.42
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 10,
-          "carr": 2,
-          "falta": 8,
-          "tn_prev": 431.18,
-          "tn_carr": 87.18
+          "prog": 9,
+          "carr": 3,
+          "falta": 6,
+          "tn_prev": 394.21,
+          "tn_carr": 136.21
         }
       ]
     },
@@ -227,10 +243,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 20,
+      "prog": 21,
       "carr": 13,
-      "falta": 7,
-      "tn_prev": 683.0,
+      "falta": 8,
+      "tn_prev": 731.0,
       "tn_carr": 409.76,
       "transportadoras": [
         {
@@ -254,10 +270,10 @@
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 36.0,
+          "falta": 1,
+          "tn_prev": 84.0,
           "tn_carr": 27.51
         },
         {
@@ -284,19 +300,19 @@
       "lote": "RIO DESERTO - IC PHOENIX - PETCOKE ATE - PILHA 20",
       "cliente": "RIO DESERTO",
       "produto": "Ic Phoenix",
-      "prog": 10,
+      "prog": 16,
       "carr": 6,
-      "falta": 4,
-      "tn_prev": 353.21,
+      "falta": 10,
+      "tn_prev": 559.21,
       "tn_carr": 211.21,
       "transportadoras": [
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
-          "prog": 7,
+          "prog": 13,
           "carr": 6,
-          "falta": 1,
-          "tn_prev": 243.21,
+          "falta": 7,
+          "tn_prev": 449.21,
           "tn_carr": 211.21
         },
         {
@@ -404,20 +420,29 @@
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO SETEMBRO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 122.0,
-      "tn_carr": 0.0,
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 157.65,
+      "tn_carr": 76.65,
       "transportadoras": [
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 122.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 122.65,
+          "tn_carr": 76.65
         }
       ]
     },
@@ -426,19 +451,19 @@
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 117.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 113.38,
+      "tn_carr": 35.38,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES (RJ)",
           "cnpj": "13349563000301",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 117.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 113.38,
+          "tn_carr": 35.38
         }
       ]
     },
@@ -548,9 +573,9 @@
       ]
     },
     {
-      "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
-      "cliente": "SUPREMO",
-      "produto": "Ic Phoenix",
+      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS",
+      "produto": "Antracito",
       "prog": 1,
       "carr": 0,
       "falta": 1,
@@ -558,13 +583,34 @@
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
-          "cnpj": "15058185000162",
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
           "prog": 1,
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - IC PHOENIX - PETCOKE - PILHA 20",
+      "cliente": "SUPREMO",
+      "produto": "Ic Phoenix",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.54,
+      "tn_carr": 37.54,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.54,
+          "tn_carr": 37.54
         }
       ]
     }
