@@ -1,38 +1,38 @@
 {
   "data_relatorio": "14/09/2026",
-  "gerado_em": "2026-09-14T07:01:20",
-  "atualizado_em": "2026-09-14T10:05:28",
+  "gerado_em": "2026-09-14T08:00:13",
+  "atualizado_em": "2026-09-14T11:05:28",
   "totais": {
-    "prog": 46,
-    "carr": 0,
-    "falta": 46,
-    "tn_prev": 1693.0,
-    "tn_carr": 0.0
+    "prog": 50,
+    "carr": 3,
+    "falta": 47,
+    "tn_prev": 1854.94,
+    "tn_carr": 96.7
   },
   "por_cliente": [
     {
-      "cliente": "BRASKEM",
-      "prog": 17,
+      "cliente": "CSN ARCOS",
+      "prog": 14,
       "carr": 0,
-      "falta": 17,
-      "tn_prev": 573.0,
+      "falta": 14,
+      "tn_prev": 584.0,
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN ARCOS",
-      "prog": 12,
-      "carr": 0,
-      "falta": 12,
-      "tn_prev": 497.0,
-      "tn_carr": 0.0
+      "cliente": "BRASKEM",
+      "prog": 17,
+      "carr": 2,
+      "falta": 15,
+      "tn_prev": 564.0,
+      "tn_carr": 63.76
     },
     {
       "cliente": "RIO DESERTO",
-      "prog": 5,
-      "carr": 0,
+      "prog": 6,
+      "carr": 1,
       "falta": 5,
-      "tn_prev": 175.0,
-      "tn_carr": 0.0
+      "tn_prev": 210.94,
+      "tn_carr": 32.94
     },
     {
       "cliente": "NASSAU",
@@ -59,6 +59,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "INTERCEMENT IJACI",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CIM. LIZ",
       "prog": 1,
       "carr": 0,
@@ -78,35 +86,35 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 14,
+      "prog": 15,
       "carr": 0,
-      "falta": 14,
-      "tn_prev": 577.0,
+      "falta": 15,
+      "tn_prev": 625.0,
       "tn_carr": 0.0
     },
     {
       "produto": "TÉRMICO",
       "prog": 17,
-      "carr": 0,
-      "falta": 17,
-      "tn_prev": 573.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 15,
+      "tn_prev": 564.0,
+      "tn_carr": 63.76
     },
     {
       "produto": "GESSO",
-      "prog": 8,
+      "prog": 10,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 272.0,
+      "falta": 10,
+      "tn_prev": 359.0,
       "tn_carr": 0.0
     },
     {
       "produto": "Ic Phoenix",
-      "prog": 5,
-      "carr": 0,
+      "prog": 6,
+      "carr": 1,
       "falta": 5,
-      "tn_prev": 175.0,
-      "tn_carr": 0.0
+      "tn_prev": 210.94,
+      "tn_carr": 32.94
     },
     {
       "produto": "PETRÓLEO",
@@ -123,10 +131,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 17,
-      "carr": 0,
-      "falta": 17,
-      "tn_prev": 573.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 15,
+      "tn_prev": 564.0,
+      "tn_carr": 63.76,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -141,10 +149,10 @@
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 13,
-          "carr": 0,
-          "falta": 13,
+          "carr": 2,
+          "falta": 11,
           "tn_prev": 420.0,
-          "tn_carr": 0.0
+          "tn_carr": 63.76
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -161,7 +169,7 @@
           "prog": 2,
           "carr": 0,
           "falta": 2,
-          "tn_prev": 85.0,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         }
       ]
@@ -170,10 +178,10 @@
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 497.0,
+      "falta": 13,
+      "tn_prev": 545.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -188,10 +196,10 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 86.0,
           "tn_carr": 0.0
         },
         {
@@ -227,20 +235,20 @@
       "lote": "RIO DESERTO - IC PHOENIX - PETCOKE ATE - PILHA 20",
       "cliente": "RIO DESERTO",
       "produto": "Ic Phoenix",
-      "prog": 5,
-      "carr": 0,
+      "prog": 6,
+      "carr": 1,
       "falta": 5,
-      "tn_prev": 175.0,
-      "tn_carr": 0.0,
+      "tn_prev": 210.94,
+      "tn_carr": 32.94,
       "transportadoras": [
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
-          "prog": 5,
-          "carr": 0,
+          "prog": 6,
+          "carr": 1,
           "falta": 5,
-          "tn_prev": 175.0,
-          "tn_carr": 0.0
+          "tn_prev": 210.94,
+          "tn_carr": 32.94
         }
       ]
     },
@@ -308,6 +316,27 @@
       ]
     },
     {
+      "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "INTERCEMENT IJACI",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
@@ -324,6 +353,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN ARCOS",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 39.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "WSV TRANSPORTES (RJ)",
+          "cnpj": "13349563000301",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 39.0,
           "tn_carr": 0.0
         }
       ]
