@@ -1,29 +1,29 @@
 {
   "data_relatorio": "15/09/2026",
-  "gerado_em": "2026-09-15T19:00:05",
-  "atualizado_em": "2026-09-15T22:05:26",
+  "gerado_em": "2026-09-15T20:00:17",
+  "atualizado_em": "2026-09-15T23:05:25",
   "totais": {
-    "prog": 136,
+    "prog": 134,
     "carr": 126,
-    "falta": 10,
-    "tn_prev": 5293.23,
+    "falta": 8,
+    "tn_prev": 5219.23,
     "tn_carr": 4875.94
   },
   "por_cliente": [
     {
       "cliente": "CSN BARROSO",
-      "prog": 23,
+      "prog": 22,
       "carr": 20,
-      "falta": 3,
-      "tn_prev": 853.3,
+      "falta": 2,
+      "tn_prev": 815.3,
       "tn_carr": 747.3
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 17,
+      "prog": 16,
       "carr": 12,
-      "falta": 5,
-      "tn_prev": 680.28,
+      "falta": 4,
+      "tn_prev": 644.28,
       "tn_carr": 480.28
     },
     {
@@ -150,10 +150,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 66,
+      "prog": 64,
       "carr": 56,
-      "falta": 10,
-      "tn_prev": 2633.83,
+      "falta": 8,
+      "tn_prev": 2559.83,
       "tn_carr": 2231.83
     },
     {
@@ -226,10 +226,10 @@
       "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
-      "prog": 23,
+      "prog": 22,
       "carr": 20,
-      "falta": 3,
-      "tn_prev": 853.3,
+      "falta": 2,
+      "tn_prev": 815.3,
       "tn_carr": 747.3,
       "transportadoras": [
         {
@@ -244,10 +244,10 @@
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 4,
+          "prog": 3,
           "carr": 3,
-          "falta": 1,
-          "tn_prev": 141.23,
+          "falta": 0,
+          "tn_prev": 103.23,
           "tn_carr": 103.23
         },
         {
@@ -292,21 +292,12 @@
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 17,
+      "prog": 16,
       "carr": 12,
-      "falta": 5,
-      "tn_prev": 680.28,
+      "falta": 4,
+      "tn_prev": 644.28,
       "tn_carr": 480.28,
       "transportadoras": [
-        {
-          "nome": "WSV TRANSPORTES (RJ)",
-          "cnpj": "13349563000301",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
-        },
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
