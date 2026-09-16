@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/09/2026",
-  "gerado_em": "2026-09-16T19:00:13",
-  "atualizado_em": "2026-09-16T22:05:26",
+  "gerado_em": "2026-09-16T20:00:06",
+  "atualizado_em": "2026-09-16T23:05:26",
   "totais": {
     "prog": 140,
-    "carr": 127,
-    "falta": 13,
-    "tn_prev": 5413.04,
-    "tn_carr": 4895.24
+    "carr": 129,
+    "falta": 11,
+    "tn_prev": 5409.48,
+    "tn_carr": 4960.18
   },
   "por_cliente": [
     {
@@ -107,20 +107,20 @@
       "tn_carr": 155.11
     },
     {
-      "cliente": "CSN CANTAGALO",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 133.24,
-      "tn_carr": 98.24
-    },
-    {
       "cliente": "*CSN ARCOS",
       "prog": 3,
       "carr": 3,
       "falta": 0,
       "tn_prev": 132.87,
       "tn_carr": 132.87
+    },
+    {
+      "cliente": "CSN CANTAGALO",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 131.89,
+      "tn_carr": 131.89
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -141,20 +141,20 @@
     {
       "cliente": "INTERCEMT",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 33.5,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 31.29,
+      "tn_carr": 31.29
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
       "prog": 73,
-      "carr": 63,
-      "falta": 10,
-      "tn_prev": 2869.0,
-      "tn_carr": 2478.72
+      "carr": 64,
+      "falta": 9,
+      "tn_prev": 2867.65,
+      "tn_carr": 2512.37
     },
     {
       "produto": "GESSO",
@@ -215,10 +215,10 @@
     {
       "produto": "Ijaci",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 33.5,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 31.29,
+      "tn_carr": 31.29
     }
   ],
   "lotes": [
@@ -676,27 +676,6 @@
       ]
     },
     {
-      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
-      "cliente": "CSN CANTAGALO",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 133.24,
-      "tn_carr": 98.24,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 133.24,
-          "tn_carr": 98.24
-        }
-      ]
-    },
-    {
       "lote": "*CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "*CSN ARCOS",
       "produto": "PETCOKE",
@@ -732,6 +711,27 @@
           "falta": 0,
           "tn_prev": 48.52,
           "tn_carr": 48.52
+        }
+      ]
+    },
+    {
+      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
+      "cliente": "CSN CANTAGALO",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 131.89,
+      "tn_carr": 131.89,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 131.89,
+          "tn_carr": 131.89
         }
       ]
     },
@@ -782,19 +782,19 @@
       "cliente": "INTERCEMT",
       "produto": "Ijaci",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 33.5,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 31.29,
+      "tn_carr": 31.29,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 33.5,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 31.29,
+          "tn_carr": 31.29
         }
       ]
     }
