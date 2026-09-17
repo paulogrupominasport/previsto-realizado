@@ -1,22 +1,22 @@
 {
   "data_relatorio": "17/09/2026",
-  "gerado_em": "2026-09-17T17:09:39",
-  "atualizado_em": "2026-09-17T20:10:24",
+  "gerado_em": "2026-09-17T18:00:09",
+  "atualizado_em": "2026-09-17T21:05:28",
   "totais": {
-    "prog": 144,
-    "carr": 113,
+    "prog": 145,
+    "carr": 114,
     "falta": 31,
-    "tn_prev": 5535.1,
-    "tn_carr": 4326.4
+    "tn_prev": 5537.61,
+    "tn_carr": 4364.22
   },
   "por_cliente": [
     {
       "cliente": "*CSN ARCOS",
       "prog": 25,
-      "carr": 18,
-      "falta": 7,
-      "tn_prev": 1034.98,
-      "tn_carr": 725.98
+      "carr": 19,
+      "falta": 6,
+      "tn_prev": 1035.8,
+      "tn_carr": 763.8
     },
     {
       "cliente": "ITAMBÉ",
@@ -28,10 +28,10 @@
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 13,
+      "prog": 14,
       "carr": 11,
-      "falta": 2,
-      "tn_prev": 506.61,
+      "falta": 3,
+      "tn_prev": 508.3,
       "tn_carr": 421.61
     },
     {
@@ -151,17 +151,17 @@
     {
       "produto": "PETCOKE",
       "prog": 66,
-      "carr": 50,
-      "falta": 16,
-      "tn_prev": 2682.9,
-      "tn_carr": 2001.9
+      "carr": 51,
+      "falta": 15,
+      "tn_prev": 2683.72,
+      "tn_carr": 2039.72
     },
     {
       "produto": "GESSO",
-      "prog": 26,
+      "prog": 27,
       "carr": 26,
-      "falta": 0,
-      "tn_prev": 1016.87,
+      "falta": 1,
+      "tn_prev": 1018.56,
       "tn_carr": 1016.87
     },
     {
@@ -219,10 +219,10 @@
       "cliente": "*CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 25,
-      "carr": 18,
-      "falta": 7,
-      "tn_prev": 1034.98,
-      "tn_carr": 725.98,
+      "carr": 19,
+      "falta": 6,
+      "tn_prev": 1035.8,
+      "tn_carr": 763.8,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -237,10 +237,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 11,
-          "carr": 8,
-          "falta": 3,
-          "tn_prev": 416.27,
-          "tn_carr": 307.27
+          "carr": 9,
+          "falta": 2,
+          "tn_prev": 417.09,
+          "tn_carr": 345.09
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -590,12 +590,21 @@
       "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
-      "prog": 6,
+      "prog": 7,
       "carr": 6,
-      "falta": 0,
-      "tn_prev": 225.07,
+      "falta": 1,
+      "tn_prev": 226.76,
       "tn_carr": 225.07,
       "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 39.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
@@ -620,7 +629,7 @@
           "prog": 3,
           "carr": 3,
           "falta": 0,
-          "tn_prev": 114.6,
+          "tn_prev": 77.29,
           "tn_carr": 114.6
         },
         {
