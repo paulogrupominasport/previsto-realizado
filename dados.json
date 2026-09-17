@@ -1,22 +1,22 @@
 {
   "data_relatorio": "17/09/2026",
-  "gerado_em": "2026-09-17T19:00:17",
-  "atualizado_em": "2026-09-17T22:05:24",
+  "gerado_em": "2026-09-17T20:00:06",
+  "atualizado_em": "2026-09-17T23:05:23",
   "totais": {
     "prog": 146,
-    "carr": 117,
-    "falta": 29,
-    "tn_prev": 5567.98,
-    "tn_carr": 4499.59
+    "carr": 120,
+    "falta": 26,
+    "tn_prev": 5519.9,
+    "tn_carr": 4637.51
   },
   "por_cliente": [
     {
       "cliente": "*CSN ARCOS",
       "prog": 25,
-      "carr": 21,
-      "falta": 4,
-      "tn_prev": 1033.09,
-      "tn_carr": 861.09
+      "carr": 23,
+      "falta": 2,
+      "tn_prev": 1031.07,
+      "tn_carr": 959.07
     },
     {
       "cliente": "CSN ARCOS",
@@ -37,10 +37,10 @@
     {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 13,
-      "carr": 1,
-      "falta": 12,
-      "tn_prev": 495.4,
-      "tn_carr": 39.4
+      "carr": 2,
+      "falta": 11,
+      "tn_prev": 497.34,
+      "tn_carr": 79.34
     },
     {
       "cliente": "RIO DESERTO",
@@ -51,20 +51,20 @@
       "tn_carr": 516.95
     },
     {
-      "cliente": "CSN BARROSO",
-      "prog": 11,
-      "carr": 4,
-      "falta": 7,
-      "tn_prev": 453.16,
-      "tn_carr": 166.16
-    },
-    {
       "cliente": "BRASKEM",
       "prog": 12,
       "carr": 10,
       "falta": 2,
       "tn_prev": 410.0,
       "tn_carr": 343.54
+    },
+    {
+      "cliente": "CSN BARROSO",
+      "prog": 11,
+      "carr": 4,
+      "falta": 7,
+      "tn_prev": 405.16,
+      "tn_carr": 166.16
     },
     {
       "cliente": "CSN MONTES CLAROS",
@@ -151,10 +151,10 @@
     {
       "produto": "PETCOKE",
       "prog": 67,
-      "carr": 53,
-      "falta": 14,
-      "tn_prev": 2715.01,
-      "tn_carr": 2137.01
+      "carr": 55,
+      "falta": 12,
+      "tn_prev": 2664.99,
+      "tn_carr": 2234.99
     },
     {
       "produto": "GESSO",
@@ -167,10 +167,10 @@
     {
       "produto": "Sinter Feed",
       "prog": 13,
-      "carr": 1,
-      "falta": 12,
-      "tn_prev": 495.4,
-      "tn_carr": 39.4
+      "carr": 2,
+      "falta": 11,
+      "tn_prev": 497.34,
+      "tn_carr": 79.34
     },
     {
       "produto": "Ic Phoenix",
@@ -219,19 +219,19 @@
       "cliente": "*CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 25,
-      "carr": 21,
-      "falta": 4,
-      "tn_prev": 1033.09,
-      "tn_carr": 861.09,
+      "carr": 23,
+      "falta": 2,
+      "tn_prev": 1031.07,
+      "tn_carr": 959.07,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 270.57,
-          "tn_carr": 170.57
+          "carr": 6,
+          "falta": 0,
+          "tn_prev": 268.55,
+          "tn_carr": 268.55
         },
         {
           "nome": "D GRANEL (RJ)",
@@ -267,10 +267,10 @@
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
       "prog": 13,
-      "carr": 1,
-      "falta": 12,
-      "tn_prev": 495.4,
-      "tn_carr": 39.4,
+      "carr": 2,
+      "falta": 11,
+      "tn_prev": 497.34,
+      "tn_carr": 79.34,
       "transportadoras": [
         {
           "nome": "RODEIRO (MG)",
@@ -285,10 +285,10 @@
           "nome": "MRX TRANSP. (MG)",
           "cnpj": "26586645000141",
           "prog": 11,
-          "carr": 0,
-          "falta": 11,
-          "tn_prev": 418.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 10,
+          "tn_prev": 419.94,
+          "tn_carr": 39.94
         },
         {
           "nome": "MAGETRANS (MG)",
@@ -328,36 +328,6 @@
           "falta": 0,
           "tn_prev": 140.84,
           "tn_carr": 140.84
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
-      "cliente": "CSN BARROSO",
-      "produto": "PETCOKE",
-      "prog": 10,
-      "carr": 3,
-      "falta": 7,
-      "tn_prev": 417.5,
-      "tn_carr": 130.5,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 9,
-          "carr": 3,
-          "falta": 6,
-          "tn_prev": 381.5,
-          "tn_carr": 130.5
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
         }
       ]
     },
@@ -406,6 +376,36 @@
           "falta": 0,
           "tn_prev": 74.0,
           "tn_carr": 72.63
+        }
+      ]
+    },
+    {
+      "lote": "CSN BARROSO - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
+      "cliente": "CSN BARROSO",
+      "produto": "PETCOKE",
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 369.5,
+      "tn_carr": 130.5,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 9,
+          "carr": 3,
+          "falta": 6,
+          "tn_prev": 333.5,
+          "tn_carr": 130.5
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 0.0
         }
       ]
     },
