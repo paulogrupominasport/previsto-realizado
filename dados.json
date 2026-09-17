@@ -1,22 +1,22 @@
 {
   "data_relatorio": "17/09/2026",
-  "gerado_em": "2026-09-17T10:00:17",
-  "atualizado_em": "2026-09-17T13:05:28",
+  "gerado_em": "2026-09-17T10:11:08",
+  "atualizado_em": "2026-09-17T13:15:26",
   "totais": {
-    "prog": 103,
-    "carr": 34,
-    "falta": 69,
-    "tn_prev": 3945.55,
-    "tn_carr": 1267.94
+    "prog": 109,
+    "carr": 36,
+    "falta": 73,
+    "tn_prev": 4172.85,
+    "tn_carr": 1344.24
   },
   "por_cliente": [
     {
       "cliente": "*CSN ARCOS",
-      "prog": 14,
-      "carr": 3,
-      "falta": 11,
-      "tn_prev": 576.08,
-      "tn_carr": 128.08
+      "prog": 19,
+      "carr": 4,
+      "falta": 15,
+      "tn_prev": 765.06,
+      "tn_carr": 166.06
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -51,6 +51,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "LS METAIS",
+      "prog": 8,
+      "carr": 3,
+      "falta": 5,
+      "tn_prev": 274.5,
+      "tn_carr": 95.5
+    },
+    {
       "cliente": "CSN MONTES CLAROS",
       "prog": 6,
       "carr": 4,
@@ -65,14 +73,6 @@
       "falta": 5,
       "tn_prev": 247.08,
       "tn_carr": 64.08
-    },
-    {
-      "cliente": "LS METAIS",
-      "prog": 7,
-      "carr": 3,
-      "falta": 4,
-      "tn_prev": 238.5,
-      "tn_carr": 95.5
     },
     {
       "cliente": "NASSAU",
@@ -101,10 +101,10 @@
     {
       "cliente": "CSN PEDRO LEOPOLDO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 157.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 159.32,
+      "tn_carr": 38.32
     },
     {
       "cliente": "CSN P. LEOPOLDO",
@@ -134,19 +134,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 44,
-      "carr": 15,
-      "falta": 29,
-      "tn_prev": 1763.18,
-      "tn_carr": 610.38
+      "prog": 49,
+      "carr": 16,
+      "falta": 33,
+      "tn_prev": 1952.16,
+      "tn_carr": 648.36
     },
     {
       "produto": "GESSO",
       "prog": 19,
-      "carr": 5,
-      "falta": 14,
-      "tn_prev": 733.39,
-      "tn_carr": 177.39
+      "carr": 6,
+      "falta": 13,
+      "tn_prev": 735.71,
+      "tn_carr": 215.71
     },
     {
       "produto": "Sinter Feed",
@@ -165,20 +165,20 @@
       "tn_carr": 281.19
     },
     {
+      "produto": "Antracito",
+      "prog": 8,
+      "carr": 3,
+      "falta": 5,
+      "tn_prev": 274.5,
+      "tn_carr": 95.5
+    },
+    {
       "produto": "Ic Phoenix",
       "prog": 7,
       "carr": 2,
       "falta": 5,
       "tn_prev": 247.08,
       "tn_carr": 64.08
-    },
-    {
-      "produto": "Antracito",
-      "prog": 7,
-      "carr": 3,
-      "falta": 4,
-      "tn_prev": 238.5,
-      "tn_carr": 95.5
     },
     {
       "produto": "PETRÓLEO",
@@ -194,11 +194,11 @@
       "lote": "*CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "*CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 14,
-      "carr": 3,
-      "falta": 11,
-      "tn_prev": 576.08,
-      "tn_carr": 128.08,
+      "prog": 19,
+      "carr": 4,
+      "falta": 15,
+      "tn_prev": 765.06,
+      "tn_carr": 166.06,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -212,19 +212,19 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 9,
-          "carr": 2,
+          "prog": 10,
+          "carr": 3,
           "falta": 7,
-          "tn_prev": 359.77,
-          "tn_carr": 77.77
+          "tn_prev": 396.75,
+          "tn_carr": 115.75
         },
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 2,
+          "prog": 6,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 86.0,
+          "falta": 6,
+          "tn_prev": 238.0,
           "tn_carr": 0.0
         },
         {
@@ -365,6 +365,45 @@
       ]
     },
     {
+      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS",
+      "produto": "Antracito",
+      "prog": 8,
+      "carr": 3,
+      "falta": 5,
+      "tn_prev": 274.5,
+      "tn_carr": 95.5,
+      "transportadoras": [
+        {
+          "nome": "SILVANO TRANSPORTES (RJ)",
+          "cnpj": "07619336000267",
+          "prog": 4,
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 133.5,
+          "tn_carr": 95.5
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 67.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN MONTES CLAROS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN MONTES CLAROS",
       "produto": "PETCOKE",
@@ -411,45 +450,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 75.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
-      "cliente": "LS METAIS",
-      "produto": "Antracito",
-      "prog": 7,
-      "carr": 3,
-      "falta": 4,
-      "tn_prev": 238.5,
-      "tn_carr": 95.5,
-      "transportadoras": [
-        {
-          "nome": "SILVANO TRANSPORTES (RJ)",
-          "cnpj": "07619336000267",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 133.5,
-          "tn_carr": 95.5
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 67.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
@@ -570,10 +570,10 @@
       "cliente": "CSN PEDRO LEOPOLDO",
       "produto": "GESSO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 157.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 159.32,
+      "tn_carr": 38.32,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -588,10 +588,10 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 109.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 111.32,
+          "tn_carr": 38.32
         }
       ]
     },
