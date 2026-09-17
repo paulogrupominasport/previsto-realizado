@@ -1,12 +1,12 @@
 {
   "data_relatorio": "17/09/2026",
-  "gerado_em": "2026-09-17T16:53:29",
-  "atualizado_em": "2026-09-17T19:55:27",
+  "gerado_em": "2026-09-17T17:00:15",
+  "atualizado_em": "2026-09-17T20:05:28",
   "totais": {
     "prog": 145,
     "carr": 113,
     "falta": 32,
-    "tn_prev": 5605.86,
+    "tn_prev": 5573.1,
     "tn_carr": 4326.4
   },
   "por_cliente": [
@@ -35,20 +35,20 @@
       "tn_carr": 528.77
     },
     {
-      "cliente": "RIO DESERTO",
-      "prog": 15,
-      "carr": 15,
-      "falta": 0,
-      "tn_prev": 516.95,
-      "tn_carr": 516.95
-    },
-    {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 13,
       "carr": 1,
       "falta": 12,
       "tn_prev": 495.4,
       "tn_carr": 39.4
+    },
+    {
+      "cliente": "RIO DESERTO",
+      "prog": 15,
+      "carr": 15,
+      "falta": 0,
+      "tn_prev": 484.19,
+      "tn_carr": 516.95
     },
     {
       "cliente": "CSN BARROSO",
@@ -165,20 +165,20 @@
       "tn_carr": 1016.87
     },
     {
-      "produto": "Ic Phoenix",
-      "prog": 15,
-      "carr": 15,
-      "falta": 0,
-      "tn_prev": 516.95,
-      "tn_carr": 516.95
-    },
-    {
       "produto": "Sinter Feed",
       "prog": 13,
       "carr": 1,
       "falta": 12,
       "tn_prev": 495.4,
       "tn_carr": 39.4
+    },
+    {
+      "produto": "Ic Phoenix",
+      "prog": 15,
+      "carr": 15,
+      "falta": 0,
+      "tn_prev": 484.19,
+      "tn_carr": 516.95
     },
     {
       "produto": "TÉRMICO",
@@ -263,36 +263,6 @@
       ]
     },
     {
-      "lote": "RIO DESERTO - IC PHOENIX - PETCOKE ATE - PILHA 20",
-      "cliente": "RIO DESERTO",
-      "produto": "Ic Phoenix",
-      "prog": 15,
-      "carr": 15,
-      "falta": 0,
-      "tn_prev": 516.95,
-      "tn_carr": 516.95,
-      "transportadoras": [
-        {
-          "nome": "LUAN DE SOUZA BONFANTE (SC)",
-          "cnpj": "21430615000128",
-          "prog": 11,
-          "carr": 11,
-          "falta": 0,
-          "tn_prev": 376.11,
-          "tn_carr": 376.11
-        },
-        {
-          "nome": "ATR MINHOCAO",
-          "cnpj": "66866968000103",
-          "prog": 4,
-          "carr": 4,
-          "falta": 0,
-          "tn_prev": 140.84,
-          "tn_carr": 140.84
-        }
-      ]
-    },
-    {
       "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
@@ -328,6 +298,36 @@
           "falta": 1,
           "tn_prev": 38.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "RIO DESERTO - IC PHOENIX - PETCOKE ATE - PILHA 20",
+      "cliente": "RIO DESERTO",
+      "produto": "Ic Phoenix",
+      "prog": 15,
+      "carr": 15,
+      "falta": 0,
+      "tn_prev": 484.19,
+      "tn_carr": 516.95,
+      "transportadoras": [
+        {
+          "nome": "LUAN DE SOUZA BONFANTE (SC)",
+          "cnpj": "21430615000128",
+          "prog": 11,
+          "carr": 11,
+          "falta": 0,
+          "tn_prev": 343.35,
+          "tn_carr": 376.11
+        },
+        {
+          "nome": "ATR MINHOCAO",
+          "cnpj": "66866968000103",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 140.84,
+          "tn_carr": 140.84
         }
       ]
     },
