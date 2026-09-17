@@ -1,12 +1,12 @@
 {
   "data_relatorio": "17/09/2026",
-  "gerado_em": "2026-09-17T17:00:15",
-  "atualizado_em": "2026-09-17T20:05:28",
+  "gerado_em": "2026-09-17T17:09:39",
+  "atualizado_em": "2026-09-17T20:10:24",
   "totais": {
-    "prog": 145,
+    "prog": 144,
     "carr": 113,
-    "falta": 32,
-    "tn_prev": 5573.1,
+    "falta": 31,
+    "tn_prev": 5535.1,
     "tn_carr": 4326.4
   },
   "por_cliente": [
@@ -19,20 +19,20 @@
       "tn_carr": 725.98
     },
     {
-      "cliente": "CSN ARCOS",
-      "prog": 14,
-      "carr": 11,
-      "falta": 3,
-      "tn_prev": 544.61,
-      "tn_carr": 421.61
-    },
-    {
       "cliente": "ITAMBÉ",
       "prog": 14,
       "carr": 14,
       "falta": 0,
       "tn_prev": 528.77,
       "tn_carr": 528.77
+    },
+    {
+      "cliente": "CSN ARCOS",
+      "prog": 13,
+      "carr": 11,
+      "falta": 2,
+      "tn_prev": 506.61,
+      "tn_carr": 421.61
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -150,10 +150,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 67,
+      "prog": 66,
       "carr": 50,
-      "falta": 17,
-      "tn_prev": 2720.9,
+      "falta": 16,
+      "tn_prev": 2682.9,
       "tn_carr": 2001.9
     },
     {
@@ -410,63 +410,6 @@
       ]
     },
     {
-      "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
-      "cliente": "CSN ARCOS",
-      "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 319.54,
-      "tn_carr": 196.54,
-      "transportadoras": [
-        {
-          "nome": "WSV TRANSPORTES (RJ)",
-          "cnpj": "13349563000301",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 75.28,
-          "tn_carr": 75.28
-        },
-        {
-          "nome": "VICTRANS (RJ)",
-          "cnpj": "02830994000441",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "JRS LOGISTICA (ES)",
-          "cnpj": "45374884000182",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 111.6,
-          "tn_carr": 74.6
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 46.66,
-          "tn_carr": 46.66
-        }
-      ]
-    },
-    {
       "lote": "ITAMBÉ - PETCOKE - IC PHOENIX - PILHA 20 - PEDIDO SETEMBRO",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
@@ -514,6 +457,54 @@
           "falta": 0,
           "tn_prev": 295.42,
           "tn_carr": 295.42
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE ATE - EXPEDIÇÃO DIRETA - MV LETO",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 7,
+      "carr": 5,
+      "falta": 2,
+      "tn_prev": 281.54,
+      "tn_carr": 196.54,
+      "transportadoras": [
+        {
+          "nome": "WSV TRANSPORTES (RJ)",
+          "cnpj": "13349563000301",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 75.28,
+          "tn_carr": 75.28
+        },
+        {
+          "nome": "JRS LOGISTICA (ES)",
+          "cnpj": "45374884000182",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 111.6,
+          "tn_carr": 74.6
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 46.66,
+          "tn_carr": 46.66
         }
       ]
     },
