@@ -1,13 +1,13 @@
 {
   "data_relatorio": "17/09/2026",
-  "gerado_em": "2026-09-17T20:06:17",
-  "atualizado_em": "2026-09-17T23:10:33",
+  "gerado_em": "2026-09-17T21:00:07",
+  "atualizado_em": "2026-09-18T00:05:24",
   "totais": {
     "prog": 146,
-    "carr": 125,
-    "falta": 21,
-    "tn_prev": 5518.98,
-    "tn_carr": 4824.59
+    "carr": 132,
+    "falta": 14,
+    "tn_prev": 5552.01,
+    "tn_carr": 5109.62
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 15,
-      "carr": 12,
-      "falta": 3,
-      "tn_prev": 541.38,
-      "tn_carr": 459.69
+      "carr": 14,
+      "falta": 1,
+      "tn_prev": 541.12,
+      "tn_carr": 544.43
     },
     {
       "cliente": "ITAMBÉ",
@@ -51,20 +51,20 @@
       "tn_carr": 516.95
     },
     {
+      "cliente": "CSN BARROSO",
+      "prog": 11,
+      "carr": 10,
+      "falta": 1,
+      "tn_prev": 437.67,
+      "tn_carr": 401.67
+    },
+    {
       "cliente": "BRASKEM",
       "prog": 12,
       "carr": 10,
       "falta": 2,
       "tn_prev": 410.0,
       "tn_carr": 343.54
-    },
-    {
-      "cliente": "CSN BARROSO",
-      "prog": 11,
-      "carr": 5,
-      "falta": 6,
-      "tn_prev": 404.38,
-      "tn_carr": 201.38
     },
     {
       "cliente": "CSN MONTES CLAROS",
@@ -151,10 +151,10 @@
     {
       "produto": "PETCOKE",
       "prog": 67,
-      "carr": 56,
-      "falta": 11,
-      "tn_prev": 2664.21,
-      "tn_carr": 2270.21
+      "carr": 63,
+      "falta": 4,
+      "tn_prev": 2697.24,
+      "tn_carr": 2555.24
     },
     {
       "produto": "GESSO",
@@ -384,28 +384,28 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 4,
-      "falta": 6,
-      "tn_prev": 368.72,
-      "tn_carr": 165.72,
+      "carr": 9,
+      "falta": 1,
+      "tn_prev": 402.01,
+      "tn_carr": 366.01,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 9,
-          "carr": 4,
-          "falta": 5,
-          "tn_prev": 332.72,
-          "tn_carr": 165.72
+          "carr": 8,
+          "falta": 1,
+          "tn_prev": 366.79,
+          "tn_carr": 330.79
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.22,
+          "tn_carr": 35.22
         }
       ]
     },
@@ -414,10 +414,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 315.54,
-      "tn_carr": 196.54,
+      "carr": 7,
+      "falta": 1,
+      "tn_prev": 315.28,
+      "tn_carr": 281.28,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES (RJ)",
@@ -432,19 +432,19 @@
           "nome": "JRS LOGISTICA (ES)",
           "cnpj": "45374884000182",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 46.4,
+          "tn_carr": 46.4
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 111.6,
-          "tn_carr": 74.6
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 112.94,
+          "tn_carr": 112.94
         },
         {
           "nome": "AR MACEDO (RJ)",
