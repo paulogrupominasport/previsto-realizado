@@ -8361,26 +8361,38 @@
     }
   },
   "2026-09-18": {
-    "gerado_em": "2026-09-18T07:00:10",
-    "atualizado_em": "2026-09-18T10:05:28",
+    "gerado_em": "2026-09-18T08:00:19",
+    "atualizado_em": "2026-09-18T11:05:26",
     "totais": {
-      "prog": 76,
-      "carr": 0,
-      "falta": 76,
-      "tn_prev": 2881.0,
-      "tn_carr": 0.0
+      "prog": 86,
+      "carr": 4,
+      "falta": 82,
+      "tn_prev": 3241.98,
+      "tn_carr": 152.57
     },
     "por_cliente": {
       "CSN BARROSO": {
-        "prog": 16,
-        "carr": 0,
-        "tn_prev": 612.0,
-        "tn_carr": 0.0
+        "prog": 17,
+        "carr": 1,
+        "tn_prev": 640.98,
+        "tn_carr": 45.98
       },
       "BRASKEM": {
         "prog": 10,
-        "carr": 0,
+        "carr": 3,
         "tn_prev": 399.0,
+        "tn_carr": 106.59
+      },
+      "CSN ARCOS": {
+        "prog": 7,
+        "carr": 0,
+        "tn_prev": 261.0,
+        "tn_carr": 0.0
+      },
+      "LS METAIS": {
+        "prog": 8,
+        "carr": 0,
+        "tn_prev": 238.0,
         "tn_carr": 0.0
       },
       "INTERCEMT": {
@@ -8395,12 +8407,6 @@
         "tn_prev": 217.0,
         "tn_carr": 0.0
       },
-      "LS METAIS": {
-        "prog": 7,
-        "carr": 0,
-        "tn_prev": 208.0,
-        "tn_carr": 0.0
-      },
       "CSN CANTAGALO": {
         "prog": 6,
         "carr": 0,
@@ -8413,6 +8419,12 @@
         "tn_prev": 192.0,
         "tn_carr": 0.0
       },
+      "ITAMBÉ": {
+        "prog": 5,
+        "carr": 0,
+        "tn_prev": 191.0,
+        "tn_carr": 0.0
+      },
       "RIO DESERTO": {
         "prog": 5,
         "carr": 0,
@@ -8423,12 +8435,6 @@
         "prog": 4,
         "carr": 0,
         "tn_prev": 152.0,
-        "tn_carr": 0.0
-      },
-      "CSN ARCOS": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 150.0,
         "tn_carr": 0.0
       },
       "*CSN ARCOS": {
@@ -8458,33 +8464,33 @@
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 36,
-        "carr": 0,
-        "tn_prev": 1364.0,
-        "tn_carr": 0.0
+        "prog": 39,
+        "carr": 1,
+        "tn_prev": 1475.98,
+        "tn_carr": 45.98
       },
       "GESSO": {
-        "prog": 11,
+        "prog": 17,
         "carr": 0,
-        "tn_prev": 415.0,
+        "tn_prev": 634.0,
         "tn_carr": 0.0
       },
       "TÉRMICO": {
         "prog": 10,
-        "carr": 0,
+        "carr": 3,
         "tn_prev": 399.0,
+        "tn_carr": 106.59
+      },
+      "Antracito": {
+        "prog": 8,
+        "carr": 0,
+        "tn_prev": 238.0,
         "tn_carr": 0.0
       },
       "Ijaci": {
         "prog": 5,
         "carr": 0,
         "tn_prev": 230.0,
-        "tn_carr": 0.0
-      },
-      "Antracito": {
-        "prog": 7,
-        "carr": 0,
-        "tn_prev": 208.0,
         "tn_carr": 0.0
       },
       "Rivertec": {
