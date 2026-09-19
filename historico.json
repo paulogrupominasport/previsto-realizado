@@ -8445,27 +8445,33 @@
     }
   },
   "2026-09-19": {
-    "gerado_em": "2026-09-19T07:00:09",
-    "atualizado_em": "2026-09-19T10:05:25",
+    "gerado_em": "2026-09-19T08:00:12",
+    "atualizado_em": "2026-09-19T11:00:54",
     "totais": {
-      "prog": 92,
-      "carr": 0,
-      "falta": 92,
-      "tn_prev": 3664.26,
-      "tn_carr": 0.0
+      "prog": 127,
+      "carr": 3,
+      "falta": 124,
+      "tn_prev": 5079.86,
+      "tn_carr": 109.6
     },
     "por_cliente": {
-      "ITAMBÉ": {
-        "prog": 24,
+      "INTERCEMT": {
+        "prog": 22,
         "carr": 0,
-        "tn_prev": 881.0,
+        "tn_prev": 1028.0,
         "tn_carr": 0.0
       },
-      "INTERCEMT": {
-        "prog": 17,
-        "carr": 0,
-        "tn_prev": 791.0,
-        "tn_carr": 0.0
+      "ITAMBÉ": {
+        "prog": 26,
+        "carr": 1,
+        "tn_prev": 953.28,
+        "tn_carr": 36.28
+      },
+      "CSN BARROSO": {
+        "prog": 18,
+        "carr": 2,
+        "tn_prev": 725.32,
+        "tn_carr": 73.32
       },
       "*CSN ARCOS": {
         "prog": 12,
@@ -8477,6 +8483,12 @@
         "prog": 12,
         "carr": 0,
         "tn_prev": 445.0,
+        "tn_carr": 0.0
+      },
+      "TRINDADE MINERAÇÃO": {
+        "prog": 8,
+        "carr": 0,
+        "tn_prev": 304.0,
         "tn_carr": 0.0
       },
       "CSN MONTES CLAROS": {
@@ -8515,10 +8527,22 @@
         "tn_prev": 68.0,
         "tn_carr": 0.0
       },
-      "CSN BARROSO": {
+      "INNMOV": {
         "prog": 1,
         "carr": 0,
         "tn_prev": 48.0,
+        "tn_carr": 0.0
+      },
+      "RIO DESERTO": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 39.0,
+        "tn_carr": 0.0
+      },
+      "CSN ARCOS": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 38.0,
         "tn_carr": 0.0
       },
       "CSN PEDRO LEOPOLDO": {
@@ -8530,15 +8554,21 @@
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 57,
-        "carr": 0,
-        "tn_prev": 2187.0,
-        "tn_carr": 0.0
+        "prog": 78,
+        "carr": 3,
+        "tn_prev": 3022.6,
+        "tn_carr": 109.6
       },
       "Ijaci": {
-        "prog": 17,
+        "prog": 22,
         "carr": 0,
-        "tn_prev": 791.0,
+        "tn_prev": 1028.0,
+        "tn_carr": 0.0
+      },
+      "Sinter Feed": {
+        "prog": 8,
+        "carr": 0,
+        "tn_prev": 304.0,
         "tn_carr": 0.0
       },
       "GESSO": {
@@ -8563,6 +8593,12 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 68.0,
+        "tn_carr": 0.0
+      },
+      "Rivertec": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 39.0,
         "tn_carr": 0.0
       }
     }
