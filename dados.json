@@ -1,21 +1,21 @@
 {
   "data_relatorio": "20/09/2026",
-  "gerado_em": "2026-09-20T15:12:21",
-  "atualizado_em": "2026-09-20T18:15:25",
+  "gerado_em": "2026-09-20T16:00:12",
+  "atualizado_em": "2026-09-20T19:05:26",
   "totais": {
-    "prog": 68,
-    "carr": 55,
+    "prog": 69,
+    "carr": 56,
     "falta": 13,
-    "tn_prev": 2583.57,
-    "tn_carr": 2233.36
+    "tn_prev": 2622.28,
+    "tn_carr": 2280.07
   },
   "por_cliente": [
     {
       "cliente": "*CSN ARCOS",
-      "prog": 20,
+      "prog": 21,
       "carr": 15,
-      "falta": 5,
-      "tn_prev": 776.01,
+      "falta": 6,
+      "tn_prev": 816.01,
       "tn_carr": 587.01
     },
     {
@@ -53,10 +53,10 @@
     {
       "cliente": "CSN BARROSO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 184.89,
-      "tn_carr": 136.89
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 183.6,
+      "tn_carr": 183.6
     },
     {
       "cliente": "CSN P. LEOPOLDO",
@@ -110,11 +110,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 41,
-      "carr": 34,
+      "prog": 42,
+      "carr": 35,
       "falta": 7,
-      "tn_prev": 1518.47,
-      "tn_carr": 1400.04
+      "tn_prev": 1557.18,
+      "tn_carr": 1446.75
     },
     {
       "produto": "Ijaci",
@@ -170,10 +170,10 @@
       "lote": "*CSN ARCOS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "*CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 20,
+      "prog": 21,
       "carr": 15,
-      "falta": 5,
-      "tn_prev": 776.01,
+      "falta": 6,
+      "tn_prev": 816.01,
       "tn_carr": 587.01,
       "transportadoras": [
         {
@@ -215,10 +215,10 @@
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 80.0,
+          "falta": 3,
+          "tn_prev": 120.0,
           "tn_carr": 0.0
         },
         {
@@ -348,19 +348,19 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 184.89,
-      "tn_carr": 136.89,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 183.6,
+      "tn_carr": 183.6,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 184.89,
-          "tn_carr": 136.89
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 183.6,
+          "tn_carr": 183.6
         }
       ]
     },
