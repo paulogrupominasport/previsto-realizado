@@ -1,13 +1,13 @@
 {
   "data_relatorio": "20/09/2026",
-  "gerado_em": "2026-09-20T13:00:10",
-  "atualizado_em": "2026-09-20T16:05:22",
+  "gerado_em": "2026-09-20T14:00:18",
+  "atualizado_em": "2026-09-20T17:05:58",
   "totais": {
-    "prog": 67,
-    "carr": 39,
-    "falta": 28,
-    "tn_prev": 2616.29,
-    "tn_carr": 1586.13
+    "prog": 68,
+    "carr": 46,
+    "falta": 22,
+    "tn_prev": 2662.17,
+    "tn_carr": 1884.01
   },
   "por_cliente": [
     {
@@ -21,18 +21,26 @@
     {
       "cliente": "INTERCEMT",
       "prog": 9,
-      "carr": 5,
-      "falta": 4,
-      "tn_prev": 396.98,
-      "tn_carr": 212.98
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 397.03,
+      "tn_carr": 261.03
     },
     {
       "cliente": "CSN PEDRO LEOPOLDO",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 262.15,
-      "tn_carr": 35.15
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 261.31,
+      "tn_carr": 71.31
+    },
+    {
+      "cliente": "CSN MONTES CLAROS",
+      "prog": 6,
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 242.29,
+      "tn_carr": 244.77
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -43,20 +51,12 @@
       "tn_carr": 231.73
     },
     {
-      "cliente": "CSN MONTES CLAROS",
-      "prog": 5,
-      "carr": 4,
-      "falta": 1,
-      "tn_prev": 194.09,
-      "tn_carr": 196.57
-    },
-    {
       "cliente": "CSN BARROSO",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 184.59,
-      "tn_carr": 49.59
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 184.89,
+      "tn_carr": 136.89
     },
     {
       "cliente": "CSN P. LEOPOLDO",
@@ -69,10 +69,10 @@
     {
       "cliente": "CSN V. REDONDA",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 154.08,
-      "tn_carr": 74.08
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 152.25,
+      "tn_carr": 152.25
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -110,27 +110,27 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 40,
-      "carr": 25,
-      "falta": 15,
-      "tn_prev": 1506.86,
-      "tn_carr": 1031.7
+      "prog": 41,
+      "carr": 30,
+      "falta": 11,
+      "tn_prev": 1553.53,
+      "tn_carr": 1245.37
     },
     {
       "produto": "Ijaci",
       "prog": 9,
-      "carr": 5,
-      "falta": 4,
-      "tn_prev": 396.98,
-      "tn_carr": 212.98
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 397.03,
+      "tn_carr": 261.03
     },
     {
       "produto": "GESSO",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 262.15,
-      "tn_carr": 35.15
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 261.31,
+      "tn_carr": 71.31
     },
     {
       "produto": "Trindade",
@@ -246,19 +246,19 @@
       "cliente": "INTERCEMT",
       "produto": "Ijaci",
       "prog": 9,
-      "carr": 5,
-      "falta": 4,
-      "tn_prev": 396.98,
-      "tn_carr": 212.98,
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 397.03,
+      "tn_carr": 261.03,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 229.07,
-          "tn_carr": 95.07
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 229.12,
+          "tn_carr": 143.12
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -276,10 +276,10 @@
       "cliente": "CSN PEDRO LEOPOLDO",
       "produto": "GESSO",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 262.15,
-      "tn_carr": 35.15,
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 261.31,
+      "tn_carr": 71.31,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -294,10 +294,31 @@
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 147.15,
-          "tn_carr": 35.15
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 146.31,
+          "tn_carr": 71.31
+        }
+      ]
+    },
+    {
+      "lote": "CSN MONTES CLAROS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
+      "cliente": "CSN MONTES CLAROS",
+      "produto": "PETCOKE",
+      "prog": 6,
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 242.29,
+      "tn_carr": 244.77,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 6,
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 242.29,
+          "tn_carr": 244.77
         }
       ]
     },
@@ -323,44 +344,23 @@
       ]
     },
     {
-      "lote": "CSN MONTES CLAROS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
-      "cliente": "CSN MONTES CLAROS",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 4,
-      "falta": 1,
-      "tn_prev": 194.09,
-      "tn_carr": 196.57,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 5,
-          "carr": 4,
-          "falta": 1,
-          "tn_prev": 194.09,
-          "tn_carr": 196.57
-        }
-      ]
-    },
-    {
       "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV LETO - PILHA 51 - AGOSTO",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 184.59,
-      "tn_carr": 49.59,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 184.89,
+      "tn_carr": 136.89,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 184.59,
-          "tn_carr": 49.59
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 184.89,
+          "tn_carr": 136.89
         }
       ]
     },
@@ -390,19 +390,19 @@
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 154.08,
-      "tn_carr": 74.08,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 152.25,
+      "tn_carr": 152.25,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 154.08,
-          "tn_carr": 74.08
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 152.25,
+          "tn_carr": 152.25
         }
       ]
     },
