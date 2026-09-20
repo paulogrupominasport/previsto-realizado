@@ -1,13 +1,13 @@
 {
   "data_relatorio": "20/09/2026",
-  "gerado_em": "2026-09-20T09:00:13",
-  "atualizado_em": "2026-09-20T12:05:28",
+  "gerado_em": "2026-09-20T10:00:09",
+  "atualizado_em": "2026-09-20T13:05:24",
   "totais": {
-    "prog": 56,
-    "carr": 3,
-    "falta": 53,
-    "tn_prev": 2250.35,
-    "tn_carr": 128.59
+    "prog": 59,
+    "carr": 7,
+    "falta": 52,
+    "tn_prev": 2396.75,
+    "tn_carr": 303.98
   },
   "por_cliente": [
     {
@@ -19,36 +19,36 @@
       "tn_carr": 78.11
     },
     {
+      "cliente": "INTERCEMT",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 250.5,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN MONTES CLAROS",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 242.48,
-      "tn_carr": 50.48
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 244.33,
+      "tn_carr": 148.33
     },
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 232.42,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 232.37,
+      "tn_carr": 38.94
     },
     {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 228.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "INTERCEMT",
-      "prog": 5,
-      "carr": 0,
+      "carr": 1,
       "falta": 5,
-      "tn_prev": 202.5,
-      "tn_carr": 0.0
+      "tn_prev": 228.6,
+      "tn_carr": 38.6
     },
     {
       "cliente": "CSN BARROSO",
@@ -68,10 +68,10 @@
     },
     {
       "cliente": "PETRORECONCAVO",
-      "prog": 2,
+      "prog": 3,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
+      "falta": 3,
+      "tn_prev": 144.0,
       "tn_carr": 0.0
     },
     {
@@ -80,6 +80,14 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 72.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "INNMOV",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
       "tn_carr": 0.0
     },
     {
@@ -102,34 +110,34 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 39,
-      "carr": 3,
-      "falta": 36,
-      "tn_prev": 1573.59,
-      "tn_carr": 128.59
+      "prog": 40,
+      "carr": 6,
+      "falta": 34,
+      "tn_prev": 1624.04,
+      "tn_carr": 265.04
+    },
+    {
+      "produto": "Ijaci",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 250.5,
+      "tn_carr": 0.0
     },
     {
       "produto": "Trindade",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 232.42,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Ijaci",
-      "prog": 5,
-      "carr": 0,
+      "carr": 1,
       "falta": 5,
-      "tn_prev": 202.5,
-      "tn_carr": 0.0
+      "tn_prev": 232.37,
+      "tn_carr": 38.94
     },
     {
       "produto": "PETRÓLEO",
-      "prog": 2,
+      "prog": 3,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
+      "falta": 3,
+      "tn_prev": 144.0,
       "tn_carr": 0.0
     },
     {
@@ -234,85 +242,22 @@
       ]
     },
     {
-      "lote": "CSN MONTES CLAROS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
-      "cliente": "CSN MONTES CLAROS",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 242.48,
-      "tn_carr": 50.48,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 242.48,
-          "tn_carr": 50.48
-        }
-      ]
-    },
-    {
-      "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
-      "cliente": "DESCARGA MINÉRIO",
-      "produto": "Trindade",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 232.42,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSPORTES LTDA ME",
-          "cnpj": "26586645000141",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 232.42,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
-      "cliente": "CSN P. LEOPOLDO",
-      "produto": "PETCOKE",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 228.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 228.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "INTERCEMT-IJACI - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "INTERCEMT",
       "produto": "Ijaci",
-      "prog": 5,
+      "prog": 6,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 202.5,
+      "falta": 6,
+      "tn_prev": 250.5,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
-          "prog": 3,
+          "prog": 4,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 134.0,
+          "falta": 4,
+          "tn_prev": 182.0,
           "tn_carr": 0.0
         },
         {
@@ -323,6 +268,69 @@
           "falta": 2,
           "tn_prev": 68.5,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN MONTES CLAROS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
+      "cliente": "CSN MONTES CLAROS",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 244.33,
+      "tn_carr": 148.33,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 5,
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 244.33,
+          "tn_carr": 148.33
+        }
+      ]
+    },
+    {
+      "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
+      "cliente": "DESCARGA MINÉRIO",
+      "produto": "Trindade",
+      "prog": 6,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 232.37,
+      "tn_carr": 38.94,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSPORTES LTDA ME",
+          "cnpj": "26586645000141",
+          "prog": 6,
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 232.37,
+          "tn_carr": 38.94
+        }
+      ]
+    },
+    {
+      "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
+      "cliente": "CSN P. LEOPOLDO",
+      "produto": "PETCOKE",
+      "prog": 6,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 228.6,
+      "tn_carr": 38.6,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 6,
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 228.6,
+          "tn_carr": 38.6
         }
       ]
     },
@@ -372,19 +380,19 @@
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
-      "prog": 2,
+      "prog": 3,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
+      "falta": 3,
+      "tn_prev": 144.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
+          "falta": 3,
+          "tn_prev": 144.0,
           "tn_carr": 0.0
         }
       ]
@@ -406,6 +414,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 72.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "INNMOV - PETCOKE - FYM CRYSTAL - PILHA 50",
+      "cliente": "INNMOV",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
