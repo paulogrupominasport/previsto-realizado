@@ -1,12 +1,12 @@
 {
   "data_relatorio": "20/09/2026",
-  "gerado_em": "2026-09-20T15:00:16",
-  "atualizado_em": "2026-09-20T18:05:24",
+  "gerado_em": "2026-09-20T15:12:21",
+  "atualizado_em": "2026-09-20T18:15:25",
   "totais": {
     "prog": 68,
     "carr": 55,
     "falta": 13,
-    "tn_prev": 2660.52,
+    "tn_prev": 2583.57,
     "tn_carr": 2233.36
   },
   "por_cliente": [
@@ -27,14 +27,6 @@
       "tn_carr": 261.03
     },
     {
-      "cliente": "CSN PEDRO LEOPOLDO",
-      "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 256.98,
-      "tn_carr": 218.98
-    },
-    {
       "cliente": "CSN MONTES CLAROS",
       "prog": 6,
       "carr": 5,
@@ -49,6 +41,14 @@
       "falta": 0,
       "tn_prev": 231.73,
       "tn_carr": 231.73
+    },
+    {
+      "cliente": "CSN PEDRO LEOPOLDO",
+      "prog": 7,
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 218.76,
+      "tn_carr": 218.98
     },
     {
       "cliente": "CSN BARROSO",
@@ -67,20 +67,20 @@
       "tn_carr": 232.17
     },
     {
-      "cliente": "CSN V. REDONDA",
-      "prog": 4,
-      "carr": 4,
-      "falta": 0,
-      "tn_prev": 152.25,
-      "tn_carr": 152.25
-    },
-    {
       "cliente": "PETRORECONCAVO",
       "prog": 3,
       "carr": 1,
       "falta": 2,
       "tn_prev": 143.01,
       "tn_carr": 47.01
+    },
+    {
+      "cliente": "CSN V. REDONDA",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 113.52,
+      "tn_carr": 152.25
     },
     {
       "cliente": "INNMOV",
@@ -113,7 +113,7 @@
       "prog": 41,
       "carr": 34,
       "falta": 7,
-      "tn_prev": 1557.2,
+      "tn_prev": 1518.47,
       "tn_carr": 1400.04
     },
     {
@@ -125,20 +125,20 @@
       "tn_carr": 261.03
     },
     {
-      "produto": "GESSO",
-      "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 256.98,
-      "tn_carr": 218.98
-    },
-    {
       "produto": "Trindade",
       "prog": 6,
       "carr": 6,
       "falta": 0,
       "tn_prev": 231.73,
       "tn_carr": 231.73
+    },
+    {
+      "produto": "GESSO",
+      "prog": 7,
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 218.76,
+      "tn_carr": 218.98
     },
     {
       "produto": "PETRÓLEO",
@@ -272,36 +272,6 @@
       ]
     },
     {
-      "lote": "CSN PEDRO LEOPOLDO - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN PEDRO LEOPOLDO",
-      "produto": "GESSO",
-      "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 256.98,
-      "tn_carr": 218.98,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 111.09,
-          "tn_carr": 73.09
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 4,
-          "carr": 4,
-          "falta": 0,
-          "tn_prev": 145.89,
-          "tn_carr": 145.89
-        }
-      ]
-    },
-    {
       "lote": "CSN MONTES CLAROS - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
       "cliente": "CSN MONTES CLAROS",
       "produto": "PETCOKE",
@@ -340,6 +310,36 @@
           "falta": 0,
           "tn_prev": 231.73,
           "tn_carr": 231.73
+        }
+      ]
+    },
+    {
+      "lote": "CSN PEDRO LEOPOLDO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN PEDRO LEOPOLDO",
+      "produto": "GESSO",
+      "prog": 7,
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 218.76,
+      "tn_carr": 218.98,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 111.09,
+          "tn_carr": 73.09
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 107.67,
+          "tn_carr": 145.89
         }
       ]
     },
@@ -386,27 +386,6 @@
       ]
     },
     {
-      "lote": "CSN V. REDONDA - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
-      "cliente": "CSN V. REDONDA",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 4,
-      "falta": 0,
-      "tn_prev": 152.25,
-      "tn_carr": 152.25,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 4,
-          "carr": 4,
-          "falta": 0,
-          "tn_prev": 152.25,
-          "tn_carr": 152.25
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -424,6 +403,27 @@
           "falta": 2,
           "tn_prev": 143.01,
           "tn_carr": 47.01
+        }
+      ]
+    },
+    {
+      "lote": "CSN V. REDONDA - PETCOKE - MINAS PORT - MV LETO - PILHA 51",
+      "cliente": "CSN V. REDONDA",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 113.52,
+      "tn_carr": 152.25,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 113.52,
+          "tn_carr": 152.25
         }
       ]
     },
