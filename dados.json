@@ -1,21 +1,21 @@
 {
   "data_relatorio": "21/09/2026",
-  "gerado_em": "2026-09-21T19:00:08",
-  "atualizado_em": "2026-09-21T22:05:25",
+  "gerado_em": "2026-09-21T20:00:16",
+  "atualizado_em": "2026-09-21T23:05:25",
   "totais": {
-    "prog": 109,
+    "prog": 107,
     "carr": 87,
-    "falta": 22,
-    "tn_prev": 4163.55,
+    "falta": 20,
+    "tn_prev": 4091.55,
     "tn_carr": 3309.28
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 21,
+      "prog": 20,
       "carr": 20,
-      "falta": 1,
-      "tn_prev": 816.79,
+      "falta": 0,
+      "tn_prev": 778.79,
       "tn_carr": 778.79
     },
     {
@@ -59,20 +59,20 @@
       "tn_carr": 250.57
     },
     {
-      "cliente": "RIO DESERTO",
-      "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 242.03,
-      "tn_carr": 208.03
-    },
-    {
       "cliente": "BRASKEM",
       "prog": 7,
       "carr": 7,
       "falta": 0,
       "tn_prev": 236.0,
       "tn_carr": 247.82
+    },
+    {
+      "cliente": "RIO DESERTO",
+      "prog": 6,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 208.03,
+      "tn_carr": 208.03
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -134,10 +134,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 50,
+      "prog": 49,
       "carr": 47,
-      "falta": 3,
-      "tn_prev": 1950.34,
+      "falta": 2,
+      "tn_prev": 1912.34,
       "tn_carr": 1826.34
     },
     {
@@ -165,20 +165,20 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "Rivertec",
-      "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 242.03,
-      "tn_carr": 208.03
-    },
-    {
       "produto": "TÉRMICO",
       "prog": 7,
       "carr": 7,
       "falta": 0,
       "tn_prev": 236.0,
       "tn_carr": 247.82
+    },
+    {
+      "produto": "Rivertec",
+      "prog": 6,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 208.03,
+      "tn_carr": 208.03
     },
     {
       "produto": "PETRÓLEO",
@@ -210,19 +210,19 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 19,
+      "prog": 18,
       "carr": 18,
-      "falta": 1,
-      "tn_prev": 747.03,
+      "falta": 0,
+      "tn_prev": 709.03,
       "tn_carr": 709.03,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 3,
+          "prog": 2,
           "carr": 2,
-          "falta": 1,
-          "tn_prev": 113.17,
+          "falta": 0,
+          "tn_prev": 75.17,
           "tn_carr": 75.17
         },
         {
@@ -423,36 +423,6 @@
       ]
     },
     {
-      "lote": "RIO DESERTO - RIVERTEC - PETCOKE - PILHA 21",
-      "cliente": "RIO DESERTO",
-      "produto": "Rivertec",
-      "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 242.03,
-      "tn_carr": 208.03,
-      "transportadoras": [
-        {
-          "nome": "LUAN DE SOUZA BONFANTE (SC)",
-          "cnpj": "21430615000128",
-          "prog": 6,
-          "carr": 5,
-          "falta": 1,
-          "tn_prev": 210.07,
-          "tn_carr": 176.07
-        },
-        {
-          "nome": "ATR MINHOCAO",
-          "cnpj": "66866968000103",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 31.96,
-          "tn_carr": 31.96
-        }
-      ]
-    },
-    {
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
@@ -479,6 +449,36 @@
           "falta": 0,
           "tn_prev": 38.0,
           "tn_carr": 37.18
+        }
+      ]
+    },
+    {
+      "lote": "RIO DESERTO - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "RIO DESERTO",
+      "produto": "Rivertec",
+      "prog": 6,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 208.03,
+      "tn_carr": 208.03,
+      "transportadoras": [
+        {
+          "nome": "LUAN DE SOUZA BONFANTE (SC)",
+          "cnpj": "21430615000128",
+          "prog": 5,
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 176.07,
+          "tn_carr": 176.07
+        },
+        {
+          "nome": "ATR MINHOCAO",
+          "cnpj": "66866968000103",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 31.96,
+          "tn_carr": 31.96
         }
       ]
     },
