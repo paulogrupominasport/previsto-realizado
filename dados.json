@@ -1,22 +1,22 @@
 {
   "data_relatorio": "23/09/2026",
-  "gerado_em": "2026-09-23T18:00:21",
-  "atualizado_em": "2026-09-23T21:05:25",
+  "gerado_em": "2026-09-23T19:00:11",
+  "atualizado_em": "2026-09-23T22:05:23",
   "totais": {
-    "prog": 163,
-    "carr": 143,
-    "falta": 20,
-    "tn_prev": 6432.09,
-    "tn_carr": 5620.37
+    "prog": 164,
+    "carr": 147,
+    "falta": 17,
+    "tn_prev": 6481.11,
+    "tn_carr": 5782.39
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 29,
-      "carr": 23,
-      "falta": 6,
-      "tn_prev": 1140.76,
-      "tn_carr": 926.76
+      "carr": 25,
+      "falta": 4,
+      "tn_prev": 1142.84,
+      "tn_carr": 1004.84
     },
     {
       "cliente": "CSN ARCOS",
@@ -35,6 +35,14 @@
       "tn_carr": 448.14
     },
     {
+      "cliente": "COQUE METALURGICO",
+      "prog": 11,
+      "carr": 5,
+      "falta": 6,
+      "tn_prev": 430.22,
+      "tn_carr": 186.22
+    },
+    {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 10,
       "carr": 9,
@@ -49,14 +57,6 @@
       "falta": 0,
       "tn_prev": 389.65,
       "tn_carr": 389.65
-    },
-    {
-      "cliente": "COQUE METALURGICO",
-      "prog": 10,
-      "carr": 5,
-      "falta": 5,
-      "tn_prev": 381.22,
-      "tn_carr": 186.22
     },
     {
       "cliente": "BRASKEM",
@@ -117,18 +117,18 @@
     {
       "cliente": "INTERCEMENT IJACI",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 168.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 167.32,
+      "tn_carr": 35.32
     },
     {
       "cliente": "CSN V. REDONDA",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 166.45,
-      "tn_carr": 116.45
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 165.07,
+      "tn_carr": 165.07
     },
     {
       "cliente": "INTERCEMT",
@@ -167,18 +167,26 @@
     {
       "produto": "PETCOKE",
       "prog": 72,
-      "carr": 66,
-      "falta": 6,
-      "tn_prev": 2902.41,
-      "tn_carr": 2676.41
+      "carr": 69,
+      "falta": 3,
+      "tn_prev": 2903.11,
+      "tn_carr": 2803.11
     },
     {
       "produto": "GESSO",
       "prog": 35,
-      "carr": 29,
+      "carr": 30,
+      "falta": 5,
+      "tn_prev": 1388.96,
+      "tn_carr": 1170.96
+    },
+    {
+      "produto": "Csn V. Red",
+      "prog": 11,
+      "carr": 5,
       "falta": 6,
-      "tn_prev": 1389.64,
-      "tn_carr": 1135.64
+      "tn_prev": 430.22,
+      "tn_carr": 186.22
     },
     {
       "produto": "Sinter Feed",
@@ -195,14 +203,6 @@
       "falta": 0,
       "tn_prev": 389.65,
       "tn_carr": 389.65
-    },
-    {
-      "produto": "Csn V. Red",
-      "prog": 10,
-      "carr": 5,
-      "falta": 5,
-      "tn_prev": 381.22,
-      "tn_carr": 186.22
     },
     {
       "produto": "TÉRMICO",
@@ -251,19 +251,19 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 20,
-      "carr": 15,
-      "falta": 5,
-      "tn_prev": 785.63,
-      "tn_carr": 609.63,
+      "carr": 17,
+      "falta": 3,
+      "tn_prev": 787.71,
+      "tn_carr": 687.71,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 114.45,
-          "tn_carr": 38.45
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 115.75,
+          "tn_carr": 77.75
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -287,10 +287,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 11,
-          "carr": 10,
-          "falta": 1,
-          "tn_prev": 445.34,
-          "tn_carr": 407.34
+          "carr": 11,
+          "falta": 0,
+          "tn_prev": 446.12,
+          "tn_carr": 446.12
         }
       ]
     },
@@ -800,19 +800,19 @@
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 168.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 167.32,
+      "tn_carr": 35.32,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 72.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 71.32,
+          "tn_carr": 35.32
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -830,19 +830,19 @@
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 166.45,
-      "tn_carr": 116.45,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 165.07,
+      "tn_carr": 165.07,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 166.45,
-          "tn_carr": 116.45
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 165.07,
+          "tn_carr": 165.07
         }
       ]
     },
@@ -975,6 +975,27 @@
           "falta": 0,
           "tn_prev": 77.43,
           "tn_carr": 77.43
+        }
+      ]
+    },
+    {
+      "lote": "COQUE METALURGICO - CSN V. RED - ITAÚNA",
+      "cliente": "COQUE METALURGICO",
+      "produto": "Csn V. Red",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 49.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 49.0,
+          "tn_carr": 0.0
         }
       ]
     }
