@@ -8793,39 +8793,45 @@
     }
   },
   "2026-09-24": {
-    "gerado_em": "2026-09-24T11:00:16",
-    "atualizado_em": "2026-09-24T14:05:30",
+    "gerado_em": "2026-09-24T12:00:10",
+    "atualizado_em": "2026-09-24T15:05:29",
     "totais": {
-      "prog": 127,
-      "carr": 37,
-      "falta": 90,
-      "tn_prev": 4680.39,
-      "tn_carr": 1391.4
+      "prog": 142,
+      "carr": 46,
+      "falta": 96,
+      "tn_prev": 5336.74,
+      "tn_carr": 1723.07
     },
     "por_cliente": {
-      "CSN BARROSO": {
-        "prog": 23,
-        "carr": 5,
-        "tn_prev": 804.24,
-        "tn_carr": 198.55
-      },
-      "ITAMBÉ": {
-        "prog": 18,
-        "carr": 5,
-        "tn_prev": 681.74,
-        "tn_carr": 183.74
-      },
       "CSN PEDRO LEOPOLDO": {
-        "prog": 17,
+        "prog": 24,
         "carr": 2,
-        "tn_prev": 665.72,
+        "tn_prev": 961.72,
         "tn_carr": 88.72
       },
-      "CSN ARCOS": {
-        "prog": 15,
+      "CSN BARROSO": {
+        "prog": 25,
+        "carr": 9,
+        "tn_prev": 902.23,
+        "tn_carr": 338.54
+      },
+      "ITAMBÉ": {
+        "prog": 20,
         "carr": 5,
-        "tn_prev": 536.26,
-        "tn_carr": 190.26
+        "tn_prev": 757.74,
+        "tn_carr": 183.74
+      },
+      "CSN ARCOS": {
+        "prog": 14,
+        "carr": 7,
+        "tn_prev": 527.33,
+        "tn_carr": 267.33
+      },
+      "DESCARGA MINÉRIO": {
+        "prog": 12,
+        "carr": 6,
+        "tn_prev": 472.37,
+        "tn_carr": 234.32
       },
       "BRASKEM": {
         "prog": 11,
@@ -8833,17 +8839,11 @@
         "tn_prev": 384.0,
         "tn_carr": 344.97
       },
-      "DESCARGA MINÉRIO": {
-        "prog": 9,
-        "carr": 5,
-        "tn_prev": 354.06,
-        "tn_carr": 195.69
-      },
       "NACIONAL (CTG)": {
         "prog": 9,
-        "carr": 0,
-        "tn_prev": 307.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 307.98,
+        "tn_carr": 75.98
       },
       "NASSAU": {
         "prog": 7,
@@ -8881,6 +8881,12 @@
         "tn_prev": 76.77,
         "tn_carr": 76.77
       },
+      "TRINDADE MINERAÇÃO": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 76.0,
+        "tn_carr": 0.0
+      },
       "DESCARGA": {
         "prog": 2,
         "carr": 0,
@@ -8896,16 +8902,22 @@
     },
     "por_produto": {
       "GESSO": {
-        "prog": 61,
-        "carr": 13,
-        "tn_prev": 2253.22,
-        "tn_carr": 496.22
+        "prog": 65,
+        "carr": 17,
+        "tn_prev": 2480.73,
+        "tn_carr": 644.73
       },
       "PETCOKE": {
-        "prog": 26,
-        "carr": 8,
-        "tn_prev": 946.23,
-        "tn_carr": 309.54
+        "prog": 32,
+        "carr": 10,
+        "tn_prev": 1179.78,
+        "tn_carr": 378.09
+      },
+      "Trindade": {
+        "prog": 12,
+        "carr": 6,
+        "tn_prev": 472.37,
+        "tn_carr": 234.32
       },
       "TÉRMICO": {
         "prog": 11,
@@ -8913,17 +8925,11 @@
         "tn_prev": 384.0,
         "tn_carr": 344.97
       },
-      "Trindade": {
-        "prog": 9,
-        "carr": 5,
-        "tn_prev": 354.06,
-        "tn_carr": 195.69
-      },
       "CARVÃO": {
         "prog": 9,
-        "carr": 0,
-        "tn_prev": 307.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 307.98,
+        "tn_carr": 75.98
       },
       "Antracito": {
         "prog": 4,
@@ -8941,6 +8947,12 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 100.0,
+        "tn_carr": 0.0
+      },
+      "Sinter Feed": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 76.0,
         "tn_carr": 0.0
       },
       "COQUE": {
