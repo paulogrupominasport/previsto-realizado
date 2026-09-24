@@ -1,13 +1,13 @@
 {
   "data_relatorio": "24/09/2026",
-  "gerado_em": "2026-09-24T08:00:09",
-  "atualizado_em": "2026-09-24T11:05:32",
+  "gerado_em": "2026-09-24T09:00:19",
+  "atualizado_em": "2026-09-24T12:05:46",
   "totais": {
-    "prog": 90,
-    "carr": 4,
-    "falta": 86,
-    "tn_prev": 3371.44,
-    "tn_carr": 134.18
+    "prog": 93,
+    "carr": 12,
+    "falta": 81,
+    "tn_prev": 3493.45,
+    "tn_carr": 436.4
   },
   "por_cliente": [
     {
@@ -20,27 +20,27 @@
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 12,
-      "carr": 0,
+      "prog": 13,
+      "carr": 1,
       "falta": 12,
-      "tn_prev": 439.0,
-      "tn_carr": 0.0
+      "tn_prev": 479.31,
+      "tn_carr": 39.31
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 12,
+      "carr": 1,
+      "falta": 11,
+      "tn_prev": 455.0,
+      "tn_carr": 38.0
     },
     {
       "cliente": "BRASKEM",
       "prog": 11,
-      "carr": 4,
-      "falta": 7,
+      "carr": 7,
+      "falta": 4,
       "tn_prev": 384.0,
-      "tn_carr": 134.18
-    },
-    {
-      "cliente": "ITAMBÉ",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 379.0,
-      "tn_carr": 0.0
+      "tn_carr": 246.39
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -53,17 +53,17 @@
     {
       "cliente": "NASSAU",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 246.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 249.72,
+      "tn_carr": 67.72
     },
     {
       "cliente": "CSN PEDRO LEOPOLDO",
-      "prog": 6,
+      "prog": 5,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 223.0,
+      "falta": 5,
+      "tn_prev": 190.0,
       "tn_carr": 0.0
     },
     {
@@ -77,10 +77,10 @@
     {
       "cliente": "COQUE METALURGICO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 126.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 122.98,
+      "tn_carr": 44.98
     },
     {
       "cliente": "LS METAIS",
@@ -99,6 +99,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CSN VOLTA REDONDA",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "DESCARGA",
       "prog": 2,
       "carr": 0,
@@ -113,40 +121,32 @@
       "falta": 1,
       "tn_prev": 48.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN VOLTA REDONDA",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
-      "produto": "PETCOKE",
-      "prog": 31,
-      "carr": 0,
-      "falta": 31,
-      "tn_prev": 1192.0,
-      "tn_carr": 0.0
+      "produto": "GESSO",
+      "prog": 33,
+      "carr": 3,
+      "falta": 30,
+      "tn_prev": 1204.03,
+      "tn_carr": 107.03
     },
     {
-      "produto": "GESSO",
-      "prog": 30,
-      "carr": 0,
+      "produto": "PETCOKE",
+      "prog": 31,
+      "carr": 1,
       "falta": 30,
-      "tn_prev": 1081.0,
-      "tn_carr": 0.0
+      "tn_prev": 1194.0,
+      "tn_carr": 38.0
     },
     {
       "produto": "TÉRMICO",
       "prog": 11,
-      "carr": 4,
-      "falta": 7,
+      "carr": 7,
+      "falta": 4,
       "tn_prev": 384.0,
-      "tn_carr": 134.18
+      "tn_carr": 246.39
     },
     {
       "produto": "Trindade",
@@ -159,10 +159,10 @@
     {
       "produto": "Csn V. Red",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 126.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 122.98,
+      "tn_carr": 44.98
     },
     {
       "produto": "Antracito",
@@ -215,11 +215,11 @@
       "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
-      "prog": 11,
-      "carr": 0,
+      "prog": 12,
+      "carr": 1,
       "falta": 11,
-      "tn_prev": 401.0,
-      "tn_carr": 0.0,
+      "tn_prev": 441.31,
+      "tn_carr": 39.31,
       "transportadoras": [
         {
           "nome": "EK TRANSPORTES (RJ)",
@@ -233,11 +233,11 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 6,
-          "carr": 0,
+          "prog": 7,
+          "carr": 1,
           "falta": 6,
-          "tn_prev": 211.0,
-          "tn_carr": 0.0
+          "tn_prev": 251.31,
+          "tn_carr": 39.31
         },
         {
           "nome": "AR MACEDO (RJ)",
@@ -255,10 +255,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 379.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 381.0,
+      "tn_carr": 38.0,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -282,10 +282,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 119.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 121.0,
+          "tn_carr": 38.0
         }
       ]
     },
@@ -324,10 +324,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 7,
-      "carr": 3,
-      "falta": 4,
+      "carr": 5,
+      "falta": 2,
       "tn_prev": 251.0,
-      "tn_carr": 100.07,
+      "tn_carr": 175.95,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -351,19 +351,19 @@
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 86.0,
-          "tn_carr": 0.0
+          "tn_carr": 48.09
         },
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 30.0,
-          "tn_carr": 0.0
+          "tn_carr": 27.79
         }
       ]
     },
@@ -372,19 +372,19 @@
       "cliente": "NASSAU",
       "produto": "GESSO",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 246.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 249.72,
+      "tn_carr": 67.72,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
           "prog": 7,
-          "carr": 0,
-          "falta": 7,
-          "tn_prev": 246.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 5,
+          "tn_prev": 249.72,
+          "tn_carr": 67.72
         }
       ]
     },
@@ -392,10 +392,10 @@
       "lote": "CSN PEDRO LEOPOLDO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN PEDRO LEOPOLDO",
       "produto": "GESSO",
-      "prog": 6,
+      "prog": 5,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 223.0,
+      "falta": 5,
+      "tn_prev": 190.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -410,10 +410,10 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 5,
+          "prog": 4,
           "carr": 0,
-          "falta": 5,
-          "tn_prev": 185.0,
+          "falta": 4,
+          "tn_prev": 152.0,
           "tn_carr": 0.0
         }
       ]
@@ -474,19 +474,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
+      "carr": 2,
+      "falta": 2,
       "tn_prev": 133.0,
-      "tn_carr": 34.11,
+      "tn_carr": 70.44,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 33.0,
-          "tn_carr": 0.0
+          "tn_carr": 36.33
         },
         {
           "nome": "CANEVER (SC)",
@@ -572,6 +572,57 @@
       ]
     },
     {
+      "lote": "CSN VOLTA REDONDA - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN VOLTA REDONDA",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EK TRANSPORTES (RJ)",
+          "cnpj": "05399163000617",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 74.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "DESCARGA - COQUE METALURGICO - CSN V. RED",
       "cliente": "DESCARGA",
       "produto": "COQUE",
@@ -618,40 +669,19 @@
       "cliente": "COQUE METALURGICO",
       "produto": "Csn V. Red",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 44.98,
+      "tn_carr": 44.98,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN VOLTA REDONDA - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN VOLTA REDONDA",
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EK TRANSPORTES (RJ)",
-          "cnpj": "05399163000617",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 44.98,
+          "tn_carr": 44.98
         }
       ]
     },
