@@ -1,12 +1,12 @@
 {
   "data_relatorio": "24/09/2026",
-  "gerado_em": "2026-09-24T20:00:04",
-  "atualizado_em": "2026-09-24T23:05:29",
+  "gerado_em": "2026-09-24T21:00:10",
+  "atualizado_em": "2026-09-25T00:05:24",
   "totais": {
-    "prog": 174,
+    "prog": 173,
     "carr": 152,
-    "falta": 22,
-    "tn_prev": 6466.34,
+    "falta": 21,
+    "tn_prev": 6429.34,
     "tn_carr": 5768.58
   },
   "por_cliente": [
@@ -35,20 +35,20 @@
       "tn_carr": 803.47
     },
     {
-      "cliente": "CSN ARCOS",
-      "prog": 14,
-      "carr": 12,
-      "falta": 2,
-      "tn_prev": 531.22,
-      "tn_carr": 456.22
-    },
-    {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 13,
       "carr": 13,
       "falta": 0,
       "tn_prev": 509.71,
       "tn_carr": 509.71
+    },
+    {
+      "cliente": "CSN ARCOS",
+      "prog": 13,
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 494.22,
+      "tn_carr": 456.22
     },
     {
       "cliente": "BRASKEM",
@@ -158,10 +158,10 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 78,
+      "prog": 77,
       "carr": 70,
-      "falta": 8,
-      "tn_prev": 2962.17,
+      "falta": 7,
+      "tn_prev": 2925.17,
       "tn_carr": 2671.17
     },
     {
@@ -356,54 +356,6 @@
       ]
     },
     {
-      "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN ARCOS",
-      "produto": "GESSO",
-      "prog": 14,
-      "carr": 12,
-      "falta": 2,
-      "tn_prev": 531.22,
-      "tn_carr": 456.22,
-      "transportadoras": [
-        {
-          "nome": "WSV TRANSPORTES (RJ)",
-          "cnpj": "13349563000301",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 76.33,
-          "tn_carr": 76.33
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 37.51,
-          "tn_carr": 37.51
-        },
-        {
-          "nome": "EK TRANSPORTES (RJ)",
-          "cnpj": "05399163000617",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 78.82,
-          "tn_carr": 78.82
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 9,
-          "carr": 7,
-          "falta": 2,
-          "tn_prev": 338.56,
-          "tn_carr": 263.56
-        }
-      ]
-    },
-    {
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
@@ -439,6 +391,54 @@
           "falta": 0,
           "tn_prev": 40.76,
           "tn_carr": 40.76
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN ARCOS",
+      "produto": "GESSO",
+      "prog": 13,
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 494.22,
+      "tn_carr": 456.22,
+      "transportadoras": [
+        {
+          "nome": "WSV TRANSPORTES (RJ)",
+          "cnpj": "13349563000301",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 76.33,
+          "tn_carr": 76.33
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.51,
+          "tn_carr": 37.51
+        },
+        {
+          "nome": "EK TRANSPORTES (RJ)",
+          "cnpj": "05399163000617",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 78.82,
+          "tn_carr": 78.82
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 8,
+          "carr": 7,
+          "falta": 1,
+          "tn_prev": 301.56,
+          "tn_carr": 263.56
         }
       ]
     },
