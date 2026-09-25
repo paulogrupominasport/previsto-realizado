@@ -8853,26 +8853,38 @@
     }
   },
   "2026-09-25": {
-    "gerado_em": "2026-09-25T10:00:18",
-    "atualizado_em": "2026-09-25T13:05:28",
+    "gerado_em": "2026-09-25T11:00:07",
+    "atualizado_em": "2026-09-25T14:11:35",
     "totais": {
-      "prog": 136,
-      "carr": 26,
-      "falta": 110,
-      "tn_prev": 5133.2,
-      "tn_carr": 934.5
+      "prog": 153,
+      "carr": 30,
+      "falta": 123,
+      "tn_prev": 5790.89,
+      "tn_carr": 1078.21
     },
     "por_cliente": {
       "ITAMBÉ": {
-        "prog": 26,
-        "carr": 10,
-        "tn_prev": 1021.38,
-        "tn_carr": 366.38
+        "prog": 27,
+        "carr": 11,
+        "tn_prev": 1056.6,
+        "tn_carr": 402.6
+      },
+      "CSN BARROSO": {
+        "prog": 17,
+        "carr": 0,
+        "tn_prev": 679.0,
+        "tn_carr": 0.0
       },
       "CSN ARCOS": {
-        "prog": 11,
+        "prog": 12,
         "carr": 0,
-        "tn_prev": 427.0,
+        "tn_prev": 465.0,
+        "tn_carr": 0.0
+      },
+      "INTERCEMENT IJACI": {
+        "prog": 10,
+        "carr": 0,
+        "tn_prev": 438.0,
         "tn_carr": 0.0
       },
       "CSN SOROCABA": {
@@ -8881,17 +8893,11 @@
         "tn_prev": 404.0,
         "tn_carr": 0.0
       },
-      "INTERCEMENT IJACI": {
-        "prog": 9,
-        "carr": 0,
-        "tn_prev": 399.0,
-        "tn_carr": 0.0
-      },
-      "CSN BARROSO": {
+      "CSN PEDRO LEOPOLDO": {
         "prog": 10,
-        "carr": 0,
-        "tn_prev": 389.0,
-        "tn_carr": 0.0
+        "carr": 3,
+        "tn_prev": 369.19,
+        "tn_carr": 108.19
       },
       "BRASKEM": {
         "prog": 12,
@@ -8899,35 +8905,35 @@
         "tn_prev": 358.0,
         "tn_carr": 214.63
       },
-      "CSN PEDRO LEOPOLDO": {
-        "prog": 8,
-        "carr": 3,
-        "tn_prev": 287.19,
-        "tn_carr": 108.19
-      },
       "CSN CANTAGALO": {
-        "prog": 7,
+        "prog": 10,
         "carr": 0,
-        "tn_prev": 245.0,
+        "tn_prev": 345.0,
         "tn_carr": 0.0
       },
       "NASSAU": {
-        "prog": 7,
-        "carr": 0,
-        "tn_prev": 244.0,
-        "tn_carr": 0.0
+        "prog": 8,
+        "carr": 1,
+        "tn_prev": 279.76,
+        "tn_carr": 34.76
       },
       "DESCARGA": {
         "prog": 6,
-        "carr": 2,
-        "tn_prev": 211.62,
-        "tn_carr": 70.52
+        "carr": 3,
+        "tn_prev": 211.61,
+        "tn_carr": 105.53
       },
       "CSN VOLTA REDONDA": {
         "prog": 5,
-        "carr": 1,
-        "tn_prev": 205.76,
-        "tn_carr": 37.76
+        "carr": 2,
+        "tn_prev": 208.48,
+        "tn_carr": 75.48
+      },
+      "NACIONAL (CTG)": {
+        "prog": 5,
+        "carr": 0,
+        "tn_prev": 173.0,
+        "tn_carr": 0.0
       },
       "TRINDADE MINERAÇÃO": {
         "prog": 4,
@@ -8946,12 +8952,6 @@
         "carr": 1,
         "tn_prev": 143.17,
         "tn_carr": 30.17
-      },
-      "NACIONAL (CTG)": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 138.0,
-        "tn_carr": 0.0
       },
       "DESCARGA MINÉRIO": {
         "prog": 3,
@@ -8980,15 +8980,15 @@
     },
     "por_produto": {
       "GESSO": {
-        "prog": 72,
-        "carr": 7,
-        "tn_prev": 2769.04,
-        "tn_carr": 258.04
+        "prog": 84,
+        "carr": 10,
+        "tn_prev": 3248.74,
+        "tn_carr": 366.74
       },
       "PETCOKE": {
-        "prog": 26,
+        "prog": 30,
         "carr": 7,
-        "tn_prev": 1025.29,
+        "tn_prev": 1168.29,
         "tn_carr": 254.29
       },
       "TÉRMICO": {
@@ -8999,9 +8999,15 @@
       },
       "COQUE": {
         "prog": 6,
-        "carr": 2,
-        "tn_prev": 211.62,
-        "tn_carr": 70.52
+        "carr": 3,
+        "tn_prev": 211.61,
+        "tn_carr": 105.53
+      },
+      "CARVÃO": {
+        "prog": 5,
+        "carr": 0,
+        "tn_prev": 173.0,
+        "tn_carr": 0.0
       },
       "Sinter Feed": {
         "prog": 4,
@@ -9014,12 +9020,6 @@
         "carr": 1,
         "tn_prev": 143.17,
         "tn_carr": 30.17
-      },
-      "CARVÃO": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 138.0,
-        "tn_carr": 0.0
       },
       "Trindade": {
         "prog": 3,
