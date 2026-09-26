@@ -1,13 +1,13 @@
 {
   "data_relatorio": "26/09/2026",
-  "gerado_em": "2026-09-26T16:00:12",
-  "atualizado_em": "2026-09-26T19:05:24",
+  "gerado_em": "2026-09-26T17:00:04",
+  "atualizado_em": "2026-09-26T20:05:24",
   "totais": {
-    "prog": 121,
-    "carr": 100,
+    "prog": 122,
+    "carr": 101,
     "falta": 21,
-    "tn_prev": 4663.35,
-    "tn_carr": 3883.78
+    "tn_prev": 4694.6,
+    "tn_carr": 3920.89
   },
   "por_cliente": [
     {
@@ -15,15 +15,15 @@
       "prog": 45,
       "carr": 41,
       "falta": 4,
-      "tn_prev": 1693.53,
+      "tn_prev": 1656.67,
       "tn_carr": 1541.53
     },
     {
       "cliente": "INTERCEMENT IJACI",
-      "prog": 13,
+      "prog": 14,
       "carr": 10,
-      "falta": 3,
-      "tn_prev": 549.37,
+      "falta": 4,
+      "tn_prev": 581.37,
       "tn_carr": 429.37
     },
     {
@@ -53,10 +53,10 @@
     {
       "cliente": "CSN CANTAGALO",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 226.49,
-      "tn_carr": 225.49
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 262.6,
+      "tn_carr": 262.6
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -150,18 +150,18 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 60,
-      "carr": 47,
+      "prog": 61,
+      "carr": 48,
       "falta": 13,
-      "tn_prev": 2310.6,
-      "tn_carr": 1892.6
+      "tn_prev": 2378.71,
+      "tn_carr": 1929.71
     },
     {
       "produto": "PETCOKE",
       "prog": 36,
       "carr": 32,
       "falta": 4,
-      "tn_prev": 1361.27,
+      "tn_prev": 1324.41,
       "tn_carr": 1209.27
     },
     {
@@ -229,7 +229,7 @@
       "prog": 36,
       "carr": 32,
       "falta": 4,
-      "tn_prev": 1361.27,
+      "tn_prev": 1324.41,
       "tn_carr": 1209.27,
       "transportadoras": [
         {
@@ -256,7 +256,7 @@
           "prog": 15,
           "carr": 11,
           "falta": 4,
-          "tn_prev": 572.8,
+          "tn_prev": 535.94,
           "tn_carr": 420.8
         },
         {
@@ -274,10 +274,10 @@
       "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
-      "prog": 13,
+      "prog": 14,
       "carr": 10,
-      "falta": 3,
-      "tn_prev": 549.37,
+      "falta": 4,
+      "tn_prev": 581.37,
       "tn_carr": 429.37,
       "transportadoras": [
         {
@@ -287,6 +287,15 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 32.0,
           "tn_carr": 0.0
         },
         {
@@ -434,10 +443,10 @@
       "cliente": "CSN CANTAGALO",
       "produto": "GESSO",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 226.49,
-      "tn_carr": 225.49,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 262.6,
+      "tn_carr": 262.6,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
@@ -452,10 +461,10 @@
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 34.98,
-          "tn_carr": 33.98
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 71.09,
+          "tn_carr": 71.09
         }
       ]
     },
