@@ -1,37 +1,37 @@
 {
   "data_relatorio": "26/09/2026",
-  "gerado_em": "2026-09-26T13:00:08",
-  "atualizado_em": "2026-09-26T16:05:22",
+  "gerado_em": "2026-09-26T14:00:13",
+  "atualizado_em": "2026-09-26T17:05:23",
   "totais": {
-    "prog": 120,
-    "carr": 74,
-    "falta": 46,
-    "tn_prev": 4591.5,
-    "tn_carr": 2857.56
+    "prog": 122,
+    "carr": 81,
+    "falta": 41,
+    "tn_prev": 4677.43,
+    "tn_carr": 3131.66
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 45,
-      "carr": 29,
-      "falta": 16,
-      "tn_prev": 1682.03,
-      "tn_carr": 1102.03
+      "prog": 46,
+      "carr": 32,
+      "falta": 14,
+      "tn_prev": 1717.97,
+      "tn_carr": 1213.97
     },
     {
       "cliente": "INTERCEMENT IJACI",
       "prog": 13,
-      "carr": 7,
-      "falta": 6,
-      "tn_prev": 549.31,
-      "tn_carr": 295.31
+      "carr": 8,
+      "falta": 5,
+      "tn_prev": 548.86,
+      "tn_carr": 342.86
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 8,
+      "prog": 9,
       "carr": 8,
-      "falta": 0,
-      "tn_prev": 340.5,
+      "falta": 1,
+      "tn_prev": 388.5,
       "tn_carr": 340.5
     },
     {
@@ -45,10 +45,10 @@
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 232.57,
-      "tn_carr": 155.53
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 232.5,
+      "tn_carr": 193.63
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -69,10 +69,10 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 173.5,
-      "tn_carr": 78.5
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 175.09,
+      "tn_carr": 117.09
     },
     {
       "cliente": "CSN PEDRO LEOPOLDO",
@@ -85,10 +85,10 @@
     {
       "cliente": "SUPREMO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 145.48,
-      "tn_carr": 108.48
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 146.4,
+      "tn_carr": 146.4
     },
     {
       "cliente": "DESCARGA",
@@ -150,27 +150,27 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 60,
-      "carr": 38,
-      "falta": 22,
-      "tn_prev": 2286.05,
-      "tn_carr": 1513.05
+      "prog": 61,
+      "carr": 41,
+      "falta": 20,
+      "tn_prev": 2334.15,
+      "tn_carr": 1636.15
     },
     {
       "produto": "PETCOKE",
-      "prog": 36,
-      "carr": 22,
-      "falta": 14,
-      "tn_prev": 1348.22,
-      "tn_carr": 844.22
+      "prog": 37,
+      "carr": 24,
+      "falta": 13,
+      "tn_prev": 1385.2,
+      "tn_carr": 919.2
     },
     {
       "produto": "Trindade",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 232.57,
-      "tn_carr": 155.53
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 232.5,
+      "tn_carr": 193.63
     },
     {
       "produto": "Sinter Feed",
@@ -183,10 +183,10 @@
     {
       "produto": "Rivertec",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 145.48,
-      "tn_carr": 108.48
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 146.4,
+      "tn_carr": 146.4
     },
     {
       "produto": "COQUE",
@@ -226,20 +226,20 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 36,
-      "carr": 22,
-      "falta": 14,
-      "tn_prev": 1348.22,
-      "tn_carr": 844.22,
+      "prog": 37,
+      "carr": 24,
+      "falta": 13,
+      "tn_prev": 1385.2,
+      "tn_carr": 919.2,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 185.85,
-          "tn_carr": 74.85
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 185.25,
+          "tn_carr": 112.25
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -253,11 +253,11 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 14,
-          "carr": 8,
+          "prog": 15,
+          "carr": 9,
           "falta": 6,
-          "tn_prev": 521.54,
-          "tn_carr": 309.54
+          "tn_prev": 559.12,
+          "tn_carr": 347.12
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -275,10 +275,10 @@
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
       "prog": 13,
-      "carr": 7,
-      "falta": 6,
-      "tn_prev": 549.31,
-      "tn_carr": 295.31,
+      "carr": 8,
+      "falta": 5,
+      "tn_prev": 548.86,
+      "tn_carr": 342.86,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -293,10 +293,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 8,
-          "carr": 5,
-          "falta": 3,
-          "tn_prev": 363.96,
-          "tn_carr": 229.96
+          "carr": 6,
+          "falta": 2,
+          "tn_prev": 363.51,
+          "tn_carr": 277.51
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -322,19 +322,19 @@
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
-      "prog": 8,
+      "prog": 9,
       "carr": 8,
-      "falta": 0,
-      "tn_prev": 340.5,
+      "falta": 1,
+      "tn_prev": 388.5,
       "tn_carr": 340.5,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 7,
+          "prog": 8,
           "carr": 7,
-          "falta": 0,
-          "tn_prev": 300.61,
+          "falta": 1,
+          "tn_prev": 348.61,
           "tn_carr": 300.61
         },
         {
@@ -353,19 +353,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 333.81,
-      "tn_carr": 257.81,
+      "carr": 8,
+      "falta": 1,
+      "tn_prev": 332.77,
+      "tn_carr": 294.77,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 8,
-          "carr": 6,
-          "falta": 2,
-          "tn_prev": 294.76,
-          "tn_carr": 218.76
+          "carr": 7,
+          "falta": 1,
+          "tn_prev": 293.72,
+          "tn_carr": 255.72
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -404,10 +404,10 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 232.57,
-      "tn_carr": 155.53,
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 232.5,
+      "tn_carr": 193.63,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
@@ -422,10 +422,10 @@
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 77.04,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 76.97,
+          "tn_carr": 38.1
         }
       ]
     },
@@ -503,10 +503,10 @@
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 173.5,
-      "tn_carr": 78.5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 175.09,
+      "tn_carr": 117.09,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -539,10 +539,10 @@
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 76.24,
-          "tn_carr": 39.24
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 77.83,
+          "tn_carr": 77.83
         }
       ]
     },
@@ -581,19 +581,19 @@
       "cliente": "SUPREMO",
       "produto": "Rivertec",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 145.48,
-      "tn_carr": 108.48,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 146.4,
+      "tn_carr": 146.4,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 145.48,
-          "tn_carr": 108.48
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 146.4,
+          "tn_carr": 146.4
         }
       ]
     },
