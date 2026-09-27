@@ -1,13 +1,13 @@
 {
   "data_relatorio": "27/09/2026",
-  "gerado_em": "2026-09-27T13:00:05",
-  "atualizado_em": "2026-09-27T16:05:25",
+  "gerado_em": "2026-09-27T14:00:17",
+  "atualizado_em": "2026-09-27T17:05:24",
   "totais": {
     "prog": 46,
-    "carr": 28,
-    "falta": 18,
-    "tn_prev": 1915.96,
-    "tn_carr": 1178.51
+    "carr": 29,
+    "falta": 17,
+    "tn_prev": 1878.1,
+    "tn_carr": 1225.65
   },
   "por_cliente": [
     {
@@ -20,10 +20,10 @@
     },
     {
       "cliente": "INTERCEMENT IJACI",
-      "prog": 7,
+      "prog": 6,
       "carr": 1,
-      "falta": 6,
-      "tn_prev": 311.69,
+      "falta": 5,
+      "tn_prev": 264.69,
       "tn_carr": 47.69
     },
     {
@@ -77,10 +77,18 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.14,
+      "tn_carr": 47.14
+    },
+    {
+      "cliente": "CSN CANTAGALO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 83.95,
+      "tn_carr": 73.95
     },
     {
       "cliente": "BELOCAL (ARC)",
@@ -99,14 +107,6 @@
       "tn_carr": 75.57
     },
     {
-      "cliente": "CSN CANTAGALO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 73.95,
-      "tn_carr": 73.95
-    },
-    {
       "cliente": "DESCARGA",
       "prog": 1,
       "carr": 0,
@@ -121,7 +121,7 @@
       "prog": 27,
       "carr": 15,
       "falta": 12,
-      "tn_prev": 1160.54,
+      "tn_prev": 1123.54,
       "tn_carr": 656.54
     },
     {
@@ -151,10 +151,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.14,
+      "tn_carr": 47.14
     },
     {
       "produto": "COQUE",
@@ -191,10 +191,10 @@
       "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
-      "prog": 7,
+      "prog": 6,
       "carr": 1,
-      "falta": 6,
-      "tn_prev": 311.69,
+      "falta": 5,
+      "tn_prev": 264.69,
       "tn_carr": 47.69,
       "transportadoras": [
         {
@@ -209,10 +209,10 @@
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
-          "prog": 5,
+          "prog": 4,
           "carr": 1,
-          "falta": 4,
-          "tn_prev": 215.69,
+          "falta": 3,
+          "tn_prev": 168.69,
           "tn_carr": 47.69
         }
       ]
@@ -393,19 +393,49 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.14,
+      "tn_carr": 47.14,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.14,
+          "tn_carr": 47.14
+        }
+      ]
+    },
+    {
+      "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN CANTAGALO",
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 83.95,
+      "tn_carr": 73.95,
+      "transportadoras": [
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.05,
+          "tn_carr": 36.05
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 47.9,
+          "tn_carr": 37.9
         }
       ]
     },
@@ -448,36 +478,6 @@
           "falta": 0,
           "tn_prev": 75.57,
           "tn_carr": 75.57
-        }
-      ]
-    },
-    {
-      "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN CANTAGALO",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 73.95,
-      "tn_carr": 73.95,
-      "transportadoras": [
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 36.05,
-          "tn_carr": 36.05
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 37.9,
-          "tn_carr": 37.9
         }
       ]
     },
