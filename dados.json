@@ -1,21 +1,21 @@
 {
   "data_relatorio": "27/09/2026",
-  "gerado_em": "2026-09-27T07:00:07",
-  "atualizado_em": "2026-09-27T10:05:23",
+  "gerado_em": "2026-09-27T08:00:14",
+  "atualizado_em": "2026-09-27T11:05:26",
   "totais": {
-    "prog": 34,
+    "prog": 39,
     "carr": 0,
-    "falta": 34,
-    "tn_prev": 1336.97,
+    "falta": 39,
+    "tn_prev": 1521.97,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT IJACI",
-      "prog": 5,
+      "prog": 8,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 227.0,
+      "falta": 8,
+      "tn_prev": 338.0,
       "tn_carr": 0.0
     },
     {
@@ -32,6 +32,14 @@
       "carr": 0,
       "falta": 4,
       "tn_prev": 164.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN VOLTA REDONDA",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 129.0,
       "tn_carr": 0.0
     },
     {
@@ -75,14 +83,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN VOLTA REDONDA",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 91.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN CANTAGALO",
       "prog": 2,
       "carr": 0,
@@ -105,15 +105,23 @@
       "falta": 1,
       "tn_prev": 38.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "DESCARGA",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 36.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 19,
+      "prog": 23,
       "carr": 0,
-      "falta": 19,
-      "tn_prev": 749.0,
+      "falta": 23,
+      "tn_prev": 898.0,
       "tn_carr": 0.0
     },
     {
@@ -147,6 +155,14 @@
       "falta": 2,
       "tn_prev": 67.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "COQUE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 36.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -154,10 +170,10 @@
       "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
-      "prog": 5,
+      "prog": 8,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 227.0,
+      "falta": 8,
+      "tn_prev": 338.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -172,10 +188,10 @@
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
-          "prog": 3,
+          "prog": 6,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 131.0,
+          "falta": 6,
+          "tn_prev": 242.0,
           "tn_carr": 0.0
         }
       ]
@@ -227,6 +243,45 @@
           "carr": 0,
           "falta": 4,
           "tn_prev": 164.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN VOLTA REDONDA - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN VOLTA REDONDA",
+      "produto": "GESSO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 129.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 55.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EK TRANSPORTES (RJ)",
+          "cnpj": "05399163000617",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
           "tn_carr": 0.0
         }
       ]
@@ -337,45 +392,6 @@
       ]
     },
     {
-      "lote": "CSN VOLTA REDONDA - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN VOLTA REDONDA",
-      "produto": "GESSO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 91.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 17.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EK TRANSPORTES (RJ)",
-          "cnpj": "05399163000617",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN CANTAGALO",
       "produto": "GESSO",
@@ -443,6 +459,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "DESCARGA - COQUE METALURGICO - CSN V. RED",
+      "cliente": "DESCARGA",
+      "produto": "COQUE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 36.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXPRESSO ROTA LIVRE LTDA - RJ-Filial",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
           "tn_carr": 0.0
         }
       ]
