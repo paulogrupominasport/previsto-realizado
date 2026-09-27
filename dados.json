@@ -1,30 +1,30 @@
 {
   "data_relatorio": "27/09/2026",
-  "gerado_em": "2026-09-27T12:00:13",
-  "atualizado_em": "2026-09-27T15:05:26",
+  "gerado_em": "2026-09-27T13:00:05",
+  "atualizado_em": "2026-09-27T16:05:25",
   "totais": {
-    "prog": 49,
-    "carr": 25,
-    "falta": 24,
-    "tn_prev": 2042.07,
-    "tn_carr": 1046.62
+    "prog": 46,
+    "carr": 28,
+    "falta": 18,
+    "tn_prev": 1915.96,
+    "tn_carr": 1178.51
   },
   "por_cliente": [
     {
-      "cliente": "INTERCEMENT IJACI",
-      "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 385.69,
-      "tn_carr": 47.69
-    },
-    {
       "cliente": "CSN BARROSO",
       "prog": 8,
-      "carr": 4,
-      "falta": 4,
-      "tn_prev": 384.45,
-      "tn_carr": 192.45
+      "carr": 6,
+      "falta": 2,
+      "tn_prev": 383.07,
+      "tn_carr": 287.07
+    },
+    {
+      "cliente": "INTERCEMENT IJACI",
+      "prog": 7,
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 311.69,
+      "tn_carr": 47.69
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -48,14 +48,6 @@
       "carr": 2,
       "falta": 2,
       "tn_prev": 149.57,
-      "tn_carr": 75.57
-    },
-    {
-      "cliente": "CSN SOROCABA",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 125.57,
       "tn_carr": 75.57
     },
     {
@@ -93,10 +85,18 @@
     {
       "cliente": "BELOCAL (ARC)",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 76.77,
-      "tn_carr": 38.77
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 76.04,
+      "tn_carr": 76.04
+    },
+    {
+      "cliente": "CSN SOROCABA",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 75.57,
+      "tn_carr": 75.57
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -118,19 +118,19 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 30,
-      "carr": 13,
-      "falta": 17,
-      "tn_prev": 1285.92,
-      "tn_carr": 561.92
+      "prog": 27,
+      "carr": 15,
+      "falta": 12,
+      "tn_prev": 1160.54,
+      "tn_carr": 656.54
     },
     {
       "produto": "CARVÃO",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 294.34,
-      "tn_carr": 256.34
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 293.61,
+      "tn_carr": 293.61
     },
     {
       "produto": "Trindade",
@@ -167,13 +167,34 @@
   ],
   "lotes": [
     {
+      "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN BARROSO",
+      "produto": "GESSO",
+      "prog": 8,
+      "carr": 6,
+      "falta": 2,
+      "tn_prev": 383.07,
+      "tn_carr": 287.07,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 8,
+          "carr": 6,
+          "falta": 2,
+          "tn_prev": 383.07,
+          "tn_carr": 287.07
+        }
+      ]
+    },
+    {
       "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
-      "prog": 9,
+      "prog": 7,
       "carr": 1,
-      "falta": 8,
-      "tn_prev": 385.69,
+      "falta": 6,
+      "tn_prev": 311.69,
       "tn_carr": 47.69,
       "transportadoras": [
         {
@@ -188,32 +209,11 @@
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
-          "prog": 7,
+          "prog": 5,
           "carr": 1,
-          "falta": 6,
-          "tn_prev": 289.69,
-          "tn_carr": 47.69
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN BARROSO",
-      "produto": "GESSO",
-      "prog": 8,
-      "carr": 4,
-      "falta": 4,
-      "tn_prev": 384.45,
-      "tn_carr": 192.45,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 8,
-          "carr": 4,
           "falta": 4,
-          "tn_prev": 384.45,
-          "tn_carr": 192.45
+          "tn_prev": 215.69,
+          "tn_carr": 47.69
         }
       ]
     },
@@ -317,27 +317,6 @@
       ]
     },
     {
-      "lote": "CSN SOROCABA - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN SOROCABA",
-      "produto": "GESSO",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 125.57,
-      "tn_carr": 75.57,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 125.57,
-          "tn_carr": 75.57
-        }
-      ]
-    },
-    {
       "lote": "BELOCAL (SJLP) - CARVÃO LILA MUNDRA- PILHA 47",
       "cliente": "BELOCAL (SJLP)",
       "produto": "CARVÃO",
@@ -435,19 +414,40 @@
       "cliente": "BELOCAL (ARC)",
       "produto": "CARVÃO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 76.77,
-      "tn_carr": 38.77,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 76.04,
+      "tn_carr": 76.04,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 76.77,
-          "tn_carr": 38.77
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 76.04,
+          "tn_carr": 76.04
+        }
+      ]
+    },
+    {
+      "lote": "CSN SOROCABA - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN SOROCABA",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 75.57,
+      "tn_carr": 75.57,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 75.57,
+          "tn_carr": 75.57
         }
       ]
     },
