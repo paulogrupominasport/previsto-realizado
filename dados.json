@@ -1,13 +1,13 @@
 {
   "data_relatorio": "27/09/2026",
-  "gerado_em": "2026-09-27T16:00:13",
-  "atualizado_em": "2026-09-27T19:05:24",
+  "gerado_em": "2026-09-27T17:00:18",
+  "atualizado_em": "2026-09-27T20:05:27",
   "totais": {
     "prog": 50,
-    "carr": 40,
-    "falta": 10,
-    "tn_prev": 2077.14,
-    "tn_carr": 1708.14
+    "carr": 42,
+    "falta": 8,
+    "tn_prev": 2102.18,
+    "tn_carr": 1781.18
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "INTERCEMENT IJACI",
       "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 393.79,
-      "tn_carr": 308.79
+      "carr": 8,
+      "falta": 1,
+      "tn_prev": 395.48,
+      "tn_carr": 348.48
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -67,6 +67,14 @@
       "tn_carr": 84.08
     },
     {
+      "cliente": "CSN CANTAGALO",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 107.3,
+      "tn_carr": 107.3
+    },
+    {
       "cliente": "BELOCAL (MTZ)",
       "prog": 2,
       "carr": 2,
@@ -81,14 +89,6 @@
       "falta": 0,
       "tn_prev": 94.24,
       "tn_carr": 94.24
-    },
-    {
-      "cliente": "CSN CANTAGALO",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 83.95,
-      "tn_carr": 73.95
     },
     {
       "cliente": "BELOCAL (ARC)",
@@ -119,10 +119,10 @@
     {
       "produto": "GESSO",
       "prog": 31,
-      "carr": 23,
-      "falta": 8,
-      "tn_prev": 1306.01,
-      "tn_carr": 1006.01
+      "carr": 25,
+      "falta": 6,
+      "tn_prev": 1331.05,
+      "tn_carr": 1079.05
     },
     {
       "produto": "CARVÃO",
@@ -192,10 +192,10 @@
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
       "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 393.79,
-      "tn_carr": 308.79,
+      "carr": 8,
+      "falta": 1,
+      "tn_prev": 395.48,
+      "tn_carr": 348.48,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
@@ -210,10 +210,10 @@
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 7,
-          "carr": 5,
-          "falta": 2,
-          "tn_prev": 297.57,
-          "tn_carr": 212.57
+          "carr": 6,
+          "falta": 1,
+          "tn_prev": 299.26,
+          "tn_carr": 252.26
         }
       ]
     },
@@ -368,6 +368,36 @@
       ]
     },
     {
+      "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN CANTAGALO",
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 107.3,
+      "tn_carr": 107.3,
+      "transportadoras": [
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.05,
+          "tn_carr": 36.05
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 71.25,
+          "tn_carr": 71.25
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
       "cliente": "BELOCAL (MTZ)",
       "produto": "CARVÃO",
@@ -406,36 +436,6 @@
           "falta": 0,
           "tn_prev": 94.243,
           "tn_carr": 94.243
-        }
-      ]
-    },
-    {
-      "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN CANTAGALO",
-      "produto": "GESSO",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 83.95,
-      "tn_carr": 73.95,
-      "transportadoras": [
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 36.05,
-          "tn_carr": 36.05
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 47.9,
-          "tn_carr": 37.9
         }
       ]
     },
