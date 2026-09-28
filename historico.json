@@ -9063,20 +9063,26 @@
     }
   },
   "2026-09-28": {
-    "gerado_em": "2026-09-28T07:00:07",
-    "atualizado_em": "2026-09-28T10:05:26",
+    "gerado_em": "2026-09-28T08:00:14",
+    "atualizado_em": "2026-09-28T11:05:24",
     "totais": {
-      "prog": 44,
-      "carr": 0,
-      "falta": 44,
-      "tn_prev": 1496.0,
-      "tn_carr": 0.0
+      "prog": 54,
+      "carr": 5,
+      "falta": 49,
+      "tn_prev": 1847.0,
+      "tn_carr": 174.92
     },
     "por_cliente": {
       "BRASKEM": {
         "prog": 12,
-        "carr": 0,
+        "carr": 5,
         "tn_prev": 391.0,
+        "tn_carr": 174.92
+      },
+      "ITAMBÉ": {
+        "prog": 6,
+        "carr": 0,
+        "tn_prev": 228.0,
         "tn_carr": 0.0
       },
       "NASSAU": {
@@ -9089,6 +9095,12 @@
         "prog": 5,
         "carr": 0,
         "tn_prev": 186.0,
+        "tn_carr": 0.0
+      },
+      "SUPREMO": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 151.0,
         "tn_carr": 0.0
       },
       "TRINDADE MINERAÇÃO": {
@@ -9109,6 +9121,12 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
+      "CSN CANTAGALO": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 80.0,
+        "tn_carr": 0.0
+      },
       "CSN VOLTA REDONDA": {
         "prog": 2,
         "carr": 0,
@@ -9127,22 +9145,10 @@
         "tn_prev": 72.0,
         "tn_carr": 0.0
       },
-      "CSN CANTAGALO": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 70.0,
-        "tn_carr": 0.0
-      },
       "BELOCAL (ARC)": {
         "prog": 1,
         "carr": 0,
         "tn_prev": 48.0,
-        "tn_carr": 0.0
-      },
-      "SUPREMO": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 38.0,
         "tn_carr": 0.0
       },
       "INTERCEMENT IJACI": {
@@ -9154,21 +9160,33 @@
     },
     "por_produto": {
       "GESSO": {
-        "prog": 18,
+        "prog": 19,
         "carr": 0,
-        "tn_prev": 549.0,
+        "tn_prev": 559.0,
         "tn_carr": 0.0
       },
       "TÉRMICO": {
         "prog": 12,
-        "carr": 0,
+        "carr": 5,
         "tn_prev": 391.0,
+        "tn_carr": 174.92
+      },
+      "PETCOKE": {
+        "prog": 6,
+        "carr": 0,
+        "tn_prev": 228.0,
         "tn_carr": 0.0
       },
       "Antracito": {
         "prog": 5,
         "carr": 0,
         "tn_prev": 186.0,
+        "tn_carr": 0.0
+      },
+      "Rivertec": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 151.0,
         "tn_carr": 0.0
       },
       "CARVÃO": {
@@ -9187,12 +9205,6 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
-        "tn_carr": 0.0
-      },
-      "Rivertec": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 38.0,
         "tn_carr": 0.0
       }
     }
