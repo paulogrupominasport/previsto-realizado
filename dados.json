@@ -1,13 +1,13 @@
 {
   "data_relatorio": "28/09/2026",
-  "gerado_em": "2026-09-28T14:00:13",
-  "atualizado_em": "2026-09-28T17:05:38",
+  "gerado_em": "2026-09-28T14:26:58",
+  "atualizado_em": "2026-09-28T17:30:38",
   "totais": {
-    "prog": 114,
-    "carr": 39,
-    "falta": 75,
-    "tn_prev": 4214.29,
-    "tn_carr": 1517.9
+    "prog": 115,
+    "carr": 44,
+    "falta": 71,
+    "tn_prev": 4256.27,
+    "tn_carr": 1720.88
   },
   "por_cliente": [
     {
@@ -21,10 +21,18 @@
     {
       "cliente": "CSN PEDRO LEOPOLDO",
       "prog": 12,
-      "carr": 8,
-      "falta": 4,
-      "tn_prev": 529.7,
-      "tn_carr": 363.7
+      "carr": 9,
+      "falta": 3,
+      "tn_prev": 530.2,
+      "tn_carr": 412.2
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 11,
+      "carr": 1,
+      "falta": 10,
+      "tn_prev": 418.05,
+      "tn_carr": 38.05
     },
     {
       "cliente": "BRASKEM",
@@ -35,20 +43,12 @@
       "tn_carr": 393.61
     },
     {
-      "cliente": "ITAMBÉ",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 380.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "SUPREMO",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 375.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 374.85,
+      "tn_carr": 37.85
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -69,10 +69,10 @@
     {
       "cliente": "LS METAIS",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 220.8,
-      "tn_carr": 182.8
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 221.42,
+      "tn_carr": 221.42
     },
     {
       "cliente": "CSN BARROSO",
@@ -101,10 +101,10 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 115.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 115.96,
+      "tn_carr": 39.96
     },
     {
       "cliente": "BELOCAL (SJLP)",
@@ -119,7 +119,7 @@
       "prog": 3,
       "carr": 0,
       "falta": 3,
-      "tn_prev": 109.0,
+      "tn_prev": 111.0,
       "tn_carr": 0.0
     },
     {
@@ -167,10 +167,10 @@
     {
       "produto": "GESSO",
       "prog": 45,
-      "carr": 20,
-      "falta": 25,
-      "tn_prev": 1608.54,
-      "tn_carr": 816.54
+      "carr": 22,
+      "falta": 23,
+      "tn_prev": 1612.0,
+      "tn_carr": 905.0
     },
     {
       "produto": "Sinter Feed",
@@ -182,11 +182,11 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 15,
-      "carr": 0,
+      "prog": 16,
+      "carr": 1,
       "falta": 15,
-      "tn_prev": 608.0,
-      "tn_carr": 0.0
+      "tn_prev": 646.05,
+      "tn_carr": 38.05
     },
     {
       "produto": "TÉRMICO",
@@ -199,18 +199,18 @@
     {
       "produto": "Rivertec",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 375.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 374.85,
+      "tn_carr": 37.85
     },
     {
       "produto": "Antracito",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 220.8,
-      "tn_carr": 182.8
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 221.42,
+      "tn_carr": 221.42
     },
     {
       "produto": "CARVÃO",
@@ -273,19 +273,19 @@
       "cliente": "CSN PEDRO LEOPOLDO",
       "produto": "GESSO",
       "prog": 12,
-      "carr": 8,
-      "falta": 4,
-      "tn_prev": 529.7,
-      "tn_carr": 363.7,
+      "carr": 9,
+      "falta": 3,
+      "tn_prev": 530.2,
+      "tn_carr": 412.2,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 12,
-          "carr": 8,
-          "falta": 4,
-          "tn_prev": 529.7,
-          "tn_carr": 363.7
+          "carr": 9,
+          "falta": 3,
+          "tn_prev": 530.2,
+          "tn_carr": 412.2
         }
       ]
     },
@@ -293,11 +293,11 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 10,
-      "carr": 0,
+      "prog": 11,
+      "carr": 1,
       "falta": 10,
-      "tn_prev": 380.0,
-      "tn_carr": 0.0,
+      "tn_prev": 418.05,
+      "tn_carr": 38.05,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -320,11 +320,11 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 6,
-          "carr": 0,
+          "prog": 7,
+          "carr": 1,
           "falta": 6,
-          "tn_prev": 228.0,
-          "tn_carr": 0.0
+          "tn_prev": 266.05,
+          "tn_carr": 38.05
         }
       ]
     },
@@ -333,19 +333,19 @@
       "cliente": "SUPREMO",
       "produto": "Rivertec",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 375.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 374.85,
+      "tn_carr": 37.85,
       "transportadoras": [
         {
           "nome": "PARAISO TRANSP. DE FERTILIZANTES",
           "cnpj": "15058185000162",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 152.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 151.85,
+          "tn_carr": 37.85
         },
         {
           "nome": "PAGANI (SC)",
@@ -471,19 +471,19 @@
       "cliente": "LS METAIS",
       "produto": "Antracito",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 220.8,
-      "tn_carr": 182.8,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 221.42,
+      "tn_carr": 221.42,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.62,
+          "tn_carr": 38.62
         },
         {
           "nome": "LENARGE (RJ)",
@@ -603,19 +603,19 @@
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 115.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 115.96,
+      "tn_carr": 39.96,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES (RJ)",
           "cnpj": "13349563000301",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 115.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 115.96,
+          "tn_carr": 39.96
         }
       ]
     },
@@ -647,7 +647,7 @@
       "prog": 3,
       "carr": 0,
       "falta": 3,
-      "tn_prev": 109.0,
+      "tn_prev": 111.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -656,7 +656,7 @@
           "prog": 3,
           "carr": 0,
           "falta": 3,
-          "tn_prev": 109.0,
+          "tn_prev": 111.0,
           "tn_carr": 0.0
         }
       ]
