@@ -1,13 +1,13 @@
 {
   "data_relatorio": "28/09/2026",
-  "gerado_em": "2026-09-28T13:00:19",
-  "atualizado_em": "2026-09-28T16:05:25",
+  "gerado_em": "2026-09-28T14:00:13",
+  "atualizado_em": "2026-09-28T17:05:38",
   "totais": {
-    "prog": 109,
-    "carr": 37,
-    "falta": 72,
-    "tn_prev": 4056.93,
-    "tn_carr": 1447.74
+    "prog": 114,
+    "carr": 39,
+    "falta": 75,
+    "tn_prev": 4214.29,
+    "tn_carr": 1517.9
   },
   "por_cliente": [
     {
@@ -27,20 +27,20 @@
       "tn_carr": 363.7
     },
     {
-      "cliente": "ITAMBÉ",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 418.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "BRASKEM",
       "prog": 12,
-      "carr": 10,
-      "falta": 2,
+      "carr": 11,
+      "falta": 1,
       "tn_prev": 395.0,
-      "tn_carr": 359.81
+      "tn_carr": 393.61
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 10,
+      "carr": 0,
+      "falta": 10,
+      "tn_prev": 380.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "SUPREMO",
@@ -48,6 +48,22 @@
       "carr": 0,
       "falta": 10,
       "tn_prev": 375.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN CANTAGALO",
+      "prog": 9,
+      "carr": 4,
+      "falta": 5,
+      "tn_prev": 249.85,
+      "tn_carr": 143.85
+    },
+    {
+      "cliente": "CSN (ARCOS)",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 228.0,
       "tn_carr": 0.0
     },
     {
@@ -59,22 +75,6 @@
       "tn_carr": 182.8
     },
     {
-      "cliente": "CSN CANTAGALO",
-      "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 203.85,
-      "tn_carr": 143.85
-    },
-    {
-      "cliente": "NASSAU",
-      "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 200.97,
-      "tn_carr": 71.97
-    },
-    {
       "cliente": "CSN BARROSO",
       "prog": 5,
       "carr": 3,
@@ -83,12 +83,12 @@
       "tn_carr": 113.88
     },
     {
-      "cliente": "CSN (ARCOS)",
-      "prog": 3,
-      "carr": 0,
+      "cliente": "NASSAU",
+      "prog": 5,
+      "carr": 2,
       "falta": 3,
-      "tn_prev": 132.0,
-      "tn_carr": 0.0
+      "tn_prev": 168.97,
+      "tn_carr": 71.97
     },
     {
       "cliente": "CSN SOROCABA",
@@ -107,6 +107,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "BELOCAL (SJLP)",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 112.88,
+      "tn_carr": 75.88
+    },
+    {
       "cliente": "INTERCEMENT APIAÍ",
       "prog": 3,
       "carr": 0,
@@ -123,12 +131,12 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BELOCAL (SJLP)",
+      "cliente": "CSN VOLTA REDONDA",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 75.88,
-      "tn_carr": 75.88
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 86.36,
+      "tn_carr": 36.36
     },
     {
       "cliente": "BELOCAL (ARC)",
@@ -137,14 +145,6 @@
       "falta": 0,
       "tn_prev": 49.07,
       "tn_carr": 49.07
-    },
-    {
-      "cliente": "CSN VOLTA REDONDA",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
     },
     {
       "cliente": "INTERCEMENT IJACI",
@@ -166,11 +166,11 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 42,
-      "carr": 19,
-      "falta": 23,
-      "tn_prev": 1546.18,
-      "tn_carr": 780.18
+      "prog": 45,
+      "carr": 20,
+      "falta": 25,
+      "tn_prev": 1608.54,
+      "tn_carr": 816.54
     },
     {
       "produto": "Sinter Feed",
@@ -182,19 +182,19 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 14,
+      "prog": 15,
       "carr": 0,
-      "falta": 14,
-      "tn_prev": 550.0,
+      "falta": 15,
+      "tn_prev": 608.0,
       "tn_carr": 0.0
     },
     {
       "produto": "TÉRMICO",
       "prog": 12,
-      "carr": 10,
-      "falta": 2,
+      "carr": 11,
+      "falta": 1,
       "tn_prev": 395.0,
-      "tn_carr": 359.81
+      "tn_carr": 393.61
     },
     {
       "produto": "Rivertec",
@@ -214,10 +214,10 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 3,
+      "prog": 4,
       "carr": 3,
-      "falta": 0,
-      "tn_prev": 124.95,
+      "falta": 1,
+      "tn_prev": 161.95,
       "tn_carr": 124.95
     },
     {
@@ -293,10 +293,10 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 11,
+      "prog": 10,
       "carr": 0,
-      "falta": 11,
-      "tn_prev": 418.0,
+      "falta": 10,
+      "tn_prev": 380.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -320,10 +320,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 7,
+          "prog": 6,
           "carr": 0,
-          "falta": 7,
-          "tn_prev": 266.0,
+          "falta": 6,
+          "tn_prev": 228.0,
           "tn_carr": 0.0
         }
       ]
@@ -416,6 +416,57 @@
       ]
     },
     {
+      "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN CANTAGALO",
+      "produto": "GESSO",
+      "prog": 9,
+      "carr": 4,
+      "falta": 5,
+      "tn_prev": 249.85,
+      "tn_carr": 143.85,
+      "transportadoras": [
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 28.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 8,
+          "carr": 4,
+          "falta": 4,
+          "tn_prev": 221.85,
+          "tn_carr": 143.85
+        }
+      ]
+    },
+    {
+      "lote": "CSN (ARCOS) - PETCOKE - RIVERTEC - PILHA 21",
+      "cliente": "CSN (ARCOS)",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 228.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "CANEVER (SC)",
+          "cnpj": "42029409000180",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 228.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
       "cliente": "LS METAIS",
       "produto": "Antracito",
@@ -442,57 +493,6 @@
           "falta": 0,
           "tn_prev": 182.8,
           "tn_carr": 182.8
-        }
-      ]
-    },
-    {
-      "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN CANTAGALO",
-      "produto": "GESSO",
-      "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 203.85,
-      "tn_carr": 143.85,
-      "transportadoras": [
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 28.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 5,
-          "carr": 4,
-          "falta": 1,
-          "tn_prev": 175.85,
-          "tn_carr": 143.85
-        }
-      ]
-    },
-    {
-      "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "NASSAU",
-      "produto": "GESSO",
-      "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 200.97,
-      "tn_carr": 71.97,
-      "transportadoras": [
-        {
-          "nome": "RANGEL (RJ)",
-          "cnpj": "47836361000136",
-          "prog": 6,
-          "carr": 2,
-          "falta": 4,
-          "tn_prev": 200.97,
-          "tn_carr": 71.97
         }
       ]
     },
@@ -527,14 +527,35 @@
       ]
     },
     {
+      "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "NASSAU",
+      "produto": "GESSO",
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 168.97,
+      "tn_carr": 71.97,
+      "transportadoras": [
+        {
+          "nome": "RANGEL (RJ)",
+          "cnpj": "47836361000136",
+          "prog": 5,
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 168.97,
+          "tn_carr": 71.97
+        }
+      ]
+    },
+    {
       "lote": "BRASKEM - TÉRMICO PACIFIC TALENT - PILHA 91",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
+      "carr": 4,
+      "falta": 0,
       "tn_prev": 135.0,
-      "tn_carr": 104.01,
+      "tn_carr": 137.81,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -549,31 +570,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 36.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN (ARCOS) - PETCOKE - RIVERTEC - PILHA 21",
-      "cliente": "CSN (ARCOS)",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 132.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "CANEVER (SC)",
-          "cnpj": "42029409000180",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 132.0,
-          "tn_carr": 0.0
+          "tn_carr": 33.8
         }
       ]
     },
@@ -620,6 +620,27 @@
       ]
     },
     {
+      "lote": "BELOCAL (SJLP) - CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "BELOCAL (SJLP)",
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 112.88,
+      "tn_carr": 75.88,
+      "transportadoras": [
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 112.88,
+          "tn_carr": 75.88
+        }
+      ]
+    },
+    {
       "lote": "INTERCEMENT APIAÍ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "GESSO",
@@ -662,23 +683,23 @@
       ]
     },
     {
-      "lote": "BELOCAL (SJLP) - CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "BELOCAL (SJLP)",
-      "produto": "CARVÃO",
+      "lote": "CSN VOLTA REDONDA - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN VOLTA REDONDA",
+      "produto": "GESSO",
       "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 75.88,
-      "tn_carr": 75.88,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 86.36,
+      "tn_carr": 36.36,
       "transportadoras": [
         {
-          "nome": "LENARGE (RJ)",
-          "cnpj": "02870124000315",
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
           "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 75.88,
-          "tn_carr": 75.88
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 86.36,
+          "tn_carr": 36.36
         }
       ]
     },
@@ -700,27 +721,6 @@
           "falta": 0,
           "tn_prev": 49.07,
           "tn_carr": 49.07
-        }
-      ]
-    },
-    {
-      "lote": "CSN VOLTA REDONDA - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN VOLTA REDONDA",
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
         }
       ]
     },
