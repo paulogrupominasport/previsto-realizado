@@ -1,22 +1,22 @@
 {
   "data_relatorio": "28/09/2026",
-  "gerado_em": "2026-09-28T17:16:16",
-  "atualizado_em": "2026-09-28T20:20:33",
+  "gerado_em": "2026-09-28T18:00:08",
+  "atualizado_em": "2026-09-28T21:05:29",
   "totais": {
-    "prog": 117,
-    "carr": 80,
-    "falta": 37,
-    "tn_prev": 4428.84,
-    "tn_carr": 3056.43
+    "prog": 116,
+    "carr": 86,
+    "falta": 30,
+    "tn_prev": 4397.25,
+    "tn_carr": 3306.84
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 16,
-      "carr": 9,
-      "falta": 7,
-      "tn_prev": 610.9,
-      "tn_carr": 339.9
+      "prog": 15,
+      "carr": 12,
+      "falta": 3,
+      "tn_prev": 577.65,
+      "tn_carr": 454.65
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -29,10 +29,10 @@
     {
       "cliente": "CSN PEDRO LEOPOLDO",
       "prog": 10,
-      "carr": 9,
-      "falta": 1,
-      "tn_prev": 460.2,
-      "tn_carr": 412.2
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 462.38,
+      "tn_carr": 462.38
     },
     {
       "cliente": "SUPREMO",
@@ -117,10 +117,10 @@
     {
       "cliente": "INTERCEMENT APIAÍ",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 110.76,
-      "tn_carr": 72.76
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 111.04,
+      "tn_carr": 111.04
     },
     {
       "cliente": "COQUE METALURGICO",
@@ -133,10 +133,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.09,
-      "tn_carr": 47.09
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.29,
+      "tn_carr": 94.29
     },
     {
       "cliente": "CSN VOLTA REDONDA",
@@ -182,19 +182,19 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 48,
-      "carr": 34,
-      "falta": 14,
-      "tn_prev": 1791.89,
-      "tn_carr": 1322.89
+      "prog": 47,
+      "carr": 38,
+      "falta": 9,
+      "tn_prev": 1760.62,
+      "tn_carr": 1487.62
     },
     {
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 11,
-      "falta": 4,
-      "tn_prev": 605.16,
-      "tn_carr": 424.16
+      "carr": 12,
+      "falta": 3,
+      "tn_prev": 605.64,
+      "tn_carr": 462.64
     },
     {
       "produto": "Sinter Feed",
@@ -247,10 +247,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.09,
-      "tn_carr": 47.09
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.29,
+      "tn_carr": 94.29
     },
     {
       "produto": "Trindade",
@@ -305,10 +305,10 @@
       "cliente": "CSN PEDRO LEOPOLDO",
       "produto": "GESSO",
       "prog": 10,
-      "carr": 9,
-      "falta": 1,
-      "tn_prev": 460.2,
-      "tn_carr": 412.2,
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 462.38,
+      "tn_carr": 462.38,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -323,10 +323,10 @@
           "nome": "AT TRANSPORTES (SC)",
           "cnpj": "14898558000493",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 50.18,
+          "tn_carr": 50.18
         }
       ]
     },
@@ -374,10 +374,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 9,
-      "falta": 1,
-      "tn_prev": 377.9,
-      "tn_carr": 339.9,
+      "carr": 10,
+      "falta": 0,
+      "tn_prev": 378.38,
+      "tn_carr": 378.38,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -401,10 +401,10 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 6,
-          "carr": 5,
-          "falta": 1,
-          "tn_prev": 224.92,
-          "tn_carr": 186.92
+          "carr": 6,
+          "falta": 0,
+          "tn_prev": 225.4,
+          "tn_carr": 225.4
         }
       ]
     },
@@ -487,27 +487,6 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 233.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "H.R. TRANSP. (SC)",
-          "cnpj": "79838694000190",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 233.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN (ARCOS) - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
@@ -555,6 +534,27 @@
           "falta": 0,
           "tn_prev": 182.8,
           "tn_carr": 182.8
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 199.27,
+      "tn_carr": 76.27,
+      "transportadoras": [
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 5,
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 199.27,
+          "tn_carr": 76.27
         }
       ]
     },
@@ -707,19 +707,19 @@
       "cliente": "INTERCEMENT APIAÍ",
       "produto": "GESSO",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 110.76,
-      "tn_carr": 72.76,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 111.04,
+      "tn_carr": 111.04,
       "transportadoras": [
         {
           "nome": "G7 LOG (SC)",
           "cnpj": "14170909000100",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 110.76,
-          "tn_carr": 72.76
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 111.04,
+          "tn_carr": 111.04
         }
       ]
     },
@@ -749,19 +749,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.09,
-      "tn_carr": 47.09,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.29,
+      "tn_carr": 94.29,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 95.09,
-          "tn_carr": 47.09
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.29,
+          "tn_carr": 94.29
         }
       ]
     },
