@@ -1,23 +1,15 @@
 {
   "data_relatorio": "28/09/2026",
-  "gerado_em": "2026-09-28T20:00:06",
-  "atualizado_em": "2026-09-28T23:05:23",
+  "gerado_em": "2026-09-28T21:00:17",
+  "atualizado_em": "2026-09-29T00:05:30",
   "totais": {
     "prog": 116,
     "carr": 92,
     "falta": 24,
-    "tn_prev": 4400.33,
+    "tn_prev": 4323.37,
     "tn_carr": 3565.92
   },
   "por_cliente": [
-    {
-      "cliente": "ITAMBÉ",
-      "prog": 15,
-      "carr": 15,
-      "falta": 0,
-      "tn_prev": 579.25,
-      "tn_carr": 579.25
-    },
     {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 15,
@@ -25,6 +17,14 @@
       "falta": 15,
       "tn_prev": 570.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 15,
+      "carr": 15,
+      "falta": 0,
+      "tn_prev": 540.77,
+      "tn_carr": 579.25
     },
     {
       "cliente": "CSN PEDRO LEOPOLDO",
@@ -35,20 +35,20 @@
       "tn_carr": 462.38
     },
     {
-      "cliente": "SUPREMO",
-      "prog": 11,
-      "carr": 11,
-      "falta": 0,
-      "tn_prev": 415.66,
-      "tn_carr": 415.66
-    },
-    {
       "cliente": "BRASKEM",
       "prog": 12,
       "carr": 12,
       "falta": 0,
       "tn_prev": 395.0,
       "tn_carr": 423.59
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 11,
+      "carr": 11,
+      "falta": 0,
+      "tn_prev": 377.18,
+      "tn_carr": 415.66
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -189,14 +189,6 @@
       "tn_carr": 1612.22
     },
     {
-      "produto": "PETCOKE",
-      "prog": 15,
-      "carr": 14,
-      "falta": 1,
-      "tn_prev": 606.18,
-      "tn_carr": 559.18
-    },
-    {
       "produto": "Sinter Feed",
       "prog": 15,
       "carr": 0,
@@ -205,12 +197,12 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "Rivertec",
-      "prog": 11,
-      "carr": 11,
-      "falta": 0,
-      "tn_prev": 415.66,
-      "tn_carr": 415.66
+      "produto": "PETCOKE",
+      "prog": 15,
+      "carr": 14,
+      "falta": 1,
+      "tn_prev": 567.7,
+      "tn_carr": 559.18
     },
     {
       "produto": "TÉRMICO",
@@ -219,6 +211,14 @@
       "falta": 0,
       "tn_prev": 395.0,
       "tn_carr": 423.59
+    },
+    {
+      "produto": "Rivertec",
+      "prog": 11,
+      "carr": 11,
+      "falta": 0,
+      "tn_prev": 377.18,
+      "tn_carr": 415.66
     },
     {
       "produto": "Antracito",
@@ -337,7 +337,7 @@
       "prog": 11,
       "carr": 11,
       "falta": 0,
-      "tn_prev": 415.66,
+      "tn_prev": 377.18,
       "tn_carr": 415.66,
       "transportadoras": [
         {
@@ -346,7 +346,7 @@
           "prog": 5,
           "carr": 5,
           "falta": 0,
-          "tn_prev": 190.17,
+          "tn_prev": 151.69,
           "tn_carr": 190.17
         },
         {
@@ -376,7 +376,7 @@
       "prog": 10,
       "carr": 10,
       "falta": 0,
-      "tn_prev": 378.38,
+      "tn_prev": 339.9,
       "tn_carr": 378.38,
       "transportadoras": [
         {
@@ -403,7 +403,7 @@
           "prog": 6,
           "carr": 6,
           "falta": 0,
-          "tn_prev": 225.4,
+          "tn_prev": 186.92,
           "tn_carr": 225.4
         }
       ]
