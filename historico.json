@@ -9153,21 +9153,27 @@
     }
   },
   "2026-09-29": {
-    "gerado_em": "2026-09-29T07:00:17",
-    "atualizado_em": "2026-09-29T10:05:46",
+    "gerado_em": "2026-09-29T08:00:11",
+    "atualizado_em": "2026-09-29T11:05:31",
     "totais": {
-      "prog": 93,
-      "carr": 0,
-      "falta": 93,
-      "tn_prev": 3299.56,
-      "tn_carr": 0.0
+      "prog": 123,
+      "carr": 9,
+      "falta": 114,
+      "tn_prev": 4383.06,
+      "tn_carr": 326.55
     },
     "por_cliente": {
       "ITAMBÉ": {
+        "prog": 23,
+        "carr": 3,
+        "tn_prev": 867.42,
+        "tn_carr": 111.42
+      },
+      "TRINDADE MINERAÇÃO": {
         "prog": 20,
-        "carr": 0,
-        "tn_prev": 736.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 760.08,
+        "tn_carr": 76.08
       },
       "CSN PEDRO LEOPOLDO": {
         "prog": 15,
@@ -9175,34 +9181,40 @@
         "tn_prev": 661.0,
         "tn_carr": 0.0
       },
+      "CSN BARROSO": {
+        "prog": 12,
+        "carr": 0,
+        "tn_prev": 434.0,
+        "tn_carr": 0.0
+      },
       "BRASKEM": {
         "prog": 13,
-        "carr": 0,
+        "carr": 4,
         "tn_prev": 389.0,
-        "tn_carr": 0.0
-      },
-      "CSN BARROSO": {
-        "prog": 9,
-        "carr": 0,
-        "tn_prev": 320.0,
-        "tn_carr": 0.0
+        "tn_carr": 139.05
       },
       "CSN CANTAGALO": {
-        "prog": 9,
+        "prog": 10,
         "carr": 0,
-        "tn_prev": 236.0,
-        "tn_carr": 0.0
-      },
-      "TRINDADE MINERAÇÃO": {
-        "prog": 5,
-        "carr": 0,
-        "tn_prev": 190.0,
+        "tn_prev": 246.0,
         "tn_carr": 0.0
       },
       "CSN VOLTA REDONDA": {
         "prog": 4,
         "carr": 0,
         "tn_prev": 162.0,
+        "tn_carr": 0.0
+      },
+      "CSN SOROCABA": {
+        "prog": 5,
+        "carr": 0,
+        "tn_prev": 143.0,
+        "tn_carr": 0.0
+      },
+      "CSN (ARCOS)": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 131.0,
         "tn_carr": 0.0
       },
       "CARBOBRAS": {
@@ -9217,10 +9229,10 @@
         "tn_prev": 102.56,
         "tn_carr": 0.0
       },
-      "CSN SOROCABA": {
+      "COQUE METALURGICO": {
         "prog": 2,
         "carr": 0,
-        "tn_prev": 99.0,
+        "tn_prev": 96.0,
         "tn_carr": 0.0
       },
       "PETRORECONCAVO": {
@@ -9229,16 +9241,10 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "CSN (ARCOS)": {
+      "INTERCEMENT IJACI": {
         "prog": 2,
         "carr": 0,
-        "tn_prev": 84.0,
-        "tn_carr": 0.0
-      },
-      "INTERCEMENT IJACI": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 40.0,
+        "tn_prev": 75.0,
         "tn_carr": 0.0
       },
       "LS METAIS": {
@@ -9252,32 +9258,38 @@
         "carr": 0,
         "tn_prev": 38.0,
         "tn_carr": 0.0
+      },
+      "DESCARGA": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 36.0,
+        "tn_carr": 0.0
       }
     },
     "por_produto": {
       "GESSO": {
-        "prog": 51,
-        "carr": 0,
-        "tn_prev": 1922.0,
-        "tn_carr": 0.0
+        "prog": 61,
+        "carr": 3,
+        "tn_prev": 2218.42,
+        "tn_carr": 111.42
+      },
+      "Sinter Feed": {
+        "prog": 20,
+        "carr": 2,
+        "tn_prev": 760.08,
+        "tn_carr": 76.08
       },
       "PETCOKE": {
-        "prog": 11,
+        "prog": 13,
         "carr": 0,
-        "tn_prev": 416.0,
+        "tn_prev": 501.0,
         "tn_carr": 0.0
       },
       "TÉRMICO": {
         "prog": 13,
-        "carr": 0,
+        "carr": 4,
         "tn_prev": 389.0,
-        "tn_carr": 0.0
-      },
-      "Sinter Feed": {
-        "prog": 5,
-        "carr": 0,
-        "tn_prev": 190.0,
-        "tn_carr": 0.0
+        "tn_carr": 139.05
       },
       "CARVÃO": {
         "prog": 4,
@@ -9291,6 +9303,12 @@
         "tn_prev": 108.0,
         "tn_carr": 0.0
       },
+      "Csn V. Red": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 96.0,
+        "tn_carr": 0.0
+      },
       "PETRÓLEO": {
         "prog": 2,
         "carr": 0,
@@ -9301,6 +9319,12 @@
         "prog": 1,
         "carr": 0,
         "tn_prev": 38.0,
+        "tn_carr": 0.0
+      },
+      "COQUE": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 36.0,
         "tn_carr": 0.0
       }
     }
