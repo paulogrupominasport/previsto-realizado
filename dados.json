@@ -1,22 +1,22 @@
 {
   "data_relatorio": "30/09/2026",
-  "gerado_em": "2026-09-30T18:00:09",
-  "atualizado_em": "2026-09-30T21:05:51",
+  "gerado_em": "2026-09-30T19:00:19",
+  "atualizado_em": "2026-09-30T22:05:26",
   "totais": {
-    "prog": 180,
-    "carr": 145,
-    "falta": 35,
-    "tn_prev": 6664.92,
-    "tn_carr": 5599.41
+    "prog": 178,
+    "carr": 151,
+    "falta": 27,
+    "tn_prev": 6589.51,
+    "tn_carr": 5823.0
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 46,
-      "carr": 35,
-      "falta": 11,
-      "tn_prev": 1720.71,
-      "tn_carr": 1306.71
+      "carr": 39,
+      "falta": 7,
+      "tn_prev": 1721.87,
+      "tn_carr": 1455.87
     },
     {
       "cliente": "CSN BARROSO",
@@ -77,10 +77,10 @@
     {
       "cliente": "LS METAIS",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 197.72,
-      "tn_carr": 196.72
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 246.18,
+      "tn_carr": 246.18
     },
     {
       "cliente": "BELOCAL (SJLP)",
@@ -99,14 +99,6 @@
       "tn_carr": 80.48
     },
     {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 126.24,
-      "tn_carr": 76.24
-    },
-    {
       "cliente": "CARBOBRAS",
       "prog": 6,
       "carr": 0,
@@ -123,12 +115,12 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN VOLTA REDONDA",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 101.21,
+      "tn_carr": 101.21
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -182,11 +174,11 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 109,
-      "carr": 91,
-      "falta": 18,
-      "tn_prev": 4225.67,
-      "tn_carr": 3556.22
+      "prog": 107,
+      "carr": 95,
+      "falta": 12,
+      "tn_prev": 4126.83,
+      "tn_carr": 3705.38
     },
     {
       "produto": "Trindade",
@@ -215,10 +207,10 @@
     {
       "produto": "Antracito",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 197.72,
-      "tn_carr": 196.72
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 246.18,
+      "tn_carr": 246.18
     },
     {
       "produto": "CARVÃO",
@@ -237,14 +229,6 @@
       "tn_carr": 80.48
     },
     {
-      "produto": "Sinter Feed",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 126.24,
-      "tn_carr": 76.24
-    },
-    {
       "produto": "Antracito Phoenician",
       "prog": 6,
       "carr": 0,
@@ -259,6 +243,14 @@
       "falta": 3,
       "tn_prev": 108.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 101.21,
+      "tn_carr": 101.21
     },
     {
       "produto": "PETRÓLEO",
@@ -283,10 +275,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 45,
-      "carr": 35,
-      "falta": 10,
-      "tn_prev": 1682.71,
-      "tn_carr": 1306.71,
+      "carr": 39,
+      "falta": 6,
+      "tn_prev": 1683.87,
+      "tn_carr": 1455.87,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -301,28 +293,28 @@
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 154.11,
-          "tn_carr": 40.11
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 155.57,
+          "tn_carr": 79.57
         },
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 12,
-          "carr": 9,
-          "falta": 3,
-          "tn_prev": 459.41,
-          "tn_carr": 345.41
+          "carr": 10,
+          "falta": 2,
+          "tn_prev": 461.25,
+          "tn_carr": 385.25
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 18,
-          "carr": 16,
-          "falta": 2,
-          "tn_prev": 652.78,
-          "tn_carr": 580.78
+          "carr": 18,
+          "falta": 0,
+          "tn_prev": 650.64,
+          "tn_carr": 650.64
         }
       ]
     },
@@ -570,6 +562,36 @@
       ]
     },
     {
+      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS",
+      "produto": "Antracito",
+      "prog": 6,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 246.18,
+      "tn_carr": 246.18,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 156.52,
+          "tn_carr": 156.52
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 89.66,
+          "tn_carr": 89.66
+        }
+      ]
+    },
+    {
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
@@ -614,36 +636,6 @@
           "falta": 0,
           "tn_prev": 74.0,
           "tn_carr": 76.07
-        }
-      ]
-    },
-    {
-      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
-      "cliente": "LS METAIS",
-      "produto": "Antracito",
-      "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 197.72,
-      "tn_carr": 196.72,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 4,
-          "carr": 4,
-          "falta": 0,
-          "tn_prev": 156.52,
-          "tn_carr": 156.52
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 41.2,
-          "tn_carr": 40.2
         }
       ]
     },
@@ -695,45 +687,6 @@
           "falta": 0,
           "tn_prev": 93.04,
           "tn_carr": 44.23
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 126.24,
-      "tn_carr": 76.24,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (MG)",
-          "cnpj": "26178616000140",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 36.48,
-          "tn_carr": 36.48
-        },
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 39.76,
-          "tn_carr": 39.76
-        },
-        {
-          "nome": "AT TRANSPORTES (SC)",
-          "cnpj": "14898558000493",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
         }
       ]
     },
@@ -819,23 +772,41 @@
       ]
     },
     {
-      "lote": "CSN VOLTA REDONDA - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN VOLTA REDONDA",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 101.21,
+      "tn_carr": 101.21,
       "transportadoras": [
         {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.48,
+          "tn_carr": 36.48
+        },
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.76,
+          "tn_carr": 39.76
+        },
+        {
+          "nome": "AT TRANSPORTES (SC)",
+          "cnpj": "14898558000493",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 24.97,
+          "tn_carr": 24.97
         }
       ]
     },
