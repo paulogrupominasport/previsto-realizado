@@ -1,13 +1,13 @@
 {
   "data_relatorio": "01/10/2026",
-  "gerado_em": "2026-10-01T14:00:16",
-  "atualizado_em": "2026-10-01T17:05:34",
+  "gerado_em": "2026-10-01T15:00:12",
+  "atualizado_em": "2026-10-01T18:05:26",
   "totais": {
-    "prog": 100,
-    "carr": 59,
-    "falta": 41,
-    "tn_prev": 3755.33,
-    "tn_carr": 2366.24
+    "prog": 101,
+    "carr": 68,
+    "falta": 33,
+    "tn_prev": 3789.31,
+    "tn_carr": 2707.01
   },
   "por_cliente": [
     {
@@ -21,34 +21,34 @@
     {
       "cliente": "ITAMBÉ",
       "prog": 23,
-      "carr": 16,
-      "falta": 7,
-      "tn_prev": 842.5,
-      "tn_carr": 592.5
+      "carr": 20,
+      "falta": 3,
+      "tn_prev": 841.24,
+      "tn_carr": 733.24
     },
     {
       "cliente": "BRASKEM",
       "prog": 13,
-      "carr": 11,
-      "falta": 2,
+      "carr": 12,
+      "falta": 1,
       "tn_prev": 393.0,
-      "tn_carr": 366.26
+      "tn_carr": 403.05
     },
     {
       "cliente": "CSN CANTAGALO",
-      "prog": 9,
-      "carr": 2,
-      "falta": 7,
-      "tn_prev": 296.88,
-      "tn_carr": 66.88
+      "prog": 10,
+      "carr": 4,
+      "falta": 6,
+      "tn_prev": 332.33,
+      "tn_carr": 134.33
     },
     {
       "cliente": "CSN (ARCOS)",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 288.88,
-      "tn_carr": 143.88
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 288.86,
+      "tn_carr": 191.86
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -101,10 +101,10 @@
     {
       "cliente": "CSN PEDRO LEOPOLDO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 86.71,
-      "tn_carr": 38.71
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 86.52,
+      "tn_carr": 86.52
     },
     {
       "cliente": "SUPREMO",
@@ -142,27 +142,27 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 57,
-      "carr": 37,
-      "falta": 20,
-      "tn_prev": 2264.08,
-      "tn_carr": 1536.08
+      "prog": 58,
+      "carr": 44,
+      "falta": 14,
+      "tn_prev": 2298.08,
+      "tn_carr": 1792.08
     },
     {
       "produto": "TÉRMICO",
       "prog": 13,
-      "carr": 11,
-      "falta": 2,
+      "carr": 12,
+      "falta": 1,
       "tn_prev": 393.0,
-      "tn_carr": 366.26
+      "tn_carr": 403.05
     },
     {
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 4,
-      "falta": 3,
-      "tn_prev": 325.65,
-      "tn_carr": 180.65
+      "carr": 5,
+      "falta": 2,
+      "tn_prev": 325.63,
+      "tn_carr": 228.63
     },
     {
       "produto": "Trindade",
@@ -266,10 +266,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 22,
-      "carr": 15,
-      "falta": 7,
-      "tn_prev": 805.73,
-      "tn_carr": 555.73,
+      "carr": 19,
+      "falta": 3,
+      "tn_prev": 804.47,
+      "tn_carr": 696.47,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -284,10 +284,10 @@
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 223.59,
-          "tn_carr": 153.59
+          "carr": 6,
+          "falta": 0,
+          "tn_prev": 223.73,
+          "tn_carr": 223.73
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -302,10 +302,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 9,
-          "carr": 4,
-          "falta": 5,
-          "tn_prev": 324.26,
-          "tn_carr": 144.26
+          "carr": 6,
+          "falta": 3,
+          "tn_prev": 322.86,
+          "tn_carr": 214.86
         }
       ]
     },
@@ -313,29 +313,29 @@
       "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN CANTAGALO",
       "produto": "GESSO",
-      "prog": 9,
-      "carr": 2,
-      "falta": 7,
-      "tn_prev": 296.88,
-      "tn_carr": 66.88,
+      "prog": 10,
+      "carr": 4,
+      "falta": 6,
+      "tn_prev": 332.33,
+      "tn_carr": 134.33,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 131.99,
-          "tn_carr": 33.99
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 135.09,
+          "tn_carr": 69.09
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 5,
-          "carr": 1,
+          "prog": 6,
+          "carr": 2,
           "falta": 4,
-          "tn_prev": 164.89,
-          "tn_carr": 32.89
+          "tn_prev": 197.24,
+          "tn_carr": 65.24
         }
       ]
     },
@@ -344,10 +344,10 @@
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 288.88,
-      "tn_carr": 143.88,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 288.86,
+      "tn_carr": 191.86,
       "transportadoras": [
         {
           "nome": "UNIÃO LOG (SC)",
@@ -362,10 +362,10 @@
           "nome": "MR LOG (SC)",
           "cnpj": "58324544000199",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 96.26,
-          "tn_carr": 48.26
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 96.24,
+          "tn_carr": 96.24
         },
         {
           "nome": "CANEVER (SC)",
@@ -383,10 +383,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 8,
-      "falta": 1,
+      "carr": 9,
+      "falta": 0,
       "tn_prev": 258.0,
-      "tn_carr": 270.87,
+      "tn_carr": 307.66,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -419,10 +419,10 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 50.0,
-          "tn_carr": 29.62
+          "tn_carr": 66.41
         }
       ]
     },
@@ -614,10 +614,10 @@
       "cliente": "CSN PEDRO LEOPOLDO",
       "produto": "GESSO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 86.71,
-      "tn_carr": 38.71,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 86.52,
+      "tn_carr": 86.52,
       "transportadoras": [
         {
           "nome": "MRX TRANSP. (RJ)",
@@ -632,10 +632,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.81,
+          "tn_carr": 47.81
         }
       ]
     },
