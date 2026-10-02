@@ -1,38 +1,38 @@
 {
   "data_relatorio": "02/10/2026",
-  "gerado_em": "2026-10-02T15:00:17",
-  "atualizado_em": "2026-10-02T18:05:26",
+  "gerado_em": "2026-10-02T16:00:12",
+  "atualizado_em": "2026-10-02T19:05:25",
   "totais": {
-    "prog": 113,
-    "carr": 78,
-    "falta": 35,
-    "tn_prev": 4106.4,
-    "tn_carr": 2960.31
+    "prog": 120,
+    "carr": 81,
+    "falta": 39,
+    "tn_prev": 4431.24,
+    "tn_carr": 3079.01
   },
   "por_cliente": [
     {
-      "cliente": "ITAMBÉ",
-      "prog": 25,
-      "carr": 19,
-      "falta": 6,
-      "tn_prev": 888.28,
-      "tn_carr": 700.9
+      "cliente": "CSN BARROSO",
+      "prog": 20,
+      "carr": 16,
+      "falta": 4,
+      "tn_prev": 871.05,
+      "tn_carr": 691.05
     },
     {
-      "cliente": "CSN BARROSO",
-      "prog": 19,
-      "carr": 16,
-      "falta": 3,
-      "tn_prev": 823.05,
-      "tn_carr": 691.05
+      "cliente": "ITAMBÉ",
+      "prog": 24,
+      "carr": 20,
+      "falta": 4,
+      "tn_prev": 851.78,
+      "tn_carr": 740.4
     },
     {
       "cliente": "CSN (ARCOS)",
       "prog": 11,
-      "carr": 8,
-      "falta": 3,
-      "tn_prev": 536.94,
-      "tn_carr": 391.94
+      "carr": 9,
+      "falta": 2,
+      "tn_prev": 537.28,
+      "tn_carr": 441.28
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -45,10 +45,18 @@
     {
       "cliente": "BRASKEM",
       "prog": 13,
-      "carr": 11,
-      "falta": 2,
+      "carr": 12,
+      "falta": 1,
       "tn_prev": 306.0,
-      "tn_carr": 372.23
+      "tn_carr": 402.09
+    },
+    {
+      "cliente": "CIM LIZ",
+      "prog": 7,
+      "carr": 0,
+      "falta": 7,
+      "tn_prev": 300.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -59,11 +67,11 @@
       "tn_carr": 188.76
     },
     {
-      "cliente": "CIM LIZ",
+      "cliente": "CIM. LIZ",
       "prog": 4,
       "carr": 0,
       "falta": 4,
-      "tn_prev": 179.0,
+      "tn_prev": 192.0,
       "tn_carr": 0.0
     },
     {
@@ -143,18 +151,18 @@
     {
       "produto": "GESSO",
       "prog": 52,
-      "carr": 40,
-      "falta": 12,
-      "tn_prev": 1979.96,
-      "tn_carr": 1579.58
+      "carr": 41,
+      "falta": 11,
+      "tn_prev": 1991.46,
+      "tn_carr": 1619.08
     },
     {
       "produto": "PETCOKE",
-      "prog": 14,
-      "carr": 10,
-      "falta": 4,
-      "tn_prev": 656.19,
-      "tn_carr": 463.19
+      "prog": 18,
+      "carr": 11,
+      "falta": 7,
+      "tn_prev": 848.53,
+      "tn_carr": 512.53
     },
     {
       "produto": "Sinter Feed",
@@ -167,17 +175,17 @@
     {
       "produto": "TÉRMICO",
       "prog": 13,
-      "carr": 11,
-      "falta": 2,
+      "carr": 12,
+      "falta": 1,
       "tn_prev": 306.0,
-      "tn_carr": 372.23
+      "tn_carr": 402.09
     },
     {
       "produto": "CARVÃO",
-      "prog": 4,
+      "prog": 7,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 179.0,
+      "falta": 7,
+      "tn_prev": 300.0,
       "tn_carr": 0.0
     },
     {
@@ -234,29 +242,29 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 24,
-      "carr": 18,
-      "falta": 6,
-      "tn_prev": 854.66,
-      "tn_carr": 667.28,
+      "prog": 23,
+      "carr": 19,
+      "falta": 4,
+      "tn_prev": 818.16,
+      "tn_carr": 706.78,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 10,
+          "prog": 9,
           "carr": 7,
-          "falta": 3,
-          "tn_prev": 339.82,
+          "falta": 2,
+          "tn_prev": 301.82,
           "tn_carr": 264.44
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 77.5,
+          "tn_carr": 39.5
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -282,10 +290,10 @@
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
-      "prog": 17,
+      "prog": 18,
       "carr": 15,
-      "falta": 2,
-      "tn_prev": 737.42,
+      "falta": 3,
+      "tn_prev": 785.42,
       "tn_carr": 653.42,
       "transportadoras": [
         {
@@ -300,10 +308,10 @@
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
+          "falta": 2,
+          "tn_prev": 84.0,
           "tn_carr": 0.0
         },
         {
@@ -331,19 +339,19 @@
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 8,
-      "falta": 3,
-      "tn_prev": 536.94,
-      "tn_carr": 391.94,
+      "carr": 9,
+      "falta": 2,
+      "tn_prev": 537.28,
+      "tn_carr": 441.28,
       "transportadoras": [
         {
           "nome": "UNIÃO LOG (SC)",
           "cnpj": "20756544000195",
           "prog": 5,
-          "carr": 4,
-          "falta": 1,
-          "tn_prev": 247.72,
-          "tn_carr": 198.72
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 248.06,
+          "tn_carr": 248.06
         },
         {
           "nome": "MR LOG (SC)",
@@ -387,6 +395,27 @@
       ]
     },
     {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 7,
+      "carr": 0,
+      "falta": 7,
+      "tn_prev": 300.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 7,
+          "carr": 0,
+          "falta": 7,
+          "tn_prev": 300.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN CANTAGALO",
       "produto": "GESSO",
@@ -421,19 +450,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
+      "carr": 7,
+      "falta": 1,
       "tn_prev": 222.0,
-      "tn_carr": 195.97,
+      "tn_carr": 225.83,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
           "cnpj": "11720812000128",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 61.0,
-          "tn_carr": 31.28
+          "tn_carr": 61.14
         },
         {
           "nome": "ROTA 101 (SC)",
@@ -465,13 +494,13 @@
       ]
     },
     {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
+      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
       "prog": 4,
       "carr": 0,
       "falta": 4,
-      "tn_prev": 179.0,
+      "tn_prev": 192.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -480,7 +509,7 @@
           "prog": 4,
           "carr": 0,
           "falta": 4,
-          "tn_prev": 179.0,
+          "tn_prev": 192.0,
           "tn_carr": 0.0
         }
       ]
