@@ -9309,27 +9309,27 @@
     }
   },
   "2026-10-02": {
-    "gerado_em": "2026-10-02T09:00:10",
-    "atualizado_em": "2026-10-02T12:05:27",
+    "gerado_em": "2026-10-02T10:00:04",
+    "atualizado_em": "2026-10-02T13:05:25",
     "totais": {
-      "prog": 89,
-      "carr": 22,
-      "falta": 67,
-      "tn_prev": 3334.43,
-      "tn_carr": 823.16
+      "prog": 101,
+      "carr": 36,
+      "falta": 65,
+      "tn_prev": 3670.17,
+      "tn_carr": 1388.31
     },
     "por_cliente": {
+      "ITAMBÉ": {
+        "prog": 22,
+        "carr": 9,
+        "tn_prev": 817.63,
+        "tn_carr": 335.63
+      },
       "CSN BARROSO": {
         "prog": 17,
-        "carr": 6,
-        "tn_prev": 748.75,
-        "tn_carr": 241.75
-      },
-      "ITAMBÉ": {
-        "prog": 20,
-        "carr": 7,
-        "tn_prev": 741.44,
-        "tn_carr": 260.44
+        "carr": 12,
+        "tn_prev": 748.84,
+        "tn_carr": 516.84
       },
       "CSN (ARCOS)": {
         "prog": 10,
@@ -9338,28 +9338,40 @@
         "tn_carr": 0.0
       },
       "TRINDADE MINERAÇÃO": {
-        "prog": 9,
+        "prog": 10,
         "carr": 1,
-        "tn_prev": 343.71,
+        "tn_prev": 381.71,
         "tn_carr": 39.71
       },
       "BRASKEM": {
         "prog": 15,
-        "carr": 5,
+        "carr": 7,
         "tn_prev": 338.0,
-        "tn_carr": 173.0
+        "tn_carr": 230.59
       },
       "CSN CANTAGALO": {
         "prog": 8,
-        "carr": 2,
-        "tn_prev": 298.94,
-        "tn_carr": 69.94
+        "carr": 5,
+        "tn_prev": 282.76,
+        "tn_carr": 188.76
+      },
+      "DESCARGA": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 118.42,
+        "tn_carr": 0.0
       },
       "SUPREMO": {
         "prog": 3,
-        "carr": 1,
-        "tn_prev": 114.32,
-        "tn_carr": 38.32
+        "carr": 2,
+        "tn_prev": 114.78,
+        "tn_carr": 76.78
+      },
+      "CARBOBRAS": {
+        "prog": 6,
+        "carr": 0,
+        "tn_prev": 108.0,
+        "tn_carr": 0.0
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -9373,31 +9385,31 @@
         "tn_prev": 76.03,
         "tn_carr": 0.0
       },
-      "DESCARGA": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 38.24,
-        "tn_carr": 0.0
-      },
       "CSN PEDRO LEOPOLDO": {
         "prog": 1,
         "carr": 0,
         "tn_prev": 38.0,
         "tn_carr": 0.0
       },
-      "CARBOBRAS": {
+      "CSN VOLTA REDONDA": {
         "prog": 1,
         "carr": 0,
-        "tn_prev": 18.0,
+        "tn_prev": 35.0,
+        "tn_carr": 0.0
+      },
+      "NASSAU": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 32.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
       "GESSO": {
-        "prog": 46,
-        "carr": 15,
-        "tn_prev": 1827.13,
-        "tn_carr": 572.13
+        "prog": 50,
+        "carr": 26,
+        "tn_prev": 1954.23,
+        "tn_carr": 1041.23
       },
       "PETCOKE": {
         "prog": 10,
@@ -9406,22 +9418,34 @@
         "tn_carr": 0.0
       },
       "Sinter Feed": {
-        "prog": 9,
+        "prog": 10,
         "carr": 1,
-        "tn_prev": 343.71,
+        "tn_prev": 381.71,
         "tn_carr": 39.71
       },
       "TÉRMICO": {
         "prog": 15,
-        "carr": 5,
+        "carr": 7,
         "tn_prev": 338.0,
-        "tn_carr": 173.0
+        "tn_carr": 230.59
+      },
+      "COQUE": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 118.42,
+        "tn_carr": 0.0
       },
       "Rivertec": {
         "prog": 3,
-        "carr": 1,
-        "tn_prev": 114.32,
-        "tn_carr": 38.32
+        "carr": 2,
+        "tn_prev": 114.78,
+        "tn_carr": 76.78
+      },
+      "Antracito Phoenician": {
+        "prog": 6,
+        "carr": 0,
+        "tn_prev": 108.0,
+        "tn_carr": 0.0
       },
       "PETRÓLEO": {
         "prog": 2,
@@ -9433,18 +9457,6 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 76.03,
-        "tn_carr": 0.0
-      },
-      "COQUE": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 38.24,
-        "tn_carr": 0.0
-      },
-      "Antracito Phoenician": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 18.0,
         "tn_carr": 0.0
       }
     }
