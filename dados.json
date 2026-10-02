@@ -1,21 +1,21 @@
 {
   "data_relatorio": "02/10/2026",
-  "gerado_em": "2026-10-02T07:00:10",
-  "atualizado_em": "2026-10-02T10:05:29",
+  "gerado_em": "2026-10-02T08:00:17",
+  "atualizado_em": "2026-10-02T11:05:25",
   "totais": {
-    "prog": 87,
-    "carr": 0,
-    "falta": 87,
-    "tn_prev": 3449.77,
-    "tn_carr": 0.0
+    "prog": 79,
+    "carr": 1,
+    "falta": 78,
+    "tn_prev": 3078.48,
+    "tn_carr": 39.71
   },
   "por_cliente": [
     {
       "cliente": "CSN BARROSO",
-      "prog": 25,
+      "prog": 17,
       "carr": 0,
-      "falta": 25,
-      "tn_prev": 1136.0,
+      "falta": 17,
+      "tn_prev": 763.0,
       "tn_carr": 0.0
     },
     {
@@ -45,10 +45,10 @@
     {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 342.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 343.71,
+      "tn_carr": 39.71
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -110,10 +110,10 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 46,
+      "prog": 38,
       "carr": 0,
-      "falta": 46,
-      "tn_prev": 1921.5,
+      "falta": 38,
+      "tn_prev": 1548.5,
       "tn_carr": 0.0
     },
     {
@@ -135,10 +135,10 @@
     {
       "produto": "Sinter Feed",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 342.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 343.71,
+      "tn_carr": 39.71
     },
     {
       "produto": "Rivertec",
@@ -186,19 +186,19 @@
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
-      "prog": 25,
+      "prog": 17,
       "carr": 0,
-      "falta": 25,
-      "tn_prev": 1136.0,
+      "falta": 17,
+      "tn_prev": 763.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 23,
+          "prog": 15,
           "carr": 0,
-          "falta": 23,
-          "tn_prev": 1048.0,
+          "falta": 15,
+          "tn_prev": 675.0,
           "tn_carr": 0.0
         },
         {
@@ -304,19 +304,19 @@
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 342.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 343.71,
+      "tn_carr": 39.71,
       "transportadoras": [
         {
           "nome": "MRX TRANSP. (MG)",
           "cnpj": "26586645000141",
           "prog": 9,
-          "carr": 0,
-          "falta": 9,
-          "tn_prev": 342.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 8,
+          "tn_prev": 343.71,
+          "tn_carr": 39.71
         }
       ]
     },
