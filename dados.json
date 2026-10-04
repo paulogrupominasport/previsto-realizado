@@ -1,13 +1,13 @@
 {
   "data_relatorio": "04/10/2026",
-  "gerado_em": "2026-10-04T12:00:07",
-  "atualizado_em": "2026-10-04T15:05:26",
+  "gerado_em": "2026-10-04T13:00:13",
+  "atualizado_em": "2026-10-04T16:05:21",
   "totais": {
     "prog": 18,
-    "carr": 11,
-    "falta": 7,
-    "tn_prev": 858.95,
-    "tn_carr": 526.95
+    "carr": 12,
+    "falta": 6,
+    "tn_prev": 859.8,
+    "tn_carr": 575.8
   },
   "por_cliente": [
     {
@@ -19,20 +19,20 @@
       "tn_carr": 245.41
     },
     {
+      "cliente": "CSN BARROSO",
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 233.51,
+      "tn_carr": 97.51
+    },
+    {
       "cliente": "CIM. LIZ",
       "prog": 5,
       "carr": 5,
       "falta": 0,
       "tn_prev": 232.88,
       "tn_carr": 232.88
-    },
-    {
-      "cliente": "CSN BARROSO",
-      "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 232.66,
-      "tn_carr": 48.66
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -53,20 +53,20 @@
       "tn_carr": 245.41
     },
     {
+      "produto": "GESSO",
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 233.51,
+      "tn_carr": 97.51
+    },
+    {
       "produto": "PETCOKE",
       "prog": 5,
       "carr": 5,
       "falta": 0,
       "tn_prev": 232.88,
       "tn_carr": 232.88
-    },
-    {
-      "produto": "GESSO",
-      "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 232.66,
-      "tn_carr": 48.66
     },
     {
       "produto": "PETRÓLEO",
@@ -100,44 +100,23 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 5,
-      "falta": 0,
-      "tn_prev": 232.88,
-      "tn_carr": 232.88,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 5,
-          "carr": 5,
-          "falta": 0,
-          "tn_prev": 232.88,
-          "tn_carr": 232.88
-        }
-      ]
-    },
-    {
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 232.66,
-      "tn_carr": 48.66,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 233.51,
+      "tn_carr": 97.51,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 144.66,
-          "tn_carr": 48.66
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 145.51,
+          "tn_carr": 97.51
         },
         {
           "nome": "MRX TRANSP. (RJ)",
@@ -156,6 +135,27 @@
           "falta": 1,
           "tn_prev": 50.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 232.88,
+      "tn_carr": 232.88,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 5,
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 232.88,
+          "tn_carr": 232.88
         }
       ]
     },
