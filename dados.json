@@ -1,13 +1,13 @@
 {
   "data_relatorio": "04/10/2026",
-  "gerado_em": "2026-10-04T13:00:13",
-  "atualizado_em": "2026-10-04T16:05:21",
+  "gerado_em": "2026-10-04T14:00:04",
+  "atualizado_em": "2026-10-04T17:05:24",
   "totais": {
     "prog": 18,
-    "carr": 12,
-    "falta": 6,
-    "tn_prev": 859.8,
-    "tn_carr": 575.8
+    "carr": 14,
+    "falta": 4,
+    "tn_prev": 857.74,
+    "tn_carr": 671.74
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "CSN BARROSO",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 233.51,
-      "tn_carr": 97.51
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 234.43,
+      "tn_carr": 146.43
     },
     {
       "cliente": "CIM. LIZ",
@@ -37,10 +37,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.02,
+      "tn_carr": 47.02
     }
   ],
   "por_produto": [
@@ -55,10 +55,10 @@
     {
       "produto": "GESSO",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 233.51,
-      "tn_carr": 97.51
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 234.43,
+      "tn_carr": 146.43
     },
     {
       "produto": "PETCOKE",
@@ -71,10 +71,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.02,
+      "tn_carr": 47.02
     }
   ],
   "lotes": [
@@ -104,19 +104,19 @@
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 233.51,
-      "tn_carr": 97.51,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 234.43,
+      "tn_carr": 146.43,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 145.51,
-          "tn_carr": 97.51
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 146.43,
+          "tn_carr": 146.43
         },
         {
           "nome": "MRX TRANSP. (RJ)",
@@ -164,19 +164,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.02,
+      "tn_carr": 47.02,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.02,
+          "tn_carr": 47.02
         }
       ]
     }
