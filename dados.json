@@ -1,38 +1,30 @@
 {
   "data_relatorio": "05/10/2026",
-  "gerado_em": "2026-10-05T15:00:13",
-  "atualizado_em": "2026-10-05T18:06:02",
+  "gerado_em": "2026-10-05T16:00:06",
+  "atualizado_em": "2026-10-05T19:07:48",
   "totais": {
-    "prog": 78,
-    "carr": 41,
-    "falta": 37,
-    "tn_prev": 2981.23,
-    "tn_carr": 1545.33
+    "prog": 75,
+    "carr": 56,
+    "falta": 19,
+    "tn_prev": 2850.18,
+    "tn_carr": 2120.49
   },
   "por_cliente": [
     {
       "cliente": "CSN BARROSO",
       "prog": 20,
-      "carr": 10,
-      "falta": 10,
-      "tn_prev": 835.03,
-      "tn_carr": 431.03
+      "carr": 18,
+      "falta": 2,
+      "tn_prev": 834.36,
+      "tn_carr": 754.36
     },
     {
       "cliente": "CSN (ARCOS)",
-      "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 436.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN CANTAGALO",
       "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 308.98,
-      "tn_carr": 187.98
+      "carr": 2,
+      "falta": 6,
+      "tn_prev": 391.28,
+      "tn_carr": 100.28
     },
     {
       "cliente": "BRASKEM",
@@ -41,6 +33,14 @@
       "falta": 0,
       "tn_prev": 271.0,
       "tn_carr": 329.0
+    },
+    {
+      "cliente": "CSN CANTAGALO",
+      "prog": 7,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 259.52,
+      "tn_carr": 259.52
     },
     {
       "cliente": "CIM. LIZ",
@@ -77,18 +77,10 @@
     {
       "cliente": "CARBOBRAS",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
+      "carr": 8,
+      "falta": 0,
       "tn_prev": 148.0,
-      "tn_carr": 115.1
-    },
-    {
-      "cliente": "ITAMBÉ",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0
+      "tn_carr": 155.31
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -97,6 +89,14 @@
       "falta": 1,
       "tn_prev": 50.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.8,
+      "tn_carr": 39.8
     },
     {
       "cliente": "NASSAU",
@@ -110,19 +110,19 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 31,
-      "carr": 15,
-      "falta": 16,
-      "tn_prev": 1252.01,
-      "tn_carr": 619.01
+      "prog": 29,
+      "carr": 26,
+      "falta": 3,
+      "tn_prev": 1165.68,
+      "tn_carr": 1053.68
     },
     {
       "produto": "PETCOKE",
-      "prog": 14,
-      "carr": 5,
-      "falta": 9,
-      "tn_prev": 677.69,
-      "tn_carr": 241.69
+      "prog": 13,
+      "carr": 7,
+      "falta": 6,
+      "tn_prev": 632.97,
+      "tn_carr": 341.97
     },
     {
       "produto": "TÉRMICO",
@@ -159,10 +159,10 @@
     {
       "produto": "Antracito Phoenician",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
+      "carr": 8,
+      "falta": 0,
       "tn_prev": 148.0,
-      "tn_carr": 115.1
+      "tn_carr": 155.31
     },
     {
       "produto": "PETRÓLEO",
@@ -179,37 +179,37 @@
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
       "prog": 20,
-      "carr": 10,
-      "falta": 10,
-      "tn_prev": 835.03,
-      "tn_carr": 431.03,
+      "carr": 18,
+      "falta": 2,
+      "tn_prev": 834.36,
+      "tn_carr": 754.36,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 31.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 32.45,
+          "tn_carr": 32.45
         },
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 16,
-          "carr": 10,
-          "falta": 6,
-          "tn_prev": 687.03,
-          "tn_carr": 431.03
+          "carr": 16,
+          "falta": 0,
+          "tn_prev": 683.65,
+          "tn_carr": 683.65
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 67.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 68.26,
+          "tn_carr": 38.26
         },
         {
           "nome": "AT TRANSPORTES (SC)",
@@ -226,29 +226,29 @@
       "lote": "CSN (ARCOS) - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
-      "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 436.0,
-      "tn_carr": 0.0,
+      "prog": 8,
+      "carr": 2,
+      "falta": 6,
+      "tn_prev": 391.28,
+      "tn_carr": 100.28,
       "transportadoras": [
         {
           "nome": "UNIÃO LOG (SC)",
           "cnpj": "20756544000195",
-          "prog": 3,
+          "prog": 2,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 147.0,
+          "falta": 2,
+          "tn_prev": 98.0,
           "tn_carr": 0.0
         },
         {
           "nome": "MR LOG (SC)",
           "cnpj": "58324544000199",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 144.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 148.28,
+          "tn_carr": 100.28
         },
         {
           "nome": "CANEVER (SC)",
@@ -265,29 +265,29 @@
       "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN CANTAGALO",
       "produto": "GESSO",
-      "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 308.98,
-      "tn_carr": 187.98,
+      "prog": 7,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 259.52,
+      "tn_carr": 259.52,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
-          "prog": 2,
+          "prog": 1,
           "carr": 1,
-          "falta": 1,
-          "tn_prev": 66.69,
+          "falta": 0,
+          "tn_prev": 34.69,
           "tn_carr": 34.69
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 242.29,
-          "tn_carr": 153.29
+          "carr": 6,
+          "falta": 0,
+          "tn_prev": 224.83,
+          "tn_carr": 224.83
         }
       ]
     },
@@ -437,19 +437,19 @@
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
+      "carr": 8,
+      "falta": 0,
       "tn_prev": 148.0,
-      "tn_carr": 115.1,
+      "tn_carr": 155.31,
       "transportadoras": [
         {
           "nome": "CARBOBRÁS (SC)",
           "cnpj": "02640179000177",
           "prog": 8,
-          "carr": 6,
-          "falta": 2,
+          "carr": 8,
+          "falta": 0,
           "tn_prev": 148.0,
-          "tn_carr": 115.1
+          "tn_carr": 155.31
         }
       ]
     },
@@ -484,36 +484,6 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "TRANSP. TELLES (SC)",
-          "cnpj": "78266228000115",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "TRANSP. BONTORIN (SC)",
-          "cnpj": "81429755000299",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -531,6 +501,27 @@
           "falta": 1,
           "tn_prev": 50.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.8,
+      "tn_carr": 39.8,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.8,
+          "tn_carr": 39.8
         }
       ]
     },
