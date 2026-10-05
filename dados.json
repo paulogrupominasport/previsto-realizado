@@ -1,22 +1,22 @@
 {
   "data_relatorio": "05/10/2026",
-  "gerado_em": "2026-10-05T11:00:08",
-  "atualizado_em": "2026-10-05T14:05:28",
+  "gerado_em": "2026-10-05T12:00:07",
+  "atualizado_em": "2026-10-05T15:05:22",
   "totais": {
-    "prog": 77,
-    "carr": 28,
-    "falta": 49,
-    "tn_prev": 2985.2,
-    "tn_carr": 1056.36
+    "prog": 79,
+    "carr": 29,
+    "falta": 50,
+    "tn_prev": 3053.43,
+    "tn_carr": 1093.59
   },
   "por_cliente": [
     {
       "cliente": "CSN BARROSO",
-      "prog": 19,
-      "carr": 0,
+      "prog": 20,
+      "carr": 1,
       "falta": 19,
-      "tn_prev": 811.0,
-      "tn_carr": 0.0
+      "tn_prev": 847.23,
+      "tn_carr": 37.23
     },
     {
       "cliente": "CSN (ARCOS)",
@@ -97,16 +97,24 @@
       "falta": 1,
       "tn_prev": 50.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "NASSAU",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 32.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 30,
-      "carr": 5,
-      "falta": 25,
-      "tn_prev": 1227.98,
-      "tn_carr": 187.98
+      "prog": 32,
+      "carr": 6,
+      "falta": 26,
+      "tn_prev": 1296.21,
+      "tn_carr": 225.21
     },
     {
       "produto": "PETCOKE",
@@ -170,11 +178,11 @@
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
-      "prog": 19,
-      "carr": 0,
+      "prog": 20,
+      "carr": 1,
       "falta": 19,
-      "tn_prev": 811.0,
-      "tn_carr": 0.0,
+      "tn_prev": 847.23,
+      "tn_carr": 37.23,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -189,18 +197,18 @@
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 16,
-          "carr": 0,
-          "falta": 16,
-          "tn_prev": 700.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 15,
+          "tn_prev": 699.23,
+          "tn_carr": 37.23
         },
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 30.0,
+          "falta": 2,
+          "tn_prev": 67.0,
           "tn_carr": 0.0
         },
         {
@@ -522,6 +530,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 50.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "NASSAU",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 32.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RANGEL (RJ)",
+          "cnpj": "47836361000136",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 32.0,
           "tn_carr": 0.0
         }
       ]
