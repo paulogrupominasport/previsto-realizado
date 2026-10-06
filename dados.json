@@ -1,21 +1,21 @@
 {
   "data_relatorio": "06/10/2026",
-  "gerado_em": "2026-10-06T07:00:10",
-  "atualizado_em": "2026-10-06T10:05:24",
+  "gerado_em": "2026-10-06T08:00:18",
+  "atualizado_em": "2026-10-06T11:05:23",
   "totais": {
-    "prog": 70,
-    "carr": 0,
-    "falta": 70,
-    "tn_prev": 2780.53,
-    "tn_carr": 0.0
+    "prog": 73,
+    "carr": 4,
+    "falta": 69,
+    "tn_prev": 2893.89,
+    "tn_carr": 154.2
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 15,
+      "prog": 17,
       "carr": 0,
-      "falta": 15,
-      "tn_prev": 534.0,
+      "falta": 17,
+      "tn_prev": 608.0,
       "tn_carr": 0.0
     },
     {
@@ -37,10 +37,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
+      "carr": 3,
+      "falta": 6,
       "tn_prev": 307.0,
-      "tn_carr": 0.0
+      "tn_carr": 104.84
     },
     {
       "cliente": "CSN BARROSO",
@@ -61,10 +61,10 @@
     {
       "cliente": "CIM LIZ",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 193.36,
+      "tn_carr": 49.36
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -89,15 +89,23 @@
       "falta": 1,
       "tn_prev": 39.53,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 40,
+      "prog": 42,
       "carr": 0,
-      "falta": 40,
-      "tn_prev": 1489.0,
+      "falta": 42,
+      "tn_prev": 1563.0,
       "tn_carr": 0.0
     },
     {
@@ -111,18 +119,18 @@
     {
       "produto": "TÉRMICO",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
+      "carr": 3,
+      "falta": 6,
       "tn_prev": 307.0,
-      "tn_carr": 0.0
+      "tn_carr": 104.84
     },
     {
       "produto": "CARVÃO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 193.36,
+      "tn_carr": 49.36
     },
     {
       "produto": "PETRÓLEO",
@@ -139,6 +147,14 @@
       "falta": 1,
       "tn_prev": 39.53,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Rivertec",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -146,19 +162,19 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 15,
+      "prog": 17,
       "carr": 0,
-      "falta": 15,
-      "tn_prev": 534.0,
+      "falta": 17,
+      "tn_prev": 608.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 5,
+          "prog": 6,
           "carr": 0,
-          "falta": 5,
-          "tn_prev": 181.0,
+          "falta": 6,
+          "tn_prev": 219.0,
           "tn_carr": 0.0
         },
         {
@@ -182,10 +198,10 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 3,
+          "prog": 4,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 108.0,
+          "falta": 4,
+          "tn_prev": 144.0,
           "tn_carr": 0.0
         }
       ]
@@ -297,19 +313,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
+      "carr": 3,
+      "falta": 3,
       "tn_prev": 200.0,
-      "tn_carr": 0.0,
+      "tn_carr": 104.84,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 3,
+          "falta": 0,
           "tn_prev": 108.0,
-          "tn_carr": 0.0
+          "tn_carr": 104.84
         },
         {
           "nome": "FRATELLI (SC)",
@@ -336,19 +352,19 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 193.36,
+      "tn_carr": 49.36,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 192.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 193.36,
+          "tn_carr": 49.36
         }
       ]
     },
@@ -441,6 +457,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 39.53,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "SUPREMO",
+      "produto": "Rivertec",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
