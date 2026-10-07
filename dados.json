@@ -1,30 +1,30 @@
 {
   "data_relatorio": "07/10/2026",
-  "gerado_em": "2026-10-07T11:00:10",
-  "atualizado_em": "2026-10-07T14:05:27",
+  "gerado_em": "2026-10-07T12:00:22",
+  "atualizado_em": "2026-10-07T15:05:25",
   "totais": {
     "prog": 54,
-    "carr": 26,
-    "falta": 28,
-    "tn_prev": 2121.82,
-    "tn_carr": 978.16
+    "carr": 31,
+    "falta": 23,
+    "tn_prev": 2121.24,
+    "tn_carr": 1173.58
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 15,
-      "carr": 4,
-      "falta": 11,
-      "tn_prev": 536.72,
-      "tn_carr": 143.72
+      "carr": 7,
+      "falta": 8,
+      "tn_prev": 535.4,
+      "tn_carr": 251.4
     },
     {
       "cliente": "CSN (ARCOS)",
       "prog": 8,
-      "carr": 1,
-      "falta": 7,
-      "tn_prev": 389.22,
-      "tn_carr": 49.22
+      "carr": 2,
+      "falta": 6,
+      "tn_prev": 389.44,
+      "tn_carr": 98.44
     },
     {
       "cliente": "BRASKEM",
@@ -53,10 +53,10 @@
     {
       "cliente": "SUPREMO",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 154.32,
-      "tn_carr": 74.32
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 154.84,
+      "tn_carr": 112.84
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -95,18 +95,18 @@
     {
       "produto": "PETCOKE",
       "prog": 14,
-      "carr": 4,
-      "falta": 10,
-      "tn_prev": 629.91,
-      "tn_carr": 171.91
+      "carr": 5,
+      "falta": 9,
+      "tn_prev": 630.13,
+      "tn_carr": 221.13
     },
     {
       "produto": "GESSO",
       "prog": 17,
-      "carr": 6,
-      "falta": 11,
-      "tn_prev": 616.91,
-      "tn_carr": 223.91
+      "carr": 9,
+      "falta": 8,
+      "tn_prev": 615.59,
+      "tn_carr": 331.59
     },
     {
       "produto": "TÉRMICO",
@@ -127,10 +127,10 @@
     {
       "produto": "Rivertec",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 154.32,
-      "tn_carr": 74.32
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 154.84,
+      "tn_carr": 112.84
     },
     {
       "produto": "Trindade",
@@ -163,19 +163,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 15,
-      "carr": 4,
-      "falta": 11,
-      "tn_prev": 536.72,
-      "tn_carr": 143.72,
+      "carr": 7,
+      "falta": 8,
+      "tn_prev": 535.4,
+      "tn_carr": 251.4,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 111.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 110.14,
+          "tn_carr": 72.14
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -199,10 +199,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 3,
-          "falta": 5,
-          "tn_prev": 285.75,
-          "tn_carr": 105.75
+          "carr": 4,
+          "falta": 4,
+          "tn_prev": 285.29,
+          "tn_carr": 141.29
         }
       ]
     },
@@ -211,10 +211,10 @@
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 1,
-      "falta": 7,
-      "tn_prev": 389.22,
-      "tn_carr": 49.22,
+      "carr": 2,
+      "falta": 6,
+      "tn_prev": 389.44,
+      "tn_carr": 98.44,
       "transportadoras": [
         {
           "nome": "MR LOG (SC)",
@@ -229,10 +229,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 245.22,
-          "tn_carr": 49.22
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 245.44,
+          "tn_carr": 98.44
         }
       ]
     },
@@ -301,10 +301,10 @@
       "cliente": "SUPREMO",
       "produto": "Rivertec",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 154.32,
-      "tn_carr": 74.32,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 154.84,
+      "tn_carr": 112.84,
       "transportadoras": [
         {
           "nome": "PARAISO TRANSP. DE FERTILIZANTES",
@@ -319,10 +319,10 @@
           "nome": "GWM LOGISTICA INTEGRADA LTDA",
           "cnpj": "34462809000408",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.52,
+          "tn_carr": 38.52
         }
       ]
     },
