@@ -1,30 +1,38 @@
 {
   "data_relatorio": "07/10/2026",
-  "gerado_em": "2026-10-07T13:00:10",
-  "atualizado_em": "2026-10-07T16:05:24",
+  "gerado_em": "2026-10-07T14:00:18",
+  "atualizado_em": "2026-10-07T17:05:28",
   "totais": {
-    "prog": 54,
-    "carr": 33,
-    "falta": 21,
-    "tn_prev": 2117.5,
-    "tn_carr": 1260.84
+    "prog": 58,
+    "carr": 36,
+    "falta": 22,
+    "tn_prev": 2227.27,
+    "tn_carr": 1367.61
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 15,
-      "carr": 7,
-      "falta": 8,
-      "tn_prev": 535.4,
-      "tn_carr": 251.4
+      "prog": 18,
+      "carr": 9,
+      "falta": 9,
+      "tn_prev": 642.66,
+      "tn_carr": 321.66
     },
     {
       "cliente": "CSN (ARCOS)",
-      "prog": 8,
+      "prog": 9,
       "carr": 3,
-      "falta": 5,
-      "tn_prev": 387.72,
+      "falta": 6,
+      "tn_prev": 388.72,
       "tn_carr": 145.72
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 242.2,
+      "tn_carr": 159.2
     },
     {
       "cliente": "BRASKEM",
@@ -33,14 +41,6 @@
       "falta": 1,
       "tn_prev": 241.21,
       "tn_carr": 200.55
-    },
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 240.69,
-      "tn_carr": 122.69
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -93,20 +93,20 @@
   ],
   "por_produto": [
     {
-      "produto": "PETCOKE",
-      "prog": 14,
-      "carr": 6,
-      "falta": 8,
-      "tn_prev": 628.41,
-      "tn_carr": 268.41
+      "produto": "GESSO",
+      "prog": 20,
+      "carr": 11,
+      "falta": 9,
+      "tn_prev": 722.85,
+      "tn_carr": 401.85
     },
     {
-      "produto": "GESSO",
-      "prog": 17,
-      "carr": 9,
+      "produto": "PETCOKE",
+      "prog": 15,
+      "carr": 7,
       "falta": 8,
-      "tn_prev": 615.59,
-      "tn_carr": 331.59
+      "tn_prev": 630.92,
+      "tn_carr": 304.92
     },
     {
       "produto": "TÉRMICO",
@@ -162,11 +162,11 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 15,
-      "carr": 7,
-      "falta": 8,
-      "tn_prev": 535.4,
-      "tn_carr": 251.4,
+      "prog": 18,
+      "carr": 9,
+      "falta": 9,
+      "tn_prev": 642.66,
+      "tn_carr": 321.66,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -190,19 +190,19 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 72.97,
-          "tn_carr": 37.97
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 73.21,
+          "tn_carr": 73.21
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 8,
-          "carr": 4,
-          "falta": 4,
-          "tn_prev": 285.29,
-          "tn_carr": 141.29
+          "prog": 11,
+          "carr": 5,
+          "falta": 6,
+          "tn_prev": 392.31,
+          "tn_carr": 176.31
         }
       ]
     },
@@ -210,10 +210,10 @@
       "lote": "CSN (ARCOS) - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
-      "prog": 8,
+      "prog": 9,
       "carr": 3,
-      "falta": 5,
-      "tn_prev": 387.72,
+      "falta": 6,
+      "tn_prev": 388.72,
       "tn_carr": 145.72,
       "transportadoras": [
         {
@@ -228,10 +228,10 @@
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
-          "prog": 5,
+          "prog": 6,
           "carr": 3,
-          "falta": 2,
-          "tn_prev": 243.72,
+          "falta": 3,
+          "tn_prev": 244.72,
           "tn_carr": 145.72
         }
       ]
@@ -241,19 +241,19 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 240.69,
-      "tn_carr": 122.69,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 242.2,
+      "tn_carr": 159.2,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 202.37,
-          "tn_carr": 84.37
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 203.88,
+          "tn_carr": 120.88
         },
         {
           "nome": "MRX TRANSP. (RJ)",
