@@ -9399,26 +9399,38 @@
     }
   },
   "2026-10-07": {
-    "gerado_em": "2026-10-07T07:00:05",
-    "atualizado_em": "2026-10-07T10:05:26",
+    "gerado_em": "2026-10-07T08:00:11",
+    "atualizado_em": "2026-10-07T11:05:27",
     "totais": {
-      "prog": 27,
-      "carr": 0,
-      "falta": 27,
-      "tn_prev": 1088.97,
-      "tn_carr": 0.0
+      "prog": 35,
+      "carr": 6,
+      "falta": 29,
+      "tn_prev": 1420.55,
+      "tn_carr": 221.65
     },
     "por_cliente": {
-      "BRASKEM": {
-        "prog": 9,
+      "CSN (ARCOS)": {
+        "prog": 7,
         "carr": 0,
-        "tn_prev": 314.0,
+        "tn_prev": 341.0,
         "tn_carr": 0.0
       },
-      "CSN (ARCOS)": {
+      "BRASKEM": {
         "prog": 6,
+        "carr": 2,
+        "tn_prev": 219.21,
+        "tn_carr": 64.28
+      },
+      "TRINDADE MINERAÇÃO": {
+        "prog": 4,
+        "carr": 4,
+        "tn_prev": 157.37,
+        "tn_carr": 157.37
+      },
+      "ITAMBÉ": {
+        "prog": 4,
         "carr": 0,
-        "tn_prev": 292.0,
+        "tn_prev": 144.0,
         "tn_carr": 0.0
       },
       "CSN BARROSO": {
@@ -9445,6 +9457,12 @@
         "tn_prev": 83.0,
         "tn_carr": 0.0
       },
+      "SUPREMO": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 76.0,
+        "tn_carr": 0.0
+      },
       "PROQUIGEL": {
         "prog": 2,
         "carr": 0,
@@ -9454,22 +9472,28 @@
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 8,
-        "carr": 0,
-        "tn_prev": 375.0,
-        "tn_carr": 0.0
-      },
-      "TÉRMICO": {
         "prog": 9,
         "carr": 0,
-        "tn_prev": 314.0,
+        "tn_prev": 424.0,
         "tn_carr": 0.0
       },
       "GESSO": {
-        "prog": 3,
+        "prog": 7,
         "carr": 0,
-        "tn_prev": 114.0,
+        "tn_prev": 258.0,
         "tn_carr": 0.0
+      },
+      "TÉRMICO": {
+        "prog": 6,
+        "carr": 2,
+        "tn_prev": 219.21,
+        "tn_carr": 64.28
+      },
+      "Sinter Feed": {
+        "prog": 4,
+        "carr": 4,
+        "tn_prev": 157.37,
+        "tn_carr": 157.37
       },
       "Trindade": {
         "prog": 3,
@@ -9481,6 +9505,12 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
+        "tn_carr": 0.0
+      },
+      "Rivertec": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 76.0,
         "tn_carr": 0.0
       },
       "Enxofre": {

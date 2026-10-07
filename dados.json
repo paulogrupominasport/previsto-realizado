@@ -1,29 +1,45 @@
 {
   "data_relatorio": "07/10/2026",
-  "gerado_em": "2026-10-07T07:00:05",
-  "atualizado_em": "2026-10-07T10:05:26",
+  "gerado_em": "2026-10-07T08:00:11",
+  "atualizado_em": "2026-10-07T11:05:27",
   "totais": {
-    "prog": 27,
-    "carr": 0,
-    "falta": 27,
-    "tn_prev": 1088.97,
-    "tn_carr": 0.0
+    "prog": 35,
+    "carr": 6,
+    "falta": 29,
+    "tn_prev": 1420.55,
+    "tn_carr": 221.65
   },
   "por_cliente": [
     {
-      "cliente": "BRASKEM",
-      "prog": 9,
+      "cliente": "CSN (ARCOS)",
+      "prog": 7,
       "carr": 0,
-      "falta": 9,
-      "tn_prev": 314.0,
+      "falta": 7,
+      "tn_prev": 341.0,
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN (ARCOS)",
+      "cliente": "BRASKEM",
       "prog": 6,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 219.21,
+      "tn_carr": 64.28
+    },
+    {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 157.37,
+      "tn_carr": 157.37
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 4,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 292.0,
+      "falta": 4,
+      "tn_prev": 144.0,
       "tn_carr": 0.0
     },
     {
@@ -59,6 +75,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "SUPREMO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "PROQUIGEL",
       "prog": 2,
       "carr": 0,
@@ -70,27 +94,35 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 375.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "TÉRMICO",
       "prog": 9,
       "carr": 0,
       "falta": 9,
-      "tn_prev": 314.0,
+      "tn_prev": 424.0,
       "tn_carr": 0.0
     },
     {
       "produto": "GESSO",
-      "prog": 3,
+      "prog": 7,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 114.0,
+      "falta": 7,
+      "tn_prev": 258.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "TÉRMICO",
+      "prog": 6,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 219.21,
+      "tn_carr": 64.28
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 157.37,
+      "tn_carr": 157.37
     },
     {
       "produto": "Trindade",
@@ -109,6 +141,14 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Rivertec",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "Enxofre",
       "prog": 2,
       "carr": 0,
@@ -122,10 +162,10 @@
       "lote": "CSN (ARCOS) - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 7,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 292.0,
+      "falta": 7,
+      "tn_prev": 341.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -140,10 +180,52 @@
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 245.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 4,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 157.37,
+      "tn_carr": 157.37,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 4,
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 157.37,
+          "tn_carr": 157.37
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 144.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
           "prog": 4,
           "carr": 0,
           "falta": 4,
-          "tn_prev": 196.0,
+          "tn_prev": 144.0,
           "tn_carr": 0.0
         }
       ]
@@ -152,37 +234,28 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 210.0,
-      "tn_carr": 0.0,
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 115.21,
+      "tn_carr": 34.21,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 34.21,
+          "tn_carr": 34.21
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 121.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 20.0,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         },
         {
@@ -243,19 +316,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 1,
+      "falta": 2,
       "tn_prev": 104.0,
-      "tn_carr": 0.0,
+      "tn_carr": 30.07,
       "transportadoras": [
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 1,
+          "falta": 2,
           "tn_prev": 104.0,
-          "tn_carr": 0.0
+          "tn_carr": 30.07
         }
       ]
     },
@@ -297,6 +370,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 83.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "SUPREMO",
+      "produto": "Rivertec",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         }
       ]
