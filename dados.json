@@ -1,45 +1,45 @@
 {
   "data_relatorio": "08/10/2026",
-  "gerado_em": "2026-10-08T11:00:05",
-  "atualizado_em": "2026-10-08T14:05:30",
+  "gerado_em": "2026-10-08T12:00:12",
+  "atualizado_em": "2026-10-08T15:05:34",
   "totais": {
-    "prog": 52,
-    "carr": 15,
-    "falta": 37,
-    "tn_prev": 1940.45,
-    "tn_carr": 542.08
+    "prog": 54,
+    "carr": 27,
+    "falta": 27,
+    "tn_prev": 2037.86,
+    "tn_carr": 1017.49
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 13,
-      "carr": 2,
-      "falta": 11,
-      "tn_prev": 490.42,
-      "tn_carr": 74.42
+      "prog": 12,
+      "carr": 8,
+      "falta": 4,
+      "tn_prev": 456.43,
+      "tn_carr": 306.43
+    },
+    {
+      "cliente": "BRASKEM",
+      "prog": 12,
+      "carr": 8,
+      "falta": 4,
+      "tn_prev": 380.95,
+      "tn_carr": 275.81
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 8,
-      "carr": 1,
-      "falta": 7,
-      "tn_prev": 319.42,
-      "tn_carr": 36.42
-    },
-    {
-      "cliente": "BRASKEM",
-      "prog": 11,
-      "carr": 7,
+      "carr": 4,
       "falta": 4,
-      "tn_prev": 314.0,
-      "tn_carr": 237.86
+      "tn_prev": 307.84,
+      "tn_carr": 155.84
     },
     {
       "cliente": "SUPREMO",
-      "prog": 6,
+      "prog": 7,
       "carr": 4,
-      "falta": 2,
-      "tn_prev": 231.46,
+      "falta": 3,
+      "tn_prev": 269.46,
       "tn_carr": 155.46
     },
     {
@@ -53,10 +53,18 @@
     {
       "cliente": "CSN (ARCOS)",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 145.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 146.38,
+      "tn_carr": 49.38
+    },
+    {
+      "cliente": "PROQUIGEL",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 112.57,
+      "tn_carr": 74.57
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -73,47 +81,39 @@
       "falta": 2,
       "tn_prev": 76.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "PROQUIGEL",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 75.92,
-      "tn_carr": 37.92
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 13,
-      "carr": 2,
-      "falta": 11,
-      "tn_prev": 490.42,
-      "tn_carr": 74.42
+      "prog": 12,
+      "carr": 8,
+      "falta": 4,
+      "tn_prev": 456.43,
+      "tn_carr": 306.43
     },
     {
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 1,
-      "falta": 10,
-      "tn_prev": 464.42,
-      "tn_carr": 36.42
+      "carr": 5,
+      "falta": 6,
+      "tn_prev": 454.22,
+      "tn_carr": 205.22
     },
     {
       "produto": "TÉRMICO",
-      "prog": 11,
-      "carr": 7,
+      "prog": 12,
+      "carr": 8,
       "falta": 4,
-      "tn_prev": 314.0,
-      "tn_carr": 237.86
+      "tn_prev": 380.95,
+      "tn_carr": 275.81
     },
     {
       "produto": "Rivertec",
-      "prog": 6,
+      "prog": 7,
       "carr": 4,
-      "falta": 2,
-      "tn_prev": 231.46,
+      "falta": 3,
+      "tn_prev": 269.46,
       "tn_carr": 155.46
     },
     {
@@ -123,6 +123,14 @@
       "falta": 5,
       "tn_prev": 192.23,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Enxofre",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 112.57,
+      "tn_carr": 74.57
     },
     {
       "produto": "PETRÓLEO",
@@ -139,14 +147,6 @@
       "falta": 2,
       "tn_prev": 76.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "Enxofre",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 75.92,
-      "tn_carr": 37.92
     }
   ],
   "lotes": [
@@ -154,20 +154,20 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 13,
-      "carr": 2,
-      "falta": 11,
-      "tn_prev": 490.42,
-      "tn_carr": 74.42,
+      "prog": 12,
+      "carr": 8,
+      "falta": 4,
+      "tn_prev": 456.43,
+      "tn_carr": 306.43,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.23,
+          "tn_carr": 38.23
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -182,19 +182,19 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 234.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 3,
+          "tn_prev": 235.94,
+          "tn_carr": 121.94
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 179.44,
-          "tn_carr": 35.44
+          "prog": 4,
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 143.28,
+          "tn_carr": 107.28
         }
       ]
     },
@@ -203,19 +203,19 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 1,
-      "falta": 7,
-      "tn_prev": 319.42,
-      "tn_carr": 36.42,
+      "carr": 4,
+      "falta": 4,
+      "tn_prev": 307.84,
+      "tn_carr": 155.84,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 167.42,
-          "tn_carr": 36.42
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 155.84,
+          "tn_carr": 155.84
         },
         {
           "nome": "MRX TRANSP. (RJ)",
@@ -232,10 +232,10 @@
       "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
       "cliente": "SUPREMO",
       "produto": "Rivertec",
-      "prog": 6,
+      "prog": 7,
       "carr": 4,
-      "falta": 2,
-      "tn_prev": 231.46,
+      "falta": 3,
+      "tn_prev": 269.46,
       "tn_carr": 155.46,
       "transportadoras": [
         {
@@ -250,10 +250,10 @@
         {
           "nome": "GWM LOGISTICA INTEGRADA LTDA",
           "cnpj": "34462809000408",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
+          "falta": 3,
+          "tn_prev": 114.0,
           "tn_carr": 0.0
         }
       ]
@@ -262,10 +262,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 6,
+      "prog": 7,
       "carr": 4,
-      "falta": 2,
-      "tn_prev": 207.0,
+      "falta": 3,
+      "tn_prev": 237.0,
       "tn_carr": 131.96,
       "transportadoras": [
         {
@@ -289,10 +289,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 30.0,
+          "falta": 2,
+          "tn_prev": 60.0,
           "tn_carr": 0.0
         },
         {
@@ -341,19 +341,19 @@
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 145.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 146.38,
+      "tn_carr": 49.38,
       "transportadoras": [
         {
           "nome": "MR LOG (SC)",
           "cnpj": "58324544000199",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.38,
+          "tn_carr": 49.38
         },
         {
           "nome": "CANEVER (SC)",
@@ -371,10 +371,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 107.0,
-      "tn_carr": 105.9,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 143.95,
+      "tn_carr": 143.85,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -389,10 +389,31 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 2.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 38.95,
+          "tn_carr": 37.95
+        }
+      ]
+    },
+    {
+      "lote": "PROQUIGEL - ENXOFRE - PILHA 57",
+      "cliente": "PROQUIGEL",
+      "produto": "Enxofre",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 112.57,
+      "tn_carr": 74.57,
+      "transportadoras": [
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 112.57,
+          "tn_carr": 74.57
         }
       ]
     },
@@ -435,27 +456,6 @@
           "falta": 2,
           "tn_prev": 76.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "PROQUIGEL - ENXOFRE - PILHA 57",
-      "cliente": "PROQUIGEL",
-      "produto": "Enxofre",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 75.92,
-      "tn_carr": 37.92,
-      "transportadoras": [
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 75.92,
-          "tn_carr": 37.92
         }
       ]
     }
