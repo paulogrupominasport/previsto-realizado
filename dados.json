@@ -1,13 +1,13 @@
 {
   "data_relatorio": "08/10/2026",
-  "gerado_em": "2026-10-08T07:00:06",
-  "atualizado_em": "2026-10-08T10:05:22",
+  "gerado_em": "2026-10-08T08:00:11",
+  "atualizado_em": "2026-10-08T11:05:24",
   "totais": {
-    "prog": 32,
-    "carr": 0,
-    "falta": 32,
-    "tn_prev": 1228.37,
-    "tn_carr": 0.0
+    "prog": 38,
+    "carr": 2,
+    "falta": 36,
+    "tn_prev": 1452.37,
+    "tn_carr": 69.08
   },
   "por_cliente": [
     {
@@ -19,20 +19,20 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BRASKEM",
+      "cliente": "ITAMBÉ",
       "prog": 8,
       "carr": 0,
       "falta": 8,
-      "tn_prev": 276.0,
+      "tn_prev": 290.0,
       "tn_carr": 0.0
     },
     {
-      "cliente": "ITAMBÉ",
-      "prog": 6,
-      "carr": 0,
+      "cliente": "BRASKEM",
+      "prog": 8,
+      "carr": 2,
       "falta": 6,
-      "tn_prev": 218.0,
-      "tn_carr": 0.0
+      "tn_prev": 276.0,
+      "tn_carr": 69.08
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -40,6 +40,14 @@
       "carr": 0,
       "falta": 4,
       "tn_prev": 157.37,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 152.0,
       "tn_carr": 0.0
     },
     {
@@ -85,20 +93,20 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "TÉRMICO",
+      "produto": "GESSO",
       "prog": 8,
       "carr": 0,
       "falta": 8,
-      "tn_prev": 276.0,
+      "tn_prev": 290.0,
       "tn_carr": 0.0
     },
     {
-      "produto": "GESSO",
-      "prog": 6,
-      "carr": 0,
+      "produto": "TÉRMICO",
+      "prog": 8,
+      "carr": 2,
       "falta": 6,
-      "tn_prev": 218.0,
-      "tn_carr": 0.0
+      "tn_prev": 276.0,
+      "tn_carr": 69.08
     },
     {
       "produto": "Trindade",
@@ -106,6 +114,14 @@
       "carr": 0,
       "falta": 4,
       "tn_prev": 157.37,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Rivertec",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 152.0,
       "tn_carr": 0.0
     },
     {
@@ -168,10 +184,10 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 6,
+      "prog": 8,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 218.0,
+      "falta": 8,
+      "tn_prev": 290.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -181,6 +197,15 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 72.0,
           "tn_carr": 0.0
         },
         {
@@ -199,19 +224,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
+      "carr": 1,
+      "falta": 4,
       "tn_prev": 171.0,
-      "tn_carr": 0.0,
+      "tn_carr": 33.89,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "tn_carr": 33.89
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -264,23 +289,44 @@
       ]
     },
     {
+      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "SUPREMO",
+      "produto": "Rivertec",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 152.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 152.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BRASKEM - TÉRMICO PACIFIC TALENT - PILHA 91",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 1,
+      "falta": 2,
       "tn_prev": 105.0,
-      "tn_carr": 0.0,
+      "tn_carr": 35.19,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 1,
+          "falta": 2,
           "tn_prev": 105.0,
-          "tn_carr": 0.0
+          "tn_carr": 35.19
         }
       ]
     },
