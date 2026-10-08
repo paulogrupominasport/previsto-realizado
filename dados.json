@@ -1,21 +1,21 @@
 {
   "data_relatorio": "08/10/2026",
-  "gerado_em": "2026-10-08T13:31:13",
-  "atualizado_em": "2026-10-08T16:35:27",
+  "gerado_em": "2026-10-08T14:00:17",
+  "atualizado_em": "2026-10-08T17:05:28",
   "totais": {
-    "prog": 53,
-    "carr": 29,
-    "falta": 24,
-    "tn_prev": 1970.2,
-    "tn_carr": 1100.87
+    "prog": 56,
+    "carr": 30,
+    "falta": 26,
+    "tn_prev": 2082.14,
+    "tn_carr": 1138.62
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 12,
+      "prog": 15,
       "carr": 9,
-      "falta": 3,
-      "tn_prev": 419.05,
+      "falta": 6,
+      "tn_prev": 531.05,
       "tn_carr": 342.09
     },
     {
@@ -45,10 +45,10 @@
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 192.23,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 192.17,
+      "tn_carr": 37.75
     },
     {
       "cliente": "CSN (ARCOS)",
@@ -85,20 +85,20 @@
   ],
   "por_produto": [
     {
+      "produto": "GESSO",
+      "prog": 15,
+      "carr": 9,
+      "falta": 6,
+      "tn_prev": 531.05,
+      "tn_carr": 342.09
+    },
+    {
       "produto": "PETCOKE",
       "prog": 11,
       "carr": 6,
       "falta": 5,
       "tn_prev": 453.94,
       "tn_carr": 252.94
-    },
-    {
-      "produto": "GESSO",
-      "prog": 12,
-      "carr": 9,
-      "falta": 3,
-      "tn_prev": 419.05,
-      "tn_carr": 342.09
     },
     {
       "produto": "TÉRMICO",
@@ -119,10 +119,10 @@
     {
       "produto": "Trindade",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 192.23,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 192.17,
+      "tn_carr": 37.75
     },
     {
       "produto": "Enxofre",
@@ -154,19 +154,19 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 12,
+      "prog": 15,
       "carr": 9,
-      "falta": 3,
-      "tn_prev": 419.05,
+      "falta": 6,
+      "tn_prev": 531.05,
       "tn_carr": 342.09,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 1,
+          "prog": 3,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 38.23,
+          "falta": 2,
+          "tn_prev": 114.23,
           "tn_carr": 38.23
         },
         {
@@ -190,10 +190,10 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 4,
+          "prog": 5,
           "carr": 4,
-          "falta": 0,
-          "tn_prev": 142.94,
+          "falta": 1,
+          "tn_prev": 178.94,
           "tn_carr": 142.94
         }
       ]
@@ -311,19 +311,19 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 192.23,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 192.17,
+      "tn_carr": 37.75,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
           "cnpj": "26586645000141",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 157.37,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 157.31,
+          "tn_carr": 37.75
         },
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
