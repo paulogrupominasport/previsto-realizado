@@ -1,13 +1,13 @@
 {
   "data_relatorio": "08/10/2026",
-  "gerado_em": "2026-10-08T12:00:12",
-  "atualizado_em": "2026-10-08T15:05:34",
+  "gerado_em": "2026-10-08T13:00:16",
+  "atualizado_em": "2026-10-08T16:05:30",
   "totais": {
-    "prog": 54,
-    "carr": 27,
-    "falta": 27,
-    "tn_prev": 2037.86,
-    "tn_carr": 1017.49
+    "prog": 53,
+    "carr": 28,
+    "falta": 25,
+    "tn_prev": 1970.54,
+    "tn_carr": 1065.21
   },
   "por_cliente": [
     {
@@ -15,15 +15,15 @@
       "prog": 12,
       "carr": 8,
       "falta": 4,
-      "tn_prev": 456.43,
+      "tn_prev": 419.39,
       "tn_carr": 306.43
     },
     {
       "cliente": "BRASKEM",
-      "prog": 12,
+      "prog": 11,
       "carr": 8,
-      "falta": 4,
-      "tn_prev": 380.95,
+      "falta": 3,
+      "tn_prev": 350.95,
       "tn_carr": 275.81
     },
     {
@@ -53,10 +53,10 @@
     {
       "cliente": "CSN (ARCOS)",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 146.38,
-      "tn_carr": 49.38
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 146.1,
+      "tn_carr": 97.1
     },
     {
       "cliente": "PROQUIGEL",
@@ -85,27 +85,27 @@
   ],
   "por_produto": [
     {
+      "produto": "PETCOKE",
+      "prog": 11,
+      "carr": 6,
+      "falta": 5,
+      "tn_prev": 453.94,
+      "tn_carr": 252.94
+    },
+    {
       "produto": "GESSO",
       "prog": 12,
       "carr": 8,
       "falta": 4,
-      "tn_prev": 456.43,
+      "tn_prev": 419.39,
       "tn_carr": 306.43
     },
     {
-      "produto": "PETCOKE",
-      "prog": 11,
-      "carr": 5,
-      "falta": 6,
-      "tn_prev": 454.22,
-      "tn_carr": 205.22
-    },
-    {
       "produto": "TÉRMICO",
-      "prog": 12,
+      "prog": 11,
       "carr": 8,
-      "falta": 4,
-      "tn_prev": 380.95,
+      "falta": 3,
+      "tn_prev": 350.95,
       "tn_carr": 275.81
     },
     {
@@ -157,7 +157,7 @@
       "prog": 12,
       "carr": 8,
       "falta": 4,
-      "tn_prev": 456.43,
+      "tn_prev": 419.39,
       "tn_carr": 306.43,
       "transportadoras": [
         {
@@ -184,7 +184,7 @@
           "prog": 6,
           "carr": 3,
           "falta": 3,
-          "tn_prev": 235.94,
+          "tn_prev": 198.9,
           "tn_carr": 121.94
         },
         {
@@ -262,10 +262,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 7,
+      "prog": 6,
       "carr": 4,
-      "falta": 3,
-      "tn_prev": 237.0,
+      "falta": 2,
+      "tn_prev": 207.0,
       "tn_carr": 131.96,
       "transportadoras": [
         {
@@ -289,10 +289,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 2,
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 60.0,
+          "falta": 1,
+          "tn_prev": 30.0,
           "tn_carr": 0.0
         },
         {
@@ -341,19 +341,19 @@
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 146.38,
-      "tn_carr": 49.38,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 146.1,
+      "tn_carr": 97.1,
       "transportadoras": [
         {
           "nome": "MR LOG (SC)",
           "cnpj": "58324544000199",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 97.38,
-          "tn_carr": 49.38
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 97.1,
+          "tn_carr": 97.1
         },
         {
           "nome": "CANEVER (SC)",
