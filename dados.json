@@ -1,30 +1,30 @@
 {
   "data_relatorio": "09/10/2026",
-  "gerado_em": "2026-10-09T15:00:08",
-  "atualizado_em": "2026-10-09T18:05:27",
+  "gerado_em": "2026-10-09T16:00:17",
+  "atualizado_em": "2026-10-09T19:05:26",
   "totais": {
-    "prog": 75,
-    "carr": 51,
-    "falta": 24,
-    "tn_prev": 2867.38,
-    "tn_carr": 1921.8
+    "prog": 78,
+    "carr": 53,
+    "falta": 25,
+    "tn_prev": 2991.55,
+    "tn_carr": 2009.97
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 21,
+      "prog": 23,
       "carr": 16,
-      "falta": 5,
-      "tn_prev": 777.0,
+      "falta": 7,
+      "tn_prev": 862.0,
       "tn_carr": 584.0
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 14,
-      "carr": 8,
-      "falta": 6,
-      "tn_prev": 524.94,
-      "tn_carr": 302.94
+      "carr": 10,
+      "falta": 4,
+      "tn_prev": 527.11,
+      "tn_carr": 391.11
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -76,10 +76,10 @@
     },
     {
       "cliente": "PROQUIGEL",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
+      "falta": 2,
+      "tn_prev": 74.0,
       "tn_carr": 0.0
     },
     {
@@ -94,18 +94,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 31,
-      "carr": 20,
-      "falta": 11,
-      "tn_prev": 1244.96,
-      "tn_carr": 795.96
+      "prog": 32,
+      "carr": 22,
+      "falta": 10,
+      "tn_prev": 1294.13,
+      "tn_carr": 884.13
     },
     {
       "produto": "GESSO",
-      "prog": 11,
+      "prog": 12,
       "carr": 9,
-      "falta": 2,
-      "tn_prev": 387.56,
+      "falta": 3,
+      "tn_prev": 425.56,
       "tn_carr": 323.56
     },
     {
@@ -150,10 +150,10 @@
     },
     {
       "produto": "Enxofre",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
+      "falta": 2,
+      "tn_prev": 74.0,
       "tn_carr": 0.0
     }
   ],
@@ -163,19 +163,19 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 14,
-      "carr": 8,
-      "falta": 6,
-      "tn_prev": 524.94,
-      "tn_carr": 302.94,
+      "carr": 10,
+      "falta": 4,
+      "tn_prev": 527.11,
+      "tn_carr": 391.11,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 119.5,
-          "tn_carr": 71.5
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 119.74,
+          "tn_carr": 119.74
         },
         {
           "nome": "RANGEL (RJ)",
@@ -190,10 +190,10 @@
           "nome": "MRX TRANSP. (RJ)",
           "cnpj": "26586645000222",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 234.58,
-          "tn_carr": 158.58
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 236.51,
+          "tn_carr": 198.51
         },
         {
           "nome": "LENARGE (RJ)",
@@ -219,10 +219,10 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 11,
+      "prog": 12,
       "carr": 8,
-      "falta": 3,
-      "tn_prev": 424.16,
+      "falta": 4,
+      "tn_prev": 471.16,
       "tn_carr": 295.16,
       "transportadoras": [
         {
@@ -255,32 +255,11 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 5,
+          "prog": 6,
           "carr": 3,
-          "falta": 2,
-          "tn_prev": 202.65,
+          "falta": 3,
+          "tn_prev": 249.65,
           "tn_carr": 108.65
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 10,
-      "carr": 3,
-      "falta": 7,
-      "tn_prev": 384.73,
-      "tn_carr": 118.73,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 10,
-          "carr": 3,
-          "falta": 7,
-          "tn_prev": 384.73,
-          "tn_carr": 118.73
         }
       ]
     },
@@ -288,10 +267,10 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 10,
+      "prog": 11,
       "carr": 8,
-      "falta": 2,
-      "tn_prev": 352.84,
+      "falta": 3,
+      "tn_prev": 390.84,
       "tn_carr": 288.84,
       "transportadoras": [
         {
@@ -315,10 +294,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 37.12,
+          "falta": 1,
+          "tn_prev": 75.12,
           "tn_carr": 37.12
         },
         {
@@ -329,6 +308,27 @@
           "falta": 0,
           "tn_prev": 212.79,
           "tn_carr": 212.79
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 384.73,
+      "tn_carr": 118.73,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 10,
+          "carr": 3,
+          "falta": 7,
+          "tn_prev": 384.73,
+          "tn_carr": 118.73
         }
       ]
     },
@@ -507,19 +507,19 @@
       "lote": "PROQUIGEL - ENXOFRE - PILHA 57",
       "cliente": "PROQUIGEL",
       "produto": "Enxofre",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
+      "falta": 2,
+      "tn_prev": 74.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
+          "falta": 2,
+          "tn_prev": 74.0,
           "tn_carr": 0.0
         }
       ]
