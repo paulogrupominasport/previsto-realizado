@@ -1,13 +1,13 @@
 {
   "data_relatorio": "09/10/2026",
-  "gerado_em": "2026-10-09T10:00:19",
-  "atualizado_em": "2026-10-09T13:05:24",
+  "gerado_em": "2026-10-09T10:20:10",
+  "atualizado_em": "2026-10-09T13:25:26",
   "totais": {
-    "prog": 52,
-    "carr": 28,
-    "falta": 24,
-    "tn_prev": 1996.52,
-    "tn_carr": 1022.42
+    "prog": 59,
+    "carr": 29,
+    "falta": 30,
+    "tn_prev": 2263.1,
+    "tn_carr": 1061.0
   },
   "por_cliente": [
     {
@@ -17,6 +17,14 @@
       "falta": 3,
       "tn_prev": 464.19,
       "tn_carr": 359.19
+    },
+    {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 384.73,
+      "tn_carr": 118.73
     },
     {
       "cliente": "BRASKEM",
@@ -45,10 +53,10 @@
     {
       "cliente": "SUPREMO",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 187.02,
-      "tn_carr": 73.02
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 187.6,
+      "tn_carr": 111.6
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -57,14 +65,6 @@
       "falta": 2,
       "tn_prev": 150.48,
       "tn_carr": 74.81
-    },
-    {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 118.73,
-      "tn_carr": 118.73
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -85,6 +85,14 @@
       "tn_carr": 235.16
     },
     {
+      "produto": "Sinter Feed",
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 384.73,
+      "tn_carr": 118.73
+    },
+    {
       "produto": "TÉRMICO",
       "prog": 11,
       "carr": 7,
@@ -103,10 +111,10 @@
     {
       "produto": "Rivertec",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 187.02,
-      "tn_carr": 73.02
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 187.6,
+      "tn_carr": 111.6
     },
     {
       "produto": "Trindade",
@@ -115,14 +123,6 @@
       "falta": 2,
       "tn_prev": 150.48,
       "tn_carr": 74.81
-    },
-    {
-      "produto": "Sinter Feed",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 118.73,
-      "tn_carr": 118.73
     },
     {
       "produto": "PETRÓLEO",
@@ -134,6 +134,27 @@
     }
   ],
   "lotes": [
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 384.73,
+      "tn_carr": 118.73,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 10,
+          "carr": 3,
+          "falta": 7,
+          "tn_prev": 384.73,
+          "tn_carr": 118.73
+        }
+      ]
+    },
     {
       "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
       "cliente": "CIM. LIZ",
@@ -277,10 +298,10 @@
       "cliente": "SUPREMO",
       "produto": "Rivertec",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 187.02,
-      "tn_carr": 73.02,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 187.6,
+      "tn_carr": 111.6,
       "transportadoras": [
         {
           "nome": "PARAISO TRANSP. DE FERTILIZANTES",
@@ -295,10 +316,10 @@
           "nome": "GWM LOGISTICA INTEGRADA LTDA",
           "cnpj": "34462809000408",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.58,
+          "tn_carr": 38.58
         }
       ]
     },
@@ -368,27 +389,6 @@
           "falta": 0,
           "tn_prev": 36.18,
           "tn_carr": 36.18
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 118.73,
-      "tn_carr": 118.73,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 118.73,
-          "tn_carr": 118.73
         }
       ]
     },
