@@ -1,30 +1,30 @@
 {
   "data_relatorio": "09/10/2026",
-  "gerado_em": "2026-10-09T13:00:19",
-  "atualizado_em": "2026-10-09T16:05:30",
+  "gerado_em": "2026-10-09T14:00:12",
+  "atualizado_em": "2026-10-09T17:05:24",
   "totais": {
-    "prog": 70,
-    "carr": 38,
-    "falta": 32,
-    "tn_prev": 2644.84,
-    "tn_carr": 1431.59
+    "prog": 71,
+    "carr": 42,
+    "falta": 29,
+    "tn_prev": 2685.64,
+    "tn_carr": 1574.39
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 19,
-      "carr": 13,
-      "falta": 6,
-      "tn_prev": 680.97,
-      "tn_carr": 474.97
+      "carr": 15,
+      "falta": 4,
+      "tn_prev": 683.92,
+      "tn_carr": 546.92
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 12,
-      "carr": 3,
-      "falta": 9,
-      "tn_prev": 434.85,
-      "tn_carr": 114.85
+      "prog": 13,
+      "carr": 5,
+      "falta": 8,
+      "tn_prev": 472.7,
+      "tn_carr": 185.7
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -86,11 +86,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 27,
-      "carr": 12,
-      "falta": 15,
-      "tn_prev": 1058.84,
-      "tn_carr": 498.84
+      "prog": 28,
+      "carr": 16,
+      "falta": 12,
+      "tn_prev": 1099.64,
+      "tn_carr": 641.64
     },
     {
       "produto": "GESSO",
@@ -146,20 +146,20 @@
       "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 12,
-      "carr": 3,
-      "falta": 9,
-      "tn_prev": 434.85,
-      "tn_carr": 114.85,
+      "prog": 13,
+      "carr": 5,
+      "falta": 8,
+      "tn_prev": 472.7,
+      "tn_carr": 185.7,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 70.62,
-          "tn_carr": 35.62
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 71.5,
+          "tn_carr": 71.5
         },
         {
           "nome": "RANGEL (RJ)",
@@ -180,13 +180,22 @@
           "tn_carr": 79.23
         },
         {
-          "nome": "G7 LOG (RJ)",
-          "cnpj": "14170909001336",
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 35.0,
+          "tn_prev": 37.0,
           "tn_carr": 0.0
+        },
+        {
+          "nome": "G7 LOG (RJ)",
+          "cnpj": "14170909001336",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 34.97,
+          "tn_carr": 34.97
         }
       ]
     },
@@ -264,10 +273,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 9,
-      "carr": 5,
-      "falta": 4,
-      "tn_prev": 328.13,
-      "tn_carr": 186.13,
+      "carr": 7,
+      "falta": 2,
+      "tn_prev": 331.08,
+      "tn_carr": 258.08,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -300,10 +309,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 105.7,
-          "tn_carr": 36.7
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 108.65,
+          "tn_carr": 108.65
         }
       ]
     },
