@@ -1,45 +1,45 @@
 {
   "data_relatorio": "10/10/2026",
-  "gerado_em": "2026-10-10T08:00:12",
-  "atualizado_em": "2026-10-10T11:05:24",
+  "gerado_em": "2026-10-10T09:00:17",
+  "atualizado_em": "2026-10-10T12:05:25",
   "totais": {
-    "prog": 57,
-    "carr": 2,
-    "falta": 55,
-    "tn_prev": 2186.61,
-    "tn_carr": 67.94
+    "prog": 58,
+    "carr": 16,
+    "falta": 42,
+    "tn_prev": 2221.65,
+    "tn_carr": 592.71
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 29,
-      "carr": 2,
-      "falta": 27,
-      "tn_prev": 1056.94,
-      "tn_carr": 67.94
+      "prog": 28,
+      "carr": 11,
+      "falta": 17,
+      "tn_prev": 1016.77,
+      "tn_carr": 393.77
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 519.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 11,
+      "tn_prev": 523.35,
+      "tn_carr": 80.35
     },
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 234.67,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 234.53,
+      "tn_carr": 118.59
     },
     {
       "cliente": "SUPREMO",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 118.0,
+      "falta": 4,
+      "tn_prev": 156.0,
       "tn_carr": 0.0
     },
     {
@@ -60,10 +60,10 @@
     },
     {
       "cliente": "PROQUIGEL",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
+      "falta": 2,
+      "tn_prev": 81.0,
       "tn_carr": 0.0
     }
   ],
@@ -71,33 +71,33 @@
     {
       "produto": "PETCOKE",
       "prog": 27,
-      "carr": 0,
-      "falta": 27,
-      "tn_prev": 1036.0,
-      "tn_carr": 0.0
+      "carr": 5,
+      "falta": 22,
+      "tn_prev": 1037.6,
+      "tn_carr": 191.6
     },
     {
       "produto": "GESSO",
-      "prog": 15,
-      "carr": 2,
-      "falta": 13,
-      "tn_prev": 539.94,
-      "tn_carr": 67.94
+      "prog": 14,
+      "carr": 8,
+      "falta": 6,
+      "tn_prev": 502.52,
+      "tn_carr": 282.52
     },
     {
       "produto": "Trindade",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 234.67,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 234.53,
+      "tn_carr": 118.59
     },
     {
       "produto": "Rivertec",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 118.0,
+      "falta": 4,
+      "tn_prev": 156.0,
       "tn_carr": 0.0
     },
     {
@@ -118,71 +118,23 @@
     },
     {
       "produto": "Enxofre",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
+      "falta": 2,
+      "tn_prev": 81.0,
       "tn_carr": 0.0
     }
   ],
   "lotes": [
     {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 15,
-      "carr": 2,
-      "falta": 13,
-      "tn_prev": 539.94,
-      "tn_carr": 67.94,
-      "transportadoras": [
-        {
-          "nome": "TRANSP. TELLES (SC)",
-          "cnpj": "78266228000115",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "TRANSP. BONTORIN (SC)",
-          "cnpj": "81429755000299",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 64.02,
-          "tn_carr": 32.02
-        },
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "H.R. TRANSP. (SC)",
-          "cnpj": "79838694000190",
-          "prog": 9,
-          "carr": 1,
-          "falta": 8,
-          "tn_prev": 323.92,
-          "tn_carr": 35.92
-        }
-      ]
-    },
-    {
       "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 519.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 11,
+      "tn_prev": 523.35,
+      "tn_carr": 80.35,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -206,10 +158,10 @@
           "nome": "MRX TRANSP. (RJ)",
           "cnpj": "26586645000222",
           "prog": 7,
-          "carr": 0,
-          "falta": 7,
-          "tn_prev": 266.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 5,
+          "tn_prev": 270.35,
+          "tn_carr": 80.35
         },
         {
           "nome": "DC4 TRANSP. (RJ)",
@@ -227,19 +179,19 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 14,
-      "carr": 0,
-      "falta": 14,
-      "tn_prev": 517.0,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 11,
+      "tn_prev": 514.25,
+      "tn_carr": 111.25,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 149.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 147.34,
+          "tn_carr": 74.34
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -254,10 +206,10 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 93.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 91.91,
+          "tn_carr": 36.91
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -271,23 +223,71 @@
       ]
     },
     {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 14,
+      "carr": 8,
+      "falta": 6,
+      "tn_prev": 502.52,
+      "tn_carr": 282.52,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 74.56,
+          "tn_carr": 74.56
+        },
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 64.26,
+          "tn_carr": 64.26
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 8,
+          "carr": 4,
+          "falta": 4,
+          "tn_prev": 287.7,
+          "tn_carr": 143.7
+        }
+      ]
+    },
+    {
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 234.67,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 234.53,
+      "tn_carr": 118.59,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
           "cnpj": "26586645000141",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 234.67,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 3,
+          "tn_prev": 234.53,
+          "tn_carr": 118.59
         }
       ]
     },
@@ -295,19 +295,19 @@
       "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
       "cliente": "SUPREMO",
       "produto": "Rivertec",
-      "prog": 3,
+      "prog": 4,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 118.0,
+      "falta": 4,
+      "tn_prev": 156.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "PARAISO TRANSP. DE FERTILIZANTES",
           "cnpj": "15058185000162",
-          "prog": 3,
+          "prog": 4,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 118.0,
+          "falta": 4,
+          "tn_prev": 156.0,
           "tn_carr": 0.0
         }
       ]
@@ -358,19 +358,19 @@
       "lote": "PROQUIGEL - ENXOFRE - PILHA 57",
       "cliente": "PROQUIGEL",
       "produto": "Enxofre",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
+      "falta": 2,
+      "tn_prev": 81.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
+          "falta": 2,
+          "tn_prev": 81.0,
           "tn_carr": 0.0
         }
       ]
