@@ -1,12 +1,12 @@
 {
   "data_relatorio": "10/10/2026",
-  "gerado_em": "2026-10-10T14:00:06",
-  "atualizado_em": "2026-10-10T17:05:21",
+  "gerado_em": "2026-10-10T15:00:15",
+  "atualizado_em": "2026-10-10T18:05:22",
   "totais": {
-    "prog": 68,
+    "prog": 72,
     "carr": 60,
-    "falta": 8,
-    "tn_prev": 2565.57,
+    "falta": 12,
+    "tn_prev": 2717.57,
     "tn_carr": 2295.89
   },
   "por_cliente": [
@@ -20,10 +20,10 @@
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 14,
+      "prog": 17,
       "carr": 13,
-      "falta": 1,
-      "tn_prev": 568.5,
+      "falta": 4,
+      "tn_prev": 682.5,
       "tn_carr": 530.5
     },
     {
@@ -43,20 +43,20 @@
       "tn_carr": 115.11
     },
     {
+      "cliente": "PROQUIGEL",
+      "prog": 4,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 143.61,
+      "tn_carr": 33.61
+    },
+    {
       "cliente": "SUPREMO",
       "prog": 4,
       "carr": 4,
       "falta": 0,
       "tn_prev": 113.03,
       "tn_carr": 155.35
-    },
-    {
-      "cliente": "PROQUIGEL",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 105.61,
-      "tn_carr": 33.61
     },
     {
       "cliente": "NASSAU",
@@ -78,10 +78,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 30,
+      "prog": 33,
       "carr": 29,
-      "falta": 1,
-      "tn_prev": 1188.25,
+      "falta": 4,
+      "tn_prev": 1302.25,
       "tn_carr": 1150.25
     },
     {
@@ -109,20 +109,20 @@
       "tn_carr": 115.11
     },
     {
+      "produto": "Enxofre",
+      "prog": 4,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 143.61,
+      "tn_carr": 33.61
+    },
+    {
       "produto": "Rivertec",
       "prog": 4,
       "carr": 4,
       "falta": 0,
       "tn_prev": 113.03,
       "tn_carr": 155.35
-    },
-    {
-      "produto": "Enxofre",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 105.61,
-      "tn_carr": 33.61
     },
     {
       "produto": "PETRÓLEO",
@@ -134,6 +134,72 @@
     }
   ],
   "lotes": [
+    {
+      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 17,
+      "carr": 13,
+      "falta": 4,
+      "tn_prev": 682.5,
+      "tn_carr": 530.5,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.89,
+          "tn_carr": 38.89
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 4,
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 174.11,
+          "tn_carr": 136.11
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 7,
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 274.64,
+          "tn_carr": 274.64
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 80.86,
+          "tn_carr": 80.86
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
     {
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
@@ -231,63 +297,6 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 14,
-      "carr": 13,
-      "falta": 1,
-      "tn_prev": 568.5,
-      "tn_carr": 530.5,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 38.89,
-          "tn_carr": 38.89
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 136.11,
-          "tn_carr": 136.11
-        },
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 7,
-          "carr": 7,
-          "falta": 0,
-          "tn_prev": 274.64,
-          "tn_carr": 274.64
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 80.86,
-          "tn_carr": 80.86
-        }
-      ]
-    },
-    {
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
@@ -330,6 +339,27 @@
       ]
     },
     {
+      "lote": "PROQUIGEL - ENXOFRE - PILHA 57",
+      "cliente": "PROQUIGEL",
+      "produto": "Enxofre",
+      "prog": 4,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 143.61,
+      "tn_carr": 33.61,
+      "transportadoras": [
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 4,
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 143.61,
+          "tn_carr": 33.61
+        }
+      ]
+    },
+    {
       "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
       "cliente": "SUPREMO",
       "produto": "Rivertec",
@@ -347,27 +377,6 @@
           "falta": 0,
           "tn_prev": 113.03,
           "tn_carr": 155.35
-        }
-      ]
-    },
-    {
-      "lote": "PROQUIGEL - ENXOFRE - PILHA 57",
-      "cliente": "PROQUIGEL",
-      "produto": "Enxofre",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 105.61,
-      "tn_carr": 33.61,
-      "transportadoras": [
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 105.61,
-          "tn_carr": 33.61
         }
       ]
     },
