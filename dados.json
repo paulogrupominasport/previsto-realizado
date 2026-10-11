@@ -1,22 +1,22 @@
 {
   "data_relatorio": "11/10/2026",
-  "gerado_em": "2026-10-11T10:00:16",
-  "atualizado_em": "2026-10-11T13:05:22",
+  "gerado_em": "2026-10-11T11:00:12",
+  "atualizado_em": "2026-10-11T14:05:22",
   "totais": {
-    "prog": 16,
-    "carr": 5,
-    "falta": 11,
-    "tn_prev": 655.26,
-    "tn_carr": 203.2
+    "prog": 21,
+    "carr": 7,
+    "falta": 14,
+    "tn_prev": 858.47,
+    "tn_carr": 292.41
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 324.71,
-      "tn_carr": 125.71
+      "prog": 13,
+      "carr": 5,
+      "falta": 8,
+      "tn_prev": 527.92,
+      "tn_carr": 214.92
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -46,11 +46,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 324.71,
-      "tn_carr": 125.71
+      "prog": 13,
+      "carr": 5,
+      "falta": 8,
+      "tn_prev": 527.92,
+      "tn_carr": 214.92
     },
     {
       "produto": "Trindade",
@@ -82,11 +82,11 @@
       "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 3,
-      "falta": 5,
-      "tn_prev": 324.71,
-      "tn_carr": 125.71,
+      "prog": 13,
+      "carr": 5,
+      "falta": 8,
+      "tn_prev": 527.92,
+      "tn_carr": 214.92,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
@@ -95,6 +95,15 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 74.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "SILVANO TRANSPORTES (RJ)",
+          "cnpj": "07619336000267",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         },
         {
@@ -109,11 +118,11 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 87.0,
-          "tn_carr": 0.0
+          "prog": 5,
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 214.21,
+          "tn_carr": 89.21
         },
         {
           "nome": "MRX TRANSP. (RJ)",
@@ -123,6 +132,15 @@
           "falta": 1,
           "tn_prev": 115.53,
           "tn_carr": 77.53
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         }
       ]
     },
