@@ -1,21 +1,21 @@
 {
   "data_relatorio": "11/10/2026",
-  "gerado_em": "2026-10-11T07:00:09",
-  "atualizado_em": "2026-10-11T10:05:20",
+  "gerado_em": "2026-10-11T08:00:16",
+  "atualizado_em": "2026-10-11T11:05:23",
   "totais": {
-    "prog": 13,
+    "prog": 15,
     "carr": 0,
-    "falta": 13,
-    "tn_prev": 541.64,
+    "falta": 15,
+    "tn_prev": 615.64,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 6,
+      "prog": 8,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 249.0,
+      "falta": 8,
+      "tn_prev": 323.0,
       "tn_carr": 0.0
     },
     {
@@ -38,10 +38,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 8,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 249.0,
+      "falta": 8,
+      "tn_prev": 323.0,
       "tn_carr": 0.0
     },
     {
@@ -66,12 +66,21 @@
       "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 8,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 249.0,
+      "falta": 8,
+      "tn_prev": 323.0,
       "tn_carr": 0.0,
       "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
