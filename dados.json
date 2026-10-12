@@ -1,7 +1,7 @@
 {
   "data_relatorio": "12/10/2026",
-  "gerado_em": "2026-10-12T15:00:15",
-  "atualizado_em": "2026-10-12T18:05:24",
+  "gerado_em": "2026-10-12T16:00:08",
+  "atualizado_em": "2026-10-12T19:05:23",
   "totais": {
     "prog": 8,
     "carr": 3,
@@ -12,10 +12,10 @@
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
-      "prog": 6,
+      "prog": 4,
       "carr": 2,
-      "falta": 4,
-      "tn_prev": 228.31,
+      "falta": 2,
+      "tn_prev": 153.31,
       "tn_carr": 77.31
     },
     {
@@ -25,15 +25,23 @@
       "falta": 1,
       "tn_prev": 95.04,
       "tn_carr": 47.04
+    },
+    {
+      "cliente": "BELOCAL (MTZ)",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 75.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 4,
       "carr": 2,
-      "falta": 4,
-      "tn_prev": 228.31,
+      "falta": 2,
+      "tn_prev": 153.31,
       "tn_carr": 77.31
     },
     {
@@ -43,6 +51,14 @@
       "falta": 1,
       "tn_prev": 95.04,
       "tn_carr": 47.04
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 75.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -50,21 +66,12 @@
       "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 4,
       "carr": 2,
-      "falta": 4,
-      "tn_prev": 228.31,
+      "falta": 2,
+      "tn_prev": 153.31,
       "tn_carr": 77.31,
       "transportadoras": [
-        {
-          "nome": "VICTRANS (RJ)",
-          "cnpj": "02830994000441",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 75.0,
-          "tn_carr": 0.0
-        },
         {
           "nome": "MRX TRANSP. (RJ)",
           "cnpj": "26586645000222",
@@ -94,6 +101,27 @@
           "falta": 1,
           "tn_prev": 95.04,
           "tn_carr": 47.04
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "BELOCAL (MTZ)",
+      "produto": "CARVÃO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 75.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 75.0,
+          "tn_carr": 0.0
         }
       ]
     }
