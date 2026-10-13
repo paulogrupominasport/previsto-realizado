@@ -9093,21 +9093,27 @@
     }
   },
   "2026-10-13": {
-    "gerado_em": "2026-10-13T07:00:12",
-    "atualizado_em": "2026-10-13T10:05:23",
+    "gerado_em": "2026-10-13T08:00:04",
+    "atualizado_em": "2026-10-13T11:05:26",
     "totais": {
-      "prog": 41,
-      "carr": 0,
-      "falta": 41,
-      "tn_prev": 1483.0,
-      "tn_carr": 0.0
+      "prog": 46,
+      "carr": 1,
+      "falta": 45,
+      "tn_prev": 1673.76,
+      "tn_carr": 35.76
     },
     "por_cliente": {
       "BRASKEM": {
-        "prog": 18,
+        "prog": 16,
         "carr": 0,
-        "tn_prev": 588.0,
+        "tn_prev": 528.0,
         "tn_carr": 0.0
+      },
+      "ITAMBÉ": {
+        "prog": 13,
+        "carr": 1,
+        "tn_prev": 477.76,
+        "tn_carr": 35.76
       },
       "TRINDADE MINERAÇÃO": {
         "prog": 10,
@@ -9115,16 +9121,10 @@
         "tn_prev": 380.0,
         "tn_carr": 0.0
       },
-      "ITAMBÉ": {
-        "prog": 8,
+      "SUPREMO": {
+        "prog": 4,
         "carr": 0,
-        "tn_prev": 291.0,
-        "tn_carr": 0.0
-      },
-      "PETRORECONCAVO": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 100.0,
+        "tn_prev": 152.0,
         "tn_carr": 0.0
       },
       "CIM. LIZ": {
@@ -9133,18 +9133,18 @@
         "tn_prev": 86.0,
         "tn_carr": 0.0
       },
-      "SUPREMO": {
+      "PETRORECONCAVO": {
         "prog": 1,
         "carr": 0,
-        "tn_prev": 38.0,
+        "tn_prev": 50.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
       "TÉRMICO": {
-        "prog": 18,
+        "prog": 16,
         "carr": 0,
-        "tn_prev": 588.0,
+        "tn_prev": 528.0,
         "tn_carr": 0.0
       },
       "Sinter Feed": {
@@ -9154,27 +9154,27 @@
         "tn_carr": 0.0
       },
       "GESSO": {
-        "prog": 7,
-        "carr": 0,
-        "tn_prev": 246.0,
-        "tn_carr": 0.0
+        "prog": 10,
+        "carr": 1,
+        "tn_prev": 359.76,
+        "tn_carr": 35.76
       },
       "PETCOKE": {
-        "prog": 3,
+        "prog": 5,
         "carr": 0,
-        "tn_prev": 131.0,
-        "tn_carr": 0.0
-      },
-      "PETRÓLEO": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 100.0,
+        "tn_prev": 204.0,
         "tn_carr": 0.0
       },
       "Rivertec": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 152.0,
+        "tn_carr": 0.0
+      },
+      "PETRÓLEO": {
         "prog": 1,
         "carr": 0,
-        "tn_prev": 38.0,
+        "tn_prev": 50.0,
         "tn_carr": 0.0
       }
     }

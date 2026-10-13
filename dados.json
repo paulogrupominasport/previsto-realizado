@@ -1,22 +1,30 @@
 {
   "data_relatorio": "13/10/2026",
-  "gerado_em": "2026-10-13T07:00:12",
-  "atualizado_em": "2026-10-13T10:05:23",
+  "gerado_em": "2026-10-13T08:00:04",
+  "atualizado_em": "2026-10-13T11:05:26",
   "totais": {
-    "prog": 41,
-    "carr": 0,
-    "falta": 41,
-    "tn_prev": 1483.0,
-    "tn_carr": 0.0
+    "prog": 46,
+    "carr": 1,
+    "falta": 45,
+    "tn_prev": 1673.76,
+    "tn_carr": 35.76
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
-      "prog": 18,
+      "prog": 16,
       "carr": 0,
-      "falta": 18,
-      "tn_prev": 588.0,
+      "falta": 16,
+      "tn_prev": 528.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 13,
+      "carr": 1,
+      "falta": 12,
+      "tn_prev": 477.76,
+      "tn_carr": 35.76
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -27,19 +35,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "ITAMBÉ",
-      "prog": 8,
+      "cliente": "SUPREMO",
+      "prog": 4,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 291.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
+      "falta": 4,
+      "tn_prev": 152.0,
       "tn_carr": 0.0
     },
     {
@@ -51,21 +51,21 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "SUPREMO",
+      "cliente": "PETRORECONCAVO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 38.0,
+      "tn_prev": 50.0,
       "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 18,
+      "prog": 16,
       "carr": 0,
-      "falta": 18,
-      "tn_prev": 588.0,
+      "falta": 16,
+      "tn_prev": 528.0,
       "tn_carr": 0.0
     },
     {
@@ -78,34 +78,34 @@
     },
     {
       "produto": "GESSO",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 246.0,
-      "tn_carr": 0.0
+      "prog": 10,
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 359.76,
+      "tn_carr": 35.76
     },
     {
       "produto": "PETCOKE",
-      "prog": 3,
+      "prog": 5,
       "carr": 0,
-      "falta": 3,
-      "tn_prev": 131.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
+      "falta": 5,
+      "tn_prev": 204.0,
       "tn_carr": 0.0
     },
     {
       "produto": "Rivertec",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 152.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "PETRÓLEO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 38.0,
+      "tn_prev": 50.0,
       "tn_carr": 0.0
     }
   ],
@@ -114,10 +114,10 @@
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 14,
+      "prog": 12,
       "carr": 0,
-      "falta": 14,
-      "tn_prev": 475.0,
+      "falta": 12,
+      "tn_prev": 415.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -141,10 +141,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 4,
+          "prog": 2,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 125.0,
+          "falta": 2,
+          "tn_prev": 65.0,
           "tn_carr": 0.0
         },
         {
@@ -183,12 +183,21 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 246.0,
-      "tn_carr": 0.0,
+      "prog": 10,
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 359.76,
+      "tn_carr": 35.76,
       "transportadoras": [
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 114.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
@@ -202,9 +211,60 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 6,
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 215.76,
+          "tn_carr": 35.76
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "SUPREMO",
+      "produto": "Rivertec",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 152.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 4,
           "carr": 0,
-          "falta": 6,
-          "tn_prev": 216.0,
+          "falta": 4,
+          "tn_prev": 152.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 118.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 45.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 73.0,
           "tn_carr": 0.0
         }
       ]
@@ -226,27 +286,6 @@
           "carr": 0,
           "falta": 4,
           "tn_prev": 113.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
           "tn_carr": 0.0
         }
       ]
@@ -282,43 +321,22 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
-      "cliente": "ITAMBÉ",
-      "produto": "PETCOKE",
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 45.0,
+      "tn_prev": 50.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 45.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
-      "cliente": "SUPREMO",
-      "produto": "Rivertec",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
-          "cnpj": "15058185000162",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "tn_prev": 50.0,
           "tn_carr": 0.0
         }
       ]
