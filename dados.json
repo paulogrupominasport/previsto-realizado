@@ -1,23 +1,15 @@
 {
   "data_relatorio": "12/10/2026",
-  "gerado_em": "2026-10-12T21:00:19",
-  "atualizado_em": "2026-10-13T00:05:26",
+  "gerado_em": "2026-10-12T22:00:12",
+  "atualizado_em": "2026-10-13T01:05:24",
   "totais": {
-    "prog": 8,
+    "prog": 6,
     "carr": 5,
-    "falta": 3,
-    "tn_prev": 323.82,
+    "falta": 1,
+    "tn_prev": 247.82,
     "tn_carr": 199.82
   },
   "por_cliente": [
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 153.31,
-      "tn_carr": 77.31
-    },
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
@@ -25,6 +17,14 @@
       "falta": 1,
       "tn_prev": 95.04,
       "tn_carr": 47.04
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 77.31,
+      "tn_carr": 77.31
     },
     {
       "cliente": "BELOCAL (MTZ)",
@@ -37,20 +37,20 @@
   ],
   "por_produto": [
     {
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 153.31,
-      "tn_carr": 77.31
-    },
-    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 1,
       "falta": 1,
       "tn_prev": 95.04,
       "tn_carr": 47.04
+    },
+    {
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 77.31,
+      "tn_carr": 77.31
     },
     {
       "produto": "CARVÃO",
@@ -62,27 +62,6 @@
     }
   ],
   "lotes": [
-    {
-      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 153.31,
-      "tn_carr": 77.31,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 153.31,
-          "tn_carr": 77.31
-        }
-      ]
-    },
     {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
@@ -101,6 +80,27 @@
           "falta": 1,
           "tn_prev": 95.04,
           "tn_carr": 47.04
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 77.31,
+      "tn_carr": 77.31,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 77.31,
+          "tn_carr": 77.31
         }
       ]
     },
