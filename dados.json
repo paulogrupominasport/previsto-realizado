@@ -1,21 +1,21 @@
 {
   "data_relatorio": "13/10/2026",
-  "gerado_em": "2026-10-13T11:00:16",
-  "atualizado_em": "2026-10-13T14:05:28",
+  "gerado_em": "2026-10-13T11:26:11",
+  "atualizado_em": "2026-10-13T14:30:26",
   "totais": {
-    "prog": 57,
-    "carr": 25,
-    "falta": 32,
-    "tn_prev": 2136.04,
-    "tn_carr": 936.23
+    "prog": 64,
+    "carr": 26,
+    "falta": 38,
+    "tn_prev": 2371.31,
+    "tn_carr": 974.5
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 17,
+      "prog": 23,
       "carr": 10,
-      "falta": 7,
-      "tn_prev": 649.14,
+      "falta": 13,
+      "tn_prev": 846.14,
       "tn_carr": 394.14
     },
     {
@@ -29,17 +29,17 @@
     {
       "cliente": "BRASKEM",
       "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 449.16,
-      "tn_carr": 341.35
+      "carr": 11,
+      "falta": 2,
+      "tn_prev": 449.43,
+      "tn_carr": 379.62
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 4,
+      "prog": 5,
       "carr": 1,
-      "falta": 3,
-      "tn_prev": 170.36,
+      "falta": 4,
+      "tn_prev": 208.36,
       "tn_carr": 49.36
     },
     {
@@ -69,6 +69,14 @@
   ],
   "por_produto": [
     {
+      "produto": "GESSO",
+      "prog": 18,
+      "carr": 7,
+      "falta": 11,
+      "tn_prev": 651.8,
+      "tn_carr": 271.8
+    },
+    {
       "produto": "Sinter Feed",
       "prog": 15,
       "carr": 0,
@@ -77,28 +85,20 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "GESSO",
-      "prog": 15,
-      "carr": 7,
-      "falta": 8,
-      "tn_prev": 549.8,
-      "tn_carr": 271.8
+      "produto": "PETCOKE",
+      "prog": 13,
+      "carr": 4,
+      "falta": 9,
+      "tn_prev": 498.7,
+      "tn_carr": 171.7
     },
     {
       "produto": "TÉRMICO",
       "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 449.16,
-      "tn_carr": 341.35
-    },
-    {
-      "produto": "PETCOKE",
-      "prog": 9,
-      "carr": 4,
-      "falta": 5,
-      "tn_prev": 365.7,
-      "tn_carr": 171.7
+      "carr": 11,
+      "falta": 2,
+      "tn_prev": 449.43,
+      "tn_carr": 379.62
     },
     {
       "produto": "Rivertec",
@@ -143,10 +143,10 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 12,
+      "prog": 15,
       "carr": 7,
-      "falta": 5,
-      "tn_prev": 453.8,
+      "falta": 8,
+      "tn_prev": 555.8,
       "tn_carr": 271.8,
       "transportadoras": [
         {
@@ -161,19 +161,19 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 47.9,
+          "falta": 1,
+          "tn_prev": 77.9,
           "tn_carr": 47.9
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 7,
+          "prog": 9,
           "carr": 3,
-          "falta": 4,
-          "tn_prev": 250.22,
+          "falta": 6,
+          "tn_prev": 322.22,
           "tn_carr": 106.22
         }
       ]
@@ -230,28 +230,28 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 5,
+      "prog": 8,
       "carr": 3,
-      "falta": 2,
-      "tn_prev": 195.34,
+      "falta": 5,
+      "tn_prev": 290.34,
       "tn_carr": 122.34,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 73.0,
           "tn_carr": 0.0
         },
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 2,
+          "prog": 4,
           "carr": 1,
-          "falta": 1,
-          "tn_prev": 82.86,
+          "falta": 3,
+          "tn_prev": 142.86,
           "tn_carr": 47.86
         },
         {
@@ -269,19 +269,19 @@
       "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 4,
+      "prog": 5,
       "carr": 1,
-      "falta": 3,
-      "tn_prev": 170.36,
+      "falta": 4,
+      "tn_prev": 208.36,
       "tn_carr": 49.36,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
+          "falta": 2,
+          "tn_prev": 86.0,
           "tn_carr": 0.0
         },
         {
@@ -360,19 +360,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 71.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 71.27,
+      "tn_carr": 38.27,
       "transportadoras": [
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 71.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 71.27,
+          "tn_carr": 38.27
         }
       ]
     },
