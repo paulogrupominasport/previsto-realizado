@@ -1,12 +1,12 @@
 {
   "data_relatorio": "14/10/2026",
-  "gerado_em": "2026-10-14T19:00:11",
-  "atualizado_em": "2026-10-14T22:05:25",
+  "gerado_em": "2026-10-14T20:00:18",
+  "atualizado_em": "2026-10-14T23:05:32",
   "totais": {
-    "prog": 89,
+    "prog": 86,
     "carr": 80,
-    "falta": 9,
-    "tn_prev": 3313.48,
+    "falta": 6,
+    "tn_prev": 3199.48,
     "tn_carr": 3049.56
   },
   "por_cliente": [
@@ -25,14 +25,6 @@
       "falta": 0,
       "tn_prev": 207.86,
       "tn_carr": 247.08
-    },
-    {
-      "cliente": "BELOCAL (MTZ)",
-      "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 200.37,
-      "tn_carr": 86.37
     },
     {
       "cliente": "BRASKEM",
@@ -91,6 +83,14 @@
       "tn_carr": 47.24
     },
     {
+      "cliente": "BELOCAL (MTZ)",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 86.37,
+      "tn_carr": 86.37
+    },
+    {
       "cliente": "CSN V. REDONDA",
       "prog": 2,
       "carr": 2,
@@ -134,10 +134,10 @@
     },
     {
       "produto": "CARVÃO",
-      "prog": 11,
+      "prog": 8,
       "carr": 8,
-      "falta": 3,
-      "tn_prev": 408.23,
+      "falta": 0,
+      "tn_prev": 294.23,
       "tn_carr": 333.45
     },
     {
@@ -314,36 +314,6 @@
           "falta": 0,
           "tn_prev": 32.61,
           "tn_carr": 32.61
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "BELOCAL (MTZ)",
-      "produto": "CARVÃO",
-      "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 200.37,
-      "tn_carr": 86.37,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 86.37,
-          "tn_carr": 86.37
         }
       ]
     },
@@ -530,6 +500,27 @@
           "falta": 0,
           "tn_prev": 93.0,
           "tn_carr": 94.09
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "BELOCAL (MTZ)",
+      "produto": "CARVÃO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 86.37,
+      "tn_carr": 86.37,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 86.37,
+          "tn_carr": 86.37
         }
       ]
     },
