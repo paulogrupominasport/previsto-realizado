@@ -1,29 +1,29 @@
 {
   "data_relatorio": "14/10/2026",
-  "gerado_em": "2026-10-14T16:00:12",
-  "atualizado_em": "2026-10-14T19:05:24",
+  "gerado_em": "2026-10-14T17:00:06",
+  "atualizado_em": "2026-10-14T20:05:28",
   "totais": {
-    "prog": 85,
-    "carr": 65,
-    "falta": 20,
-    "tn_prev": 3192.48,
-    "tn_carr": 2469.34
+    "prog": 87,
+    "carr": 74,
+    "falta": 13,
+    "tn_prev": 3229.51,
+    "tn_carr": 2821.59
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 44,
-      "carr": 34,
-      "falta": 10,
-      "tn_prev": 1630.33,
-      "tn_carr": 1269.33
+      "prog": 45,
+      "carr": 40,
+      "falta": 5,
+      "tn_prev": 1668.56,
+      "tn_carr": 1488.56
     },
     {
       "cliente": "CIM LIZ",
       "prog": 6,
       "carr": 6,
       "falta": 0,
-      "tn_prev": 247.08,
+      "tn_prev": 207.86,
       "tn_carr": 247.08
     },
     {
@@ -33,6 +33,14 @@
       "falta": 0,
       "tn_prev": 192.0,
       "tn_carr": 199.61
+    },
+    {
+      "cliente": "INTERCEMENT IJACI",
+      "prog": 4,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 171.02,
+      "tn_carr": 133.02
     },
     {
       "cliente": "BELOCAL (MTZ)",
@@ -57,14 +65,6 @@
       "falta": 0,
       "tn_prev": 146.38,
       "tn_carr": 146.38
-    },
-    {
-      "cliente": "INTERCEMENT IJACI",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 133.0,
-      "tn_carr": 0.0
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -118,26 +118,26 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 30,
-      "carr": 24,
-      "falta": 6,
-      "tn_prev": 1142.12,
-      "tn_carr": 935.12
+      "prog": 31,
+      "carr": 28,
+      "falta": 3,
+      "tn_prev": 1181.22,
+      "tn_carr": 1083.22
     },
     {
       "produto": "GESSO",
-      "prog": 28,
-      "carr": 20,
-      "falta": 8,
-      "tn_prev": 1017.63,
-      "tn_carr": 731.88
+      "prog": 29,
+      "carr": 25,
+      "falta": 4,
+      "tn_prev": 1054.78,
+      "tn_carr": 936.03
     },
     {
       "produto": "CARVÃO",
       "prog": 10,
       "carr": 7,
       "falta": 3,
-      "tn_prev": 399.18,
+      "tn_prev": 359.96,
       "tn_carr": 285.18
     },
     {
@@ -186,20 +186,20 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 23,
-      "carr": 18,
-      "falta": 5,
-      "tn_prev": 848.99,
-      "tn_carr": 673.99,
+      "prog": 24,
+      "carr": 22,
+      "falta": 2,
+      "tn_prev": 888.09,
+      "tn_carr": 822.09,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 6,
-          "carr": 5,
-          "falta": 1,
-          "tn_prev": 228.07,
-          "tn_carr": 193.07
+          "carr": 6,
+          "falta": 0,
+          "tn_prev": 227.75,
+          "tn_carr": 227.75
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -213,11 +213,11 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 7,
-          "carr": 3,
-          "falta": 4,
-          "tn_prev": 251.96,
-          "tn_carr": 111.96
+          "prog": 8,
+          "carr": 6,
+          "falta": 2,
+          "tn_prev": 291.38,
+          "tn_carr": 225.38
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -235,10 +235,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 21,
-      "carr": 16,
-      "falta": 5,
-      "tn_prev": 781.34,
-      "tn_carr": 595.34,
+      "carr": 18,
+      "falta": 3,
+      "tn_prev": 780.47,
+      "tn_carr": 666.47,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -271,10 +271,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 6,
-          "falta": 2,
-          "tn_prev": 293.41,
-          "tn_carr": 221.41
+          "carr": 8,
+          "falta": 0,
+          "tn_prev": 292.54,
+          "tn_carr": 292.54
         }
       ]
     },
@@ -285,7 +285,7 @@
       "prog": 6,
       "carr": 6,
       "falta": 0,
-      "tn_prev": 247.08,
+      "tn_prev": 207.86,
       "tn_carr": 247.08,
       "transportadoras": [
         {
@@ -303,7 +303,7 @@
           "prog": 3,
           "carr": 3,
           "falta": 0,
-          "tn_prev": 117.04,
+          "tn_prev": 77.82,
           "tn_carr": 117.04
         },
         {
@@ -314,6 +314,36 @@
           "falta": 0,
           "tn_prev": 32.61,
           "tn_carr": 32.61
+        }
+      ]
+    },
+    {
+      "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "INTERCEMENT IJACI",
+      "produto": "GESSO",
+      "prog": 4,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 171.02,
+      "tn_carr": 133.02,
+      "transportadoras": [
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 132.6,
+          "tn_carr": 94.6
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.42,
+          "tn_carr": 38.42
         }
       ]
     },
@@ -395,36 +425,6 @@
           "falta": 0,
           "tn_prev": 96.54,
           "tn_carr": 96.54
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "INTERCEMENT IJACI",
-      "produto": "GESSO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 133.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
-          "tn_carr": 0.0
         }
       ]
     },
