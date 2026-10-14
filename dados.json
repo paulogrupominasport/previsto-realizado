@@ -1,22 +1,22 @@
 {
   "data_relatorio": "14/10/2026",
-  "gerado_em": "2026-10-14T15:00:05",
-  "atualizado_em": "2026-10-14T18:05:26",
+  "gerado_em": "2026-10-14T16:00:12",
+  "atualizado_em": "2026-10-14T19:05:24",
   "totais": {
-    "prog": 81,
-    "carr": 59,
-    "falta": 22,
-    "tn_prev": 3028.82,
-    "tn_carr": 2222.68
+    "prog": 85,
+    "carr": 65,
+    "falta": 20,
+    "tn_prev": 3192.48,
+    "tn_carr": 2469.34
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 42,
-      "carr": 32,
+      "prog": 44,
+      "carr": 34,
       "falta": 10,
-      "tn_prev": 1558.66,
-      "tn_carr": 1199.66
+      "tn_prev": 1630.33,
+      "tn_carr": 1269.33
     },
     {
       "cliente": "CIM LIZ",
@@ -53,10 +53,18 @@
     {
       "cliente": "CSN (ARCOS)",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 147.84,
-      "tn_carr": 49.84
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 146.38,
+      "tn_carr": 146.38
+    },
+    {
+      "cliente": "INTERCEMENT IJACI",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 133.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -77,10 +85,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 98.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.24,
+      "tn_carr": 47.24
     },
     {
       "cliente": "CSN V. REDONDA",
@@ -101,36 +109,28 @@
     {
       "cliente": "CSN CANTAGALO",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 65.0,
-      "tn_carr": 33.25
-    },
-    {
-      "cliente": "INTERCEMENT IJACI",
-      "prog": 1,
-      "carr": 0,
+      "carr": 2,
       "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0
+      "tn_prev": 65.21,
+      "tn_carr": 66.46
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 28,
-      "carr": 21,
-      "falta": 7,
-      "tn_prev": 1069.37,
-      "tn_carr": 805.37
+      "prog": 30,
+      "carr": 24,
+      "falta": 6,
+      "tn_prev": 1142.12,
+      "tn_carr": 935.12
     },
     {
       "produto": "GESSO",
-      "prog": 26,
-      "carr": 18,
+      "prog": 28,
+      "carr": 20,
       "falta": 8,
-      "tn_prev": 923.96,
-      "tn_carr": 662.21
+      "tn_prev": 1017.63,
+      "tn_carr": 731.88
     },
     {
       "produto": "CARVÃO",
@@ -167,10 +167,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 98.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.24,
+      "tn_carr": 47.24
     },
     {
       "produto": "Sinter Feed",
@@ -183,14 +183,62 @@
   ],
   "lotes": [
     {
+      "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 23,
+      "carr": 18,
+      "falta": 5,
+      "tn_prev": 848.99,
+      "tn_carr": 673.99,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
+          "prog": 6,
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 228.07,
+          "tn_carr": 193.07
+        },
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 67.08,
+          "tn_carr": 67.08
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 7,
+          "carr": 3,
+          "falta": 4,
+          "tn_prev": 251.96,
+          "tn_carr": 111.96
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 8,
+          "carr": 8,
+          "falta": 0,
+          "tn_prev": 301.88,
+          "tn_carr": 301.88
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 21,
-      "carr": 14,
-      "falta": 7,
-      "tn_prev": 783.67,
-      "tn_carr": 525.67,
+      "carr": 16,
+      "falta": 5,
+      "tn_prev": 781.34,
+      "tn_carr": 595.34,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -223,58 +271,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 4,
-          "falta": 4,
-          "tn_prev": 295.74,
-          "tn_carr": 151.74
-        }
-      ]
-    },
-    {
-      "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
-      "cliente": "ITAMBÉ",
-      "produto": "PETCOKE",
-      "prog": 21,
-      "carr": 18,
-      "falta": 3,
-      "tn_prev": 774.99,
-      "tn_carr": 673.99,
-      "transportadoras": [
-        {
-          "nome": "TRANSP. TELLES (SC)",
-          "cnpj": "78266228000115",
-          "prog": 6,
-          "carr": 5,
-          "falta": 1,
-          "tn_prev": 228.07,
-          "tn_carr": 193.07
-        },
-        {
-          "nome": "TRANSP. BONTORIN (SC)",
-          "cnpj": "81429755000299",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 67.08,
-          "tn_carr": 67.08
-        },
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 5,
-          "carr": 3,
+          "carr": 6,
           "falta": 2,
-          "tn_prev": 177.96,
-          "tn_carr": 111.96
-        },
-        {
-          "nome": "H.R. TRANSP. (SC)",
-          "cnpj": "79838694000190",
-          "prog": 8,
-          "carr": 8,
-          "falta": 0,
-          "tn_prev": 301.88,
-          "tn_carr": 301.88
+          "tn_prev": 293.41,
+          "tn_carr": 221.41
         }
       ]
     },
@@ -373,10 +373,10 @@
       "cliente": "CSN (ARCOS)",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 147.84,
-      "tn_carr": 49.84,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 146.38,
+      "tn_carr": 146.38,
       "transportadoras": [
         {
           "nome": "UNIÃO LOG (SC)",
@@ -391,9 +391,39 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 96.54,
+          "tn_carr": 96.54
+        }
+      ]
+    },
+    {
+      "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "INTERCEMENT IJACI",
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 133.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 2,
           "carr": 0,
           "falta": 2,
-          "tn_prev": 98.0,
+          "tn_prev": 96.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 37.0,
           "tn_carr": 0.0
         }
       ]
@@ -466,19 +496,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 98.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.24,
+      "tn_carr": 47.24,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 98.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.24,
+          "tn_carr": 47.24
         }
       ]
     },
@@ -550,40 +580,19 @@
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 65.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 65.21,
+      "tn_carr": 33.21,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 65.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "INTERCEMENT IJACI - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "INTERCEMENT IJACI",
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 1,
-          "carr": 0,
+          "carr": 1,
           "falta": 1,
-          "tn_prev": 37.0,
-          "tn_carr": 0.0
+          "tn_prev": 65.21,
+          "tn_carr": 33.21
         }
       ]
     },
