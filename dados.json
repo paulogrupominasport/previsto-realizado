@@ -1,30 +1,30 @@
 {
   "data_relatorio": "14/10/2026",
-  "gerado_em": "2026-10-14T09:00:17",
-  "atualizado_em": "2026-10-14T12:05:26",
+  "gerado_em": "2026-10-14T10:00:14",
+  "atualizado_em": "2026-10-14T13:05:27",
   "totais": {
-    "prog": 61,
-    "carr": 12,
-    "falta": 49,
-    "tn_prev": 2273.29,
-    "tn_carr": 437.71
+    "prog": 65,
+    "carr": 21,
+    "falta": 44,
+    "tn_prev": 2406.52,
+    "tn_carr": 770.94
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 30,
-      "carr": 7,
-      "falta": 23,
-      "tn_prev": 1110.24,
-      "tn_carr": 264.24
+      "prog": 32,
+      "carr": 14,
+      "falta": 18,
+      "tn_prev": 1171.56,
+      "tn_carr": 516.56
     },
     {
       "cliente": "CIM LIZ",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 214.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 214.91,
+      "tn_carr": 80.91
     },
     {
       "cliente": "BRASKEM",
@@ -92,37 +92,45 @@
     },
     {
       "cliente": "CSN CANTAGALO",
-      "prog": 1,
+      "prog": 2,
       "carr": 1,
-      "falta": 0,
-      "tn_prev": 33.25,
+      "falta": 1,
+      "tn_prev": 66.25,
       "tn_carr": 33.25
+    },
+    {
+      "cliente": "BELOCAL (MTZ)",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 22,
-      "carr": 4,
+      "prog": 25,
+      "carr": 7,
       "falta": 18,
-      "tn_prev": 843.36,
-      "tn_carr": 151.36
+      "tn_prev": 945.75,
+      "tn_carr": 261.75
     },
     {
       "produto": "GESSO",
       "prog": 17,
-      "carr": 4,
-      "falta": 13,
-      "tn_prev": 618.13,
-      "tn_carr": 146.13
+      "carr": 8,
+      "falta": 9,
+      "tn_prev": 610.06,
+      "tn_carr": 288.06
     },
     {
       "produto": "CARVÃO",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 214.0,
-      "tn_carr": 0.0
+      "prog": 7,
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 252.91,
+      "tn_carr": 80.91
     },
     {
       "produto": "TÉRMICO",
@@ -170,20 +178,20 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 17,
-      "carr": 4,
-      "falta": 13,
-      "tn_prev": 621.36,
-      "tn_carr": 151.36,
+      "prog": 19,
+      "carr": 7,
+      "falta": 12,
+      "tn_prev": 690.75,
+      "tn_carr": 261.75,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 149.0,
-          "tn_carr": 0.0
+          "prog": 5,
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 185.43,
+          "tn_carr": 71.43
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -197,11 +205,11 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 3,
-          "carr": 0,
+          "prog": 4,
+          "carr": 1,
           "falta": 3,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "tn_prev": 128.96,
+          "tn_carr": 38.96
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -219,19 +227,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 13,
-      "carr": 3,
-      "falta": 10,
-      "tn_prev": 488.88,
-      "tn_carr": 112.88,
+      "carr": 7,
+      "falta": 6,
+      "tn_prev": 480.81,
+      "tn_carr": 254.81,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 190.8,
-          "tn_carr": 76.8
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 189.32,
+          "tn_carr": 151.32
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -246,19 +254,19 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 188.08,
-          "tn_carr": 36.08
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 182.95,
+          "tn_carr": 68.95
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 72.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 70.54,
+          "tn_carr": 34.54
         }
       ]
     },
@@ -267,19 +275,19 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 214.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 214.91,
+      "tn_carr": 80.91,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 68.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 68.3,
+          "tn_carr": 48.3
         },
         {
           "nome": "MRX TRANSP. (RJ)",
@@ -294,10 +302,10 @@
           "nome": "DC4 TRANSP. (RJ)",
           "cnpj": "41539746000317",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 32.61,
+          "tn_carr": 32.61
         }
       ]
     },
@@ -500,6 +508,27 @@
       ]
     },
     {
+      "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "BELOCAL (MTZ)",
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN CANTAGALO",
       "produto": "GESSO",
@@ -517,6 +546,27 @@
           "falta": 0,
           "tn_prev": 33.25,
           "tn_carr": 33.25
+        }
+      ]
+    },
+    {
+      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - LETO+VARREDURA - PILHA 57",
+      "cliente": "CSN CANTAGALO",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 33.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 33.0,
+          "tn_carr": 0.0
         }
       ]
     }
