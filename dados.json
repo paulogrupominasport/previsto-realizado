@@ -1,12 +1,12 @@
 {
   "data_relatorio": "15/10/2026",
-  "gerado_em": "2026-10-15T07:33:27",
-  "atualizado_em": "2026-10-15T10:35:35",
+  "gerado_em": "2026-10-15T08:00:05",
+  "atualizado_em": "2026-10-15T11:05:23",
   "totais": {
-    "prog": 87,
+    "prog": 85,
     "carr": 0,
-    "falta": 87,
-    "tn_prev": 3424.82,
+    "falta": 85,
+    "tn_prev": 3350.82,
     "tn_carr": 0.0
   },
   "por_cliente": [
@@ -91,14 +91,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CIM. LIZ",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 74.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN CANTAGALO",
       "prog": 1,
       "carr": 0,
@@ -117,19 +109,19 @@
   ],
   "por_produto": [
     {
-      "produto": "PETCOKE",
-      "prog": 24,
-      "carr": 0,
-      "falta": 24,
-      "tn_prev": 974.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "GESSO",
       "prog": 25,
       "carr": 0,
       "falta": 25,
       "tn_prev": 972.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "PETCOKE",
+      "prog": 22,
+      "carr": 0,
+      "falta": 22,
+      "tn_prev": 900.0,
       "tn_carr": 0.0
     },
     {
@@ -428,27 +420,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 100.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 74.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
           "tn_carr": 0.0
         }
       ]
