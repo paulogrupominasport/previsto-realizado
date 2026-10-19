@@ -1,22 +1,22 @@
 {
   "data_relatorio": "19/10/2026",
-  "gerado_em": "2026-10-19T14:00:13",
-  "atualizado_em": "2026-10-19T17:05:25",
+  "gerado_em": "2026-10-19T15:00:19",
+  "atualizado_em": "2026-10-19T18:05:26",
   "totais": {
-    "prog": 64,
-    "carr": 19,
-    "falta": 45,
-    "tn_prev": 2347.95,
-    "tn_carr": 707.95
+    "prog": 72,
+    "carr": 28,
+    "falta": 44,
+    "tn_prev": 2641.36,
+    "tn_carr": 1057.36
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 24,
-      "carr": 14,
-      "falta": 10,
-      "tn_prev": 894.19,
-      "tn_carr": 505.19
+      "prog": 30,
+      "carr": 15,
+      "falta": 15,
+      "tn_prev": 1114.27,
+      "tn_carr": 553.27
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -28,19 +28,19 @@
     },
     {
       "cliente": "NASSAU",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 160.0,
-      "tn_carr": 0.0
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 207.93,
+      "tn_carr": 139.93
     },
     {
       "cliente": "SUPREMO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 153.9,
-      "tn_carr": 115.9
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 154.18,
+      "tn_carr": 154.18
     },
     {
       "cliente": "INTERCEMENT IJACI",
@@ -61,10 +61,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.11,
+      "tn_carr": 47.11
     },
     {
       "cliente": "CIM. LIZ",
@@ -91,38 +91,46 @@
       "tn_carr": 48.12
     },
     {
-      "cliente": "CIM LIZ",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "PROQUIGEL",
       "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.34,
+      "tn_carr": 38.34
+    },
+    {
+      "cliente": "CIM LIZ",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.67,
+      "tn_carr": 37.67
+    },
+    {
+      "cliente": "BELLUNO",
+      "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 37.0,
+      "tn_prev": 27.0,
       "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 24,
-      "carr": 12,
-      "falta": 12,
-      "tn_prev": 853.99,
-      "tn_carr": 421.99
+      "prog": 31,
+      "carr": 16,
+      "falta": 15,
+      "tn_prev": 1121.92,
+      "tn_carr": 561.92
     },
     {
       "produto": "PETCOKE",
       "prog": 14,
-      "carr": 3,
-      "falta": 11,
-      "tn_prev": 580.32,
-      "tn_carr": 131.32
+      "carr": 4,
+      "falta": 10,
+      "tn_prev": 580.4,
+      "tn_carr": 179.4
     },
     {
       "produto": "Sinter Feed",
@@ -135,18 +143,18 @@
     {
       "produto": "Rivertec",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 153.9,
-      "tn_carr": 115.9
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 154.18,
+      "tn_carr": 154.18
     },
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.11,
+      "tn_carr": 47.11
     },
     {
       "produto": "Antracito Phoenician",
@@ -157,23 +165,61 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "Enxofre",
       "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.34,
+      "tn_carr": 38.34
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.67,
+      "tn_carr": 37.67
+    },
+    {
+      "produto": "Premium Hvb",
+      "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 37.0,
+      "tn_prev": 27.0,
       "tn_carr": 0.0
     }
   ],
   "lotes": [
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 19,
+      "carr": 12,
+      "falta": 7,
+      "tn_prev": 677.99,
+      "tn_carr": 421.99,
+      "transportadoras": [
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 146.22,
+          "tn_carr": 70.22
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 15,
+          "carr": 10,
+          "falta": 5,
+          "tn_prev": 531.77,
+          "tn_carr": 351.77
+        }
+      ]
+    },
     {
       "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
       "cliente": "TRINDADE MINERAÇÃO",
@@ -196,44 +242,14 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
-      "prog": 13,
-      "carr": 12,
-      "falta": 1,
-      "tn_prev": 457.99,
-      "tn_carr": 421.99,
-      "transportadoras": [
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 70.22,
-          "tn_carr": 70.22
-        },
-        {
-          "nome": "H.R. TRANSP. (SC)",
-          "cnpj": "79838694000190",
-          "prog": 11,
-          "carr": 10,
-          "falta": 1,
-          "tn_prev": 387.77,
-          "tn_carr": 351.77
-        }
-      ]
-    },
-    {
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 2,
-      "falta": 9,
-      "tn_prev": 436.2,
-      "tn_carr": 83.2,
+      "carr": 3,
+      "falta": 8,
+      "tn_prev": 436.28,
+      "tn_carr": 131.28,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -257,10 +273,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 318.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 7,
+          "tn_prev": 318.08,
+          "tn_carr": 48.08
         }
       ]
     },
@@ -268,20 +284,20 @@
       "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "NASSAU",
       "produto": "GESSO",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 160.0,
-      "tn_carr": 0.0,
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 207.93,
+      "tn_carr": 139.93,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
-          "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 160.0,
-          "tn_carr": 0.0
+          "prog": 6,
+          "carr": 4,
+          "falta": 2,
+          "tn_prev": 207.93,
+          "tn_carr": 139.93
         }
       ]
     },
@@ -290,19 +306,19 @@
       "cliente": "SUPREMO",
       "produto": "Rivertec",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 153.9,
-      "tn_carr": 115.9,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 154.18,
+      "tn_carr": 154.18,
       "transportadoras": [
         {
           "nome": "PARAISO TRANSP. DE FERTILIZANTES",
           "cnpj": "15058185000162",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 153.9,
-          "tn_carr": 115.9
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 154.18,
+          "tn_carr": 154.18
         }
       ]
     },
@@ -353,19 +369,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 97.111,
+      "tn_carr": 47.111,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.111,
+          "tn_carr": 47.111
         }
       ]
     },
@@ -433,43 +449,64 @@
       ]
     },
     {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSP. (RJ)",
-          "cnpj": "41539746000317",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "PROQUIGEL - ENXOFRE - PILHA 57",
       "cliente": "PROQUIGEL",
       "produto": "Enxofre",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.34,
+      "tn_carr": 38.34,
       "transportadoras": [
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
           "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.34,
+          "tn_carr": 38.34
+        }
+      ]
+    },
+    {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.67,
+      "tn_carr": 37.67,
+      "transportadoras": [
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.67,
+          "tn_carr": 37.67
+        }
+      ]
+    },
+    {
+      "lote": "BELLUNO - PREMIUM HVB - PACIFIC TALENT - PILHA 91",
+      "cliente": "BELLUNO",
+      "produto": "Premium Hvb",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 27.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 37.0,
+          "tn_prev": 27.0,
           "tn_carr": 0.0
         }
       ]
