@@ -1,38 +1,38 @@
 {
   "data_relatorio": "19/10/2026",
-  "gerado_em": "2026-10-19T16:00:13",
-  "atualizado_em": "2026-10-19T19:05:29",
+  "gerado_em": "2026-10-19T17:00:11",
+  "atualizado_em": "2026-10-19T20:05:25",
   "totais": {
-    "prog": 73,
-    "carr": 32,
-    "falta": 41,
-    "tn_prev": 2678.35,
-    "tn_carr": 1201.35
+    "prog": 74,
+    "carr": 40,
+    "falta": 34,
+    "tn_prev": 2719.51,
+    "tn_carr": 1505.51
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 31,
-      "carr": 19,
-      "falta": 12,
-      "tn_prev": 1151.26,
-      "tn_carr": 697.26
+      "prog": 34,
+      "carr": 24,
+      "falta": 10,
+      "tn_prev": 1265.02,
+      "tn_carr": 887.02
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 13,
+      "prog": 11,
       "carr": 1,
-      "falta": 12,
-      "tn_prev": 494.74,
+      "falta": 10,
+      "tn_prev": 418.74,
       "tn_carr": 38.74
     },
     {
       "cliente": "NASSAU",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 207.93,
-      "tn_carr": 139.93
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 209.79,
+      "tn_carr": 177.79
     },
     {
       "cliente": "SUPREMO",
@@ -45,10 +45,10 @@
     {
       "cliente": "INTERCEMENT IJACI",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 134.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 135.54,
+      "tn_carr": 49.54
     },
     {
       "cliente": "CSN BARROSO",
@@ -109,35 +109,35 @@
     {
       "cliente": "BELLUNO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 27.0,
-      "tn_carr": 0.0
+      "tn_carr": 27.0
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 32,
-      "carr": 18,
-      "falta": 14,
-      "tn_prev": 1158.84,
-      "tn_carr": 632.84
+      "prog": 35,
+      "carr": 23,
+      "falta": 12,
+      "tn_prev": 1271.84,
+      "tn_carr": 831.84
     },
     {
       "produto": "PETCOKE",
       "prog": 14,
-      "carr": 6,
-      "falta": 8,
-      "tn_prev": 580.47,
-      "tn_carr": 252.47
+      "carr": 8,
+      "falta": 6,
+      "tn_prev": 584.63,
+      "tn_carr": 330.63
     },
     {
       "produto": "Sinter Feed",
-      "prog": 13,
+      "prog": 11,
       "carr": 1,
-      "falta": 12,
-      "tn_prev": 494.74,
+      "falta": 10,
+      "tn_prev": 418.74,
       "tn_carr": 38.74
     },
     {
@@ -183,10 +183,10 @@
     {
       "produto": "Premium Hvb",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 27.0,
-      "tn_carr": 0.0
+      "tn_carr": 27.0
     }
   ],
   "lotes": [
@@ -194,50 +194,29 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 20,
-      "carr": 14,
+      "prog": 23,
+      "carr": 17,
       "falta": 6,
-      "tn_prev": 714.91,
-      "tn_carr": 492.91,
+      "tn_prev": 824.51,
+      "tn_carr": 604.51,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 184.22,
-          "tn_carr": 70.22
+          "prog": 6,
+          "carr": 4,
+          "falta": 2,
+          "tn_prev": 222.42,
+          "tn_carr": 146.42
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 15,
-          "carr": 12,
-          "falta": 3,
-          "tn_prev": 530.69,
-          "tn_carr": 422.69
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 13,
-      "carr": 1,
-      "falta": 12,
-      "tn_prev": 494.74,
-      "tn_carr": 38.74,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 13,
-          "carr": 1,
-          "falta": 12,
-          "tn_prev": 494.74,
-          "tn_carr": 38.74
+          "prog": 17,
+          "carr": 13,
+          "falta": 4,
+          "tn_prev": 602.09,
+          "tn_carr": 458.09
         }
       ]
     },
@@ -246,10 +225,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 5,
-      "falta": 6,
-      "tn_prev": 436.35,
-      "tn_carr": 204.35,
+      "carr": 7,
+      "falta": 4,
+      "tn_prev": 440.51,
+      "tn_carr": 282.51,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -273,10 +252,31 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 2,
-          "falta": 6,
-          "tn_prev": 317.7,
-          "tn_carr": 85.7
+          "carr": 4,
+          "falta": 4,
+          "tn_prev": 321.86,
+          "tn_carr": 163.86
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 11,
+      "carr": 1,
+      "falta": 10,
+      "tn_prev": 418.74,
+      "tn_carr": 38.74,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 11,
+          "carr": 1,
+          "falta": 10,
+          "tn_prev": 418.74,
+          "tn_carr": 38.74
         }
       ]
     },
@@ -285,19 +285,19 @@
       "cliente": "NASSAU",
       "produto": "GESSO",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 207.93,
-      "tn_carr": 139.93,
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 209.79,
+      "tn_carr": 177.79,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 207.93,
-          "tn_carr": 139.93
+          "carr": 5,
+          "falta": 1,
+          "tn_prev": 209.79,
+          "tn_carr": 177.79
         }
       ]
     },
@@ -327,19 +327,19 @@
       "cliente": "INTERCEMENT IJACI",
       "produto": "GESSO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 134.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 135.54,
+      "tn_carr": 49.54,
       "transportadoras": [
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 134.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 135.54,
+          "tn_carr": 49.54
         }
       ]
     },
@@ -495,19 +495,19 @@
       "cliente": "BELLUNO",
       "produto": "Premium Hvb",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 27.0,
-      "tn_carr": 0.0,
+      "tn_carr": 27.0,
       "transportadoras": [
         {
           "nome": "BELLUNO (SC)",
           "cnpj": "83163576000105",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 27.0,
-          "tn_carr": 0.0
+          "tn_carr": 27.0
         }
       ]
     }
