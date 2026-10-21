@@ -1,22 +1,22 @@
 {
   "data_relatorio": "21/10/2026",
-  "gerado_em": "2026-10-21T18:00:14",
-  "atualizado_em": "2026-10-21T21:05:27",
+  "gerado_em": "2026-10-21T19:00:05",
+  "atualizado_em": "2026-10-21T22:06:43",
   "totais": {
-    "prog": 100,
-    "carr": 81,
-    "falta": 19,
-    "tn_prev": 3559.2,
-    "tn_carr": 2991.26
+    "prog": 97,
+    "carr": 82,
+    "falta": 15,
+    "tn_prev": 3445.74,
+    "tn_carr": 3027.8
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 21,
-      "carr": 20,
-      "falta": 1,
-      "tn_prev": 796.47,
-      "tn_carr": 760.47
+      "carr": 21,
+      "falta": 0,
+      "tn_prev": 797.01,
+      "tn_carr": 797.01
     },
     {
       "cliente": "CIM LIZ",
@@ -43,14 +43,6 @@
       "tn_carr": 349.47
     },
     {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 266.59,
-      "tn_carr": 38.59
-    },
-    {
       "cliente": "CARBOBRAS",
       "prog": 12,
       "carr": 9,
@@ -73,6 +65,14 @@
       "falta": 0,
       "tn_prev": 193.74,
       "tn_carr": 193.74
+    },
+    {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 4,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 152.59,
+      "tn_carr": 38.59
     },
     {
       "cliente": "**CIM. LIZ",
@@ -111,10 +111,10 @@
     {
       "produto": "PETCOKE",
       "prog": 21,
-      "carr": 20,
-      "falta": 1,
-      "tn_prev": 799.16,
-      "tn_carr": 804.09
+      "carr": 21,
+      "falta": 0,
+      "tn_prev": 799.7,
+      "tn_carr": 840.63
     },
     {
       "produto": "CARVÃO",
@@ -133,20 +133,20 @@
       "tn_carr": 349.47
     },
     {
-      "produto": "Sinter Feed",
-      "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 266.59,
-      "tn_carr": 38.59
-    },
-    {
       "produto": "Antracito Phoenician",
       "prog": 12,
       "carr": 9,
       "falta": 3,
       "tn_prev": 242.79,
       "tn_carr": 191.9
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 4,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 152.59,
+      "tn_carr": 38.59
     },
     {
       "produto": "PETRÓLEO",
@@ -219,10 +219,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 13,
-      "carr": 12,
-      "falta": 1,
-      "tn_prev": 485.1,
-      "tn_carr": 449.1,
+      "carr": 13,
+      "falta": 0,
+      "tn_prev": 485.64,
+      "tn_carr": 485.64,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -237,10 +237,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 10,
-          "carr": 9,
-          "falta": 1,
-          "tn_prev": 376.34,
-          "tn_carr": 340.34
+          "carr": 10,
+          "falta": 0,
+          "tn_prev": 376.88,
+          "tn_carr": 376.88
         }
       ]
     },
@@ -344,36 +344,6 @@
       ]
     },
     {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 266.59,
-      "tn_carr": 38.59,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 6,
-          "carr": 1,
-          "falta": 5,
-          "tn_prev": 228.59,
-          "tn_carr": 38.59
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (MG)",
-          "cnpj": "26240904000340",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CARBOBRAS - ANTRACITO PHOENICIAN - PILHA 93",
       "cliente": "CARBOBRAS",
       "produto": "Antracito Phoenician",
@@ -442,6 +412,36 @@
           "falta": 0,
           "tn_prev": 96.84,
           "tn_carr": 96.84
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 4,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 152.59,
+      "tn_carr": 38.59,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 114.59,
+          "tn_carr": 38.59
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (MG)",
+          "cnpj": "26240904000340",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         }
       ]
     },
