@@ -9213,32 +9213,32 @@
     }
   },
   "2026-10-22": {
-    "gerado_em": "2026-10-22T07:00:08",
-    "atualizado_em": "2026-10-22T10:05:25",
+    "gerado_em": "2026-10-22T08:00:15",
+    "atualizado_em": "2026-10-22T11:05:28",
     "totais": {
-      "prog": 46,
-      "carr": 0,
-      "falta": 46,
-      "tn_prev": 1733.01,
-      "tn_carr": 0.0
+      "prog": 67,
+      "carr": 2,
+      "falta": 65,
+      "tn_prev": 2360.25,
+      "tn_carr": 74.24
     },
     "por_cliente": {
+      "CSN BARROSO": {
+        "prog": 17,
+        "carr": 0,
+        "tn_prev": 627.0,
+        "tn_carr": 0.0
+      },
       "ITAMBÉ": {
         "prog": 15,
-        "carr": 0,
-        "tn_prev": 573.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 573.24,
+        "tn_carr": 74.24
       },
       "TRINDADE MINERAÇÃO": {
-        "prog": 10,
+        "prog": 13,
         "carr": 0,
-        "tn_prev": 380.0,
-        "tn_carr": 0.0
-      },
-      "CSN BARROSO": {
-        "prog": 8,
-        "carr": 0,
-        "tn_prev": 296.0,
+        "tn_prev": 494.0,
         "tn_carr": 0.0
       },
       "NASSAU": {
@@ -9247,16 +9247,22 @@
         "tn_prev": 196.0,
         "tn_carr": 0.0
       },
+      "CARBOBRAS": {
+        "prog": 8,
+        "carr": 0,
+        "tn_prev": 144.0,
+        "tn_carr": 0.0
+      },
+      "SUPREMO": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 118.0,
+        "tn_carr": 0.0
+      },
       "PETRORECONCAVO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
-        "tn_carr": 0.0
-      },
-      "SUPREMO": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 80.0,
         "tn_carr": 0.0
       },
       "DESCARGA MINÉRIO": {
@@ -9273,34 +9279,40 @@
       }
     },
     "por_produto": {
+      "GESSO": {
+        "prog": 23,
+        "carr": 0,
+        "tn_prev": 823.0,
+        "tn_carr": 0.0
+      },
       "PETCOKE": {
         "prog": 15,
-        "carr": 0,
-        "tn_prev": 573.0,
-        "tn_carr": 0.0
-      },
-      "GESSO": {
-        "prog": 14,
-        "carr": 0,
-        "tn_prev": 492.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 573.24,
+        "tn_carr": 74.24
       },
       "Sinter Feed": {
-        "prog": 10,
+        "prog": 13,
         "carr": 0,
-        "tn_prev": 380.0,
+        "tn_prev": 494.0,
+        "tn_carr": 0.0
+      },
+      "Antracito Phoenician": {
+        "prog": 8,
+        "carr": 0,
+        "tn_prev": 144.0,
+        "tn_carr": 0.0
+      },
+      "Rivertec": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 118.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
-        "tn_carr": 0.0
-      },
-      "Rivertec": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 80.0,
         "tn_carr": 0.0
       },
       "Trindade": {
