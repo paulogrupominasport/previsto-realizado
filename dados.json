@@ -1,29 +1,29 @@
 {
   "data_relatorio": "23/10/2026",
-  "gerado_em": "2026-10-23T07:00:06",
-  "atualizado_em": "2026-10-23T10:05:36",
+  "gerado_em": "2026-10-23T08:00:15",
+  "atualizado_em": "2026-10-23T11:05:22",
   "totais": {
-    "prog": 59,
-    "carr": 0,
-    "falta": 59,
-    "tn_prev": 2249.29,
-    "tn_carr": 0.0
+    "prog": 60,
+    "carr": 3,
+    "falta": 57,
+    "tn_prev": 2272.4,
+    "tn_carr": 110.6
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 18,
-      "carr": 0,
-      "falta": 18,
-      "tn_prev": 667.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 15,
+      "tn_prev": 665.6,
+      "tn_carr": 110.6
     },
     {
       "cliente": "DESCARGA MINÉRIO",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 467.29,
+      "falta": 13,
+      "tn_prev": 503.8,
       "tn_carr": 0.0
     },
     {
@@ -51,14 +51,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "SUPREMO",
       "prog": 2,
       "carr": 0,
@@ -72,6 +64,22 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 76.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN SERRA",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
       "tn_carr": 0.0
     },
     {
@@ -95,25 +103,25 @@
     {
       "produto": "PETCOKE",
       "prog": 16,
-      "carr": 0,
-      "falta": 16,
-      "tn_prev": 597.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 13,
+      "tn_prev": 595.6,
+      "tn_carr": 110.6
     },
     {
       "produto": "GESSO",
-      "prog": 15,
+      "prog": 16,
       "carr": 0,
-      "falta": 15,
-      "tn_prev": 543.0,
+      "falta": 16,
+      "tn_prev": 581.0,
       "tn_carr": 0.0
     },
     {
       "produto": "Trindade",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 467.29,
+      "falta": 13,
+      "tn_prev": 503.8,
       "tn_carr": 0.0
     },
     {
@@ -122,14 +130,6 @@
       "carr": 0,
       "falta": 10,
       "tn_prev": 390.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
       "tn_carr": 0.0
     },
     {
@@ -147,6 +147,14 @@
       "falta": 2,
       "tn_prev": 76.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -155,19 +163,19 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 559.0,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 12,
+      "tn_prev": 557.6,
+      "tn_carr": 110.6,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 149.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 148.18,
+          "tn_carr": 75.18
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -182,10 +190,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 10,
-          "carr": 0,
-          "falta": 10,
-          "tn_prev": 362.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 9,
+          "tn_prev": 361.42,
+          "tn_carr": 35.42
         }
       ]
     },
@@ -193,10 +201,10 @@
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 467.29,
+      "falta": 13,
+      "tn_prev": 503.8,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -206,6 +214,15 @@
           "carr": 0,
           "falta": 12,
           "tn_prev": 467.29,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXPRESSO ROTA LIVRE LTDA - MG-Filial",
+          "cnpj": "26240904000340",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.51,
           "tn_carr": 0.0
         }
       ]
@@ -331,27 +348,6 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
       "cliente": "SUPREMO",
       "produto": "Rivertec",
@@ -389,6 +385,48 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 50.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN SERRA - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN SERRA",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
