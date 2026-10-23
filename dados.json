@@ -1,62 +1,70 @@
 {
   "data_relatorio": "23/10/2026",
-  "gerado_em": "2026-10-23T09:00:07",
-  "atualizado_em": "2026-10-23T12:05:36",
+  "gerado_em": "2026-10-23T10:00:16",
+  "atualizado_em": "2026-10-23T13:05:24",
   "totais": {
-    "prog": 64,
-    "carr": 8,
-    "falta": 56,
-    "tn_prev": 2421.86,
-    "tn_carr": 316.06
+    "prog": 70,
+    "carr": 21,
+    "falta": 49,
+    "tn_prev": 2668.84,
+    "tn_carr": 802.53
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 21,
+      "prog": 20,
       "carr": 6,
-      "falta": 15,
-      "tn_prev": 778.13,
+      "falta": 14,
+      "tn_prev": 742.13,
       "tn_carr": 231.13
     },
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 503.8,
-      "tn_carr": 0.0
+      "carr": 4,
+      "falta": 9,
+      "tn_prev": 503.68,
+      "tn_carr": 155.37
+    },
+    {
+      "cliente": "CSN BARROSO",
+      "prog": 10,
+      "carr": 4,
+      "falta": 6,
+      "tn_prev": 373.23,
+      "tn_carr": 134.23
     },
     {
       "cliente": "CIM LIZ",
       "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 353.94,
-      "tn_carr": 49.94
-    },
-    {
-      "cliente": "CSN BARROSO",
-      "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 337.99,
-      "tn_carr": 34.99
+      "carr": 4,
+      "falta": 5,
+      "tn_prev": 354.87,
+      "tn_carr": 164.87
     },
     {
       "cliente": "NASSAU",
-      "prog": 4,
+      "prog": 6,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 132.0,
+      "falta": 6,
+      "tn_prev": 204.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "SUPREMO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 116.76,
+      "tn_carr": 78.76
+    },
+    {
+      "cliente": "BELOCAL (MTZ)",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 86.17,
+      "tn_carr": 38.17
     },
     {
       "cliente": "CSN SERRA",
@@ -83,7 +91,15 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BELOCAL (MTZ)",
+      "cliente": "CIM. LIZ",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "SUPREMO POMERODE",
       "prog": 1,
       "carr": 0,
       "falta": 1,
@@ -93,44 +109,44 @@
   ],
   "por_produto": [
     {
+      "produto": "GESSO",
+      "prog": 21,
+      "carr": 5,
+      "falta": 16,
+      "tn_prev": 760.7,
+      "tn_carr": 171.7
+    },
+    {
       "produto": "PETCOKE",
       "prog": 18,
       "carr": 5,
       "falta": 13,
-      "tn_prev": 670.66,
+      "tn_prev": 682.66,
       "tn_carr": 193.66
-    },
-    {
-      "produto": "GESSO",
-      "prog": 18,
-      "carr": 2,
-      "falta": 16,
-      "tn_prev": 653.46,
-      "tn_carr": 72.46
     },
     {
       "produto": "Trindade",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 503.8,
-      "tn_carr": 0.0
+      "carr": 4,
+      "falta": 9,
+      "tn_prev": 503.68,
+      "tn_carr": 155.37
     },
     {
       "produto": "CARVÃO",
-      "prog": 10,
-      "carr": 1,
-      "falta": 9,
-      "tn_prev": 391.94,
-      "tn_carr": 49.94
+      "prog": 11,
+      "carr": 5,
+      "falta": 6,
+      "tn_prev": 441.04,
+      "tn_carr": 203.04
     },
     {
       "produto": "Rivertec",
-      "prog": 2,
-      "carr": 0,
+      "prog": 4,
+      "carr": 2,
       "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0
+      "tn_prev": 154.76,
+      "tn_carr": 78.76
     },
     {
       "produto": "Sinter Feed",
@@ -154,10 +170,10 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 18,
+      "prog": 17,
       "carr": 5,
-      "falta": 13,
-      "tn_prev": 670.66,
+      "falta": 12,
+      "tn_prev": 634.66,
       "tn_carr": 193.66,
       "transportadoras": [
         {
@@ -181,10 +197,10 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 13,
+          "prog": 12,
           "carr": 2,
-          "falta": 11,
-          "tn_prev": 473.98,
+          "falta": 10,
+          "tn_prev": 437.98,
           "tn_carr": 69.98
         }
       ]
@@ -194,19 +210,19 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 503.8,
-      "tn_carr": 0.0,
+      "carr": 4,
+      "falta": 9,
+      "tn_prev": 503.68,
+      "tn_carr": 155.37,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
           "cnpj": "26586645000141",
           "prog": 12,
-          "carr": 0,
-          "falta": 12,
-          "tn_prev": 467.29,
-          "tn_carr": 0.0
+          "carr": 4,
+          "falta": 8,
+          "tn_prev": 467.17,
+          "tn_carr": 155.37
         },
         {
           "nome": "EXPRESSO ROTA LIVRE LTDA - MG-Filial",
@@ -220,53 +236,32 @@
       ]
     },
     {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 353.94,
-      "tn_carr": 49.94,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 49.94,
-          "tn_carr": 49.94
-        },
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 304.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
-      "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 337.99,
-      "tn_carr": 34.99,
+      "prog": 10,
+      "carr": 4,
+      "falta": 6,
+      "tn_prev": 373.23,
+      "tn_carr": 134.23,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 102.99,
-          "tn_carr": 34.99
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 105.38,
+          "tn_carr": 105.38
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 39.0,
+          "tn_carr": 0.0
         },
         {
           "nome": "RANGEL (RJ)",
@@ -290,10 +285,40 @@
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 28.85,
+          "tn_carr": 28.85
+        }
+      ]
+    },
+    {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 9,
+      "carr": 4,
+      "falta": 5,
+      "tn_prev": 354.87,
+      "tn_carr": 164.87,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.94,
+          "tn_carr": 49.94
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 8,
+          "carr": 3,
+          "falta": 5,
+          "tn_prev": 304.93,
+          "tn_carr": 114.93
         }
       ]
     },
@@ -301,20 +326,41 @@
       "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "NASSAU",
       "produto": "GESSO",
-      "prog": 4,
+      "prog": 6,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 132.0,
+      "falta": 6,
+      "tn_prev": 204.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
-          "prog": 4,
+          "prog": 6,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 132.0,
+          "falta": 6,
+          "tn_prev": 204.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "SUPREMO",
+      "produto": "Rivertec",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 116.76,
+      "tn_carr": 78.76,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 116.76,
+          "tn_carr": 78.76
         }
       ]
     },
@@ -340,22 +386,31 @@
       ]
     },
     {
-      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
-      "cliente": "SUPREMO",
-      "produto": "Rivertec",
+      "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "BELOCAL (MTZ)",
+      "produto": "CARVÃO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 86.17,
+      "tn_carr": 38.17,
       "transportadoras": [
         {
-          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
-          "cnpj": "15058185000162",
-          "prog": 2,
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.17,
+          "tn_carr": 38.17
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
@@ -424,9 +479,30 @@
       ]
     },
     {
-      "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "BELOCAL (MTZ)",
-      "produto": "CARVÃO",
+      "lote": "CIM. LIZ - PETCOKE - BLEND CRYSTAL/LETO - PILHA 54*",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO POMERODE - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "SUPREMO POMERODE",
+      "produto": "Rivertec",
       "prog": 1,
       "carr": 0,
       "falta": 1,
@@ -434,8 +510,8 @@
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
           "prog": 1,
           "carr": 0,
           "falta": 1,
