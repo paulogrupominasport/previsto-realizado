@@ -1,13 +1,13 @@
 {
   "data_relatorio": "23/10/2026",
-  "gerado_em": "2026-10-23T12:00:09",
-  "atualizado_em": "2026-10-23T15:05:25",
+  "gerado_em": "2026-10-23T12:19:57",
+  "atualizado_em": "2026-10-23T15:20:26",
   "totais": {
-    "prog": 77,
-    "carr": 43,
+    "prog": 78,
+    "carr": 44,
     "falta": 34,
-    "tn_prev": 2977.83,
-    "tn_carr": 1631.41
+    "tn_prev": 3013.19,
+    "tn_carr": 1666.77
   },
   "por_cliente": [
     {
@@ -19,20 +19,20 @@
       "tn_carr": 521.94
     },
     {
+      "cliente": "CSN BARROSO",
+      "prog": 13,
+      "carr": 6,
+      "falta": 7,
+      "tn_prev": 511.0,
+      "tn_carr": 214.0
+    },
+    {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 13,
       "carr": 10,
       "falta": 3,
       "tn_prev": 503.63,
       "tn_carr": 385.21
-    },
-    {
-      "cliente": "CSN BARROSO",
-      "prog": 12,
-      "carr": 6,
-      "falta": 6,
-      "tn_prev": 473.0,
-      "tn_carr": 214.0
     },
     {
       "cliente": "CIM LIZ",
@@ -101,19 +101,19 @@
     {
       "cliente": "SUPREMO POMERODE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.36,
+      "tn_carr": 35.36
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 25,
+      "prog": 26,
       "carr": 10,
-      "falta": 15,
-      "tn_prev": 933.23,
+      "falta": 16,
+      "tn_prev": 971.23,
       "tn_carr": 356.23
     },
     {
@@ -143,10 +143,10 @@
     {
       "produto": "Rivertec",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 155.2,
-      "tn_carr": 117.2
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 152.56,
+      "tn_carr": 152.56
     },
     {
       "produto": "Sinter Feed",
@@ -206,43 +206,13 @@
       ]
     },
     {
-      "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
-      "cliente": "DESCARGA MINÉRIO",
-      "produto": "Trindade",
-      "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 503.63,
-      "tn_carr": 385.21,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSPORTES LTDA ME",
-          "cnpj": "26586645000141",
-          "prog": 12,
-          "carr": 9,
-          "falta": 3,
-          "tn_prev": 467.22,
-          "tn_carr": 348.8
-        },
-        {
-          "nome": "EXPRESSO ROTA LIVRE LTDA - MG-Filial",
-          "cnpj": "26240904000340",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 36.41,
-          "tn_carr": 36.41
-        }
-      ]
-    },
-    {
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
-      "prog": 12,
+      "prog": 13,
       "carr": 6,
-      "falta": 6,
-      "tn_prev": 473.0,
+      "falta": 7,
+      "tn_prev": 511.0,
       "tn_carr": 214.0,
       "transportadoras": [
         {
@@ -289,6 +259,45 @@
           "falta": 0,
           "tn_prev": 28.85,
           "tn_carr": 28.85
+        },
+        {
+          "nome": "DC4 TRANSP. (RJ)",
+          "cnpj": "41539746000317",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
+      "cliente": "DESCARGA MINÉRIO",
+      "produto": "Trindade",
+      "prog": 13,
+      "carr": 10,
+      "falta": 3,
+      "tn_prev": 503.63,
+      "tn_carr": 385.21,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSPORTES LTDA ME",
+          "cnpj": "26586645000141",
+          "prog": 12,
+          "carr": 9,
+          "falta": 3,
+          "tn_prev": 467.22,
+          "tn_carr": 348.8
+        },
+        {
+          "nome": "EXPRESSO ROTA LIVRE LTDA - MG-Filial",
+          "cnpj": "26240904000340",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.41,
+          "tn_carr": 36.41
         }
       ]
     },
@@ -504,19 +513,19 @@
       "cliente": "SUPREMO POMERODE",
       "produto": "Rivertec",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.36,
+      "tn_carr": 35.36,
       "transportadoras": [
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.36,
+          "tn_carr": 35.36
         }
       ]
     }
