@@ -1,30 +1,30 @@
 {
   "data_relatorio": "24/10/2026",
-  "gerado_em": "2026-10-24T12:00:05",
-  "atualizado_em": "2026-10-24T15:05:22",
+  "gerado_em": "2026-10-24T13:00:14",
+  "atualizado_em": "2026-10-24T16:05:24",
   "totais": {
-    "prog": 47,
-    "carr": 28,
-    "falta": 19,
-    "tn_prev": 1777.28,
-    "tn_carr": 1069.53
+    "prog": 49,
+    "carr": 32,
+    "falta": 17,
+    "tn_prev": 1859.75,
+    "tn_carr": 1220.0
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 480.76,
-      "tn_carr": 369.76
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 481.32,
+      "tn_carr": 445.32
     },
     {
       "cliente": "CIM LIZ",
       "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 361.14,
-      "tn_carr": 285.14
+      "carr": 8,
+      "falta": 1,
+      "tn_prev": 361.47,
+      "tn_carr": 323.47
     },
     {
       "cliente": "NASSAU",
@@ -51,6 +51,14 @@
       "tn_carr": 114.55
     },
     {
+      "cliente": "CSN SERRA",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 153.36,
+      "tn_carr": 73.36
+    },
+    {
       "cliente": "CSN BARROSO",
       "prog": 4,
       "carr": 1,
@@ -65,40 +73,32 @@
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN SERRA",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 71.78,
-      "tn_carr": 36.78
     }
   ],
   "por_produto": [
     {
-      "produto": "PETCOKE",
-      "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 480.76,
-      "tn_carr": 369.76
+      "produto": "GESSO",
+      "prog": 15,
+      "carr": 4,
+      "falta": 11,
+      "tn_prev": 536.41,
+      "tn_carr": 144.41
     },
     {
-      "produto": "GESSO",
+      "produto": "PETCOKE",
       "prog": 13,
-      "carr": 3,
-      "falta": 10,
-      "tn_prev": 454.83,
-      "tn_carr": 107.83
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 481.32,
+      "tn_carr": 445.32
     },
     {
       "produto": "CARVÃO",
       "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 361.14,
-      "tn_carr": 285.14
+      "carr": 8,
+      "falta": 1,
+      "tn_prev": 361.47,
+      "tn_carr": 323.47
     },
     {
       "produto": "Rivertec",
@@ -131,28 +131,28 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 480.76,
-      "tn_carr": 369.76,
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 481.32,
+      "tn_carr": 445.32,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 76.56,
-          "tn_carr": 38.56
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 76.72,
+          "tn_carr": 76.72
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 11,
-          "carr": 9,
-          "falta": 2,
-          "tn_prev": 404.2,
-          "tn_carr": 331.2
+          "carr": 10,
+          "falta": 1,
+          "tn_prev": 404.6,
+          "tn_carr": 368.6
         }
       ]
     },
@@ -161,10 +161,10 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 9,
-      "carr": 7,
-      "falta": 2,
-      "tn_prev": 361.14,
-      "tn_carr": 285.14,
+      "carr": 8,
+      "falta": 1,
+      "tn_prev": 361.47,
+      "tn_carr": 323.47,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -197,10 +197,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.33,
+          "tn_carr": 38.33
         }
       ]
     },
@@ -268,6 +268,27 @@
       ]
     },
     {
+      "lote": "CSN SERRA - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN SERRA",
+      "produto": "GESSO",
+      "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 153.36,
+      "tn_carr": 73.36,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 153.36,
+          "tn_carr": 73.36
+        }
+      ]
+    },
+    {
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
@@ -315,27 +336,6 @@
           "falta": 2,
           "tn_prev": 96.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN SERRA - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN SERRA",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 71.78,
-      "tn_carr": 36.78,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 71.78,
-          "tn_carr": 36.78
         }
       ]
     }
