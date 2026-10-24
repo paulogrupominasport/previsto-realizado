@@ -1,13 +1,13 @@
 {
   "data_relatorio": "24/10/2026",
-  "gerado_em": "2026-10-24T14:00:06",
-  "atualizado_em": "2026-10-24T17:05:24",
+  "gerado_em": "2026-10-24T14:45:17",
+  "atualizado_em": "2026-10-24T17:50:23",
   "totais": {
     "prog": 50,
-    "carr": 32,
-    "falta": 18,
-    "tn_prev": 1897.75,
-    "tn_carr": 1220.0
+    "carr": 37,
+    "falta": 13,
+    "tn_prev": 1902.39,
+    "tn_carr": 1412.39
   },
   "por_cliente": [
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "NASSAU",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 233.65,
-      "tn_carr": 33.65
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 239.1,
+      "tn_carr": 139.1
     },
     {
       "cliente": "SUPREMO",
@@ -53,10 +53,10 @@
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 154.3,
-      "tn_carr": 114.55
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 154.19,
+      "tn_carr": 154.19
     },
     {
       "cliente": "CSN SERRA",
@@ -69,20 +69,20 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.3,
+      "tn_carr": 47.3
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
       "prog": 16,
-      "carr": 4,
-      "falta": 12,
-      "tn_prev": 574.41,
-      "tn_carr": 144.41
+      "carr": 7,
+      "falta": 9,
+      "tn_prev": 579.86,
+      "tn_carr": 249.86
     },
     {
       "produto": "PETCOKE",
@@ -111,18 +111,18 @@
     {
       "produto": "Trindade",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 154.3,
-      "tn_carr": 114.55
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 154.19,
+      "tn_carr": 154.19
     },
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.3,
+      "tn_carr": 47.3
     }
   ],
   "lotes": [
@@ -209,19 +209,19 @@
       "cliente": "NASSAU",
       "produto": "GESSO",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 233.65,
-      "tn_carr": 33.65,
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 239.1,
+      "tn_carr": 139.1,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
           "prog": 7,
-          "carr": 1,
-          "falta": 6,
-          "tn_prev": 233.65,
-          "tn_carr": 33.65
+          "carr": 4,
+          "falta": 3,
+          "tn_prev": 239.1,
+          "tn_carr": 139.1
         }
       ]
     },
@@ -281,19 +281,19 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 154.3,
-      "tn_carr": 114.55,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 154.19,
+      "tn_carr": 154.19,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
           "cnpj": "26586645000141",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 154.3,
-          "tn_carr": 114.55
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 154.19,
+          "tn_carr": 154.19
         }
       ]
     },
@@ -323,19 +323,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.3,
+      "tn_carr": 47.3,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.3,
+          "tn_carr": 47.3
         }
       ]
     }
