@@ -1,13 +1,13 @@
 {
   "data_relatorio": "25/10/2026",
-  "gerado_em": "2026-10-25T11:00:17",
-  "atualizado_em": "2026-10-25T14:05:21",
+  "gerado_em": "2026-10-25T12:00:11",
+  "atualizado_em": "2026-10-25T15:05:24",
   "totais": {
-    "prog": 8,
-    "carr": 4,
+    "prog": 9,
+    "carr": 5,
     "falta": 4,
-    "tn_prev": 363.15,
-    "tn_carr": 188.16
+    "tn_prev": 401.31,
+    "tn_carr": 226.32
   },
   "por_cliente": [
     {
@@ -43,6 +43,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.16,
+      "tn_carr": 38.16
+    },
+    {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 1,
       "carr": 0,
@@ -75,6 +83,14 @@
       "falta": 1,
       "tn_prev": 40.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.16,
+      "tn_carr": 38.16
     },
     {
       "produto": "Trindade",
@@ -167,6 +183,27 @@
           "falta": 1,
           "tn_prev": 40.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 38.16,
+      "tn_carr": 38.16,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.16,
+          "tn_carr": 38.16
         }
       ]
     },
