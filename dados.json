@@ -1,13 +1,13 @@
 {
   "data_relatorio": "26/10/2026",
-  "gerado_em": "2026-10-26T07:00:06",
-  "atualizado_em": "2026-10-26T10:05:25",
+  "gerado_em": "2026-10-26T08:00:12",
+  "atualizado_em": "2026-10-26T11:05:26",
   "totais": {
-    "prog": 35,
-    "carr": 0,
+    "prog": 36,
+    "carr": 1,
     "falta": 35,
-    "tn_prev": 1306.0,
-    "tn_carr": 0.0
+    "tn_prev": 1342.68,
+    "tn_carr": 36.68
   },
   "por_cliente": [
     {
@@ -20,11 +20,11 @@
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 9,
-      "carr": 0,
+      "prog": 10,
+      "carr": 1,
       "falta": 9,
-      "tn_prev": 332.0,
-      "tn_carr": 0.0
+      "tn_prev": 368.68,
+      "tn_carr": 36.68
     },
     {
       "cliente": "NASSAU",
@@ -62,11 +62,11 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 0,
+      "prog": 9,
+      "carr": 1,
       "falta": 8,
-      "tn_prev": 294.0,
-      "tn_carr": 0.0
+      "tn_prev": 330.68,
+      "tn_carr": 36.68
     },
     {
       "produto": "GESSO",
@@ -119,19 +119,28 @@
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 0,
+      "prog": 9,
+      "carr": 1,
       "falta": 8,
-      "tn_prev": 294.0,
-      "tn_carr": 0.0,
+      "tn_prev": 330.68,
+      "tn_carr": 36.68,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 112.68,
+          "tn_carr": 36.68
+        },
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         },
         {
