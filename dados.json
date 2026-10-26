@@ -1,23 +1,15 @@
 {
   "data_relatorio": "26/10/2026",
-  "gerado_em": "2026-10-26T18:00:14",
-  "atualizado_em": "2026-10-26T21:05:26",
+  "gerado_em": "2026-10-26T19:00:10",
+  "atualizado_em": "2026-10-26T22:05:37",
   "totais": {
     "prog": 58,
-    "carr": 23,
-    "falta": 35,
-    "tn_prev": 2265.57,
-    "tn_carr": 849.83
+    "carr": 25,
+    "falta": 33,
+    "tn_prev": 2264.35,
+    "tn_carr": 922.61
   },
   "por_cliente": [
-    {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 17,
-      "carr": 1,
-      "falta": 16,
-      "tn_prev": 644.84,
-      "tn_carr": 38.84
-    },
     {
       "cliente": "CSN ARCOS",
       "prog": 14,
@@ -25,6 +17,14 @@
       "falta": 14,
       "tn_prev": 644.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 17,
+      "carr": 3,
+      "falta": 14,
+      "tn_prev": 643.62,
+      "tn_carr": 111.62
     },
     {
       "cliente": "ITAMBÉ",
@@ -85,20 +85,20 @@
   ],
   "por_produto": [
     {
-      "produto": "Sinter Feed",
-      "prog": 17,
-      "carr": 1,
-      "falta": 16,
-      "tn_prev": 644.84,
-      "tn_carr": 38.84
-    },
-    {
       "produto": "Exp Direta Silhouette",
       "prog": 14,
       "carr": 0,
       "falta": 14,
       "tn_prev": 644.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 17,
+      "carr": 3,
+      "falta": 14,
+      "tn_prev": 643.62,
+      "tn_carr": 111.62
     },
     {
       "produto": "GESSO",
@@ -142,36 +142,6 @@
     }
   ],
   "lotes": [
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 17,
-      "carr": 1,
-      "falta": 16,
-      "tn_prev": 644.84,
-      "tn_carr": 38.84,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (MG)",
-          "cnpj": "26178616000140",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 15,
-          "carr": 1,
-          "falta": 14,
-          "tn_prev": 570.84,
-          "tn_carr": 38.84
-        }
-      ]
-    },
     {
       "lote": "CSN ARCOS - EXP DIRETA SILHOUETTE - PP-2026-392",
       "cliente": "CSN ARCOS",
@@ -217,6 +187,36 @@
           "falta": 9,
           "tn_prev": 402.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 17,
+      "carr": 3,
+      "falta": 14,
+      "tn_prev": 643.62,
+      "tn_carr": 111.62,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 72.78,
+          "tn_carr": 72.78
+        },
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 15,
+          "carr": 1,
+          "falta": 14,
+          "tn_prev": 570.84,
+          "tn_carr": 38.84
         }
       ]
     },
