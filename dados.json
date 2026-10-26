@@ -1,29 +1,29 @@
 {
   "data_relatorio": "26/10/2026",
-  "gerado_em": "2026-10-26T17:00:24",
-  "atualizado_em": "2026-10-26T20:05:27",
+  "gerado_em": "2026-10-26T18:00:14",
+  "atualizado_em": "2026-10-26T21:05:26",
   "totais": {
-    "prog": 56,
-    "carr": 21,
+    "prog": 58,
+    "carr": 23,
     "falta": 35,
-    "tn_prev": 2191.01,
-    "tn_carr": 773.27
+    "tn_prev": 2265.57,
+    "tn_carr": 849.83
   },
   "por_cliente": [
+    {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 17,
+      "carr": 1,
+      "falta": 16,
+      "tn_prev": 644.84,
+      "tn_carr": 38.84
+    },
     {
       "cliente": "CSN ARCOS",
       "prog": 14,
       "carr": 0,
       "falta": 14,
       "tn_prev": 644.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 570.0,
       "tn_carr": 0.0
     },
     {
@@ -53,10 +53,10 @@
     {
       "cliente": "CSN SERRA",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 105.09,
-      "tn_carr": 67.09
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 104.81,
+      "tn_carr": 104.81
     },
     {
       "cliente": "BELOCAL (MTZ)",
@@ -85,6 +85,14 @@
   ],
   "por_produto": [
     {
+      "produto": "Sinter Feed",
+      "prog": 17,
+      "carr": 1,
+      "falta": 16,
+      "tn_prev": 644.84,
+      "tn_carr": 38.84
+    },
+    {
       "produto": "Exp Direta Silhouette",
       "prog": 14,
       "carr": 0,
@@ -93,20 +101,12 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "Sinter Feed",
-      "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 570.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "GESSO",
       "prog": 11,
-      "carr": 9,
-      "falta": 2,
-      "tn_prev": 386.29,
-      "tn_carr": 316.29
+      "carr": 10,
+      "falta": 1,
+      "tn_prev": 386.01,
+      "tn_carr": 354.01
     },
     {
       "produto": "PETCOKE",
@@ -142,6 +142,36 @@
     }
   ],
   "lotes": [
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 17,
+      "carr": 1,
+      "falta": 16,
+      "tn_prev": 644.84,
+      "tn_carr": 38.84,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 15,
+          "carr": 1,
+          "falta": 14,
+          "tn_prev": 570.84,
+          "tn_carr": 38.84
+        }
+      ]
+    },
     {
       "lote": "CSN ARCOS - EXP DIRETA SILHOUETTE - PP-2026-392",
       "cliente": "CSN ARCOS",
@@ -186,27 +216,6 @@
           "carr": 0,
           "falta": 9,
           "tn_prev": 402.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 570.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 15,
-          "carr": 0,
-          "falta": 15,
-          "tn_prev": 570.0,
           "tn_carr": 0.0
         }
       ]
@@ -297,19 +306,19 @@
       "cliente": "CSN SERRA",
       "produto": "GESSO",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 105.09,
-      "tn_carr": 67.09,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 104.81,
+      "tn_carr": 104.81,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 105.09,
-          "tn_carr": 67.09
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 104.81,
+          "tn_carr": 104.81
         }
       ]
     },
