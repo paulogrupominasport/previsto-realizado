@@ -1,13 +1,13 @@
 {
   "data_relatorio": "26/10/2026",
-  "gerado_em": "2026-10-26T14:00:05",
-  "atualizado_em": "2026-10-26T17:05:24",
+  "gerado_em": "2026-10-26T15:00:12",
+  "atualizado_em": "2026-10-26T18:05:23",
   "totais": {
-    "prog": 54,
-    "carr": 12,
-    "falta": 42,
-    "tn_prev": 2082.35,
-    "tn_carr": 435.61
+    "prog": 55,
+    "carr": 18,
+    "falta": 37,
+    "tn_prev": 2136.35,
+    "tn_carr": 666.61
   },
   "por_cliente": [
     {
@@ -37,10 +37,10 @@
     {
       "cliente": "NASSAU",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 232.45,
-      "tn_carr": 36.45
+      "carr": 3,
+      "falta": 4,
+      "tn_prev": 236.42,
+      "tn_carr": 104.42
     },
     {
       "cliente": "SUPREMO",
@@ -53,26 +53,26 @@
     {
       "cliente": "CSN SERRA",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 103.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 105.09,
+      "tn_carr": 67.09
+    },
+    {
+      "cliente": "BELOCAL (MTZ)",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 96.85,
+      "tn_carr": 48.85
     },
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "BELOCAL (MTZ)",
-      "prog": 1,
-      "carr": 0,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
+      "tn_prev": 95.09,
+      "tn_carr": 47.09
     },
     {
       "cliente": "CIM LIZ",
@@ -103,10 +103,10 @@
     {
       "produto": "GESSO",
       "prog": 11,
-      "carr": 2,
-      "falta": 9,
-      "tn_prev": 373.57,
-      "tn_carr": 74.57
+      "carr": 6,
+      "falta": 5,
+      "tn_prev": 379.63,
+      "tn_carr": 209.63
     },
     {
       "produto": "PETCOKE",
@@ -115,6 +115,14 @@
       "falta": 2,
       "tn_prev": 252.07,
       "tn_carr": 214.33
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 133.92,
+      "tn_carr": 85.92
     },
     {
       "produto": "Rivertec",
@@ -127,18 +135,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 2,
       "carr": 1,
       "falta": 1,
-      "tn_prev": 85.07,
-      "tn_carr": 37.07
+      "tn_prev": 95.09,
+      "tn_carr": 47.09
     }
   ],
   "lotes": [
@@ -246,19 +246,19 @@
       "cliente": "NASSAU",
       "produto": "GESSO",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 232.45,
-      "tn_carr": 36.45,
+      "carr": 3,
+      "falta": 4,
+      "tn_prev": 236.42,
+      "tn_carr": 104.42,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
           "prog": 7,
-          "carr": 1,
-          "falta": 6,
-          "tn_prev": 232.45,
-          "tn_carr": 36.45
+          "carr": 3,
+          "falta": 4,
+          "tn_prev": 236.42,
+          "tn_carr": 104.42
         }
       ]
     },
@@ -288,19 +288,49 @@
       "cliente": "CSN SERRA",
       "produto": "GESSO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 103.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 105.09,
+      "tn_carr": 67.09,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 105.09,
+          "tn_carr": 67.09
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "BELOCAL (MTZ)",
+      "produto": "CARVÃO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 96.85,
+      "tn_carr": 48.85,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 103.0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.85,
+          "tn_carr": 48.85
         }
       ]
     },
@@ -309,40 +339,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.09,
+      "tn_carr": 47.09,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "BELOCAL (MTZ)",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
+          "carr": 1,
           "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "tn_prev": 95.09,
+          "tn_carr": 47.09
         }
       ]
     },
