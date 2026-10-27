@@ -1,22 +1,22 @@
 {
   "data_relatorio": "27/10/2026",
-  "gerado_em": "2026-10-27T13:16:19",
-  "atualizado_em": "2026-10-27T16:20:22",
+  "gerado_em": "2026-10-27T14:00:11",
+  "atualizado_em": "2026-10-27T17:05:23",
   "totais": {
     "prog": 87,
-    "carr": 40,
-    "falta": 47,
-    "tn_prev": 3366.08,
-    "tn_carr": 1556.16
+    "carr": 44,
+    "falta": 43,
+    "tn_prev": 3362.91,
+    "tn_carr": 1713.99
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 24,
-      "carr": 18,
-      "falta": 6,
-      "tn_prev": 892.19,
-      "tn_carr": 674.19
+      "carr": 20,
+      "falta": 4,
+      "tn_prev": 891.79,
+      "tn_carr": 746.79
     },
     {
       "cliente": "CSN ARCOS",
@@ -37,10 +37,10 @@
     {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 13,
-      "carr": 5,
-      "falta": 8,
-      "tn_prev": 488.06,
-      "tn_carr": 187.06
+      "carr": 6,
+      "falta": 7,
+      "tn_prev": 487.87,
+      "tn_carr": 224.87
     },
     {
       "cliente": "NASSAU",
@@ -69,10 +69,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.42,
+      "tn_carr": 47.42
     }
   ],
   "por_produto": [
@@ -87,18 +87,18 @@
     {
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 18,
-      "falta": 6,
-      "tn_prev": 892.19,
-      "tn_carr": 674.19
+      "carr": 20,
+      "falta": 4,
+      "tn_prev": 891.79,
+      "tn_carr": 746.79
     },
     {
       "produto": "Sinter Feed",
       "prog": 13,
-      "carr": 5,
-      "falta": 8,
-      "tn_prev": 488.06,
-      "tn_carr": 187.06
+      "carr": 6,
+      "falta": 7,
+      "tn_prev": 487.87,
+      "tn_carr": 224.87
     },
     {
       "produto": "GESSO",
@@ -127,10 +127,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.42,
+      "tn_carr": 47.42
     }
   ],
   "lotes": [
@@ -139,10 +139,10 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 18,
-      "falta": 6,
-      "tn_prev": 892.19,
-      "tn_carr": 674.19,
+      "carr": 20,
+      "falta": 4,
+      "tn_prev": 891.79,
+      "tn_carr": 746.79,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -166,10 +166,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 15,
-          "carr": 11,
-          "falta": 4,
-          "tn_prev": 562.21,
-          "tn_carr": 417.21
+          "carr": 13,
+          "falta": 2,
+          "tn_prev": 561.81,
+          "tn_carr": 489.81
         }
       ]
     },
@@ -319,10 +319,10 @@
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
       "prog": 13,
-      "carr": 5,
-      "falta": 8,
-      "tn_prev": 488.06,
-      "tn_carr": 187.06,
+      "carr": 6,
+      "falta": 7,
+      "tn_prev": 487.87,
+      "tn_carr": 224.87,
       "transportadoras": [
         {
           "nome": "RODEIRO (MG)",
@@ -337,10 +337,10 @@
           "nome": "MRX TRANSP. (MG)",
           "cnpj": "26586645000141",
           "prog": 7,
-          "carr": 2,
-          "falta": 5,
-          "tn_prev": 266.59,
-          "tn_carr": 76.59
+          "carr": 3,
+          "falta": 4,
+          "tn_prev": 266.4,
+          "tn_carr": 114.4
         }
       ]
     },
@@ -421,19 +421,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.419,
+      "tn_carr": 47.419,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.419,
+          "tn_carr": 47.419
         }
       ]
     }
