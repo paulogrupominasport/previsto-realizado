@@ -1,38 +1,38 @@
 {
   "data_relatorio": "28/10/2026",
-  "gerado_em": "2026-10-28T13:00:14",
-  "atualizado_em": "2026-10-28T16:05:23",
+  "gerado_em": "2026-10-28T14:00:10",
+  "atualizado_em": "2026-10-28T17:05:29",
   "totais": {
-    "prog": 98,
-    "carr": 41,
-    "falta": 57,
-    "tn_prev": 3757.24,
-    "tn_carr": 1593.65
+    "prog": 100,
+    "carr": 48,
+    "falta": 52,
+    "tn_prev": 3828.45,
+    "tn_carr": 1857.13
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 33,
-      "carr": 18,
+      "prog": 34,
+      "carr": 19,
       "falta": 15,
-      "tn_prev": 1256.82,
-      "tn_carr": 688.32
+      "tn_prev": 1290.81,
+      "tn_carr": 725.31
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 18,
-      "carr": 4,
-      "falta": 14,
-      "tn_prev": 702.61,
-      "tn_carr": 153.61
+      "prog": 19,
+      "carr": 6,
+      "falta": 13,
+      "tn_prev": 739.85,
+      "tn_carr": 231.85
     },
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 16,
-      "carr": 8,
-      "falta": 8,
-      "tn_prev": 605.37,
-      "tn_carr": 310.28
+      "carr": 12,
+      "falta": 4,
+      "tn_prev": 605.35,
+      "tn_carr": 458.53
     },
     {
       "cliente": "CSN ARCOS",
@@ -94,27 +94,27 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 36,
-      "carr": 18,
-      "falta": 18,
-      "tn_prev": 1409.46,
-      "tn_carr": 692.46
+      "prog": 37,
+      "carr": 20,
+      "falta": 17,
+      "tn_prev": 1446.7,
+      "tn_carr": 770.7
     },
     {
       "produto": "GESSO",
-      "prog": 17,
-      "carr": 5,
+      "prog": 18,
+      "carr": 6,
       "falta": 12,
-      "tn_prev": 615.78,
-      "tn_carr": 183.28
+      "tn_prev": 649.77,
+      "tn_carr": 220.27
     },
     {
       "produto": "Trindade",
       "prog": 16,
-      "carr": 8,
-      "falta": 8,
-      "tn_prev": 605.37,
-      "tn_carr": 310.28
+      "carr": 12,
+      "falta": 4,
+      "tn_prev": 605.35,
+      "tn_carr": 458.53
     },
     {
       "produto": "Exp Direta Silhouette",
@@ -159,6 +159,54 @@
   ],
   "lotes": [
     {
+      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 19,
+      "carr": 6,
+      "falta": 13,
+      "tn_prev": 739.85,
+      "tn_carr": 231.85,
+      "transportadoras": [
+        {
+          "nome": "SILVANO TRANSPORTES (RJ)",
+          "cnpj": "07619336000267",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 114.51,
+          "tn_carr": 38.51
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 70.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 11,
+          "carr": 5,
+          "falta": 6,
+          "tn_prev": 421.34,
+          "tn_carr": 193.34
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 134.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
@@ -198,80 +246,32 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 18,
-      "carr": 4,
-      "falta": 14,
-      "tn_prev": 702.61,
-      "tn_carr": 153.61,
-      "transportadoras": [
-        {
-          "nome": "SILVANO TRANSPORTES (RJ)",
-          "cnpj": "07619336000267",
-          "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 114.51,
-          "tn_carr": 38.51
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 11,
-          "carr": 3,
-          "falta": 8,
-          "tn_prev": 419.1,
-          "tn_carr": 115.1
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 134.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 16,
-      "carr": 8,
-      "falta": 8,
-      "tn_prev": 605.37,
-      "tn_carr": 310.28,
+      "carr": 12,
+      "falta": 4,
+      "tn_prev": 605.35,
+      "tn_carr": 458.53,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
           "cnpj": "26586645000141",
           "prog": 10,
-          "carr": 7,
-          "falta": 3,
-          "tn_prev": 386.68,
-          "tn_carr": 271.66
+          "carr": 9,
+          "falta": 1,
+          "tn_prev": 386.63,
+          "tn_carr": 347.97
         },
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
           "prog": 6,
-          "carr": 1,
-          "falta": 5,
-          "tn_prev": 218.69,
-          "tn_carr": 38.62
+          "carr": 3,
+          "falta": 3,
+          "tn_prev": 218.72,
+          "tn_carr": 110.56
         }
       ]
     },
@@ -279,20 +279,29 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 15,
-      "carr": 4,
+      "prog": 16,
+      "carr": 5,
       "falta": 11,
-      "tn_prev": 549.97,
-      "tn_carr": 149.47,
+      "tn_prev": 583.96,
+      "tn_carr": 186.46,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 9,
-          "carr": 2,
-          "falta": 7,
-          "tn_prev": 333.04,
-          "tn_carr": 76.54
+          "carr": 3,
+          "falta": 6,
+          "tn_prev": 332.03,
+          "tn_carr": 113.53
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
+          "tn_carr": 0.0
         },
         {
           "nome": "H.R. TRANSP. (SC)",
