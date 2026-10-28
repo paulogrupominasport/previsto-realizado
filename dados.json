@@ -1,12 +1,12 @@
 {
   "data_relatorio": "28/10/2026",
-  "gerado_em": "2026-10-28T19:00:18",
-  "atualizado_em": "2026-10-28T22:05:23",
+  "gerado_em": "2026-10-28T20:00:13",
+  "atualizado_em": "2026-10-28T23:05:26",
   "totais": {
-    "prog": 113,
+    "prog": 112,
     "carr": 107,
-    "falta": 6,
-    "tn_prev": 4379.32,
+    "falta": 5,
+    "tn_prev": 4341.32,
     "tn_carr": 4175.92
   },
   "por_cliente": [
@@ -67,14 +67,6 @@
       "tn_carr": 47.13
     },
     {
-      "cliente": "SUPREMO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 79.18,
-      "tn_carr": 41.18
-    },
-    {
       "cliente": "BELOCAL (MTZ)",
       "prog": 2,
       "carr": 2,
@@ -89,6 +81,14 @@
       "falta": 0,
       "tn_prev": 67.75,
       "tn_carr": 67.75
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 41.18,
+      "tn_carr": 41.18
     },
     {
       "cliente": "LS METAIS",
@@ -157,20 +157,20 @@
       "tn_carr": 47.13
     },
     {
-      "produto": "Rivertec",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 79.18,
-      "tn_carr": 41.18
-    },
-    {
       "produto": "CARVÃO",
       "prog": 2,
       "carr": 2,
       "falta": 0,
       "tn_prev": 77.12,
       "tn_carr": 77.12
+    },
+    {
+      "produto": "Rivertec",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 41.18,
+      "tn_carr": 41.18
     },
     {
       "produto": "Antracito",
@@ -512,27 +512,6 @@
       ]
     },
     {
-      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
-      "cliente": "SUPREMO",
-      "produto": "Rivertec",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 79.18,
-      "tn_carr": 41.18,
-      "transportadoras": [
-        {
-          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
-          "cnpj": "15058185000162",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 79.18,
-          "tn_carr": 41.18
-        }
-      ]
-    },
-    {
       "lote": "BELOCAL (MTZ) - CARVÃO LILA MUNDRA- PILHA 47",
       "cliente": "BELOCAL (MTZ)",
       "produto": "CARVÃO",
@@ -571,6 +550,27 @@
           "falta": 0,
           "tn_prev": 67.75,
           "tn_carr": 67.75
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "SUPREMO",
+      "produto": "Rivertec",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 41.18,
+      "tn_carr": 41.18,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 41.18,
+          "tn_carr": 41.18
         }
       ]
     },
