@@ -1,30 +1,30 @@
 {
   "data_relatorio": "29/10/2026",
-  "gerado_em": "2026-10-29T15:34:56",
-  "atualizado_em": "2026-10-29T18:40:23",
+  "gerado_em": "2026-10-29T16:00:14",
+  "atualizado_em": "2026-10-29T19:05:24",
   "totais": {
-    "prog": 142,
-    "carr": 71,
-    "falta": 71,
-    "tn_prev": 5604.68,
-    "tn_carr": 2817.21
+    "prog": 145,
+    "carr": 78,
+    "falta": 67,
+    "tn_prev": 5731.04,
+    "tn_carr": 3077.07
   },
   "por_cliente": [
     {
-      "cliente": "CIM. LIZ",
-      "prog": 49,
-      "carr": 19,
-      "falta": 30,
-      "tn_prev": 2023.73,
-      "tn_carr": 781.73
+      "cliente": "ITAMBÉ",
+      "prog": 55,
+      "carr": 32,
+      "falta": 23,
+      "tn_prev": 2096.28,
+      "tn_carr": 1229.28
     },
     {
-      "cliente": "ITAMBÉ",
-      "prog": 52,
-      "carr": 28,
-      "falta": 24,
-      "tn_prev": 1983.83,
-      "tn_carr": 1089.33
+      "cliente": "CIM. LIZ",
+      "prog": 50,
+      "carr": 22,
+      "falta": 28,
+      "tn_prev": 2067.64,
+      "tn_carr": 901.64
     },
     {
       "cliente": "CSN ARCOS",
@@ -81,32 +81,24 @@
       "falta": 0,
       "tn_prev": 34.27,
       "tn_carr": 34.27
-    },
-    {
-      "cliente": "APERAM",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 30.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 53,
-      "carr": 21,
-      "falta": 32,
-      "tn_prev": 2179.57,
-      "tn_carr": 865.57
+      "prog": 54,
+      "carr": 25,
+      "falta": 29,
+      "tn_prev": 2223.17,
+      "tn_carr": 1023.17
     },
     {
       "produto": "GESSO",
-      "prog": 48,
-      "carr": 26,
+      "prog": 51,
+      "carr": 29,
       "falta": 22,
-      "tn_prev": 1827.99,
-      "tn_carr": 1005.49
+      "tn_prev": 1940.75,
+      "tn_carr": 1107.75
     },
     {
       "produto": "Exp Direta Silhouette",
@@ -155,14 +147,6 @@
       "falta": 1,
       "tn_prev": 35.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "COQUE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 30.0,
-      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -170,20 +154,20 @@
       "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 49,
-      "carr": 19,
-      "falta": 30,
-      "tn_prev": 2023.73,
-      "tn_carr": 781.73,
+      "prog": 50,
+      "carr": 22,
+      "falta": 28,
+      "tn_prev": 2067.64,
+      "tn_carr": 901.64,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES (RJ)",
           "cnpj": "13349563000301",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 113.58,
-          "tn_carr": 37.58
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 110.36,
+          "tn_carr": 110.36
         },
         {
           "nome": "RODOSAFRA (RJ)",
@@ -197,11 +181,11 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 16,
-          "carr": 5,
+          "prog": 17,
+          "carr": 6,
           "falta": 11,
-          "tn_prev": 678.67,
-          "tn_carr": 208.67
+          "tn_prev": 725.8,
+          "tn_carr": 255.8
         },
         {
           "nome": "MRX TRANSP. (RJ)",
@@ -272,46 +256,46 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 48,
-      "carr": 26,
+      "prog": 51,
+      "carr": 29,
       "falta": 22,
-      "tn_prev": 1827.99,
-      "tn_carr": 1005.49,
+      "tn_prev": 1940.75,
+      "tn_carr": 1107.75,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 11,
-          "carr": 6,
-          "falta": 5,
-          "tn_prev": 417.96,
-          "tn_carr": 231.46
+          "carr": 7,
+          "falta": 4,
+          "tn_prev": 419.76,
+          "tn_carr": 267.76
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 5,
-          "carr": 3,
-          "falta": 2,
-          "tn_prev": 186.61,
-          "tn_carr": 113.61
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 186.49,
+          "tn_carr": 148.49
         },
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 14,
-          "carr": 7,
+          "prog": 15,
+          "carr": 8,
           "falta": 7,
-          "tn_prev": 540.2,
-          "tn_carr": 279.2
+          "tn_prev": 579.28,
+          "tn_carr": 310.28
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 18,
+          "prog": 20,
           "carr": 10,
-          "falta": 8,
-          "tn_prev": 683.22,
+          "falta": 10,
+          "tn_prev": 755.22,
           "tn_carr": 381.22
         }
       ]
@@ -468,19 +452,19 @@
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 155.84,
-      "tn_carr": 83.84,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 155.53,
+      "tn_carr": 121.53,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 108.26,
-          "tn_carr": 36.26
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 107.95,
+          "tn_carr": 73.95
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -553,27 +537,6 @@
           "falta": 0,
           "tn_prev": 34.27,
           "tn_carr": 34.27
-        }
-      ]
-    },
-    {
-      "lote": "APERAM- COQUE - PILHA 125 - OUTUBRO",
-      "cliente": "APERAM",
-      "produto": "COQUE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 30.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "SAMATRA (MG)",
-          "cnpj": "20752507000370",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 30.0,
-          "tn_carr": 0.0
         }
       ]
     }
