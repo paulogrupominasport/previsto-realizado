@@ -1,38 +1,46 @@
 {
   "data_relatorio": "29/10/2026",
-  "gerado_em": "2026-10-29T08:00:08",
-  "atualizado_em": "2026-10-29T11:05:25",
+  "gerado_em": "2026-10-29T09:00:18",
+  "atualizado_em": "2026-10-29T12:05:25",
   "totais": {
-    "prog": 59,
-    "carr": 3,
-    "falta": 56,
-    "tn_prev": 2336.47,
-    "tn_carr": 116.31
+    "prog": 79,
+    "carr": 11,
+    "falta": 68,
+    "tn_prev": 3116.94,
+    "tn_carr": 422.96
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 25,
-      "carr": 3,
-      "falta": 22,
-      "tn_prev": 928.81,
-      "tn_carr": 116.31
+      "prog": 34,
+      "carr": 7,
+      "falta": 27,
+      "tn_prev": 1282.96,
+      "tn_carr": 275.46
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 11,
-      "carr": 0,
+      "prog": 12,
+      "carr": 1,
       "falta": 11,
-      "tn_prev": 457.0,
-      "tn_carr": 0.0
+      "tn_prev": 504.92,
+      "tn_carr": 37.92
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 437.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 437.16,
+      "tn_carr": 35.16
+    },
+    {
+      "cliente": "DESCARGA MINÉRIO",
+      "prog": 9,
+      "carr": 2,
+      "falta": 7,
+      "tn_prev": 337.9,
+      "tn_carr": 74.42
     },
     {
       "cliente": "SUPREMO",
@@ -43,11 +51,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "DESCARGA MINÉRIO",
-      "prog": 4,
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 5,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 149.66,
+      "falta": 5,
+      "tn_prev": 190.0,
       "tn_carr": 0.0
     },
     {
@@ -70,27 +78,35 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 21,
-      "carr": 3,
-      "falta": 18,
-      "tn_prev": 773.81,
-      "tn_carr": 116.31
+      "prog": 30,
+      "carr": 6,
+      "falta": 24,
+      "tn_prev": 1128.38,
+      "tn_carr": 227.88
     },
     {
       "produto": "PETCOKE",
       "prog": 14,
-      "carr": 0,
-      "falta": 14,
-      "tn_prev": 592.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 12,
+      "tn_prev": 591.74,
+      "tn_carr": 82.74
     },
     {
       "produto": "Exp Direta Silhouette",
-      "prog": 11,
-      "carr": 0,
+      "prog": 12,
+      "carr": 1,
       "falta": 11,
-      "tn_prev": 457.0,
-      "tn_carr": 0.0
+      "tn_prev": 504.92,
+      "tn_carr": 37.92
+    },
+    {
+      "produto": "Trindade",
+      "prog": 9,
+      "carr": 2,
+      "falta": 7,
+      "tn_prev": 337.9,
+      "tn_carr": 74.42
     },
     {
       "produto": "Rivertec",
@@ -101,11 +117,11 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "Trindade",
-      "prog": 4,
+      "produto": "Sinter Feed",
+      "prog": 5,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 149.66,
+      "falta": 5,
+      "tn_prev": 190.0,
       "tn_carr": 0.0
     },
     {
@@ -122,20 +138,20 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 21,
-      "carr": 3,
-      "falta": 18,
-      "tn_prev": 773.81,
-      "tn_carr": 116.31,
+      "prog": 30,
+      "carr": 6,
+      "falta": 24,
+      "tn_prev": 1128.38,
+      "tn_carr": 227.88,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 8,
-          "carr": 2,
+          "prog": 10,
+          "carr": 4,
           "falta": 6,
-          "tn_prev": 303.06,
-          "tn_carr": 78.56
+          "tn_prev": 380.36,
+          "tn_carr": 155.86
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -149,20 +165,20 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 3,
+          "prog": 7,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 103.0,
+          "falta": 7,
+          "tn_prev": 241.0,
           "tn_carr": 0.0
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 8,
-          "carr": 1,
-          "falta": 7,
-          "tn_prev": 294.75,
-          "tn_carr": 37.75
+          "prog": 11,
+          "carr": 2,
+          "falta": 9,
+          "tn_prev": 434.02,
+          "tn_carr": 72.02
         }
       ]
     },
@@ -170,11 +186,11 @@
       "lote": "CSN ARCOS - EXP DIRETA SILHOUETTE - PP-2026-392",
       "cliente": "CSN ARCOS",
       "produto": "Exp Direta Silhouette",
-      "prog": 11,
-      "carr": 0,
+      "prog": 12,
+      "carr": 1,
       "falta": 11,
-      "tn_prev": 457.0,
-      "tn_carr": 0.0,
+      "tn_prev": 504.92,
+      "tn_carr": 37.92,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES (RJ)",
@@ -213,13 +229,22 @@
           "tn_carr": 0.0
         },
         {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 148.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 147.92,
+          "tn_carr": 37.92
         }
       ]
     },
@@ -228,10 +253,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 437.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 437.16,
+      "tn_carr": 35.16,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -255,10 +280,10 @@
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 169.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 169.16,
+          "tn_carr": 35.16
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -268,6 +293,36 @@
           "falta": 1,
           "tn_prev": 38.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
+      "cliente": "DESCARGA MINÉRIO",
+      "produto": "Trindade",
+      "prog": 9,
+      "carr": 2,
+      "falta": 7,
+      "tn_prev": 337.9,
+      "tn_carr": 74.42,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSPORTES LTDA ME",
+          "cnpj": "26586645000141",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.8,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EMPREENDIMENTOS RODEIRO S/A",
+          "cnpj": "26178616000140",
+          "prog": 8,
+          "carr": 2,
+          "falta": 6,
+          "tn_prev": 299.1,
+          "tn_carr": 74.42
         }
       ]
     },
@@ -302,14 +357,35 @@
       ]
     },
     {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 190.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 190.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
       "cliente": "ITAMBÉ",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 155.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 154.58,
+      "tn_carr": 47.58,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -324,40 +400,10 @@
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
-      "cliente": "DESCARGA MINÉRIO",
-      "produto": "Trindade",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 149.66,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSPORTES LTDA ME",
-          "cnpj": "26586645000141",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.8,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EMPREENDIMENTOS RODEIRO S/A",
-          "cnpj": "26178616000140",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 110.86,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.58,
+          "tn_carr": 47.58
         }
       ]
     },
