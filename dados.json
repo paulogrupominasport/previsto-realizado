@@ -1,30 +1,30 @@
 {
   "data_relatorio": "29/10/2026",
-  "gerado_em": "2026-10-29T12:00:15",
-  "atualizado_em": "2026-10-29T15:05:26",
+  "gerado_em": "2026-10-29T13:00:10",
+  "atualizado_em": "2026-10-29T16:05:25",
   "totais": {
-    "prog": 110,
-    "carr": 49,
-    "falta": 61,
-    "tn_prev": 4371.01,
-    "tn_carr": 1929.08
+    "prog": 123,
+    "carr": 54,
+    "falta": 69,
+    "tn_prev": 4887.21,
+    "tn_carr": 2130.28
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 42,
-      "carr": 17,
-      "falta": 25,
-      "tn_prev": 1617.38,
-      "tn_carr": 679.88
+      "prog": 45,
+      "carr": 19,
+      "falta": 26,
+      "tn_prev": 1727.61,
+      "tn_carr": 758.11
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 30,
-      "carr": 11,
-      "falta": 19,
-      "tn_prev": 1252.99,
-      "tn_carr": 435.99
+      "prog": 40,
+      "carr": 14,
+      "falta": 26,
+      "tn_prev": 1658.96,
+      "tn_carr": 558.96
     },
     {
       "cliente": "CSN ARCOS",
@@ -77,20 +77,20 @@
   ],
   "por_produto": [
     {
-      "produto": "GESSO",
-      "prog": 38,
-      "carr": 16,
-      "falta": 22,
-      "tn_prev": 1462.8,
-      "tn_carr": 632.3
+      "produto": "PETCOKE",
+      "prog": 44,
+      "carr": 15,
+      "falta": 29,
+      "tn_prev": 1813.54,
+      "tn_carr": 606.54
     },
     {
-      "produto": "PETCOKE",
-      "prog": 34,
-      "carr": 12,
-      "falta": 22,
-      "tn_prev": 1407.57,
-      "tn_carr": 483.57
+      "produto": "GESSO",
+      "prog": 41,
+      "carr": 18,
+      "falta": 23,
+      "tn_prev": 1573.03,
+      "tn_carr": 710.53
     },
     {
       "produto": "Exp Direta Silhouette",
@@ -135,14 +135,116 @@
   ],
   "lotes": [
     {
+      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 40,
+      "carr": 14,
+      "falta": 26,
+      "tn_prev": 1658.96,
+      "tn_carr": 558.96,
+      "transportadoras": [
+        {
+          "nome": "WSV TRANSPORTES (RJ)",
+          "cnpj": "13349563000301",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 114.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 240.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 15,
+          "carr": 4,
+          "falta": 11,
+          "tn_prev": 628.21,
+          "tn_carr": 158.21
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.91,
+          "tn_carr": 38.91
+        },
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 75.84,
+          "tn_carr": 75.84
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 5,
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 206.28,
+          "tn_carr": 120.28
+        },
+        {
+          "nome": "IDEAL (MG)",
+          "cnpj": "08155206000100",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.13,
+          "tn_carr": 47.13
+        },
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 34.55,
+          "tn_carr": 34.55
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 152.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 122.04,
+          "tn_carr": 84.04
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 38,
-      "carr": 16,
-      "falta": 22,
-      "tn_prev": 1462.8,
-      "tn_carr": 632.3,
+      "prog": 41,
+      "carr": 18,
+      "falta": 23,
+      "tn_prev": 1573.03,
+      "tn_carr": 710.53,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -165,11 +267,11 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 10,
-          "carr": 2,
-          "falta": 8,
-          "tn_prev": 390.59,
-          "tn_carr": 85.59
+          "prog": 13,
+          "carr": 4,
+          "falta": 9,
+          "tn_prev": 500.82,
+          "tn_carr": 163.82
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -179,108 +281,6 @@
           "falta": 7,
           "tn_prev": 505.81,
           "tn_carr": 239.81
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 30,
-      "carr": 11,
-      "falta": 19,
-      "tn_prev": 1252.99,
-      "tn_carr": 435.99,
-      "transportadoras": [
-        {
-          "nome": "WSV TRANSPORTES (RJ)",
-          "cnpj": "13349563000301",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 192.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 10,
-          "carr": 4,
-          "falta": 6,
-          "tn_prev": 421.21,
-          "tn_carr": 158.21
-        },
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 38.91,
-          "tn_carr": 38.91
-        },
-        {
-          "nome": "LENARGE (RJ)",
-          "cnpj": "02870124000315",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 168.28,
-          "tn_carr": 120.28
-        },
-        {
-          "nome": "IDEAL (MG)",
-          "cnpj": "08155206000100",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. TS (RJ)",
-          "cnpj": "05324485000516",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 34.55,
-          "tn_carr": 34.55
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 122.04,
-          "tn_carr": 84.04
         }
       ]
     },
