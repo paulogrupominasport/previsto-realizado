@@ -1,30 +1,30 @@
 {
   "data_relatorio": "30/10/2026",
-  "gerado_em": "2026-10-30T10:00:21",
-  "atualizado_em": "2026-10-30T13:05:26",
+  "gerado_em": "2026-10-30T11:00:19",
+  "atualizado_em": "2026-10-30T14:05:34",
   "totais": {
     "prog": 77,
-    "carr": 27,
-    "falta": 50,
-    "tn_prev": 2950.22,
-    "tn_carr": 1034.73
+    "carr": 34,
+    "falta": 43,
+    "tn_prev": 2980.71,
+    "tn_carr": 1305.72
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 40,
-      "carr": 11,
-      "falta": 29,
-      "tn_prev": 1521.62,
-      "tn_carr": 414.12
+      "prog": 39,
+      "carr": 13,
+      "falta": 26,
+      "tn_prev": 1488.48,
+      "tn_carr": 488.48
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 11,
-      "carr": 3,
-      "falta": 8,
-      "tn_prev": 431.39,
-      "tn_carr": 122.39
+      "carr": 7,
+      "falta": 4,
+      "tn_prev": 444.33,
+      "tn_carr": 278.33
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -51,38 +51,38 @@
       "tn_carr": 37.38
     },
     {
+      "cliente": "LS METAIS",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 116.69,
+      "tn_carr": 40.69
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "LS METAIS",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 66.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 40,
-      "carr": 11,
-      "falta": 29,
-      "tn_prev": 1521.62,
-      "tn_carr": 414.12
+      "prog": 39,
+      "carr": 13,
+      "falta": 26,
+      "tn_prev": 1488.48,
+      "tn_carr": 488.48
     },
     {
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 3,
-      "falta": 8,
-      "tn_prev": 431.39,
-      "tn_carr": 122.39
+      "carr": 7,
+      "falta": 4,
+      "tn_prev": 444.33,
+      "tn_carr": 278.33
     },
     {
       "produto": "Sinter Feed",
@@ -109,19 +109,19 @@
       "tn_carr": 37.38
     },
     {
+      "produto": "Antracito",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 116.69,
+      "tn_carr": 40.69
+    },
+    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Antracito",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 66.0,
       "tn_carr": 0.0
     }
   ],
@@ -130,20 +130,20 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 40,
-      "carr": 11,
-      "falta": 29,
-      "tn_prev": 1521.62,
-      "tn_carr": 414.12,
+      "prog": 39,
+      "carr": 13,
+      "falta": 26,
+      "tn_prev": 1488.48,
+      "tn_carr": 488.48,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 19,
-          "carr": 9,
-          "falta": 10,
-          "tn_prev": 711.4,
-          "tn_carr": 337.9
+          "prog": 18,
+          "carr": 11,
+          "falta": 7,
+          "tn_prev": 678.26,
+          "tn_carr": 412.26
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -170,27 +170,36 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 3,
-      "falta": 8,
-      "tn_prev": 431.39,
-      "tn_carr": 122.39,
+      "carr": 7,
+      "falta": 4,
+      "tn_prev": 444.33,
+      "tn_carr": 278.33,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 4,
+          "prog": 3,
           "carr": 1,
-          "falta": 3,
-          "tn_prev": 193.21,
+          "falta": 2,
+          "tn_prev": 145.21,
           "tn_carr": 49.21
         },
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 119.61,
+          "tn_carr": 119.61
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 96.0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         },
         {
@@ -206,10 +215,10 @@
           "nome": "EXP. TS (RJ)",
           "cnpj": "05324485000516",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 72.99,
-          "tn_carr": 35.99
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 72.32,
+          "tn_carr": 72.32
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -313,6 +322,27 @@
       ]
     },
     {
+      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS",
+      "produto": "Antracito",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 116.69,
+      "tn_carr": 40.69,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 116.69,
+          "tn_carr": 40.69
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -329,27 +359,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
-      "cliente": "LS METAIS",
-      "produto": "Antracito",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 66.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 66.0,
           "tn_carr": 0.0
         }
       ]
