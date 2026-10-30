@@ -1,21 +1,21 @@
 {
   "data_relatorio": "30/10/2026",
-  "gerado_em": "2026-10-30T13:00:14",
-  "atualizado_em": "2026-10-30T16:05:24",
+  "gerado_em": "2026-10-30T14:00:16",
+  "atualizado_em": "2026-10-30T17:05:22",
   "totais": {
-    "prog": 81,
-    "carr": 51,
+    "prog": 82,
+    "carr": 52,
     "falta": 30,
-    "tn_prev": 3151.96,
-    "tn_carr": 1988.56
+    "tn_prev": 3151.7,
+    "tn_carr": 2026.3
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 40,
+      "prog": 41,
       "carr": 21,
-      "falta": 19,
-      "tn_prev": 1548.27,
+      "falta": 20,
+      "tn_prev": 1583.27,
       "tn_carr": 810.27
     },
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 11,
-      "carr": 7,
-      "falta": 4,
-      "tn_prev": 422.35,
-      "tn_carr": 273.35
+      "carr": 9,
+      "falta": 2,
+      "tn_prev": 423.11,
+      "tn_carr": 347.11
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -45,10 +45,10 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 218.18,
-      "tn_carr": 183.18
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 182.16,
+      "tn_carr": 147.16
     },
     {
       "cliente": "LS METAIS",
@@ -70,10 +70,10 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 40,
+      "prog": 41,
       "carr": 21,
-      "falta": 19,
-      "tn_prev": 1548.27,
+      "falta": 20,
+      "tn_prev": 1583.27,
       "tn_carr": 810.27
     },
     {
@@ -87,10 +87,10 @@
     {
       "produto": "Sinter Feed",
       "prog": 11,
-      "carr": 7,
-      "falta": 4,
-      "tn_prev": 422.35,
-      "tn_carr": 273.35
+      "carr": 9,
+      "falta": 2,
+      "tn_prev": 423.11,
+      "tn_carr": 347.11
     },
     {
       "produto": "Trindade",
@@ -103,10 +103,10 @@
     {
       "produto": "Exp Direta Silhouette",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 218.18,
-      "tn_carr": 183.18
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 182.16,
+      "tn_carr": 147.16
     },
     {
       "produto": "Antracito",
@@ -130,10 +130,10 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 40,
+      "prog": 41,
       "carr": 21,
-      "falta": 19,
-      "tn_prev": 1548.27,
+      "falta": 20,
+      "tn_prev": 1583.27,
       "tn_carr": 810.27,
       "transportadoras": [
         {
@@ -148,10 +148,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 14,
+          "prog": 15,
           "carr": 4,
-          "falta": 10,
-          "tn_prev": 578.77,
+          "falta": 11,
+          "tn_prev": 613.77,
           "tn_carr": 170.77
         },
         {
@@ -236,19 +236,19 @@
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
       "prog": 11,
-      "carr": 7,
-      "falta": 4,
-      "tn_prev": 422.35,
-      "tn_carr": 273.35,
+      "carr": 9,
+      "falta": 2,
+      "tn_prev": 423.11,
+      "tn_carr": 347.11,
       "transportadoras": [
         {
           "nome": "RODEIRO (MG)",
           "cnpj": "26178616000140",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 73.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 73.76,
+          "tn_carr": 73.76
         },
         {
           "nome": "MRX TRANSP. (MG)",
@@ -296,19 +296,19 @@
       "cliente": "CSN ARCOS",
       "produto": "Exp Direta Silhouette",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 218.18,
-      "tn_carr": 183.18,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 182.16,
+      "tn_carr": 147.16,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 108.4,
-          "tn_carr": 73.4
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 72.38,
+          "tn_carr": 37.38
         },
         {
           "nome": "AR MACEDO (RJ)",
