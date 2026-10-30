@@ -1,30 +1,22 @@
 {
   "data_relatorio": "30/10/2026",
-  "gerado_em": "2026-10-30T07:00:18",
-  "atualizado_em": "2026-10-30T10:05:26",
+  "gerado_em": "2026-10-30T08:00:13",
+  "atualizado_em": "2026-10-30T11:05:23",
   "totais": {
-    "prog": 55,
-    "carr": 1,
-    "falta": 54,
-    "tn_prev": 2092.17,
-    "tn_carr": 37.38
+    "prog": 49,
+    "carr": 2,
+    "falta": 47,
+    "tn_prev": 1851.22,
+    "tn_carr": 75.43
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 31,
-      "carr": 0,
-      "falta": 31,
-      "tn_prev": 1172.5,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN ARCOS",
-      "prog": 9,
       "carr": 1,
-      "falta": 8,
-      "tn_prev": 354.38,
-      "tn_carr": 37.38
+      "falta": 30,
+      "tn_prev": 1172.55,
+      "tn_carr": 38.05
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -41,6 +33,14 @@
       "falta": 6,
       "tn_prev": 204.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN ARCOS",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 113.38,
+      "tn_carr": 37.38
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -63,18 +63,10 @@
     {
       "produto": "GESSO",
       "prog": 31,
-      "carr": 0,
-      "falta": 31,
-      "tn_prev": 1172.5,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Exp Direta Silhouette",
-      "prog": 9,
       "carr": 1,
-      "falta": 8,
-      "tn_prev": 354.38,
-      "tn_carr": 37.38
+      "falta": 30,
+      "tn_prev": 1172.55,
+      "tn_carr": 38.05
     },
     {
       "produto": "Trindade",
@@ -91,6 +83,14 @@
       "falta": 6,
       "tn_prev": 204.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Exp Direta Silhouette",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 113.38,
+      "tn_carr": 37.38
     },
     {
       "produto": "PETRÓLEO",
@@ -115,10 +115,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 31,
-      "carr": 0,
-      "falta": 31,
-      "tn_prev": 1172.5,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 30,
+      "tn_prev": 1172.55,
+      "tn_carr": 38.05,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -142,49 +142,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 75.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN ARCOS - EXP DIRETA SILHOUETTE - PP-2026-392",
-      "cliente": "CSN ARCOS",
-      "produto": "Exp Direta Silhouette",
-      "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 354.38,
-      "tn_carr": 37.38,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 5,
           "carr": 1,
-          "falta": 4,
-          "tn_prev": 203.38,
-          "tn_carr": 37.38
-        },
-        {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
-          "prog": 1,
-          "carr": 0,
           "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 113.0,
-          "tn_carr": 0.0
+          "tn_prev": 75.05,
+          "tn_carr": 38.05
         }
       ]
     },
@@ -271,6 +232,36 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - EXP DIRETA SILHOUETTE - PP-2026-392",
+      "cliente": "CSN ARCOS",
+      "produto": "Exp Direta Silhouette",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 113.38,
+      "tn_carr": 37.38,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.38,
+          "tn_carr": 37.38
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         }
       ]
