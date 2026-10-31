@@ -1,22 +1,22 @@
 {
   "data_relatorio": "31/10/2026",
-  "gerado_em": "2026-10-31T12:00:07",
-  "atualizado_em": "2026-10-31T15:05:23",
+  "gerado_em": "2026-10-31T13:00:18",
+  "atualizado_em": "2026-10-31T16:05:27",
   "totais": {
     "prog": 80,
-    "carr": 39,
-    "falta": 41,
-    "tn_prev": 3196.49,
-    "tn_carr": 1495.34
+    "carr": 45,
+    "falta": 35,
+    "tn_prev": 3203.61,
+    "tn_carr": 1744.46
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 24,
-      "carr": 14,
-      "falta": 10,
-      "tn_prev": 888.36,
-      "tn_carr": 511.36
+      "carr": 16,
+      "falta": 8,
+      "tn_prev": 889.65,
+      "tn_carr": 588.65
     },
     {
       "cliente": "CSN MOC",
@@ -45,18 +45,18 @@
     {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 300.61,
-      "tn_carr": 37.61
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 305.31,
+      "tn_carr": 160.31
     },
     {
       "cliente": "CSN BARROSO",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 247.33,
-      "tn_carr": 113.33
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 248.46,
+      "tn_carr": 162.46
     },
     {
       "cliente": "CSN ARCOS",
@@ -103,18 +103,18 @@
     {
       "produto": "PETCOKE",
       "prog": 40,
-      "carr": 17,
-      "falta": 23,
-      "tn_prev": 1666.95,
-      "tn_carr": 668.95
+      "carr": 21,
+      "falta": 19,
+      "tn_prev": 1672.78,
+      "tn_carr": 840.78
     },
     {
       "produto": "GESSO",
       "prog": 24,
-      "carr": 14,
-      "falta": 10,
-      "tn_prev": 888.36,
-      "tn_carr": 511.36
+      "carr": 16,
+      "falta": 8,
+      "tn_prev": 889.65,
+      "tn_carr": 588.65
     },
     {
       "produto": "Trindade",
@@ -155,19 +155,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 24,
-      "carr": 14,
-      "falta": 10,
-      "tn_prev": 888.36,
-      "tn_carr": 511.36,
+      "carr": 16,
+      "falta": 8,
+      "tn_prev": 889.65,
+      "tn_carr": 588.65,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 13,
-          "carr": 6,
-          "falta": 7,
-          "tn_prev": 486.34,
-          "tn_carr": 223.34
+          "carr": 8,
+          "falta": 5,
+          "tn_prev": 487.63,
+          "tn_carr": 300.63
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -302,28 +302,28 @@
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 1,
-      "falta": 6,
-      "tn_prev": 300.61,
-      "tn_carr": 37.61,
+      "carr": 4,
+      "falta": 3,
+      "tn_prev": 305.31,
+      "tn_carr": 160.31,
       "transportadoras": [
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 107.61,
-          "tn_carr": 37.61
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 112.26,
+          "tn_carr": 112.26
         },
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 193.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 193.05,
+          "tn_carr": 48.05
         }
       ]
     },
@@ -332,10 +332,10 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 247.33,
-      "tn_carr": 113.33,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 248.46,
+      "tn_carr": 162.46,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -350,10 +350,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.13,
+          "tn_carr": 49.13
         },
         {
           "nome": "GT MINAS (RJ)",
