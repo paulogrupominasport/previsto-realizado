@@ -1,15 +1,31 @@
 {
   "data_relatorio": "01/11/2026",
-  "gerado_em": "2026-11-01T10:00:18",
-  "atualizado_em": "2026-11-01T13:05:22",
+  "gerado_em": "2026-11-01T11:00:13",
+  "atualizado_em": "2026-11-01T14:05:24",
   "totais": {
-    "prog": 37,
-    "carr": 8,
-    "falta": 29,
-    "tn_prev": 1577.6,
-    "tn_carr": 353.69
+    "prog": 41,
+    "carr": 14,
+    "falta": 27,
+    "tn_prev": 1741.9,
+    "tn_carr": 584.29
   },
   "por_cliente": [
+    {
+      "cliente": "CSN MOC",
+      "prog": 8,
+      "carr": 2,
+      "falta": 6,
+      "tn_prev": 392.13,
+      "tn_carr": 96.13
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 9,
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 376.8,
+      "tn_carr": 252.8
+    },
     {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 9,
@@ -19,28 +35,12 @@
       "tn_carr": 39.14
     },
     {
-      "cliente": "CIM. LIZ",
-      "prog": 8,
-      "carr": 4,
-      "falta": 4,
-      "tn_prev": 342.73,
-      "tn_carr": 180.73
-    },
-    {
-      "cliente": "CSN MOC",
-      "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 296.13,
-      "tn_carr": 96.13
-    },
-    {
       "cliente": "CSN ARCOS",
       "prog": 6,
-      "carr": 1,
-      "falta": 5,
-      "tn_prev": 250.69,
-      "tn_carr": 37.69
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 251.75,
+      "tn_carr": 120.75
     },
     {
       "cliente": "CSN BARROSO",
@@ -61,18 +61,18 @@
     {
       "cliente": "CSN V. REDONDA",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 78.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 75.58,
+      "tn_carr": 35.58
     },
     {
       "cliente": "DESCARGA MINÉRIO",
-      "prog": 1,
-      "carr": 0,
+      "prog": 2,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 39.91,
-      "tn_carr": 0.0
+      "tn_prev": 75.5,
+      "tn_carr": 39.89
     },
     {
       "cliente": "CIMENTOS LIZ",
@@ -86,11 +86,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 33,
-      "carr": 8,
-      "falta": 25,
-      "tn_prev": 1408.69,
-      "tn_carr": 353.69
+      "prog": 36,
+      "carr": 13,
+      "falta": 23,
+      "tn_prev": 1537.4,
+      "tn_carr": 544.4
     },
     {
       "produto": "PETRÓLEO",
@@ -102,11 +102,11 @@
     },
     {
       "produto": "Trindade",
-      "prog": 1,
-      "carr": 0,
+      "prog": 2,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 39.91,
-      "tn_carr": 0.0
+      "tn_prev": 75.5,
+      "tn_carr": 39.89
     },
     {
       "produto": "Exp Direta Silhouette",
@@ -118,6 +118,93 @@
     }
   ],
   "lotes": [
+    {
+      "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN MOC",
+      "produto": "PETCOKE",
+      "prog": 8,
+      "carr": 2,
+      "falta": 6,
+      "tn_prev": 392.13,
+      "tn_carr": 96.13,
+      "transportadoras": [
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.69,
+          "tn_carr": 47.69
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 6,
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 296.44,
+          "tn_carr": 48.44
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 9,
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 376.8,
+      "tn_carr": 252.8,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 4,
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 192.84,
+          "tn_carr": 144.84
+        },
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 71.15,
+          "tn_carr": 71.15
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 36.81,
+          "tn_carr": 36.81
+        }
+      ]
+    },
     {
       "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN P. LEOPOLDO",
@@ -158,110 +245,32 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 4,
-      "falta": 4,
-      "tn_prev": 342.73,
-      "tn_carr": 180.73,
-      "transportadoras": [
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 192.84,
-          "tn_carr": 144.84
-        },
-        {
-          "nome": "EXP. TS (RJ)",
-          "cnpj": "05324485000516",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 73.89,
-          "tn_carr": 35.89
-        },
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN MOC",
-      "produto": "PETCOKE",
-      "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 296.13,
-      "tn_carr": 96.13,
-      "transportadoras": [
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 47.69,
-          "tn_carr": 47.69
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 248.44,
-          "tn_carr": 48.44
-        }
-      ]
-    },
-    {
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 1,
-      "falta": 5,
-      "tn_prev": 250.69,
-      "tn_carr": 37.69,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 251.75,
+      "tn_carr": 120.75,
       "transportadoras": [
         {
           "nome": "VICTRANS (RJ)",
           "cnpj": "02830994000441",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 34.71,
+          "tn_carr": 34.71
         },
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 215.69,
-          "tn_carr": 37.69
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 217.04,
+          "tn_carr": 86.04
         }
       ]
     },
@@ -312,19 +321,19 @@
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 78.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 75.58,
+      "tn_carr": 35.58,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 78.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 75.58,
+          "tn_carr": 35.58
         }
       ]
     },
@@ -332,19 +341,28 @@
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
-      "prog": 1,
-      "carr": 0,
+      "prog": 2,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 39.91,
-      "tn_carr": 0.0,
+      "tn_prev": 75.5,
+      "tn_carr": 39.89,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
           "cnpj": "26586645000141",
           "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.89,
+          "tn_carr": 39.89
+        },
+        {
+          "nome": "EMPREENDIMENTOS RODEIRO S/A",
+          "cnpj": "26178616000140",
+          "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 39.91,
+          "tn_prev": 35.61,
           "tn_carr": 0.0
         }
       ]
