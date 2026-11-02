@@ -1,21 +1,21 @@
 {
   "data_relatorio": "02/11/2026",
-  "gerado_em": "2026-11-02T08:00:11",
-  "atualizado_em": "2026-11-02T11:05:23",
+  "gerado_em": "2026-11-02T09:00:09",
+  "atualizado_em": "2026-11-02T12:05:24",
   "totais": {
-    "prog": 19,
+    "prog": 23,
     "carr": 0,
-    "falta": 19,
-    "tn_prev": 792.0,
+    "falta": 23,
+    "tn_prev": 952.0,
     "tn_carr": 0.0
   },
   "por_cliente": [
     {
       "cliente": "CSN P. LEOPOLDO",
-      "prog": 6,
+      "prog": 8,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 228.0,
+      "falta": 8,
+      "tn_prev": 302.0,
       "tn_carr": 0.0
     },
     {
@@ -43,29 +43,37 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM. LIZ",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN BARROSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN V. REDONDA",
       "prog": 1,
       "carr": 0,
       "falta": 1,
       "tn_prev": 38.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "CIM. LIZ",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 33.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 17,
+      "prog": 21,
       "carr": 0,
-      "falta": 17,
-      "tn_prev": 692.0,
+      "falta": 21,
+      "tn_prev": 852.0,
       "tn_carr": 0.0
     },
     {
@@ -82,12 +90,21 @@
       "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 8,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 228.0,
+      "falta": 8,
+      "tn_prev": 302.0,
       "tn_carr": 0.0,
       "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
@@ -190,6 +207,57 @@
       ]
     },
     {
+      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "D GRANEL (RJ)",
+          "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 33.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN BARROSO",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN V. REDONDA - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
@@ -206,27 +274,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 33.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "D GRANEL (RJ)",
-          "cnpj": "22447684000883",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 33.0,
           "tn_carr": 0.0
         }
       ]
