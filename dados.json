@@ -1,30 +1,30 @@
 {
   "data_relatorio": "02/11/2026",
-  "gerado_em": "2026-11-02T11:00:07",
-  "atualizado_em": "2026-11-02T14:05:23",
+  "gerado_em": "2026-11-02T12:00:16",
+  "atualizado_em": "2026-11-02T15:05:22",
   "totais": {
     "prog": 31,
-    "carr": 14,
-    "falta": 17,
-    "tn_prev": 1323.44,
-    "tn_carr": 544.44
+    "carr": 20,
+    "falta": 11,
+    "tn_prev": 1319.7,
+    "tn_carr": 810.7
   },
   "por_cliente": [
     {
       "cliente": "CSN MOC",
       "prog": 10,
-      "carr": 3,
-      "falta": 7,
-      "tn_prev": 467.68,
-      "tn_carr": 121.68
+      "carr": 5,
+      "falta": 5,
+      "tn_prev": 467.97,
+      "tn_carr": 219.97
     },
     {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 9,
-      "carr": 8,
-      "falta": 1,
-      "tn_prev": 341.0,
-      "tn_carr": 303.0
+      "carr": 9,
+      "falta": 0,
+      "tn_prev": 339.1,
+      "tn_carr": 339.1
     },
     {
       "cliente": "CSN ARCOS",
@@ -45,10 +45,10 @@
     {
       "cliente": "CSN BARROSO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.61,
+      "tn_carr": 94.61
     },
     {
       "cliente": "CIM. LIZ",
@@ -61,20 +61,20 @@
     {
       "cliente": "CSN V. REDONDA",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.26,
+      "tn_carr": 37.26
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
       "prog": 29,
-      "carr": 14,
-      "falta": 15,
-      "tn_prev": 1223.44,
-      "tn_carr": 544.44
+      "carr": 20,
+      "falta": 9,
+      "tn_prev": 1219.7,
+      "tn_carr": 810.7
     },
     {
       "produto": "PETRÓLEO",
@@ -91,10 +91,10 @@
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
       "prog": 10,
-      "carr": 3,
-      "falta": 7,
-      "tn_prev": 467.68,
-      "tn_carr": 121.68,
+      "carr": 5,
+      "falta": 5,
+      "tn_prev": 467.97,
+      "tn_carr": 219.97,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
@@ -109,10 +109,10 @@
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 9,
-          "carr": 3,
-          "falta": 6,
-          "tn_prev": 419.68,
-          "tn_carr": 121.68
+          "carr": 5,
+          "falta": 4,
+          "tn_prev": 419.97,
+          "tn_carr": 219.97
         }
       ]
     },
@@ -121,10 +121,10 @@
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
       "prog": 9,
-      "carr": 8,
-      "falta": 1,
-      "tn_prev": 341.0,
-      "tn_carr": 303.0,
+      "carr": 9,
+      "falta": 0,
+      "tn_prev": 339.1,
+      "tn_carr": 339.1,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -157,10 +157,10 @@
           "nome": "EXP. TS (RJ)",
           "cnpj": "05324485000516",
           "prog": 5,
-          "carr": 4,
-          "falta": 1,
-          "tn_prev": 182.33,
-          "tn_carr": 144.33
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 180.43,
+          "tn_carr": 180.43
         }
       ]
     },
@@ -220,28 +220,28 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.61,
+      "tn_carr": 94.61,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.38,
+          "tn_carr": 47.38
         },
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.23,
+          "tn_carr": 47.23
         }
       ]
     },
@@ -280,19 +280,19 @@
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 37.26,
+      "tn_carr": 37.26,
       "transportadoras": [
         {
           "nome": "EK TRANSPORTES (RJ)",
           "cnpj": "05399163000617",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.26,
+          "tn_carr": 37.26
         }
       ]
     }
