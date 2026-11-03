@@ -1,21 +1,21 @@
 {
   "data_relatorio": "03/11/2026",
-  "gerado_em": "2026-11-03T16:00:13",
-  "atualizado_em": "2026-11-03T19:05:41",
+  "gerado_em": "2026-11-03T17:00:08",
+  "atualizado_em": "2026-11-03T20:05:31",
   "totais": {
-    "prog": 111,
-    "carr": 33,
-    "falta": 78,
-    "tn_prev": 4385.9,
-    "tn_carr": 1303.9
+    "prog": 107,
+    "carr": 45,
+    "falta": 62,
+    "tn_prev": 4242.77,
+    "tn_carr": 1768.77
   },
   "por_cliente": [
     {
       "cliente": "MULTITECNICA",
-      "prog": 25,
+      "prog": 20,
       "carr": 0,
-      "falta": 25,
-      "tn_prev": 940.0,
+      "falta": 20,
+      "tn_prev": 753.0,
       "tn_carr": 0.0
     },
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "ITAMBÉ",
       "prog": 16,
-      "carr": 5,
-      "falta": 11,
-      "tn_prev": 581.69,
-      "tn_carr": 174.69
+      "carr": 8,
+      "falta": 8,
+      "tn_prev": 590.05,
+      "tn_carr": 285.05
     },
     {
       "cliente": "CSN MOC",
@@ -43,44 +43,44 @@
       "tn_carr": 230.11
     },
     {
+      "cliente": "CSN BARROSO",
+      "prog": 8,
+      "carr": 0,
+      "falta": 8,
+      "tn_prev": 327.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 301.82,
-      "tn_carr": 205.82
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 301.9,
+      "tn_carr": 253.9
     },
     {
       "cliente": "CIM. LIZ",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
+      "carr": 5,
+      "falta": 3,
       "tn_prev": 296.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN BARROSO",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 292.0,
-      "tn_carr": 0.0
+      "tn_carr": 183.0
     },
     {
       "cliente": "CSN ARCOS",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
+      "carr": 4,
+      "falta": 2,
       "tn_prev": 233.48,
-      "tn_carr": 108.48
+      "tn_carr": 147.48
     },
     {
       "cliente": "BELOCAL MTZ",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 158.3,
-      "tn_carr": 122.3
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 159.68,
+      "tn_carr": 159.68
     },
     {
       "cliente": "LS METAIS",
@@ -101,10 +101,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.05,
+      "tn_carr": 47.05
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -118,27 +118,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 47,
-      "carr": 17,
-      "falta": 30,
-      "tn_prev": 1952.42,
-      "tn_carr": 703.42
+      "prog": 49,
+      "carr": 25,
+      "falta": 24,
+      "tn_prev": 2036.88,
+      "tn_carr": 1010.88
     },
     {
       "produto": "Sulfurico",
-      "prog": 25,
+      "prog": 20,
       "carr": 0,
-      "falta": 25,
-      "tn_prev": 940.0,
+      "falta": 20,
+      "tn_prev": 753.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "GESSO",
-      "prog": 17,
-      "carr": 5,
-      "falta": 12,
-      "tn_prev": 629.69,
-      "tn_carr": 174.69
     },
     {
       "produto": "Sinter Feed",
@@ -147,6 +139,14 @@
       "falta": 9,
       "tn_prev": 611.31,
       "tn_carr": 269.31
+    },
+    {
+      "produto": "GESSO",
+      "prog": 16,
+      "carr": 8,
+      "falta": 8,
+      "tn_prev": 590.05,
+      "tn_carr": 285.05
     },
     {
       "produto": "Antracito",
@@ -159,10 +159,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.05,
+      "tn_carr": 47.05
     }
   ],
   "lotes": [
@@ -170,19 +170,19 @@
       "lote": "MULTITECNICA - SULFURICO",
       "cliente": "MULTITECNICA",
       "produto": "Sulfurico",
-      "prog": 25,
+      "prog": 20,
       "carr": 0,
-      "falta": 25,
-      "tn_prev": 940.0,
+      "falta": 20,
+      "tn_prev": 753.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "TRANSHERCULANO (BA)",
           "cnpj": "17799438001156",
-          "prog": 25,
+          "prog": 20,
           "carr": 0,
-          "falta": 25,
-          "tn_prev": 940.0,
+          "falta": 20,
+          "tn_prev": 753.0,
           "tn_carr": 0.0
         }
       ]
@@ -222,10 +222,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 16,
-      "carr": 5,
-      "falta": 11,
-      "tn_prev": 581.69,
-      "tn_carr": 174.69,
+      "carr": 8,
+      "falta": 8,
+      "tn_prev": 590.05,
+      "tn_carr": 285.05,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -240,19 +240,19 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 6,
-          "carr": 1,
-          "falta": 5,
-          "tn_prev": 219.58,
-          "tn_carr": 30.58
+          "carr": 2,
+          "falta": 4,
+          "tn_prev": 228.14,
+          "tn_carr": 69.14
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 3,
-          "falta": 5,
-          "tn_prev": 287.06,
-          "tn_carr": 107.06
+          "carr": 5,
+          "falta": 3,
+          "tn_prev": 286.86,
+          "tn_carr": 178.86
         }
       ]
     },
@@ -296,14 +296,53 @@
       ]
     },
     {
+      "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN BARROSO",
+      "produto": "PETCOKE",
+      "prog": 8,
+      "carr": 0,
+      "falta": 8,
+      "tn_prev": 327.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 6,
+          "carr": 0,
+          "falta": 6,
+          "tn_prev": 241.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EK TRANSPORTES (RJ)",
+          "cnpj": "05399163000617",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 5,
-      "falta": 2,
-      "tn_prev": 301.82,
-      "tn_carr": 205.82,
+      "carr": 6,
+      "falta": 1,
+      "tn_prev": 301.9,
+      "tn_carr": 253.9,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -318,10 +357,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 96.08,
+          "tn_carr": 48.08
         }
       ]
     },
@@ -330,49 +369,19 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
+      "carr": 5,
+      "falta": 3,
       "tn_prev": 296.0,
-      "tn_carr": 0.0,
+      "tn_carr": 183.0,
       "transportadoras": [
         {
           "nome": "LENARGE (RJ)",
           "cnpj": "02870124000315",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
+          "carr": 5,
+          "falta": 3,
           "tn_prev": 296.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN BARROSO",
-      "produto": "PETCOKE",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 244.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 206.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "tn_carr": 183.0
         }
       ]
     },
@@ -381,19 +390,19 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
+      "carr": 4,
+      "falta": 2,
       "tn_prev": 233.48,
-      "tn_carr": 108.48,
+      "tn_carr": 147.48,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES (RJ)",
           "cnpj": "13349563000301",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 39.0,
-          "tn_carr": 0.0
+          "tn_carr": 39.0
         },
         {
           "nome": "RODOSAFRA (RJ)",
@@ -420,19 +429,19 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 158.3,
-      "tn_carr": 122.3,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 159.68,
+      "tn_carr": 159.68,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 158.3,
-          "tn_carr": 122.3
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 159.68,
+          "tn_carr": 159.68
         }
       ]
     },
@@ -492,19 +501,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.05,
+      "tn_carr": 47.05,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.05,
+          "tn_carr": 47.05
         }
       ]
     },
@@ -525,27 +534,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 84.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN BARROSO",
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EK TRANSPORTES (RJ)",
-          "cnpj": "05399163000617",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
