@@ -1,12 +1,12 @@
 {
   "data_relatorio": "03/11/2026",
-  "gerado_em": "2026-11-03T10:00:18",
-  "atualizado_em": "2026-11-03T13:05:24",
+  "gerado_em": "2026-11-03T10:15:17",
+  "atualizado_em": "2026-11-03T13:20:24",
   "totais": {
-    "prog": 59,
+    "prog": 63,
     "carr": 6,
-    "falta": 53,
-    "tn_prev": 2368.97,
+    "falta": 57,
+    "tn_prev": 2520.97,
     "tn_carr": 252.97
   },
   "por_cliente": [
@@ -48,6 +48,14 @@
       "carr": 0,
       "falta": 7,
       "tn_prev": 280.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "LS METAIS",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 152.0,
       "tn_carr": 0.0
     },
     {
@@ -98,6 +106,14 @@
       "carr": 0,
       "falta": 12,
       "tn_prev": 448.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Antracito",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 152.0,
       "tn_carr": 0.0
     },
     {
@@ -274,6 +290,27 @@
           "carr": 0,
           "falta": 4,
           "tn_prev": 155.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS",
+      "produto": "Antracito",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 152.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "VICTRANS (RJ)",
+          "cnpj": "02830994000441",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 152.0,
           "tn_carr": 0.0
         }
       ]
