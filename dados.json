@@ -1,62 +1,62 @@
 {
   "data_relatorio": "03/11/2026",
-  "gerado_em": "2026-11-03T18:00:21",
-  "atualizado_em": "2026-11-03T21:05:25",
+  "gerado_em": "2026-11-03T19:02:33",
+  "atualizado_em": "2026-11-03T22:05:58",
   "totais": {
-    "prog": 109,
-    "carr": 58,
-    "falta": 51,
-    "tn_prev": 4349.79,
-    "tn_carr": 2281.29
+    "prog": 120,
+    "carr": 68,
+    "falta": 52,
+    "tn_prev": 4769.5,
+    "tn_carr": 2711.0
   },
   "por_cliente": [
     {
       "cliente": "MULTITECNICA",
-      "prog": 21,
+      "prog": 26,
       "carr": 0,
-      "falta": 21,
-      "tn_prev": 791.0,
+      "falta": 26,
+      "tn_prev": 978.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 16,
-      "carr": 7,
-      "falta": 9,
-      "tn_prev": 611.31,
-      "tn_carr": 269.31
+      "prog": 17,
+      "carr": 9,
+      "falta": 8,
+      "tn_prev": 651.98,
+      "tn_carr": 347.98
     },
     {
       "cliente": "ITAMBÉ",
       "prog": 16,
-      "carr": 13,
-      "falta": 3,
-      "tn_prev": 601.53,
-      "tn_carr": 469.53
+      "carr": 14,
+      "falta": 2,
+      "tn_prev": 599.05,
+      "tn_carr": 503.05
     },
     {
       "cliente": "CSN MOC",
       "prog": 11,
-      "carr": 6,
-      "falta": 5,
-      "tn_prev": 521.58,
-      "tn_carr": 277.58
+      "carr": 9,
+      "falta": 2,
+      "tn_prev": 517.82,
+      "tn_carr": 417.82
     },
     {
       "cliente": "CSN BARROSO",
       "prog": 8,
-      "carr": 1,
-      "falta": 7,
-      "tn_prev": 327.32,
-      "tn_carr": 48.32
+      "carr": 3,
+      "falta": 5,
+      "tn_prev": 327.43,
+      "tn_carr": 131.43
     },
     {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 301.9,
-      "tn_carr": 253.9
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 300.59,
+      "tn_carr": 300.59
     },
     {
       "cliente": "CIM. LIZ",
@@ -69,10 +69,10 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 233.48,
-      "tn_carr": 147.48
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 232.96,
+      "tn_carr": 194.96
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -89,6 +89,22 @@
       "falta": 0,
       "tn_prev": 156.48,
       "tn_carr": 156.48
+    },
+    {
+      "cliente": "FERMAVI",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 138.5,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "AGROCP",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 120.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "CSN V. REDONDA",
@@ -113,48 +129,40 @@
       "falta": 0,
       "tn_prev": 84.28,
       "tn_carr": 84.28
-    },
-    {
-      "cliente": "FERMAVI",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 58.5,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
       "prog": 49,
-      "carr": 33,
-      "falta": 16,
-      "tn_prev": 2035.92,
-      "tn_carr": 1338.92
+      "carr": 40,
+      "falta": 9,
+      "tn_prev": 2030.44,
+      "tn_carr": 1656.44
     },
     {
       "produto": "Sulfurico",
-      "prog": 22,
+      "prog": 32,
       "carr": 0,
-      "falta": 22,
-      "tn_prev": 849.5,
+      "falta": 32,
+      "tn_prev": 1236.5,
       "tn_carr": 0.0
     },
     {
       "produto": "Sinter Feed",
-      "prog": 16,
-      "carr": 7,
-      "falta": 9,
-      "tn_prev": 611.31,
-      "tn_carr": 269.31
+      "prog": 17,
+      "carr": 9,
+      "falta": 8,
+      "tn_prev": 651.98,
+      "tn_carr": 347.98
     },
     {
       "produto": "GESSO",
       "prog": 16,
-      "carr": 13,
-      "falta": 3,
-      "tn_prev": 601.53,
-      "tn_carr": 469.53
+      "carr": 14,
+      "falta": 2,
+      "tn_prev": 599.05,
+      "tn_carr": 503.05
     },
     {
       "produto": "Antracito",
@@ -178,19 +186,19 @@
       "lote": "MULTITECNICA - SULFURICO",
       "cliente": "MULTITECNICA",
       "produto": "Sulfurico",
-      "prog": 21,
+      "prog": 26,
       "carr": 0,
-      "falta": 21,
-      "tn_prev": 791.0,
+      "falta": 26,
+      "tn_prev": 978.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "TRANSHERCULANO (BA)",
           "cnpj": "17799438001156",
-          "prog": 21,
+          "prog": 26,
           "carr": 0,
-          "falta": 21,
-          "tn_prev": 791.0,
+          "falta": 26,
+          "tn_prev": 978.0,
           "tn_carr": 0.0
         }
       ]
@@ -199,11 +207,11 @@
       "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
-      "prog": 16,
-      "carr": 7,
-      "falta": 9,
-      "tn_prev": 611.31,
-      "tn_carr": 269.31,
+      "prog": 17,
+      "carr": 9,
+      "falta": 8,
+      "tn_prev": 651.98,
+      "tn_carr": 347.98,
       "transportadoras": [
         {
           "nome": "RODEIRO (MG)",
@@ -217,11 +225,11 @@
         {
           "nome": "MRX TRANSP. (MG)",
           "cnpj": "26586645000141",
-          "prog": 15,
-          "carr": 6,
-          "falta": 9,
-          "tn_prev": 573.87,
-          "tn_carr": 231.87
+          "prog": 16,
+          "carr": 8,
+          "falta": 8,
+          "tn_prev": 614.54,
+          "tn_carr": 310.54
         }
       ]
     },
@@ -230,10 +238,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 16,
-      "carr": 13,
-      "falta": 3,
-      "tn_prev": 601.53,
-      "tn_carr": 469.53,
+      "carr": 14,
+      "falta": 2,
+      "tn_prev": 599.05,
+      "tn_carr": 503.05,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
@@ -257,10 +265,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 7,
-          "falta": 1,
-          "tn_prev": 285.22,
-          "tn_carr": 249.22
+          "carr": 8,
+          "falta": 0,
+          "tn_prev": 282.74,
+          "tn_carr": 282.74
         }
       ]
     },
@@ -269,28 +277,28 @@
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
       "prog": 11,
-      "carr": 6,
-      "falta": 5,
-      "tn_prev": 521.58,
-      "tn_carr": 277.58,
+      "carr": 9,
+      "falta": 2,
+      "tn_prev": 517.82,
+      "tn_carr": 417.82,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.15,
+          "tn_carr": 47.15
         },
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 7,
-          "carr": 5,
-          "falta": 2,
-          "tn_prev": 334.69,
-          "tn_carr": 238.69
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 331.78,
+          "tn_carr": 331.78
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -308,19 +316,19 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 1,
-      "falta": 7,
-      "tn_prev": 327.32,
-      "tn_carr": 48.32,
+      "carr": 3,
+      "falta": 5,
+      "tn_prev": 327.43,
+      "tn_carr": 131.43,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 241.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 4,
+          "tn_prev": 241.11,
+          "tn_carr": 83.11
         },
         {
           "nome": "GT MINAS (RJ)",
@@ -347,10 +355,10 @@
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 301.9,
-      "tn_carr": 253.9,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 300.59,
+      "tn_carr": 300.59,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
@@ -365,10 +373,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 96.08,
-          "tn_carr": 48.08
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.77,
+          "tn_carr": 94.77
         }
       ]
     },
@@ -398,10 +406,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 233.48,
-      "tn_carr": 147.48,
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 232.96,
+      "tn_carr": 194.96,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES (RJ)",
@@ -425,10 +433,10 @@
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 156.48,
-          "tn_carr": 108.48
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 155.96,
+          "tn_carr": 155.96
         }
       ]
     },
@@ -471,6 +479,48 @@
           "falta": 0,
           "tn_prev": 156.48,
           "tn_carr": 156.48
+        }
+      ]
+    },
+    {
+      "lote": "FERMAVI - SULFURICO",
+      "cliente": "FERMAVI",
+      "produto": "Sulfurico",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 138.5,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "TRANSHERCULANO (BA)",
+          "cnpj": "17799438001156",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 138.5,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "AGROCP - SULFURICO",
+      "cliente": "AGROCP",
+      "produto": "Sulfurico",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 120.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "TRANSHERCULANO (BA)",
+          "cnpj": "17799438001156",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 120.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -543,27 +593,6 @@
           "falta": 0,
           "tn_prev": 84.28,
           "tn_carr": 84.28
-        }
-      ]
-    },
-    {
-      "lote": "FERMAVI - SULFURICO",
-      "cliente": "FERMAVI",
-      "produto": "Sulfurico",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 58.5,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "TRANSHERCULANO (BA)",
-          "cnpj": "17799438001156",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 58.5,
-          "tn_carr": 0.0
         }
       ]
     }
