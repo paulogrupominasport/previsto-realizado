@@ -1,15 +1,23 @@
 {
   "data_relatorio": "04/11/2026",
-  "gerado_em": "2026-11-04T07:00:06",
-  "atualizado_em": "2026-11-04T10:05:25",
+  "gerado_em": "2026-11-04T08:00:16",
+  "atualizado_em": "2026-11-04T11:05:27",
   "totais": {
-    "prog": 56,
+    "prog": 63,
     "carr": 0,
-    "falta": 56,
-    "tn_prev": 2282.2,
+    "falta": 63,
+    "tn_prev": 2566.2,
     "tn_carr": 0.0
   },
   "por_cliente": [
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 11,
+      "carr": 0,
+      "falta": 11,
+      "tn_prev": 441.0,
+      "tn_carr": 0.0
+    },
     {
       "cliente": "CSN BARROSO",
       "prog": 10,
@@ -67,14 +75,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CIM. LIZ",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 155.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "ITAMBÉ",
       "prog": 4,
       "carr": 0,
@@ -91,11 +91,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "LS METAIS",
-      "prog": 1,
+      "cliente": "CSN CANTAGALO",
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
+      "falta": 2,
+      "tn_prev": 71.0,
       "tn_carr": 0.0
     },
     {
@@ -105,23 +105,15 @@
       "falta": 1,
       "tn_prev": 38.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN CANTAGALO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 37,
+      "prog": 45,
       "carr": 0,
-      "falta": 37,
-      "tn_prev": 1570.0,
+      "falta": 45,
+      "tn_prev": 1892.0,
       "tn_carr": 0.0
     },
     {
@@ -155,17 +147,57 @@
       "falta": 2,
       "tn_prev": 80.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "Antracito",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
     }
   ],
   "lotes": [
+    {
+      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 11,
+      "carr": 0,
+      "falta": 11,
+      "tn_prev": 441.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "WSV TRANSPORTES (RJ)",
+          "cnpj": "13349563000301",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 155.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 190.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
     {
       "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN BARROSO",
@@ -347,27 +379,6 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 155.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "WSV TRANSPORTES (RJ)",
-          "cnpj": "13349563000301",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 155.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
@@ -449,6 +460,36 @@
       ]
     },
     {
+      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN CANTAGALO",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 71.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BRASKEM - TÉRMICO PACIFIC TALENT - PILHA 91",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
@@ -470,27 +511,6 @@
       ]
     },
     {
-      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
-      "cliente": "LS METAIS",
-      "produto": "Antracito",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN V. REDONDA - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
@@ -507,27 +527,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN CANTAGALO",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]
