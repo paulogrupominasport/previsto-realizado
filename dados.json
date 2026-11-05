@@ -1,13 +1,13 @@
 {
   "data_relatorio": "05/11/2026",
-  "gerado_em": "2026-11-05T15:11:16",
-  "atualizado_em": "2026-11-05T18:15:25",
+  "gerado_em": "2026-11-05T16:00:06",
+  "atualizado_em": "2026-11-05T19:05:25",
   "totais": {
     "prog": 94,
-    "carr": 45,
-    "falta": 49,
-    "tn_prev": 3687.07,
-    "tn_carr": 1794.54
+    "carr": 51,
+    "falta": 43,
+    "tn_prev": 3682.92,
+    "tn_carr": 2023.39
   },
   "por_cliente": [
     {
@@ -61,10 +61,10 @@
     {
       "cliente": "CSN CANTAGALO",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 171.36,
-      "tn_carr": 33.36
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 173.3,
+      "tn_carr": 71.3
     },
     {
       "cliente": "CIM LIZ",
@@ -85,10 +85,10 @@
     {
       "cliente": "MULTITECNICA",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 149.2,
-      "tn_carr": 74.2
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 148.71,
+      "tn_carr": 113.71
     },
     {
       "cliente": "CIM. LIZ",
@@ -99,20 +99,20 @@
       "tn_carr": 86.9
     },
     {
-      "cliente": "BELOCAL SJLP",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 117.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN V. REDONDA",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 114.55,
-      "tn_carr": 74.55
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 113.11,
+      "tn_carr": 113.11
+    },
+    {
+      "cliente": "BELOCAL SJLP",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 112.84,
+      "tn_carr": 112.84
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -175,10 +175,10 @@
     {
       "produto": "PETCOKE",
       "prog": 49,
-      "carr": 26,
-      "falta": 23,
-      "tn_prev": 1958.81,
-      "tn_carr": 1053.81
+      "carr": 31,
+      "falta": 18,
+      "tn_prev": 1955.15,
+      "tn_carr": 1243.15
     },
     {
       "produto": "GESSO",
@@ -199,10 +199,10 @@
     {
       "produto": "Sulfurico",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 229.2,
-      "tn_carr": 74.2
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 228.71,
+      "tn_carr": 113.71
     },
     {
       "produto": "TÉRMICO",
@@ -410,19 +410,19 @@
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 171.36,
-      "tn_carr": 33.36,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 173.3,
+      "tn_carr": 71.3,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.94,
+          "tn_carr": 37.94
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -491,40 +491,19 @@
       "cliente": "MULTITECNICA",
       "produto": "Sulfurico",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
-      "tn_prev": 149.2,
-      "tn_carr": 74.2,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 148.71,
+      "tn_carr": 113.71,
       "transportadoras": [
         {
           "nome": "TRANSHERCULANO (BA)",
           "cnpj": "17799438001156",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 149.2,
-          "tn_carr": 74.2
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "BELOCAL SJLP",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 117.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "WSV TRANSPORTES (RJ)",
-          "cnpj": "13349563000301",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 117.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 148.71,
+          "tn_carr": 113.71
         }
       ]
     },
@@ -533,10 +512,10 @@
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 114.55,
-      "tn_carr": 74.55,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 113.11,
+      "tn_carr": 113.11,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
@@ -551,10 +530,10 @@
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 40.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.56,
+          "tn_carr": 38.56
         },
         {
           "nome": "EK TRANSPORTES (RJ)",
@@ -564,6 +543,27 @@
           "falta": 0,
           "tn_prev": 38.68,
           "tn_carr": 38.68
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "BELOCAL SJLP",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 3,
+      "falta": 0,
+      "tn_prev": 112.84,
+      "tn_carr": 112.84,
+      "transportadoras": [
+        {
+          "nome": "WSV TRANSPORTES (RJ)",
+          "cnpj": "13349563000301",
+          "prog": 3,
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 112.84,
+          "tn_carr": 112.84
         }
       ]
     },
