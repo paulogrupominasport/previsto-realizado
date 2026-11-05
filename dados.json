@@ -1,13 +1,13 @@
 {
   "data_relatorio": "05/11/2026",
-  "gerado_em": "2026-11-05T14:00:14",
-  "atualizado_em": "2026-11-05T17:05:25",
+  "gerado_em": "2026-11-05T15:00:13",
+  "atualizado_em": "2026-11-05T18:05:24",
   "totais": {
-    "prog": 92,
-    "carr": 41,
-    "falta": 51,
-    "tn_prev": 3620.0,
-    "tn_carr": 1623.47
+    "prog": 94,
+    "carr": 44,
+    "falta": 50,
+    "tn_prev": 3687.71,
+    "tn_carr": 1747.18
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "ITAMBÉ",
       "prog": 11,
-      "carr": 3,
-      "falta": 8,
-      "tn_prev": 416.91,
-      "tn_carr": 114.91
+      "carr": 5,
+      "falta": 6,
+      "tn_prev": 415.94,
+      "tn_carr": 199.94
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -109,10 +109,10 @@
     {
       "cliente": "CSN V. REDONDA",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 113.87,
-      "tn_carr": 35.87
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 114.55,
+      "tn_carr": 74.55
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -137,6 +137,14 @@
       "falta": 0,
       "tn_prev": 70.56,
       "tn_carr": 70.56
+    },
+    {
+      "cliente": "NASSAU",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 68.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "FERMAVI",
@@ -167,18 +175,18 @@
     {
       "produto": "PETCOKE",
       "prog": 49,
-      "carr": 25,
-      "falta": 24,
-      "tn_prev": 1958.13,
-      "tn_carr": 1015.13
+      "carr": 26,
+      "falta": 23,
+      "tn_prev": 1958.81,
+      "tn_carr": 1053.81
     },
     {
       "produto": "GESSO",
-      "prog": 13,
-      "carr": 5,
+      "prog": 15,
+      "carr": 7,
       "falta": 8,
-      "tn_prev": 500.48,
-      "tn_carr": 198.48
+      "tn_prev": 567.51,
+      "tn_carr": 283.51
     },
     {
       "produto": "Sinter Feed",
@@ -282,19 +290,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 11,
-      "carr": 3,
-      "falta": 8,
-      "tn_prev": 416.91,
-      "tn_carr": 114.91,
+      "carr": 5,
+      "falta": 6,
+      "tn_prev": 415.94,
+      "tn_carr": 199.94,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 5,
-          "carr": 3,
-          "falta": 2,
-          "tn_prev": 200.91,
-          "tn_carr": 114.91
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 199.94,
+          "tn_carr": 199.94
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -525,10 +533,10 @@
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 113.87,
-      "tn_carr": 35.87,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 114.55,
+      "tn_carr": 74.55,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
@@ -552,10 +560,10 @@
           "nome": "EK TRANSPORTES (RJ)",
           "cnpj": "05399163000617",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.68,
+          "tn_carr": 38.68
         }
       ]
     },
@@ -712,6 +720,27 @@
           "falta": 0,
           "tn_prev": 70.0,
           "tn_carr": 71.0
+        }
+      ]
+    },
+    {
+      "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "NASSAU",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 68.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RANGEL (RJ)",
+          "cnpj": "47836361000136",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 68.0,
+          "tn_carr": 0.0
         }
       ]
     },
