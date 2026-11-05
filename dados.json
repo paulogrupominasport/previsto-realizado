@@ -1,30 +1,30 @@
 {
   "data_relatorio": "05/11/2026",
-  "gerado_em": "2026-11-05T12:00:16",
-  "atualizado_em": "2026-11-05T15:15:28",
+  "gerado_em": "2026-11-05T13:00:04",
+  "atualizado_em": "2026-11-05T16:10:26",
   "totais": {
-    "prog": 89,
-    "carr": 37,
-    "falta": 52,
-    "tn_prev": 3508.6,
-    "tn_carr": 1467.07
+    "prog": 93,
+    "carr": 39,
+    "falta": 54,
+    "tn_prev": 3657.89,
+    "tn_carr": 1542.36
   },
   "por_cliente": [
     {
       "cliente": "CSN BARROSO",
-      "prog": 16,
+      "prog": 17,
       "carr": 10,
-      "falta": 6,
-      "tn_prev": 639.23,
+      "falta": 7,
+      "tn_prev": 672.23,
       "tn_carr": 417.23
     },
     {
       "cliente": "ITAMBÉ",
       "prog": 11,
-      "carr": 1,
-      "falta": 10,
-      "tn_prev": 417.62,
-      "tn_carr": 39.62
+      "carr": 3,
+      "falta": 8,
+      "tn_prev": 416.91,
+      "tn_carr": 114.91
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -99,6 +99,14 @@
       "tn_carr": 86.9
     },
     {
+      "cliente": "BELOCAL SJLP",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 117.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN V. REDONDA",
       "prog": 3,
       "carr": 1,
@@ -158,19 +166,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 45,
+      "prog": 48,
       "carr": 24,
-      "falta": 21,
-      "tn_prev": 1808.7,
+      "falta": 24,
+      "tn_prev": 1925.7,
       "tn_carr": 981.7
     },
     {
       "produto": "GESSO",
-      "prog": 13,
-      "carr": 3,
-      "falta": 10,
-      "tn_prev": 501.19,
-      "tn_carr": 123.19
+      "prog": 14,
+      "carr": 5,
+      "falta": 9,
+      "tn_prev": 533.48,
+      "tn_carr": 198.48
     },
     {
       "produto": "Sinter Feed",
@@ -274,19 +282,19 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 11,
-      "carr": 1,
-      "falta": 10,
-      "tn_prev": 417.62,
-      "tn_carr": 39.62,
+      "carr": 3,
+      "falta": 8,
+      "tn_prev": 416.91,
+      "tn_carr": 114.91,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 201.62,
-          "tn_carr": 39.62
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 200.91,
+          "tn_carr": 114.91
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -492,6 +500,48 @@
       ]
     },
     {
+      "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "BELOCAL SJLP",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 117.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "WSV TRANSPORTES (RJ)",
+          "cnpj": "13349563000301",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 117.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN BARROSO",
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 116.57,
+      "tn_carr": 83.57,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 116.57,
+          "tn_carr": 83.57
+        }
+      ]
+    },
+    {
       "lote": "CSN V. REDONDA - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN V. REDONDA",
       "produto": "PETCOKE",
@@ -590,27 +640,6 @@
           "falta": 2,
           "tn_prev": 96.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN BARROSO",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 83.57,
-      "tn_carr": 83.57,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 83.57,
-          "tn_carr": 83.57
         }
       ]
     },
