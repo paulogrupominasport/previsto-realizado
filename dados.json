@@ -1,13 +1,13 @@
 {
   "data_relatorio": "05/11/2026",
-  "gerado_em": "2026-11-05T07:00:06",
-  "atualizado_em": "2026-11-05T10:05:23",
+  "gerado_em": "2026-11-05T08:00:14",
+  "atualizado_em": "2026-11-05T11:05:28",
   "totais": {
-    "prog": 67,
-    "carr": 0,
-    "falta": 67,
-    "tn_prev": 2630.44,
-    "tn_carr": 0.0
+    "prog": 61,
+    "carr": 2,
+    "falta": 59,
+    "tn_prev": 2390.44,
+    "tn_carr": 71.35
   },
   "por_cliente": [
     {
@@ -19,27 +19,19 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CIM. LIZ",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 296.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN ARCOS",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 201.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN MOC",
       "prog": 4,
       "carr": 0,
       "falta": 4,
       "tn_prev": 194.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN ARCOS",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 191.0,
       "tn_carr": 0.0
     },
     {
@@ -53,10 +45,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
+      "carr": 2,
+      "falta": 3,
       "tn_prev": 175.0,
-      "tn_carr": 0.0
+      "tn_carr": 71.35
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -75,11 +67,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "ITAMBÉ",
+      "cliente": "MULTITECNICA",
       "prog": 3,
       "carr": 0,
       "falta": 3,
-      "tn_prev": 134.0,
+      "tn_prev": 113.0,
       "tn_carr": 0.0
     },
     {
@@ -99,11 +91,19 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "MULTITECNICA",
+      "cliente": "ITAMBÉ",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 75.0,
+      "tn_prev": 86.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
       "tn_carr": 0.0
     },
     {
@@ -150,18 +150,26 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 40,
+      "prog": 34,
       "carr": 0,
-      "falta": 40,
-      "tn_prev": 1575.0,
+      "falta": 34,
+      "tn_prev": 1345.0,
       "tn_carr": 0.0
     },
     {
       "produto": "GESSO",
-      "prog": 7,
+      "prog": 6,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 290.0,
+      "falta": 6,
+      "tn_prev": 242.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Sulfurico",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 193.0,
       "tn_carr": 0.0
     },
     {
@@ -175,18 +183,10 @@
     {
       "produto": "TÉRMICO",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
+      "carr": 2,
+      "falta": 3,
       "tn_prev": 175.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Sulfurico",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 155.0,
-      "tn_carr": 0.0
+      "tn_carr": 71.35
     },
     {
       "produto": "Antracito",
@@ -254,66 +254,6 @@
       ]
     },
     {
-      "lote": "CIM. LIZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 296.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 144.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. TS (RJ)",
-          "cnpj": "05324485000516",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN ARCOS",
-      "produto": "PETCOKE",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 201.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 201.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
@@ -348,6 +288,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 98.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 191.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 5,
+          "carr": 0,
+          "falta": 5,
+          "tn_prev": 191.0,
           "tn_carr": 0.0
         }
       ]
@@ -437,22 +398,22 @@
       ]
     },
     {
-      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
-      "cliente": "ITAMBÉ",
-      "produto": "GESSO",
+      "lote": "MULTITECNICA - SULFURICO",
+      "cliente": "MULTITECNICA",
+      "produto": "Sulfurico",
       "prog": 3,
       "carr": 0,
       "falta": 3,
-      "tn_prev": 134.0,
+      "tn_prev": 113.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "TRANSP. BONTORIN (SC)",
-          "cnpj": "81429755000299",
+          "nome": "TRANSHERCULANO (BA)",
+          "cnpj": "17799438001156",
           "prog": 3,
           "carr": 0,
           "falta": 3,
-          "tn_prev": 134.0,
+          "tn_prev": 113.0,
           "tn_carr": 0.0
         }
       ]
@@ -483,19 +444,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 2,
+      "falta": 1,
       "tn_prev": 105.0,
-      "tn_carr": 0.0,
+      "tn_carr": 71.35,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 2,
+          "falta": 1,
           "tn_prev": 105.0,
-          "tn_carr": 0.0
+          "tn_carr": 71.35
         }
       ]
     },
@@ -521,22 +482,52 @@
       ]
     },
     {
-      "lote": "MULTITECNICA - SULFURICO",
-      "cliente": "MULTITECNICA",
-      "produto": "Sulfurico",
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 75.0,
+      "tn_prev": 86.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "TRANSHERCULANO (BA)",
-          "cnpj": "17799438001156",
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
           "prog": 2,
           "carr": 0,
           "falta": 2,
-          "tn_prev": 75.0,
+          "tn_prev": 86.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - PETCOKE MTE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 76.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
