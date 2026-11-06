@@ -1,22 +1,22 @@
 {
   "data_relatorio": "06/11/2026",
-  "gerado_em": "2026-11-06T08:00:14",
-  "atualizado_em": "2026-11-06T11:05:22",
+  "gerado_em": "2026-11-06T08:24:31",
+  "atualizado_em": "2026-11-06T11:25:32",
   "totais": {
-    "prog": 61,
-    "carr": 3,
+    "prog": 62,
+    "carr": 4,
     "falta": 58,
-    "tn_prev": 2419.8,
-    "tn_carr": 118.32
+    "tn_prev": 2451.19,
+    "tn_carr": 155.71
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 350.96,
-      "tn_carr": 48.96
+      "carr": 2,
+      "falta": 7,
+      "tn_prev": 350.35,
+      "tn_carr": 86.35
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -139,6 +139,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "NASSAU",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 32.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "LS METAIS",
       "prog": 1,
       "carr": 0,
@@ -158,11 +166,11 @@
     },
     {
       "produto": "GESSO",
-      "prog": 10,
-      "carr": 1,
+      "prog": 11,
+      "carr": 2,
       "falta": 9,
-      "tn_prev": 388.96,
-      "tn_carr": 48.96
+      "tn_prev": 420.35,
+      "tn_carr": 86.35
     },
     {
       "produto": "Sinter Feed",
@@ -227,10 +235,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 350.96,
-      "tn_carr": 48.96,
+      "carr": 2,
+      "falta": 7,
+      "tn_prev": 350.35,
+      "tn_carr": 86.35,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -245,10 +253,10 @@
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 162.96,
-          "tn_carr": 48.96
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 162.35,
+          "tn_carr": 86.35
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -713,6 +721,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 36.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "NASSAU",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 32.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RANGEL (RJ)",
+          "cnpj": "47836361000136",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 32.0,
           "tn_carr": 0.0
         }
       ]
