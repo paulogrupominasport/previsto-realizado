@@ -1,22 +1,30 @@
 {
   "data_relatorio": "06/11/2026",
-  "gerado_em": "2026-11-06T08:24:31",
-  "atualizado_em": "2026-11-06T11:25:32",
+  "gerado_em": "2026-11-06T09:00:19",
+  "atualizado_em": "2026-11-06T12:05:22",
   "totais": {
-    "prog": 62,
-    "carr": 4,
-    "falta": 58,
-    "tn_prev": 2451.19,
-    "tn_carr": 155.71
+    "prog": 63,
+    "carr": 6,
+    "falta": 57,
+    "tn_prev": 2493.8,
+    "tn_carr": 245.32
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 9,
+      "prog": 8,
       "carr": 2,
-      "falta": 7,
-      "tn_prev": 350.35,
+      "falta": 6,
+      "tn_prev": 314.35,
       "tn_carr": 86.35
+    },
+    {
+      "cliente": "CSN MOC",
+      "prog": 7,
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 294.61,
+      "tn_carr": 89.61
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -32,14 +40,6 @@
       "carr": 0,
       "falta": 7,
       "tn_prev": 259.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN MOC",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 254.0,
       "tn_carr": 0.0
     },
     {
@@ -67,6 +67,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "BELOCAL MTZ",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 134.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CIM. LIZ",
       "prog": 3,
       "carr": 0,
@@ -81,14 +89,6 @@
       "falta": 1,
       "tn_prev": 105.0,
       "tn_carr": 69.36
-    },
-    {
-      "cliente": "BELOCAL MTZ",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
     },
     {
       "cliente": "CSN V. REDONDA",
@@ -158,18 +158,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 27,
-      "carr": 0,
+      "prog": 29,
+      "carr": 2,
       "falta": 27,
-      "tn_prev": 1093.0,
-      "tn_carr": 0.0
+      "tn_prev": 1171.61,
+      "tn_carr": 89.61
     },
     {
       "produto": "GESSO",
-      "prog": 11,
+      "prog": 10,
       "carr": 2,
-      "falta": 9,
-      "tn_prev": 420.35,
+      "falta": 8,
+      "tn_prev": 384.35,
       "tn_carr": 86.35
     },
     {
@@ -234,10 +234,10 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 9,
+      "prog": 8,
       "carr": 2,
-      "falta": 7,
-      "tn_prev": 350.35,
+      "falta": 6,
+      "tn_prev": 314.35,
       "tn_carr": 86.35,
       "transportadoras": [
         {
@@ -275,15 +275,45 @@
           "falta": 1,
           "tn_prev": 38.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN MOC",
+      "produto": "PETCOKE",
+      "prog": 7,
+      "carr": 2,
+      "falta": 5,
+      "tn_prev": 294.61,
+      "tn_carr": 89.61,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 109.0,
+          "tn_carr": 0.0
         },
         {
-          "nome": "H.R. TRANSP. (SC)",
-          "cnpj": "79838694000190",
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.4,
+          "tn_carr": 49.4
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 136.21,
+          "tn_carr": 40.21
         }
       ]
     },
@@ -304,45 +334,6 @@
           "carr": 0,
           "falta": 7,
           "tn_prev": 266.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN MOC",
-      "produto": "PETCOKE",
-      "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 254.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 72.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 134.0,
           "tn_carr": 0.0
         }
       ]
@@ -486,6 +477,27 @@
       ]
     },
     {
+      "lote": "BELOCAL MTZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "BELOCAL MTZ",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 134.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 134.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
@@ -503,27 +515,6 @@
           "falta": 1,
           "tn_prev": 105.0,
           "tn_carr": 69.36
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL MTZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "BELOCAL MTZ",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
         }
       ]
     },
