@@ -1,22 +1,22 @@
 {
   "data_relatorio": "06/11/2026",
-  "gerado_em": "2026-11-06T07:00:07",
-  "atualizado_em": "2026-11-06T10:05:26",
+  "gerado_em": "2026-11-06T08:00:14",
+  "atualizado_em": "2026-11-06T11:05:22",
   "totais": {
     "prog": 61,
-    "carr": 0,
-    "falta": 61,
-    "tn_prev": 2420.84,
-    "tn_carr": 0.0
+    "carr": 3,
+    "falta": 58,
+    "tn_prev": 2419.8,
+    "tn_carr": 118.32
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 350.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 350.96,
+      "tn_carr": 48.96
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -51,19 +51,19 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM LIZ",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 210.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 5,
       "carr": 0,
       "falta": 5,
       "tn_prev": 198.84,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CIM LIZ",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 162.0,
       "tn_carr": 0.0
     },
     {
@@ -77,18 +77,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 2,
+      "falta": 1,
       "tn_prev": 105.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "tn_carr": 69.36
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -104,6 +96,14 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 86.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 50.0,
       "tn_carr": 0.0
     },
     {
@@ -159,10 +159,10 @@
     {
       "produto": "GESSO",
       "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 388.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 9,
+      "tn_prev": 388.96,
+      "tn_carr": 48.96
     },
     {
       "produto": "Sinter Feed",
@@ -170,6 +170,14 @@
       "carr": 0,
       "falta": 7,
       "tn_prev": 266.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 210.0,
       "tn_carr": 0.0
     },
     {
@@ -181,28 +189,12 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "CARVÃO",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 162.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "TÉRMICO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 2,
+      "falta": 1,
       "tn_prev": 105.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
+      "tn_carr": 69.36
     },
     {
       "produto": "Sulfurico",
@@ -210,6 +202,14 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 80.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 50.0,
       "tn_carr": 0.0
     },
     {
@@ -227,10 +227,10 @@
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 350.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 350.96,
+      "tn_carr": 48.96,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -245,10 +245,10 @@
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 162.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 162.96,
+          "tn_carr": 48.96
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -427,6 +427,36 @@
       ]
     },
     {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 5,
+      "carr": 0,
+      "falta": 5,
+      "tn_prev": 210.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 114.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "GT MINAS (RJ)",
+          "cnpj": "07275520000318",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
@@ -448,74 +478,23 @@
       ]
     },
     {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 162.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "GT MINAS (RJ)",
-          "cnpj": "07275520000318",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 2,
+      "falta": 1,
       "tn_prev": 105.0,
-      "tn_carr": 0.0,
+      "tn_carr": 69.36,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 2,
+          "falta": 1,
           "tn_prev": 105.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
+          "tn_carr": 69.36
         }
       ]
     },
@@ -587,6 +566,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 50.0,
           "tn_carr": 0.0
         }
       ]
