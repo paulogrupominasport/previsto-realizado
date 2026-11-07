@@ -1,30 +1,30 @@
 {
   "data_relatorio": "07/11/2026",
-  "gerado_em": "2026-11-07T18:00:20",
-  "atualizado_em": "2026-11-07T21:05:26",
+  "gerado_em": "2026-11-07T19:00:14",
+  "atualizado_em": "2026-11-07T22:05:26",
   "totais": {
-    "prog": 93,
-    "carr": 87,
-    "falta": 6,
-    "tn_prev": 3821.35,
-    "tn_carr": 3554.44
+    "prog": 94,
+    "carr": 90,
+    "falta": 4,
+    "tn_prev": 3856.23,
+    "tn_carr": 3671.32
   },
   "por_cliente": [
     {
       "cliente": "CSN MOC",
       "prog": 14,
-      "carr": 11,
-      "falta": 3,
-      "tn_prev": 647.86,
-      "tn_carr": 511.86
+      "carr": 12,
+      "falta": 2,
+      "tn_prev": 647.12,
+      "tn_carr": 559.12
     },
     {
       "cliente": "CSN BARROSO",
       "prog": 16,
-      "carr": 15,
-      "falta": 1,
-      "tn_prev": 640.38,
-      "tn_carr": 607.66
+      "carr": 16,
+      "falta": 0,
+      "tn_prev": 636.93,
+      "tn_carr": 638.21
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -107,6 +107,14 @@
       "tn_carr": 47.29
     },
     {
+      "cliente": "FERMAVI",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 77.53,
+      "tn_carr": 77.53
+    },
+    {
       "cliente": "MULTITECNICA",
       "prog": 2,
       "carr": 2,
@@ -131,14 +139,6 @@
       "tn_carr": 72.8
     },
     {
-      "cliente": "FERMAVI",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 38.46,
-      "tn_carr": 38.46
-    },
-    {
       "cliente": "BELOCAL SJLP",
       "prog": 1,
       "carr": 1,
@@ -151,10 +151,10 @@
     {
       "produto": "PETCOKE",
       "prog": 60,
-      "carr": 55,
-      "falta": 5,
-      "tn_prev": 2519.45,
-      "tn_carr": 2300.54
+      "carr": 57,
+      "falta": 3,
+      "tn_prev": 2515.26,
+      "tn_carr": 2378.35
     },
     {
       "produto": "GESSO",
@@ -189,6 +189,14 @@
       "tn_carr": 47.29
     },
     {
+      "produto": "Varginha",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 77.53,
+      "tn_carr": 77.53
+    },
+    {
       "produto": "Sulfurico",
       "prog": 2,
       "carr": 2,
@@ -211,14 +219,6 @@
       "falta": 0,
       "tn_prev": 72.8,
       "tn_carr": 72.8
-    },
-    {
-      "produto": "Varginha",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 38.46,
-      "tn_carr": 38.46
     }
   ],
   "lotes": [
@@ -227,10 +227,10 @@
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
       "prog": 14,
-      "carr": 11,
-      "falta": 3,
-      "tn_prev": 647.86,
-      "tn_carr": 511.86,
+      "carr": 12,
+      "falta": 2,
+      "tn_prev": 647.12,
+      "tn_carr": 559.12,
       "transportadoras": [
         {
           "nome": "SERRANALOG (ES)",
@@ -272,10 +272,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 96.35,
-          "tn_carr": 48.35
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 95.61,
+          "tn_carr": 95.61
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -293,19 +293,19 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 12,
-      "carr": 11,
-      "falta": 1,
-      "tn_prev": 465.22,
-      "tn_carr": 432.5,
+      "carr": 12,
+      "falta": 0,
+      "tn_prev": 461.77,
+      "tn_carr": 463.05,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 7,
-          "carr": 6,
-          "falta": 1,
-          "tn_prev": 257.19,
-          "tn_carr": 224.47
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 253.74,
+          "tn_carr": 255.02
         },
         {
           "nome": "RODEIRO (RJ)",
@@ -640,6 +640,27 @@
       ]
     },
     {
+      "lote": "FERMAVI - VARGINHA - SULFURICO",
+      "cliente": "FERMAVI",
+      "produto": "Varginha",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 77.53,
+      "tn_carr": 77.53,
+      "transportadoras": [
+        {
+          "nome": "TRANSHERCULANO (BA)",
+          "cnpj": "17799438001156",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 77.53,
+          "tn_carr": 77.53
+        }
+      ]
+    },
+    {
       "lote": "MULTITECNICA - SULFURICO",
       "cliente": "MULTITECNICA",
       "produto": "Sulfurico",
@@ -720,27 +741,6 @@
           "falta": 0,
           "tn_prev": 48.0,
           "tn_carr": 48.0
-        }
-      ]
-    },
-    {
-      "lote": "FERMAVI - VARGINHA - SULFURICO",
-      "cliente": "FERMAVI",
-      "produto": "Varginha",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 38.46,
-      "tn_carr": 38.46,
-      "transportadoras": [
-        {
-          "nome": "TRANSHERCULANO (BA)",
-          "cnpj": "17799438001156",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 38.46,
-          "tn_carr": 38.46
         }
       ]
     },
