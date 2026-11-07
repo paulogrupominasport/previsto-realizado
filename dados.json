@@ -1,13 +1,13 @@
 {
   "data_relatorio": "07/11/2026",
-  "gerado_em": "2026-11-07T07:00:10",
-  "atualizado_em": "2026-11-07T10:05:26",
+  "gerado_em": "2026-11-07T08:00:19",
+  "atualizado_em": "2026-11-07T11:05:25",
   "totais": {
-    "prog": 72,
-    "carr": 0,
-    "falta": 72,
-    "tn_prev": 2951.42,
-    "tn_carr": 0.0
+    "prog": 74,
+    "carr": 1,
+    "falta": 73,
+    "tn_prev": 3027.38,
+    "tn_carr": 38.23
   },
   "por_cliente": [
     {
@@ -53,10 +53,10 @@
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 197.42,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 197.38,
+      "tn_carr": 38.23
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -91,6 +91,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CIM LIZ",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
@@ -104,14 +112,6 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 77.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CIM LIZ",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
       "tn_carr": 0.0
     },
     {
@@ -137,15 +137,23 @@
       "falta": 1,
       "tn_prev": 40.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "BELOCAL SJLP",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 47,
+      "prog": 48,
       "carr": 0,
-      "falta": 47,
-      "tn_prev": 1962.0,
+      "falta": 48,
+      "tn_prev": 2000.0,
       "tn_carr": 0.0
     },
     {
@@ -159,9 +167,17 @@
     {
       "produto": "Trindade",
       "prog": 5,
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 197.38,
+      "tn_carr": 38.23
+    },
+    {
+      "produto": "CARVÃO",
+      "prog": 3,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 197.42,
+      "falta": 3,
+      "tn_prev": 114.0,
       "tn_carr": 0.0
     },
     {
@@ -178,14 +194,6 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 77.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
       "tn_carr": 0.0
     },
     {
@@ -405,19 +413,19 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 197.42,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 197.38,
+      "tn_carr": 38.23,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
           "cnpj": "26586645000141",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 197.42,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 4,
+          "tn_prev": 197.38,
+          "tn_carr": 38.23
         }
       ]
     },
@@ -503,6 +511,27 @@
       ]
     },
     {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 114.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -548,27 +577,6 @@
       "lote": "CIM. LIZ - PETCOKE MTE - SILHOUETTE ISLAND - PILHA 60",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
@@ -666,6 +674,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 40.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "BELOCAL SJLP",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
