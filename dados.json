@@ -1,13 +1,13 @@
 {
   "data_relatorio": "07/11/2026",
-  "gerado_em": "2026-11-07T12:00:32",
-  "atualizado_em": "2026-11-07T15:05:27",
+  "gerado_em": "2026-11-07T13:00:18",
+  "atualizado_em": "2026-11-07T16:05:25",
   "totais": {
-    "prog": 90,
-    "carr": 48,
-    "falta": 42,
-    "tn_prev": 3646.42,
-    "tn_carr": 1943.5
+    "prog": 91,
+    "carr": 54,
+    "falta": 37,
+    "tn_prev": 3710.74,
+    "tn_carr": 2181.7
   },
   "por_cliente": [
     {
@@ -20,19 +20,19 @@
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 12,
-      "carr": 1,
-      "falta": 11,
-      "tn_prev": 467.41,
-      "tn_carr": 49.41
+      "prog": 14,
+      "carr": 2,
+      "falta": 12,
+      "tn_prev": 563.41,
+      "tn_carr": 86.69
     },
     {
       "cliente": "CSN CANTAGALO",
-      "prog": 13,
-      "carr": 6,
-      "falta": 7,
-      "tn_prev": 451.09,
-      "tn_carr": 207.05
+      "prog": 11,
+      "carr": 8,
+      "falta": 3,
+      "tn_prev": 385.95,
+      "tn_carr": 278.51
     },
     {
       "cliente": "ITAMBÉ",
@@ -53,10 +53,10 @@
     {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 288.94,
-      "tn_carr": 191.19
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 288.38,
+      "tn_carr": 238.63
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -77,10 +77,10 @@
     {
       "cliente": "CIM. LIZ",
       "prog": 4,
-      "carr": 2,
-      "falta": 2,
+      "carr": 3,
+      "falta": 1,
       "tn_prev": 162.95,
-      "tn_carr": 76.95
+      "tn_carr": 124.95
     },
     {
       "cliente": "CSN V. REDONDA",
@@ -124,11 +124,11 @@
     },
     {
       "cliente": "AGROCP",
-      "prog": 1,
-      "carr": 0,
+      "prog": 2,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 40.0,
-      "tn_carr": 0.0
+      "tn_prev": 74.02,
+      "tn_carr": 34.02
     },
     {
       "cliente": "FERMAVI",
@@ -150,18 +150,18 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 59,
-      "carr": 27,
-      "falta": 32,
-      "tn_prev": 2435.95,
-      "tn_carr": 1142.16
+      "prog": 58,
+      "carr": 32,
+      "falta": 26,
+      "tn_prev": 2418.25,
+      "tn_carr": 1346.34
     },
     {
       "produto": "GESSO",
-      "prog": 12,
+      "prog": 13,
       "carr": 10,
-      "falta": 2,
-      "tn_prev": 463.27,
+      "falta": 3,
+      "tn_prev": 511.27,
       "tn_carr": 377.27
     },
     {
@@ -206,11 +206,11 @@
     },
     {
       "produto": "Santana Da Vargem",
-      "prog": 1,
-      "carr": 0,
+      "prog": 2,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 40.0,
-      "tn_carr": 0.0
+      "tn_prev": 74.02,
+      "tn_carr": 34.02
     },
     {
       "produto": "Varginha",
@@ -289,14 +289,53 @@
       ]
     },
     {
+      "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN BARROSO",
+      "produto": "PETCOKE",
+      "prog": 11,
+      "carr": 2,
+      "falta": 9,
+      "tn_prev": 429.41,
+      "tn_carr": 86.69,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 6,
+          "carr": 1,
+          "falta": 5,
+          "tn_prev": 220.0,
+          "tn_carr": 37.28
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 145.41,
+          "tn_carr": 49.41
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 64.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
-      "prog": 13,
-      "carr": 6,
-      "falta": 7,
-      "tn_prev": 451.09,
-      "tn_carr": 207.05,
+      "prog": 11,
+      "carr": 8,
+      "falta": 3,
+      "tn_prev": 385.95,
+      "tn_carr": 278.51,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
@@ -319,50 +358,11 @@
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 9,
-          "carr": 4,
-          "falta": 5,
-          "tn_prev": 305.61,
-          "tn_carr": 133.57
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN BARROSO",
-      "produto": "PETCOKE",
-      "prog": 10,
-      "carr": 1,
-      "falta": 9,
-      "tn_prev": 381.41,
-      "tn_carr": 49.41,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 220.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 2,
-          "carr": 1,
+          "prog": 7,
+          "carr": 6,
           "falta": 1,
-          "tn_prev": 97.41,
-          "tn_carr": 49.41
-        },
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 64.0,
-          "tn_carr": 0.0
+          "tn_prev": 240.47,
+          "tn_carr": 205.03
         }
       ]
     },
@@ -440,10 +440,10 @@
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 288.94,
-      "tn_carr": 191.19,
+      "carr": 5,
+      "falta": 1,
+      "tn_prev": 288.38,
+      "tn_carr": 238.63,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -458,10 +458,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 143.82,
-          "tn_carr": 94.07
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 143.26,
+          "tn_carr": 141.51
         }
       ]
     },
@@ -513,6 +513,36 @@
           "falta": 1,
           "tn_prev": 115.38,
           "tn_carr": 77.38
+        }
+      ]
+    },
+    {
+      "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN BARROSO",
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 134.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 96.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -610,36 +640,6 @@
       ]
     },
     {
-      "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN BARROSO",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 86.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "MULTITECNICA - SULFURICO",
       "cliente": "MULTITECNICA",
       "produto": "Sulfurico",
@@ -682,44 +682,44 @@
       ]
     },
     {
+      "lote": "AGROCP - SANTANA DA VARGEM - SULFURICO",
+      "cliente": "AGROCP",
+      "produto": "Santana Da Vargem",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 74.02,
+      "tn_carr": 34.02,
+      "transportadoras": [
+        {
+          "nome": "TRANSHERCULANO (BA)",
+          "cnpj": "17799438001156",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 74.02,
+          "tn_carr": 34.02
+        }
+      ]
+    },
+    {
       "lote": "CIM. LIZ - PETCOKE ATE- SILHOUETTE ISLAND - PILHA 59",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
+      "carr": 1,
+      "falta": 0,
       "tn_prev": 48.0,
-      "tn_carr": 0.0,
+      "tn_carr": 48.0,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
+          "carr": 1,
+          "falta": 0,
           "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "AGROCP - SANTANA DA VARGEM - SULFURICO",
-      "cliente": "AGROCP",
-      "produto": "Santana Da Vargem",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 40.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "TRANSHERCULANO (BA)",
-          "cnpj": "17799438001156",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 40.0,
-          "tn_carr": 0.0
+          "tn_carr": 48.0
         }
       ]
     },
