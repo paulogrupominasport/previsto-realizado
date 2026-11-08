@@ -1,12 +1,12 @@
 {
   "data_relatorio": "08/11/2026",
-  "gerado_em": "2026-11-08T13:18:24",
-  "atualizado_em": "2026-11-08T16:20:23",
+  "gerado_em": "2026-11-08T14:00:17",
+  "atualizado_em": "2026-11-08T17:05:24",
   "totais": {
-    "prog": 55,
+    "prog": 56,
     "carr": 38,
-    "falta": 17,
-    "tn_prev": 2297.11,
+    "falta": 18,
+    "tn_prev": 2345.11,
     "tn_carr": 1584.11
   },
   "por_cliente": [
@@ -19,20 +19,20 @@
       "tn_carr": 532.25
     },
     {
+      "cliente": "CSN ARCOS",
+      "prog": 6,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 260.37,
+      "tn_carr": 99.37
+    },
+    {
       "cliente": "CIM LIZ",
       "prog": 6,
       "carr": 2,
       "falta": 4,
       "tn_prev": 259.1,
       "tn_carr": 88.1
-    },
-    {
-      "cliente": "CSN ARCOS",
-      "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 212.37,
-      "tn_carr": 99.37
     },
     {
       "cliente": "CSN P. LEOPOLDO",
@@ -134,10 +134,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 38,
+      "prog": 39,
       "carr": 26,
-      "falta": 12,
-      "tn_prev": 1602.56,
+      "falta": 13,
+      "tn_prev": 1650.56,
       "tn_carr": 1110.56
     },
     {
@@ -255,6 +255,36 @@
       ]
     },
     {
+      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 6,
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 260.37,
+      "tn_carr": 99.37,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 97.14,
+          "tn_carr": 49.14
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 4,
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 163.23,
+          "tn_carr": 50.23
+        }
+      ]
+    },
+    {
       "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
@@ -281,36 +311,6 @@
           "falta": 2,
           "tn_prev": 143.91,
           "tn_carr": 47.91
-        }
-      ]
-    },
-    {
-      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN ARCOS",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 212.37,
-      "tn_carr": 99.37,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 49.14,
-          "tn_carr": 49.14
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 163.23,
-          "tn_carr": 50.23
         }
       ]
     },
