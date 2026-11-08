@@ -1,22 +1,22 @@
 {
   "data_relatorio": "08/11/2026",
-  "gerado_em": "2026-11-08T12:00:04",
-  "atualizado_em": "2026-11-08T15:05:30",
+  "gerado_em": "2026-11-08T13:00:14",
+  "atualizado_em": "2026-11-08T16:05:24",
   "totais": {
-    "prog": 53,
-    "carr": 33,
-    "falta": 20,
-    "tn_prev": 2222.67,
-    "tn_carr": 1385.67
+    "prog": 55,
+    "carr": 38,
+    "falta": 17,
+    "tn_prev": 2297.11,
+    "tn_carr": 1584.11
   },
   "por_cliente": [
     {
       "cliente": "CSN MOC",
       "prog": 15,
-      "carr": 10,
-      "falta": 5,
-      "tn_prev": 666.17,
-      "tn_carr": 447.17
+      "carr": 12,
+      "falta": 3,
+      "tn_prev": 666.25,
+      "tn_carr": 532.25
     },
     {
       "cliente": "CIM LIZ",
@@ -29,18 +29,26 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 211.23,
-      "tn_carr": 50.23
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 212.37,
+      "tn_carr": 99.37
     },
     {
       "cliente": "CSN P. LEOPOLDO",
-      "prog": 4,
-      "carr": 1,
+      "prog": 5,
+      "carr": 2,
       "falta": 3,
-      "tn_prev": 176.17,
-      "tn_carr": 48.17
+      "tn_prev": 210.78,
+      "tn_carr": 76.78
+    },
+    {
+      "cliente": "BELOCAL SJLP",
+      "prog": 5,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 181.72,
+      "tn_carr": 143.72
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -49,14 +57,6 @@
       "falta": 0,
       "tn_prev": 154.78,
       "tn_carr": 154.78
-    },
-    {
-      "cliente": "BELOCAL SJLP",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 143.11,
-      "tn_carr": 108.11
     },
     {
       "cliente": "CIM. LIZ",
@@ -134,11 +134,11 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 36,
-      "carr": 21,
-      "falta": 15,
-      "tn_prev": 1528.12,
-      "tn_carr": 912.12
+      "prog": 38,
+      "carr": 26,
+      "falta": 12,
+      "tn_prev": 1602.56,
+      "tn_carr": 1110.56
     },
     {
       "produto": "CARVÃO",
@@ -211,10 +211,10 @@
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 10,
-      "falta": 5,
-      "tn_prev": 666.17,
-      "tn_carr": 447.17,
+      "carr": 12,
+      "falta": 3,
+      "tn_prev": 666.25,
+      "tn_carr": 532.25,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -247,10 +247,10 @@
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 122.25,
-          "tn_carr": 37.25
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 122.33,
+          "tn_carr": 122.33
         }
       ]
     },
@@ -289,19 +289,19 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 211.23,
-      "tn_carr": 50.23,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 212.37,
+      "tn_carr": 99.37,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.14,
+          "tn_carr": 49.14
         },
         {
           "nome": "AR MACEDO (RJ)",
@@ -318,11 +318,11 @@
       "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 1,
+      "prog": 5,
+      "carr": 2,
       "falta": 3,
-      "tn_prev": 176.17,
-      "tn_carr": 48.17,
+      "tn_prev": 210.78,
+      "tn_carr": 76.78,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -345,11 +345,32 @@
         {
           "nome": "EXP. TS (RJ)",
           "cnpj": "05324485000516",
-          "prog": 1,
-          "carr": 0,
+          "prog": 2,
+          "carr": 1,
           "falta": 1,
-          "tn_prev": 32.0,
-          "tn_carr": 0.0
+          "tn_prev": 66.61,
+          "tn_carr": 28.61
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "BELOCAL SJLP",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 181.72,
+      "tn_carr": 143.72,
+      "transportadoras": [
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
+          "prog": 5,
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 181.72,
+          "tn_carr": 143.72
         }
       ]
     },
@@ -380,27 +401,6 @@
           "falta": 0,
           "tn_prev": 75.24,
           "tn_carr": 75.24
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "BELOCAL SJLP",
-      "produto": "PETCOKE",
-      "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 143.11,
-      "tn_carr": 108.11,
-      "transportadoras": [
-        {
-          "nome": "EXP. TS (RJ)",
-          "cnpj": "05324485000516",
-          "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 143.11,
-          "tn_carr": 108.11
         }
       ]
     },
