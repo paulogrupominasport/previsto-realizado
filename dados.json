@@ -1,13 +1,13 @@
 {
   "data_relatorio": "08/11/2026",
-  "gerado_em": "2026-11-08T14:00:17",
-  "atualizado_em": "2026-11-08T17:05:24",
+  "gerado_em": "2026-11-08T15:00:09",
+  "atualizado_em": "2026-11-08T18:05:24",
   "totais": {
-    "prog": 56,
-    "carr": 38,
-    "falta": 18,
-    "tn_prev": 2345.11,
-    "tn_carr": 1584.11
+    "prog": 57,
+    "carr": 43,
+    "falta": 14,
+    "tn_prev": 2391.07,
+    "tn_carr": 1814.07
   },
   "por_cliente": [
     {
@@ -21,26 +21,26 @@
     {
       "cliente": "CSN ARCOS",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 260.37,
-      "tn_carr": 99.37
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 261.05,
+      "tn_carr": 138.05
     },
     {
       "cliente": "CIM LIZ",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 259.1,
-      "tn_carr": 88.1
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 258.87,
+      "tn_carr": 183.87
     },
     {
       "cliente": "CSN P. LEOPOLDO",
-      "prog": 5,
-      "carr": 2,
+      "prog": 6,
+      "carr": 3,
       "falta": 3,
-      "tn_prev": 210.78,
-      "tn_carr": 76.78
+      "tn_prev": 258.76,
+      "tn_carr": 124.76
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -91,20 +91,20 @@
       "tn_carr": 74.64
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "BELOCAL MTZ",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 48.58,
       "tn_carr": 48.58
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.53,
+      "tn_carr": 47.53
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -134,19 +134,19 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 39,
-      "carr": 26,
-      "falta": 13,
-      "tn_prev": 1650.56,
-      "tn_carr": 1110.56
+      "prog": 40,
+      "carr": 28,
+      "falta": 12,
+      "tn_prev": 1699.22,
+      "tn_carr": 1197.22
     },
     {
       "produto": "CARVÃO",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 259.1,
-      "tn_carr": 88.1
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 258.87,
+      "tn_carr": 183.87
     },
     {
       "produto": "Trindade",
@@ -167,10 +167,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.53,
+      "tn_carr": 47.53
     },
     {
       "produto": "Sinter Feed",
@@ -259,10 +259,10 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 260.37,
-      "tn_carr": 99.37,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 261.05,
+      "tn_carr": 138.05,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -277,10 +277,10 @@
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 4,
-          "carr": 1,
-          "falta": 3,
-          "tn_prev": 163.23,
-          "tn_carr": 50.23
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 163.91,
+          "tn_carr": 88.91
         }
       ]
     },
@@ -289,10 +289,10 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 6,
-      "carr": 2,
-      "falta": 4,
-      "tn_prev": 259.1,
-      "tn_carr": 88.1,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 258.87,
+      "tn_carr": 183.87,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -307,10 +307,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 143.91,
-          "tn_carr": 47.91
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 143.68,
+          "tn_carr": 143.68
         }
       ]
     },
@@ -318,29 +318,29 @@
       "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 2,
+      "prog": 6,
+      "carr": 3,
       "falta": 3,
-      "tn_prev": 210.78,
-      "tn_carr": 76.78,
+      "tn_prev": 258.76,
+      "tn_carr": 124.76,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 1,
+          "prog": 2,
           "carr": 1,
-          "falta": 0,
-          "tn_prev": 48.17,
+          "falta": 1,
+          "tn_prev": 96.17,
           "tn_carr": 48.17
         },
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.98,
+          "tn_carr": 47.98
         },
         {
           "nome": "EXP. TS (RJ)",
@@ -489,27 +489,6 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "BELOCAL MTZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
@@ -548,6 +527,27 @@
           "falta": 0,
           "tn_prev": 47.77,
           "tn_carr": 47.77
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.534,
+      "tn_carr": 47.534,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.534,
+          "tn_carr": 47.534
         }
       ]
     },
