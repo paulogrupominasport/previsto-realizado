@@ -1,12 +1,12 @@
 {
   "data_relatorio": "09/11/2026",
-  "gerado_em": "2026-11-09T07:00:15",
-  "atualizado_em": "2026-11-09T10:05:28",
+  "gerado_em": "2026-11-09T08:00:10",
+  "atualizado_em": "2026-11-09T11:05:28",
   "totais": {
     "prog": 35,
     "carr": 0,
     "falta": 35,
-    "tn_prev": 1373.0,
+    "tn_prev": 1403.0,
     "tn_carr": 0.0
   },
   "por_cliente": [
@@ -20,10 +20,18 @@
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 276.0,
+      "falta": 8,
+      "tn_prev": 324.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN P. LEOPOLDO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 134.0,
       "tn_carr": 0.0
     },
     {
@@ -35,27 +43,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BRASKEM",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 101.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN P. LEOPOLDO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 86.0,
       "tn_carr": 0.0
     },
     {
@@ -73,15 +65,23 @@
       "falta": 1,
       "tn_prev": 38.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 35.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 15,
+      "prog": 17,
       "carr": 0,
-      "falta": 15,
-      "tn_prev": 606.0,
+      "falta": 17,
+      "tn_prev": 702.0,
       "tn_carr": 0.0
     },
     {
@@ -93,19 +93,19 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "TÉRMICO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 101.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 35.0,
       "tn_carr": 0.0
     }
   ],
@@ -135,19 +135,19 @@
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 276.0,
+      "falta": 8,
+      "tn_prev": 324.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
+          "falta": 3,
+          "tn_prev": 124.0,
           "tn_carr": 0.0
         },
         {
@@ -157,6 +157,27 @@
           "carr": 0,
           "falta": 5,
           "tn_prev": 200.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN P. LEOPOLDO",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 134.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 134.0,
           "tn_carr": 0.0
         }
       ]
@@ -192,27 +213,6 @@
       ]
     },
     {
-      "lote": "BRASKEM - TÉRMICO JOKER - PILHA 92",
-      "cliente": "BRASKEM",
-      "produto": "TÉRMICO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 101.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "ROTA 101 (SC)",
-          "cnpj": "21269148000287",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 101.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -229,27 +229,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN P. LEOPOLDO",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 86.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 86.0,
           "tn_carr": 0.0
         }
       ]
@@ -292,6 +271,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
+      "cliente": "ITAMBÉ",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 35.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]
