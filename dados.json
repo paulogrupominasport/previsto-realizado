@@ -1,22 +1,30 @@
 {
   "data_relatorio": "09/11/2026",
-  "gerado_em": "2026-11-09T18:00:17",
-  "atualizado_em": "2026-11-09T21:05:23",
+  "gerado_em": "2026-11-09T19:00:12",
+  "atualizado_em": "2026-11-09T22:05:27",
   "totais": {
-    "prog": 81,
-    "carr": 45,
-    "falta": 36,
-    "tn_prev": 3192.83,
-    "tn_carr": 1755.48
+    "prog": 83,
+    "carr": 49,
+    "falta": 34,
+    "tn_prev": 3262.18,
+    "tn_carr": 1924.18
   },
   "por_cliente": [
     {
+      "cliente": "BRASKEM",
+      "prog": 15,
+      "carr": 0,
+      "falta": 15,
+      "tn_prev": 592.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "ITAMBÉ",
       "prog": 16,
-      "carr": 14,
-      "falta": 2,
-      "tn_prev": 574.94,
-      "tn_carr": 500.94
+      "carr": 16,
+      "falta": 0,
+      "tn_prev": 572.56,
+      "tn_carr": 572.56
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
@@ -27,20 +35,12 @@
       "tn_carr": 39.49
     },
     {
-      "cliente": "BRASKEM",
-      "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 521.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN ARCOS",
       "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 327.55,
-      "tn_carr": 213.55
+      "carr": 7,
+      "falta": 1,
+      "tn_prev": 329.61,
+      "tn_carr": 291.61
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -115,20 +115,20 @@
       "tn_carr": 69.58
     },
     {
-      "cliente": "INTERCEMENT",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 50.0,
-      "tn_carr": 29.65
-    },
-    {
       "cliente": "BELOCAL MTZ",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 49.78,
       "tn_carr": 49.78
+    },
+    {
+      "cliente": "INTERCEMENT",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 48.67,
+      "tn_carr": 48.67
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -151,18 +151,26 @@
     {
       "produto": "PETCOKE",
       "prog": 26,
-      "carr": 21,
-      "falta": 5,
-      "tn_prev": 1081.17,
-      "tn_carr": 871.17
+      "carr": 23,
+      "falta": 3,
+      "tn_prev": 1083.23,
+      "tn_carr": 949.23
     },
     {
       "produto": "GESSO",
       "prog": 21,
-      "carr": 18,
-      "falta": 3,
-      "tn_prev": 755.53,
-      "tn_carr": 649.53
+      "carr": 20,
+      "falta": 1,
+      "tn_prev": 753.15,
+      "tn_carr": 721.15
+    },
+    {
+      "produto": "TÉRMICO",
+      "prog": 15,
+      "carr": 0,
+      "falta": 15,
+      "tn_prev": 592.0,
+      "tn_carr": 0.0
     },
     {
       "produto": "Sinter Feed",
@@ -171,14 +179,6 @@
       "falta": 14,
       "tn_prev": 571.49,
       "tn_carr": 39.49
-    },
-    {
-      "produto": "TÉRMICO",
-      "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 521.0,
-      "tn_carr": 0.0
     },
     {
       "produto": "PETRÓLEO",
@@ -201,8 +201,8 @@
       "prog": 1,
       "carr": 1,
       "falta": 0,
-      "tn_prev": 50.0,
-      "tn_carr": 29.65
+      "tn_prev": 48.67,
+      "tn_carr": 48.67
     },
     {
       "produto": "Trindade",
@@ -215,14 +215,53 @@
   ],
   "lotes": [
     {
+      "lote": "BRASKEM - TÉRMICO MV/ TI DAWN- EXP DIRETA",
+      "cliente": "BRASKEM",
+      "produto": "TÉRMICO",
+      "prog": 15,
+      "carr": 0,
+      "falta": 15,
+      "tn_prev": 592.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "LUAN DE SOUZA BONFANTE (SC)",
+          "cnpj": "21430615000128",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 106.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "FRATELLI (SC)",
+          "cnpj": "10989401000170",
+          "prog": 6,
+          "carr": 0,
+          "falta": 6,
+          "tn_prev": 242.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "CANEVER (SC)",
+          "cnpj": "42029409000180",
+          "prog": 6,
+          "carr": 0,
+          "falta": 6,
+          "tn_prev": 244.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
       "prog": 16,
-      "carr": 14,
-      "falta": 2,
-      "tn_prev": 574.94,
-      "tn_carr": 500.94,
+      "carr": 16,
+      "falta": 0,
+      "tn_prev": 572.56,
+      "tn_carr": 572.56,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -246,19 +285,19 @@
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 113.03,
-          "tn_carr": 75.03
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 112.14,
+          "tn_carr": 112.14
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 7,
-          "carr": 6,
-          "falta": 1,
-          "tn_prev": 243.74,
-          "tn_carr": 207.74
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 242.25,
+          "tn_carr": 242.25
         }
       ]
     },
@@ -284,62 +323,23 @@
       ]
     },
     {
-      "lote": "BRASKEM - TÉRMICO MV/ TI DAWN- EXP DIRETA",
-      "cliente": "BRASKEM",
-      "produto": "TÉRMICO",
-      "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 521.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "LUAN DE SOUZA BONFANTE (SC)",
-          "cnpj": "21430615000128",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "FRATELLI (SC)",
-          "cnpj": "10989401000170",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 242.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "CANEVER (SC)",
-          "cnpj": "42029409000180",
-          "prog": 6,
-          "carr": 0,
-          "falta": 6,
-          "tn_prev": 244.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 5,
-      "falta": 3,
-      "tn_prev": 327.55,
-      "tn_carr": 213.55,
+      "carr": 7,
+      "falta": 1,
+      "tn_prev": 329.61,
+      "tn_carr": 291.61,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 123.89,
-          "tn_carr": 47.89
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 125.95,
+          "tn_carr": 125.95
         },
         {
           "nome": "AR MACEDO (RJ)",
@@ -551,27 +551,6 @@
       ]
     },
     {
-      "lote": "INTERCEMENT - IJACÍ - PETCOKE ATE - SILHOUETTE - PILHA 59",
-      "cliente": "INTERCEMENT",
-      "produto": "Ijací",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 50.0,
-      "tn_carr": 29.65,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 1,
-          "falta": 0,
-          "tn_prev": 50.0,
-          "tn_carr": 29.65
-        }
-      ]
-    },
-    {
       "lote": "BELOCAL MTZ - PETCOKE - SILHOUETTE ISLAND ATE - PILHA 59",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
@@ -589,6 +568,27 @@
           "falta": 0,
           "tn_prev": 49.78,
           "tn_carr": 49.78
+        }
+      ]
+    },
+    {
+      "lote": "INTERCEMENT - IJACÍ - PETCOKE ATE - SILHOUETTE - PILHA 59",
+      "cliente": "INTERCEMENT",
+      "produto": "Ijací",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 48.67,
+      "tn_carr": 48.67,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.67,
+          "tn_carr": 48.67
         }
       ]
     },
