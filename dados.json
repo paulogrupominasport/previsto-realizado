@@ -1,13 +1,13 @@
 {
   "data_relatorio": "09/11/2026",
-  "gerado_em": "2026-11-09T13:00:15",
-  "atualizado_em": "2026-11-09T16:05:25",
+  "gerado_em": "2026-11-09T14:00:16",
+  "atualizado_em": "2026-11-09T17:05:30",
   "totais": {
-    "prog": 63,
-    "carr": 18,
-    "falta": 45,
-    "tn_prev": 2469.7,
-    "tn_carr": 742.7
+    "prog": 67,
+    "carr": 20,
+    "falta": 47,
+    "tn_prev": 2637.34,
+    "tn_carr": 811.34
   },
   "por_cliente": [
     {
@@ -20,11 +20,11 @@
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 12,
-      "carr": 5,
-      "falta": 7,
-      "tn_prev": 434.62,
-      "tn_carr": 180.62
+      "prog": 15,
+      "carr": 7,
+      "falta": 8,
+      "tn_prev": 564.26,
+      "tn_carr": 249.26
     },
     {
       "cliente": "CSN ARCOS",
@@ -123,6 +123,14 @@
       "tn_carr": 39.76
     },
     {
+      "cliente": "CSN BARROSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "BELOCAL SJLP",
       "prog": 1,
       "carr": 1,
@@ -141,20 +149,20 @@
       "tn_carr": 409.67
     },
     {
+      "produto": "GESSO",
+      "prog": 19,
+      "carr": 8,
+      "falta": 11,
+      "tn_prev": 700.57,
+      "tn_carr": 283.57
+    },
+    {
       "produto": "Sinter Feed",
       "prog": 15,
       "carr": 0,
       "falta": 15,
       "tn_prev": 570.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "GESSO",
-      "prog": 15,
-      "carr": 6,
-      "falta": 9,
-      "tn_prev": 532.93,
-      "tn_carr": 214.93
     },
     {
       "produto": "PETRÓLEO",
@@ -215,11 +223,11 @@
       "lote": "ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "ITAMBÉ",
       "produto": "GESSO",
-      "prog": 12,
-      "carr": 5,
-      "falta": 7,
-      "tn_prev": 434.62,
-      "tn_carr": 180.62,
+      "prog": 15,
+      "carr": 7,
+      "falta": 8,
+      "tn_prev": 564.26,
+      "tn_carr": 249.26,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -233,29 +241,29 @@
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
-          "prog": 4,
+          "prog": 5,
           "carr": 2,
-          "falta": 2,
-          "tn_prev": 145.78,
+          "falta": 3,
+          "tn_prev": 180.78,
           "tn_carr": 75.78
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 6,
-          "carr": 3,
-          "falta": 3,
-          "tn_prev": 212.84,
-          "tn_carr": 104.84
+          "prog": 7,
+          "carr": 5,
+          "falta": 2,
+          "tn_prev": 269.48,
+          "tn_carr": 173.48
         }
       ]
     },
@@ -547,6 +555,27 @@
           "falta": 0,
           "tn_prev": 39.76,
           "tn_carr": 39.76
+        }
+      ]
+    },
+    {
+      "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN BARROSO",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         }
       ]
     },
