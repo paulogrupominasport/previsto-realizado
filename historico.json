@@ -8457,33 +8457,45 @@
     }
   },
   "2026-11-10": {
-    "gerado_em": "2026-11-10T08:00:06",
-    "atualizado_em": "2026-11-10T11:05:23",
+    "gerado_em": "2026-11-10T09:00:18",
+    "atualizado_em": "2026-11-10T12:05:24",
     "totais": {
       "prog": 42,
-      "carr": 13,
-      "falta": 29,
-      "tn_prev": 1800.53,
-      "tn_carr": 337.53
+      "carr": 17,
+      "falta": 25,
+      "tn_prev": 1764.97,
+      "tn_carr": 480.4
     },
     "por_cliente": {
       "INTERCEMENT": {
-        "prog": 15,
-        "carr": 12,
-        "tn_prev": 674.0,
-        "tn_carr": 304.49
+        "prog": 16,
+        "carr": 15,
+        "tn_prev": 712.0,
+        "tn_carr": 400.92
       },
-      "BRASKEM": {
-        "prog": 10,
-        "carr": 1,
-        "tn_prev": 418.04,
-        "tn_carr": 33.04
+      "CSN ARCOS": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 192.0,
+        "tn_carr": 0.0
       },
       "CSN CANTAGALO": {
         "prog": 4,
         "carr": 0,
         "tn_prev": 147.0,
         "tn_carr": 0.0
+      },
+      "NASSAU": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 132.0,
+        "tn_carr": 0.0
+      },
+      "BRASKEM": {
+        "prog": 3,
+        "carr": 2,
+        "tn_prev": 116.48,
+        "tn_carr": 79.48
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -8492,12 +8504,6 @@
         "tn_carr": 0.0
       },
       "CSN MOC": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 96.0,
-        "tn_carr": 0.0
-      },
-      "CSN ARCOS": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
@@ -8542,22 +8548,28 @@
     },
     "por_produto": {
       "Ijací": {
-        "prog": 15,
-        "carr": 12,
-        "tn_prev": 674.0,
-        "tn_carr": 304.49
+        "prog": 16,
+        "carr": 15,
+        "tn_prev": 712.0,
+        "tn_carr": 400.92
       },
       "PETCOKE": {
-        "prog": 12,
+        "prog": 14,
         "carr": 0,
-        "tn_prev": 494.0,
+        "tn_prev": 590.0,
+        "tn_carr": 0.0
+      },
+      "GESSO": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 132.0,
         "tn_carr": 0.0
       },
       "TÉRMICO": {
-        "prog": 10,
-        "carr": 1,
-        "tn_prev": 418.04,
-        "tn_carr": 33.04
+        "prog": 3,
+        "carr": 2,
+        "tn_prev": 116.48,
+        "tn_carr": 79.48
       },
       "PETRÓLEO": {
         "prog": 2,
