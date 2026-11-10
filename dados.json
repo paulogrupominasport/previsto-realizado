@@ -1,13 +1,13 @@
 {
   "data_relatorio": "10/11/2026",
-  "gerado_em": "2026-11-10T09:23:18",
-  "atualizado_em": "2026-11-10T12:25:24",
+  "gerado_em": "2026-11-10T10:00:08",
+  "atualizado_em": "2026-11-10T13:05:31",
   "totais": {
-    "prog": 43,
-    "carr": 20,
+    "prog": 49,
+    "carr": 26,
     "falta": 23,
-    "tn_prev": 1815.95,
-    "tn_carr": 594.38
+    "tn_prev": 2050.12,
+    "tn_carr": 838.55
   },
   "por_cliente": [
     {
@@ -19,20 +19,28 @@
       "tn_carr": 400.92
     },
     {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 232.91,
+      "tn_carr": 156.91
+    },
+    {
       "cliente": "CSN ARCOS",
-      "prog": 4,
-      "carr": 0,
+      "prog": 5,
+      "carr": 1,
       "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0
+      "tn_prev": 232.07,
+      "tn_carr": 50.07
     },
     {
       "cliente": "CSN CANTAGALO",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 147.83,
-      "tn_carr": 38.83
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 147.02,
+      "tn_carr": 76.02
     },
     {
       "cliente": "NASSAU",
@@ -99,14 +107,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN BARROSO",
       "prog": 1,
       "carr": 0,
@@ -127,17 +127,25 @@
     {
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 2,
-      "falta": 13,
-      "tn_prev": 638.33,
-      "tn_carr": 74.33
+      "carr": 4,
+      "falta": 11,
+      "tn_prev": 639.59,
+      "tn_carr": 161.59
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 232.91,
+      "tn_carr": 156.91
     },
     {
       "produto": "GESSO",
-      "prog": 4,
+      "prog": 5,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 132.0,
+      "falta": 5,
+      "tn_prev": 170.0,
       "tn_carr": 0.0
     },
     {
@@ -170,14 +178,6 @@
       "carr": 0,
       "falta": 1,
       "tn_prev": 39.49,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Sinter Feed",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
       "tn_carr": 0.0
     }
   ],
@@ -213,23 +213,53 @@
       ]
     },
     {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 6,
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 232.91,
+      "tn_carr": 156.91,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 5,
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 194.91,
+          "tn_carr": 156.91
+        }
+      ]
+    },
+    {
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 194.07,
+      "tn_carr": 50.07,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 192.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 194.07,
+          "tn_carr": 50.07
         }
       ]
     },
@@ -238,10 +268,10 @@
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 1,
-      "falta": 3,
-      "tn_prev": 147.83,
-      "tn_carr": 38.83,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 147.02,
+      "tn_carr": 76.02,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
@@ -256,10 +286,10 @@
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 109.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 108.19,
+          "tn_carr": 37.19
         }
       ]
     },
@@ -450,9 +480,9 @@
       ]
     },
     {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
+      "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
+      "cliente": "CSN ARCOS",
+      "produto": "GESSO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
@@ -460,8 +490,8 @@
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "RODEIRO (MG)",
-          "cnpj": "26178616000140",
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
           "prog": 1,
           "carr": 0,
           "falta": 1,
