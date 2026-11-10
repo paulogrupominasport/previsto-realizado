@@ -1,13 +1,13 @@
 {
   "data_relatorio": "10/11/2026",
-  "gerado_em": "2026-11-10T09:00:18",
-  "atualizado_em": "2026-11-10T12:05:24",
+  "gerado_em": "2026-11-10T09:23:18",
+  "atualizado_em": "2026-11-10T12:25:24",
   "totais": {
-    "prog": 42,
-    "carr": 17,
-    "falta": 25,
-    "tn_prev": 1764.97,
-    "tn_carr": 480.4
+    "prog": 43,
+    "carr": 20,
+    "falta": 23,
+    "tn_prev": 1815.95,
+    "tn_carr": 594.38
   },
   "por_cliente": [
     {
@@ -29,10 +29,10 @@
     {
       "cliente": "CSN CANTAGALO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 147.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 147.83,
+      "tn_carr": 38.83
     },
     {
       "cliente": "NASSAU",
@@ -67,20 +67,28 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN V. REDONDA",
+      "cliente": "BELOCAL MTZ",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 72.0,
+      "tn_prev": 96.0,
       "tn_carr": 0.0
     },
     {
-      "cliente": "BELOCAL MTZ",
-      "prog": 1,
-      "carr": 0,
+      "cliente": "CSN V. REDONDA",
+      "prog": 2,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 48.0,
-      "tn_carr": 0.0
+      "tn_prev": 71.5,
+      "tn_carr": 35.5
+    },
+    {
+      "cliente": "LS METAIS",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.65,
+      "tn_carr": 39.65
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -96,14 +104,6 @@
       "carr": 0,
       "falta": 1,
       "tn_prev": 38.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "LS METAIS",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
       "tn_carr": 0.0
     },
     {
@@ -126,11 +126,11 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 14,
-      "carr": 0,
-      "falta": 14,
-      "tn_prev": 590.0,
-      "tn_carr": 0.0
+      "prog": 15,
+      "carr": 2,
+      "falta": 13,
+      "tn_prev": 638.33,
+      "tn_carr": 74.33
     },
     {
       "produto": "GESSO",
@@ -157,6 +157,14 @@
       "tn_carr": 0.0
     },
     {
+      "produto": "Antracito",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.65,
+      "tn_carr": 39.65
+    },
+    {
       "produto": "Trindade",
       "prog": 1,
       "carr": 0,
@@ -170,14 +178,6 @@
       "carr": 0,
       "falta": 1,
       "tn_prev": 38.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Antracito",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
       "tn_carr": 0.0
     }
   ],
@@ -238,19 +238,19 @@
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 147.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 147.83,
+      "tn_carr": 38.83,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.83,
+          "tn_carr": 38.83
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
@@ -366,44 +366,65 @@
       ]
     },
     {
-      "lote": "CSN V. REDONDA - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN V. REDONDA",
+      "lote": "BELOCAL MTZ - PETCOKE - SILHOUETTE ISLAND ATE - PILHA 59",
+      "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 2,
       "carr": 0,
       "falta": 2,
-      "tn_prev": 72.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RANGEL (RJ)",
-          "cnpj": "47836361000136",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 72.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL MTZ - PETCOKE - SILHOUETTE ISLAND ATE - PILHA 59",
-      "cliente": "BELOCAL MTZ",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 48.0,
+      "tn_prev": 96.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
+          "falta": 2,
+          "tn_prev": 96.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN V. REDONDA - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN V. REDONDA",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 71.5,
+      "tn_carr": 35.5,
+      "transportadoras": [
+        {
+          "nome": "RANGEL (RJ)",
+          "cnpj": "47836361000136",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 71.5,
+          "tn_carr": 35.5
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS",
+      "produto": "Antracito",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 39.65,
+      "tn_carr": 39.65,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.65,
+          "tn_carr": 39.65
         }
       ]
     },
@@ -445,27 +466,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
-      "cliente": "LS METAIS",
-      "produto": "Antracito",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
           "tn_carr": 0.0
         }
       ]
