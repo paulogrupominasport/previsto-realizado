@@ -1,12 +1,12 @@
 {
   "data_relatorio": "10/11/2026",
-  "gerado_em": "2026-11-10T12:00:17",
-  "atualizado_em": "2026-11-10T15:05:29",
+  "gerado_em": "2026-11-10T13:00:12",
+  "atualizado_em": "2026-11-10T16:05:25",
   "totais": {
-    "prog": 62,
+    "prog": 63,
     "carr": 29,
-    "falta": 33,
-    "tn_prev": 2570.28,
+    "falta": 34,
+    "tn_prev": 2585.28,
     "tn_carr": 1185.79
   },
   "por_cliente": [
@@ -31,7 +31,7 @@
       "prog": 9,
       "carr": 8,
       "falta": 1,
-      "tn_prev": 367.34,
+      "tn_prev": 355.34,
       "tn_carr": 319.34
     },
     {
@@ -113,6 +113,14 @@
       "falta": 1,
       "tn_prev": 39.49,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "BELLUNO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 27.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
@@ -145,7 +153,7 @@
       "prog": 9,
       "carr": 8,
       "falta": 1,
-      "tn_prev": 367.34,
+      "tn_prev": 355.34,
       "tn_carr": 319.34
     },
     {
@@ -178,6 +186,14 @@
       "carr": 0,
       "falta": 1,
       "tn_prev": 39.49,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Premium Hvb",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 27.0,
       "tn_carr": 0.0
     }
   ],
@@ -249,25 +265,25 @@
       "prog": 9,
       "carr": 8,
       "falta": 1,
-      "tn_prev": 367.34,
+      "tn_prev": 355.34,
       "tn_carr": 319.34,
       "transportadoras": [
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
           "cnpj": "21430615000128",
-          "prog": 2,
+          "prog": 3,
           "carr": 2,
-          "falta": 0,
-          "tn_prev": 69.53,
+          "falta": 1,
+          "tn_prev": 105.53,
           "tn_carr": 69.53
         },
         {
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
-          "prog": 5,
+          "prog": 4,
           "carr": 4,
-          "falta": 1,
-          "tn_prev": 220.97,
+          "falta": 0,
+          "tn_prev": 172.97,
           "tn_carr": 172.97
         },
         {
@@ -557,6 +573,27 @@
           "falta": 0,
           "tn_prev": 36.32,
           "tn_carr": 36.32
+        }
+      ]
+    },
+    {
+      "lote": "BELLUNO - PREMIUM HVB - PACIFIC TALENT - PILHA 91",
+      "cliente": "BELLUNO",
+      "produto": "Premium Hvb",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 27.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "BELLUNO (SC)",
+          "cnpj": "83163576000105",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 27.0,
+          "tn_carr": 0.0
         }
       ]
     }
