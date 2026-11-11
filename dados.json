@@ -1,22 +1,22 @@
 {
   "data_relatorio": "11/11/2026",
-  "gerado_em": "2026-11-11T11:55:17",
-  "atualizado_em": "2026-11-11T15:00:31",
+  "gerado_em": "2026-11-11T12:00:17",
+  "atualizado_em": "2026-11-11T15:05:28",
   "totais": {
-    "prog": 122,
-    "carr": 56,
-    "falta": 66,
-    "tn_prev": 4919.93,
-    "tn_carr": 2187.01
+    "prog": 121,
+    "carr": 57,
+    "falta": 64,
+    "tn_prev": 4873.09,
+    "tn_carr": 2233.25
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
       "prog": 20,
-      "carr": 9,
-      "falta": 11,
+      "carr": 10,
+      "falta": 10,
       "tn_prev": 759.0,
-      "tn_carr": 336.7
+      "tn_carr": 382.94
     },
     {
       "cliente": "*ITAMBÉ",
@@ -147,14 +147,6 @@
       "tn_carr": 35.48
     },
     {
-      "cliente": "DESCARGA",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 46.84,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "FERMAVI",
       "prog": 1,
       "carr": 0,
@@ -191,10 +183,10 @@
     {
       "produto": "TÉRMICO",
       "prog": 20,
-      "carr": 9,
-      "falta": 11,
+      "carr": 10,
+      "falta": 10,
       "tn_prev": 759.0,
-      "tn_carr": 336.7
+      "tn_carr": 382.94
     },
     {
       "produto": "Trindade",
@@ -229,14 +221,6 @@
       "tn_carr": 35.48
     },
     {
-      "produto": "Devolução Cimentos Liz",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 46.84,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "Varginha",
       "prog": 1,
       "carr": 0,
@@ -251,10 +235,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 20,
-      "carr": 9,
-      "falta": 11,
+      "carr": 10,
+      "falta": 10,
       "tn_prev": 759.0,
-      "tn_carr": 336.7,
+      "tn_carr": 382.94,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -305,10 +289,10 @@
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 6,
-          "carr": 3,
-          "falta": 3,
+          "carr": 4,
+          "falta": 2,
           "tn_prev": 272.0,
-          "tn_carr": 130.92
+          "tn_carr": 177.16
         },
         {
           "nome": "CANEVER (SC)",
@@ -833,27 +817,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "DESCARGA - DEVOLUÇÃO CIMENTOS LIZ - ITAUNA (FORNO)",
-      "cliente": "DESCARGA",
-      "produto": "Devolução Cimentos Liz",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 46.84,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "DC4 TRANSPORTES LTDA",
-          "cnpj": "41539746000236",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 46.84,
           "tn_carr": 0.0
         }
       ]
