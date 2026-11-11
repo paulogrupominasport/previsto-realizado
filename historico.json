@@ -8463,33 +8463,33 @@
     }
   },
   "2026-11-11": {
-    "gerado_em": "2026-11-11T16:00:19",
-    "atualizado_em": "2026-11-11T19:05:27",
+    "gerado_em": "2026-11-11T17:00:13",
+    "atualizado_em": "2026-11-11T20:05:26",
     "totais": {
-      "prog": 129,
-      "carr": 91,
-      "falta": 38,
-      "tn_prev": 5144.36,
-      "tn_carr": 3631.93
+      "prog": 132,
+      "carr": 100,
+      "falta": 32,
+      "tn_prev": 5261.93,
+      "tn_carr": 3981.77
     },
     "por_cliente": {
       "BRASKEM": {
         "prog": 23,
-        "carr": 18,
+        "carr": 23,
         "tn_prev": 855.0,
-        "tn_carr": 673.19
+        "tn_carr": 866.68
       },
       "*ITAMBÉ": {
         "prog": 16,
-        "carr": 11,
-        "tn_prev": 599.42,
-        "tn_carr": 421.42
+        "carr": 12,
+        "tn_prev": 598.53,
+        "tn_carr": 458.53
       },
       "DESCARGA MINÉRIO": {
         "prog": 14,
-        "carr": 13,
-        "tn_prev": 541.52,
-        "tn_carr": 504.74
+        "carr": 14,
+        "tn_prev": 541.21,
+        "tn_carr": 541.21
       },
       "CIM. LIZ": {
         "prog": 11,
@@ -8521,35 +8521,35 @@
         "tn_prev": 288.84,
         "tn_carr": 192.84
       },
+      "TRINDADE MINERAÇÃO": {
+        "prog": 6,
+        "carr": 1,
+        "tn_prev": 225.48,
+        "tn_carr": 35.48
+      },
       "CSN BARROSO": {
         "prog": 5,
         "carr": 2,
         "tn_prev": 184.93,
         "tn_carr": 72.93
       },
-      "TRINDADE MINERAÇÃO": {
-        "prog": 4,
-        "carr": 1,
-        "tn_prev": 149.48,
-        "tn_carr": 35.48
-      },
       "CSN CANTAGALO": {
         "prog": 4,
-        "carr": 2,
-        "tn_prev": 142.57,
-        "tn_carr": 75.57
+        "carr": 3,
+        "tn_prev": 143.88,
+        "tn_carr": 108.88
       },
       "BELOCAL ARCOS": {
         "prog": 3,
-        "carr": 1,
-        "tn_prev": 133.09,
-        "tn_carr": 37.09
+        "carr": 2,
+        "tn_prev": 134.55,
+        "tn_carr": 86.55
       },
-      "NASSAU": {
+      "BELOCAL SJLP": {
         "prog": 3,
         "carr": 2,
-        "tn_prev": 99.9,
-        "tn_carr": 67.9
+        "tn_prev": 112.85,
+        "tn_carr": 74.85
       },
       "BELOCAL MTZ": {
         "prog": 2,
@@ -8569,11 +8569,17 @@
         "tn_prev": 75.91,
         "tn_carr": 75.91
       },
-      "BELOCAL SJLP": {
+      "SUPREMO POMERODE": {
+        "prog": 2,
+        "carr": 1,
+        "tn_prev": 68.05,
+        "tn_carr": 34.05
+      },
+      "NASSAU": {
         "prog": 2,
         "carr": 2,
-        "tn_prev": 74.85,
-        "tn_carr": 74.85
+        "tn_prev": 67.9,
+        "tn_carr": 67.9
       },
       "DESCARGA": {
         "prog": 1,
@@ -8592,38 +8598,32 @@
         "carr": 1,
         "tn_prev": 38.94,
         "tn_carr": 38.94
-      },
-      "SUPREMO POMERODE": {
-        "prog": 1,
-        "carr": 1,
-        "tn_prev": 34.05,
-        "tn_carr": 34.05
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 54,
-        "carr": 39,
-        "tn_prev": 2243.25,
-        "tn_carr": 1616.25
+        "prog": 55,
+        "carr": 41,
+        "tn_prev": 2284.02,
+        "tn_carr": 1699.02
       },
       "TÉRMICO": {
         "prog": 23,
-        "carr": 18,
+        "carr": 23,
         "tn_prev": 855.0,
-        "tn_carr": 673.19
+        "tn_carr": 866.68
       },
       "GESSO": {
-        "prog": 23,
-        "carr": 14,
-        "tn_prev": 850.26,
-        "tn_carr": 528.26
+        "prog": 22,
+        "carr": 15,
+        "tn_prev": 817.37,
+        "tn_carr": 565.37
       },
       "Trindade": {
         "prog": 14,
-        "carr": 13,
-        "tn_prev": 541.52,
-        "tn_carr": 504.74
+        "carr": 14,
+        "tn_prev": 541.21,
+        "tn_carr": 541.21
       },
       "Ijací": {
         "prog": 6,
@@ -8632,9 +8632,9 @@
         "tn_carr": 192.84
       },
       "Sinter Feed": {
-        "prog": 4,
+        "prog": 6,
         "carr": 1,
-        "tn_prev": 149.48,
+        "tn_prev": 225.48,
         "tn_carr": 35.48
       },
       "PETRÓLEO": {
@@ -8642,6 +8642,12 @@
         "carr": 1,
         "tn_prev": 95.12,
         "tn_carr": 47.12
+      },
+      "Rivertec": {
+        "prog": 2,
+        "carr": 1,
+        "tn_prev": 68.05,
+        "tn_carr": 34.05
       },
       "Devolução Cimentos Liz": {
         "prog": 1,
@@ -8654,12 +8660,6 @@
         "carr": 0,
         "tn_prev": 40.0,
         "tn_carr": 0.0
-      },
-      "Rivertec": {
-        "prog": 1,
-        "carr": 1,
-        "tn_prev": 34.05,
-        "tn_carr": 34.05
       }
     }
   }
