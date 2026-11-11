@@ -1,13 +1,13 @@
 {
   "data_relatorio": "11/11/2026",
-  "gerado_em": "2026-11-11T07:00:13",
-  "atualizado_em": "2026-11-11T10:05:24",
+  "gerado_em": "2026-11-11T08:00:05",
+  "atualizado_em": "2026-11-11T11:05:26",
   "totais": {
-    "prog": 87,
-    "carr": 0,
-    "falta": 87,
-    "tn_prev": 3572.1,
-    "tn_carr": 0.0
+    "prog": 91,
+    "carr": 2,
+    "falta": 89,
+    "tn_prev": 3726.1,
+    "tn_carr": 84.98
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
+      "carr": 2,
+      "falta": 11,
       "tn_prev": 495.0,
-      "tn_carr": 0.0
+      "tn_carr": 84.98
     },
     {
       "cliente": "INTERCEMENT",
@@ -60,10 +60,10 @@
     },
     {
       "cliente": "*ITAMBÉ",
-      "prog": 4,
+      "prog": 8,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 147.0,
+      "falta": 8,
+      "tn_prev": 301.0,
       "tn_carr": 0.0
     },
     {
@@ -167,10 +167,10 @@
     {
       "produto": "TÉRMICO",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
+      "carr": 2,
+      "falta": 11,
       "tn_prev": 495.0,
-      "tn_carr": 0.0
+      "tn_carr": 84.98
     },
     {
       "produto": "Ijací",
@@ -182,10 +182,10 @@
     },
     {
       "produto": "GESSO",
-      "prog": 5,
+      "prog": 9,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 187.0,
+      "falta": 9,
+      "tn_prev": 341.0,
       "tn_carr": 0.0
     },
     {
@@ -248,10 +248,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
+      "carr": 2,
+      "falta": 11,
       "tn_prev": 495.0,
-      "tn_carr": 0.0,
+      "tn_carr": 84.98,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -275,19 +275,19 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
+          "carr": 1,
+          "falta": 4,
           "tn_prev": 160.0,
-          "tn_carr": 0.0
+          "tn_carr": 38.19
         },
         {
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
+          "carr": 1,
+          "falta": 4,
           "tn_prev": 225.0,
-          "tn_carr": 0.0
+          "tn_carr": 46.79
         }
       ]
     },
@@ -442,19 +442,37 @@
       "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
-      "prog": 4,
+      "prog": 8,
       "carr": 0,
-      "falta": 4,
-      "tn_prev": 147.0,
+      "falta": 8,
+      "tn_prev": 301.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "PAULISTA TRANSP. (SC)",
-          "cnpj": "80776784000264",
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 49.0,
+          "tn_prev": 34.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "TRANSP. BONTORIN (SC)",
+          "cnpj": "81429755000299",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 85.0,
           "tn_carr": 0.0
         },
         {
@@ -464,6 +482,15 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 98.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 36.0,
           "tn_carr": 0.0
         }
       ]
