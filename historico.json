@@ -8475,39 +8475,45 @@
     }
   },
   "2026-11-12": {
-    "gerado_em": "2026-11-12T08:00:07",
-    "atualizado_em": "2026-11-12T11:05:30",
+    "gerado_em": "2026-11-12T09:00:17",
+    "atualizado_em": "2026-11-12T12:05:30",
     "totais": {
-      "prog": 73,
-      "carr": 1,
-      "falta": 72,
-      "tn_prev": 2918.42,
-      "tn_carr": 39.87
+      "prog": 79,
+      "carr": 11,
+      "falta": 68,
+      "tn_prev": 3150.48,
+      "tn_carr": 434.79
     },
     "por_cliente": {
+      "**BRASKEM": {
+        "prog": 17,
+        "carr": 5,
+        "tn_prev": 634.0,
+        "tn_carr": 201.86
+      },
       "TRINDADE MINERAÇÃO": {
         "prog": 15,
         "carr": 1,
         "tn_prev": 571.87,
         "tn_carr": 39.87
       },
-      "**BRASKEM": {
-        "prog": 14,
-        "carr": 0,
-        "tn_prev": 537.0,
-        "tn_carr": 0.0
-      },
       "CSN ARCOS": {
-        "prog": 11,
-        "carr": 0,
-        "tn_prev": 460.0,
-        "tn_carr": 0.0
+        "prog": 10,
+        "carr": 2,
+        "tn_prev": 422.56,
+        "tn_carr": 76.56
       },
       "*ITAMBÉ": {
-        "prog": 6,
+        "prog": 7,
         "carr": 0,
-        "tn_prev": 237.0,
+        "tn_prev": 275.0,
         "tn_carr": 0.0
+      },
+      "BELOCAL ARCOS": {
+        "prog": 6,
+        "carr": 3,
+        "tn_prev": 230.5,
+        "tn_carr": 116.5
       },
       "CSN VR": {
         "prog": 5,
@@ -8515,16 +8521,10 @@
         "tn_prev": 223.0,
         "tn_carr": 0.0
       },
-      "BELOCAL ARCOS": {
-        "prog": 5,
-        "carr": 0,
-        "tn_prev": 190.0,
-        "tn_carr": 0.0
-      },
       "CSN MOC": {
         "prog": 4,
         "carr": 0,
-        "tn_prev": 183.0,
+        "tn_prev": 181.0,
         "tn_carr": 0.0
       },
       "CSN CANTAGALO": {
@@ -8535,6 +8535,12 @@
       },
       "NASSAU": {
         "prog": 3,
+        "carr": 0,
+        "tn_prev": 96.0,
+        "tn_carr": 0.0
+      },
+      "CIM. LIZ": {
+        "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
         "tn_carr": 0.0
@@ -8573,20 +8579,20 @@
     "por_produto": {
       "PETCOKE": {
         "prog": 24,
-        "carr": 0,
-        "tn_prev": 1001.0,
-        "tn_carr": 0.0
-      },
-      "GESSO": {
-        "prog": 15,
-        "carr": 0,
-        "tn_prev": 594.0,
-        "tn_carr": 0.0
+        "carr": 5,
+        "tn_prev": 1002.06,
+        "tn_carr": 193.06
       },
       "TÉRMICO": {
-        "prog": 15,
+        "prog": 18,
+        "carr": 5,
+        "tn_prev": 681.0,
+        "tn_carr": 201.86
+      },
+      "GESSO": {
+        "prog": 16,
         "carr": 0,
-        "tn_prev": 584.0,
+        "tn_prev": 632.0,
         "tn_carr": 0.0
       },
       "Sinter Feed": {
@@ -8594,6 +8600,12 @@
         "carr": 1,
         "tn_prev": 571.87,
         "tn_carr": 39.87
+      },
+      "COQUE": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 96.0,
+        "tn_carr": 0.0
       },
       "Varginha": {
         "prog": 2,

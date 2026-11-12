@@ -1,15 +1,23 @@
 {
   "data_relatorio": "12/11/2026",
-  "gerado_em": "2026-11-12T08:00:07",
-  "atualizado_em": "2026-11-12T11:05:30",
+  "gerado_em": "2026-11-12T09:00:17",
+  "atualizado_em": "2026-11-12T12:05:30",
   "totais": {
-    "prog": 73,
-    "carr": 1,
-    "falta": 72,
-    "tn_prev": 2918.42,
-    "tn_carr": 39.87
+    "prog": 79,
+    "carr": 11,
+    "falta": 68,
+    "tn_prev": 3150.48,
+    "tn_carr": 434.79
   },
   "por_cliente": [
+    {
+      "cliente": "**BRASKEM",
+      "prog": 17,
+      "carr": 5,
+      "falta": 12,
+      "tn_prev": 634.0,
+      "tn_carr": 201.86
+    },
     {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 15,
@@ -19,28 +27,28 @@
       "tn_carr": 39.87
     },
     {
-      "cliente": "**BRASKEM",
-      "prog": 14,
-      "carr": 0,
-      "falta": 14,
-      "tn_prev": 537.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN ARCOS",
-      "prog": 11,
-      "carr": 0,
-      "falta": 11,
-      "tn_prev": 460.0,
-      "tn_carr": 0.0
+      "prog": 10,
+      "carr": 2,
+      "falta": 8,
+      "tn_prev": 422.56,
+      "tn_carr": 76.56
     },
     {
       "cliente": "*ITAMBÉ",
-      "prog": 6,
+      "prog": 7,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 237.0,
+      "falta": 7,
+      "tn_prev": 275.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "BELOCAL ARCOS",
+      "prog": 6,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 230.5,
+      "tn_carr": 116.5
     },
     {
       "cliente": "CSN VR",
@@ -51,19 +59,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BELOCAL ARCOS",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 190.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN MOC",
       "prog": 4,
       "carr": 0,
       "falta": 4,
-      "tn_prev": 183.0,
+      "tn_prev": 181.0,
       "tn_carr": 0.0
     },
     {
@@ -79,6 +79,14 @@
       "prog": 3,
       "carr": 0,
       "falta": 3,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "CIM. LIZ",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
     },
@@ -127,25 +135,25 @@
     {
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 0,
-      "falta": 24,
-      "tn_prev": 1001.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "GESSO",
-      "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 594.0,
-      "tn_carr": 0.0
+      "carr": 5,
+      "falta": 19,
+      "tn_prev": 1002.06,
+      "tn_carr": 193.06
     },
     {
       "produto": "TÉRMICO",
-      "prog": 15,
+      "prog": 18,
+      "carr": 5,
+      "falta": 13,
+      "tn_prev": 681.0,
+      "tn_carr": 201.86
+    },
+    {
+      "produto": "GESSO",
+      "prog": 16,
       "carr": 0,
-      "falta": 15,
-      "tn_prev": 584.0,
+      "falta": 16,
+      "tn_prev": 632.0,
       "tn_carr": 0.0
     },
     {
@@ -155,6 +163,14 @@
       "falta": 14,
       "tn_prev": 571.87,
       "tn_carr": 39.87
+    },
+    {
+      "produto": "COQUE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0
     },
     {
       "produto": "Varginha",
@@ -182,6 +198,63 @@
     }
   ],
   "lotes": [
+    {
+      "lote": "**BRASKEM - TÉRMICO JOKER - PILHA 92",
+      "cliente": "**BRASKEM",
+      "produto": "TÉRMICO",
+      "prog": 17,
+      "carr": 5,
+      "falta": 12,
+      "tn_prev": 634.0,
+      "tn_carr": 201.86,
+      "transportadoras": [
+        {
+          "nome": "ROTA 101 (SC)",
+          "cnpj": "21269148000287",
+          "prog": 4,
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 140.0,
+          "tn_carr": 35.66
+        },
+        {
+          "nome": "LUAN DE SOUZA BONFANTE (SC)",
+          "cnpj": "21430615000128",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 121.0,
+          "tn_carr": 34.63
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 110.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "FRATELLI (SC)",
+          "cnpj": "10989401000170",
+          "prog": 5,
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 225.0,
+          "tn_carr": 93.67
+        },
+        {
+          "nome": "ATR MINHOCAO",
+          "cnpj": "66866968000103",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.0,
+          "tn_carr": 37.9
+        }
+      ]
+    },
     {
       "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
       "cliente": "TRINDADE MINERAÇÃO",
@@ -213,71 +286,14 @@
       ]
     },
     {
-      "lote": "**BRASKEM - TÉRMICO JOKER - PILHA 92",
-      "cliente": "**BRASKEM",
-      "produto": "TÉRMICO",
-      "prog": 14,
-      "carr": 0,
-      "falta": 14,
-      "tn_prev": 537.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "ROTA 101 (SC)",
-          "cnpj": "21269148000287",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 140.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "LUAN DE SOUZA BONFANTE (SC)",
-          "cnpj": "21430615000128",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 121.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "FRATELLI (SC)",
-          "cnpj": "10989401000170",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 188.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "ATR MINHOCAO",
-          "cnpj": "66866968000103",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
-      "prog": 10,
-      "carr": 0,
-      "falta": 10,
-      "tn_prev": 422.0,
-      "tn_carr": 0.0,
+      "prog": 9,
+      "carr": 2,
+      "falta": 7,
+      "tn_prev": 384.56,
+      "tn_carr": 76.56,
       "transportadoras": [
         {
           "nome": "WSV TRANSPORTES (RJ)",
@@ -300,11 +316,11 @@
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 152.0,
-          "tn_carr": 0.0
+          "prog": 3,
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 114.56,
+          "tn_carr": 76.56
         }
       ]
     },
@@ -312,12 +328,21 @@
       "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
-      "prog": 6,
+      "prog": 7,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 237.0,
+      "falta": 7,
+      "tn_prev": 275.0,
       "tn_carr": 0.0,
       "transportadoras": [
+        {
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
@@ -366,7 +391,7 @@
       "prog": 4,
       "carr": 0,
       "falta": 4,
-      "tn_prev": 183.0,
+      "tn_prev": 181.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -375,7 +400,7 @@
           "prog": 3,
           "carr": 0,
           "falta": 3,
-          "tn_prev": 135.0,
+          "tn_prev": 133.0,
           "tn_carr": 0.0
         },
         {
@@ -429,23 +454,53 @@
       ]
     },
     {
-      "lote": "BELOCAL ARCOS - PETCOKE ATE - SILHOUETTE ISLAND - PILHA 59",
+      "lote": "BELOCAL ARCOS - PETCOKE MTE - SILHOUETTE ISLAND - PILHA 60",
       "cliente": "BELOCAL ARCOS",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 114.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 116.76,
+      "tn_carr": 78.76,
       "transportadoras": [
         {
           "nome": "COOPROVES (RJ)",
           "cnpj": "09568680000542",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 77.11,
+          "tn_carr": 39.11
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 39.65,
+          "tn_carr": 39.65
+        }
+      ]
+    },
+    {
+      "lote": "BELOCAL ARCOS - PETCOKE ATE - SILHOUETTE ISLAND - PILHA 59",
+      "cliente": "BELOCAL ARCOS",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 113.74,
+      "tn_carr": 37.74,
+      "transportadoras": [
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 75.74,
+          "tn_carr": 37.74
         },
         {
           "nome": "AR MACEDO (RJ)",
@@ -480,6 +535,27 @@
       ]
     },
     {
+      "lote": "CIM. LIZ - COQUE MTE - SILHOUETTE ISLAND - PILHA 60- NOVO PEDIDO",
+      "cliente": "CIM. LIZ",
+      "produto": "COQUE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "FERMAVI - VARGINHA - SULFURICO",
       "cliente": "FERMAVI",
       "produto": "Varginha",
@@ -496,36 +572,6 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 80.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "BELOCAL ARCOS - PETCOKE MTE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "BELOCAL ARCOS",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 76.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
           "tn_carr": 0.0
         }
       ]
