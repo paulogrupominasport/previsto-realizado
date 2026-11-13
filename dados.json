@@ -1,22 +1,22 @@
 {
   "data_relatorio": "13/11/2026",
-  "gerado_em": "2026-11-13T12:00:21",
-  "atualizado_em": "2026-11-13T15:05:23",
+  "gerado_em": "2026-11-13T13:00:12",
+  "atualizado_em": "2026-11-13T16:05:25",
   "totais": {
-    "prog": 111,
-    "carr": 59,
+    "prog": 112,
+    "carr": 60,
     "falta": 52,
-    "tn_prev": 4189.06,
-    "tn_carr": 2243.65
+    "tn_prev": 4222.94,
+    "tn_carr": 2277.38
   },
   "por_cliente": [
     {
       "cliente": "*ITAMBÉ",
       "prog": 21,
-      "carr": 10,
-      "falta": 11,
-      "tn_prev": 770.79,
-      "tn_carr": 364.79
+      "carr": 11,
+      "falta": 10,
+      "tn_prev": 769.67,
+      "tn_carr": 401.67
     },
     {
       "cliente": "CIM. LIZ",
@@ -48,7 +48,7 @@
       "carr": 8,
       "falta": 2,
       "tn_prev": 377.96,
-      "tn_carr": 304.91
+      "tn_carr": 301.76
     },
     {
       "cliente": "CSN BARROSO",
@@ -121,6 +121,14 @@
       "falta": 1,
       "tn_prev": 36.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN VR",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 35.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
@@ -134,11 +142,11 @@
     },
     {
       "produto": "GESSO",
-      "prog": 31,
-      "carr": 11,
+      "prog": 32,
+      "carr": 12,
       "falta": 20,
-      "tn_prev": 1131.0,
-      "tn_carr": 398.0
+      "tn_prev": 1164.88,
+      "tn_carr": 434.88
     },
     {
       "produto": "Sinter Feed",
@@ -162,7 +170,7 @@
       "carr": 8,
       "falta": 2,
       "tn_prev": 377.96,
-      "tn_carr": 304.91
+      "tn_carr": 301.76
     },
     {
       "produto": "COQUE",
@@ -203,10 +211,10 @@
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
       "prog": 21,
-      "carr": 10,
-      "falta": 11,
-      "tn_prev": 770.79,
-      "tn_carr": 364.79,
+      "carr": 11,
+      "falta": 10,
+      "tn_prev": 769.67,
+      "tn_carr": 401.67,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -239,10 +247,10 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 114.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 112.88,
+          "tn_carr": 36.88
         },
         {
           "nome": "H.R. TRANSP. (SC)",
@@ -332,7 +340,7 @@
       "carr": 8,
       "falta": 2,
       "tn_prev": 377.96,
-      "tn_carr": 304.91,
+      "tn_carr": 301.76,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
@@ -350,7 +358,7 @@
           "carr": 4,
           "falta": 1,
           "tn_prev": 187.36,
-          "tn_carr": 151.88
+          "tn_carr": 148.73
         }
       ]
     },
@@ -716,6 +724,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 36.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
+      "cliente": "CSN VR",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 35.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]
