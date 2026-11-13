@@ -1,21 +1,21 @@
 {
   "data_relatorio": "13/11/2026",
-  "gerado_em": "2026-11-13T18:00:15",
-  "atualizado_em": "2026-11-13T21:05:26",
+  "gerado_em": "2026-11-13T19:00:10",
+  "atualizado_em": "2026-11-13T22:05:29",
   "totais": {
-    "prog": 117,
-    "carr": 101,
-    "falta": 16,
-    "tn_prev": 4449.51,
-    "tn_carr": 3887.29
+    "prog": 115,
+    "carr": 102,
+    "falta": 13,
+    "tn_prev": 4362.59,
+    "tn_carr": 3921.37
   },
   "por_cliente": [
     {
       "cliente": "*ITAMBÉ",
-      "prog": 23,
+      "prog": 21,
       "carr": 21,
-      "falta": 2,
-      "tn_prev": 845.78,
+      "falta": 0,
+      "tn_prev": 773.78,
       "tn_carr": 773.78
     },
     {
@@ -28,11 +28,11 @@
     },
     {
       "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 18,
-      "carr": 12,
+      "prog": 19,
+      "carr": 13,
       "falta": 6,
-      "tn_prev": 679.2,
-      "tn_carr": 455.2
+      "tn_prev": 712.28,
+      "tn_carr": 489.28
     },
     {
       "cliente": "**BRASKEM",
@@ -91,20 +91,20 @@
       "tn_carr": 101.01
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.03,
-      "tn_carr": 47.03
-    },
-    {
       "cliente": "INTERCEMENT",
       "prog": 2,
       "carr": 2,
       "falta": 0,
       "tn_prev": 77.86,
       "tn_carr": 77.86
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.03,
+      "tn_carr": 47.03
     },
     {
       "cliente": "DESCARGA",
@@ -134,19 +134,19 @@
     },
     {
       "produto": "GESSO",
-      "prog": 32,
+      "prog": 30,
       "carr": 29,
-      "falta": 3,
-      "tn_prev": 1180.57,
+      "falta": 1,
+      "tn_prev": 1108.57,
       "tn_carr": 1076.57
     },
     {
       "produto": "Sinter Feed",
-      "prog": 18,
-      "carr": 12,
+      "prog": 19,
+      "carr": 13,
       "falta": 6,
-      "tn_prev": 679.2,
-      "tn_carr": 455.2
+      "tn_prev": 712.28,
+      "tn_carr": 489.28
     },
     {
       "produto": "TÉRMICO",
@@ -173,20 +173,20 @@
       "tn_carr": 236.11
     },
     {
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.03,
-      "tn_carr": 47.03
-    },
-    {
       "produto": "Ijací",
       "prog": 2,
       "carr": 2,
       "falta": 0,
       "tn_prev": 77.86,
       "tn_carr": 77.86
+    },
+    {
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.03,
+      "tn_carr": 47.03
     },
     {
       "produto": "Devolução Cimentos Liz",
@@ -202,10 +202,10 @@
       "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
-      "prog": 23,
+      "prog": 21,
       "carr": 21,
-      "falta": 2,
-      "tn_prev": 845.78,
+      "falta": 0,
+      "tn_prev": 773.78,
       "tn_carr": 773.78,
       "transportadoras": [
         {
@@ -247,10 +247,10 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 8,
+          "prog": 6,
           "carr": 6,
-          "falta": 2,
-          "tn_prev": 286.4,
+          "falta": 0,
+          "tn_prev": 214.4,
           "tn_carr": 214.4
         }
       ]
@@ -259,20 +259,20 @@
       "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
-      "prog": 18,
-      "carr": 12,
+      "prog": 19,
+      "carr": 13,
       "falta": 6,
-      "tn_prev": 679.2,
-      "tn_carr": 455.2,
+      "tn_prev": 712.28,
+      "tn_carr": 489.28,
       "transportadoras": [
         {
           "nome": "RODEIRO (MG)",
           "cnpj": "26178616000140",
-          "prog": 8,
-          "carr": 5,
+          "prog": 9,
+          "carr": 6,
           "falta": 3,
-          "tn_prev": 296.8,
-          "tn_carr": 186.8
+          "tn_prev": 329.88,
+          "tn_carr": 220.88
         },
         {
           "nome": "MRX TRANSP. (MG)",
@@ -625,27 +625,6 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 95.03,
-      "tn_carr": 47.03,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 95.03,
-          "tn_carr": 47.03
-        }
-      ]
-    },
-    {
       "lote": "CIM. LIZ - COQUE ATE- SILHOUETTE ISLAND - PILHA 59- NOVO PEDIDO",
       "cliente": "CIM. LIZ",
       "produto": "COQUE",
@@ -693,6 +672,27 @@
           "falta": 0,
           "tn_prev": 38.79,
           "tn_carr": 38.79
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.03,
+      "tn_carr": 47.03,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.03,
+          "tn_carr": 47.03
         }
       ]
     },
