@@ -1,30 +1,30 @@
 {
   "data_relatorio": "14/11/2026",
-  "gerado_em": "2026-11-14T10:20:19",
-  "atualizado_em": "2026-11-14T13:25:23",
+  "gerado_em": "2026-11-14T11:00:11",
+  "atualizado_em": "2026-11-14T14:05:23",
   "totais": {
-    "prog": 90,
-    "carr": 29,
-    "falta": 61,
-    "tn_prev": 3529.49,
-    "tn_carr": 1156.92
+    "prog": 91,
+    "carr": 41,
+    "falta": 50,
+    "tn_prev": 3604.66,
+    "tn_carr": 1632.09
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 38,
-      "carr": 10,
-      "falta": 28,
-      "tn_prev": 1617.36,
-      "tn_carr": 434.36
+      "carr": 16,
+      "falta": 22,
+      "tn_prev": 1618.15,
+      "tn_carr": 674.15
     },
     {
       "cliente": "*ITAMBÉ",
       "prog": 13,
-      "carr": 6,
-      "falta": 7,
-      "tn_prev": 487.6,
-      "tn_carr": 223.6
+      "carr": 10,
+      "falta": 3,
+      "tn_prev": 486.41,
+      "tn_carr": 372.41
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -43,20 +43,20 @@
       "tn_carr": 148.14
     },
     {
+      "cliente": "CSN MOC",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 162.57,
+      "tn_carr": 134.36
+    },
+    {
       "cliente": "INTERCEMENT",
       "prog": 3,
       "carr": 0,
       "falta": 3,
       "tn_prev": 144.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN MOC",
-      "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 125.0,
-      "tn_carr": 47.79
     },
     {
       "cliente": "CSN ARCOS",
@@ -115,6 +115,14 @@
       "tn_carr": 38.52
     },
     {
+      "cliente": "CSN V. REDONDA",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 1,
       "carr": 0,
@@ -127,25 +135,25 @@
     {
       "produto": "PETCOKE",
       "prog": 42,
-      "carr": 7,
-      "falta": 35,
-      "tn_prev": 1613.31,
-      "tn_carr": 289.1
+      "carr": 15,
+      "falta": 27,
+      "tn_prev": 1654.67,
+      "tn_carr": 615.46
     },
     {
       "produto": "GESSO",
       "prog": 18,
-      "carr": 6,
-      "falta": 12,
-      "tn_prev": 658.6,
-      "tn_carr": 223.6
+      "carr": 10,
+      "falta": 8,
+      "tn_prev": 657.41,
+      "tn_carr": 372.41
     },
     {
       "produto": "COQUE",
-      "prog": 9,
+      "prog": 10,
       "carr": 4,
-      "falta": 5,
-      "tn_prev": 420.05,
+      "falta": 6,
+      "tn_prev": 455.05,
       "tn_carr": 193.05
     },
     {
@@ -194,20 +202,20 @@
       "lote": "CIM. LIZ - PETCOKE ATE- SILHOUETTE ISLAND - PILHA 59",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
-      "prog": 17,
-      "carr": 3,
-      "falta": 14,
-      "tn_prev": 688.47,
-      "tn_carr": 115.47,
+      "prog": 16,
+      "carr": 7,
+      "falta": 9,
+      "tn_prev": 653.1,
+      "tn_carr": 281.1,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 221.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 4,
+          "tn_prev": 221.56,
+          "tn_carr": 38.56
         },
         {
           "nome": "RANGEL (RJ)",
@@ -222,10 +230,10 @@
           "nome": "MRX TRANSP. (RJ)",
           "cnpj": "26586645000222",
           "prog": 4,
-          "carr": 2,
-          "falta": 2,
-          "tn_prev": 153.8,
-          "tn_carr": 77.8
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 155.11,
+          "tn_carr": 117.11
         },
         {
           "nome": "LENARGE (RJ)",
@@ -240,10 +248,10 @@
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 49.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.8,
+          "tn_carr": 48.8
         },
         {
           "nome": "COOPROVES (RJ)",
@@ -255,22 +263,13 @@
           "tn_carr": 0.0
         },
         {
-          "nome": "CONFINS TRANSPORTES (MG)",
-          "cnpj": "21437075000104",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.96,
+          "tn_carr": 38.96
         }
       ]
     },
@@ -279,10 +278,10 @@
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
       "prog": 12,
-      "carr": 3,
-      "falta": 9,
-      "tn_prev": 508.84,
-      "tn_carr": 125.84,
+      "carr": 5,
+      "falta": 7,
+      "tn_prev": 510.0,
+      "tn_carr": 200.0,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -297,10 +296,10 @@
           "nome": "MRX TRANSP. (RJ)",
           "cnpj": "26586645000222",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 116.19,
-          "tn_carr": 78.19
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 116.71,
+          "tn_carr": 116.71
         },
         {
           "nome": "LENARGE (RJ)",
@@ -324,10 +323,10 @@
           "nome": "EXP. TS (RJ)",
           "cnpj": "05324485000516",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 105.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 105.64,
+          "tn_carr": 35.64
         }
       ]
     },
@@ -336,19 +335,19 @@
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
       "prog": 13,
-      "carr": 6,
-      "falta": 7,
-      "tn_prev": 487.6,
-      "tn_carr": 223.6,
+      "carr": 10,
+      "falta": 3,
+      "tn_prev": 486.41,
+      "tn_carr": 372.41,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.02,
+          "tn_carr": 38.02
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
@@ -363,19 +362,19 @@
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 190.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 189.93,
+          "tn_carr": 75.93
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 6,
-          "carr": 5,
-          "falta": 1,
-          "tn_prev": 211.96,
-          "tn_carr": 175.96
+          "carr": 6,
+          "falta": 0,
+          "tn_prev": 210.82,
+          "tn_carr": 210.82
         }
       ]
     },
@@ -464,20 +463,59 @@
       "lote": "CIM. LIZ - COQUE MTE - SILHOUETTE ISLAND - PILHA 60- NOVO PEDIDO",
       "cliente": "CIM. LIZ",
       "produto": "COQUE",
-      "prog": 3,
+      "prog": 4,
       "carr": 3,
-      "falta": 0,
-      "tn_prev": 144.22,
+      "falta": 1,
+      "tn_prev": 179.22,
       "tn_carr": 144.22,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 3,
+          "prog": 4,
           "carr": 3,
-          "falta": 0,
-          "tn_prev": 144.22,
+          "falta": 1,
+          "tn_prev": 179.22,
           "tn_carr": 144.22
+        }
+      ]
+    },
+    {
+      "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN MOC",
+      "produto": "PETCOKE",
+      "prog": 5,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 162.57,
+      "tn_carr": 134.36,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 37.94,
+          "tn_carr": 37.94
+        },
+        {
+          "nome": "IRAVANTE (RJ)",
+          "cnpj": "28582543000345",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 48.63,
+          "tn_carr": 96.42
         }
       ]
     },
@@ -499,45 +537,6 @@
           "falta": 3,
           "tn_prev": 144.0,
           "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN MOC",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 125.0,
-      "tn_carr": 47.79,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 1.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 47.79
         }
       ]
     },
@@ -685,6 +684,27 @@
           "falta": 0,
           "tn_prev": 38.52,
           "tn_carr": 38.52
+        }
+      ]
+    },
+    {
+      "lote": "CSN V. REDONDA - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN V. REDONDA",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RANGEL (RJ)",
+          "cnpj": "47836361000136",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         }
       ]
     },
