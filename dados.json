@@ -1,22 +1,22 @@
 {
   "data_relatorio": "15/11/2026",
-  "gerado_em": "2026-11-15T17:00:07",
-  "atualizado_em": "2026-11-15T20:05:33",
+  "gerado_em": "2026-11-15T18:00:17",
+  "atualizado_em": "2026-11-15T21:05:23",
   "totais": {
     "prog": 50,
-    "carr": 43,
-    "falta": 7,
-    "tn_prev": 2168.76,
-    "tn_carr": 1843.76
+    "carr": 46,
+    "falta": 4,
+    "tn_prev": 2167.12,
+    "tn_carr": 1973.12
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 16,
-      "carr": 15,
-      "falta": 1,
-      "tn_prev": 677.68,
-      "tn_carr": 629.68
+      "carr": 16,
+      "falta": 0,
+      "tn_prev": 676.88,
+      "tn_carr": 676.88
     },
     {
       "cliente": "INTERCEMENT",
@@ -45,10 +45,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.1,
+      "tn_carr": 47.1
     },
     {
       "cliente": "BELOCAL ARCOS",
@@ -93,10 +93,10 @@
     {
       "cliente": "CSN P. LEOPOLDO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.06,
+      "tn_carr": 35.06
     }
   ],
   "por_produto": [
@@ -111,18 +111,18 @@
     {
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 13,
-      "falta": 2,
-      "tn_prev": 613.37,
-      "tn_carr": 530.37
+      "carr": 14,
+      "falta": 1,
+      "tn_prev": 613.43,
+      "tn_carr": 565.43
     },
     {
       "produto": "COQUE",
       "prog": 9,
-      "carr": 8,
-      "falta": 1,
-      "tn_prev": 400.62,
-      "tn_carr": 352.62
+      "carr": 9,
+      "falta": 0,
+      "tn_prev": 399.82,
+      "tn_carr": 399.82
     },
     {
       "produto": "Trindade",
@@ -135,10 +135,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.1,
+      "tn_carr": 47.1
     },
     {
       "produto": "GESSO",
@@ -244,19 +244,19 @@
       "cliente": "CIM. LIZ",
       "produto": "COQUE",
       "prog": 4,
-      "carr": 3,
-      "falta": 1,
-      "tn_prev": 179.96,
-      "tn_carr": 131.96,
+      "carr": 4,
+      "falta": 0,
+      "tn_prev": 179.16,
+      "tn_carr": 179.16,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 3,
-          "falta": 1,
-          "tn_prev": 179.96,
-          "tn_carr": 131.96
+          "carr": 4,
+          "falta": 0,
+          "tn_prev": 179.16,
+          "tn_carr": 179.16
         }
       ]
     },
@@ -373,19 +373,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.1,
+      "tn_carr": 47.1,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.1,
+          "tn_carr": 47.1
         }
       ]
     },
@@ -541,19 +541,19 @@
       "cliente": "CSN P. LEOPOLDO",
       "produto": "PETCOKE",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 35.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.06,
+      "tn_carr": 35.06,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 35.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.06,
+          "tn_carr": 35.06
         }
       ]
     }
