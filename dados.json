@@ -1,38 +1,38 @@
 {
   "data_relatorio": "15/11/2026",
-  "gerado_em": "2026-11-15T08:00:14",
-  "atualizado_em": "2026-11-15T11:05:24",
+  "gerado_em": "2026-11-15T09:00:07",
+  "atualizado_em": "2026-11-15T12:05:30",
   "totais": {
-    "prog": 40,
-    "carr": 0,
-    "falta": 40,
-    "tn_prev": 1732.54,
-    "tn_carr": 0.0
+    "prog": 44,
+    "carr": 3,
+    "falta": 41,
+    "tn_prev": 1886.43,
+    "tn_carr": 136.86
   },
   "por_cliente": [
     {
       "cliente": "INTERCEMENT",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 624.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 11,
+      "tn_prev": 625.86,
+      "tn_carr": 97.86
     },
     {
       "cliente": "CIM. LIZ",
-      "prog": 9,
+      "prog": 13,
       "carr": 0,
-      "falta": 9,
-      "tn_prev": 376.0,
+      "falta": 13,
+      "tn_prev": 528.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 260.54,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 260.57,
+      "tn_carr": 39.0
     },
     {
       "cliente": "CSN ARCOS",
@@ -87,17 +87,17 @@
     {
       "produto": "Ijací",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 624.0,
-      "tn_carr": 0.0
+      "carr": 2,
+      "falta": 11,
+      "tn_prev": 625.86,
+      "tn_carr": 97.86
     },
     {
       "produto": "PETCOKE",
-      "prog": 10,
+      "prog": 14,
       "carr": 0,
-      "falta": 10,
-      "tn_prev": 412.0,
+      "falta": 14,
+      "tn_prev": 564.0,
       "tn_carr": 0.0
     },
     {
@@ -111,10 +111,10 @@
     {
       "produto": "Trindade",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 260.54,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 260.57,
+      "tn_carr": 39.0
     },
     {
       "produto": "PETRÓLEO",
@@ -139,10 +139,10 @@
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
       "prog": 13,
-      "carr": 0,
-      "falta": 13,
-      "tn_prev": 624.0,
-      "tn_carr": 0.0,
+      "carr": 2,
+      "falta": 11,
+      "tn_prev": 625.86,
+      "tn_carr": 97.86,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -157,10 +157,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 12,
-          "carr": 0,
-          "falta": 12,
-          "tn_prev": 576.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 10,
+          "tn_prev": 577.86,
+          "tn_carr": 97.86
         }
       ]
     },
@@ -169,19 +169,19 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 260.54,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 6,
+      "tn_prev": 260.57,
+      "tn_carr": 39.0,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
           "cnpj": "26586645000141",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 76.56,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 76.59,
+          "tn_carr": 39.0
         },
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
@@ -258,6 +258,75 @@
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - PETCOKE ATE- SILHOUETTE ISLAND - PILHA 59",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "LENARGE (RJ)",
+          "cnpj": "02870124000315",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "CONFINS TRANSPORTES (MG)",
+          "cnpj": "21437075000104",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CIM. LIZ - PETCOKE MTE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "CIM. LIZ",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 114.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. TS (RJ)",
+          "cnpj": "05324485000516",
           "prog": 2,
           "carr": 0,
           "falta": 2,
@@ -384,48 +453,6 @@
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - PETCOKE ATE- SILHOUETTE ISLAND - PILHA 59",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "CONFINS TRANSPORTES (MG)",
-          "cnpj": "21437075000104",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CIM. LIZ - PETCOKE MTE - SILHOUETTE ISLAND - PILHA 60",
-      "cliente": "CIM. LIZ",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 38.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. TS (RJ)",
-          "cnpj": "05324485000516",
           "prog": 1,
           "carr": 0,
           "falta": 1,
