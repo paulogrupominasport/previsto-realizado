@@ -1,13 +1,13 @@
 {
   "data_relatorio": "15/11/2026",
-  "gerado_em": "2026-11-15T14:00:09",
-  "atualizado_em": "2026-11-15T17:05:24",
+  "gerado_em": "2026-11-15T15:00:04",
+  "atualizado_em": "2026-11-15T18:05:25",
   "totais": {
-    "prog": 47,
-    "carr": 32,
+    "prog": 50,
+    "carr": 35,
     "falta": 15,
-    "tn_prev": 2034.69,
-    "tn_carr": 1340.58
+    "tn_prev": 2169.36,
+    "tn_carr": 1485.17
   },
   "por_cliente": [
     {
@@ -21,17 +21,17 @@
     {
       "cliente": "INTERCEMENT",
       "prog": 13,
-      "carr": 7,
-      "falta": 6,
-      "tn_prev": 627.83,
-      "tn_carr": 339.83
+      "carr": 10,
+      "falta": 3,
+      "tn_prev": 628.42,
+      "tn_carr": 484.42
     },
     {
       "cliente": "DESCARGA MINÉRIO",
-      "prog": 7,
+      "prog": 8,
       "carr": 6,
-      "falta": 1,
-      "tn_prev": 257.86,
+      "falta": 2,
+      "tn_prev": 291.94,
       "tn_carr": 222.75
     },
     {
@@ -41,6 +41,14 @@
       "falta": 0,
       "tn_prev": 165.42,
       "tn_carr": 165.42
+    },
+    {
+      "cliente": "CSN VR",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 100.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -87,10 +95,10 @@
     {
       "produto": "Ijací",
       "prog": 13,
-      "carr": 7,
-      "falta": 6,
-      "tn_prev": 627.83,
-      "tn_carr": 339.83
+      "carr": 10,
+      "falta": 3,
+      "tn_prev": 628.42,
+      "tn_carr": 484.42
     },
     {
       "produto": "PETCOKE",
@@ -110,11 +118,19 @@
     },
     {
       "produto": "Trindade",
-      "prog": 7,
+      "prog": 8,
       "carr": 6,
-      "falta": 1,
-      "tn_prev": 257.86,
+      "falta": 2,
+      "tn_prev": 291.94,
       "tn_carr": 222.75
+    },
+    {
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 140.56,
+      "tn_carr": 40.56
     },
     {
       "produto": "PETRÓLEO",
@@ -123,14 +139,6 @@
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "GESSO",
-      "prog": 1,
-      "carr": 1,
-      "falta": 0,
-      "tn_prev": 40.56,
-      "tn_carr": 40.56
     }
   ],
   "lotes": [
@@ -139,10 +147,10 @@
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
       "prog": 13,
-      "carr": 7,
-      "falta": 6,
-      "tn_prev": 627.83,
-      "tn_carr": 339.83,
+      "carr": 10,
+      "falta": 3,
+      "tn_prev": 628.42,
+      "tn_carr": 484.42,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -157,10 +165,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 12,
-          "carr": 6,
-          "falta": 6,
-          "tn_prev": 578.69,
-          "tn_carr": 290.69
+          "carr": 9,
+          "falta": 3,
+          "tn_prev": 579.28,
+          "tn_carr": 435.28
         }
       ]
     },
@@ -168,10 +176,10 @@
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
-      "prog": 7,
+      "prog": 8,
       "carr": 6,
-      "falta": 1,
-      "tn_prev": 257.86,
+      "falta": 2,
+      "tn_prev": 291.94,
       "tn_carr": 222.75,
       "transportadoras": [
         {
@@ -186,10 +194,10 @@
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
-          "prog": 5,
+          "prog": 6,
           "carr": 4,
-          "falta": 1,
-          "tn_prev": 181.29,
+          "falta": 2,
+          "tn_prev": 215.37,
           "tn_carr": 146.18
         }
       ]
@@ -341,6 +349,27 @@
           "falta": 0,
           "tn_prev": 72.04,
           "tn_carr": 72.04
+        }
+      ]
+    },
+    {
+      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
+      "cliente": "CSN VR",
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 100.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 100.0,
+          "tn_carr": 0.0
         }
       ]
     },
