@@ -1,38 +1,38 @@
 {
   "data_relatorio": "15/11/2026",
-  "gerado_em": "2026-11-15T15:00:04",
-  "atualizado_em": "2026-11-15T18:05:25",
+  "gerado_em": "2026-11-15T16:00:14",
+  "atualizado_em": "2026-11-15T19:05:27",
   "totais": {
     "prog": 50,
-    "carr": 35,
-    "falta": 15,
-    "tn_prev": 2169.36,
-    "tn_carr": 1485.17
+    "carr": 40,
+    "falta": 10,
+    "tn_prev": 2168.61,
+    "tn_carr": 1699.61
   },
   "por_cliente": [
     {
       "cliente": "CIM. LIZ",
       "prog": 16,
-      "carr": 12,
-      "falta": 4,
-      "tn_prev": 676.13,
-      "tn_carr": 484.13
+      "carr": 13,
+      "falta": 3,
+      "tn_prev": 677.13,
+      "tn_carr": 533.13
     },
     {
       "cliente": "INTERCEMENT",
       "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 628.42,
-      "tn_carr": 484.42
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 628.75,
+      "tn_carr": 580.75
     },
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
-      "tn_prev": 291.94,
-      "tn_carr": 222.75
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 291.86,
+      "tn_carr": 291.86
     },
     {
       "cliente": "CSN ARCOS",
@@ -41,14 +41,6 @@
       "falta": 0,
       "tn_prev": 165.42,
       "tn_carr": 165.42
-    },
-    {
-      "cliente": "CSN VR",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0
     },
     {
       "cliente": "PETRORECONCAVO",
@@ -67,12 +59,28 @@
       "tn_carr": 38.29
     },
     {
+      "cliente": "CSN VR",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN BARROSO",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 49.24,
       "tn_carr": 49.24
+    },
+    {
+      "cliente": "LS METAIS",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -95,10 +103,10 @@
     {
       "produto": "Ijací",
       "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 628.42,
-      "tn_carr": 484.42
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 628.75,
+      "tn_carr": 580.75
     },
     {
       "produto": "PETCOKE",
@@ -111,26 +119,18 @@
     {
       "produto": "COQUE",
       "prog": 9,
-      "carr": 5,
-      "falta": 4,
-      "tn_prev": 399.07,
-      "tn_carr": 207.07
+      "carr": 6,
+      "falta": 3,
+      "tn_prev": 400.07,
+      "tn_carr": 256.07
     },
     {
       "produto": "Trindade",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
-      "tn_prev": 291.94,
-      "tn_carr": 222.75
-    },
-    {
-      "produto": "GESSO",
-      "prog": 3,
-      "carr": 1,
-      "falta": 2,
-      "tn_prev": 140.56,
-      "tn_carr": 40.56
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 291.86,
+      "tn_carr": 291.86
     },
     {
       "produto": "PETRÓLEO",
@@ -138,6 +138,22 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "GESSO",
+      "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 90.56,
+      "tn_carr": 40.56
+    },
+    {
+      "produto": "Antracito",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
       "tn_carr": 0.0
     }
   ],
@@ -147,10 +163,10 @@
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
       "prog": 13,
-      "carr": 10,
-      "falta": 3,
-      "tn_prev": 628.42,
-      "tn_carr": 484.42,
+      "carr": 12,
+      "falta": 1,
+      "tn_prev": 628.75,
+      "tn_carr": 580.75,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -165,10 +181,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 12,
-          "carr": 9,
-          "falta": 3,
-          "tn_prev": 579.28,
-          "tn_carr": 435.28
+          "carr": 11,
+          "falta": 1,
+          "tn_prev": 579.61,
+          "tn_carr": 531.61
         }
       ]
     },
@@ -177,10 +193,10 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 8,
-      "carr": 6,
-      "falta": 2,
-      "tn_prev": 291.94,
-      "tn_carr": 222.75,
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 291.86,
+      "tn_carr": 291.86,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
@@ -195,10 +211,10 @@
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
           "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 215.37,
-          "tn_carr": 146.18
+          "carr": 6,
+          "falta": 0,
+          "tn_prev": 215.29,
+          "tn_carr": 215.29
         }
       ]
     },
@@ -207,19 +223,19 @@
       "cliente": "CIM. LIZ",
       "produto": "COQUE",
       "prog": 5,
-      "carr": 3,
-      "falta": 2,
-      "tn_prev": 218.79,
-      "tn_carr": 122.79,
+      "carr": 4,
+      "falta": 1,
+      "tn_prev": 219.79,
+      "tn_carr": 171.79,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 5,
-          "carr": 3,
-          "falta": 2,
-          "tn_prev": 218.79,
-          "tn_carr": 122.79
+          "carr": 4,
+          "falta": 1,
+          "tn_prev": 219.79,
+          "tn_carr": 171.79
         }
       ]
     },
@@ -353,27 +369,6 @@
       ]
     },
     {
-      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
-      "cliente": "CSN VR",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
@@ -390,6 +385,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
+      "cliente": "CSN VR",
+      "produto": "GESSO",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 50.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 50.0,
           "tn_carr": 0.0
         }
       ]
@@ -412,6 +428,27 @@
           "falta": 0,
           "tn_prev": 49.24,
           "tn_carr": 49.24
+        }
+      ]
+    },
+    {
+      "lote": "LS METAIS - ANTRACITO - PHOENICIAN- PILHA 52",
+      "cliente": "LS METAIS",
+      "produto": "Antracito",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
         }
       ]
     },
