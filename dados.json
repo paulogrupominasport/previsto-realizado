@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/11/2026",
-  "gerado_em": "2026-11-16T15:00:20",
-  "atualizado_em": "2026-11-16T18:05:26",
+  "gerado_em": "2026-11-16T15:12:53",
+  "atualizado_em": "2026-11-16T18:15:36",
   "totais": {
     "prog": 105,
-    "carr": 52,
-    "falta": 53,
-    "tn_prev": 3917.89,
-    "tn_carr": 1979.28
+    "carr": 56,
+    "falta": 49,
+    "tn_prev": 3915.99,
+    "tn_carr": 2129.59
   },
   "por_cliente": [
     {
@@ -37,10 +37,10 @@
     {
       "cliente": "CIM LIZ",
       "prog": 6,
-      "carr": 1,
-      "falta": 5,
-      "tn_prev": 221.59,
-      "tn_carr": 37.59
+      "carr": 2,
+      "falta": 4,
+      "tn_prev": 221.6,
+      "tn_carr": 72.6
     },
     {
       "cliente": "CSN ARCOS",
@@ -93,10 +93,10 @@
     {
       "cliente": "METROPOLITANA",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 1,
+      "falta": 2,
       "tn_prev": 99.0,
-      "tn_carr": 0.0
+      "tn_carr": 33.22
     },
     {
       "cliente": "CIM. LIZ",
@@ -131,14 +131,6 @@
       "tn_carr": 50.38
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN MOC",
       "prog": 1,
       "carr": 1,
@@ -147,12 +139,20 @@
       "tn_carr": 49.28
     },
     {
+      "cliente": "PETRORECONCAVO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.06,
+      "tn_carr": 47.06
+    },
+    {
       "cliente": "CSN BARROSO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 34.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.02,
+      "tn_carr": 35.02
     },
     {
       "cliente": "BELOCAL ARCOS",
@@ -167,10 +167,10 @@
     {
       "produto": "GESSO",
       "prog": 35,
-      "carr": 18,
-      "falta": 17,
-      "tn_prev": 1261.73,
-      "tn_carr": 651.73
+      "carr": 19,
+      "falta": 16,
+      "tn_prev": 1262.75,
+      "tn_carr": 686.75
     },
     {
       "produto": "Sinter Feed",
@@ -199,10 +199,10 @@
     {
       "produto": "CARVÃO",
       "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 320.59,
-      "tn_carr": 37.59
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 320.6,
+      "tn_carr": 105.82
     },
     {
       "produto": "Minerio De Ferro",
@@ -237,20 +237,20 @@
       "tn_carr": 50.38
     },
     {
-      "produto": "PETRÓLEO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "COQUE",
       "prog": 1,
       "carr": 1,
       "falta": 0,
       "tn_prev": 48.2,
       "tn_carr": 48.2
+    },
+    {
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.06,
+      "tn_carr": 47.06
     }
   ],
   "lotes": [
@@ -424,19 +424,19 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 146.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 3,
+      "tn_prev": 146.01,
+      "tn_carr": 35.01,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 146.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 146.01,
+          "tn_carr": 35.01
         }
       ]
     },
@@ -568,19 +568,19 @@
       "cliente": "METROPOLITANA",
       "produto": "CARVÃO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
+      "carr": 1,
+      "falta": 2,
       "tn_prev": 99.0,
-      "tn_carr": 0.0,
+      "tn_carr": 33.22,
       "transportadoras": [
         {
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 1,
+          "falta": 2,
           "tn_prev": 99.0,
-          "tn_carr": 0.0
+          "tn_carr": 33.22
         }
       ]
     },
@@ -699,27 +699,6 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
@@ -762,6 +741,27 @@
       ]
     },
     {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 1,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 47.065,
+      "tn_carr": 47.065,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 1,
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 47.065,
+          "tn_carr": 47.065
+        }
+      ]
+    },
+    {
       "lote": "CIM. LIZ - PETCOKE ATE- SILHOUETTE ISLAND - PILHA 59",
       "cliente": "CIM. LIZ",
       "produto": "PETCOKE",
@@ -787,19 +787,19 @@
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
       "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 34.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 0,
+      "tn_prev": 35.02,
+      "tn_carr": 35.02,
       "transportadoras": [
         {
           "nome": "IRAVANTE (RJ)",
           "cnpj": "28582543000345",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 34.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 35.02,
+          "tn_carr": 35.02
         }
       ]
     },
