@@ -1,13 +1,13 @@
 {
   "data_relatorio": "16/11/2026",
-  "gerado_em": "2026-11-16T12:00:04",
-  "atualizado_em": "2026-11-16T15:05:41",
+  "gerado_em": "2026-11-16T13:00:12",
+  "atualizado_em": "2026-11-16T16:05:25",
   "totais": {
     "prog": 91,
-    "carr": 36,
-    "falta": 55,
-    "tn_prev": 3399.4,
-    "tn_carr": 1393.12
+    "carr": 37,
+    "falta": 54,
+    "tn_prev": 3403.18,
+    "tn_carr": 1432.9
   },
   "por_cliente": [
     {
@@ -28,19 +28,19 @@
     },
     {
       "cliente": "*ITAMBÉ",
-      "prog": 18,
+      "prog": 19,
       "carr": 9,
-      "falta": 9,
-      "tn_prev": 648.74,
+      "falta": 10,
+      "tn_prev": 686.74,
       "tn_carr": 320.74
     },
     {
       "cliente": "CSN ARCOS",
       "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 206.5,
-      "tn_carr": 50.5
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 206.28,
+      "tn_carr": 90.28
     },
     {
       "cliente": "NASSAU",
@@ -145,24 +145,16 @@
       "falta": 1,
       "tn_prev": 37.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN BARROSO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 34.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 28,
-      "carr": 10,
+      "prog": 29,
+      "carr": 11,
       "falta": 18,
-      "tn_prev": 1005.25,
-      "tn_carr": 357.25
+      "tn_prev": 1043.03,
+      "tn_carr": 397.03
     },
     {
       "produto": "Sinter Feed",
@@ -182,10 +174,10 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 11,
+      "prog": 10,
       "carr": 4,
-      "falta": 7,
-      "tn_prev": 420.51,
+      "falta": 6,
+      "tn_prev": 386.51,
       "tn_carr": 171.51
     },
     {
@@ -338,19 +330,19 @@
       "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
-      "prog": 18,
+      "prog": 19,
       "carr": 9,
-      "falta": 9,
-      "tn_prev": 648.74,
+      "falta": 10,
+      "tn_prev": 686.74,
       "tn_carr": 320.74,
       "transportadoras": [
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         },
         {
@@ -420,19 +412,19 @@
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 118.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 117.78,
+      "tn_carr": 39.78,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 80.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 79.78,
+          "tn_carr": 39.78
         },
         {
           "nome": "AR MACEDO (RJ)",
@@ -723,27 +715,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 37.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN BARROSO",
-      "produto": "PETCOKE",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 34.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "IRAVANTE (RJ)",
-          "cnpj": "28582543000345",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 34.0,
           "tn_carr": 0.0
         }
       ]
