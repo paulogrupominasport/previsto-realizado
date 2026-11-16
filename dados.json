@@ -1,22 +1,22 @@
 {
   "data_relatorio": "16/11/2026",
-  "gerado_em": "2026-11-16T07:00:10",
-  "atualizado_em": "2026-11-16T10:05:24",
+  "gerado_em": "2026-11-16T08:00:05",
+  "atualizado_em": "2026-11-16T11:05:25",
   "totais": {
-    "prog": 52,
-    "carr": 0,
-    "falta": 52,
-    "tn_prev": 1997.41,
-    "tn_carr": 0.0
+    "prog": 54,
+    "carr": 1,
+    "falta": 53,
+    "tn_prev": 2083.41,
+    "tn_carr": 35.35
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
       "prog": 19,
-      "carr": 0,
-      "falta": 19,
+      "carr": 1,
+      "falta": 18,
       "tn_prev": 744.0,
-      "tn_carr": 0.0
+      "tn_carr": 35.35
     },
     {
       "cliente": "*ITAMBÉ",
@@ -59,6 +59,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "BELOCAL ARCOS",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 85.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN VR",
       "prog": 2,
       "carr": 0,
@@ -91,11 +99,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BELOCAL ARCOS",
+      "cliente": "TRINDADE MINERAÇÃO",
       "prog": 1,
       "carr": 0,
       "falta": 1,
-      "tn_prev": 37.0,
+      "tn_prev": 38.0,
       "tn_carr": 0.0
     }
   ],
@@ -103,10 +111,10 @@
     {
       "produto": "TÉRMICO",
       "prog": 20,
-      "carr": 0,
-      "falta": 20,
+      "carr": 1,
+      "falta": 19,
       "tn_prev": 792.0,
-      "tn_carr": 0.0
+      "tn_carr": 35.35
     },
     {
       "produto": "GESSO",
@@ -118,10 +126,10 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 6,
+      "prog": 7,
       "carr": 0,
-      "falta": 6,
-      "tn_prev": 229.0,
+      "falta": 7,
+      "tn_prev": 277.0,
       "tn_carr": 0.0
     },
     {
@@ -147,6 +155,14 @@
       "falta": 1,
       "tn_prev": 48.0,
       "tn_carr": 0.0
+    },
+    {
+      "produto": "Sinter Feed",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0
     }
   ],
   "lotes": [
@@ -155,10 +171,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 19,
-      "carr": 0,
-      "falta": 19,
+      "carr": 1,
+      "falta": 18,
       "tn_prev": 744.0,
-      "tn_carr": 0.0,
+      "tn_carr": 35.35,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -173,10 +189,10 @@
           "nome": "MR LOG (SC)",
           "cnpj": "58324544000199",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
+          "carr": 1,
+          "falta": 1,
           "tn_prev": 76.0,
-          "tn_carr": 0.0
+          "tn_carr": 35.35
         },
         {
           "nome": "LUAN DE SOUZA BONFANTE (SC)",
@@ -424,6 +440,27 @@
       ]
     },
     {
+      "lote": "BELOCAL ARCOS - PETCOKE MTE - SILHOUETTE ISLAND - PILHA 60",
+      "cliente": "BELOCAL ARCOS",
+      "produto": "PETCOKE",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 48.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "**BRASKEM - TÉRMICO JOKER - PILHA 92",
       "cliente": "**BRASKEM",
       "produto": "TÉRMICO",
@@ -457,6 +494,27 @@
         {
           "nome": "D GRANEL (RJ)",
           "cnpj": "22447684000883",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 38.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
           "prog": 1,
           "carr": 0,
           "falta": 1,

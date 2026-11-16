@@ -8547,21 +8547,21 @@
     }
   },
   "2026-11-16": {
-    "gerado_em": "2026-11-16T07:00:10",
-    "atualizado_em": "2026-11-16T10:05:24",
+    "gerado_em": "2026-11-16T08:00:05",
+    "atualizado_em": "2026-11-16T11:05:25",
     "totais": {
-      "prog": 52,
-      "carr": 0,
-      "falta": 52,
-      "tn_prev": 1997.41,
-      "tn_carr": 0.0
+      "prog": 54,
+      "carr": 1,
+      "falta": 53,
+      "tn_prev": 2083.41,
+      "tn_carr": 35.35
     },
     "por_cliente": {
       "BRASKEM": {
         "prog": 19,
-        "carr": 0,
+        "carr": 1,
         "tn_prev": 744.0,
-        "tn_carr": 0.0
+        "tn_carr": 35.35
       },
       "*ITAMBÉ": {
         "prog": 12,
@@ -8593,6 +8593,12 @@
         "tn_prev": 86.0,
         "tn_carr": 0.0
       },
+      "BELOCAL ARCOS": {
+        "prog": 2,
+        "carr": 0,
+        "tn_prev": 85.0,
+        "tn_carr": 0.0
+      },
       "CSN VR": {
         "prog": 2,
         "carr": 0,
@@ -8617,19 +8623,19 @@
         "tn_prev": 48.0,
         "tn_carr": 0.0
       },
-      "BELOCAL ARCOS": {
+      "TRINDADE MINERAÇÃO": {
         "prog": 1,
         "carr": 0,
-        "tn_prev": 37.0,
+        "tn_prev": 38.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
       "TÉRMICO": {
         "prog": 20,
-        "carr": 0,
+        "carr": 1,
         "tn_prev": 792.0,
-        "tn_carr": 0.0
+        "tn_carr": 35.35
       },
       "GESSO": {
         "prog": 21,
@@ -8638,9 +8644,9 @@
         "tn_carr": 0.0
       },
       "PETCOKE": {
-        "prog": 6,
+        "prog": 7,
         "carr": 0,
-        "tn_prev": 229.0,
+        "tn_prev": 277.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
@@ -8659,6 +8665,12 @@
         "prog": 1,
         "carr": 0,
         "tn_prev": 48.0,
+        "tn_carr": 0.0
+      },
+      "Sinter Feed": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 38.0,
         "tn_carr": 0.0
       }
     }
