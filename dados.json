@@ -1,30 +1,30 @@
 {
   "data_relatorio": "17/11/2026",
-  "gerado_em": "2026-11-17T19:00:13",
-  "atualizado_em": "2026-11-17T22:05:33",
+  "gerado_em": "2026-11-17T20:00:07",
+  "atualizado_em": "2026-11-17T23:05:25",
   "totais": {
-    "prog": 137,
-    "carr": 123,
-    "falta": 14,
-    "tn_prev": 5279.82,
-    "tn_carr": 4800.09
+    "prog": 133,
+    "carr": 125,
+    "falta": 8,
+    "tn_prev": 5160.84,
+    "tn_carr": 4887.11
   },
   "por_cliente": [
     {
       "cliente": "*ITAMBÉ",
-      "prog": 26,
+      "prog": 25,
       "carr": 25,
-      "falta": 1,
-      "tn_prev": 929.85,
+      "falta": 0,
+      "tn_prev": 893.85,
       "tn_carr": 893.85
     },
     {
       "cliente": "CIM LIZ",
       "prog": 18,
-      "carr": 17,
-      "falta": 1,
-      "tn_prev": 769.51,
-      "tn_carr": 731.51
+      "carr": 18,
+      "falta": 0,
+      "tn_prev": 770.99,
+      "tn_carr": 770.99
     },
     {
       "cliente": "BRASKEM",
@@ -53,10 +53,10 @@
     {
       "cliente": "INTERCEMENT",
       "prog": 8,
-      "carr": 7,
-      "falta": 1,
-      "tn_prev": 330.11,
-      "tn_carr": 329.98
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 329.65,
+      "tn_carr": 377.52
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -99,14 +99,6 @@
       "tn_carr": 133.22
     },
     {
-      "cliente": "FERGUMINAS",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 112.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN CANTAGALO",
       "prog": 3,
       "carr": 3,
@@ -139,6 +131,14 @@
       "tn_carr": 29.78
     },
     {
+      "cliente": "FERGUMINAS",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 28.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "BELLUNO",
       "prog": 1,
       "carr": 1,
@@ -150,19 +150,19 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 44,
+      "prog": 43,
       "carr": 40,
-      "falta": 4,
-      "tn_prev": 1674.66,
+      "falta": 3,
+      "tn_prev": 1638.66,
       "tn_carr": 1516.66
     },
     {
       "produto": "CARVÃO",
       "prog": 22,
-      "carr": 21,
-      "falta": 1,
-      "tn_prev": 921.51,
-      "tn_carr": 872.15
+      "carr": 22,
+      "falta": 0,
+      "tn_prev": 922.99,
+      "tn_carr": 911.63
     },
     {
       "produto": "TÉRMICO",
@@ -183,10 +183,10 @@
     {
       "produto": "Ijací",
       "prog": 8,
-      "carr": 7,
-      "falta": 1,
-      "tn_prev": 330.11,
-      "tn_carr": 329.98
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 329.65,
+      "tn_carr": 377.52
     },
     {
       "produto": "Trindade",
@@ -205,14 +205,6 @@
       "tn_carr": 295.77
     },
     {
-      "produto": "Minerio De Ferro",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 112.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "PETRÓLEO",
       "prog": 2,
       "carr": 1,
@@ -229,6 +221,14 @@
       "tn_carr": 29.78
     },
     {
+      "produto": "Minerio De Ferro",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 28.0,
+      "tn_carr": 0.0
+    },
+    {
       "produto": "Premium Hvb",
       "prog": 1,
       "carr": 1,
@@ -242,10 +242,10 @@
       "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
-      "prog": 26,
+      "prog": 25,
       "carr": 25,
-      "falta": 1,
-      "tn_prev": 929.85,
+      "falta": 0,
+      "tn_prev": 893.85,
       "tn_carr": 893.85,
       "transportadoras": [
         {
@@ -287,10 +287,10 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 11,
+          "prog": 10,
           "carr": 10,
-          "falta": 1,
-          "tn_prev": 384.6,
+          "falta": 0,
+          "tn_prev": 348.6,
           "tn_carr": 348.6
         }
       ]
@@ -330,10 +330,10 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 13,
-      "carr": 12,
-      "falta": 1,
-      "tn_prev": 563.34,
-      "tn_carr": 525.34,
+      "carr": 13,
+      "falta": 0,
+      "tn_prev": 564.82,
+      "tn_carr": 564.82,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -348,10 +348,10 @@
           "nome": "MRX TRANSP. (RJ)",
           "cnpj": "26586645000222",
           "prog": 6,
-          "carr": 5,
-          "falta": 1,
-          "tn_prev": 231.85,
-          "tn_carr": 193.85
+          "carr": 6,
+          "falta": 0,
+          "tn_prev": 233.33,
+          "tn_carr": 233.33
         },
         {
           "nome": "LENARGE (RJ)",
@@ -492,19 +492,19 @@
       "cliente": "INTERCEMENT",
       "produto": "Ijací",
       "prog": 8,
-      "carr": 7,
-      "falta": 1,
-      "tn_prev": 330.11,
-      "tn_carr": 329.98,
+      "carr": 8,
+      "falta": 0,
+      "tn_prev": 329.65,
+      "tn_carr": 377.52,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 97.12,
-          "tn_carr": 49.12
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 96.66,
+          "tn_carr": 96.66
         },
         {
           "nome": "RANGEL (RJ)",
@@ -689,36 +689,6 @@
       ]
     },
     {
-      "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
-      "cliente": "FERGUMINAS",
-      "produto": "Minerio De Ferro",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 112.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "SOUDOR TRANSPORTES",
-          "cnpj": "35167897000127",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 28.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "COLORADO TRANSPORTES (MG)",
-          "cnpj": "06116568000159",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 84.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
@@ -859,6 +829,27 @@
           "falta": 0,
           "tn_prev": 29.78,
           "tn_carr": 29.78
+        }
+      ]
+    },
+    {
+      "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
+      "cliente": "FERGUMINAS",
+      "produto": "Minerio De Ferro",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 28.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "COLORADO TRANSPORTES (MG)",
+          "cnpj": "06116568000159",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 28.0,
+          "tn_carr": 0.0
         }
       ]
     },
