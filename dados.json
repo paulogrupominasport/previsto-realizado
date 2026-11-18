@@ -1,12 +1,12 @@
 {
   "data_relatorio": "18/11/2026",
-  "gerado_em": "2026-11-18T12:00:39",
-  "atualizado_em": "2026-11-18T15:05:31",
+  "gerado_em": "2026-11-18T13:00:17",
+  "atualizado_em": "2026-11-18T16:05:27",
   "totais": {
-    "prog": 148,
+    "prog": 151,
     "carr": 87,
-    "falta": 61,
-    "tn_prev": 5541.15,
+    "falta": 64,
+    "tn_prev": 5659.15,
     "tn_carr": 3367.36
   },
   "por_cliente": [
@@ -36,10 +36,10 @@
     },
     {
       "cliente": "CIM LIZ",
-      "prog": 15,
+      "prog": 18,
       "carr": 13,
-      "falta": 2,
-      "tn_prev": 638.11,
+      "falta": 5,
+      "tn_prev": 756.11,
       "tn_carr": 542.11
     },
     {
@@ -149,20 +149,20 @@
       "tn_carr": 1000.82
     },
     {
+      "produto": "CARVÃO",
+      "prog": 22,
+      "carr": 17,
+      "falta": 5,
+      "tn_prev": 904.11,
+      "tn_carr": 685.28
+    },
+    {
       "produto": "Minerio De Ferro",
       "prog": 30,
       "carr": 15,
       "falta": 15,
       "tn_prev": 898.0,
       "tn_carr": 465.97
-    },
-    {
-      "produto": "CARVÃO",
-      "prog": 19,
-      "carr": 17,
-      "falta": 2,
-      "tn_prev": 786.11,
-      "tn_carr": 685.28
     },
     {
       "produto": "TÉRMICO",
@@ -472,6 +472,27 @@
       ]
     },
     {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47- SUBCONTRATAÇÃO",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 9,
+      "carr": 4,
+      "falta": 5,
+      "tn_prev": 405.71,
+      "tn_carr": 191.71,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 9,
+          "carr": 4,
+          "falta": 5,
+          "tn_prev": 405.71,
+          "tn_carr": 191.71
+        }
+      ]
+    },
+    {
       "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
@@ -489,27 +510,6 @@
           "falta": 0,
           "tn_prev": 350.4,
           "tn_carr": 350.4
-        }
-      ]
-    },
-    {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47- SUBCONTRATAÇÃO",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 6,
-      "carr": 4,
-      "falta": 2,
-      "tn_prev": 287.71,
-      "tn_carr": 191.71,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 6,
-          "carr": 4,
-          "falta": 2,
-          "tn_prev": 287.71,
-          "tn_carr": 191.71
         }
       ]
     },
