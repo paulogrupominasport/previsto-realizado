@@ -1,13 +1,13 @@
 {
   "data_relatorio": "18/11/2026",
-  "gerado_em": "2026-11-18T07:00:12",
-  "atualizado_em": "2026-11-18T10:05:26",
+  "gerado_em": "2026-11-18T08:00:08",
+  "atualizado_em": "2026-11-18T11:05:24",
   "totais": {
-    "prog": 103,
-    "carr": 0,
-    "falta": 103,
-    "tn_prev": 3961.48,
-    "tn_carr": 0.0
+    "prog": 104,
+    "carr": 2,
+    "falta": 102,
+    "tn_prev": 3998.0,
+    "tn_carr": 60.77
   },
   "por_cliente": [
     {
@@ -36,10 +36,10 @@
     },
     {
       "cliente": "DESCARGA MINÉRIO",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 463.48,
+      "falta": 13,
+      "tn_prev": 500.0,
       "tn_carr": 0.0
     },
     {
@@ -53,10 +53,10 @@
     {
       "cliente": "FERGUMINAS",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
+      "carr": 2,
+      "falta": 9,
       "tn_prev": 360.0,
-      "tn_carr": 0.0
+      "tn_carr": 60.77
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -134,19 +134,19 @@
     },
     {
       "produto": "Trindade",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 463.48,
+      "falta": 13,
+      "tn_prev": 500.0,
       "tn_carr": 0.0
     },
     {
       "produto": "Minerio De Ferro",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
+      "carr": 2,
+      "falta": 9,
       "tn_prev": 360.0,
-      "tn_carr": 0.0
+      "tn_carr": 60.77
     },
     {
       "produto": "PETCOKE",
@@ -301,10 +301,10 @@
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
-      "prog": 12,
+      "prog": 13,
       "carr": 0,
-      "falta": 12,
-      "tn_prev": 463.48,
+      "falta": 13,
+      "tn_prev": 500.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -328,10 +328,10 @@
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
-          "prog": 2,
+          "prog": 3,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 73.23,
+          "falta": 3,
+          "tn_prev": 109.75,
           "tn_carr": 0.0
         }
       ]
@@ -380,19 +380,19 @@
       "cliente": "FERGUMINAS",
       "produto": "Minerio De Ferro",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
+      "carr": 2,
+      "falta": 9,
       "tn_prev": 360.0,
-      "tn_carr": 0.0,
+      "tn_carr": 60.77,
       "transportadoras": [
         {
           "nome": "SOUDOR TRANSPORTES",
           "cnpj": "35167897000127",
           "prog": 9,
-          "carr": 0,
-          "falta": 9,
+          "carr": 2,
+          "falta": 7,
           "tn_prev": 300.0,
-          "tn_carr": 0.0
+          "tn_carr": 60.77
         },
         {
           "nome": "COLORADO TRANSPORTES (MG)",
