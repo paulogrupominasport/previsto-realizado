@@ -1,38 +1,30 @@
 {
   "data_relatorio": "18/11/2026",
-  "gerado_em": "2026-11-18T13:00:17",
-  "atualizado_em": "2026-11-18T16:05:27",
+  "gerado_em": "2026-11-18T14:00:29",
+  "atualizado_em": "2026-11-18T17:05:29",
   "totais": {
-    "prog": 151,
-    "carr": 87,
-    "falta": 64,
-    "tn_prev": 5659.15,
-    "tn_carr": 3367.36
+    "prog": 150,
+    "carr": 92,
+    "falta": 58,
+    "tn_prev": 5661.65,
+    "tn_carr": 3517.63
   },
   "por_cliente": [
     {
-      "cliente": "*ITAMBÉ",
-      "prog": 28,
-      "carr": 12,
-      "falta": 16,
-      "tn_prev": 1023.43,
-      "tn_carr": 436.43
-    },
-    {
       "cliente": "FERGUMINAS",
-      "prog": 30,
-      "carr": 15,
-      "falta": 15,
-      "tn_prev": 898.0,
-      "tn_carr": 465.97
+      "prog": 29,
+      "carr": 19,
+      "falta": 10,
+      "tn_prev": 894.0,
+      "tn_carr": 579.98
     },
     {
-      "cliente": "BRASKEM",
-      "prog": 19,
-      "carr": 14,
-      "falta": 5,
-      "tn_prev": 758.0,
-      "tn_carr": 547.59
+      "cliente": "*ITAMBÉ",
+      "prog": 24,
+      "carr": 12,
+      "falta": 12,
+      "tn_prev": 879.43,
+      "tn_carr": 436.43
     },
     {
       "cliente": "CIM LIZ",
@@ -43,11 +35,19 @@
       "tn_carr": 542.11
     },
     {
+      "cliente": "BRASKEM",
+      "prog": 18,
+      "carr": 15,
+      "falta": 3,
+      "tn_prev": 728.0,
+      "tn_carr": 583.85
+    },
+    {
       "cliente": "DESCARGA MINÉRIO",
-      "prog": 14,
+      "prog": 15,
       "carr": 13,
-      "falta": 1,
-      "tn_prev": 536.18,
+      "falta": 2,
+      "tn_prev": 572.68,
       "tn_carr": 499.66
     },
     {
@@ -89,6 +89,14 @@
       "falta": 0,
       "tn_prev": 148.0,
       "tn_carr": 143.17
+    },
+    {
+      "cliente": "ITAMBÉ",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 144.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "NASSAU",
@@ -142,10 +150,10 @@
   "por_produto": [
     {
       "produto": "GESSO",
-      "prog": 49,
+      "prog": 45,
       "carr": 24,
-      "falta": 25,
-      "tn_prev": 1901.82,
+      "falta": 21,
+      "tn_prev": 1757.82,
       "tn_carr": 1000.82
     },
     {
@@ -158,34 +166,34 @@
     },
     {
       "produto": "Minerio De Ferro",
-      "prog": 30,
-      "carr": 15,
-      "falta": 15,
-      "tn_prev": 898.0,
-      "tn_carr": 465.97
+      "prog": 29,
+      "carr": 19,
+      "falta": 10,
+      "tn_prev": 894.0,
+      "tn_carr": 579.98
     },
     {
       "produto": "TÉRMICO",
-      "prog": 19,
-      "carr": 14,
-      "falta": 5,
-      "tn_prev": 758.0,
-      "tn_carr": 547.59
+      "prog": 18,
+      "carr": 15,
+      "falta": 3,
+      "tn_prev": 728.0,
+      "tn_carr": 583.85
     },
     {
       "produto": "Trindade",
-      "prog": 14,
+      "prog": 15,
       "carr": 13,
-      "falta": 1,
-      "tn_prev": 536.18,
+      "falta": 2,
+      "tn_prev": 572.68,
       "tn_carr": 499.66
     },
     {
       "produto": "PETCOKE",
-      "prog": 7,
+      "prog": 11,
       "carr": 4,
-      "falta": 3,
-      "tn_prev": 286.04,
+      "falta": 7,
+      "tn_prev": 430.04,
       "tn_carr": 168.04
     },
     {
@@ -223,13 +231,52 @@
   ],
   "lotes": [
     {
+      "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
+      "cliente": "FERGUMINAS",
+      "produto": "Minerio De Ferro",
+      "prog": 29,
+      "carr": 19,
+      "falta": 10,
+      "tn_prev": 894.0,
+      "tn_carr": 579.98,
+      "transportadoras": [
+        {
+          "nome": "SOUDOR TRANSPORTES",
+          "cnpj": "35167897000127",
+          "prog": 22,
+          "carr": 16,
+          "falta": 6,
+          "tn_prev": 690.0,
+          "tn_carr": 489.27
+        },
+        {
+          "nome": "COOPERUNA (MG)",
+          "cnpj": "05565575000175",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 60.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "COLORADO TRANSPORTES (MG)",
+          "cnpj": "06116568000159",
+          "prog": 5,
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 144.0,
+          "tn_carr": 90.71
+        }
+      ]
+    },
+    {
       "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
-      "prog": 28,
+      "prog": 24,
       "carr": 12,
-      "falta": 16,
-      "tn_prev": 1023.43,
+      "falta": 12,
+      "tn_prev": 879.43,
       "tn_carr": 436.43,
       "transportadoras": [
         {
@@ -271,50 +318,11 @@
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
-          "prog": 15,
+          "prog": 11,
           "carr": 6,
-          "falta": 9,
-          "tn_prev": 533.33,
+          "falta": 5,
+          "tn_prev": 389.33,
           "tn_carr": 209.33
-        }
-      ]
-    },
-    {
-      "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
-      "cliente": "FERGUMINAS",
-      "produto": "Minerio De Ferro",
-      "prog": 30,
-      "carr": 15,
-      "falta": 15,
-      "tn_prev": 898.0,
-      "tn_carr": 465.97,
-      "transportadoras": [
-        {
-          "nome": "SOUDOR TRANSPORTES",
-          "cnpj": "35167897000127",
-          "prog": 23,
-          "carr": 13,
-          "falta": 10,
-          "tn_prev": 720.0,
-          "tn_carr": 403.47
-        },
-        {
-          "nome": "COOPERUNA (MG)",
-          "cnpj": "05565575000175",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 60.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "COLORADO TRANSPORTES (MG)",
-          "cnpj": "06116568000159",
-          "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 118.0,
-          "tn_carr": 62.5
         }
       ]
     },
@@ -322,11 +330,11 @@
       "lote": "BRASKEM - TÉRMICO MV TI DAWN - PILHA 94",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 19,
-      "carr": 14,
-      "falta": 5,
-      "tn_prev": 758.0,
-      "tn_carr": 547.59,
+      "prog": 18,
+      "carr": 15,
+      "falta": 3,
+      "tn_prev": 728.0,
+      "tn_carr": 583.85,
       "transportadoras": [
         {
           "nome": "SIDEROPOLIS (SC)",
@@ -356,15 +364,6 @@
           "tn_carr": 74.49
         },
         {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 30.0,
-          "tn_carr": 0.0
-        },
-        {
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 6,
@@ -377,10 +376,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
+          "carr": 2,
+          "falta": 0,
           "tn_prev": 75.0,
-          "tn_carr": 33.09
+          "tn_carr": 69.35
         },
         {
           "nome": "ATR MINHOCAO",
@@ -397,10 +396,10 @@
       "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
-      "prog": 14,
+      "prog": 15,
       "carr": 13,
-      "falta": 1,
-      "tn_prev": 536.18,
+      "falta": 2,
+      "tn_prev": 572.68,
       "tn_carr": 499.66,
       "transportadoras": [
         {
@@ -424,10 +423,10 @@
         {
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
-          "prog": 4,
+          "prog": 5,
           "carr": 3,
-          "falta": 1,
-          "tn_prev": 147.56,
+          "falta": 2,
+          "tn_prev": 184.06,
           "tn_carr": 111.04
         }
       ]
@@ -582,6 +581,27 @@
           "falta": 0,
           "tn_prev": 147.27,
           "tn_carr": 147.27
+        }
+      ]
+    },
+    {
+      "lote": "ITAMBÉ - PETCOKE - RIVERTEC - PILHA 21",
+      "cliente": "ITAMBÉ",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 144.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "H.R. TRANSP. (SC)",
+          "cnpj": "79838694000190",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 144.0,
+          "tn_carr": 0.0
         }
       ]
     },
