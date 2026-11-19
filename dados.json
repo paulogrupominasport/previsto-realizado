@@ -1,15 +1,23 @@
 {
   "data_relatorio": "19/11/2026",
-  "gerado_em": "2026-11-19T07:00:10",
-  "atualizado_em": "2026-11-19T10:05:29",
+  "gerado_em": "2026-11-19T08:00:53",
+  "atualizado_em": "2026-11-19T11:05:25",
   "totais": {
-    "prog": 81,
+    "prog": 97,
     "carr": 0,
-    "falta": 81,
-    "tn_prev": 3046.76,
+    "falta": 97,
+    "tn_prev": 3531.76,
     "tn_carr": 0.0
   },
   "por_cliente": [
+    {
+      "cliente": "BRASKEM",
+      "prog": 21,
+      "carr": 0,
+      "falta": 21,
+      "tn_prev": 761.0,
+      "tn_carr": 0.0
+    },
     {
       "cliente": "TRINDADE MINERAÇÃO",
       "prog": 17,
@@ -19,11 +27,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "BRASKEM",
-      "prog": 18,
+      "cliente": "FERGUMINAS",
+      "prog": 14,
       "carr": 0,
-      "falta": 18,
-      "tn_prev": 640.0,
+      "falta": 14,
+      "tn_prev": 392.0,
       "tn_carr": 0.0
     },
     {
@@ -121,31 +129,23 @@
       "falta": 1,
       "tn_prev": 36.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "FERGUMINAS",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 28.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
+    {
+      "produto": "TÉRMICO",
+      "prog": 21,
+      "carr": 0,
+      "falta": 21,
+      "tn_prev": 761.0,
+      "tn_carr": 0.0
+    },
     {
       "produto": "Sinter Feed",
       "prog": 17,
       "carr": 0,
       "falta": 17,
       "tn_prev": 646.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "TÉRMICO",
-      "prog": 18,
-      "carr": 0,
-      "falta": 18,
-      "tn_prev": 640.0,
       "tn_carr": 0.0
     },
     {
@@ -162,6 +162,14 @@
       "carr": 0,
       "falta": 14,
       "tn_prev": 546.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Minerio De Ferro",
+      "prog": 14,
+      "carr": 0,
+      "falta": 14,
+      "tn_prev": 392.0,
       "tn_carr": 0.0
     },
     {
@@ -187,55 +195,17 @@
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
-    },
-    {
-      "produto": "Minerio De Ferro",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 28.0,
-      "tn_carr": 0.0
     }
   ],
   "lotes": [
     {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 17,
-      "carr": 0,
-      "falta": 17,
-      "tn_prev": 646.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (MG)",
-          "cnpj": "26178616000140",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 152.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 13,
-          "carr": 0,
-          "falta": 13,
-          "tn_prev": 494.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "BRASKEM - TÉRMICO MV TI DAWN - PILHA 94",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 18,
+      "prog": 21,
       "carr": 0,
-      "falta": 18,
-      "tn_prev": 640.0,
+      "falta": 21,
+      "tn_prev": 761.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -275,12 +245,81 @@
           "tn_carr": 0.0
         },
         {
+          "nome": "FRATELLI (SC)",
+          "cnpj": "10989401000170",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 47.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "CANEVER (SC)",
+          "cnpj": "42029409000180",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 74.0,
+          "tn_carr": 0.0
+        },
+        {
           "nome": "ATR MINHOCAO",
           "cnpj": "66866968000103",
           "prog": 4,
           "carr": 0,
           "falta": 4,
           "tn_prev": 152.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 17,
+      "carr": 0,
+      "falta": 17,
+      "tn_prev": 646.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 152.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 13,
+          "carr": 0,
+          "falta": 13,
+          "tn_prev": 494.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
+      "cliente": "FERGUMINAS",
+      "produto": "Minerio De Ferro",
+      "prog": 14,
+      "carr": 0,
+      "falta": 14,
+      "tn_prev": 392.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "SOUDOR TRANSPORTES",
+          "cnpj": "35167897000127",
+          "prog": 14,
+          "carr": 0,
+          "falta": 14,
+          "tn_prev": 392.0,
           "tn_carr": 0.0
         }
       ]
@@ -611,27 +650,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 36.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
-      "cliente": "FERGUMINAS",
-      "produto": "Minerio De Ferro",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 28.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "SOUDOR TRANSPORTES",
-          "cnpj": "35167897000127",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 28.0,
           "tn_carr": 0.0
         }
       ]

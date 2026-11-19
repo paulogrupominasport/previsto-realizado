@@ -8595,26 +8595,32 @@
     }
   },
   "2026-11-19": {
-    "gerado_em": "2026-11-19T07:00:10",
-    "atualizado_em": "2026-11-19T10:05:29",
+    "gerado_em": "2026-11-19T08:00:53",
+    "atualizado_em": "2026-11-19T11:05:25",
     "totais": {
-      "prog": 81,
+      "prog": 97,
       "carr": 0,
-      "falta": 81,
-      "tn_prev": 3046.76,
+      "falta": 97,
+      "tn_prev": 3531.76,
       "tn_carr": 0.0
     },
     "por_cliente": {
+      "BRASKEM": {
+        "prog": 21,
+        "carr": 0,
+        "tn_prev": 761.0,
+        "tn_carr": 0.0
+      },
       "TRINDADE MINERAÇÃO": {
         "prog": 17,
         "carr": 0,
         "tn_prev": 646.0,
         "tn_carr": 0.0
       },
-      "BRASKEM": {
-        "prog": 18,
+      "FERGUMINAS": {
+        "prog": 14,
         "carr": 0,
-        "tn_prev": 640.0,
+        "tn_prev": 392.0,
         "tn_carr": 0.0
       },
       "*ITAMBÉ": {
@@ -8688,25 +8694,19 @@
         "carr": 0,
         "tn_prev": 36.0,
         "tn_carr": 0.0
-      },
-      "FERGUMINAS": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 28.0,
-        "tn_carr": 0.0
       }
     },
     "por_produto": {
+      "TÉRMICO": {
+        "prog": 21,
+        "carr": 0,
+        "tn_prev": 761.0,
+        "tn_carr": 0.0
+      },
       "Sinter Feed": {
         "prog": 17,
         "carr": 0,
         "tn_prev": 646.0,
-        "tn_carr": 0.0
-      },
-      "TÉRMICO": {
-        "prog": 18,
-        "carr": 0,
-        "tn_prev": 640.0,
         "tn_carr": 0.0
       },
       "PETCOKE": {
@@ -8719,6 +8719,12 @@
         "prog": 14,
         "carr": 0,
         "tn_prev": 546.0,
+        "tn_carr": 0.0
+      },
+      "Minerio De Ferro": {
+        "prog": 14,
+        "carr": 0,
+        "tn_prev": 392.0,
         "tn_carr": 0.0
       },
       "CARVÃO": {
@@ -8737,12 +8743,6 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
-        "tn_carr": 0.0
-      },
-      "Minerio De Ferro": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 28.0,
         "tn_carr": 0.0
       }
     }
