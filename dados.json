@@ -1,12 +1,12 @@
 {
   "data_relatorio": "19/11/2026",
-  "gerado_em": "2026-11-19T21:00:12",
-  "atualizado_em": "2026-11-20T00:05:23",
+  "gerado_em": "2026-11-19T22:00:08",
+  "atualizado_em": "2026-11-20T01:05:28",
   "totais": {
-    "prog": 176,
+    "prog": 177,
     "carr": 163,
-    "falta": 13,
-    "tn_prev": 6451.09,
+    "falta": 14,
+    "tn_prev": 6486.09,
     "tn_carr": 5982.9
   },
   "por_cliente": [
@@ -19,20 +19,20 @@
       "tn_carr": 997.64
     },
     {
+      "cliente": "TRINDADE MINERAÇÃO",
+      "prog": 24,
+      "carr": 20,
+      "falta": 4,
+      "tn_prev": 906.53,
+      "tn_carr": 759.53
+    },
+    {
       "cliente": "BRASKEM",
       "prog": 24,
       "carr": 21,
       "falta": 3,
       "tn_prev": 874.0,
       "tn_carr": 815.12
-    },
-    {
-      "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 23,
-      "carr": 20,
-      "falta": 3,
-      "tn_prev": 871.53,
-      "tn_carr": 759.53
     },
     {
       "cliente": "FERGUMINAS",
@@ -165,6 +165,14 @@
       "tn_carr": 1206.43
     },
     {
+      "produto": "Sinter Feed",
+      "prog": 24,
+      "carr": 20,
+      "falta": 4,
+      "tn_prev": 906.53,
+      "tn_carr": 759.53
+    },
+    {
       "produto": "CARVÃO",
       "prog": 23,
       "carr": 21,
@@ -179,14 +187,6 @@
       "falta": 3,
       "tn_prev": 874.0,
       "tn_carr": 815.12
-    },
-    {
-      "produto": "Sinter Feed",
-      "prog": 23,
-      "carr": 20,
-      "falta": 3,
-      "tn_prev": 871.53,
-      "tn_carr": 759.53
     },
     {
       "produto": "Minerio De Ferro",
@@ -214,6 +214,36 @@
     }
   ],
   "lotes": [
+    {
+      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
+      "cliente": "TRINDADE MINERAÇÃO",
+      "produto": "Sinter Feed",
+      "prog": 24,
+      "carr": 20,
+      "falta": 4,
+      "tn_prev": 906.53,
+      "tn_carr": 759.53,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (MG)",
+          "cnpj": "26178616000140",
+          "prog": 11,
+          "carr": 9,
+          "falta": 2,
+          "tn_prev": 401.63,
+          "tn_carr": 330.63
+        },
+        {
+          "nome": "MRX TRANSP. (MG)",
+          "cnpj": "26586645000141",
+          "prog": 13,
+          "carr": 11,
+          "falta": 2,
+          "tn_prev": 504.9,
+          "tn_carr": 428.9
+        }
+      ]
+    },
     {
       "lote": "BRASKEM - TÉRMICO MV TI DAWN - PILHA 94",
       "cliente": "BRASKEM",
@@ -295,36 +325,6 @@
           "falta": 0,
           "tn_prev": 114.0,
           "tn_carr": 113.84
-        }
-      ]
-    },
-    {
-      "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
-      "cliente": "TRINDADE MINERAÇÃO",
-      "produto": "Sinter Feed",
-      "prog": 23,
-      "carr": 20,
-      "falta": 3,
-      "tn_prev": 871.53,
-      "tn_carr": 759.53,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (MG)",
-          "cnpj": "26178616000140",
-          "prog": 10,
-          "carr": 9,
-          "falta": 1,
-          "tn_prev": 366.63,
-          "tn_carr": 330.63
-        },
-        {
-          "nome": "MRX TRANSP. (MG)",
-          "cnpj": "26586645000141",
-          "prog": 13,
-          "carr": 11,
-          "falta": 2,
-          "tn_prev": 504.9,
-          "tn_carr": 428.9
         }
       ]
     },
