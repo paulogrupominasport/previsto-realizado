@@ -1,12 +1,12 @@
 {
   "data_relatorio": "20/11/2026",
-  "gerado_em": "2026-11-20T12:00:12",
-  "atualizado_em": "2026-11-20T15:05:27",
+  "gerado_em": "2026-11-20T13:00:06",
+  "atualizado_em": "2026-11-20T16:05:24",
   "totais": {
     "prog": 91,
     "carr": 55,
     "falta": 36,
-    "tn_prev": 3600.29,
+    "tn_prev": 3613.29,
     "tn_carr": 2214.07
   },
   "por_cliente": [
@@ -68,10 +68,10 @@
     },
     {
       "cliente": "CSN CANTAGALO",
-      "prog": 5,
+      "prog": 4,
       "carr": 4,
-      "falta": 1,
-      "tn_prev": 188.17,
+      "falta": 0,
+      "tn_prev": 153.17,
       "tn_carr": 153.17
     },
     {
@@ -92,10 +92,10 @@
     },
     {
       "cliente": "PETRORECONCAVO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
+      "falta": 2,
+      "tn_prev": 98.0,
       "tn_carr": 0.0
     },
     {
@@ -110,10 +110,10 @@
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 31,
+      "prog": 30,
       "carr": 20,
-      "falta": 11,
-      "tn_prev": 1235.1,
+      "falta": 10,
+      "tn_prev": 1200.1,
       "tn_carr": 814.1
     },
     {
@@ -142,10 +142,10 @@
     },
     {
       "produto": "PETRÓLEO",
-      "prog": 1,
+      "prog": 2,
       "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
+      "falta": 2,
+      "tn_prev": 98.0,
       "tn_carr": 0.0
     },
     {
@@ -444,27 +444,6 @@
       ]
     },
     {
-      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN CANTAGALO",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 113.44,
-      "tn_carr": 78.44,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 3,
-          "carr": 2,
-          "falta": 1,
-          "tn_prev": 113.44,
-          "tn_carr": 78.44
-        }
-      ]
-    },
-    {
       "lote": "BELOCAL MTZ - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
@@ -495,6 +474,27 @@
       ]
     },
     {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 98.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 98.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND - PILHA 60",
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
@@ -516,6 +516,27 @@
       ]
     },
     {
+      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN CANTAGALO",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 78.44,
+      "tn_carr": 78.44,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 78.44,
+          "tn_carr": 78.44
+        }
+      ]
+    },
+    {
       "lote": "CSN CANTAGALO - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
       "cliente": "CSN CANTAGALO",
       "produto": "GESSO",
@@ -533,27 +554,6 @@
           "falta": 0,
           "tn_prev": 74.73,
           "tn_carr": 74.73
-        }
-      ]
-    },
-    {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 50.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 50.0,
-          "tn_carr": 0.0
         }
       ]
     },
