@@ -1,38 +1,38 @@
 {
   "data_relatorio": "20/11/2026",
-  "gerado_em": "2026-11-20T13:00:06",
-  "atualizado_em": "2026-11-20T16:05:24",
+  "gerado_em": "2026-11-20T14:00:15",
+  "atualizado_em": "2026-11-20T17:05:36",
   "totais": {
-    "prog": 91,
-    "carr": 55,
+    "prog": 94,
+    "carr": 58,
     "falta": 36,
-    "tn_prev": 3613.29,
-    "tn_carr": 2214.07
+    "tn_prev": 3749.11,
+    "tn_carr": 2337.93
   },
   "por_cliente": [
     {
       "cliente": "DESCARGA MINÉRIO",
       "prog": 20,
-      "carr": 10,
-      "falta": 10,
-      "tn_prev": 758.84,
-      "tn_carr": 377.62
+      "carr": 11,
+      "falta": 9,
+      "tn_prev": 758.68,
+      "tn_carr": 414.5
     },
     {
       "cliente": "CSN BARROSO",
-      "prog": 17,
+      "prog": 18,
       "carr": 13,
-      "falta": 4,
-      "tn_prev": 711.04,
+      "falta": 5,
+      "tn_prev": 746.04,
       "tn_carr": 565.04
     },
     {
       "cliente": "CIM LIZ",
       "prog": 15,
-      "carr": 5,
-      "falta": 10,
-      "tn_prev": 585.91,
-      "tn_carr": 195.91
+      "carr": 7,
+      "falta": 8,
+      "tn_prev": 586.89,
+      "tn_carr": 282.89
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -59,6 +59,14 @@
       "tn_carr": 175.0
     },
     {
+      "cliente": "CSN VR",
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 235.94,
+      "tn_carr": 97.94
+    },
+    {
       "cliente": "BELOCAL MTZ",
       "prog": 6,
       "carr": 5,
@@ -73,14 +81,6 @@
       "falta": 0,
       "tn_prev": 153.17,
       "tn_carr": 153.17
-    },
-    {
-      "cliente": "CSN VR",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 135.94,
-      "tn_carr": 97.94
     },
     {
       "cliente": "CSN P. LEOPOLDO",
@@ -118,27 +118,27 @@
     },
     {
       "produto": "GESSO",
-      "prog": 23,
+      "prog": 26,
       "carr": 19,
-      "falta": 4,
-      "tn_prev": 932.44,
+      "falta": 7,
+      "tn_prev": 1067.44,
       "tn_carr": 788.44
     },
     {
       "produto": "Trindade",
       "prog": 20,
-      "carr": 10,
-      "falta": 10,
-      "tn_prev": 758.84,
-      "tn_carr": 377.62
+      "carr": 11,
+      "falta": 9,
+      "tn_prev": 758.68,
+      "tn_carr": 414.5
     },
     {
       "produto": "CARVÃO",
       "prog": 15,
-      "carr": 5,
-      "falta": 10,
-      "tn_prev": 585.91,
-      "tn_carr": 195.91
+      "carr": 7,
+      "falta": 8,
+      "tn_prev": 586.89,
+      "tn_carr": 282.89
     },
     {
       "produto": "PETRÓLEO",
@@ -163,10 +163,10 @@
       "cliente": "DESCARGA MINÉRIO",
       "produto": "Trindade",
       "prog": 20,
-      "carr": 10,
-      "falta": 10,
-      "tn_prev": 758.84,
-      "tn_carr": 377.62,
+      "carr": 11,
+      "falta": 9,
+      "tn_prev": 758.68,
+      "tn_carr": 414.5,
       "transportadoras": [
         {
           "nome": "MRX TRANSPORTES LTDA ME",
@@ -181,31 +181,10 @@
           "nome": "EMPREENDIMENTOS RODEIRO S/A",
           "cnpj": "26178616000140",
           "prog": 8,
-          "carr": 4,
-          "falta": 4,
-          "tn_prev": 292.24,
-          "tn_carr": 143.18
-        }
-      ]
-    },
-    {
-      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
-      "cliente": "CIM LIZ",
-      "produto": "CARVÃO",
-      "prog": 12,
-      "carr": 5,
-      "falta": 7,
-      "tn_prev": 461.91,
-      "tn_carr": 195.91,
-      "transportadoras": [
-        {
-          "nome": "MRX TRANSP. (RJ)",
-          "cnpj": "26586645000222",
-          "prog": 12,
           "carr": 5,
-          "falta": 7,
-          "tn_prev": 461.91,
-          "tn_carr": 195.91
+          "falta": 3,
+          "tn_prev": 292.08,
+          "tn_carr": 180.06
         }
       ]
     },
@@ -213,10 +192,10 @@
       "lote": "CSN BARROSO - GESSO - LAWIN ARROW - PILHA 53",
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
-      "prog": 10,
+      "prog": 11,
       "carr": 9,
-      "falta": 1,
-      "tn_prev": 429.2,
+      "falta": 2,
+      "tn_prev": 464.2,
       "tn_carr": 391.2,
       "transportadoras": [
         {
@@ -231,10 +210,10 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 4,
+          "prog": 5,
           "carr": 3,
-          "falta": 1,
-          "tn_prev": 172.06,
+          "falta": 2,
+          "tn_prev": 207.06,
           "tn_carr": 134.06
         },
         {
@@ -245,6 +224,27 @@
           "falta": 0,
           "tn_prev": 77.7,
           "tn_carr": 77.7
+        }
+      ]
+    },
+    {
+      "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
+      "cliente": "CIM LIZ",
+      "produto": "CARVÃO",
+      "prog": 12,
+      "carr": 6,
+      "falta": 6,
+      "tn_prev": 462.67,
+      "tn_carr": 234.67,
+      "transportadoras": [
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 12,
+          "carr": 6,
+          "falta": 6,
+          "tn_prev": 462.67,
+          "tn_carr": 234.67
         }
       ]
     },
@@ -291,6 +291,36 @@
       ]
     },
     {
+      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
+      "cliente": "CSN VR",
+      "produto": "GESSO",
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 235.94,
+      "tn_carr": 97.94,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 97.94,
+          "tn_carr": 97.94
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 138.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
@@ -333,53 +363,23 @@
       ]
     },
     {
-      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
-      "cliente": "CSN VR",
-      "produto": "GESSO",
-      "prog": 3,
-      "carr": 2,
-      "falta": 1,
-      "tn_prev": 135.94,
-      "tn_carr": 97.94,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 97.94,
-          "tn_carr": 97.94
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47- SUBCONTRATAÇÃO",
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 124.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 124.22,
+      "tn_carr": 48.22,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 124.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 124.22,
+          "tn_carr": 48.22
         }
       ]
     },
