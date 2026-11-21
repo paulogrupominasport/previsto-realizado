@@ -1,13 +1,13 @@
 {
   "data_relatorio": "21/11/2026",
-  "gerado_em": "2026-11-21T07:00:07",
-  "atualizado_em": "2026-11-21T10:05:28",
+  "gerado_em": "2026-11-21T08:00:15",
+  "atualizado_em": "2026-11-21T11:05:23",
   "totais": {
-    "prog": 63,
-    "carr": 0,
-    "falta": 63,
-    "tn_prev": 2577.67,
-    "tn_carr": 0.0
+    "prog": 64,
+    "carr": 2,
+    "falta": 62,
+    "tn_prev": 2625.91,
+    "tn_carr": 74.24
   },
   "por_cliente": [
     {
@@ -53,8 +53,16 @@
     {
       "cliente": "*ITAMBÉ",
       "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 148.24,
+      "tn_carr": 74.24
+    },
+    {
+      "cliente": "CSN VR",
+      "prog": 3,
       "carr": 0,
-      "falta": 4,
+      "falta": 3,
       "tn_prev": 148.0,
       "tn_carr": 0.0
     },
@@ -72,14 +80,6 @@
       "carr": 0,
       "falta": 3,
       "tn_prev": 105.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN VR",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
       "tn_carr": 0.0
     },
     {
@@ -134,11 +134,11 @@
     },
     {
       "produto": "GESSO",
-      "prog": 21,
-      "carr": 0,
-      "falta": 21,
-      "tn_prev": 863.0,
-      "tn_carr": 0.0
+      "prog": 22,
+      "carr": 2,
+      "falta": 20,
+      "tn_prev": 911.24,
+      "tn_carr": 74.24
     },
     {
       "produto": "CARVÃO",
@@ -311,27 +311,48 @@
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
       "prog": 4,
+      "carr": 2,
+      "falta": 2,
+      "tn_prev": 148.24,
+      "tn_carr": 74.24,
+      "transportadoras": [
+        {
+          "nome": "PAULISTA TRANSP. (SC)",
+          "cnpj": "80776784000264",
+          "prog": 4,
+          "carr": 2,
+          "falta": 2,
+          "tn_prev": 148.24,
+          "tn_carr": 74.24
+        }
+      ]
+    },
+    {
+      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
+      "cliente": "CSN VR",
+      "produto": "GESSO",
+      "prog": 3,
       "carr": 0,
-      "falta": 4,
+      "falta": 3,
       "tn_prev": 148.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "TRANSP. TELLES (SC)",
-          "cnpj": "78266228000115",
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
           "prog": 1,
           "carr": 0,
           "falta": 1,
-          "tn_prev": 38.0,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         },
         {
-          "nome": "PAULISTA TRANSP. (SC)",
-          "cnpj": "80776784000264",
-          "prog": 3,
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
           "carr": 0,
-          "falta": 3,
-          "tn_prev": 110.0,
+          "falta": 2,
+          "tn_prev": 100.0,
           "tn_carr": 0.0
         }
       ]
@@ -374,27 +395,6 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 105.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
-      "cliente": "CSN VR",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 100.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 100.0,
           "tn_carr": 0.0
         }
       ]
