@@ -1,13 +1,13 @@
 {
   "data_relatorio": "22/11/2026",
-  "gerado_em": "2026-11-22T08:00:11",
-  "atualizado_em": "2026-11-22T11:05:24",
+  "gerado_em": "2026-11-22T09:00:19",
+  "atualizado_em": "2026-11-22T12:05:24",
   "totais": {
-    "prog": 43,
-    "carr": 0,
-    "falta": 43,
-    "tn_prev": 1825.9,
-    "tn_carr": 0.0
+    "prog": 41,
+    "carr": 1,
+    "falta": 40,
+    "tn_prev": 1751.6,
+    "tn_carr": 38.7
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "CSN BARROSO",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 339.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 339.7,
+      "tn_carr": 38.7
     },
     {
       "cliente": "CSN VR",
@@ -36,10 +36,10 @@
     },
     {
       "cliente": "CSN ARCOS",
-      "prog": 5,
+      "prog": 4,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 200.0,
+      "falta": 4,
+      "tn_prev": 162.0,
       "tn_carr": 0.0
     },
     {
@@ -89,24 +89,16 @@
       "falta": 1,
       "tn_prev": 38.9,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "BRASKEM",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 15,
-      "carr": 0,
-      "falta": 15,
-      "tn_prev": 646.0,
-      "tn_carr": 0.0
+      "prog": 14,
+      "carr": 1,
+      "falta": 13,
+      "tn_prev": 608.7,
+      "tn_carr": 38.7
     },
     {
       "produto": "GESSO",
@@ -146,14 +138,6 @@
       "carr": 0,
       "falta": 1,
       "tn_prev": 38.9,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "TÉRMICO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
       "tn_carr": 0.0
     }
   ],
@@ -249,27 +233,6 @@
       ]
     },
     {
-      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN ARCOS",
-      "produto": "PETCOKE",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 200.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 200.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47- SUBCONTRATAÇÃO",
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
@@ -286,6 +249,27 @@
           "carr": 0,
           "falta": 4,
           "tn_prev": 182.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN ARCOS - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN ARCOS",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 162.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 162.0,
           "tn_carr": 0.0
         }
       ]
@@ -337,10 +321,10 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 110.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 110.7,
+      "tn_carr": 38.7,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -355,10 +339,10 @@
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.7,
+          "tn_carr": 38.7
         }
       ]
     },
@@ -442,27 +426,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.9,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "BRASKEM - TÉRMICO MV TI DAWN - PILHA 94",
-      "cliente": "BRASKEM",
-      "produto": "TÉRMICO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 37.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "CANEVER (SC)",
-          "cnpj": "42029409000180",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 37.0,
           "tn_carr": 0.0
         }
       ]
