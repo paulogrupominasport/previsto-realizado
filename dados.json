@@ -1,37 +1,37 @@
 {
   "data_relatorio": "22/11/2026",
-  "gerado_em": "2026-11-22T09:00:19",
-  "atualizado_em": "2026-11-22T12:05:24",
+  "gerado_em": "2026-11-22T10:00:12",
+  "atualizado_em": "2026-11-22T13:05:25",
   "totais": {
-    "prog": 41,
-    "carr": 1,
-    "falta": 40,
-    "tn_prev": 1751.6,
-    "tn_carr": 38.7
+    "prog": 42,
+    "carr": 5,
+    "falta": 37,
+    "tn_prev": 1786.68,
+    "tn_carr": 230.78
   },
   "por_cliente": [
     {
       "cliente": "CIM LIZ",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 412.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 412.06,
+      "tn_carr": 144.06
     },
     {
       "cliente": "CSN BARROSO",
       "prog": 9,
-      "carr": 1,
-      "falta": 8,
-      "tn_prev": 339.7,
-      "tn_carr": 38.7
+      "carr": 2,
+      "falta": 7,
+      "tn_prev": 339.72,
+      "tn_carr": 86.72
     },
     {
       "cliente": "CSN VR",
-      "prog": 5,
+      "prog": 6,
       "carr": 0,
-      "falta": 5,
-      "tn_prev": 214.0,
+      "falta": 6,
+      "tn_prev": 249.0,
       "tn_carr": 0.0
     },
     {
@@ -102,19 +102,19 @@
     },
     {
       "produto": "GESSO",
-      "prog": 11,
-      "carr": 0,
+      "prog": 12,
+      "carr": 1,
       "falta": 11,
-      "tn_prev": 443.0,
-      "tn_carr": 0.0
+      "tn_prev": 478.02,
+      "tn_carr": 48.02
     },
     {
       "produto": "CARVÃO",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 412.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 412.06,
+      "tn_carr": 144.06
     },
     {
       "produto": "Antracito",
@@ -143,23 +143,53 @@
   ],
   "lotes": [
     {
+      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
+      "cliente": "CSN VR",
+      "produto": "GESSO",
+      "prog": 6,
+      "carr": 0,
+      "falta": 6,
+      "tn_prev": 249.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODOSAFRA (RJ)",
+          "cnpj": "26549889000669",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 86.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 163.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47",
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 230.0,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 230.06,
+      "tn_carr": 144.06,
       "transportadoras": [
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 230.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 230.06,
+          "tn_carr": 144.06
         }
       ]
     },
@@ -168,10 +198,10 @@
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
       "prog": 6,
-      "carr": 0,
-      "falta": 6,
-      "tn_prev": 229.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 5,
+      "tn_prev": 229.02,
+      "tn_carr": 48.02,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -195,40 +225,10 @@
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
-      "cliente": "CSN VR",
-      "produto": "GESSO",
-      "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 214.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODOSAFRA (RJ)",
-          "cnpj": "26549889000669",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 86.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 128.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 48.02,
+          "tn_carr": 48.02
         }
       ]
     },
