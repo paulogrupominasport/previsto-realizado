@@ -1,13 +1,13 @@
 {
   "data_relatorio": "22/11/2026",
-  "gerado_em": "2026-11-22T16:00:07",
-  "atualizado_em": "2026-11-22T19:05:24",
+  "gerado_em": "2026-11-22T17:00:04",
+  "atualizado_em": "2026-11-22T20:05:24",
   "totais": {
-    "prog": 45,
-    "carr": 34,
-    "falta": 11,
-    "tn_prev": 1910.2,
-    "tn_carr": 1454.53
+    "prog": 44,
+    "carr": 38,
+    "falta": 6,
+    "tn_prev": 1866.71,
+    "tn_carr": 1617.05
   },
   "por_cliente": [
     {
@@ -21,26 +21,26 @@
     {
       "cliente": "CSN BARROSO",
       "prog": 9,
-      "carr": 8,
-      "falta": 1,
-      "tn_prev": 346.32,
-      "tn_carr": 311.32
+      "carr": 9,
+      "falta": 0,
+      "tn_prev": 348.31,
+      "tn_carr": 348.31
     },
     {
       "cliente": "CSN VR",
-      "prog": 7,
-      "carr": 2,
-      "falta": 5,
-      "tn_prev": 289.48,
-      "tn_carr": 90.48
+      "prog": 6,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 248.57,
+      "tn_carr": 132.57
     },
     {
       "cliente": "CSN ARCOS",
       "prog": 5,
-      "carr": 4,
-      "falta": 1,
-      "tn_prev": 208.11,
-      "tn_carr": 170.11
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 206.4,
+      "tn_carr": 206.4
     },
     {
       "cliente": "CSN CANTAGALO",
@@ -67,20 +67,20 @@
       "tn_carr": 99.28
     },
     {
-      "cliente": "PETRORECONCAVO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 97.5,
-      "tn_carr": 47.5
-    },
-    {
       "cliente": "BELOCAL SJLP",
       "prog": 2,
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "PETRORECONCAVO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.64,
+      "tn_carr": 94.64
     },
     {
       "cliente": "DESCARGA MINÉRIO",
@@ -95,18 +95,18 @@
     {
       "produto": "PETCOKE",
       "prog": 15,
-      "carr": 12,
-      "falta": 3,
-      "tn_prev": 662.4,
-      "tn_carr": 528.4
+      "carr": 13,
+      "falta": 2,
+      "tn_prev": 660.69,
+      "tn_carr": 564.69
     },
     {
       "produto": "GESSO",
-      "prog": 13,
-      "carr": 7,
-      "falta": 6,
-      "tn_prev": 522.98,
-      "tn_carr": 288.98
+      "prog": 12,
+      "carr": 9,
+      "falta": 3,
+      "tn_prev": 484.06,
+      "tn_carr": 368.06
     },
     {
       "produto": "CARVÃO",
@@ -127,10 +127,10 @@
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 97.5,
-      "tn_carr": 47.5
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.64,
+      "tn_carr": 94.64
     },
     {
       "produto": "Trindade",
@@ -146,29 +146,29 @@
       "lote": "CSN VR - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
       "cliente": "CSN VR",
       "produto": "GESSO",
-      "prog": 7,
-      "carr": 2,
-      "falta": 5,
-      "tn_prev": 289.48,
-      "tn_carr": 90.48,
+      "prog": 6,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 248.57,
+      "tn_carr": 132.57,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
-          "prog": 2,
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 86.0,
+          "falta": 1,
+          "tn_prev": 38.0,
           "tn_carr": 0.0
         },
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 203.48,
-          "tn_carr": 90.48
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 210.57,
+          "tn_carr": 132.57
         }
       ]
     },
@@ -177,19 +177,19 @@
       "cliente": "CSN BARROSO",
       "produto": "GESSO",
       "prog": 6,
-      "carr": 5,
-      "falta": 1,
-      "tn_prev": 233.5,
-      "tn_carr": 198.5,
+      "carr": 6,
+      "falta": 0,
+      "tn_prev": 235.49,
+      "tn_carr": 235.49,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 70.28,
-          "tn_carr": 35.28
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 72.27,
+          "tn_carr": 72.27
         },
         {
           "nome": "JOMAD (RJ)",
@@ -237,19 +237,19 @@
       "cliente": "CSN ARCOS",
       "produto": "PETCOKE",
       "prog": 5,
-      "carr": 4,
-      "falta": 1,
-      "tn_prev": 208.11,
-      "tn_carr": 170.11,
+      "carr": 5,
+      "falta": 0,
+      "tn_prev": 206.4,
+      "tn_carr": 206.4,
       "transportadoras": [
         {
           "nome": "AR MACEDO (RJ)",
           "cnpj": "08443139000383",
           "prog": 5,
-          "carr": 4,
-          "falta": 1,
-          "tn_prev": 208.11,
-          "tn_carr": 170.11
+          "carr": 5,
+          "falta": 0,
+          "tn_prev": 206.4,
+          "tn_carr": 206.4
         }
       ]
     },
@@ -368,27 +368,6 @@
       ]
     },
     {
-      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
-      "cliente": "PETRORECONCAVO",
-      "produto": "PETRÓLEO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 97.5,
-      "tn_carr": 47.5,
-      "transportadoras": [
-        {
-          "nome": "MINAS TRADING (RN)",
-          "cnpj": "05456420001091",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 97.5,
-          "tn_carr": 47.5
-        }
-      ]
-    },
-    {
       "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND ATE - PILHA 59",
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
@@ -406,6 +385,27 @@
           "falta": 2,
           "tn_prev": 96.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "PETRORECONCAVO - PETROLEO - GUAMARE",
+      "cliente": "PETRORECONCAVO",
+      "produto": "PETRÓLEO",
+      "prog": 2,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 94.645,
+      "tn_carr": 94.645,
+      "transportadoras": [
+        {
+          "nome": "MINAS TRADING (RN)",
+          "cnpj": "05456420001091",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 94.645,
+          "tn_carr": 94.645
         }
       ]
     },
