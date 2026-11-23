@@ -1,30 +1,30 @@
 {
   "data_relatorio": "23/11/2026",
-  "gerado_em": "2026-11-23T15:00:11",
-  "atualizado_em": "2026-11-23T18:05:24",
+  "gerado_em": "2026-11-23T16:00:11",
+  "atualizado_em": "2026-11-23T19:05:24",
   "totais": {
-    "prog": 93,
-    "carr": 49,
-    "falta": 44,
-    "tn_prev": 3364.37,
-    "tn_carr": 1689.47
+    "prog": 99,
+    "carr": 60,
+    "falta": 39,
+    "tn_prev": 3627.23,
+    "tn_carr": 2134.16
   },
   "por_cliente": [
     {
       "cliente": "TRINDADE MINERAÇÃO",
-      "prog": 20,
-      "carr": 4,
-      "falta": 16,
-      "tn_prev": 753.55,
-      "tn_carr": 148.55
+      "prog": 21,
+      "carr": 7,
+      "falta": 14,
+      "tn_prev": 794.4,
+      "tn_carr": 262.4
     },
     {
       "cliente": "BRASKEM",
       "prog": 16,
-      "carr": 11,
-      "falta": 5,
+      "carr": 13,
+      "falta": 3,
       "tn_prev": 598.0,
-      "tn_carr": 416.83
+      "tn_carr": 511.66
     },
     {
       "cliente": "FERGUMINAS",
@@ -36,27 +36,43 @@
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 294.0,
-      "tn_carr": 0.0
+      "prog": 9,
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 329.42,
+      "tn_carr": 105.42
     },
     {
       "cliente": "CIM LIZ",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 233.8,
-      "tn_carr": 99.8
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 234.34,
+      "tn_carr": 148.34
+    },
+    {
+      "cliente": "COQUE METALURGICO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 172.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "NASSAU",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 164.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 166.83,
+      "tn_carr": 34.83
+    },
+    {
+      "cliente": "CSN SERRA",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 126.88,
+      "tn_carr": 38.88
     },
     {
       "cliente": "CSN P. LEOPOLDO",
@@ -77,10 +93,10 @@
     {
       "cliente": "PETRORECONCAVO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.22,
+      "tn_carr": 47.22
     },
     {
       "cliente": "CSN VR",
@@ -99,20 +115,12 @@
       "tn_carr": 48.59
     },
     {
-      "cliente": "COQUE METALURGICO",
-      "prog": 2,
+      "cliente": "BELOCAL SJLP",
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 86.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN SERRA",
-      "prog": 2,
-      "carr": 1,
       "falta": 1,
-      "tn_prev": 76.88,
-      "tn_carr": 38.88
+      "tn_prev": 48.0,
+      "tn_carr": 0.0
     },
     {
       "cliente": "SUPREMO POMERODE",
@@ -134,19 +142,19 @@
   "por_produto": [
     {
       "produto": "Sinter Feed",
-      "prog": 20,
-      "carr": 4,
-      "falta": 16,
-      "tn_prev": 753.55,
-      "tn_carr": 148.55
+      "prog": 21,
+      "carr": 7,
+      "falta": 14,
+      "tn_prev": 794.4,
+      "tn_carr": 262.4
     },
     {
       "produto": "TÉRMICO",
       "prog": 16,
-      "carr": 11,
-      "falta": 5,
+      "carr": 13,
+      "falta": 3,
       "tn_prev": 598.0,
-      "tn_carr": 416.83
+      "tn_carr": 511.66
     },
     {
       "produto": "Minerio De Ferro",
@@ -158,59 +166,51 @@
     },
     {
       "produto": "GESSO",
-      "prog": 9,
-      "carr": 3,
+      "prog": 10,
+      "carr": 4,
       "falta": 6,
-      "tn_prev": 336.09,
-      "tn_carr": 134.09
-    },
-    {
-      "produto": "PETCOKE",
-      "prog": 8,
-      "carr": 7,
-      "falta": 1,
-      "tn_prev": 307.93,
-      "tn_carr": 269.93
+      "tn_prev": 388.92,
+      "tn_carr": 168.92
     },
     {
       "produto": "COQUE",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 294.0,
-      "tn_carr": 0.0
+      "prog": 10,
+      "carr": 3,
+      "falta": 7,
+      "tn_prev": 365.42,
+      "tn_carr": 105.42
+    },
+    {
+      "produto": "PETCOKE",
+      "prog": 9,
+      "carr": 7,
+      "falta": 2,
+      "tn_prev": 355.93,
+      "tn_carr": 269.93
     },
     {
       "produto": "CARVÃO",
       "prog": 6,
-      "carr": 3,
-      "falta": 3,
-      "tn_prev": 268.8,
-      "tn_carr": 129.61
+      "carr": 4,
+      "falta": 2,
+      "tn_prev": 269.34,
+      "tn_carr": 178.15
+    },
+    {
+      "produto": "Csn V. Red",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 172.0,
+      "tn_carr": 0.0
     },
     {
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Csn V. Red",
-      "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 86.0,
-      "tn_carr": 0.0
-    },
-    {
-      "produto": "Rivertec",
-      "prog": 1,
-      "carr": 0,
+      "carr": 1,
       "falta": 1,
-      "tn_prev": 36.0,
-      "tn_carr": 0.0
+      "tn_prev": 95.22,
+      "tn_carr": 47.22
     }
   ],
   "lotes": [
@@ -218,29 +218,29 @@
       "lote": "TRINDADE MINERAÇÃO - SINTER FEED - BARAO COCAIS/MG",
       "cliente": "TRINDADE MINERAÇÃO",
       "produto": "Sinter Feed",
-      "prog": 20,
-      "carr": 4,
-      "falta": 16,
-      "tn_prev": 753.55,
-      "tn_carr": 148.55,
+      "prog": 21,
+      "carr": 7,
+      "falta": 14,
+      "tn_prev": 794.4,
+      "tn_carr": 262.4,
       "transportadoras": [
         {
           "nome": "RODEIRO (MG)",
           "cnpj": "26178616000140",
-          "prog": 6,
-          "carr": 3,
-          "falta": 3,
-          "tn_prev": 220.98,
-          "tn_carr": 109.98
+          "prog": 7,
+          "carr": 5,
+          "falta": 2,
+          "tn_prev": 260.04,
+          "tn_carr": 184.04
         },
         {
           "nome": "MRX TRANSP. (MG)",
           "cnpj": "26586645000141",
           "prog": 14,
-          "carr": 1,
-          "falta": 13,
-          "tn_prev": 532.57,
-          "tn_carr": 38.57
+          "carr": 2,
+          "falta": 12,
+          "tn_prev": 534.36,
+          "tn_carr": 78.36
         }
       ]
     },
@@ -249,10 +249,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 16,
-      "carr": 11,
-      "falta": 5,
+      "carr": 13,
+      "falta": 3,
       "tn_prev": 598.0,
-      "tn_carr": 416.83,
+      "tn_carr": 511.66,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -285,19 +285,19 @@
           "nome": "FRATELLI (SC)",
           "cnpj": "10989401000170",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 1,
+          "falta": 2,
           "tn_prev": 141.0,
-          "tn_carr": 0.0
+          "tn_carr": 47.51
         },
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
+          "carr": 3,
+          "falta": 0,
           "tn_prev": 145.0,
-          "tn_carr": 95.17
+          "tn_carr": 142.49
         }
       ]
     },
@@ -326,29 +326,29 @@
       "lote": "ITAMBÉ - COQUE VERDE -MV CONCARAN - EXP. DIRETA",
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
-      "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 294.0,
-      "tn_carr": 0.0,
+      "prog": 9,
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 329.42,
+      "tn_carr": 105.42,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 7,
-          "carr": 0,
-          "falta": 7,
-          "tn_prev": 256.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 4,
+          "tn_prev": 253.42,
+          "tn_carr": 105.42
         }
       ]
     },
@@ -357,19 +357,58 @@
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
       "prog": 5,
-      "carr": 2,
-      "falta": 3,
-      "tn_prev": 233.8,
-      "tn_carr": 99.8,
+      "carr": 3,
+      "falta": 2,
+      "tn_prev": 234.34,
+      "tn_carr": 148.34,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 5,
-          "carr": 2,
-          "falta": 3,
-          "tn_prev": 233.8,
-          "tn_carr": 99.8
+          "carr": 3,
+          "falta": 2,
+          "tn_prev": 234.34,
+          "tn_carr": 148.34
+        }
+      ]
+    },
+    {
+      "lote": "COQUE METALURGICO - CSN V. RED - PORTO DO AÇU",
+      "cliente": "COQUE METALURGICO",
+      "produto": "Csn V. Red",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 172.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 86.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
         }
       ]
     },
@@ -378,19 +417,40 @@
       "cliente": "NASSAU",
       "produto": "GESSO",
       "prog": 5,
-      "carr": 0,
-      "falta": 5,
-      "tn_prev": 164.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 4,
+      "tn_prev": 166.83,
+      "tn_carr": 34.83,
       "transportadoras": [
         {
           "nome": "RANGEL (RJ)",
           "cnpj": "47836361000136",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 164.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 4,
+          "tn_prev": 166.83,
+          "tn_carr": 34.83
+        }
+      ]
+    },
+    {
+      "lote": "CSN SERRA - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "CSN SERRA",
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 1,
+      "falta": 2,
+      "tn_prev": 126.88,
+      "tn_carr": 38.88,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 126.88,
+          "tn_carr": 38.88
         }
       ]
     },
@@ -441,19 +501,19 @@
       "cliente": "PETRORECONCAVO",
       "produto": "PETRÓLEO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 96.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 95.22,
+      "tn_carr": 47.22,
       "transportadoras": [
         {
           "nome": "MINAS TRADING (RN)",
           "cnpj": "05456420001091",
           "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 96.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 95.22,
+          "tn_carr": 47.22
         }
       ]
     },
@@ -500,51 +560,30 @@
       ]
     },
     {
-      "lote": "COQUE METALURGICO - CSN V. RED - PORTO DO AÇU",
-      "cliente": "COQUE METALURGICO",
-      "produto": "Csn V. Red",
-      "prog": 2,
+      "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND ATE - PILHA 59",
+      "cliente": "BELOCAL SJLP",
+      "produto": "PETCOKE",
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 86.0,
+      "falta": 1,
+      "tn_prev": 48.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 2,
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 86.0,
+          "falta": 1,
+          "tn_prev": 48.0,
           "tn_carr": 0.0
         }
       ]
     },
     {
-      "lote": "CSN SERRA - GESSO - LAWIN ARROW - PILHA 53",
-      "cliente": "CSN SERRA",
-      "produto": "GESSO",
-      "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 76.88,
-      "tn_carr": 38.88,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 76.88,
-          "tn_carr": 38.88
-        }
-      ]
-    },
-    {
-      "lote": "SUPREMO POMERODE - RIVERTEC - PETCOKE - PILHA 21",
+      "lote": "SUPREMO POMERODE - COQUE VERDE -MV CONCARAN - EXP. DIRETA",
       "cliente": "SUPREMO POMERODE",
-      "produto": "Rivertec",
+      "produto": "COQUE",
       "prog": 1,
       "carr": 0,
       "falta": 1,
