@@ -1,13 +1,13 @@
 {
   "data_relatorio": "23/11/2026",
-  "gerado_em": "2026-11-23T14:00:12",
-  "atualizado_em": "2026-11-23T17:05:27",
+  "gerado_em": "2026-11-23T14:59:13",
+  "atualizado_em": "2026-11-23T18:00:24",
   "totais": {
-    "prog": 90,
-    "carr": 43,
-    "falta": 47,
-    "tn_prev": 3249.69,
-    "tn_carr": 1417.67
+    "prog": 93,
+    "carr": 49,
+    "falta": 44,
+    "tn_prev": 3364.37,
+    "tn_carr": 1689.47
   },
   "por_cliente": [
     {
@@ -21,10 +21,10 @@
     {
       "cliente": "BRASKEM",
       "prog": 16,
-      "carr": 8,
-      "falta": 8,
+      "carr": 11,
+      "falta": 5,
       "tn_prev": 598.0,
-      "tn_carr": 283.71
+      "tn_carr": 416.83
     },
     {
       "cliente": "FERGUMINAS",
@@ -36,19 +36,19 @@
     },
     {
       "cliente": "ITAMBÉ",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 256.0,
+      "falta": 8,
+      "tn_prev": 294.0,
       "tn_carr": 0.0
     },
     {
       "cliente": "CIM LIZ",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 233.8,
+      "tn_carr": 99.8
     },
     {
       "cliente": "NASSAU",
@@ -109,9 +109,17 @@
     {
       "cliente": "CSN SERRA",
       "prog": 2,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 76.88,
+      "tn_carr": 38.88
+    },
+    {
+      "cliente": "SUPREMO POMERODE",
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 78.0,
+      "falta": 1,
+      "tn_prev": 36.0,
       "tn_carr": 0.0
     },
     {
@@ -135,10 +143,10 @@
     {
       "produto": "TÉRMICO",
       "prog": 16,
-      "carr": 8,
-      "falta": 8,
+      "carr": 11,
+      "falta": 5,
       "tn_prev": 598.0,
-      "tn_carr": 283.71
+      "tn_carr": 416.83
     },
     {
       "produto": "Minerio De Ferro",
@@ -151,10 +159,10 @@
     {
       "produto": "GESSO",
       "prog": 9,
-      "carr": 2,
-      "falta": 7,
-      "tn_prev": 337.21,
-      "tn_carr": 95.21
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 336.09,
+      "tn_carr": 134.09
     },
     {
       "produto": "PETCOKE",
@@ -166,19 +174,19 @@
     },
     {
       "produto": "COQUE",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 256.0,
+      "falta": 8,
+      "tn_prev": 294.0,
       "tn_carr": 0.0
     },
     {
       "produto": "CARVÃO",
-      "prog": 5,
-      "carr": 1,
-      "falta": 4,
-      "tn_prev": 227.0,
-      "tn_carr": 29.81
+      "prog": 6,
+      "carr": 3,
+      "falta": 3,
+      "tn_prev": 268.8,
+      "tn_carr": 129.61
     },
     {
       "produto": "PETRÓLEO",
@@ -194,6 +202,14 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 86.0,
+      "tn_carr": 0.0
+    },
+    {
+      "produto": "Rivertec",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 36.0,
       "tn_carr": 0.0
     }
   ],
@@ -233,10 +249,10 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 16,
-      "carr": 8,
-      "falta": 8,
+      "carr": 11,
+      "falta": 5,
       "tn_prev": 598.0,
-      "tn_carr": 283.71,
+      "tn_carr": 416.83,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
@@ -251,10 +267,10 @@
           "nome": "MR LOG (SC)",
           "cnpj": "58324544000199",
           "prog": 3,
-          "carr": 2,
-          "falta": 1,
+          "carr": 3,
+          "falta": 0,
           "tn_prev": 112.0,
-          "tn_carr": 75.01
+          "tn_carr": 112.96
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -278,10 +294,10 @@
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
+          "carr": 2,
+          "falta": 1,
           "tn_prev": 145.0,
-          "tn_carr": 0.0
+          "tn_carr": 95.17
         }
       ]
     },
@@ -310,12 +326,21 @@
       "lote": "ITAMBÉ - COQUE VERDE -MV CONCARAN - EXP. DIRETA",
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
-      "prog": 7,
+      "prog": 8,
       "carr": 0,
-      "falta": 7,
-      "tn_prev": 256.0,
+      "falta": 8,
+      "tn_prev": 294.0,
       "tn_carr": 0.0,
       "transportadoras": [
+        {
+          "nome": "TRANSP. TELLES (SC)",
+          "cnpj": "78266228000115",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
@@ -331,20 +356,20 @@
       "lote": "CIM LIZ- CARVÃO LILA MUNDRA- PILHA 47- SUBCONTRATAÇÃO",
       "cliente": "CIM LIZ",
       "produto": "CARVÃO",
-      "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 192.0,
-      "tn_carr": 0.0,
+      "prog": 5,
+      "carr": 2,
+      "falta": 3,
+      "tn_prev": 233.8,
+      "tn_carr": 99.8,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 4,
-          "carr": 0,
-          "falta": 4,
-          "tn_prev": 192.0,
-          "tn_carr": 0.0
+          "prog": 5,
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 233.8,
+          "tn_carr": 99.8
         }
       ]
     },
@@ -500,18 +525,39 @@
       "cliente": "CSN SERRA",
       "produto": "GESSO",
       "prog": 2,
-      "carr": 0,
-      "falta": 2,
-      "tn_prev": 78.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 1,
+      "tn_prev": 76.88,
+      "tn_carr": 38.88,
       "transportadoras": [
         {
           "nome": "EXP. ROTA LIVRE (RJ)",
           "cnpj": "26240904000269",
           "prog": 2,
+          "carr": 1,
+          "falta": 1,
+          "tn_prev": 76.88,
+          "tn_carr": 38.88
+        }
+      ]
+    },
+    {
+      "lote": "SUPREMO POMERODE - RIVERTEC - PETCOKE - PILHA 21",
+      "cliente": "SUPREMO POMERODE",
+      "produto": "Rivertec",
+      "prog": 1,
+      "carr": 0,
+      "falta": 1,
+      "tn_prev": 36.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 78.0,
+          "falta": 1,
+          "tn_prev": 36.0,
           "tn_carr": 0.0
         }
       ]
