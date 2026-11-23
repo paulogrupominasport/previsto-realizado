@@ -1,30 +1,30 @@
 {
   "data_relatorio": "23/11/2026",
-  "gerado_em": "2026-11-23T08:00:17",
-  "atualizado_em": "2026-11-23T11:05:27",
+  "gerado_em": "2026-11-23T09:00:16",
+  "atualizado_em": "2026-11-23T12:05:24",
   "totais": {
-    "prog": 41,
-    "carr": 2,
+    "prog": 48,
+    "carr": 9,
     "falta": 39,
-    "tn_prev": 1448.0,
-    "tn_carr": 64.92
+    "tn_prev": 1693.0,
+    "tn_carr": 271.31
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
-      "prog": 11,
-      "carr": 2,
-      "falta": 9,
-      "tn_prev": 424.0,
-      "tn_carr": 64.92
+      "prog": 15,
+      "carr": 3,
+      "falta": 12,
+      "tn_prev": 585.0,
+      "tn_carr": 100.81
     },
     {
       "cliente": "FERGUMINAS",
-      "prog": 12,
-      "carr": 0,
-      "falta": 12,
-      "tn_prev": 336.0,
-      "tn_carr": 0.0
+      "prog": 15,
+      "carr": 6,
+      "falta": 9,
+      "tn_prev": 420.0,
+      "tn_carr": 170.5
     },
     {
       "cliente": "NASSAU",
@@ -86,19 +86,19 @@
   "por_produto": [
     {
       "produto": "TÉRMICO",
-      "prog": 11,
-      "carr": 2,
-      "falta": 9,
-      "tn_prev": 424.0,
-      "tn_carr": 64.92
+      "prog": 15,
+      "carr": 3,
+      "falta": 12,
+      "tn_prev": 585.0,
+      "tn_carr": 100.81
     },
     {
       "produto": "Minerio De Ferro",
-      "prog": 12,
-      "carr": 0,
-      "falta": 12,
-      "tn_prev": 336.0,
-      "tn_carr": 0.0
+      "prog": 15,
+      "carr": 6,
+      "falta": 9,
+      "tn_prev": 420.0,
+      "tn_carr": 170.5
     },
     {
       "produto": "GESSO",
@@ -146,20 +146,29 @@
       "lote": "BRASKEM - TÉRMICO MV TI DAWN - PILHA 94",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 11,
-      "carr": 2,
-      "falta": 9,
-      "tn_prev": 424.0,
-      "tn_carr": 64.92,
+      "prog": 15,
+      "carr": 3,
+      "falta": 12,
+      "tn_prev": 585.0,
+      "tn_carr": 100.81,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 6,
-          "carr": 2,
-          "falta": 4,
+          "carr": 3,
+          "falta": 3,
           "tn_prev": 205.0,
-          "tn_carr": 64.92
+          "tn_carr": 100.81
+        },
+        {
+          "nome": "MR LOG (SC)",
+          "cnpj": "58324544000199",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 112.0,
+          "tn_carr": 0.0
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -182,10 +191,10 @@
         {
           "nome": "CANEVER (SC)",
           "cnpj": "42029409000180",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
+          "falta": 2,
+          "tn_prev": 97.0,
           "tn_carr": 0.0
         }
       ]
@@ -194,20 +203,20 @@
       "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
       "cliente": "FERGUMINAS",
       "produto": "Minerio De Ferro",
-      "prog": 12,
-      "carr": 0,
-      "falta": 12,
-      "tn_prev": 336.0,
-      "tn_carr": 0.0,
+      "prog": 15,
+      "carr": 6,
+      "falta": 9,
+      "tn_prev": 420.0,
+      "tn_carr": 170.5,
       "transportadoras": [
         {
           "nome": "SOUDOR TRANSPORTES",
           "cnpj": "35167897000127",
-          "prog": 12,
-          "carr": 0,
-          "falta": 12,
-          "tn_prev": 336.0,
-          "tn_carr": 0.0
+          "prog": 15,
+          "carr": 6,
+          "falta": 9,
+          "tn_prev": 420.0,
+          "tn_carr": 170.5
         }
       ]
     },
