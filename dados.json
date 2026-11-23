@@ -1,13 +1,13 @@
 {
   "data_relatorio": "23/11/2026",
-  "gerado_em": "2026-11-23T17:00:09",
-  "atualizado_em": "2026-11-23T20:05:27",
+  "gerado_em": "2026-11-23T18:00:07",
+  "atualizado_em": "2026-11-23T21:05:23",
   "totais": {
     "prog": 102,
-    "carr": 74,
-    "falta": 28,
-    "tn_prev": 3764.1,
-    "tn_carr": 2700.31
+    "carr": 78,
+    "falta": 24,
+    "tn_prev": 3765.04,
+    "tn_carr": 2873.25
   },
   "por_cliente": [
     {
@@ -61,10 +61,10 @@
     {
       "cliente": "BELOCAL SJLP",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 172.0,
-      "tn_carr": 0.0
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 174.09,
+      "tn_carr": 136.09
     },
     {
       "cliente": "COQUE METALURGICO",
@@ -117,10 +117,10 @@
     {
       "cliente": "BELOCAL MTZ",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 86.59,
-      "tn_carr": 48.59
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 85.44,
+      "tn_carr": 85.44
     },
     {
       "cliente": "SUPREMO POMERODE",
@@ -167,10 +167,10 @@
     {
       "produto": "PETCOKE",
       "prog": 12,
-      "carr": 7,
-      "falta": 5,
-      "tn_prev": 479.93,
-      "tn_carr": 269.93
+      "carr": 11,
+      "falta": 1,
+      "tn_prev": 480.87,
+      "tn_carr": 442.87
     },
     {
       "produto": "GESSO",
@@ -399,28 +399,28 @@
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
       "prog": 4,
-      "carr": 0,
-      "falta": 4,
-      "tn_prev": 172.0,
-      "tn_carr": 0.0,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 174.09,
+      "tn_carr": 136.09,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 48.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 49.88,
+          "tn_carr": 49.88
         },
         {
           "nome": "GT MINAS (RJ)",
           "cnpj": "07275520000318",
           "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 124.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 1,
+          "tn_prev": 124.21,
+          "tn_carr": 86.21
         }
       ]
     },
@@ -573,19 +573,19 @@
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
       "prog": 2,
-      "carr": 1,
-      "falta": 1,
-      "tn_prev": 86.59,
-      "tn_carr": 48.59,
+      "carr": 2,
+      "falta": 0,
+      "tn_prev": 85.44,
+      "tn_carr": 85.44,
       "transportadoras": [
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
           "prog": 2,
-          "carr": 1,
-          "falta": 1,
-          "tn_prev": 86.59,
-          "tn_carr": 48.59
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 85.44,
+          "tn_carr": 85.44
         }
       ]
     },
