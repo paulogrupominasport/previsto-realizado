@@ -1,21 +1,29 @@
 {
   "data_relatorio": "23/11/2026",
-  "gerado_em": "2026-11-23T07:00:08",
-  "atualizado_em": "2026-11-23T10:05:24",
+  "gerado_em": "2026-11-23T08:00:17",
+  "atualizado_em": "2026-11-23T11:05:27",
   "totais": {
-    "prog": 33,
-    "carr": 0,
-    "falta": 33,
-    "tn_prev": 1231.0,
-    "tn_carr": 0.0
+    "prog": 41,
+    "carr": 2,
+    "falta": 39,
+    "tn_prev": 1448.0,
+    "tn_carr": 64.92
   },
   "por_cliente": [
     {
       "cliente": "BRASKEM",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
+      "carr": 2,
+      "falta": 9,
       "tn_prev": 424.0,
+      "tn_carr": 64.92
+    },
+    {
+      "cliente": "FERGUMINAS",
+      "prog": 12,
+      "carr": 0,
+      "falta": 12,
+      "tn_prev": 336.0,
       "tn_carr": 0.0
     },
     {
@@ -67,19 +75,11 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "FERGUMINAS",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 84.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "RIO DESERTO",
-      "prog": 2,
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 70.0,
+      "falta": 1,
+      "tn_prev": 35.0,
       "tn_carr": 0.0
     }
   ],
@@ -87,9 +87,17 @@
     {
       "produto": "TÉRMICO",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
+      "carr": 2,
+      "falta": 9,
       "tn_prev": 424.0,
+      "tn_carr": 64.92
+    },
+    {
+      "produto": "Minerio De Ferro",
+      "prog": 12,
+      "carr": 0,
+      "falta": 12,
+      "tn_prev": 336.0,
       "tn_carr": 0.0
     },
     {
@@ -125,19 +133,11 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "Minerio De Ferro",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 84.0,
-      "tn_carr": 0.0
-    },
-    {
       "produto": "CARVÃO",
-      "prog": 2,
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 70.0,
+      "falta": 1,
+      "tn_prev": 35.0,
       "tn_carr": 0.0
     }
   ],
@@ -147,19 +147,19 @@
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
       "prog": 11,
-      "carr": 0,
-      "falta": 11,
+      "carr": 2,
+      "falta": 9,
       "tn_prev": 424.0,
-      "tn_carr": 0.0,
+      "tn_carr": 64.92,
       "transportadoras": [
         {
           "nome": "ROTA 101 (SC)",
           "cnpj": "21269148000287",
           "prog": 6,
-          "carr": 0,
-          "falta": 6,
+          "carr": 2,
+          "falta": 4,
           "tn_prev": 205.0,
-          "tn_carr": 0.0
+          "tn_carr": 64.92
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -186,6 +186,27 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 48.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
+      "cliente": "FERGUMINAS",
+      "produto": "Minerio De Ferro",
+      "prog": 12,
+      "carr": 0,
+      "falta": 12,
+      "tn_prev": 336.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "SOUDOR TRANSPORTES",
+          "cnpj": "35167897000127",
+          "prog": 12,
+          "carr": 0,
+          "falta": 12,
+          "tn_prev": 336.0,
           "tn_carr": 0.0
         }
       ]
@@ -317,43 +338,22 @@
       ]
     },
     {
-      "lote": "FERGUMINAS - MINERIO DE FERRO- PILHA 72 - ITAÚNA",
-      "cliente": "FERGUMINAS",
-      "produto": "Minerio De Ferro",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 84.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "SOUDOR TRANSPORTES",
-          "cnpj": "35167897000127",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 84.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "RIO DESERTO - REJEITO DE CARVÃO - R4",
       "cliente": "RIO DESERTO",
       "produto": "CARVÃO",
-      "prog": 2,
+      "prog": 1,
       "carr": 0,
-      "falta": 2,
-      "tn_prev": 70.0,
+      "falta": 1,
+      "tn_prev": 35.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
           "nome": "ATR MINHOCAO",
           "cnpj": "66866968000103",
-          "prog": 2,
+          "prog": 1,
           "carr": 0,
-          "falta": 2,
-          "tn_prev": 70.0,
+          "falta": 1,
+          "tn_prev": 35.0,
           "tn_carr": 0.0
         }
       ]

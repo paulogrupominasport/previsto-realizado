@@ -8487,20 +8487,26 @@
     }
   },
   "2026-11-23": {
-    "gerado_em": "2026-11-23T07:00:08",
-    "atualizado_em": "2026-11-23T10:05:24",
+    "gerado_em": "2026-11-23T08:00:17",
+    "atualizado_em": "2026-11-23T11:05:27",
     "totais": {
-      "prog": 33,
-      "carr": 0,
-      "falta": 33,
-      "tn_prev": 1231.0,
-      "tn_carr": 0.0
+      "prog": 41,
+      "carr": 2,
+      "falta": 39,
+      "tn_prev": 1448.0,
+      "tn_carr": 64.92
     },
     "por_cliente": {
       "BRASKEM": {
         "prog": 11,
-        "carr": 0,
+        "carr": 2,
         "tn_prev": 424.0,
+        "tn_carr": 64.92
+      },
+      "FERGUMINAS": {
+        "prog": 12,
+        "carr": 0,
+        "tn_prev": 336.0,
         "tn_carr": 0.0
       },
       "NASSAU": {
@@ -8539,24 +8545,24 @@
         "tn_prev": 86.0,
         "tn_carr": 0.0
       },
-      "FERGUMINAS": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 84.0,
-        "tn_carr": 0.0
-      },
       "RIO DESERTO": {
-        "prog": 2,
+        "prog": 1,
         "carr": 0,
-        "tn_prev": 70.0,
+        "tn_prev": 35.0,
         "tn_carr": 0.0
       }
     },
     "por_produto": {
       "TÉRMICO": {
         "prog": 11,
-        "carr": 0,
+        "carr": 2,
         "tn_prev": 424.0,
+        "tn_carr": 64.92
+      },
+      "Minerio De Ferro": {
+        "prog": 12,
+        "carr": 0,
+        "tn_prev": 336.0,
         "tn_carr": 0.0
       },
       "GESSO": {
@@ -8583,16 +8589,10 @@
         "tn_prev": 86.0,
         "tn_carr": 0.0
       },
-      "Minerio De Ferro": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 84.0,
-        "tn_carr": 0.0
-      },
       "CARVÃO": {
-        "prog": 2,
+        "prog": 1,
         "carr": 0,
-        "tn_prev": 70.0,
+        "tn_prev": 35.0,
         "tn_carr": 0.0
       }
     }
