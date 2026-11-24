@@ -8487,39 +8487,45 @@
     }
   },
   "2026-11-24": {
-    "gerado_em": "2026-11-24T09:00:18",
-    "atualizado_em": "2026-11-24T12:05:24",
+    "gerado_em": "2026-11-24T10:00:06",
+    "atualizado_em": "2026-11-24T13:05:26",
     "totais": {
-      "prog": 80,
-      "carr": 3,
-      "falta": 77,
-      "tn_prev": 3138.42,
-      "tn_carr": 114.67
+      "prog": 100,
+      "carr": 11,
+      "falta": 89,
+      "tn_prev": 3880.72,
+      "tn_carr": 433.31
     },
     "por_cliente": {
-      "BRASKEM": {
+      "ITAMBÉ": {
         "prog": 19,
         "carr": 0,
-        "tn_prev": 702.0,
+        "tn_prev": 733.0,
         "tn_carr": 0.0
       },
-      "ITAMBÉ": {
-        "prog": 17,
-        "carr": 0,
-        "tn_prev": 657.0,
-        "tn_carr": 0.0
-      },
-      "CIM LIZ": {
-        "prog": 13,
-        "carr": 1,
-        "tn_prev": 535.46,
-        "tn_carr": 49.46
+      "BRASKEM": {
+        "prog": 19,
+        "carr": 4,
+        "tn_prev": 701.37,
+        "tn_carr": 152.93
       },
       "DESCARGA MINÉRIO": {
+        "prog": 11,
+        "carr": 1,
+        "tn_prev": 423.54,
+        "tn_carr": 39.59
+      },
+      "CIM LIZ": {
         "prog": 10,
-        "carr": 0,
-        "tn_prev": 387.73,
-        "tn_carr": 0.0
+        "carr": 3,
+        "tn_prev": 402.39,
+        "tn_carr": 136.39
+      },
+      "BELOCAL SJLP": {
+        "prog": 8,
+        "carr": 1,
+        "tn_prev": 349.19,
+        "tn_carr": 39.19
       },
       "CSN SERRA": {
         "prog": 6,
@@ -8527,22 +8533,34 @@
         "tn_prev": 236.0,
         "tn_carr": 0.0
       },
-      "BELOCAL SJLP": {
-        "prog": 3,
+      "TRINDADE MINERAÇÃO": {
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 134.0,
+        "tn_prev": 228.0,
         "tn_carr": 0.0
       },
       "SUPREMO": {
-        "prog": 3,
+        "prog": 5,
         "carr": 0,
-        "tn_prev": 114.0,
+        "tn_prev": 188.0,
         "tn_carr": 0.0
+      },
+      "RIO DESERTO": {
+        "prog": 3,
+        "carr": 1,
+        "tn_prev": 105.0,
+        "tn_carr": 28.98
       },
       "PETRORECONCAVO": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 100.0,
+        "tn_carr": 0.0
+      },
+      "NASSAU": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 96.0,
         "tn_carr": 0.0
       },
       "COQUE METALURGICO": {
@@ -8551,11 +8569,11 @@
         "tn_prev": 96.0,
         "tn_carr": 0.0
       },
-      "RIO DESERTO": {
+      "BELOCAL MTZ": {
         "prog": 2,
-        "carr": 1,
-        "tn_prev": 70.0,
-        "tn_carr": 28.98
+        "carr": 0,
+        "tn_prev": 85.0,
+        "tn_carr": 0.0
       },
       "CSN CANTAGALO": {
         "prog": 2,
@@ -8568,43 +8586,55 @@
         "carr": 1,
         "tn_prev": 36.23,
         "tn_carr": 36.23
+      },
+      "METROPOLITANA": {
+        "prog": 1,
+        "carr": 0,
+        "tn_prev": 31.0,
+        "tn_carr": 0.0
       }
     },
     "por_produto": {
+      "COQUE": {
+        "prog": 21,
+        "carr": 0,
+        "tn_prev": 807.0,
+        "tn_carr": 0.0
+      },
       "TÉRMICO": {
         "prog": 19,
-        "carr": 0,
-        "tn_prev": 702.0,
-        "tn_carr": 0.0
-      },
-      "COQUE": {
-        "prog": 17,
-        "carr": 0,
-        "tn_prev": 657.0,
-        "tn_carr": 0.0
-      },
-      "CARVÃO": {
-        "prog": 15,
-        "carr": 2,
-        "tn_prev": 605.46,
-        "tn_carr": 78.44
-      },
-      "Trindade": {
-        "prog": 10,
-        "carr": 0,
-        "tn_prev": 387.73,
-        "tn_carr": 0.0
+        "carr": 4,
+        "tn_prev": 701.37,
+        "tn_carr": 152.93
       },
       "PETCOKE": {
-        "prog": 6,
+        "prog": 13,
+        "carr": 2,
+        "tn_prev": 540.42,
+        "tn_carr": 75.42
+      },
+      "CARVÃO": {
+        "prog": 14,
+        "carr": 4,
+        "tn_prev": 538.39,
+        "tn_carr": 165.37
+      },
+      "Trindade": {
+        "prog": 11,
         "carr": 1,
-        "tn_prev": 240.23,
-        "tn_carr": 36.23
+        "tn_prev": 423.54,
+        "tn_carr": 39.59
       },
       "GESSO": {
+        "prog": 9,
+        "carr": 0,
+        "tn_prev": 332.0,
+        "tn_carr": 0.0
+      },
+      "Sinter Feed": {
         "prog": 6,
         "carr": 0,
-        "tn_prev": 236.0,
+        "tn_prev": 228.0,
         "tn_carr": 0.0
       },
       "Rivertec": {
