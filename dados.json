@@ -1,12 +1,12 @@
 {
   "data_relatorio": "25/11/2026",
-  "gerado_em": "2026-11-25T16:00:15",
-  "atualizado_em": "2026-11-25T19:05:26",
+  "gerado_em": "2026-11-25T16:09:21",
+  "atualizado_em": "2026-11-25T19:10:31",
   "totais": {
-    "prog": 135,
+    "prog": 136,
     "carr": 78,
-    "falta": 57,
-    "tn_prev": 4738.64,
+    "falta": 58,
+    "tn_prev": 4786.64,
     "tn_carr": 2757.71
   },
   "por_cliente": [
@@ -75,6 +75,14 @@
       "tn_carr": 143.02
     },
     {
+      "cliente": "CSN MOC",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 136.49,
+      "tn_carr": 88.49
+    },
+    {
       "cliente": "RIO DESERTO",
       "prog": 4,
       "carr": 4,
@@ -139,14 +147,6 @@
       "tn_carr": 30.91
     },
     {
-      "cliente": "CSN MOC",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 88.49,
-      "tn_carr": 88.49
-    },
-    {
       "cliente": "CSN SERRA",
       "prog": 2,
       "carr": 0,
@@ -198,10 +198,10 @@
     },
     {
       "produto": "PETCOKE",
-      "prog": 26,
+      "prog": 27,
       "carr": 14,
-      "falta": 12,
-      "tn_prev": 1061.89,
+      "falta": 13,
+      "tn_prev": 1109.89,
       "tn_carr": 608.89
     },
     {
@@ -621,6 +621,36 @@
       ]
     },
     {
+      "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN MOC",
+      "produto": "PETCOKE",
+      "prog": 3,
+      "carr": 2,
+      "falta": 1,
+      "tn_prev": 136.49,
+      "tn_carr": 88.49,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 48.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "COOPROVES (RJ)",
+          "cnpj": "09568680000542",
+          "prog": 2,
+          "carr": 2,
+          "falta": 0,
+          "tn_prev": 88.49,
+          "tn_carr": 88.49
+        }
+      ]
+    },
+    {
       "lote": "RIO DESERTO - REJEITO DE CARVÃO - R4",
       "cliente": "RIO DESERTO",
       "produto": "CARVÃO",
@@ -815,27 +845,6 @@
           "falta": 2,
           "tn_prev": 93.0,
           "tn_carr": 30.91
-        }
-      ]
-    },
-    {
-      "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN MOC",
-      "produto": "PETCOKE",
-      "prog": 2,
-      "carr": 2,
-      "falta": 0,
-      "tn_prev": 88.49,
-      "tn_carr": 88.49,
-      "transportadoras": [
-        {
-          "nome": "COOPROVES (RJ)",
-          "cnpj": "09568680000542",
-          "prog": 2,
-          "carr": 2,
-          "falta": 0,
-          "tn_prev": 88.49,
-          "tn_carr": 88.49
         }
       ]
     },
