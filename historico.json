@@ -8505,21 +8505,21 @@
     }
   },
   "2026-11-25": {
-    "gerado_em": "2026-11-25T13:00:11",
-    "atualizado_em": "2026-11-25T16:05:34",
+    "gerado_em": "2026-11-25T14:00:14",
+    "atualizado_em": "2026-11-25T17:05:26",
     "totais": {
-      "prog": 125,
-      "carr": 46,
-      "falta": 79,
-      "tn_prev": 4613.72,
-      "tn_carr": 1797.69
+      "prog": 127,
+      "carr": 54,
+      "falta": 73,
+      "tn_prev": 4676.71,
+      "tn_carr": 2102.33
     },
     "por_cliente": {
       "ITAMBÉ": {
         "prog": 22,
-        "carr": 5,
-        "tn_prev": 822.55,
-        "tn_carr": 181.55
+        "carr": 12,
+        "tn_prev": 821.33,
+        "tn_carr": 437.33
       },
       "BRASKEM": {
         "prog": 20,
@@ -8529,15 +8529,9 @@
       },
       "CSN BARROSO": {
         "prog": 14,
-        "carr": 8,
-        "tn_prev": 578.36,
-        "tn_carr": 323.36
-      },
-      "SUPREMO": {
-        "prog": 9,
-        "carr": 4,
-        "tn_prev": 301.42,
-        "tn_carr": 151.42
+        "carr": 9,
+        "tn_prev": 579.22,
+        "tn_carr": 372.22
       },
       "BELOCAL SJLP": {
         "prog": 7,
@@ -8550,6 +8544,18 @@
         "carr": 0,
         "tn_prev": 266.0,
         "tn_carr": 0.0
+      },
+      "SUPREMO": {
+        "prog": 8,
+        "carr": 4,
+        "tn_prev": 264.42,
+        "tn_carr": 151.42
+      },
+      "DESCARGA MINÉRIO": {
+        "prog": 4,
+        "carr": 3,
+        "tn_prev": 151.06,
+        "tn_carr": 112.71
       },
       "BELOCAL MTZ": {
         "prog": 3,
@@ -8593,12 +8599,6 @@
         "tn_prev": 124.37,
         "tn_carr": 40.37
       },
-      "DESCARGA MINÉRIO": {
-        "prog": 3,
-        "carr": 3,
-        "tn_prev": 112.71,
-        "tn_carr": 112.71
-      },
       "*ITAMBÉ": {
         "prog": 3,
         "carr": 3,
@@ -8609,6 +8609,12 @@
         "prog": 2,
         "carr": 0,
         "tn_prev": 96.0,
+        "tn_carr": 0.0
+      },
+      "METROPOLITANA": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 93.0,
         "tn_carr": 0.0
       },
       "CSN MOC": {
@@ -8640,26 +8646,20 @@
         "carr": 0,
         "tn_prev": 38.0,
         "tn_carr": 0.0
-      },
-      "METROPOLITANA": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 31.0,
-        "tn_carr": 0.0
       }
     },
     "por_produto": {
       "COQUE": {
-        "prog": 34,
-        "carr": 9,
-        "tn_prev": 1267.97,
-        "tn_carr": 332.97
+        "prog": 33,
+        "carr": 16,
+        "tn_prev": 1229.75,
+        "tn_carr": 588.75
       },
       "PETCOKE": {
         "prog": 24,
-        "carr": 10,
-        "tn_prev": 966.01,
-        "tn_carr": 417.01
+        "carr": 11,
+        "tn_prev": 966.87,
+        "tn_carr": 465.87
       },
       "TÉRMICO": {
         "prog": 20,
@@ -8673,17 +8673,23 @@
         "tn_prev": 600.0,
         "tn_carr": 224.0
       },
+      "CARVÃO": {
+        "prog": 9,
+        "carr": 3,
+        "tn_prev": 323.92,
+        "tn_carr": 104.85
+      },
       "Sinter Feed": {
         "prog": 7,
         "carr": 0,
         "tn_prev": 266.0,
         "tn_carr": 0.0
       },
-      "CARVÃO": {
-        "prog": 7,
+      "Trindade": {
+        "prog": 4,
         "carr": 3,
-        "tn_prev": 261.92,
-        "tn_carr": 104.85
+        "tn_prev": 151.06,
+        "tn_carr": 112.71
       },
       "Antracito Phoenician": {
         "prog": 7,
@@ -8696,12 +8702,6 @@
         "carr": 1,
         "tn_prev": 124.37,
         "tn_carr": 40.37
-      },
-      "Trindade": {
-        "prog": 3,
-        "carr": 3,
-        "tn_prev": 112.71,
-        "tn_carr": 112.71
       },
       "PETRÓLEO": {
         "prog": 2,

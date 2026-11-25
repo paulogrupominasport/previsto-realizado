@@ -1,22 +1,22 @@
 {
   "data_relatorio": "25/11/2026",
-  "gerado_em": "2026-11-25T13:00:11",
-  "atualizado_em": "2026-11-25T16:05:34",
+  "gerado_em": "2026-11-25T14:00:14",
+  "atualizado_em": "2026-11-25T17:05:26",
   "totais": {
-    "prog": 125,
-    "carr": 46,
-    "falta": 79,
-    "tn_prev": 4613.72,
-    "tn_carr": 1797.69
+    "prog": 127,
+    "carr": 54,
+    "falta": 73,
+    "tn_prev": 4676.71,
+    "tn_carr": 2102.33
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
       "prog": 22,
-      "carr": 5,
-      "falta": 17,
-      "tn_prev": 822.55,
-      "tn_carr": 181.55
+      "carr": 12,
+      "falta": 10,
+      "tn_prev": 821.33,
+      "tn_carr": 437.33
     },
     {
       "cliente": "BRASKEM",
@@ -29,18 +29,10 @@
     {
       "cliente": "CSN BARROSO",
       "prog": 14,
-      "carr": 8,
-      "falta": 6,
-      "tn_prev": 578.36,
-      "tn_carr": 323.36
-    },
-    {
-      "cliente": "SUPREMO",
-      "prog": 9,
-      "carr": 4,
+      "carr": 9,
       "falta": 5,
-      "tn_prev": 301.42,
-      "tn_carr": 151.42
+      "tn_prev": 579.22,
+      "tn_carr": 372.22
     },
     {
       "cliente": "BELOCAL SJLP",
@@ -57,6 +49,22 @@
       "falta": 7,
       "tn_prev": 266.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 8,
+      "carr": 4,
+      "falta": 4,
+      "tn_prev": 264.42,
+      "tn_carr": 151.42
+    },
+    {
+      "cliente": "DESCARGA MINÉRIO",
+      "prog": 4,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 151.06,
+      "tn_carr": 112.71
     },
     {
       "cliente": "BELOCAL MTZ",
@@ -115,14 +123,6 @@
       "tn_carr": 40.37
     },
     {
-      "cliente": "DESCARGA MINÉRIO",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 112.71,
-      "tn_carr": 112.71
-    },
-    {
       "cliente": "*ITAMBÉ",
       "prog": 3,
       "carr": 3,
@@ -136,6 +136,14 @@
       "carr": 0,
       "falta": 2,
       "tn_prev": 96.0,
+      "tn_carr": 0.0
+    },
+    {
+      "cliente": "METROPOLITANA",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 93.0,
       "tn_carr": 0.0
     },
     {
@@ -177,32 +185,24 @@
       "falta": 1,
       "tn_prev": 38.0,
       "tn_carr": 0.0
-    },
-    {
-      "cliente": "METROPOLITANA",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 31.0,
-      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "COQUE",
-      "prog": 34,
-      "carr": 9,
-      "falta": 25,
-      "tn_prev": 1267.97,
-      "tn_carr": 332.97
+      "prog": 33,
+      "carr": 16,
+      "falta": 17,
+      "tn_prev": 1229.75,
+      "tn_carr": 588.75
     },
     {
       "produto": "PETCOKE",
       "prog": 24,
-      "carr": 10,
-      "falta": 14,
-      "tn_prev": 966.01,
-      "tn_carr": 417.01
+      "carr": 11,
+      "falta": 13,
+      "tn_prev": 966.87,
+      "tn_carr": 465.87
     },
     {
       "produto": "TÉRMICO",
@@ -221,6 +221,14 @@
       "tn_carr": 224.0
     },
     {
+      "produto": "CARVÃO",
+      "prog": 9,
+      "carr": 3,
+      "falta": 6,
+      "tn_prev": 323.92,
+      "tn_carr": 104.85
+    },
+    {
       "produto": "Sinter Feed",
       "prog": 7,
       "carr": 0,
@@ -229,12 +237,12 @@
       "tn_carr": 0.0
     },
     {
-      "produto": "CARVÃO",
-      "prog": 7,
+      "produto": "Trindade",
+      "prog": 4,
       "carr": 3,
-      "falta": 4,
-      "tn_prev": 261.92,
-      "tn_carr": 104.85
+      "falta": 1,
+      "tn_prev": 151.06,
+      "tn_carr": 112.71
     },
     {
       "produto": "Antracito Phoenician",
@@ -251,14 +259,6 @@
       "falta": 2,
       "tn_prev": 124.37,
       "tn_carr": 40.37
-    },
-    {
-      "produto": "Trindade",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 112.71,
-      "tn_carr": 112.71
     },
     {
       "produto": "PETRÓLEO",
@@ -283,10 +283,10 @@
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
       "prog": 22,
-      "carr": 5,
-      "falta": 17,
-      "tn_prev": 822.55,
-      "tn_carr": 181.55,
+      "carr": 12,
+      "falta": 10,
+      "tn_prev": 821.33,
+      "tn_carr": 437.33,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
@@ -301,19 +301,19 @@
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 5,
-          "carr": 0,
-          "falta": 5,
-          "tn_prev": 197.0,
-          "tn_carr": 0.0
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 198.14,
+          "tn_carr": 74.14
         },
         {
           "nome": "PAULISTA TRANSP. (SC)",
           "cnpj": "80776784000264",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 33.88,
+          "tn_carr": 33.88
         },
         {
           "nome": "ICOOLTRAN (SC)",
@@ -328,10 +328,10 @@
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 9,
-          "carr": 1,
-          "falta": 8,
-          "tn_prev": 326.16,
-          "tn_carr": 34.16
+          "carr": 5,
+          "falta": 4,
+          "tn_prev": 327.92,
+          "tn_carr": 181.92
         }
       ]
     },
@@ -402,71 +402,23 @@
       ]
     },
     {
-      "lote": "SUPREMO - COQUE VERDE -MV CONCARAN - EXP. DIRETA",
-      "cliente": "SUPREMO",
-      "produto": "COQUE",
-      "prog": 9,
-      "carr": 4,
-      "falta": 5,
-      "tn_prev": 301.42,
-      "tn_carr": 151.42,
-      "transportadoras": [
-        {
-          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
-          "cnpj": "15058185000162",
-          "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 114.19,
-          "tn_carr": 114.19
-        },
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 2,
-          "carr": 0,
-          "falta": 2,
-          "tn_prev": 74.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "ICOOLTRAN (SC)",
-          "cnpj": "23839841000192",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
-        },
-        {
-          "nome": "GWM LOGISTICA INTEGRADA LTDA",
-          "cnpj": "34462809000408",
-          "prog": 3,
-          "carr": 1,
-          "falta": 2,
-          "tn_prev": 75.23,
-          "tn_carr": 37.23
-        }
-      ]
-    },
-    {
       "lote": "CSN BARROSO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 7,
-      "carr": 6,
-      "falta": 1,
-      "tn_prev": 291.65,
-      "tn_carr": 243.65,
+      "carr": 7,
+      "falta": 0,
+      "tn_prev": 292.51,
+      "tn_carr": 292.51,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
           "cnpj": "26549889000669",
           "prog": 7,
-          "carr": 6,
-          "falta": 1,
-          "tn_prev": 291.65,
-          "tn_carr": 243.65
+          "carr": 7,
+          "falta": 0,
+          "tn_prev": 292.51,
+          "tn_carr": 292.51
         }
       ]
     },
@@ -522,6 +474,54 @@
       ]
     },
     {
+      "lote": "SUPREMO - COQUE VERDE -MV CONCARAN - EXP. DIRETA",
+      "cliente": "SUPREMO",
+      "produto": "COQUE",
+      "prog": 8,
+      "carr": 4,
+      "falta": 4,
+      "tn_prev": 264.42,
+      "tn_carr": 151.42,
+      "transportadoras": [
+        {
+          "nome": "PARAISO TRANSP. DE FERTILIZANTES",
+          "cnpj": "15058185000162",
+          "prog": 3,
+          "carr": 3,
+          "falta": 0,
+          "tn_prev": 114.19,
+          "tn_carr": 114.19
+        },
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 37.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "GWM LOGISTICA INTEGRADA LTDA",
+          "cnpj": "34462809000408",
+          "prog": 3,
+          "carr": 1,
+          "falta": 2,
+          "tn_prev": 75.23,
+          "tn_carr": 37.23
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL SJLP - PETCOKE - SILHOUETTE ISLAND ATE - PILHA 59",
       "cliente": "BELOCAL SJLP",
       "produto": "PETCOKE",
@@ -548,6 +548,27 @@
           "falta": 2,
           "tn_prev": 76.0,
           "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
+      "cliente": "DESCARGA MINÉRIO",
+      "produto": "Trindade",
+      "prog": 4,
+      "carr": 3,
+      "falta": 1,
+      "tn_prev": 151.06,
+      "tn_carr": 112.71,
+      "transportadoras": [
+        {
+          "nome": "EMPREENDIMENTOS RODEIRO S/A",
+          "cnpj": "26178616000140",
+          "prog": 4,
+          "carr": 3,
+          "falta": 1,
+          "tn_prev": 151.06,
+          "tn_carr": 112.71
         }
       ]
     },
@@ -708,27 +729,6 @@
       ]
     },
     {
-      "lote": "DESCARGA MINÉRIO - TRINDADE - SINTER FEED - PILHA 18",
-      "cliente": "DESCARGA MINÉRIO",
-      "produto": "Trindade",
-      "prog": 3,
-      "carr": 3,
-      "falta": 0,
-      "tn_prev": 112.71,
-      "tn_carr": 112.71,
-      "transportadoras": [
-        {
-          "nome": "EMPREENDIMENTOS RODEIRO S/A",
-          "cnpj": "26178616000140",
-          "prog": 3,
-          "carr": 3,
-          "falta": 0,
-          "tn_prev": 112.71,
-          "tn_carr": 112.71
-        }
-      ]
-    },
-    {
       "lote": "*ITAMBÉ - GESSO - MAGIC CELESTE - PILHA 19",
       "cliente": "*ITAMBÉ",
       "produto": "GESSO",
@@ -796,6 +796,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 96.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "METROPOLITANA - CARVAO PREMIUM- PILHA 91",
+      "cliente": "METROPOLITANA",
+      "produto": "CARVÃO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 93.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "PAGANI (SC)",
+          "cnpj": "26291836000186",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 93.0,
           "tn_carr": 0.0
         }
       ]
@@ -910,27 +931,6 @@
           "carr": 0,
           "falta": 1,
           "tn_prev": 38.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "METROPOLITANA - CARVAO PREMIUM- PILHA 91",
-      "cliente": "METROPOLITANA",
-      "produto": "CARVÃO",
-      "prog": 1,
-      "carr": 0,
-      "falta": 1,
-      "tn_prev": 31.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "PAGANI (SC)",
-          "cnpj": "26291836000186",
-          "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 31.0,
           "tn_carr": 0.0
         }
       ]
