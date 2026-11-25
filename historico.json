@@ -8505,27 +8505,27 @@
     }
   },
   "2026-11-25": {
-    "gerado_em": "2026-11-25T12:00:12",
-    "atualizado_em": "2026-11-25T15:05:26",
+    "gerado_em": "2026-11-25T13:00:11",
+    "atualizado_em": "2026-11-25T16:05:34",
     "totais": {
-      "prog": 121,
-      "carr": 39,
-      "falta": 82,
-      "tn_prev": 4492.13,
-      "tn_carr": 1536.97
+      "prog": 125,
+      "carr": 46,
+      "falta": 79,
+      "tn_prev": 4613.72,
+      "tn_carr": 1797.69
     },
     "por_cliente": {
       "ITAMBÉ": {
         "prog": 22,
-        "carr": 4,
-        "tn_prev": 823.79,
-        "tn_carr": 148.79
+        "carr": 5,
+        "tn_prev": 822.55,
+        "tn_carr": 181.55
       },
       "BRASKEM": {
         "prog": 20,
-        "carr": 7,
+        "carr": 12,
         "tn_prev": 721.0,
-        "tn_carr": 298.91
+        "tn_carr": 494.04
       },
       "CSN BARROSO": {
         "prog": 14,
@@ -8536,8 +8536,8 @@
       "SUPREMO": {
         "prog": 9,
         "carr": 4,
-        "tn_prev": 341.87,
-        "tn_carr": 153.87
+        "tn_prev": 301.42,
+        "tn_carr": 151.42
       },
       "BELOCAL SJLP": {
         "prog": 7,
@@ -8557,6 +8557,12 @@
         "tn_prev": 144.0,
         "tn_carr": 0.0
       },
+      "*DESCARGA": {
+        "prog": 3,
+        "carr": 0,
+        "tn_prev": 144.0,
+        "tn_carr": 0.0
+      },
       "RIO DESERTO": {
         "prog": 4,
         "carr": 2,
@@ -8568,6 +8574,12 @@
         "carr": 0,
         "tn_prev": 134.0,
         "tn_carr": 0.0
+      },
+      "NASSAU": {
+        "prog": 4,
+        "carr": 1,
+        "tn_prev": 130.27,
+        "tn_carr": 34.27
       },
       "CARBOBRAS": {
         "prog": 7,
@@ -8593,12 +8605,6 @@
         "tn_prev": 110.02,
         "tn_carr": 110.02
       },
-      "NASSAU": {
-        "prog": 3,
-        "carr": 1,
-        "tn_prev": 98.27,
-        "tn_carr": 34.27
-      },
       "PETRORECONCAVO": {
         "prog": 2,
         "carr": 0,
@@ -8617,29 +8623,23 @@
         "tn_prev": 73.0,
         "tn_carr": 0.0
       },
+      "COQUE METALURGICO": {
+        "prog": 2,
+        "carr": 2,
+        "tn_prev": 71.74,
+        "tn_carr": 71.74
+      },
       "CSN CANTAGALO": {
         "prog": 2,
         "carr": 1,
         "tn_prev": 70.69,
         "tn_carr": 37.69
       },
-      "*DESCARGA": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 48.0,
-        "tn_carr": 0.0
-      },
       "BELOCAL ARCOS": {
         "prog": 1,
         "carr": 0,
         "tn_prev": 38.0,
         "tn_carr": 0.0
-      },
-      "COQUE METALURGICO": {
-        "prog": 1,
-        "carr": 1,
-        "tn_prev": 36.46,
-        "tn_carr": 36.46
       },
       "METROPOLITANA": {
         "prog": 1,
@@ -8650,10 +8650,10 @@
     },
     "por_produto": {
       "COQUE": {
-        "prog": 32,
-        "carr": 8,
-        "tn_prev": 1213.66,
-        "tn_carr": 302.66
+        "prog": 34,
+        "carr": 9,
+        "tn_prev": 1267.97,
+        "tn_carr": 332.97
       },
       "PETCOKE": {
         "prog": 24,
@@ -8663,14 +8663,14 @@
       },
       "TÉRMICO": {
         "prog": 20,
-        "carr": 7,
+        "carr": 12,
         "tn_prev": 721.0,
-        "tn_carr": 298.91
+        "tn_carr": 494.04
       },
       "GESSO": {
-        "prog": 15,
+        "prog": 16,
         "carr": 6,
-        "tn_prev": 568.0,
+        "tn_prev": 600.0,
         "tn_carr": 224.0
       },
       "Sinter Feed": {
@@ -8710,10 +8710,10 @@
         "tn_carr": 0.0
       },
       "Csn V. Red": {
-        "prog": 1,
-        "carr": 1,
-        "tn_prev": 36.46,
-        "tn_carr": 36.46
+        "prog": 2,
+        "carr": 2,
+        "tn_prev": 71.74,
+        "tn_carr": 71.74
       }
     }
   }
