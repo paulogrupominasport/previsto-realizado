@@ -1,13 +1,13 @@
 {
   "data_relatorio": "26/11/2026",
-  "gerado_em": "2026-11-26T09:49:21",
-  "atualizado_em": "2026-11-26T12:50:24",
+  "gerado_em": "2026-11-26T10:00:07",
+  "atualizado_em": "2026-11-26T13:05:34",
   "totais": {
-    "prog": 94,
-    "carr": 15,
+    "prog": 95,
+    "carr": 16,
     "falta": 79,
-    "tn_prev": 3495.06,
-    "tn_carr": 577.73
+    "tn_prev": 3526.02,
+    "tn_carr": 611.69
   },
   "por_cliente": [
     {
@@ -20,19 +20,19 @@
     },
     {
       "cliente": "BRASKEM",
-      "prog": 10,
+      "prog": 11,
       "carr": 2,
-      "falta": 8,
-      "tn_prev": 428.0,
+      "falta": 9,
+      "tn_prev": 458.0,
       "tn_carr": 85.12
     },
     {
       "cliente": "CSN BARROSO",
       "prog": 9,
-      "carr": 0,
-      "falta": 9,
-      "tn_prev": 334.0,
-      "tn_carr": 0.0
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 334.96,
+      "tn_carr": 33.96
     },
     {
       "cliente": "SUPREMO",
@@ -167,17 +167,17 @@
     {
       "produto": "PETCOKE",
       "prog": 25,
-      "carr": 4,
-      "falta": 21,
-      "tn_prev": 959.76,
-      "tn_carr": 163.76
+      "carr": 5,
+      "falta": 20,
+      "tn_prev": 960.72,
+      "tn_carr": 197.72
     },
     {
       "produto": "TÉRMICO",
-      "prog": 10,
+      "prog": 11,
       "carr": 2,
-      "falta": 8,
-      "tn_prev": 428.0,
+      "falta": 9,
+      "tn_prev": 458.0,
       "tn_carr": 85.12
     },
     {
@@ -282,10 +282,10 @@
       "lote": "BRASKEM - TÉRMICO MV TI DAWN - PILHA 94",
       "cliente": "BRASKEM",
       "produto": "TÉRMICO",
-      "prog": 10,
+      "prog": 11,
       "carr": 2,
-      "falta": 8,
-      "tn_prev": 428.0,
+      "falta": 9,
+      "tn_prev": 458.0,
       "tn_carr": 85.12,
       "transportadoras": [
         {
@@ -300,10 +300,10 @@
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 30.0,
+          "falta": 2,
+          "tn_prev": 60.0,
           "tn_carr": 0.0
         },
         {
@@ -388,10 +388,10 @@
       "cliente": "CSN BARROSO",
       "produto": "PETCOKE",
       "prog": 8,
-      "carr": 0,
-      "falta": 8,
-      "tn_prev": 296.0,
-      "tn_carr": 0.0,
+      "carr": 1,
+      "falta": 7,
+      "tn_prev": 296.96,
+      "tn_carr": 33.96,
       "transportadoras": [
         {
           "nome": "RODOSAFRA (RJ)",
@@ -415,10 +415,10 @@
           "nome": "JOMAD (RJ)",
           "cnpj": "08869670000827",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 33.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 33.96,
+          "tn_carr": 33.96
         }
       ]
     },
