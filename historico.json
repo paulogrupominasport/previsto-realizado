@@ -8535,32 +8535,38 @@
     }
   },
   "2026-11-26": {
-    "gerado_em": "2026-11-26T09:00:15",
-    "atualizado_em": "2026-11-26T12:05:24",
+    "gerado_em": "2026-11-26T09:49:21",
+    "atualizado_em": "2026-11-26T12:50:24",
     "totais": {
-      "prog": 88,
-      "carr": 7,
-      "falta": 81,
-      "tn_prev": 3261.3,
-      "tn_carr": 265.18
+      "prog": 94,
+      "carr": 15,
+      "falta": 79,
+      "tn_prev": 3495.06,
+      "tn_carr": 577.73
     },
     "por_cliente": {
       "ITAMBÉ": {
-        "prog": 12,
+        "prog": 13,
         "carr": 5,
-        "tn_prev": 452.94,
+        "tn_prev": 490.94,
         "tn_carr": 195.94
       },
       "BRASKEM": {
         "prog": 10,
-        "carr": 0,
+        "carr": 2,
         "tn_prev": 428.0,
-        "tn_carr": 0.0
+        "tn_carr": 85.12
       },
       "CSN BARROSO": {
         "prog": 9,
         "carr": 0,
         "tn_prev": 334.0,
+        "tn_carr": 0.0
+      },
+      "SUPREMO": {
+        "prog": 8,
+        "carr": 0,
+        "tn_prev": 297.0,
         "tn_carr": 0.0
       },
       "TRINDADE MINERAÇÃO": {
@@ -8569,22 +8575,28 @@
         "tn_prev": 266.0,
         "tn_carr": 0.0
       },
-      "SUPREMO": {
-        "prog": 6,
-        "carr": 0,
-        "tn_prev": 224.0,
-        "tn_carr": 0.0
-      },
       "*DESCARGA": {
         "prog": 5,
         "carr": 0,
         "tn_prev": 209.0,
         "tn_carr": 0.0
       },
+      "BELOCAL SJLP": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 163.0,
+        "tn_carr": 0.0
+      },
       "DESCARGA MINÉRIO": {
         "prog": 4,
         "carr": 0,
         "tn_prev": 158.12,
+        "tn_carr": 0.0
+      },
+      "CSN P. LEOPOLDO": {
+        "prog": 4,
+        "carr": 0,
+        "tn_prev": 152.0,
         "tn_carr": 0.0
       },
       "BELOCAL MTZ": {
@@ -8605,29 +8617,23 @@
         "tn_prev": 126.0,
         "tn_carr": 0.0
       },
-      "BELOCAL SJLP": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 125.0,
-        "tn_carr": 0.0
-      },
       "METROPOLITANA": {
         "prog": 4,
-        "carr": 0,
+        "carr": 2,
         "tn_prev": 124.0,
-        "tn_carr": 0.0
+        "tn_carr": 63.67
+      },
+      "CSN CANTAGALO": {
+        "prog": 3,
+        "carr": 2,
+        "tn_prev": 103.62,
+        "tn_carr": 68.62
       },
       "NASSAU": {
         "prog": 3,
         "carr": 2,
         "tn_prev": 101.24,
         "tn_carr": 69.24
-      },
-      "CSN CANTAGALO": {
-        "prog": 3,
-        "carr": 0,
-        "tn_prev": 100.0,
-        "tn_carr": 0.0
       },
       "PETRORECONCAVO": {
         "prog": 2,
@@ -8637,53 +8643,47 @@
       },
       "CSN MOC": {
         "prog": 2,
-        "carr": 0,
-        "tn_prev": 96.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 95.14,
+        "tn_carr": 95.14
       },
       "*ITAMBÉ": {
         "prog": 2,
         "carr": 0,
         "tn_prev": 72.0,
         "tn_carr": 0.0
-      },
-      "RIO DESERTO": {
-        "prog": 2,
-        "carr": 0,
-        "tn_prev": 70.0,
-        "tn_carr": 0.0
       }
     },
     "por_produto": {
       "COQUE": {
-        "prog": 23,
+        "prog": 26,
         "carr": 5,
-        "tn_prev": 885.94,
+        "tn_prev": 996.94,
         "tn_carr": 195.94
       },
       "PETCOKE": {
-        "prog": 21,
-        "carr": 0,
-        "tn_prev": 805.0,
-        "tn_carr": 0.0
+        "prog": 25,
+        "carr": 4,
+        "tn_prev": 959.76,
+        "tn_carr": 163.76
       },
       "TÉRMICO": {
         "prog": 10,
-        "carr": 0,
+        "carr": 2,
         "tn_prev": 428.0,
-        "tn_carr": 0.0
-      },
-      "CARVÃO": {
-        "prog": 8,
-        "carr": 0,
-        "tn_prev": 281.0,
-        "tn_carr": 0.0
+        "tn_carr": 85.12
       },
       "Sinter Feed": {
         "prog": 7,
         "carr": 0,
         "tn_prev": 266.0,
         "tn_carr": 0.0
+      },
+      "CARVÃO": {
+        "prog": 7,
+        "carr": 2,
+        "tn_prev": 249.0,
+        "tn_carr": 63.67
       },
       "GESSO": {
         "prog": 6,
