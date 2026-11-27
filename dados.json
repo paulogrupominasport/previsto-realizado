@@ -1,12 +1,12 @@
 {
   "data_relatorio": "27/11/2026",
-  "gerado_em": "2026-11-27T07:00:18",
-  "atualizado_em": "2026-11-27T10:05:23",
+  "gerado_em": "2026-11-27T08:00:15",
+  "atualizado_em": "2026-11-27T11:05:23",
   "totais": {
-    "prog": 51,
+    "prog": 56,
     "carr": 0,
-    "falta": 51,
-    "tn_prev": 2050.3,
+    "falta": 56,
+    "tn_prev": 2222.3,
     "tn_carr": 0.0
   },
   "por_cliente": [
@@ -43,6 +43,14 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CSN ARCOS",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 172.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "CSN CANTAGALO",
       "prog": 5,
       "carr": 0,
@@ -59,27 +67,19 @@
       "tn_carr": 0.0
     },
     {
+      "cliente": "CSN P. LEOPOLDO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 149.0,
+      "tn_carr": 0.0
+    },
+    {
       "cliente": "BELOCAL MTZ",
       "prog": 3,
       "carr": 0,
       "falta": 3,
       "tn_prev": 143.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN ARCOS",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 134.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "CSN P. LEOPOLDO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 111.0,
       "tn_carr": 0.0
     },
     {
@@ -97,15 +97,23 @@
       "falta": 2,
       "tn_prev": 98.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "NASSAU",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "PETCOKE",
-      "prog": 25,
+      "prog": 26,
       "carr": 0,
-      "falta": 25,
-      "tn_prev": 1017.0,
+      "falta": 26,
+      "tn_prev": 1055.0,
       "tn_carr": 0.0
     },
     {
@@ -118,10 +126,10 @@
     },
     {
       "produto": "GESSO",
-      "prog": 8,
+      "prog": 12,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 319.0,
+      "falta": 12,
+      "tn_prev": 453.0,
       "tn_carr": 0.0
     },
     {
@@ -236,6 +244,27 @@
       ]
     },
     {
+      "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
+      "cliente": "CSN ARCOS",
+      "produto": "GESSO",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 172.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "AR MACEDO (RJ)",
+          "cnpj": "08443139000383",
+          "prog": 4,
+          "carr": 0,
+          "falta": 4,
+          "tn_prev": 172.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN CANTAGALO",
       "produto": "PETCOKE",
@@ -287,6 +316,36 @@
       ]
     },
     {
+      "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN P. LEOPOLDO",
+      "produto": "PETCOKE",
+      "prog": 4,
+      "carr": 0,
+      "falta": 4,
+      "tn_prev": 149.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RODEIRO (RJ)",
+          "cnpj": "26178616000302",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 111.0,
+          "tn_carr": 0.0
+        },
+        {
+          "nome": "MRX TRANSP. (RJ)",
+          "cnpj": "26586645000222",
+          "prog": 1,
+          "carr": 0,
+          "falta": 1,
+          "tn_prev": 38.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
       "lote": "BELOCAL MTZ - PETCOKE - SILHOUETTE ISLAND ATE - PILHA 59",
       "cliente": "BELOCAL MTZ",
       "produto": "PETCOKE",
@@ -303,48 +362,6 @@
           "carr": 0,
           "falta": 3,
           "tn_prev": 143.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
-      "cliente": "CSN ARCOS",
-      "produto": "GESSO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 134.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "AR MACEDO (RJ)",
-          "cnpj": "08443139000383",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 134.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
-      "lote": "CSN P. LEOPOLDO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN P. LEOPOLDO",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 111.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "RODEIRO (RJ)",
-          "cnpj": "26178616000302",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 111.0,
           "tn_carr": 0.0
         }
       ]
@@ -387,6 +404,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 98.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "NASSAU - GESSO - LAWIN ARROW - PILHA 53",
+      "cliente": "NASSAU",
+      "produto": "GESSO",
+      "prog": 3,
+      "carr": 0,
+      "falta": 3,
+      "tn_prev": 96.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "RANGEL (RJ)",
+          "cnpj": "47836361000136",
+          "prog": 3,
+          "carr": 0,
+          "falta": 3,
+          "tn_prev": 96.0,
           "tn_carr": 0.0
         }
       ]
