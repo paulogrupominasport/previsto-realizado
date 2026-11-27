@@ -8517,20 +8517,26 @@
     }
   },
   "2026-11-27": {
-    "gerado_em": "2026-11-27T09:00:17",
-    "atualizado_em": "2026-11-27T12:05:26",
+    "gerado_em": "2026-11-27T10:00:27",
+    "atualizado_em": "2026-11-27T13:05:23",
     "totais": {
-      "prog": 65,
-      "carr": 5,
-      "falta": 60,
-      "tn_prev": 2564.46,
-      "tn_carr": 203.16
+      "prog": 79,
+      "carr": 11,
+      "falta": 68,
+      "tn_prev": 3125.9,
+      "tn_carr": 455.52
     },
     "por_cliente": {
       "DESCARGA MINÉRIO": {
         "prog": 12,
+        "carr": 2,
+        "tn_prev": 464.44,
+        "tn_carr": 79.71
+      },
+      "CSN MOC": {
+        "prog": 8,
         "carr": 0,
-        "tn_prev": 464.3,
+        "tn_prev": 381.0,
         "tn_carr": 0.0
       },
       "CSN BARROSO": {
@@ -8539,16 +8545,22 @@
         "tn_prev": 367.0,
         "tn_carr": 0.0
       },
-      "BELOCAL SJLP": {
-        "prog": 6,
+      "CSN P. LEOPOLDO": {
+        "prog": 9,
         "carr": 0,
-        "tn_prev": 268.0,
+        "tn_prev": 338.0,
         "tn_carr": 0.0
       },
-      "CSN MOC": {
-        "prog": 4,
+      "BELOCAL SJLP": {
+        "prog": 6,
+        "carr": 1,
+        "tn_prev": 266.12,
+        "tn_carr": 46.12
+      },
+      "TRINDADE MINERAÇÃO": {
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 192.0,
+        "tn_prev": 222.0,
         "tn_carr": 0.0
       },
       "SUPREMO": {
@@ -8559,9 +8571,9 @@
       },
       "BELOCAL MTZ": {
         "prog": 4,
-        "carr": 0,
-        "tn_prev": 178.0,
-        "tn_carr": 0.0
+        "carr": 2,
+        "tn_prev": 176.18,
+        "tn_carr": 93.18
       },
       "CSN ARCOS": {
         "prog": 4,
@@ -8581,12 +8593,6 @@
         "tn_prev": 149.0,
         "tn_carr": 0.0
       },
-      "TRINDADE MINERAÇÃO": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 146.0,
-        "tn_carr": 0.0
-      },
       "NASSAU": {
         "prog": 3,
         "carr": 1,
@@ -8599,25 +8605,19 @@
         "tn_prev": 98.0,
         "tn_carr": 0.0
       },
-      "CSN P. LEOPOLDO": {
-        "prog": 1,
-        "carr": 0,
-        "tn_prev": 38.0,
-        "tn_carr": 0.0
-      },
       "METROPOLITANA": {
         "prog": 1,
-        "carr": 0,
+        "carr": 1,
         "tn_prev": 31.0,
-        "tn_carr": 0.0
+        "tn_carr": 33.35
       }
     },
     "por_produto": {
       "PETCOKE": {
-        "prog": 26,
-        "carr": 2,
-        "tn_prev": 1064.01,
-        "tn_carr": 69.01
+        "prog": 38,
+        "carr": 5,
+        "tn_prev": 1549.31,
+        "tn_carr": 208.31
       },
       "GESSO": {
         "prog": 14,
@@ -8627,20 +8627,20 @@
       },
       "Trindade": {
         "prog": 12,
+        "carr": 2,
+        "tn_prev": 464.44,
+        "tn_carr": 79.71
+      },
+      "Sinter Feed": {
+        "prog": 6,
         "carr": 0,
-        "tn_prev": 464.3,
+        "tn_prev": 222.0,
         "tn_carr": 0.0
       },
       "COQUE": {
         "prog": 5,
         "carr": 0,
         "tn_prev": 190.0,
-        "tn_carr": 0.0
-      },
-      "Sinter Feed": {
-        "prog": 4,
-        "carr": 0,
-        "tn_prev": 146.0,
         "tn_carr": 0.0
       },
       "PETRÓLEO": {
@@ -8651,9 +8651,9 @@
       },
       "CARVÃO": {
         "prog": 2,
-        "carr": 0,
+        "carr": 1,
         "tn_prev": 69.0,
-        "tn_carr": 0.0
+        "tn_carr": 33.35
       }
     }
   }
