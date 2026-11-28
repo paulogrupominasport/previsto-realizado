@@ -1,30 +1,38 @@
 {
   "data_relatorio": "28/11/2026",
-  "gerado_em": "2026-11-28T08:00:16",
-  "atualizado_em": "2026-11-28T11:05:38",
+  "gerado_em": "2026-11-28T09:00:15",
+  "atualizado_em": "2026-11-28T12:10:25",
   "totais": {
-    "prog": 66,
-    "carr": 1,
-    "falta": 65,
-    "tn_prev": 2632.66,
-    "tn_carr": 39.28
+    "prog": 71,
+    "carr": 7,
+    "falta": 64,
+    "tn_prev": 2858.76,
+    "tn_carr": 268.38
   },
   "por_cliente": [
     {
       "cliente": "ITAMBÉ",
-      "prog": 15,
-      "carr": 1,
-      "falta": 14,
-      "tn_prev": 565.28,
-      "tn_carr": 39.28
+      "prog": 16,
+      "carr": 6,
+      "falta": 10,
+      "tn_prev": 604.56,
+      "tn_carr": 232.56
     },
     {
       "cliente": "CSN MOC",
-      "prog": 8,
+      "prog": 11,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 360.0,
+      "falta": 11,
+      "tn_prev": 504.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "SUPREMO",
+      "prog": 9,
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 336.82,
+      "tn_carr": 35.82
     },
     {
       "cliente": "CSN BARROSO",
@@ -32,14 +40,6 @@
       "carr": 0,
       "falta": 7,
       "tn_prev": 282.0,
-      "tn_carr": 0.0
-    },
-    {
-      "cliente": "SUPREMO",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 262.0,
       "tn_carr": 0.0
     },
     {
@@ -83,14 +83,6 @@
       "tn_carr": 0.0
     },
     {
-      "cliente": "CSN CANTAGALO",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 97.0,
-      "tn_carr": 0.0
-    },
-    {
       "cliente": "CSN ARCOS",
       "prog": 2,
       "carr": 0,
@@ -113,23 +105,31 @@
       "falta": 2,
       "tn_prev": 76.0,
       "tn_carr": 0.0
+    },
+    {
+      "cliente": "CSN CANTAGALO",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 65.0,
+      "tn_carr": 0.0
     }
   ],
   "por_produto": [
     {
       "produto": "COQUE",
-      "prog": 22,
-      "carr": 1,
-      "falta": 21,
-      "tn_prev": 827.28,
-      "tn_carr": 39.28
+      "prog": 25,
+      "carr": 7,
+      "falta": 18,
+      "tn_prev": 941.38,
+      "tn_carr": 268.38
     },
     {
       "produto": "PETCOKE",
-      "prog": 19,
+      "prog": 21,
       "carr": 0,
-      "falta": 19,
-      "tn_prev": 778.0,
+      "falta": 21,
+      "tn_prev": 890.0,
       "tn_carr": 0.0
     },
     {
@@ -186,47 +186,47 @@
       "lote": "ITAMBÉ - COQUE VERDE -MV CONCARAN - PILHA 22",
       "cliente": "ITAMBÉ",
       "produto": "COQUE",
-      "prog": 15,
-      "carr": 1,
-      "falta": 14,
-      "tn_prev": 565.28,
-      "tn_carr": 39.28,
+      "prog": 16,
+      "carr": 6,
+      "falta": 10,
+      "tn_prev": 604.56,
+      "tn_carr": 232.56,
       "transportadoras": [
         {
           "nome": "TRANSP. TELLES (SC)",
           "cnpj": "78266228000115",
           "prog": 5,
-          "carr": 1,
-          "falta": 4,
-          "tn_prev": 187.28,
-          "tn_carr": 39.28
+          "carr": 2,
+          "falta": 3,
+          "tn_prev": 186.86,
+          "tn_carr": 76.86
         },
         {
           "nome": "TRANSP. BONTORIN (SC)",
           "cnpj": "81429755000299",
           "prog": 1,
-          "carr": 0,
-          "falta": 1,
-          "tn_prev": 38.0,
-          "tn_carr": 0.0
+          "carr": 1,
+          "falta": 0,
+          "tn_prev": 38.53,
+          "tn_carr": 38.53
         },
         {
           "nome": "ICOOLTRAN (SC)",
           "cnpj": "23839841000192",
-          "prog": 1,
+          "prog": 2,
           "carr": 0,
-          "falta": 1,
-          "tn_prev": 36.0,
+          "falta": 2,
+          "tn_prev": 72.0,
           "tn_carr": 0.0
         },
         {
           "nome": "H.R. TRANSP. (SC)",
           "cnpj": "79838694000190",
           "prog": 8,
-          "carr": 0,
-          "falta": 8,
-          "tn_prev": 304.0,
-          "tn_carr": 0.0
+          "carr": 3,
+          "falta": 5,
+          "tn_prev": 307.17,
+          "tn_carr": 117.17
         }
       ]
     },
@@ -234,10 +234,10 @@
       "lote": "CSN MOC - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
       "cliente": "CSN MOC",
       "produto": "PETCOKE",
-      "prog": 8,
+      "prog": 11,
       "carr": 0,
-      "falta": 8,
-      "tn_prev": 360.0,
+      "falta": 11,
+      "tn_prev": 504.0,
       "tn_carr": 0.0,
       "transportadoras": [
         {
@@ -252,10 +252,10 @@
         {
           "nome": "RODEIRO (RJ)",
           "cnpj": "26178616000302",
-          "prog": 6,
+          "prog": 9,
           "carr": 0,
-          "falta": 6,
-          "tn_prev": 288.0,
+          "falta": 9,
+          "tn_prev": 432.0,
           "tn_carr": 0.0
         }
       ]
@@ -264,11 +264,11 @@
       "lote": "SUPREMO - COQUE VERDE -MV CONCARAN- PILHA 22",
       "cliente": "SUPREMO",
       "produto": "COQUE",
-      "prog": 7,
-      "carr": 0,
-      "falta": 7,
-      "tn_prev": 262.0,
-      "tn_carr": 0.0,
+      "prog": 9,
+      "carr": 1,
+      "falta": 8,
+      "tn_prev": 336.82,
+      "tn_carr": 35.82,
       "transportadoras": [
         {
           "nome": "PARAISO TRANSP. DE FERTILIZANTES",
@@ -283,9 +283,18 @@
           "nome": "PAGANI (SC)",
           "cnpj": "26291836000186",
           "prog": 4,
+          "carr": 1,
+          "falta": 3,
+          "tn_prev": 146.82,
+          "tn_carr": 35.82
+        },
+        {
+          "nome": "ICOOLTRAN (SC)",
+          "cnpj": "23839841000192",
+          "prog": 2,
           "carr": 0,
-          "falta": 4,
-          "tn_prev": 148.0,
+          "falta": 2,
+          "tn_prev": 76.0,
           "tn_carr": 0.0
         },
         {
@@ -435,27 +444,6 @@
       ]
     },
     {
-      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
-      "cliente": "CSN CANTAGALO",
-      "produto": "PETCOKE",
-      "prog": 3,
-      "carr": 0,
-      "falta": 3,
-      "tn_prev": 97.0,
-      "tn_carr": 0.0,
-      "transportadoras": [
-        {
-          "nome": "EXP. ROTA LIVRE (RJ)",
-          "cnpj": "26240904000269",
-          "prog": 3,
-          "carr": 0,
-          "falta": 3,
-          "tn_prev": 97.0,
-          "tn_carr": 0.0
-        }
-      ]
-    },
-    {
       "lote": "CSN ARCOS - GESSO - LAWIN ARROW - PILHA 53- PEDIDO NOVEMBRO",
       "cliente": "CSN ARCOS",
       "produto": "GESSO",
@@ -514,6 +502,27 @@
           "carr": 0,
           "falta": 2,
           "tn_prev": 76.0,
+          "tn_carr": 0.0
+        }
+      ]
+    },
+    {
+      "lote": "CSN CANTAGALO - PETCOKE - MINAS PORT - MV SILHOUETTE - PILHA 59",
+      "cliente": "CSN CANTAGALO",
+      "produto": "PETCOKE",
+      "prog": 2,
+      "carr": 0,
+      "falta": 2,
+      "tn_prev": 65.0,
+      "tn_carr": 0.0,
+      "transportadoras": [
+        {
+          "nome": "EXP. ROTA LIVRE (RJ)",
+          "cnpj": "26240904000269",
+          "prog": 2,
+          "carr": 0,
+          "falta": 2,
+          "tn_prev": 65.0,
           "tn_carr": 0.0
         }
       ]
